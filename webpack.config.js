@@ -1,34 +1,66 @@
-const path = require('path');
+var path              = require('path');
+var HtmlwebpackPlugin = require('html-webpack-plugin');
+var webpack           = require('webpack');
+var merge             = require('webpack-merge');
 
-module.exports = {
-  context: __dirname + "/app",
+var TARGET    = process.env.npm_lifecycle_event;
+var ROOT_PATH = path.resolve(__dirname);
 
-  entry: {
-    javascript: "./js/app.js",
-    html: "./index.html",
-  },
-
-  output: {
-    filename: "app.js",
-    path: __dirname + "/dist",
-  },
-
+var common = {
+  entry: path.resolve(ROOT_PATH, 'src/client'),
   resolve: {
-    extensions: ['', '.js', '.jsx', '.json'],
-    root: path.resolve(__dirname, './app/js'),
+    extensions: ['', '.js', '.jsx']
   },
-
+  output: {
+    path: path.resolve(ROOT_PATH, 'build'),
+    filename: 'bundle.js'
+  },
   module: {
     loaders: [
       {
-        test: /\.jsx?$/,
-        exclude: /node_modules/,
-        loaders: ["react-hot", "babel-loader"],
+        test: /\.css$/,
+        loaders: ['style', 'css'],
+        include: path.resolve(ROOT_PATH, 'src')
       },
       {
-        test: /\.html$/,
-        loader: "file?name=[name].[ext]",
-      },
-    ],
+        test: /\.json$/,
+        loaders: ['json'],
+        include: path.resolve(ROOT_PATH, 'src')
+      }
+    ]
   },
+  plugins: [
+    new HtmlwebpackPlugin({
+      title: 'Brainiac'
+    })
+  ]
+};
+
+if (TARGET === 'start' || !TARGET) {
+  module.exports = merge(common, {
+    devtool: 'eval-source-map',
+    module: {
+      loaders: [
+        {
+          test: /\.jsx?$/,
+          include: path.resolve(ROOT_PATH, 'src'),
+          loaders: [
+            'react-hot',
+            'babel?presets[]=react,presets[]=es2015'
+         ]
+        }
+      ]
+    },
+    devServer: {
+      historyApiFallback: true,
+      hot: true,
+      inline: true,
+      progress: true,
+      port: 8080
+    },
+    plugins: [
+      new webpack.HotModuleReplacementPlugin()
+    ]
+  })
 }
+
