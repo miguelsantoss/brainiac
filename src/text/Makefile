@@ -2,12 +2,12 @@ APPNAME=tfidf
 CC=gcc
 CXX=g++
 RM=rm -f
-CPPFLAGS=-g -Wall -static-libstdc++ 
-LDFLAGS=-g -Wall -static-libstdc++ -lpthread -lpodofo -lfreetype -lfontconfig -ljpeg -lz
+CPPFLAGS=-g -Wall -pthread -std=c++0x
+LDFLAGS=-g -Wall -pthread -std=c++0x
 LDLIBS=
 
-SRCS=main.cpp
-OBJS=$(subst .cpp,.o,$(SRCS))
+SRCS=main.cc tfidf.cc
+OBJS=$(subst .cc,.o,$(SRCS))
 
 all: main
 
