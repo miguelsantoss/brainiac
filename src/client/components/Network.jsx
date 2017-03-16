@@ -1,14 +1,20 @@
+// Import React stuff
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import Draggable from 'react-draggable';
+import Resizable from 'react-resizable';
+
+// Import d3 stuff
 import * as d3 from 'd3-force';
 import { scaleOrdinal, schemeCategory20 } from 'd3-scale';
 import * as d3_sel from 'd3-selection';
 import { drag } from 'd3-drag';
-import './App.css';
 
-var grammy = require('../grammy.json');
-var doc_sim = require('../cosine.json');
-var doc_sim_sample = require('../cosine-sample.json');
+// import css
+import './App.css';
+import './Network.css';
+
+const doc_sim= require('../cosine-sample.json');
 
 export default class Network extends Component {
   constructor(props) {
@@ -23,8 +29,8 @@ export default class Network extends Component {
   }
 
   componentDidMount() {
-    fetch(doc_sim_sample).then((response) => {
-      return doc_sim_sample;
+    fetch(doc_sim).then((response) => {
+      return doc_sim;
     }).then((data) => {
       this.setState({
         initialData: data,
@@ -38,17 +44,22 @@ export default class Network extends Component {
   }
 
   initializeD3() {
-    const width = 1000;
-    const height = 600;
-    const color = scaleOrdinal(schemeCategory20);
+    const width = 500;
+    const height = 300;
 
-    var svg = d3_sel.select(this.refs.mountPoint)
+    const aspect = width / height;
+
+    const color = scaleOrdinal(schemeCategory20);
+    
+    console.log(d3_sel.select(this.refs.mountPoint));
+
+    const svg = d3_sel.select(this.refs.mountPoint)
       .append('svg')
       .attr('width', width)
       .attr('height', height)
       .attr('id', 'initialD3Element');
       
-    var link = svg.append('g')
+    const link = svg.append('g')
       .attr('class', 'links')
       .selectAll('line')
       .data(this.state.links)
@@ -56,7 +67,7 @@ export default class Network extends Component {
       .append('line')
       .attr('stroke-width', 1.5);
 
-    var node = svg.append('g')
+    const node = svg.append('g')
       .attr('class', 'nodes')
       .selectAll('circle')
       .data(this.state.nodes)
@@ -88,8 +99,8 @@ export default class Network extends Component {
     node.append('title')
       .text((d) => d.author);
 
-    var simulation = d3.forceSimulation()
-      .force('link', d3.forceLink(link).id((d) => { console.log(d); return d.name; }))
+    const simulation = d3.forceSimulation()
+      .force('link', d3.forceLink(link).id((d) => d.index).distance((d) => (1-d.value)*300))
       .force('charge', d3.forceManyBody())
       .force('center', d3.forceCenter(width / 2, height / 2));
 
@@ -113,9 +124,23 @@ export default class Network extends Component {
 
   render() {
     return (
-      <div className="Network">
-         <div id="mountDiv" ref="mountPoint" />
-      </div>
+      <Draggable
+        axis="both"
+        handle=".handle"
+        defaultPosition={{x: 50, y: 50}}
+        position={null}
+        grid={[1, 1]}
+        zIndex={100}
+        onStart={this.handleStart}
+        onDrag={this.handleDrag}
+        onStop={this.handleStop}>
+        <div className="drag-wrapper">
+          <div className="handle box">Network</div>
+          <div className="Network">
+            <div className="content" id="mountDiv" ref="mountPoint"></div>
+          </div>
+        </div>
+      </Draggable>
     );
   }
-}
+};

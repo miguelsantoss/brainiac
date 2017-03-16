@@ -1,3 +1,7 @@
+#  
+#  Convert pdf files in the path variable to plain text files, in the same path
+#  
+
 import os
 from tika import parser
 from textract import process

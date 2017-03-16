@@ -1,3 +1,14 @@
+#  
+#  Use the nltk package to tokenize and lemmatize the text files
+#  in the folder provided by the path variable
+#
+#  Use the scikit package to perform TFidf on the result, and
+#  get the cosine similarity table for the document list
+#
+#  Export the cosine similarity to a json object file to be read
+#  by the d3 visualization
+#  
+
 import nltk
 import string
 import os
