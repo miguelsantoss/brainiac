@@ -1,0 +1,420 @@
+Short Communication
+Establishing Magnetic Resonance Images Orientation for the
+EADC-ADNI Manual Hippocampal Segmentation Protocol
+Marina Boccardi, MS, PhD, Martina Bocchetta, MS, Liana G. Apostolova, MD, MSCR, Gregory Preboske, MS, Nicolas
+Robitaille, MS, PhD, Patrizio Pasqualetti, MS, PhD, Louis D. Collins, MS, PhD, Simon Duchesne, MS, PhD, Clifford R.
+Jack Jr, MD, Giovanni B. Frisoni, MD, for the EADC-ADNI Working Group on The Harmonized Protocol for
+Hippocampal Volumetry,* for the Alzheimer’s Disease Neuroimaging Initiative**
+From the LENITEM (Laboratory of Epidemiology, Neuroimaging and Telemedicine) IRCCS – S. Giovanni di Dio – Fatebenefratelli Brescia, Italy (MB, MBocch, GBF); Mary S.
+Easton Center for Alzheimer’s Disease Research and Laboratory of NeuroImaging, David Geffen School of Medicine, University of California, Los Angeles, California (LGA);
+Department of Diagnostic Radiology, Mayo Clinic and Foundation, Rochester, Minnesota (GP, CRJ); Department of Radiology, Université Laval and Centre de Recherche de
+l’Institut Universitaire en Santé Mentale de Québec, Quebec City, Canada (NR, SD); AFaR – Associazione Fatebenefratelli per la Ricerca, Rome, Italy; Clinical and Molecular
+Epidemiology, Istituto di Ricovero e Cura a Carattere Scientifico (IRCCS) San Raffaele Pisana, Rome, Italy; McConnell Brain Imaging Center, Montreal Neurological Institute,
+McGill University, Montreal, Canada (LDC).
+
+ABSTRACT
+BACKGROUND AND PURPOSE
+
+An effort to define and validate a Harmonized Protocol for standard hippocampal segmentation is being carried out. We wished
+to estimate the effect of magnetic resonance image (MRI) spatial orientation on manual hippocampal segmentations to define
+optimal standard orientation of MRIs for hippocampal volumetry.
+METHODS
+
+Three expert tracers segmented twice the hippocampi of 10 ADNI subjects on MRI slices oriented perpendicular to the anteriorposterior commissure (AC-PC) line and the long hippocampal axes plane, following internationally harmonized landmarks. We
+computed intra and interrater reliability figures for total volumes and similarity coefficients.
+RESULTS
+
+Total volume reliability was similar for both orientations. Similarity coefficients were significantly higher for the AC-PC orientation
+(exact P = 0.002).
+DISCUSSION
+
+These data show that AC-PC orientation is slightly more reliable for manual segmentations, possibly due to better visualization
+of the cerebrospinal fluid spaces separating hippocampal head and amygdala. A Delphi panel of experts has used these data to
+decide on the optimal orientation for a Harmonized Protocol for hippocampal segmentation.
+Keywords: Hippocampus, manual segmentation, magnetic resonance imaging, harmonized protocol, standard operating procedures.
+Acceptance: Received April 11, 2013, and in revised form June 7, 2013. Accepted for publication June 30, 2013.
+Correspondence: Address correspondence to Giovanni B. Frisoni, LENITEM (Laboratory of Epidemiology, Neuroimaging and Telemedicine) IRCCS –
+S. Giovanni di Dio – Fatebenefratelli Brescia, Italy. E-mail: gfrisoni@fatebenefratelli.it.
+∗
+
+Please see Supporting Material at http://www.centroalzheimer.it/public/MB/SOPs/PaperCheck4Axes/03_Supplementary.doc for a complete list of Harmonized Protocol Group investigators.
+Data used in preparation of this article were obtained from the Alzheimer’s Disease Neuroimaging Initiative (ADNI) database (www.loni.ucla.edu/ADNI).
+As such, the investigators within the ADNI contributed to the design and implementation of ADNI and/or provided data but did not participate in
+analysis or writing of this report. A complete listing of ADNI investigators can be found at: http://adni.loni.ucla.edu/wp-content/uploads/how_to_apply/
+ADNI_Acknowledgement_List.pdf.
+This manuscript was approved by the ADNI Data and Publication Commettee on December 19, 2012.
+∗∗
+
+J Neuroimaging 2014;24:509-514.
+DOI: 10.1111/jon.12065
+
+Introduction
+Manual segmentation is the gold standard for segmenting
+the hippocampus on magnetic resonance images (MRI), typically in the coronal view, using either an acquisition resliced
+perpendicularly to the long axes of the hippocampus, or to
+
+Copyright
+
+the line connecting the anterior and posterior commissures
+(AC-PC line).1, 2 Orientation along the hippocampal axes was
+long preferred by segmenting neuroanatomists3–9 since it was
+believed to provide better clear-cut boundaries due to less partial volume effect through the hippocampal body. More recent
+
+◦ 2013 by the American Society of Neuroimaging
+C
+
+509
+
+protocols, however, made an increased use of AC-PC oriented
+images,10–14 in order to take advantage of automated software
+for image preprocessing, able to reorient the images perpendicular to the AC-PC line. The disadvantage of greater partial
+volume effect is in this case counterbalanced by the minimal
+human effort required in the automated preprocessing phase.1, 2
+In the context of the Harmonized Protocol Project, which
+aims to establish an international protocol for manual segmentation of the hippocampus, our objective was to assess differences
+in measurement reliability for manual segmentations along either the AC-PC or hippocampal axes, in order to allow a Delphi
+panel of experts to take evidence-based decisions for the definition of the optimal MRI orientation.
+
+Methods
+We recruited three expert tracers based on both expertise and
+balanced bias for a specific orientation (LA with greater practice
+on AC-PC; GP on hippocampal axes; and MBocch with similar
+practice in both orientations). MRI were taken from the dataset
+ADNI (Alzheimer’s Disease Neuroimaging Initiative), a project
+launched in 2003 by the National Institute on Aging (NIA),
+the National Institute of Biomedical Imaging and Bioengineering (NIBIB), the Food and Drug Administration (FDA), private
+pharmaceutical companies and non-profit organizations, with
+the primary goal to test whether serial MRI, positron emission tomography (PET), other biological markers, and clinical
+and neuropsychological assessment can be combined to measure the progression of mild cognitive impairment (MCI) and
+early Alzheimer’s disease (AD) (see also the Acknowledgements
+section).
+MRIs were selected semi-randomly for 10 subjects from the
+ADNI dataset (adni.loni.ucla.edu) as follows: two subjects per
+each of five degrees on Scheltens’ medial temporal lobe atrophy
+scale.15 The tracers segmented all hippocampi twice, once on
+images oriented along the AC-PC line, once on images oriented
+along the hippocampal axes.
+
+Preprocessing
+We downloaded source images in the MINC format from the
+ADNI database. We oriented MRIs along the AC-PC and the
+hippocampal axes planes on the sagittal plane, through a rigid
+body transformation (six degrees of freedom). We used ImageJ
+(http://rsbweb.nih.gov/ij/index.html) to orient images along
+hippocampal axes (mean inclination among right and left hippocampi), and the Montreal Neurological Institute package AutoReg (version 0.98v) (www.bic.mni.mcgill.ca) to orient images
+along the AC-PC line, with the Institute’s ICBM152 nonlinear
+symmetric template as reference.
+Resampling was carried out with a linear transformation in
+AutoReg, and with a bilinear transformation with ImageJ.
+
+Hippocampal Segmentation
+Tracers were blinded to MTA score. Images oriented along
+AC-PC and hippocampal axes were presented in random order.
+Segmentations were carried out from rostral to caudal
+on the coronal resampled 1 mm thick images using MultiTracer (http://www.loni.ucla.edu/Software/MultiTracer), fol-
+
+510
+
+lowing the Harmonized Protocol landmarks described in
+Ref. 16.
+We computed hippocampal volumes using MultiTracer by
+summing up the sub-volumes resulting from the multiplication
+of the segmented area by slice thickness using the “Frust Volume” computation.
+
+Statistics
+We estimated volume intrarater reliability by computing intraclass correlation coefficients (ICCs) between segmentations on
+the AC-PC and on hippocampal axes, and computing interrater reliability separately for AC-PC and hippocampal axesoriented images. We computed these interrater ICCs according
+to a two-ways random effects model, with both images and tracers as random factors. Since the aim was to measure how far
+from identical scores were raters and methods (orientation),
+the most restrictive type (absolute agreement) of ICC was used
+instead of simple consistency. The statistical analysis was conducted using SPSS 12.0.
+We computed the spatial overlapping among three tracers
+with the formula:
+Similarity Coefficient =
+
+3(A ∩ B ∩ C)
+(|A| + |B| + |C|)
+
+where |A| is the set of voxels of the segmented region A. This
+formula was adapted from Dice’s similarity coefficient.17
+We computed differences among overlapping coefficients
+on both axes with the Wilcoxon non-parametric test for repeated measures separately for the left and right hippocampi.
+We used non parametric statistics (χ 2 and Kruskall-Wallis) for
+the analysis of socio-demographic features of the ADNI subjects
+whose MRI was selected for this study.
+
+Results
+Scans were taken from subjects with homogeneous age (range:
+69-85), gender, diagnoses, education, ApoE ε4 status, and
+scanner manufacturer, across the different medial temporal
+lobe atrophy degrees of severity (see Supporting Material,
+Table S1).
+Intrarater ICCs for the three tracers, computed between the
+AC-PC and the hippocampal axes segmentations of the same
+subjects, were .99 (CI 95%: .96-1, CI 95%), .98 (.94-1) and .95
+(.83-.99) for the left, and .99 (.97-1), .99 (.96-1) and .97 (.88.99) for the right hippocampus. Interrater ICCs were higher
+(and the confidence intervals narrower) for AC-PC (left: .94,
+.79-.98 CI 95%; right: .94, .81-.99) than on hippocampal axes
+oriented scans (left: .87, .41-.97, right: .91, .53-.98) (see crude
+hippocampal volumes on Supporting Material, Table S2).
+Similarity coefficients among three tracers were consistently .78 (SD: .03) for both left and right on AC-PC
+oriented scans, and .76 (SD: .03) and .75 (SD: .02) respectively for left and right on hippocampal axes oriented scans
+(Figure 1, box plots on the left). The difference between similarity coefficients were always in favour of AC-PC oriented
+scans (Figure 1, right panel) (Wilcoxon test exact P = .002
+for the left and right). Similarity coefficients among the three
+tracers for each hippocampus on the two orientations can be
+
+Journal of Neuroimaging Vol 24 No 5 September/October 2014
+
+found in Table S3 (Supporting material,/centroalzheimer.it/
+public/MB/SOPs/PaperCheck4Axes/03 Supplementary.doc).
+Top and middle panels: Box-plots of similarity coefficients.
+Upper and lower box boundaries: 25th and 75th percentiles of
+the distribution. Red line: median. Red star: mean. Whiskers:
+most extreme data points.
+Bottom panel: Difference of similarity coefficient (AC-PC
+minus hippocampal-axes). Values above the red line indicate
+higher concordance on AC-PC oriented images. X axis values
+denote scan number.
+
+Discussion
+Hippocampal segmentations based on harmonized landmarks,
+carried out by three expert tracers from independent centres on
+AC-PC and hippocampal axes oriented scans, were all characterized by very high volume ICCs, but we detected significantly
+higher spatial overlap for segmentations completed on the
+AC-PC oriented scans.
+We examined individually hippocampal contours produced
+by the three tracers in order to detect possible causes that could
+account for this difference. The largest differences among tracers, occurring especially on the hippocampal axes orientation,
+could be attributed to the segmentation of the head, at the level
+of the boundary with the amygdala. The comparison through
+3D navigation of the boundary area between the hippocampus and the amygdala on scans oriented on the AC-PC and on
+hippocampal axes enables an appreciation of more informative
+details on the former, consisting in better visualization of cerebrospinal fluid (CSF) spaces, more clearly separating the two
+structures than in the visualization on the hippocampal axes
+(Figure 2).
+Minor regions of heterogeneity between tracers were identified on the tail end. These were equally observed on the AC-PC
+and on the hippocampal axes oriented images (see as examples
+Figure S1 in Supporting material at /centroalzheimer.it/
+public/MB/SOPs/PaperCheck4Axes/03 Supplementary.doc),
+and the movies (see captions in Supporting material) available
+at:
+http://www.centroalzheimer.it/public/MB/SOPs/
+PaperCheck4Axes/Subject_09_worseAxis_Right.mov
+http://www.centroalzheimer.it/public/MB/SOPs/
+PaperCheck4Axes/Subject_09_worseACPC_Left.mov
+http://www.centroalzheimer.it/public/MB/SOPs/
+PaperCheck4Axes/Subject_04_bestAxis_Left.mov
+http://www.centroalzheimer.it/public/MB/SOPs/
+PaperCheck4Axes/Subject_03_bestACPC_Right.mov).
+
+Fig 1. Similarity coefficients denoting spatial overlapping of segmentations on the AC-PC- and hippocampal axes-oriented images.
+Segmentations were carried out on the right and left hippocampi
+on 10 ADNI scans by three expert tracers. Higher absolute values
+indicate higher concordance on the referred orientation.
+
+Although the AC-PC orientation seemed to provide more
+detailed information for correct and reliable separation of the
+hippocampus from adjacent structures, and particularly from
+the amygdala from our image analysis, we cannot exclude that
+the wider practice in examining brain structures on the standard
+AC-PC oriented images of the brain, as they are reported on any
+atlas, may also have influenced the tracers’ performance. This is
+in turn consistent with the convenience of setting standard operating procedures to facilitate reliability of measurements and
+of being consistent with other available standard procedures.
+
+Boccardi et al: Effect of MRI Orientation on Hippocampal Segmentation
+
+511
+
+Fig 2. Illustration of the better visualization of the hippocampal-amygdala boundary on AC-PC oriented (upper line) than on hippocampal
+axes (bottom line) oriented scans. The CSF separating the hippocampal head from the amygdala can be better visualized on the axial plane
+on images oriented along the AC-PC plane (upper row) than on images oriented along the hippocampal axes (lower row). The red arrows in
+the magnified axial view illustrate the level of the boundary between the hippocampus and the amygdala. Only the AC-PC-oriented axial view
+allows to discriminate the anterior digitations of the hippocampus, at its boundary with the amygdala.
+
+Volumetric ICCs were very high, although tracers came
+from different centers. We believe that this reliability may
+be a consequence of the extremely detailed description of
+landmarks provided within the Harmonized Protocol
+project16, 18, 19 (www.hippocampal-protocol.net).
+We did not compute proper intrarater values separately for
+the AC-PC and the hippocampal axes orientations, but only
+a proxy, by considering segmentations carried out on the two
+orientations of the same images. Although separate intraraters
+for the two orientations would have been preferable, it is possible that a ceiling effect of these very experienced tracers would
+have hidden a difference due to orientation, while interrater values are more liable to the effect of confounders like orientation.
+This is especially plausible considering that we used the “absolute” method for ICCs computations, which is more restrictive
+than the most common “consistency” method.
+We are not aware of previous studies trying to quantify the
+differences of reliability in hippocampal segmentation on images oriented along different axes. The need to carry out this
+kind of investigation arose from the need to define a Harmonized Protocol for hippocampal segmentation, to set a standardized operating procedure in the use of hippocampal volumetry
+as a biomarker for AD.20
+As the next step of this project, the quantitative data described here were used to inform the Delphi panel of experts16
+to decide on the optimal orientation of MRIs for a Harmonized Protocol for hippocampal segmentation. Indeed, based
+on the described data the Delphi panel achieved a significant
+agreement for the AC-PC orientation. This decision, that will
+be described in detail elsewhere, is also nicely consistent with
+the current standard orientation of the brain in different settings, from neuropathology to atlas representations. Moreover,
+the sources of heterogeneity in segmentations observed in this
+
+512
+
+phase have been used to further improve landmarks descriptions and instructions that were defined in the Harmonized
+Protocol.
+All updates of the project can be found at
+www.hippocampal-protocol.net.
+
+Wyeth, part of the Pfizer group, and Lilly have provided unrestricted
+grants in support of the work reported in this paper. The Alzheimer’s
+Association has provided logistic support for the update meetings of
+the project in Toronto (April, 2010), Honolulu (July, 2010 and April,
+2011), Paris (July, 2011), New Orleans (April, 2012) and Vancouver
+(July, 2012). A follow-up project has been funded by the Alzheimer’s
+Association: “A Harmonized Protocol for Hippocampal Volumetry: an
+EADC-ADNI Effort,” grant no. IIRG -10-174022.
+NR and SD have received funding support from the Ministère du
+Développement Économique, de l’Innovation et de l’Exportation du
+Québec and the Alzheimer’s Society of Canada.
+EADC-ADNI centres and PIs taking part to the project are
+listed in Supporting Material (/centroalzheimer.it/public/MB/SOPs/
+PaperCheck4Axes/03 Supplementary.doc), and reported on the official project web-site (http://www.hippocampal-protocol.net/SOPs/
+workinggroup.html).
+Data used in the preparation of this article were obtained from
+the Alzheimer’s Disease Neuroimaging Initiative (ADNI) database
+(adni.loni.ucla.edu). Data used in the preparation of this article were obtained from the Alzheimer’s Disease Neuroimaging Initiative (ADNI)
+database (adni.loni.ucla.edu). The ADNI was launched in 2003 by the
+National Institute on Aging (NIA), the National Institute of Biomedical
+Imaging and Bioengineering (NIBIB), the Food and Drug Administration (FDA), private pharmaceutical companies and non-profit organizations, as a $60 million, 5-year public-private partnership. The primary
+goal of ADNI has been to test whether serial magnetic resonance imaging (MRI), positron emission tomography (PET), other biological markers, and clinical and neuropsychological assessment can be combined
+to measure the progression of mild cognitive impairment (MCI) and
+
+Journal of Neuroimaging Vol 24 No 5 September/October 2014
+
+early Alzheimer’s disease (AD). Determination of sensitive and specific
+markers of very early AD progression is intended to aid researchers
+and clinicians to develop new treatments and monitor their effectiveness, as well as lessen the time and cost of clinical trials. The Principal
+Investigator of this initiative is Michael W. Weiner, MD, VA Medical
+Center and University of California-—San Francisco. ADNI is the result
+of efforts of many co-investigators from a broad range of academic institutions and private corporations, and subjects have been recruited from
+over 50 sites across the U.S. and Canada. The initial goal of ADNI was
+to recruit 800 subjects but ADNI has been followed by ADNI-GO and
+ADNI-2. To date these three protocols have recruited over 1500 adults,
+ages 55 to 90, to participate in the research, consisting of cognitively
+normal older individuals, people with early or late MCI, and people
+with early AD. The follow up duration of each group is specified in
+the protocols for ADNI-1, ADNI-2 and ADNI-GO. Subjects originally
+recruited for ADNI-1 and ADNI-GO had the option to be followed in
+ADNI-2. For up-to-date information, see www.adni-info.org.
+Data collection and sharing for this project was funded by ADNI
+(National Institutes of Health Grant U01 AG024904). ADNI is funded
+by the National Institute on Aging, the National Institute of Biomedical
+Imaging and Bioengineering, and through generous contributions from
+the following: Abbott; Alzheimer’s Association; Alzheimer’s Drug Discovery Foundation; Amorfix Life Sciences Ltd.; AstraZeneca; Bayer
+HealthCare; BioClinica, Inc.; Biogen Idec Inc.; Bristol-Myers Squibb
+Company; Eisai Inc.; Elan Pharmaceuticals Inc.; Eli Lilly and Company; F. Hoffmann-La Roche Ltd and its affiliated company Genentech, Inc.; GE Healthcare; Innogenetics, N.V.; IXICO Ltd.; Janssen
+Alzheimer Immunotherapy Research & Development, LLC.; Johnson
+& Johnson Pharmaceutical Research & Development LLC.; Medpace,
+Inc.; Merck & Co., Inc.; Meso Scale Diagnostics, LLC.; Novartis Pharmaceuticals Corporation; Pfizer Inc.; Servier; Synarc Inc.; and Takeda
+Pharmaceutical Company. The Canadian Institutes of Health Research
+is providing funds to support ADNI clinical sites in Canada. Private Rev
+November 7, 2012 sector contributions are facilitated by the Foundation for the National Institutes of Health (www.fnih.org). The grantee
+organization is the Northern California Institute for Research and Education, and the study is coordinated by the Alzheimer’s Disease Cooperative Study at the University of California, San Diego. ADNI data are
+disseminated by the Laboratory for Neuro Imaging at the University
+of California, Los Angeles. This research was also supported by NIH
+grants P30 AG010129 and K01 AG030514.
+
+Appendix
+Collaborators: John G. Csernansky, Mony J. de Leon, Leyla
+deToledo-Morrell, Ronald J. Killiany, Stéphane Lehéricy,
+Nikolai Malykhin, Johannes Pantel, Jens C. Pruessner, Hilkka
+Soininen, Craig Watson.
+Appendix collaborator affiliations: Department of Psychiatry and Behavioral Sciences, Northwestern University Feinberg
+School of Medicine, Chicago, Illinois (JGC); New York University School of Medicine, Center for Brain Health, New York,
+NY (MJdL); Department of Neurological Sciences, Rush University, Chicago, Illinois (LdTM); Department of Anatomy and
+Neurobiology, Boston University School of Medicine, (RJK);
+Center for NeuroImaging Research – CENIR and Department
+of Neuroradiology, Université Pierre et Marie Curie- Paris 6,
+Groupe Hospitalier Pitié-Salpétriére, Paris, France (SL); Department of Biomedical Engineering, Centre for Neuroscience,
+University of Alberta, Edmonton, Alberta, Canada (NM); Institute of General Practice, University of, University of Frankfurt/Main, Germany, (JP); McGill Centre for Studies in Aging,
+
+Department of Psychiatry, McGill University, Montreal, Quebec, Canada (JCP); Department of Neurology, University of
+Eastern Finland and Kuopio University Hospital, Kuopio, Finland (HS); Wayne State University School of Medicine, University Health Center, St. Antoine, Detroit, MI (CW).
+
+References
+1. Geuze E, Vermetten E, Bremner JD. MR-based in vivo hippocampal volumetrics. 1: review of methodologies currently employed.
+Mol Psychiatry 2005;10:147-159.
+2. Boccardi M, Ganzola R, Bocchetta M, et al. Survey of protocols for
+the manual segmentation of the hippocampus: preparatory steps
+towards a Joint EADC-ADNI Harmonized Protocol. J Alzheimer’s
+Dis 2011;26:61-75.
+3. Bartzokis G, Altshuler LL, Greider T, et al. Reliability of medial
+temporal lobe volume measurements using reformatted 3D images.
+Psychiatr Res 1998;82:11-24.
+4. Convit A, De Leon MJ, Tarshish C, et al. Specific hippocampal
+volume reductions in individuals at risk for Alzheimer’s disease.
+Neurobiol Aging 1997;18:131-138.
+5. deToledo-Morrell L, Stoub TR, Bulgakova M, et al. MRI-derived
+entorhinal volume is a good predictor of conversion from MCI to
+AD. Neurobiol Aging 2004;25:1197-1203.
+6. Jack CR Jr. MRI-based hippocampal volume measurements in
+epilepsy. Epilepsia 1994;35 Suppl 6:S21-S29.
+7. Lehericy S, Baulac M, Chiras J, et al. Amygdalohippocampal MR
+volume measurements in the early stages of Alzheimer disease.
+AJNR Am J Neuroradiol 1994;15:929-937.
+8. Soininen HS, Partanen K, Pitkanen A, et al. Volumetric MRI analysis of the amygdala and the hippocampus in subjects with ageassociated memory impairment: correlation to visual and verbal
+memory. Neurology 1994;44:1660-1668.
+9. Watson C, Jack CR Jr, Cendes F. Volumetric magnetic resonance
+imaging. Clinical applications and contributions to the understanding of temporal lobe epilepsy. Arch Neurol 1997;54:1521-1531.
+10. Malykhin NV, Bouchard TP, Ogilvie CJ, et al. Three-dimensional
+volumetric analysis and reconstruction of amygdala and hippocampal head, body and tail. Psychiatr Res 2007;155:155-165.
+11. Haller JW, Banerjee A, Christensen GE, et al. Three-dimensional
+hippocampal MR morphometry with high-dimensional transformation of a neuroanatomic atlas. Radiology 1997;202:504-510.
+12. Pantel J, O’Leary DS, Cretsinger K, et al. A new method for the
+in vivo volumetric measurement of the human hippocampus with
+high neuroanatomical accuracy. Hippocampus 2000;10:752-758.
+13. Pruessner JC, Li LM, Serles W, et al. Volumetry of hippocampus
+and amygdala with high-resolution MRI and three-dimensional
+analysis software: minimizing the discrepancies between laboratories. Cereb Cortex 2000;10:433-442.
+14. Killiany RJ, Moss MB, Albert MS, et al. Temporal lobe regions on magnetic resonance imaging identify patients with early
+Alzheimer’s disease. Arch Neurol 1993;50:949-954.
+15. Scheltens P, Leys D, Barkhof F, et al. Atrophy of medial temporal lobes on MRI in “probable” Alzheimer’s disease and normal
+ageing: diagnostic value and neuropsychological correlates. J Neurol
+Neurosurg Psychiatr 1992;55:967-972.
+16. Boccardi M, Bocchetta M, Apostolova L, et al. Delphi consensus
+on landmarks for the manual segmentation of the hippocampus on
+MRI: preliminary results from the eadc-adni harmonized protocol
+working group. Neurology 2012;78:S04.003.
+17. Robitaille N, Duchesne S. Label fusion strategy selection. Int J
+Biomed Imaging 2012;43:1095.
+18. Boccardi M, Bocchetta M, Ganzola R, et al. Operationalizing protocol differences for EADC-ADNI manual hippocampal segmentation. Alzheimers Dement 2013 doi:pii: S1552–5260(13)00078–2.
+10.1016/j.jalz.2013.03.001; PMID: 23706515.
+
+Boccardi et al: Effect of MRI Orientation on Hippocampal Segmentation
+
+513
+
+19. Boccardi M, Bocchetta M, Ganzola R, et al. Operationalization of differences among protocols for manual hippocampal segmentation: quantitative data for eadc-adni consensual decisions on a harmonized protocol. Neurology 2011;76:
+A661.
+20. Frisoni GB, Jack CR. Harmonization of magnetic resonancebased manual hippocampal segmentation: a mandatory
+step for wide clinical use. Alzheimers Dement 2011;7:171174.
+
+Supporting Information
+Additional Supporting Information may be found in the online
+version of this article at the publisher’s website:
+
+514
+
+Table S1 – Socio-demographic features of the 10 ADNI
+whose scans were used in the current study.
+Table S2 – Crude hippocampal volumes of 10 ADNI subjects obtained through manual segmentation on MRIs oriented
+along the AC-PC line and long hippocampal axis.
+Table S3 – Similarity coefficients for each hippocampus
+segmented on the AC-PC-oriented and long hippocampal axesoriented planes.
+Fig S1. Spatial overlapping among the three tracers in the
+case with the most favourable similarity coefficient (0.813; subject 3, right hippocampus, segmented on the AC-PC-oriented
+MRI).
+
+Journal of Neuroimaging Vol 24 No 5 September/October 2014
+
+

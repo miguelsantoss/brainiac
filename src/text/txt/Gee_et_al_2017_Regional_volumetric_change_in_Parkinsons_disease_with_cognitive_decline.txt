@@ -1,0 +1,564 @@
+Journal of the Neurological Sciences 373 (2017) 88–94
+
+Contents lists available at ScienceDirect
+
+Journal of the Neurological Sciences
+journal homepage: www.elsevier.com/locate/jns
+
+Regional volumetric change in Parkinson's disease with cognitive decline
+Myrlene Gee a, Juergen Dukart b,c, Bogdan Draganski c, WR Wayne Martin d,
+Derek Emery a,e, Richard Camicioli d,⁎
+a
+
+Department of Biomedical Engineering, University of Alberta, Edmonton, Alberta, Canada
+F. Hoffmann-LaRoche, Roche Innovation Centre, Basel, Switzerland
+Laboratoire de Recherche en Neuroimagerie (LREN), Departement des Neurosciences Cliniques, Centre Hopitalier Universitaire Vaudois (CHUV), Universite de Lausanne, 1011 Lausanne,
+Switzerland
+d
+Department of Medicine (Neurology), University of Alberta, Edmonton, Alberta, Canada
+e
+Department of Diagnostic Imaging, University of Alberta, Edmonton, Alberta, Canada
+b
+c
+
+a r t i c l e
+
+i n f o
+
+Article history:
+Received 15 July 2016
+Received in revised form 8 November 2016
+Accepted 16 December 2016
+Available online 18 December 2016
+Keywords:
+Magnetic resonance imaging
+Statistical parametric mapping
+Parkinson's disease
+Cognitive decline
+Dementia
+
+a b s t r a c t
+Background: Parkinson's disease (PD), characterized by motor dysfunction and cognitive decline, may demonstrate speciﬁc patterns of brain atrophy. Although cross-sectional magnetic resonance imaging (MRI) studies
+show correlation between regional brain volume loss and cognitive impairment, there is only scarce evidence
+from longitudinal studies validating the link between cognition and brain anatomy in PD.
+Objective: To test the relationship between magnitude and spatial extent of atrophy in PD patients with progressive, signiﬁcant cognitive decline and dementia (PDD).
+Methods: We followed thirty-three initially non-demented patients with prevalent PD for three years while monitoring cognitive function and brain atrophy. Longitudinally acquired T1-weighted magnetic resonance images
+were analyzed in the voxel-based morphometry framework of SPM.
+Results: Groups did not differ signiﬁcantly with respect to age or gender. More males developed PDD (7 males, 3
+females) compared to those remaining intact (12 males, 11 females). Clusters of lower grey matter volume were
+found in PDD compared to PD in left uncus at baseline and an expanded region that included the left hippocampus and parahippocampal gyrus at 36 months. The cognitive status by scan interaction showed differential
+changes between groups in the right insula. At a more liberal statistical threshold we observed changes in the
+right insula and bilateral hippocampi as well as the right cuneus additional to the lower brain stem.
+Conclusions: Region speciﬁc atrophy, consistent with the pattern of cortical Lewy body deposition seen in autopsy
+studies, can be detected with MRI in PD patients with signiﬁcant cognitive decline. MRI may be useful for tracking
+cognitive decline in PD.
+© 2016 Published by Elsevier B.V.
+
+1. Introduction
+Parkinson's disease (PD) is the most common neurodegenerative
+movement disorder, and is characterized by loss of dopaminergic
+nigrostriatal projections; however, over time more generalized pathology leads to widespread neurodegeneration [1], which leads to signiﬁcant loss of motor response to dopamine replacement, cognitive
+decline and dementia [2,3,4]. The latter are the major determinants on
+nursing home placement and increased mortality [5,6]. The neurologic
+bases for these changes are not fully understood. Imaging biomarkers
+might assist in tracking pathological changes, in predication of dementia
+and in development of treatments. Magnetic resonance imaging may be
+one such approach that is readily available [7,8].
+⁎ Corresponding author at: Department of Medicine (Neurology), University of Alberta,
+7-112 Clinical Sciences Building, 11350 – 83rd Avenue, Edmonton, Alberta T6G 2G3,
+Canada.
+E-mail address: rcamicio@ualberta.ca (R. Camicioli).
+
+http://dx.doi.org/10.1016/j.jns.2016.12.030
+0022-510X/© 2016 Published by Elsevier B.V.
+
+Patients with PD with dementia (PDD) have progressive atrophy on
+MRI [9,10] that likely begins with mild cognitive impairment, which occurs in at least 24% of patients [11] prior to signiﬁcant cognitive decline.
+Recent studies show that longitudinal cortical grey matter changes
+occur in incident/early Parkinson's disease cases [12,13,14,15,16].
+These ﬁndings are consistent with prior studies that suggest that subtle
+changes occur prior to overt cognitive decline [17,18] and can be detected in prevalent cases [19]. Grey matter atrophy rates may depend on
+duration of disease [20] and can complement other biomarkers of
+change [21].
+We have shown that whole brain atrophy and ventricular enlargement occur in older patients with PD developing incident dementia or
+signiﬁcant cognitive decline [22] and might be accelerated in patients
+with hyper-homocysteinemia [23]. In the current study we analyze
+this same cohort for regional changes in brain atrophy using state-ofthe-art optimized voxel-based morphometry to test for more focal
+changes driving the previously observed whole-brain atrophy and ventricular dilations. We hypothesized that atrophy is localized in a pattern
+
+M. Gee et al. / Journal of the Neurological Sciences 373 (2017) 88–94
+
+consistent with reported pathological Lewy body changes in the anterior cingulate, insula and medial temporal lobes [24].
+2. Methods
+Subject selection and follow up has been described in detail previously [22]. In brief, 33 subjects with PD, meeting criteria consistent
+with UK brain bank criteria according to a movement disorders specialist [25] achieving 36-month follow up are included here. All subjects
+were assessed at 0, 18 and 36 months.
+Baseline age, sex, education and other demographic features were
+measured. As previously described, at baseline and every 18 months
+Mini-Mental Status Examination (MMSE), Frontal Assessment Battery
+(FAB), Dementia Rating Scale (DRS-II), the 15-item Geriatric Depression
+scale (GDS) were scored [22]. The short Blessed-Orientation-Concentration Test, FAB and a general and neurological examination (including
+rating the Uniﬁed Parkinson's Disease Rating Scale (UPDRS), Part III)
+were performed by a neurologist (RC) who recorded co-morbid medical
+conditions (Cumulative Illness Rating Scale (CIRS)) [22]. Levodopa
+equivalent doses were calculated as previously described. Assessments
+of PD patients were performed in the ON state.
+2.1. Dementia classiﬁcation
+Patients were classiﬁed as previously described [22]. Subject and
+caregiver-derived Clinical Dementia Ratings scores (CDR, and CCDR)
+were obtained as previously described [26]. Dementia was deﬁned as
+cognitive impairment in two domains with functional impairment due
+to cognitive decline based on all available information, independent of
+neuro-imaging. Memory impairment was not necessary (i.e., modiﬁed
+from DSM-IV which was available at the time of study inception) [27].
+Participants with signiﬁcant cognitive or functional decline (on the
+MMSE, DRS or CDR or CCDR) were considered impaired (PDD). Subjects
+with questionable changes in cognitive function, or without functional
+impairment, were grouped with non-impaired subjects (PDND).
+2.2. MR imaging
+Images were acquired on a Siemens Sonata 1.5T system between December 2004 and August 2009. T1-weighted images were obtained
+using a 3-D magnetization prepared rapid acquisition gradient echo sequence (MPRAGE) (TR = 1800 ms, TE = 3.2 ms, TI = 1100 ms, 1 average, ﬂip angle = 15°, ﬁeld of view (FOV) = 256 mm, image matrix =
+256 × 256, 128 slices, 1.5 mm slices) with image slices oriented perpendicular to the AC-PC line. Native spatial resolution was 1 × 1 × 1.5 mm
+which was zero-ﬁlled to 0.5 × 0.5 × 1.5 mm. Standard axial FLAIR images (TR = 8000 ms, TE = 99 ms, 2 averages, FOV = 220 mm, 25 slices,
+5 mm slice thickness) oriented to the inferior margin of the corpus
+callosum were used to examine white matter changes and exclude
+pathological lesions as previously described [22].
+2.3. Intracranial volumes
+Intracranial volumes (ICV) were measured from the T1-weighted images using the program DISPLAY (Montreal Neurological Institute, Quebec,
+Canada (http://www.bic.mni.mcgill.ca/ServicesSoftwareVisualization/
+HomePage) as previously described [22]. The intracranial volumes were
+used to correct the grey and white matter volumes for individual
+differences.
+
+89
+
+2.5. Voxel-based morphometry
+Image processing was done using the VBM8 (r435) toolbox (http://
+dbm.neuro.uni-jena.de/vbm/) for longitudinal data in SPM8 running in
+Matlab 7.8.0. In VBM8 toolbox, the 18 month and 36 month volumes
+were initially realigned to the baseline volume, then a mean image
+was created and the three volumes realigned again to the mean
+image. All three volumes were then bias corrected and segmented
+into GM, WM and CSF. Spatial normalization parameters were obtained
+from the baseline image using the DARTEL (Diffeomorphic Anatomical
+Registration using Exponentiated Lie algebra) [28] toolbox and applied
+to all three volumes. The standard template images provided by the
+VBM8 toolbox, based on the MNI152 average brain, were used for spatial normalization. The VBM8 toolbox for longitudinal image processing
+produces unmodulated tissue segment volumes, hence changes observed represent tissue concentration and not tissue volumes [29,30].
+An 8 mm Gaussian smoothing kernel was applied prior to statistical
+analysis. SPM8 was used for both cross-sectional and longitudinal comparisons. The comparisons between PDND and PDD groups at baseline
+and 36 months, were modeled using two between group factors, dementia status and gender. To examine changes with respect to time, a
+ﬂexible factorial model was used, with dementia status and gender as
+between subject factors and scan time (baseline, 18 month, and
+36 month) as a within subject factor. The interaction between dementia
+classiﬁcation and scan time was examined, to see if and where the two
+groups changed differently over time. Baseline age and intracranial volume (ICV) were also included in all models. For cluster-level inference
+[31,32], a cluster-deﬁning threshold of uncorrected p b 0.001 was
+used, with the non-stationarity adjustment [33], which accounts for differences in smoothness in the images. The threshold cluster size that
+corresponded to FWE cluster level corrected p-value b 0.05 was then
+used to ﬁlter the results. Only signiﬁcant clusters are displayed in the
+ﬁgures. Additionally, to test for more focal but stronger effects a voxelwise family wise error [34] (FWE) corrected p-value b 0.05 was applied.
+3. Results
+There were no signiﬁcant baseline demographic or clinical differences at baseline between those who became cognitively impaired
+and those who remained intact as shown in Table 1. The 36-month
+data have been reported previously [22].
+3.1. Voxel-based morphometry
+Contrasting dementia groups at baseline yielded no between-group
+voxel-based differences at a peak FWE-corrected signiﬁcance of
+p b 0.05. Examining clusters, we found a signiﬁcant cluster of decreased
+grey matter density in the left uncus (Brodmann area 38) (Fig. 1 and
+Table 2). At 36 months, a much larger cluster that also included the
+left hippocampus and parahippocampal gyrus was evident (Fig. 2 and
+Table 2).
+Examining the dementia by time interaction, a signiﬁcant cluster of
+accelerated atrophy in PDD compared to PDND was found on the right
+insula with a peak FWE p-corrected threshold of p b 0.05 (Fig. 3). The
+maximum t-statistic is located at (33, −21, 19) mm in Talairach space
+with a cluster extent of 133 voxels. Using a cluster level threshold at
+FWE p-corrected b0.05, signiﬁcant clusters were identiﬁed in the right
+insula, and right and left hippocampus as well as low in the brain
+stem, indicating accelerated atrophy in these areas for PDD patients
+(Table 3 and Fig. 4).
+.
+
+2.4. Statistical analysis of baseline characteristics
+
+4. Discussion
+
+Groups were compared using Chi-square or ANOVA as appropriate
+using SPSS 20 (Armonk, NY). Statistical thresholds were set at p b 0.05.
+
+Here we show that there are clear differences in brain volume and
+the rate of atrophy progression between PD patients showing
+
+90
+
+M. Gee et al. / Journal of the Neurological Sciences 373 (2017) 88–94
+
+Table 1
+Baseline characteristics of patients overall and divided by ﬁnal dementia status in subjects with complete follow up (±SD).a
+
+Number of subjects
+Males/females
+Age (years)
+Education (years)
+Disease duration (years)
+UPDRS III
+MMSE
+CIRS
+NART
+GDS
+L-Dopa
+a
+b
+
+total Equivalents (mg)
+
+PD
+
+PDND
+
+PDD
+
+p-Value
+(PDND vs. PDD)
+
+33
+19/14
+70.1 ± 3.3
+14.3 ± 3.1
+8.4 ± 4.3
+15.0 ± 7.0
+28.4 ± 1.7
+18.6 ± 2.7
+106 ± 8
+1.33 ± 1.63
+632 ± 335
+
+23
+12/11
+69.4 ± 3.3
+14.7 ± 3.6
+7.7 ± 4.3
+15.3 ± 6.3
+28.9 ± 1.2
+18.8 ± 2.9
+106 ± 8
+1.35 ± 1.64
+587 ± 341
+
+10
+7/3
+71.6 ± 2.7
+13.2 ± 1.5
+9.8 ± 4.2
+14.4 ± 8.7
+27.3 ± 2.2
+18.2 ± 2.4
+105 ± 5
+1.30 ± 1.70
+736 ± 315
+
+Not sig.
+0.09
+0.09b
+0.2
+0.8
+0.05b
+0.6
+0.6
+0.9
+0.2
+
+PD = subjects with Parkinson's disease, PDND = subjects with Parkinson's disease without dementia, PDD = subjects with Parkinson's disease and dementia.
+Fail Levene's test for equality of variances, p-values are for t-test with equal variances not assumed.
+
+Fig. 1. Signiﬁcant cluster (cluster threshold at FWE p-corrected b 0.05) of atrophy at baseline in PDD compared to PDND. The glass brain depiction from SPM is shown in (a). The cluster is
+overlaid on the mean GM volume in (b). Transverse, sagittal and coronal slices at x = −21, y = 0, and z = 34 mm are shown.
+
+signiﬁcant cognitive decline compared to those remaining cognitively
+stable. Our previous study showed that simple to obtain global measures can be used to reliably track decline [22]. Here we demonstrate
+that the focal nature of these changes is consistent with regions that
+have been shown to be affected at autopsy and correlate with cognitive
+status [24]. The summation of these changes likely leads to global
+change as reﬂected in ventricular dilatation.
+Among the earlier longitudinal studies one showed an increased rate
+of atrophy in PDD with no difference in the rate of atrophy between cognitively intact PD patients and controls [9] contrasting with another
+study that found atrophy in both PD and PDD using VBM [10]. PD patients with hallucinations, who are at risk for dementia, have been
+shown to have focal atrophy [35]. Longitudinal volumetric scans with
+patients grouped according to smell abnormalities (another potential
+risk factor for dementia) rather than cognitive decline [36] showed
+that group with normal olfaction, showed progressive changes in the
+right amygdala and bilateral temporal lobes. Recent studies suggest
+that progressive cortical thinning is likely accelerated in patients with
+mild cognitive impairment, [37] and may be associated with incident
+MCI [13]. In addition to areas we show to be involved, progressive
+changes can be seen in more widespread cortical areas including the
+temporal, parietal and frontal lobes and deep structures such as the
+thalamus and basal ganglia [38]. Differences between studies are likely
+based on imaging methods and characteristic of the subjects. Our
+
+study highlights the utility of brain MRI to track cognitive decline in a
+typical treated patient population in agreement with Melzer et al. [19].
+A weakness of our study includes its relatively small sample size with
+only 10 incident signiﬁcant cognitive decline/dementia subjects. On the
+other hand a strength is the systematic longitudinal follow up. We did
+not use currently proposed PD dementia criteria, which are still being validated [39] since they were not available at the time of study inception,
+rather we used modiﬁed DSM-IV criteria (not requiring memory impairment). Our grouping is likely clinically meaningful, however, given the
+fact that cognitive decline correlated strongly with atrophy in our previous study [22] and that functional decline related to cognitive impairment
+was evident in our subjects. It should be acknowledged that the pathological contributions to cognitive decline in Parkinson's disease may be
+Table 2
+Signiﬁcant clusters of GM atrophy in PDD compared to PDND at baseline and 36 months.
+Cluster size
+(num. voxels)
+Baseline
+557
+36 months
+2915
+
+FWE-corrected Talairach
+cluster p-value coordinates (mm)
+0.01
+0.001
+
+x
+y
+−23 0
+
+Location
+
+z
+−32 Left uncus, BA 38
+
+−33 −18 −13 Left hippocampus
+−20 4
+−25 Left uncus, BA 28
+−30 −50 0
+Left parahippocampal gyrus,
+BA 19
+
+M. Gee et al. / Journal of the Neurological Sciences 373 (2017) 88–94
+
+91
+
+Fig. 2. Signiﬁcant cluster of atrophy (cluster threshold at FWE p-corrected b 0.05) of atrophy at 36 months in PDD compared to PDND. The glass brain representation is shown in (a). The
+cluster is overlaid on the mean GM volume in (b), with orthogonal views at x = −33, y = −15, and z = −18 mm. The same cluster is shown on a series of axial slices in (c).
+
+Fig. 3. Signiﬁcant cluster of accelerated atrophy (peak-level FWE p-corrected b 0.05) in PDD compared to PDND. The glass brain representation is shown in (a). The cluster is overlaid on the
+mean GM volume in (b), with orthogonal views obtained at x = 33, y = −31, and z = 18 mm.
+
+92
+
+M. Gee et al. / Journal of the Neurological Sciences 373 (2017) 88–94
+
+Table 3
+Signiﬁcant clusters of accelerated GM atrophy in PDD compared to PDND.
+cluster size (num. Voxels)
+1852
+2807
+1379
+1113
+
+FWE-corrected cluster p-value
+b0.001
+0.001
+0.005
+0.03
+
+Talairach Coordinates (mm)
+x
+
+y
+
+z
+
+32
+5
+14
+−33
+
+−29
+−35
+−89
+−27
+
+19
+−43
+24
+−5
+
+mixed; while we eliminated patients with obvious cerebrovascular
+disease, Alzheimer pathology (plaques, tangles) likely contribute to cognitive decline and brain atrophy [40]. In addition, give imbalances (statistically insigniﬁcant) in duration of disease and sex distribution, ideally we
+
+Location
+Right insula, BA13 (cluster also includes the right hippocampus)
+Brain stem
+Right cuneus BA19
+Left caudate tail (cluster also included the left hippocampus)
+
+would include more subjects to allow better matching and include more
+patients with dementia. It should also be acknowledged that at baseline
+we excluded patients with dementia and hence our study, which is clinic
+based, is likely a selected group.
+
+Fig. 4. Signiﬁcant clusters of accelerated atrophy (cluster threshold at FWE p-corrected b 0.05) in PDD compared to PDND. The glass brain depiction is shown in (a). The clusters are
+overlaid on the mean GM volume in (b), with orthogonal views obtained at x = −31, y = −22, and z = −17 mm. The clusters are also depicted on a series of axial slices in (c).
+
+M. Gee et al. / Journal of the Neurological Sciences 373 (2017) 88–94
+
+The use of cluster level inference limits the ability to be precise about
+the affected regions in the brain [32]. In our case, for example, we were
+able to specify a particular region in the right insula where GM atrophy
+is accelerated in PDD compared to PDND using peak level inference.
+When we used cluster level inference, a larger cluster in the right
+insula as well as clusters in the hippocampi and brain stem are revealed; however we cannot specify where within these structures
+these changes are occurring. We identiﬁed a cluster [41] in the
+brainstem that showed atrophy consistent with a previous study, potentially consistent with pathological progression as hypothesized
+by Braak et al. [1].
+Our study examined subjects who are at high risk for dementia,
+by virtue of age and examined incident signiﬁcant cognitive decline
+and dementia. This suggests that MRI imaging can be used to track
+the onset of meaningful decline. There is some evidence that atrophy
+may be reversible with interventions such as mindfulness therapy
+[42], suggesting that MRI may be useful as a biomarker in intervention studies. The correspondence of the areas of change with pathologic data gives support to the notion that the ﬁndings are
+biologically meaningful. Clearly future studies should follow patients
+to autopsy to see if there is a correspondence between imaging ﬁndings and autopsy ﬁndings. Our data add further support to the notion
+that MRI detects meaningful changes, which can complement other
+biomarkers in predicting and tracking cognitive decline in Lewy
+body diseases.
+Acknowledgments
+The study was funded by grants to RC from University of Alberta
+Hospital Foundation and CIHR (MOP 67132). BD is supported by the
+Swiss National Science Foundation (NCCR Synapsy, project grant Nr
+32003B_159780 and SPUM 33CM30_140332/1), Foundation Parkinson
+Switzerland, Foundation Synapsis and the European Union Seventh
+Framework Programme (FP7/2007–2013) - grant agreement no.
+604102 (Human Brain Project). LREN is very grateful to the Roger de
+Spoelberch and Partridge Foundations for their ﬁnancial support.
+WRWM has received support from the Michael J Fox Foundation and
+CIHR (MOP 190398).
+References
+[1] H. Braak, K. Del Tredici, U. Rüb, R.A. de Vos, E.N. Jansen Steur, E. Braak, Staging of
+brain pathology related to sporadic Parkinson's disease, Neurobiol. Aging 24 (2)
+(2003) 197–211.
+[2] G. Ganga, J.E. Alty, B.G. Clissold, C.D. McColl, K.A. Reardon, M. Schiff, P.A. Kempster,
+Longitudinal study of levodopa in Parkinson's disease: effects of the advanced disease phase, Mov. Disord. 28 (4) (2013) 476–481.
+[3] D. Aarsland, K. Andersen, J.P. Larsen, A. Lolk, P. Kragh-Sørensen, Prevalence and
+characteristics of dementia in Parkinson disease: an 8-year prospective study,
+Arch. Neurol. 60 (3) (2003) 387–392.
+[4] M.A. Hely, W.G. Reid, M.A. Adena, G.M. Halliday, J.G. Morris, The Sydney multicenter
+study of Parkinson's disease: the inevitability of dementia at 20 years, Mov. Disord.
+23 (6) (2008) 837–844.
+[5] D. Aarsland, J.P. Larsen, E. Tandberg, K. Laake, Predictors of nursing home placement
+in Parkinson's disease: a population-based, prospective study, J. Am. Geriatr. Soc. 48
+(8) (2000 Aug) 938–942.
+[6] L.M. de Lau, D. Verbaan, J. Marinus, J.J. van Hilten, Survival in Parkinson's disease. Relation with motor and non-motor features, Parkinsonism Relat. Disord. 20 (6) (2014
+Jun) 613–616.
+[7] G.W. Duncan, M.J. Firbank, J.T. O'Brien, D.J. Burn, Magnetic resonance imaging: a biomarker for cognitive impairment in Parkinson's disease? Mov. Disord. 28 (4) (2013)
+425–438.
+[8] E. Mak, L. Su, G.B. Williams, J.T. O'Brien, Neuroimaging correlates of cognitive impairment and dementia in Parkinson's disease, Parkinsonism Relat. Disord. 21 (8)
+(2015) 862–870.
+[9] E.J. Burton, I.G. McKeith, D.J. Burn, J.T. O'Brien, Brain atrophy rates in Parkinson's disease with and without dementia using serial magnetic resonance imaging, Mov.
+Disord. 20 (12) (2005) 1571–1576.
+[10] B. Ramírez-Ruiz, M.J. Martí, E. Tolosa, D. Bartrés-Faz, C. Summerﬁeld, P. SalgadoPineda, B. Gómez-Ansón, C. Junqué, Longitudinal evaluation of cerebral morphological changes in Parkinson's disease with and without dementia, J. Neurol. 252 (11)
+(2005) 1345–1352.
+
+93
+
+[11] D. Aarsland, K. Bronnick, C. Williams-Gray, D. Weintraub, K. Marder, J. Kulisevsky, D.
+Burn, P. Barone, J. Pagonabarraga, L. Allcock, G. Santangelo, T. Foltynie, C. Janvin, J.P.
+Larsen, R.A. Barker, M. Emre, Mild cognitive impairment in Parkinson disease: a
+multicenter pooled analysis, Neurology 75 (12) (2010) 1062–1069.
+[12] J.B. Pereira, P. Svenningsson, D. Weintraub, K. Brønnick, A. Lebedev, E. Westman, D.
+Aarsland, Initial cognitive decline is associated with cortical thinning in early
+Parkinson disease, Neurology 82 (22) (2014) 2017–2025.
+[13] M.C. Wen, A. Ng, R.J. Chander, A. WL, L.C. Tan, N. Kandiah, Longitudinal brain volumetric changes and their predictive effects on cognition among cognitively asymptomatic patients with Parkinson's disease, Parkinsonism Relat. Disord. 21 (5) (2015)
+483–488.
+[14] E. Mak, L. Su, G.B. Williams, M.J. Firbank, R.A. Lawson, A.J. Yarnall, G.W. Duncan, A.M.
+Owen, T.K. Khoo, D.J. Brooks, J.B. Rowe, R.A. Barker, D.J. Burn, J.T. O'Brien, Baseline
+and longitudinal grey matter changes in newly diagnosed Parkinson's disease: ICICLE-PD study, Brain 138 (Pt 10) (2015) 2974–2986.
+[15] G.W. Duncan, M.J. Firbank, A.J. Yarnall, T.K. Khoo, D.J. Brooks, R.A. Barker, D.J. Burn,
+J.T. O'Brien, Gray and white matter imaging: a biomarker for cognitive impairment
+in early Parkinson's disease? Mov. Disord. 31 (1) (2016) 103–110.
+[16] X. Jia, P. Liang, Y. Li, L. Shi, D. Wang, K. Li, Longitudinal study of gray matter
+changes in Parkinson disease, AJNR Am. J. Neuroradiol. 36 (12) (2015)
+2219–2226.
+[17] N. Ibarretxe-Bilbao, C. Junque, B. Segura, H.C. Baggio, M.J. Marti, F. Valldeoriola, N.
+Bargallo, E. Tolosa, Progression of cortical thinning in early Parkinson's disease,
+Mov. Disord. 27 (14) (2012) 1746–1753.
+[18] C. Tessa, C. Lucetti, M. Giannelli, S. Diciotti, M. Poletti, S. Danti, F. Baldacci, C. Vignali,
+U. Bonuccelli, M. Mascalchi, N. Toschi, Progression of brain atrophy in the early
+stages of Parkinson's disease: a longitudinal tensor-based morphometry study in
+de novo patients without cognitive impairment, Hum. Brain Mapp. 35 (8) (2014)
+3932–3944.
+[19] T.R. Melzer, D.J. Myall, M.R. MacAskill, T.L. Pitcher, L. Livingston, R. Watts, R.J.
+Keenan, J.C. Dalrymple-Alford, T.J. Anderson, Tracking Parkinson's disease over
+one year with multimodal magnetic resonance imaging in a group of older patients
+with moderate disease, PLoS One 10 (12) (2015 Dec 29), e0143923. http://dx.doi.
+org/10.1371/journal.pone.0143923. eCollection 2015.
+[20] M.M. Lewis, G. Du, E.Y. Lee, Z. Nasralah, N.W. Sterlin, L. Zhang, D. Wagner, L. Kong,
+A.I. Tröster, M. Styner, P.J. Eslinger, R.B. Mailman, X. Huang, The pattern of gray matter atrophy in Parkinson's disease differs in cortical and subcortical regions, J.
+Neurol. 263 (1) (2016) 68–75.
+[21] B. Mollenhauer, J. Zimmermann, F. Sixel-Döring, N.K. Focke, T. Wicke, J.
+Ebentheuer, M. Schaumburg, E. Lang, E. Trautmann, H. Zetterberg, P. Taylor, T.
+Friede, C. Trenkwalder, DeNoPa study group. Monitoring of 30 marker candidates in early Parkinson disease as progression markers, Neurology 87 (2)
+(2016) 168–177.
+[22] R. Camicioli, J. Sabino, M. Gee, T. Bouchard, N. Fisher, C. Hanstock, D. Emery, W.R.
+Martin, Ventricular dilatation and brain atrophy in patients with Parkinson's disease
+with incipient dementia, Mov. Disord. 26 (8) (2011) 1443–1450.
+[23] S. Sapkota, M. Gee, J. Sabino, D. Emery, R. Camicioli, Association of homocysteine
+with ventricular dilatation and brain atrophy in Parkinson's disease, Mov. Disord.
+29 (3) (2014) 368–374.
+[24] H. Braak, U. Rüb, E.N. Jansen Steur, K. Del Tredici, R.A. de Vos, Cognitive status correlates with neuropathologic stage in Parkinson disease, Neurology 64 (8) (2005)
+1404–1410.
+[25] A.J. Hughes, S.E. Daniel, Y. Ben-Shlomo, A.J. Lees, The accuracy of diagnosis of parkinsonian syndromes in a specialist movement disorder service, Brain 125 (Pt 4)
+(2002) 861–870.
+[26] R. Camicioli, S.R. Majumdar, Relationship between mild cognitive impairment and
+falls in older people with and without Parkinson's disease: 1-year prospective cohort study, Gait Posture. 32 (1) (2010) 87–91.
+[27] American Psychiatric Association, Diagnostic and Statistical Manual, fourth ed., 2000
+Arlington, VA.
+[28] J. Ashburner, A fast diffeomorphic image registration algorithm, NeuroImage 38 (1)
+(2007) 95–113.
+[29] J. Ashburner, K.J. Friston, Voxel-based morphometry—the methods, NeuroImage 11
+(6 Pt 1) (2000) 805–821.
+[30] J. Radua, E.J. Jorge Canales-Rodríguez, E. Pomarol-Clotet, R. Raymond Salvador, Validity of modulation and optimal settings for advanced voxel-based morphometry,
+NeuroImage 86 (2014) 81–90.
+[31] K.J. Friston, A. Holmes, J.-B. Poline, C.J. Price, C.D. Frith, Detecting activations in
+PET and fMRI: levels of inference and power, NeuroImage 4 (3) (1996)
+223–235.
+[32] S. Hayasaka, T.E. Nichols, Validating cluster size inference: random ﬁeld and permutation methods, NeuroImage 20 (4) (2003) 2343–2356.
+[33] S. Hayasaka, K. Luan Phan, I. Liberzon, K.J. Worsley, T.E. Nichols, Nonstationary cluster-size inference with random ﬁeld and permutation methods, NeuroImage 22 (2)
+(2004) 676–687.
+[34] K.J. Worsley, S. Marrett, P. Neelin, A.C. Vandal, K.J. Friston, A.C. Evans, A uniﬁed statistical approach for determining signiﬁcant signals in images of cerebral activation,
+Hum. Brain Mapp. 4 (1996) 58–73.
+[35] N. Ibarretxe-Bilbao, B. Ramirez-Ruiz, C. Junque, M.J. Marti, F. Valldeoriola, N.
+Bargallo, S. Juanes, E. Tolosa, Differential progression of brain atrophy in Parkinson's
+disease with and without visual hallucinations, J. Neurol. Neurosurg. Psychiatry 81
+(6) (2010) 650–657.
+[36] T. Baba, A. Kikuchi, K. Hirayama, Y. Nishio, Y. Hosokai, S. Kanno, et al., Severe olfactory dysfunction is a prodromal symptom of dementia associated with
+Parkinson's disease: a 3 year longitudinal study, Brain 135 (Pt 1) (2012)
+161–169.
+
+94
+
+M. Gee et al. / Journal of the Neurological Sciences 373 (2017) 88–94
+
+[37] A. Hanganu, C. Bedetti, C. Degroot, B. Mejia-Constain, A.L. Lafontaine, V. Soland, S.
+Chouinard, M.A. Bruneau, S. Mellah, S. Belleville, O. Monchi, Mild cognitive impairment is linked with faster rate of cortical thinning in patients with Parkinson's disease longitudinally, Brain 137 (Pt 4) (2014) 1120–1129.
+[38] C.-H. Lin, W. Ruey-Meei, Biomarkers of cognitive decline in Parkinson's disease, Parkinsonism Relat. Disord. 21 (2015) 431–443.
+[39] B.R. Barton, B. Bernard, V. Czernecki, J.G. Goldman, G. Stebbins, B. Dubois, C.G.
+Goetz, Comparison of the Movement Disorder Society Parkinson's disease dementia criteria with neuropsychological testing, Mov. Disord. 29 (10) (2014)
+1252–1257.
+
+[40] G. Halliday, M. Hely, W. Reid, J. Morris, The progression of pathology in longitudinally
+followed patients with Parkinson's disease, Acta Neuropathol. 115 (4) (2008 Apr)
+409–415.
+[41] T. Jubault, S.M. Brambati, C. Degroot, B. Kullmann, A.P. Strafella, A.L. Lafontaine, S.
+Chouinard, O. Monchi, Regional brain stem atrophy in idiopathic Parkinson's disease
+detected by anatomical MRI, PLoS One 4 (12) (2009), e8247. .
+[42] B.A. Pickut, W. Van Hecke, E. Kerckhofs, P. Mariën, S. Vanneste, P. Cras, P.M. Parizel,
+Mindfulness based intervention in Parkinson's disease leads to structural brain
+changes on MRI: a randomized controlled longitudinal trial, Clin. Neurol. Neurosurg.
+115 (12) (2013 Dec) 2419–2425.
+
+

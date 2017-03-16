@@ -1,0 +1,695 @@
+Ann Nucl Med
+DOI 10.1007/s12149-016-1119-2
+
+ORIGINAL ARTICLE
+
+Brain perfusion alterations in depressed patients with Parkinson’s
+disease
+Young-Do Kim1 • Hyeonseok S. Jeong2 • In-Uk Song1 • Yong-An Chung2
+Eun Namgung3 • Yong-Duk Kim4
+
+•
+
+Received: 23 June 2016 / Accepted: 18 August 2016
+Ó The Japanese Society of Nuclear Medicine 2016
+
+Abstract
+Objective Although Parkinson’s disease (PD) is frequently
+accompanied by depression, brain perfusion deficits in PD
+with depression remain unclear. This study aimed to assess
+alterations in regional cerebral blood flow (rCBF) in
+depressed PD patients using 99mTc hexamethyl-propyleneamine-oxime single-photon emission computed tomography (SPECT).
+Methods Among 78 patients with PD, 35 patients were
+classified into the depressed PD group, while the rest (43
+patients) was assigned to the nondepressed PD group based
+on the scores of the Geriatric Depressive Scale (GDS). All
+participants underwent brain SPECT imaging. The voxelwise whole-brain analysis and region-of-interest (ROI)
+analysis of the limbic areas were conducted to compare
+rCBF between the depressed and nondepressed PD groups.
+Results The depressed PD patients demonstrated higher
+GDS scores than nondepressed patients, whereas betweengroup differences in the PD severity and cognitive function
+were not significant. Perfusion in the left cuneus was
+increased, while that in the right superior temporal gyrus
+
+Y.-D. Kim and H. S. Jeong contributed equally to this work.
+& Yong-Duk Kim
+ohyeap@gmail.com; catholicnu@gmail.com
+1
+
+Department of Neurology, Incheon St. Mary’s Hospital, The
+Catholic University of Korea, Incheon, South Korea
+
+2
+
+Department of Radiology, Incheon St. Mary’s Hospital, The
+Catholic University of Korea, Incheon, South Korea
+
+3
+
+Department of Brain and Cognitive Sciences, Ewha Womans
+University, Seoul, South Korea
+
+4
+
+Department of Neurology, College of Medicine, Konyang
+University, Daejeon, South Korea
+
+and right medial orbitofrontal cortex was reduced in the
+depressed PD patients as compared with nondepressed PD
+patients. In addition, the ROI analysis demonstrated rCBF
+decreases in the amygdala, anterior cingulate cortex, hippocampus, and parahippocampal gyrus in the depressed PD
+group. A positive correlation was found between the GDS
+scores and rCBF in the left cuneus cluster in the depressed
+PD patients.
+Conclusion This study identified the regional pattern of
+brain perfusion that distinguished depressed from nondepressed PD patients. Hyperperfusion in the occipital areas
+and hypoperfusion in the fronto-temporo-limbic regions
+may be potential imaging biomarkers for depression in PD.
+Keywords Parkinson’s disease  Depression  Brain
+perfusion  SPECT  Regional cerebral blood flow
+
+Introduction
+Although Parkinson’s disease (PD) is primarily characterized by several motor symptoms, including tremor, rigidity,
+and bradykinesia, it is frequently accompanied by other
+nonmotor symptoms, such as depression, anxiety, fatigue,
+and sleep disturbance [1]. Among these, depression is one
+of the most common nonmotor symptoms of PD and the
+prevalence of major depressive disorder was reported as
+17 % in PD patients according to the meta-analysis [2]. If
+minor depression and dysthymia are included, the prevalence increases to 52 % in PD population, much higher
+than that in general population [2]. The underlying neurobiological mechanism of the close association between
+PD and depression is not well defined. It is possible that
+disabling symptoms of PD may cause distress and negative
+feelings. However, a number of studies have suggested that
+
+123
+
+Ann Nucl Med
+
+degeneration of the mesolimbic and mesocortical pathways
+may be related to depression in PD [3, 4].
+To investigate the neural substrates underlying depressive symptoms in PD, only a few studies using singlephoton emission computed tomography (SPECT) have
+examined regional cerebral blood flow (rCBF) in the PD
+patients with and without depression. However, the results
+regarding rCBF differences between the depressed and
+nondepressed PD patients have been inconsistent. One
+study revealed increased rCBF in the fronto-parietal areas
+of the depressed PD patients [5], whereas rCBF reduction
+in the frontal cortex was found in the depressed PD group
+of the other study [6]. Furthermore, the sample sizes of
+these studies were relatively small.
+This study aimed to assess alterations in rCBF in
+depressed PD patients compared with nondepressed PD
+group using 99mTc hexamethyl-propylene-amine-oxime
+(HMPAO) SPECT. Since the whole-brain voxel-wise
+analysis of the SPECT images might miss rCBF differences on a regional level, we further used a region-ofinterest (ROI) approach for the major limbic areas which
+are implicated in depression [7] by averaging all voxel
+values within each region. Finally, the relationships
+between rCBF and the severity of depression were
+examined.
+
+Materials and methods
+Participants
+Patients who had been diagnosed as PD without history of
+other neurological and psychiatric disorders were recruited
+at Incheon St. Mary’s Hospital (Incheon, South Korea).
+Written informed consent was obtained from all participants and the study protocol was approved by the Research
+Ethics Committee.
+The severity of PD symptoms was evaluated with the
+Hoehn–Yahr Scale [8]. The Korean Mini-Mental State
+Examination (MMSE) was used to assess global cognitive
+function [9]. The total score ranges from 0 to 30, with a
+higher score indicating a better cognitive performance.
+The cut-off score of 18 was suggested for screening of
+dementia [10]. Depressive symptoms were examined
+using the Korean version of the Geriatric Depressive
+Scale (GDS) [11]. The total score ranges from 0 to 30 and
+a higher score represents greater depressive symptoms.
+The cut-off score of 14 was suggested for screening of
+depression [11]. Participants were divided into the
+depressed and nondepressed PD groups based on the cutoff score of the GDS.
+
+123
+
+Image acquisition
+All participants were scanned 40 min after intravenous
+injection of 1110 MBq of HMPAO using a dual-head
+gamma camera (ECAM plus; Siemens Medical, Erlangen,
+Germany). The participants were rested in a supine position
+with their eyes open in a low-light and low-noise environment during the scan. All images were attenuation
+corrected and reconstructed in a 128 9 128 matrix with a
+voxel size of 3.9 9 3.9 9 3.9 mm (field of view 240 mm)
+using filtered back projection.
+Image processing and analysis
+Statistical Parametric Mapping 8 (SPM8; Wellcome
+Department of Cognitive Neurology, Institute of Neurology, London, UK) was used for image processing and
+statistical modelling. All images were spatially normalized
+to the SPM SPECT template (Montreal Neurological
+Institute, McGill University, Montreal, Canada) and resliced with a voxel size of 2 9 2 9 2 mm3. The SPM
+binary brain mask was applied to remove extracerebral
+signal. The images were smoothed with a 16 mm fullwidth half-maximum isotropic Gaussian kernel.
+A voxel-wise two-sample t test was conducted to
+examine differences in rCBF between the two groups with
+age and gender as nuisance covariates. Global counts were
+normalized to 50 mL/100 g/min with proportional scaling,
+and relative threshold masking of 0.8 was applied. The
+statistical threshold was set at uncorrected p \ 0.001 at
+voxel level with an extent threshold of 100 voxels. Normalized rCBF values were extracted from each significant
+cluster using MarsBar toolbox version 0.44 (http://marsbar.
+sourceforge.net) [12].
+For the ROI analysis, four bilateral ROIs in the limbic
+system were selected based on the previous review of
+neuroimaging studies in depression [7]: the amygdala,
+anterior cingulate cortex, hippocampus, and parahippocampal gyrus. The WFU PickAtlas toolbox version 3.0.5
+(http://fmri.wfubmc.edu/software/pickatlas) [13] was used
+to create binary masks for these ROIs using the Automated
+Anatomical Labeling atlas [14]. Normalized rCBF value of
+each ROI was extracted using MarsBar toolbox [12].
+Statistical analysis
+Differences in continuous variables between two groups
+were examined with independent t tests or Mann–Whitney
+U tests. Chi-square test was used to compare the ratio of
+gender.
+To assess correlations between rCBF and depressive
+symptoms, multiple linear regressions were performed in
+
+Ann Nucl Med
+
+the depressed PD group with normalized rCBF value from
+each cluster as an independent variable and the GDS score
+as a dependent variable, while adjusting for age and gender. For each ROI, difference in the normalized rCBF
+between the two groups was assessed using multiple linear
+regression with age and gender as covariates of no interest.
+A two-tailed p value of less than 0.05 without correction
+for multiple comparison was considered statistically significant, since the correlation and ROI analyses were based
+on specific hypotheses. All analyses were conducted with
+Stata version 13.1 (StataCorp., College Station, TX, USA).
+
+cortex (t = -3.57, cluster size 139 voxels). In addition, the
+ROI analysis demonstrated decreases of rCBF in the
+amygdala (t = -2.09, p = 0.04), anterior cingulate cortex
+(t = -2.52,
+p = 0.01),
+hippocampus
+(t = -2.21,
+p = 0.03), and parahippocampal gyrus (t = -2.54,
+p = 0.01) in the depressed PD group (Table 3).
+Regression analysis revealed the positive correlation
+between the GDS scores and the rCBF in the left cuneus
+cluster in the depressed PD group after adjusting for age
+and gender (b = 0.96, p = 0.006).
+
+Discussion
+Results
+A total of 78 patients with PD were included in this study.
+Among them, 35 patients were classified into the depressed
+PD group, while the rest (43 patients) was assigned to the
+nondepressed PD group based on the GDS scores. No
+patients were on antidepressant medication at the time of
+the assessments. Demographic and clinical characteristics
+of the participants were presented in Table 1. Although the
+two groups did not differ in age (p = 0.54), the duration of
+PD symptoms (p = 0.21), the duration of PD treatment
+(p = 0.47), the Hoehn–Yahr score (p = 0.19), the levodopa equivalent dose (p = 0.33), and the MMSE score
+(p = 0.11), these two groups had statistically different
+gender distributions, with more women in the depressed
+PD group (p \ 0.001). The mean GDS score of the
+depressed PD group (mean 22.9 ± 4.1, range 17–30) was
+higher than that of the nondepressed PD group (mean
+4.5 ± 2.6, range 0–10, p \ 0.001).
+Results from the voxel-wise SPM analysis were summarized in Table 2 and Fig. 1. The depressed PD group
+showed increased rCBF in the left cuneus (t = 3.55, cluster
+size 129 voxels). In contrast, significantly lower rCBF was
+found in the right superior temporal gyrus (t = -3.71,
+cluster size 298 voxels) and right medial orbitofrontal
+
+The current brain perfusion SPECT study investigated
+differences in rCBF between the depressed and nondepressed PD patients. Correlations between rCBF and the
+severity of depressive symptoms were also examined in the
+depressed PD group. We found increased rCBF in the
+cuneus and perfusion reduction in the superior temporal
+gyrus, medial orbitofrontal cortex, and four limbic ROIs,
+including the anterior cingulate cortex, amygdala, hippocampus, and parahippocampal gyrus, in the depressed
+PD group. In addition, the rCBF in the cuneus cluster was
+positively associated with depressive symptoms in the
+depressed PD patients.
+The voxel-wise image analysis revealed that the
+depressed PD group relative to the nondepressed group
+showed higher rCBF in the cuneus and occipital areas
+which were associated with their greater depressive
+symptoms. In line with these results, the previous study
+using PET demonstrated the dysphoria-related topographic
+pattern of glucose metabolism in PD patients, which was
+characterized by metabolic increases in the medial occipital areas and the decrease in the frontal lobe [15].
+Increased glucose metabolism in the cuneus and surrounding areas has also been implicated in geriatric
+depression of PD patients [16, 17]. Furthermore, the
+
+Table 1 Demographic and clinical characteristics of the participants
+Characteristics
+
+Depressed PD (n = 35)
+
+Nondepressed PD (n = 43)
+
+Test
+
+Age (years)
+
+68.9 ± 9.2
+
+67.7 ± 7.6
+
+t = 0.61, p = 0.54
+
+Gender (male/female)
+Duration of PD symptoms (years)
+
+9/26
+2.8 ± 3.2a
+
+29/14
+4.0 ± 4.5b
+
+v2 = 13.45, p \ 0.001
+t = -1.26, p = 0.21
+
+Duration of PD treatment (years)
+
+1.9 ± 2.8
+
+2.3 ± 2.0
+
+t = -0.72, p = 0.47
+
+Hoehn–Yahr score
+
+2.2 ± 0.7a
+
+2.0 ± 0.9c
+
+z = 1.3, p = 0.19
+
+Levodopa equivalent dose (mg/day)
+
+434.9 ± 284.1d
+
+375.3 ± 251.2e
+
+t = 0.96, p = 0.33
+
+MMSE
+
+26.2 ± 2.1
+
+27.0 ± 2.1
+
+t = -1.62, p = 0.11
+
+GDS
+
+22.9 ± 4.1
+
+4.5 ± 2.6
+
+t = 24.04, p \ 0.001
+
+GDS Geriatric Depression Scale, MMSE Mini-Mental State Examination, PD Parkinson’s disease
+a
+
+n = 32,
+
+b
+
+n = 42, c n = 38,
+
+d
+
+n = 34, e n = 41
+
+123
+
+Ann Nucl Med
+Table 2 Brain areas with
+significant differences in
+regional cerebral blood flow
+
+Region
+
+Cluster size (voxels)
+
+Coordinatesa (x, y, z)
+
+t
+
+Depressed PD [ nondepressed PD
+Left cuneus
+
+129
+
+3.55
+
+-22, -72, 36
+
+Right superior temporal gyrus
+
+298
+
+-3.71
+
+52, 2, -10
+
+Right medial orbitofrontal cortex
+
+139
+
+-3.57
+
+2, 28, -22
+
+Depressed PD \ nondepressed PD
+
+PD Parkinson’s disease
+a
+
+Coordinates are given in millimeter and refer to the Montreal Neurological Institute coordinate system
+
+Fig. 1 Differences in rCBF in the depressed PD group as compared
+with the nondepressed PD group. Images are shown in neurological
+convention and color bars represent voxel-level t values. Increases
+
+and decreases in rCBF appear in red-yellow and blue-green color,
+respectively. PD Parkinson’s disease, rCBF regional cerebral blood
+flow
+
+behavioral experiment study of healthy volunteers revealed
+that sustained anxiety was associated with increased rCBF
+in various regions, including the parieto-occipital cortex
+[18]. The underlying mechanism of higher rCBF of the
+
+cuneus in the depressed PD patients remains unclear. As
+one possible explanation, the reductions of c-aminobutyric
+acid (GABA) concentrations [19] and GABAergic neurons
+[20] were found in the occipital cortex of patients with
+
+123
+
+Ann Nucl Med
+Table 3 Results of ROI
+Analysis
+
+ROI
+
+Normalized rCBF
+Depressed PD
+
+Test
+Nondepressed PD
+
+Amygdala
+
+73.7 ± 3.3
+
+75.4 ± 3.1
+
+t = -2.09, p = 0.04
+
+Anterior cingulate cortex
+
+75.6 ± 4.6
+
+77.8 ± 4.9
+
+t = -2.52, p = 0.01
+
+Hippocampus
+
+74.8 ± 2.7
+
+75.8 ± 2.2
+
+t = -2.21, p = 0.03
+
+Parahippocampal gyrus
+
+68.5 ± 3.1
+
+69.9 ± 2.3
+
+t = -2.54, p = 0.01
+
+PD Parkinson’s disease, rCBF regional cerebral blood flow, ROI region of interest
+
+depression. Inverse correlations between the GABA levels
+and rCBF in the brain have also been suggested by the
+previous literature [21, 22]. Further studies are warranted
+to examine structural, functional, or metabolic changes in
+the occipital area and potential visual impairments in PD
+with depression, since both subjective visual deficits [23]
+and changes of visual evoked potential [24, 25] were
+observed in patients with major depression.
+On the other hand, decreased rCBF in the superior
+temporal and medial orbitofrontal cortices was found in the
+depressed PD patients. These results correspond with the
+findings of the previous neuroimaging studies in major
+depression that have consistently reported both functional
+and structural alterations in these areas [26–28]. The
+superior temporal gyrus in combination with the frontolimbic areas (orbitofrontal cortex, amygdala, and anterior
+cingulate cortex) has been known to be involved in emotional processing and social cognition [29, 30]. Functional
+neuroimaging studies demonstrated that patients with
+major depression exhibited abnormal functional connectivity [31] and decreased activation at rest or to sad stimuli
+in this region [26]. Furthermore, regional volume of
+superior temporal gyrus was negatively associated with
+severity of depressive symptoms [28]. The rCBF decrease
+in the medial orbitofrontal area is in line with the previous
+studies that revealed hypometabolism in the same region in
+depressed PD patients when compared with nondepressed
+PD patients [15, 32]. Interestingly, the orbitofrontal cortex,
+which has reciprocal connections with both the ventral
+tegmental area and dorsal raphe, may play important roles
+in the pathophysiology of depression with PD [33, 34].
+Although still speculative, the degeneration of dopaminergic system may cause the functional deficits in orbitofrontal cortex, which, in turn, may affect serotonergic
+system and cause depressive symptoms.
+The ROI analysis of this study revealed lower rCBF in
+the limbic system including the anterior cingulate cortex,
+amygdala, hippocampus, and parahippocampal gyrus of the
+depressed PD patients. Lower rCBF in the anterior cingulate cortex was also suggested from the previous report
+[35]. However, rCBF alterations in the amygdala, hippocampus, and parahippocampal gyrus have not been
+
+suggested in the previous studies of depressed PD patients
+[5, 35, 36]. In addition, perfusion studies of major
+depression have also demonstrated inconsistent results
+regarding the activation of the limbic regions [37–40]. Our
+results suggest that depression with PD may be characterized by coherent decreases of rCBF in the major limbic
+areas.
+Potential limitations of this study include a group difference in gender ratio, although gender was covaried out
+in the statistical analyses. The epidemiological and other
+studies of PD showed controversial results whether there is
+a gender difference in the prevalence of comorbid
+depression. [41, 42], while gender difference in major
+depression has been well documented [43]. However, there
+is still a possibility that neural correlates of depression in
+PD may be different between genders, and therefore, further studies are warranted to investigate this issue. The
+reliance on the self-report questionnaires for the assessment of depressive symptoms is another weakness of this
+study due to the potential response bias. Complementary
+use of structured clinical interviews would be helpful in
+future research.
+In summary, this study identified the regional pattern of
+brain perfusion that distinguished depressed from nondepressed PD patients. Hyperperfusion in the occipital area
+and hypoperfusion in the fronto-temporo-limbic regions
+may be potential imaging biomarkers for depression in PD.
+However, although the mean rCBF values of the ROIs
+significantly differed between depresssed and nondepressed PD groups, the perfusion ranges considerably
+overlapped between the two groups. Therefore, our findings should be confirmed and validated in prospective
+studies with a larger cohort for the development of reliable
+and robust biomarkers for depression in PD.
+Acknowledgments This study was also supported by a grant of
+Ministry of Science, ICT and Future Planning, Republic of Korea
+(NRF-2015M3C7A1064832).
+Compliance with ethical standards
+Conflict of interest The authors declare no financial conflicts of
+interest.
+
+123
+
+Ann Nucl Med
+
+References
+1. Shulman LM, Taback RL, Bean J, Weiner WJ. Comorbidity of
+the nonmotor symptoms of Parkinson’s disease. Mov Disord.
+2001;16(3):507–10.
+2. Reijnders JS, Ehrt U, Weber WE, Aarsland D, Leentjens AF. A
+systematic review of prevalence studies of depression in
+Parkinson’s disease. Mov Disord. 2008;23(2):183–9 (quiz 313).
+3. Lieberman A. Depression in Parkinson’s disease—a review. Acta
+Neurol Scand. 2006;113(1):1–8.
+4. Marsh L. Depression and Parkinson’s disease: current knowledge.
+Curr Neurol Neurosci Rep. 2013;13(12):409.
+5. Palhagen SE, Ekberg S, Walinder J, Granerus AK, Granerus G.
+HMPAO SPECT in Parkinson’s disease (PD) with major
+depression (MD) before and after antidepressant treatment.
+J Neurol. 2009;256(9):1510–8.
+6. Imamura K, Okayasu N, Nagatsu T. The relationship between
+depression and regional cerebral blood flow in Parkinson’s disease and the effect of selegiline treatment. Acta Neurol Scand.
+2011;124(1):28–39.
+7. Jeong HS, Chung YA. Contribution of neuroimaging in the
+diagnosis of brain disorders: recent findings and future applications. Int J Imag Syst Technol. 2016;26(2):124–35.
+8. Hoehn MM, Yahr MD. Parkinsonism: onset, progression and
+mortality. Neurology. 1967;17(5):427–42.
+9. Kang Y, Na DL, Hahn S. A validity study on the Korean MiniMental State Examination (K-MMSE) in dementia patients.
+J Korean Neurol Assoc. 1997;15(2):300–8.
+10. Kim JM, Shin IS, Yoon JS, Lee HY. Comparison of diagnostic
+validities between MMSE-K and K-MMSE for screening of
+dementia. J Korean Neuropsychiatr Assoc. 2003;42(1):124–30.
+11. Jung IK, Kwak DI, Joe SH, Lee HS. A study of standardization of
+Korean form of Geriatric Depression Scale (KGDS). J Korean
+Geriatr Psychiatry. 1997;1(1):61–72.
+12. Brett M, Anton J-L, Valabregue R, Poline J-B. Region of interest
+analysis using the MarsBar toolbox for SPM 99. Neuroimage.
+2002;16(2):S497.
+13. Maldjian JA, Laurienti PJ, Kraft RA, Burdette JH. An automated
+method for neuroanatomic and cytoarchitectonic atlas-based
+interrogation of fMRI data sets. Neuroimage. 2003;19(3):1233–9.
+14. Tzourio-Mazoyer N, Landeau B, Papathanassiou D, Crivello F,
+Etard O, Delcroix N, et al. Automated anatomical labeling of
+activations in SPM using a macroscopic anatomical parcellation
+of the MNI MRI single-subject brain. Neuroimage.
+2002;15(1):273–89.
+15. Mentis MJ, McIntosh AR, Perrine K, Dhawan V, Berlin B, Feigin
+A, et al. Relationships among the metabolic patterns that correlate
+with mnemonic, visuospatial, and mood symptoms in Parkinson’s
+disease. Am J Psychiatry. 2002;159(5):746–54.
+16. Fujimoto T, Takeuchi K, Matsumoto T, Fujita S, Honda K,
+Higashi Y, et al. Metabolic changes in the brain of patients with
+late-onset major depression. Psychiatry Res. 2008;164(1):48–57.
+17. Smith GS, Kramer E, Ma Y, Kingsley P, Dhawan V, Chaly T,
+et al. The functional neuroanatomy of geriatric depression. Int J
+Geriatr Psychiatry. 2009;24(8):798–808.
+18. Hasler G, Fromm S, Alvarez RP, Luckenbaugh DA, Drevets WC,
+Grillon C. Cerebral blood flow in immediate and sustained anxiety. J Neurosci. 2007;27(23):6313–9.
+19. Bhagwagar Z, Wylezinska M, Jezzard P, Evans J, Boorman E,
+Matthews PM, et al. Low GABA concentrations in occipital
+cortex and anterior cingulate cortex in medication-free, recovered
+depressed
+patients.
+Int
+J
+Neuropsychopharmacol.
+2008;11(2):255–60.
+20. Maciag D, Hughes J, O’Dwyer G, Pride Y, Stockmeier CA,
+Sanacora G, et al. Reduced density of calbindin immunoreactive
+
+123
+
+21.
+
+22.
+
+23.
+
+24.
+
+25.
+
+26.
+
+27.
+
+28.
+
+29.
+30.
+31.
+
+32.
+
+33.
+
+34.
+35.
+
+36.
+
+37.
+
+38.
+
+39.
+
+GABAergic neurons in the occipital cortex in major depression:
+relevance to neuroimaging studies. Biol Psychiatry.
+2010;67(5):465–70.
+Roland PE, Friberg L. The effect of the GABA-A agonist THIP
+on regional cortical blood flow in humans. A new test of hemispheric dominance. J Cereb Blood Flow Metab.
+1988;8(3):314–23.
+Spanaki MV, Siegel H, Kopylev L, Fazilat S, Dean A, Liow K,
+et al. The effect of vigabatrin (gamma-vinyl GABA) on cerebral
+blood flow and metabolism. Neurology. 1999;53(7):1518–22.
+Friberg TR, Borrero G. Diminished perception of ambient light: a
+symptom of clinical depression? J Affect Disord.
+2000;61(1–2):113–8.
+Coullaut-Valera Garcia J, Arbaiza Diaz del Rio I, CoullautValera Garcia R, Ortiz T. Alterations of P300 wave in occipital
+lobe in depressive patients. Actas Esp Psiquiatr.
+2007;35(4):243–8.
+Normann C, Schmitz D, Furmaier A, Doing C, Bach M. Longterm plasticity of visually evoked potentials in humans is altered
+in major depression. Biol Psychiatry. 2007;62(5):373–80.
+Fitzgerald PB, Laird AR, Maller J, Daskalakis ZJ. A meta-analytic study of changes in brain activation in depression. Hum
+Brain Mapp. 2008;29(6):683–95.
+Rigucci S, Serafini G, Pompili M, Kotzalidis GD, Tatarelli R.
+Anatomical and functional correlates in major depressive disorder: the contribution of neuroimaging studies. World J Biol
+Psychiatry. 2010;11(2 Pt 2):165–80.
+Takahashi T, Yucel M, Lorenzetti V, Walterfang M, Kawasaki Y,
+Whittle S, et al. An MRI study of the superior temporal subregions in patients with current and past major depression. Prog
+Neuropsychopharmacol Biol Psychiatry. 2010;34(1):98–103.
+Allison T, Puce A, McCarthy G. Social perception from visual
+cues: role of the STS region. Trends Cogn Sci. 2000;4(7):267–78.
+Gallagher HL, Frith CD. Functional imaging of ‘theory of mind’.
+Trends Cogn Sci. 2003;7(2):77–83.
+Cullen KR, Gee DG, Klimes-Dougan B, Gabbay V, Hulvershorn
+L, Mueller BA, et al. A preliminary study of functional connectivity in comorbid adolescent depression. Neurosci Lett.
+2009;460(3):227–31.
+Mayberg HS, Starkstein SE, Sadzot B, Preziosi T, Andrezejewski
+PL, Dannals RF, et al. Selective hypometabolism in the inferior
+frontal lobe in depressed patients with Parkinson’s disease. Ann
+Neurol. 1990;28(1):57–64.
+Dunnett SB, Robbins TW. The functional role of mesotelencephalic dopamine systems. Biol Rev Camb Philos Soc.
+1992;67(4):491–518.
+Roberts AC. The importance of serotonin for orbitofrontal
+function. Biol Psychiatry. 2011;69(12):1185–91.
+Ring HA, Bench CJ, Trimble MR, Brooks DJ, Frackowiak RS,
+Dolan RJ. Depression in Parkinson’s disease. A positron emission
+study. Br J Psychiatry. 1994;165(3):333–9.
+Matsui H, Nishinaka K, Oda M, Komatsu K, Kubori T, Udaka F.
+Minor depression and brain perfusion images in Parkinson’s
+disease. Mov Disord. 2006;21(8):1169–74.
+Duhameau B, Ferre JC, Jannin P, Gauvrit JY, Verin M, Millet B,
+et al. Chronic and treatment-resistant depression: a study using
+arterial spin labeling perfusion MRI at 3 Tesla. Psychiatry Res.
+2010;182(2):111–6.
+Kohn Y, Freedman N, Lester H, Krausz Y, Chisin R, Lerer B,
+et al. 99mTc-HMPAO SPECT study of cerebral perfusion after
+treatment with medication and electroconvulsive therapy in major
+depression. J Nucl Med. 2007;48(8):1273–8.
+Lui S, Parkes LM, Huang X, Zou K, Chan RC, Yang H, et al.
+Depressive disorders: focally altered cerebral perfusion measured
+with arterial spin-labeling MR imaging. Radiology.
+2009;251(2):476–84.
+
+Ann Nucl Med
+40. Jarnum H, Eskildsen SF, Steffensen EG, Lundbye-Christensen S,
+Simonsen CW, Thomsen IS, et al. Longitudinal MRI study of
+cortical thickness, perfusion, and metabolite levels in major
+depressive disorder. Acta Psychiatr Scand. 2011;124(6):435–46.
+41. Althaus A, Becker OA, Spottke A, Dengler R, Schneider F, Kloss
+M, et al. Frequency and treatment of depressive symptoms in a
+Parkinson’s disease registry. Parkinsonism Relat Disord.
+2008;14(8):626–32.
+
+42. van der Hoek TC, Bus BA, Matui P, van der Marck MA, Esselink
+RA, Tendolkar I. Prevalence of depression in Parkinson’s disease: effects of disease stage, motor subtype and gender. J Neurol
+Sci. 2011;310(1–2):220–4.
+43. Grigoriadis S, Robinson GE. Gender issues in depression. Ann
+Clin Psychiatry. 2007;19(4):247–55.
+
+123
+
+

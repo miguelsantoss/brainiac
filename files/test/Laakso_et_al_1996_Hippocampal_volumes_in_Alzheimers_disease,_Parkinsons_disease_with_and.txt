@@ -1,0 +1,738 @@
+Hippocampal volumes in Alzheimer's disease, Parkinson's
+disease with and without dementia, and in vascular dementia:
+An MRI study
+M. P. Laakso, K. Partanen, P. Riekkinen, Jr., et al.
+Neurology 1996;46;678-681
+DOI 10.1212/WNL.46.3.678
+This information is current as of March 1, 1996
+
+The online version of this article, along with updated information and services, is
+located on the World Wide Web at:
+http://www.neurology.org/content/46/3/678.full.html
+
+Neurology ® is the official journal of the American Academy of Neurology. Published
+continuously since 1951, it is now a weekly with 48 issues per year. Copyright Copyright 1996 by
+the Advanstar Communication Inc.. All rights reserved. Print ISSN: 0028-3878. Online ISSN:
+1526-632X.
+
+Hippocampal volumes in Alzheimer's
+disease, Parkinson's disease
+with and without dementia,
+and in vascular dementia:
+An MRI study
+M.P. Laakso; K.. Partanen; P. Riekkinen, Jr.; M. Lehtovirta; E.-L. Helkala; M. Hallikainen; T. Hainninen;
+P. Vainio; and H. Soininen
+
+Article abstract--Hippocampal atrophy detected by volumetric MRI is a sensitive feature of early Alzheimer's diueasc
+(AD), but there are no studies evaluating hippocampal atrophy by MR volumetry in other dementing diseases. Wc
+therefore compared hippocampal volumes in a total of 113 subjects: 50 patients with mild to moderate AD, 9 patients with
+vascular dementia (VaD), 12 patients with idiopathic Parkinson's disease (PD) without dementia, 8 patients with PD and
+dementia (PDD), and 34 elderly control subjects. Thin, coronal, contiguous images were obtained by a 1.5-T M.R imager.
+All patient groups had significantly smaller ,volumes of the hippocampus compared with the control group. In the PDL)
+group, the absolute volumes were even smaller than in the AD group. In the PD group, the volumes were diminished to a
+lesser but significant extent. The volumes in the VaD group varied: of nine patients, two had no atrophy, three had
+unilateral, and four had bilateral atrophy. We postulate t h a t hippocampal atrophy does not seem to be a specific
+phenomenon of dementia in AD but also occurs in VaD and PDD, and even in PD when no dementia is present. However,
+coexistence of AD pathology in our PD and VaD patients cannot be ruled out. Further studies with access to neuropathologic data are needed.
+NEUROLOGY 1996;48:678-681
+
+In clinical practice, the diagnosis of Alzheimer's disease (AD) is based on typical features o f t h e disease
+and exclusion of' other conditions causing dementia.
+In AD, the hippocampus is atrophied early in the
+course of the disease,' and the atrophy can be reliably detected by volumetric MRI for diagnostic purposes. ' I With this technique, AD patient:; can be sensitively separated not only from cognitively normal
+control subjects, but also from subjects suffering
+from differentially important conditions, such as ageassociated memory impairment5 and depressive
+pseudodementia." However, the specificity of MRI
+volumetry in the evaluation of hippocampal atrophy
+in dementing diseases other than AD has not been
+determined.
+In the diagnostic process of dementias, AD and
+vascular dementias (VaD) constitute the largest and
+thus differentia Ily most important groups of dementias. These two types of dementia together account
+for as much as 90%)of all d e m e n t i a ~ .Moreover,
+~
+one
+of the most common diseases in the elderly that may
+be associated with dementia is Parkinson's disease
+(PD). In PD, the proportion of demented patients
+
+varies from 40 t o 7091, the percentage increasing
+with age.'
+In this study, we investigate the specificity ofhippocampal atrophy by comparing hippocam pal volumes of AD patients and cognitively normal control
+subjects with volumes of patients with VaD and PD
+with dementia (PDD) and without dementia. Our
+working hypothesis was that the volume loss of hippocampus would be most pronounced in AD and not
+present in PD.
+Methods. We evaluated the volumes of hippocampus i n
+113 subjects: 50 patients with early probable A11 according
+to National Institute of Neurological and Communicative
+Disorders and Stroke-Alzheimer's Disease a n d Related
+Disorders Association criteria"'; 9 patients with VaD according to the DSM-111-R criteria"; 20 patients with idiopathic PD, of whom 8 were demented; and 34 cognitivcly
+and neurologically normal subjects (table 1).In addition lo
+the MRI, the investigation of the patients and t h e control
+subjects included clinical neurologic examination, EEG,
+and a comprehensive battery of neuropsychological and
+laboratory tests to exclude other causes of dementia and
+
+From the- 1)cpartment:; or Nettrolngy I I h . Laakso, Itiekkinen, Lehtovirta. Helkala, Hallikainen, I-lanninen, and Soininell I and 1ludiolog.y I l)rs I'nrtanrii inid
+Vainic~i.IJnivrrsity Hospital :md University of' Kuopio, Finland.
+Suppi)rtcd by t h e Medicel I t t w a r c h Council of Lhe Academy if Finland, the Finnish Medicine Foundation, t h e North S a w l.'und of t h e Finnish ( ! u l t i i t ~ a l
+I<'[I Un d a I i o t i , a II tl the I'i 11n i s h Neurology Foun ciat ion.
+Hiwivivl ,June 28,1995. Accepted in final form Septembw 7, 1995.
+A d d r ~ wu~rrty)~nidenlle
+and wprint requcsts to Dr. H. Soininen, Department of Neurnlngy, University of Kuopin, P.O. Box 1627, 7021 1 Kui~uiu,I~'inl;iiid
+678
+
+('iipyriglit 0 1.996 by the American Aradeiny of Neurology
+
+Table 1 Cliriicnl characteristics of patirials arid control subjects
+~
+
+~
+
+~~
+
+~~
+
+~
+
+~~~
+
+~
+
+~
+
+~~
+
+~~
+
+~
+
+-~
+
+~
+
+AD
+
+~-
+
+~
+
+~~
+
+VaD
+~
+
+~~
+
+~~
+
+-
+
+~
+
+~
+
+~
+
+~
+
+~
+
+PDD
+~~
+
+~~~
+
+~~
+
+~.
+
+~
+
+PD
+~
+
+~
+
+~
+
+~~
+
+~
+
+~~
+
+ANOVA
+
+Control
+~
+
+~
+
+~~~
+
+Number
+
+50
+
+9
+
+8
+
+12
+
+34
+
+NA
+
+NA
+
+Womedmen
+
+26/24
+
+316
+
+513
+
+616
+
+14/20
+
+Age"' ( y )
+
+70 i- 8
+
+76 2 4 t
+
+71 t 2
+
+68 -+ 5
+
+72 i 4
+
+2.6$
+
+Dementia duration" ( y )
+PD duration:"( y )
+
+NA
+
+NA
+
+1.6
+
+NA
+
+NA
+
+NA
+
+1.9
+
+21 ? 4
+
+16 i 45
+
+MMSE score:!:
+Ischemic score:'.
+~
+
+~
+
+~
+
+3.5
+
+0.7 -+ 0.9
+
+Webster score9
+~
+
+3.0 z 1.6
+
+2.1 t 2.7
+~
+
+~~~~
+
+?
+
+1.4
+
+4.2
+
+5
+
+1.5
+
+7.2 t 3.3
+
+5.4 ? 2.6
+27 t 211
+
+19 t 5
+
+7.8 2 1,8:l::!,
+
+2.0 2 1,5:#:!:
+
+0.2
+
+0.9 t 1.5
+
+9.2 i 4.41-1-
+
+5.8 ? 2.8t-1.
+
+~
+
+~
+
+~~~~~~
+
+?
+
+0.4
+-
+
+28 t 111
+
+51.04[
+
+0.5 -C 0.9
+
+96.191
+
+ND
+
+20.5¶
+
+~
+
+Values are means t SD.
+ANOVA $I-,< 0.05, 21 I-, 0.0001, Duncan post-hoc analysis p L 0.05: .i. differs from AD and PD; S differs from AD, PDD, PD, and
+control; /I differs from AD, VaD, and PDD; 'w'differs from AD, PD, and control; tt differs from AD and VaD.
+NA = not applicable; ND = not done
+
+:i;
+
+parkinsonism or other CNS pathology. The complete test
+battery that has been described elsewhere4 also included
+tests of verbal and visual memory functions such as list
+learning test and story recall a s well as the Heaton Visual
+Reproduction test. The degree of cognitive decline was
+evaluated by using the Mini-Mental Status Examination
+(MMSE)." The Webster scale1( was used to estimate the
+severity of extrapyramidal signs. The modified ischemic
+score'l was also included. The study was approved by the
+local ethics committee, and the study subjects gave their
+informed consent for participation in t h e study.
+The study subjects were scanned with a 1.5-T imager
+using a magnetization prepared rapid gradient echo (TR
+10 ms, TE 4 ms, TI 250 ms, flip angle 12") resulting in
+sagittal TI-weighted contiguous partitions with slice thickness of 1.5 to 2.0 mm, perpendicular to the long axis of the
+hippocampus. The hippocampus included the dentate gyrus, the hippocampus proper, and the subicular complex.
+The uncal portion of the rostra1 hippocampus that is located ventral to the caudal amygdala was included into t h e
+hippocampus. The caudal end of the hippocampus was determined from the section in which the fornices were still
+detectable in their full length. The fornices were not, however, included in the volume of the hippocampus. The
+boundaries of the hippocampus were outlined by a tractball driven cursor, and the number of voxels within the
+region creating the volume was calculated by using a n
+in-house developed program. To exclude individual size
+variability, the volumes were normalized to coronal intracranial area measured at the level of anterior commissure
+(the volumes were multiplied by 100 and divided by intracranial area). All measurements were performed by the
+same rater without any knowledge of the clinical data and
+diagnostic category of the subjects. The methodology and
+reproducibility of the method have been described in detail
+elsewhere.'
+Statistical analysis. The data were analyzed by SPSSPC+ V.4.1 software (SPSS, Inc., Chicago, IL). ANOVA
+with Duncan post-hoc analysis was used to compare the
+means over the study groups. Volumes normalized for the
+intracranial area were used in all statistical analyses. Correlations were calculated by using two-tailed Pearson's correlation test. The results are expressed as mean 5 SD. The
+level of statistical significance of differences is p < 0.05.
+8'
+
+Results.
+
+The clinical data of t h e study groups are presented in table 1. ANOVA showed a significant difference
+in age (FL4,107l = 2.7, p < 0.05); the VaD patients were
+older than AD and PD patients (Duncan p < 0.05). Duration of dementia did not differ in the demented patient
+groups. Duration of PD was slightly longer in the PDD
+group than in the PD group but not significantly. As expected, the MMSE scores differed significantly (F14,1051 =
+49.4, p < 0.0001) across the study groups; the control and
+PD groups had higher scores t h a n AD, VaD, and PDD
+patients ( p < 0.05), and t h e VaD group had lower scores
+t h a n the AD and PDD groups ( p < 0.05). The ischemic
+scores also differed significantly (ANOVA p < 0.0001): the
+VaD and PDD groups had higher scores than AD, PD, and
+control groups ( p < 0.05). However, none of the PDD patients received an ischemic score higher than 4. The Webster scores were significantly higher in PD and PDD than
+in AD and VaD groups (ANOVNDuncan p < 0.05).
+Seven VaD patients had a history of cerebral infarctions, but at the time of the neurologic examination, right
+hemiparesis was present in one VaD patient and left hemiparesis in a second VaD patient. Two AD patients also had
+a history of cerebral infarction. The frequency of coronary
+heart disease was 19/50 3 8 9 in AD (19/50), 75%)in VaD
+( 6 / 8 ) ,38%'in PDD (3/8),
+17% in PD patients (2/12), and 3 4
+in control subjects ( 1/34). The frequency of hypertonia was
+24% in AD, 100% in VaD, 0% in PDD, 8%)in PD, and 12%
+in control groups.
+In the hippocampal volumes, ANOVA showed significant differences over the study groups both on the right
+and left ( p < 0.0001) (table 2, figure, A and B). The control
+subjects had larger volumes on both sides than the other
+study groups ( p < 0.05).The right hippocampal volumes of
+VaD patients were also larger t h a n those of AD, PD, and
+PDD patients ( p < 0.05). On the left side, the AD patients
+had significantly smaller volumes than VaD and PD patients. The raw volumes i n the PDD group, although not
+significantly, were even smaller than in t h e AD group. In
+the VaD group, of the nine patients, two had no atrophy at
+all, four had bilateral atrophy, and three had unilateral
+atrophy. The limit of atrophy was taken as the average
+volume of the control group -1 SD, that is, 2,952 mm8 on
+the right and 2,700 mmy on the left. These patterns of
+March 1996 NEUROLOGY 46 679
+
+Table 2 Hippocumpal volumes Iinrn,")for potients
+cind control suhjects
+-
+
+-
+
+~~
+
+-~
+
+~~~~
+
+~~
+
+~~~
+
+Number Right hippocampus'k Left hippocampus"'
+~~-
+
+~~~
+
+~
+
+AD
+
+50
+
+Val)
+
+9
+
+PDD
+
+~
+
+-
+
+~~
+
+2,337 ? 704
+
+2,070
+
+2,975 2 5721:
+
+2,406 2 448
+
+Z
+
+8
+
+2,152 i 391
+
+2,042 2 215
+
+PI)
+
+12
+
+2,557 t 360
+
+2,401 2 380
+
+Control
+
+34
+
+3,450 i 4989
+
+3,206
+
+ANOVA, F
+
+31.011
+
+~~~
+
+~
+
+~~
+
+~
+
+~~
+
+~~
+
+?
+
+~~~
+
+.___
+
+562t
+
+5489
+
+38.611
+~~~
+
+_ _ ~
+
+Values are means i SD.
+ANOVA I( p < 0.0001, Duncan post-hoc analysis p <: 0.05, 9 differs from all other groups; $ differs from AD, PDD, and PD; differs from VaD and PI).
+A'
+
+atrophy could not be explained by other findings in the
+
+MRI such as location infarcts.
+The correlations between hippocampal volumes a n d
+performance on memory test scores were significant in AD
+and PDD groups but not in VaD, PD, or control groups.
+The left hippocampal volume correlated with delayed story
+recall ( r = 0.43, n = 48, p < 0.01) in AD and with immediate list learning scores (r = 0.93, n = 7, p < 0.01) in PDD.
+
+Discussion. A noninvasive method for the diagnosis of early AD is urgently needed. Hippocampal
+volumetry using MRI has shown potential as a promising and sensitive method for diagnosing early
+but this study indicates that hippocampal atrophy is not a specific finding to AD as also occurs in
+VaD and PDD as well as, to a lesser degree, in PD
+without dement; a. Thus, hippocampal atrophy may
+be a common phenomenon to some dementias and
+not restricted only to AD. Atrophy of the hippocampus also occurs in amnestic conditions of temporal
+lobe pathology.':' The volume of hippocampus correlates with memory functions as measured by tests
+assessing delayed reca114J6that are sensitive to dementia and spared by ageing.17J"In this study, left
+
+5
+
+Riaht hiDDOCamDUScubic cm
+
+hippocampal volumes correlated with verbal memory
+scores in AD and PDD, although the number of PDD
+patients was small. In VaD, PD, or control subjects,
+there were no significant correlations between memory scores and hippocampal volumes. Yet, classical
+dementia in PD is not regarded as temporal but as
+subcortical.'9 In addition, vascular lesions should not
+necessarily affect the temporal lobe.
+The dementia occurring in PD is not a single concept but consists of a variety of dementia syndromes,
+in which the clinical picture depends on separate
+pathogenetic mechanisms in different neurotransmitter systems. The typical dementia in PD is a mild
+subcortical dementia resulting from dopaminergic insufficiency. The most severe type of disease is PDD
+combined with AD pathology, which is present in 10
+to 60% of the patients with PD.19 Moreover, AD and
+PD share some neurochemical abnormalities in the
+brain such as deficits in the cholinergic, serotonergic,
+noradrenergic, and dopaminergic systems.") 22 In AD,
+the disturbances in the medial temporal lobe structures, the hippocampus, entorhinal cortex, ,and adjacent cortical regions are a central phenomenon.'
+Neurofibrillary tangles are present in the entorhinal
+region in PD and AD.23,24
+The entorhinal cortex is a
+major relay station between the hippocampus and
+the isocortex, and its bilateral destruction isolates
+the hippocampus from isocortical inputs. Thus, the
+hippocampal atrophy in our PD and PDD patients
+may be explained by the neuropathologw changes
+resulting from PD on its own or coexisterice of PD
+and AD, particularly in PDD patients.
+The patterns of atrophy in the VaD group are
+more difficult to explain. In a previous study with
+aged rats, chronic vascular insufficiency, without infarctions, mimicked AD-type changes, including high
+signal intensities in the hippocampal region predominant on the right side, MR spectroscopic changes,
+alterations in local cerebral blood flow, spatial memory dysfunction, and CA1 neuron damage.25Yet, this
+
+-
+
+3
+
+Left himocamDus
+cubic cm
+..
+
+A
+
+A
+
+A
+
+z
+
+A
+
+f
+
+A
+A
+
+A
+
+AD
+
+VaD
+
+PDD
+
+PD
+
+C
+
+AD
+
+VaD
+
+Figure. Right (A) and left (B) hippocampal volumes for patients and control subjects.
+680 NEUROLOGY 46 March 1996
+
+PDD
+
+PD
+
+C
+
+does not explain our findings where of the nine VaD
+patients, four had bilateral atrophy, two had no atrophy, and three had unilateral atrophy. In three of
+the four patients with unilateral atrophy, the right
+hippocampus was larger. Other findings in T,weighted axial MRI could not clarify the nature of
+these findings. There were no large or strategic infarcts or other lesions in the temporal lobes or in the
+area of the posterior cerebral artery responsible for
+the circulation to the hippocampus. However, these
+patterns of atrophy probably represent the results of
+different vascular lesions or etiologies. In the two
+VaD patients without atrophy, the lesions causing
+the dementia probably did not affect the size of hippocampus. Likewise, in cases with unilateral atrophy, the lesions affect the hippocampus on only one
+side. The cases with bilateral atrophy have vascular
+lesions affecting the hippocampus bilaterally, or alternatively they may present mixed dementia, that
+is, the combination of AD and VaD. In a previous
+autopsy study, the presence of mixed dementia was
+surprisingly high: three of four patients considered
+to have VaD had also AD, and 5 of 16 patients considered to have mixed dementia had AD alone.26
+We conclude that hippocampal atrophy is a sensitive feature of AD, but specificity of this atrophy
+seems to limit its use in clinical practice.
+
+References
+1. Hyman BT, Damasio AR, Van Hoesen GW, Barnes CL. Alz-
+
+2.
+3.
+4.
+
+5.
+
+6.
+
+7.
+
+heimer’s disease: cell-specific pathology isolates t h e hippocanpal formation. Science 1984:225:1168-1170.
+Ball MJ, Hachinski V, Fox A, et al. A new definition of Alzheimer’s disease: a hippocampal dementia. Lancet 1985;1:1416.
+Jack CR Jr, Petersen RC, O’Brien PC, Tangalos EG. MRbased hippocampal volumetry in the diagnosis of Alzheimer’s
+disease. Neurology 1992;42:183-188.
+Laalcso MP, Soininen H , Partanen K, e t al. Volumes of hippocampus, amygdala a n d frontal lobes in the MRI-based diagnosis of early Alzheimer’s disease: correlation with memory
+functions. J Neural Transm 1995;9:73-86.
+Soininen HS, Partanen K, Pitkanen A, e t al. Volumetric MRI
+analysis of t h e amygdala and the hippocampus in subjects
+with age-associated memory impairment: correlation to visual
+and verbal memory. Neurology 1994;44:1660-1668.
+O’Brien J T , Desmond P, Ames D, Schweitzer I, Tuckwell V,
+Tress B. The differentiation of depression from dementia by
+temporal lobe magnetic resonance imaging. Psycho1 Med 1994;
+24533-640.
+Sulkava R, Wikstrom J, Aromaa A, e t al. Prevalence of severe
+dementia in Finland. Neurology 1985;35:1025-1029.
+
+8. Skoog I, Nillson L, Palmertz B, Andreasson L-A, Svanborg A.
+A population based study of dementia in 85-year-olds. N Engl
+J Med 1993;328:153-158.
+9. Mayeux R, Denaro J, Hemenegildo N, et al. A populationbased investigation of Parkinson’s disease with and without
+dementia. Relationship to age and gender. Arch Neurol 1992;
+49:492-497.
+10. McKhann G, Drachman D, Folstein M, Katzman R, Price D,
+Stadlan EM. Clinical diagnosis of Alzheimer’s disease: report
+of NINCDSIADRDA Work Group under t h e auspices of Department of Health and Human Services Task Force on Alzheimer’s disease. Neurology 1984;34:939-944.
+11. American Psychiatric Association. Diagnostic and statistical
+manual of mental disorders. 3rd ed. revised. Washington, DC:
+American Psychiatric Association, 1987.
+12. Folstein MF, Folstein SE, McHugh PR. “Mini-Mental State”: a
+practical method for grading the cognitive state of patients for
+clinician. J Psychiatry Res 1975;12:189-198.
+13. Webster DD. Clinical analysis of t h e disability on Parkinson’s
+disease. Mod Treat 1968;5:257-262.
+14. Rosen WG, Terry RD, Fuld PA, Katzman It, Beck A. Pathological verification of ischemic score in differentiation of dementias. Ann Neurol 1980;17:486-488.
+15. Kritchevsky M, Squire LR. Permanent global amnesia with
+unknown etiology. Neurology 1993;43:326-332.
+16. Golomb J , Kluger A, de Leon MJ, e t al. Hippocampal formation size in normal human aging: a correlate of delayed secondary performance. Learn Mem 1994;1:45-54.
+17. Petersen RC, Smith G, Kokmen E, Ivnik RJ, Tangalos EG.
+Memory function in normal aging. Neurology 1992;42:396401.
+18. Howieson DB, Holma LA, Kaye JA, Oken BS, Howieson J.
+Neurologic function in t h e optimally healthy oldest old: neuropsychological evaluation. Neurology 1993;43:1882-1886.
+19. Mahler ME, Curnmings J L . Alzheimer disease and t h e dementia of Parkinson disease: comparative investigations. Alz Dis
+Assoc Disord 1990;4:133-149.
+20. Rinne JO, Laihinen A, Lonnberg P, Marjamski P, Rinne UK.
+A post-mortem study on striatal dopamine receptors in Parkinson’s disease. Brain Res 1991;556:117-122,
+21. Kerwin J M , Morris CM, Perry RH, Perry EK. Hippocampal
+nerve growth factor receptor immunoreactivity in patients
+with Alzheimer’s and Parkinson’s disease. Neurosci Lett 1992;
+143:101-104.
+22. Lange KW, Wells FR, J e n n e r P, Marsden CD. Altered muscarinic a n d nicotinic receptor densities in cortical and subcortical brain regions in Parkinson’s disease. J Neurochem 1993;
+60:197-203.
+23. Bancher C, Braak H, Fischer P, Jellinger KA. Neuropathological staging of Alzheimer lesions and intellectual s t a t u s in
+Alzheimer’s a n d Parkinson’s disease patients. Neurosci Lett
+1993;162:179-182.
+24. Braak H, Braak E , Bohl J. Staging of Alzheimer-related cortical destruction. E u r Neurol 1993;33:403-408.
+25. de la Torre JC, Fortin T, Park GAS, et al. Chronic cerebrovascular insufficiency induces dementia-like deficits in aged rats.
+Brain Res 1992;582:186-195.
+26. Wade J P H , Mirsen TR, Hachinski VC, Fisman M, Lau C,
+Merskey H. The clinical diagnosis of Alzheimer’s disease. Arch
+Neurol 1987;44:24-29.
+
+March 1996 NEUROLOGY 46 681
+
+Hippocampal volumes in Alzheimer's disease, Parkinson's disease with and
+without dementia, and in vascular dementia: An MRI study
+M. P. Laakso, K. Partanen, P. Riekkinen, Jr., et al.
+Neurology 1996;46;678-681
+DOI 10.1212/WNL.46.3.678
+This information is current as of March 1, 1996
+Updated Information &
+Services
+
+including high resolution figures, can be found at:
+http://www.neurology.org/content/46/3/678.full.html
+
+References
+
+This article cites 25 articles, 2 of which you can access for
+free at:
+http://www.neurology.org/content/46/3/678.full.html##ref-li
+st-1
+
+Citations
+
+This article has been cited by 41 HighWire-hosted articles:
+http://www.neurology.org/content/46/3/678.full.html##other
+articles
+
+Permissions & Licensing
+
+Information about reproducing this article in parts
+(figures,tables) or in its entirety can be found online at:
+http://www.neurology.org/misc/about.xhtml#permissions
+
+Reprints
+
+Information about ordering reprints can be found online:
+http://www.neurology.org/misc/addir.xhtml#reprintsus
+
+

@@ -6,9 +6,9 @@ import * as d3_sel from 'd3-selection';
 import { drag } from 'd3-drag';
 import './App.css';
 
-const grammy = require('../grammy.json');
-const doc_sim = require('../cosine.json');
-const doc_sim_sample = require('../cosine-sample.json');
+var grammy = require('../grammy.json');
+var doc_sim = require('../cosine.json');
+var doc_sim_sample = require('../cosine-sample.json');
 
 export default class Network extends Component {
   constructor(props) {
@@ -42,14 +42,13 @@ export default class Network extends Component {
     const height = 600;
     const color = scaleOrdinal(schemeCategory20);
 
-
-    const svg = d3_sel.select(this.refs.mountPoint)
+    var svg = d3_sel.select(this.refs.mountPoint)
       .append('svg')
       .attr('width', width)
       .attr('height', height)
       .attr('id', 'initialD3Element');
       
-    const link = svg.append('g')
+    var link = svg.append('g')
       .attr('class', 'links')
       .selectAll('line')
       .data(this.state.links)
@@ -57,7 +56,7 @@ export default class Network extends Component {
       .append('line')
       .attr('stroke-width', 1.5);
 
-    const node = svg.append('g')
+    var node = svg.append('g')
       .attr('class', 'nodes')
       .selectAll('circle')
       .data(this.state.nodes)
@@ -89,8 +88,8 @@ export default class Network extends Component {
     node.append('title')
       .text((d) => d.author);
 
-    const simulation = d3.forceSimulation()
-      .force('link', d3.forceLink(link).id((d) => d.index).distance((d) => (1-d.value)*500))
+    var simulation = d3.forceSimulation()
+      .force('link', d3.forceLink(link).id((d) => { console.log(d); return d.name; }))
       .force('charge', d3.forceManyBody())
       .force('center', d3.forceCenter(width / 2, height / 2));
 

@@ -1,0 +1,1017 @@
+Published Ahead of Print on October 5, 2016 as 10.1212/WNL.0000000000003285
+
+Distinct brain networks underlie cognitive
+dysfunction in Parkinson and Alzheimer
+diseases
+Paul J. Mattis, PhD
+Martin Niethammer,
+MD, PhD
+Wataru Sako, MD, PhD
+Chris C. Tang, MD, PhD
+Amir Nazem, MD, PhD
+Marc L. Gordon, MD
+Vicky Brandt, BA
+Vijay Dhawan, PhD
+David Eidelberg, MD
+
+Correspondence to
+Dr. Eidelberg:
+deidelbe@northwell.edu
+
+ABSTRACT
+
+Objective: To determine whether cognitive impairment in Parkinson disease (PD) and Alzheimer
+disease (AD) derives from the same network pathology.
+
+Methods: We analyzed 18F-fluorodeoxyglucose PET scans from 40 patients with AD and 40 agematched healthy controls from the Alzheimer’s Disease Neuroimaging Initiative and scanned an
+additional 10 patients with AD and 10 healthy controls at The Feinstein Institute for Medical
+Research to derive an AD-related metabolic pattern (ADRP) analogous to our previously established PD cognition-related pattern (PDCP) and PD motor-related pattern (PDRP). We computed
+individual subject expression values for ADRP and PDCP in 89 patients with PD and correlated
+summary scores for cognitive functioning with network expression. We also evaluated changes in
+ADRP and PDCP expression in a separate group of 15 patients with PD scanned serially over a 4year period.
+
+Results: Analysis revealed a significant AD-related metabolic topography characterized by covarying metabolic reductions in the hippocampus, parahippocampal gyrus, and parietal and temporal association regions. Expression of ADRP, but not PDCP, was elevated in both AD groups and
+correlated with worse cognitive summary scores. Patients with PD showed slight ADRP expression, due to topographic overlap with the network underlying PD motor-related pattern degeneration, but only their PDCP expression values increased as cognitive function and executive
+performance declined. Longitudinal data in PD disclosed an analogous dissociation of network
+expression.
+Conclusions: Cognitive dysfunction in PD is associated with a specific brain network that is
+largely spatially and functionally distinct from that seen in relation to AD. Neurology®
+2016;87:1–9
+GLOSSARY
+AD 5 Alzheimer disease; ADNI 5 Alzheimer’s Disease Neuroimaging Initiative; ADRP 5 Alzheimer disease–related pattern;
+ANOVA 5 analysis of variance; FDG 5 18F-fluorodeoxyglucose; FIMR 5 Feinstein Institute for Medical Research; MCI 5 mild
+cognitive impairment; MCI(2) 5 cognitively intact; MCI(m) 5 mild cognitive impairment involving multiple cognitive domains;
+MCI(s) 5 mild cognitive impairment involving a single cognitive domain; MMSE 5 Mini-Mental State Examination; PD 5
+Parkinson disease; PDCP 5 Parkinson disease cognition-related pattern; PDD 5 Parkinson disease dementia; PDRP 5
+Parkinson disease motor-related pattern; RMANOVA 5 repeated-measures analysis of variance.
+
+Cognitive impairment is commonly observed in patients with Parkinson disease (PD), even early
+in the clinical course,1,2 but its cause remains unclear. The postmortem observation of
+amyloid-b plaques and tau neurofibrilliary tangles, pathologic hallmarks of Alzheimer disease
+(AD), in individuals with PD and dementia has led to the hypothesis that the cognitive changes
+in PD are caused by comorbid AD.3–5 Many patients with PD have substantial cognitive loss
+without forming plaques and tangles, however, and the severity of neuropsychological deficits in
+patients with PD with coexisting cortical Lewy body and AD-like pathology correlates only with
+Supplemental data
+at Neurology.org
+From the Center for Neurosciences (P.J.M., M.N., W.S., C.C.T., A.N., V.B., V.D., D.E.) and Litwin-Zucker Research Center for the Study of
+Alzheimer’s Disease (M.L.G.), The Feinstein Institute for Medical Research, Manhasset; and Department of Neurology (P.J.M., M.N., M.L.G., D.E.),
+Northwell Health, Manhasset, NY.
+Data used in preparation of this article were obtained from the Alzheimer’s Disease Neuroimaging Initiative (ADNI) database (adni.loni.usc.edu).
+As such, the investigators within the ADNI contributed to the design and implementation of ADNI and/or provided data but did not participate in
+analysis or writing of this report. A complete listing of ADNI investigators can be found at: http://adni.loni.usc.edu/wp-content/uploads/how_to_
+apply/ADNI_Acknowledgement_List.pdf. (also available as supplemental material).
+Go to Neurology.org for full disclosures. Funding information and disclosures deemed relevant by the authors, if any, are provided at the end of the article.
+© 2016 American Academy of Neurology
+
+ª 2016 American Academy of Neurology. Unauthorized reproduction of this article is prohibited.
+
+1
+
+the former.6 Whether AD contributes to the
+cognitive deficits in PD thus remains an unsettled question.
+The fact that neuronal dysfunction in neurodegenerative diseases is propagated along
+discrete networks makes such questions amenable to neuroimaging approaches. We and
+others have used 18F-fluorodeoxyglucose
+(FDG)–PET and fMRI to identify diseasespecific networks in PD, AD, Huntington disease, and other conditions.7–13 We have shown
+that akinesia-rigidity in PD correlates with the
+expression of a PD motor-related pattern
+(PDRP)10,11 such that more severe symptoms
+are reflected in higher PDRP scores; tremor is
+mediated by a distinct cerebello-thalamocortical network14; and the expression of a distinct PD cognition-related pattern (PDCP),
+characterized by diminished metabolism in
+the medial frontal and parietal regions, rises
+as cognitive function deteriorates.15–18 Similarly, in AD, neuropsychological test performance correlates with the expression of an
+AD-related pattern (ADRP) characterized by
+covarying reductions in hippocampal, superior
+temporal, and parieto-occipital resting-state
+activity.7 To determine whether patients with
+PD, with or without cognitive deficits, express
+ADRP, we compared ADRP and PDCP
+expression in patients with AD and those with
+PD. We also analyzed changes in ADRP and
+PDCP over time in a separate longitudinal
+cohort of patients with PD.
+METHODS Participants. Patients with AD. To ensure the
+most rigorous comparison, we used the same spatial covariance
+analysis approach we previously used to characterize PDRP10,19
+to identify and validate a reliable ADRP topography for prospective use. We analyzed metabolic images from 40 patients with AD
+(23 men and 17 women, mean 6 SD age 75.9 6 5.6 years,
+Mini-Mental State Examination [MMSE] score 22.6 6 3.3)
+and 40 age-matched healthy controls (23 men and 17 women,
+age 76.0 6 4.7 years) who had been scanned with FDG-PET as
+part of the Alzheimer’s Disease Neuroimaging Initiative (ADNI;
+see table e-1 at Neurology.org for demographic and neuropsychological data).
+Using a random number generator (http://www.r-project.
+org/), we assigned the patients with AD and controls to 1 of 2
+groups. The first group comprised 20 patients with AD (AD1; 13
+men and 7 women, age 76.0 6 6.2 years, MMSE score 23.6 6
+2.4) and 20 normal controls (NL1; 10 men and 10 women, age
+76.6 6 5.2 years). We used scans from these AD1 and NL1
+participants to identify a significant ADRP topography and scans
+from a second group of 20 patients with AD (AD2; 10 men and
+10 women, age 75.8 6 5.2 years, MMSE score 21.6 6 3.8) and
+20 normal controls (NL2; 13 men and 7 women, age 75.5 6 4.2
+2
+
+Neurology 87
+
+years) for testing. A third group constituting an additional validation set, consisting of 10 additional patients with AD (AD3; 6
+men and 4 women, age 74.5 6 5.3 years, MMSE score 23.9 6
+4.2) and 10 age-matched healthy volunteers (NL3; 4 men and 6
+women, age 73.4 6 4.8 years), were scanned with FDG-PET on
+the GE Advance tomograph (General Electric, Milwaukee, WI)
+at The Feinstein Institute for Medical Research (FIMR; Manhasset, NY) as described elsewhere.19,20 One of the investigators
+(M.L.G.) made the diagnosis of AD in the AD3 cohort on the
+basis of published criteria.21
+Patients with PD. We quantified ADRP expression values
+and subject scores for the previously characterized PDCP network
+topography in a cross-sectional sample of 89 patients (61 men and
+28 women, age 61.6 6 9.0 years, MMSE score 28.0 6 2.3) who
+were recruited at the Movement Disorders Center of Northwell
+Health (Great Neck, NY) and diagnosed according to the UK
+Brain Bank criteria for idiopathic PD.22 These patients had pure
+parkinsonism without a history of known causative factors (such
+as encephalitis or neuroleptic treatment and without supranuclear
+gaze abnormalities or ataxia); patients with Lewy body dementia
+were excluded. Table e-2 summarizes the demographic and
+neuropsychological data for these participants.
+We classified patients with PD as having dementia or not having dementia according to the Dementia Rating Scale23: 11 had
+scores ,127, classifying them as having PD dementia (PDD); the
+remaining 78 were classified as not having dementia. Using the
+neuropsychological battery (see e-Methods), we assigned patients
+with PD without dementia to 3 previously defined cognitive
+categories: cognitively intact [PD-MCI(2); n 5 18], mild cognitive impairment (MCI) involving a single cognitive domain
+[PD-MCI(s); n 5 30], and MCI involving multiple cognitive
+domains [PD-MCI(m); n 5 30]. The neuropsychological testing
+criteria for MCI in patients with PD are described elsewhere.2,18
+In addition, we compared the progression of ADRP and
+PDCP in a previously published longitudinal imaging cohort of
+15 patients with PD (11 men and 4 women, age 58.0 6 10.2
+years) who were scanned with FDG-PET at baseline (within 2
+years of diagnosis) and again 24 and 48 months later.24 All participants in the cross-sectional and longitudinal PD cohorts
+underwent FDG-PET at FIMR according to the same protocol
+used for the AD3 group.
+
+Standard protocol approvals, registrations, and patient
+consents. For the patients with AD and healthy volunteers participating in ADNI protocols, written informed consent was
+obtained after approval was granted by the Institutional Review
+Board of the collaborating institutions. For participants scanned
+at FIMR, we obtained ethics permission from the Institutional
+Review Board of Northwell Health and written consent from
+each participant after a detailed explanation of the procedures.
+
+Image analysis. FDG-PET scans were preprocessed with SPM5
+(Wellcome Trust Centre for Neuroimaging, Institute of
+Neurology, London, UK) running on Matlab 6.0 (Mathworks
+Inc, Natick, MA). Scans were spatially normalized to a standard
+PET brain template and smoothed with a 3-dimensional
+gaussian kernel (full width at half maximum 5 10 mm).
+Spatial covariance analysis10,19,20 identified a distinct ADRP
+topography in the combined AD1 (n 5 20) and NL1 (n 5 20)
+ADNI derivation sample. (The computational procedures used to
+identify and validate this pattern are detailed in e-Methods.) We
+computed ADRP expression values (subject scores) for each
+member of the ADNI (AD2/NL2, n 5 40) and FIMR (AD3/
+NL3, n 5 20; PD, n 5 89) testing samples using an automated
+algorithm available at http://www.feinsteinneuroscience.org. The
+resulting measures were z scored with respect to corresponding
+
+November 1, 2016
+
+ª 2016 American Academy of Neurology. Unauthorized reproduction of this article is prohibited.
+
+measures from the NL1 normal reference sample used in pattern
+identification. We used analogous procedures to quantify PDCP
+expression in the same scans in each of the testing cases. To
+accord with previously published results, PDCP expression values
+were z scored with respect to values from the group of normal
+controls (NL4; 8 men and 7 women, age 56.7 6 12.3 years) used
+for reference in prior studies.18,25,26
+
+Network correlates of neuropsychological test performance.
+We evaluated the relationship between network expression and cognitive performance in the combined ADNI (AD1/AD2) patient
+cohort and the FIMR PD sample. For the ADNI participants, we
+used the summary score data for memory and executive functioning
+provided in the database.27 Because the ADNI database does not
+provide a summary score for language function, we constructed
+a language index score based on the measures that were available
+for each participant, standardized (z scored) with respect to agecorrected normative values, and averaged individual scores to form
+a language summary index. We used a similar approach to compute
+summary scores for memory, executive function, and language in
+members of the cross-sectional PD sample.
+
+Data analysis. We assessed differences in ADRP expression
+between patients with AD and controls separately for the ADNI
+(AD2/NL2) and FIMR (AD3/NL3) testing sets and for the PD
+and age-matched normal reference (NL4) groups scanned at
+FIMR. Subject scores computed in each of the subgroups
+within this PD sample, PD-MCI(2), PD-MCI(s), PD-MCI
+(m), and PDD, were separately compared to corresponding
+control values. Differences in ADRP expression between
+patients and controls in each testing sample were assessed with
+Student t tests, and differences in ADRP expression across the PD
+subgroups were assessed with 1-way analysis of variance
+(ANOVA), followed by post-hoc Dunnett tests for multiple
+comparisons. We used identical statistical procedures to assess
+group differences in PDCP expression in each testing sample.
+Potential network 3 subgroup interaction effects in the PD
+data were evaluated with 2-way repeated-measures ANOVA
+(RMANOVA), with network as the within-subject variable and
+subgroup as the between-subject variable.
+We used a similar approach to evaluate the neuropsychological summary scores for the 2 disease groups. We constructed separate 1-way ANOVA models for each cognitive domain to
+identify differences across the PD subgroups; p values were
+adjusted for multiple comparisons with the Dunnett correction.
+Relationships between individual subject ADRP and PDCP
+expression values and the neuropsychological summary scores
+were evaluated separately in the AD and PD groups by calculating
+the Pearson product-moment correlations.
+To compare changes in ADRP and PDCP expression over
+time in the longitudinal PD cohort, we analyzed the subject
+scores using 2-way RMANOVA with network and time as
+within-subject variables. If a significant network 3 time interaction effect was evident in the data, we used 1-way RMANOVA to
+assess changes over time in the expression of each network. All
+statistical analyses were performed with SAS 9.3 for Windows
+(SAS Institute, Inc, Cary, NC) and considered significant at
+p , 0.05 (2-tailed).
+RESULTS ADRP, but not PDCP, expression was
+
+consistently elevated in patients with AD. Spatial covariance analysis of metabolic scans from the combined
+AD1/NL1 derivation sample revealed a distinct
+ADRP topography characterized by metabolic reductions in the hippocampus, parahippocampal gyrus,
+
+and temporal and parietal association regions, along
+with an increase in activity in the sensorimotor cortex
+and cerebellum (figure 1A, top and table). The voxel
+weights on the pattern, reflecting local contributions
+to overall network activity, were found to be stable by
+bootstrap estimation (absolute value of the inverse
+coefficient of variation range 5 [22.822 to 2.814],
+p , 0.005, 1,000 iterations). The ADRP was topographically unrelated to the PDCP (r2 5 0.013, voxel
+weight correlation, figure 1B, top). It is worth noting
+that the ADRP exhibited some correlation with
+the PDRP, although the relationship did not reach
+significance (r2 5 0.123, voxel-weight correlation);
+there are shared regional metabolic reductions
+involving the inferior parietal lobule bilaterally,
+which are more salient for ADRP than PDRP11 (see
+e-Methods). ADRP subject scores (figure 1A,
+bottom), which measure pattern expression in
+individual cases, were consistently elevated in
+patients with AD relative to their healthy
+counterparts (p , 0.0003, permutation test).
+For validation, we used an automated algorithm to
+quantify ADRP expression in the ADNI (AD2 and
+NL2) and FIMR (AD3 and NL3) testing sets on a prospective single-scan basis. As in the derivation sample,
+ADRP subject scores (figure 1A, bottom) were markedly elevated in patients relative to controls in both
+AD testing sets (AD2, p , 0.0001; AD3, p , 0.004,
+Student t tests). In contrast to the ADRP, expression
+values for the PDCP (figure 1B, bottom) did not differ
+from normal in the derivation set (p 5 0.74) or in
+either of the testing sets (AD2, p 5 0.14; AD3, p 5
+0.63). There was no discernible correlation between
+ADRP and PDCP expression values in the AD patient
+sample (p . 0.34) or between ADRP or PDCP
+expression and subject age (p . 0.18).
+In patients with AD, neuropsychological scores correlated
+with ADRP but not PDCP expression levels. We used
+
+the summary score data for memory, language, and
+executive functioning provided by the ADNI database,27 which included data from a variety of measures, depending on which tests were administered
+(e-Methods). Summary scores for each of the 3 cognitive domains correlated with ADRP expression in the
+combined AD cohorts: the worse the summary score,
+the more elevated the expression of ADRP (memory:
+r 5 20.32, p , 0.05; language: r 5 20.45, p ,
+0.004; executive function: r 5 20.34, p , 0.03,
+Pearson correlations, figure 2, left). There was no such
+correlation between neuropsychological summary scores
+and PDCP expression (p . 0.12, figure 2, right).
+Cognitive impairment in patients with PD correlates
+with expression of PDCP but not ADRP. As expected,18
+
+the PD cohort showed PDCP expression (p ,
+0.0005) that increased as cognitive impairment
+Neurology 87
+
+November 1, 2016
+
+ª 2016 American Academy of Neurology. Unauthorized reproduction of this article is prohibited.
+
+3
+
+Figure 1
+
+Alzheimer disease (AD)–related pattern (ADRP) expression, but not Parkinson disease (PD) cognition-related pattern (PDCP)
+expression, is increased in AD
+
+(A) Top, ADRP, identified by spatial covariance analysis of 18F-fluorodeoxyglucose–PET scans of 20 patients with AD (AD1) and 20 normal controls (NL1)
+from the Alzheimer’s Disease Neuroimaging Initiative (ADNI), was characterized by reduced activity in the hippocampus, parahippocampal gyrus, and parietal
+and temporal association regions, with relative increases in the cerebellum, sensorimotor cortex, and supplementary motor area (represented by the second
+principal component, which accounted for 12.8% of the subject 3 voxel variation in the data). Voxel weights on the pattern, reflecting local contributions to
+overall network activity, were found to be stable by bootstrap estimation (absolute value of the inverse coefficient of variation range 5 [22.822 to 2.814],
+p , 0.005, 1,000 iterations). Bottom, In the derivation sample, which comprised 20 patients with AD (AD1) and 20 normal controls (NL1) selected randomly
+from the ADNI database (see supplemental data), ADRP expression values (subject scores) accurately discriminated patients from healthy controls (p ,
+0.0003, permutation test). Prospectively computed ADRP subject scores achieved comparable group separation (p , 0.004, Student t test) in 2 separate
+testing samples. The first testing set comprised the 20 patients with AD (AD2) and 20 normal ADNI participants (NL2) not used for pattern derivation. The
+second testing set comprised 10 patients with AD (AD3) and 10 normal controls (NL3) scanned separately at the Feinstein Institute. (B) Top, PDCP was
+previously identified by spatial covariance analysis of metabolic images from 15 patients with PD with varying levels of cognitive dysfunction.15 PDCP is
+characterized by reduced activity in the presupplementary motor area, premotor, and prefrontal regions and in parietal associative cortex, with relative
+increases in the cerebellar vermis and dentate nuclei. Bottom, PDCP expression did not differ (p . 0.14) between patients with AD and controls in the
+derivation sample or in the ADNI and Feinstein validation samples. (The covariance maps shown on the top in A and B were overlaid on T1-weighted magnetic
+resonance template images. For each pattern, the display was thresholded at jZj 5 1.64 [p , 0.05]. Voxels with positive region weights [relative increases] are
+color-coded red; those with negative region weights [relative decreases] are color-coded blue. Error bars shown on the bottom of A and B represent 1 SEM.)
+
+worsened (F3,85 5 3.42, p , 0.03, 1-way ANOVA,
+figure 3A). Patients with PD also expressed ADRP
+(p , 0.05, Student t tests), but there was no
+association with the degree of cognitive impairment
+(F3,85 5 1.61, p 5 0.19, 1-way ANOVA). Indeed,
+ADRP levels were similarly elevated (p , 0.02,
+Student t test) in all patients with PD (figure 3B),
+including the cognitively intact PD-MCI(2) group,
+which showed modest elevations in both PDCP and
+ADRP expression relative to healthy controls (ADRP,
+4
+
+Neurology 87
+
+p , 0.01; PDCP, p , 0.04, Student t tests); the level
+of pattern expression in these participants (subject
+scores z1.0) was similar for the 2 topographies
+(p 5 0.76 for comparison of ADRP and PDCP
+subject scores, paired Student t test). In the
+cognitively impaired PD-MCI(m) and PDD
+subgroups, PDCP expression was greater than
+ADRP [PD-MCI(m), p 5 0.001; PDD, p , 0.04,
+paired Student t tests]. The entire PD data set showed
+a clear network 3 subgroup interaction (F3,85 5 3.78,
+
+November 1, 2016
+
+ª 2016 American Academy of Neurology. Unauthorized reproduction of this article is prohibited.
+
+Table
+
+Brain regions with a significant contribution to Alzheimer disease–related pattern
+Coordinatesa
+BA
+
+Zmax
+
+x
+
+y
+
+z
+
+40
+
+22.84
+
+249
+
+252
+
+37
+
+7,31
+
+22.34
+
+13
+
+259
+
+30
+
+Regions with negative weights
+Inferior parietal lobule, left
+Precuneus
+Right
+
+22.27
+
+213
+
+260
+
+27
+
+39,40
+
+22.70
+
+252
+
+253
+
+23
+
+Right
+
+37
+
+22.06
+
+50
+
+254
+
+21
+
+Left
+
+21
+
+23.14
+
+261
+
+240
+
+214
+
+37
+
+22.39
+
+251
+
+253
+
+21
+
+Right
+
+20,36,37
+
+22.25
+
+39
+
+235
+
+213
+
+Left
+
+37
+
+22.17
+
+234
+
+240
+
+210
+
+Hippocampus, left
+
+22.00
+
+230
+
+217
+
+214
+
+Caudate, left
+
+22.08
+
+29
+
+14
+
+28
+
+6
+
+3.42
+
+7
+
+24
+
+68
+
+5,6
+
+2.60
+
+3
+
+228
+
+60
+
+3.02
+
+25
+
+244
+
+61
+
+Left
+Superior temporal gyrus, supramarginal gyrus, left
+Middle temporal gyrus
+
+Inferior temporal gyrus, middle temporal gyrus,
+middle occipital gyrus, left
+Fusiform gyrus, parahippocampal gyrus
+
+Regions with positive weights
+SMA, right
+Paracentral lobule, postcentral gyrus
+Right
+Left
+Paracentral lobule, postcentral gyrus
+Right
+
+1,2,3,4
+
+2.15
+
+31
+
+234
+
+61
+
+Left
+
+2,3,4
+
+1.90
+
+226
+
+233
+
+61
+
+Right
+
+2.08
+
+8
+
+282
+
+223
+
+Left
+
+2.01
+
+27
+
+284
+
+223
+
+Cerebellum, vermis V/VI/VIIA/VIIB, hemisphere
+lobule V/VI/crus I/crus IIb
+
+Abbreviations: BA 5 Brodmann area; SMA 5 supplementary motor area.
+a
+Montreal Neurological Institute (MNI) standard space.
+b
+According to the atlas of Schmahmann et al.31
+
+p 5 0.01, 2 3 4 RMANOVA) such that stepwise
+increases in PDCP expression corresponded with
+more severe cognitive dysfunction but without
+corresponding differences in ADRP. PDCP and
+ADRP expression values did not correlate in the PD
+subgroups with dementia (p 5 0.67) or without
+dementia (p 5 0.66).
+If ADRP expression is present in patients with PD
+but does not correlate with cognitive deficits, what
+does it represent? Given the aforementioned overlap
+in the parietal association cortex between ADRP and
+PDRP topographies, we computed expression values
+for a modified ADRP topography, called ADRP’,
+which was defined by masking the overlapping regions
+in each brain before forward application of the native
+
+ADRP pattern (figure e-1A). ADRP’ expression (figure 3C) did not differ from normal in any of the PD
+subgroups (p . 0.05, Student t tests) but remained
+elevated in each of the AD patient samples (p , 0.01,
+figure e-1B). ADRP expression in patients with PD
+thus largely reflects changes in PDRP due to PD
+rather than an AD-associated disease process.
+PDCP, but not ADRP, expression levels correlate with
+neuropsychological measures in patients with PD. We
+
+chose the cognitive measures for our PD cohorts to
+match the ADNI composite measures as closely as possible, and we used a similar approach to compute the
+analogous summary scores (e-Methods). Consistent
+with MCI classification, neuropsychological summary
+Neurology 87
+
+November 1, 2016
+
+ª 2016 American Academy of Neurology. Unauthorized reproduction of this article is prohibited.
+
+5
+
+Figure 2
+
+Alzheimer disease (AD)–related pattern (ADRP) expression, but not Parkinson disease cognitionrelated pattern (PDCP) expression, correlates with neuropsychological summary scores in AD
+
+Network correlations with neuropsychological summary scores in the patients with AD from the AD1 and AD2 cohorts (see
+text). Significant negative correlations (r , 20.32, p , 0.05) were seen between ADRP expression and summary scores for
+memory (A, left), language (B, left), and executive function (C, left). By contrast, no cognitive correlations (p . 0.12) were
+observed with PDCP expression values (A–C, right) in the same AD cohort.
+
+scores (table e-2) declined with worsening cognitive
+performance in all 3 domains across the PD patient
+subgroups. Summary scores for memory differed across
+the PD subgroups (F3,81 5 13.7, p , 0.0001, 1-way
+ANOVA), with worse performance in the PD-MCI
+and PDD subgroups [p , 0.001 for each subgroup
+relative to PD-MCI(2); post hoc Dunnett tests].
+Executive function (F3,83 5 5.4, p , 0.002) and
+language (F3,82 5 5.3, p , 0.003) showed similar
+trends. PD-MCI(m) and patients with PDD exhibited
+clear deficits in executive performance compared with
+PD-MCI(2) (p , 0.01); language deficits were more
+pronounced in the PDD group [p , 0.005 relative to
+PD-MCI(2), post hoc Dunnett test].
+Higher PDCP expression values reflected
+worse summary scores for executive performance
+(r 5 20.34, p 5 0.001, figure 3D, left). There
+6
+
+Neurology 87
+
+was a weak correlation between PDCP expression
+and memory impairment (r 5 20.22, p , 0.04)
+but not with language deficits (r 5 20.09, p 5
+0.42, data not shown). ADRP values, in contrast,
+did not correlate with cognitive performance in
+any of the 3 domains (p . 0.56, figure 3D, right).
+Thus, in patients with AD, individual differences
+in memory, language, and executive function were
+reflected in ADRP but not PDCP expression. In
+patients with PD, in contrast, executive function
+had a clear relationship with PDCP expression but
+not with ADRP expression.
+PDCP, but not ADRP, expression increases over time in
+patients with PD. In the longitudinal cohort of early pa-
+
+tients with PD (figure 4), a significant network 3 time
+interaction effect (F2,23 5 4.34, p , 0.03, 2-way
+
+November 1, 2016
+
+ª 2016 American Academy of Neurology. Unauthorized reproduction of this article is prohibited.
+
+Figure 3
+
+Parkinson disease (PD) cognition-related pattern (PDCP) expression, but not Alzheimer disease (AD)–related pattern (ADRP)
+expression, is associated with cognitive impairment in PD
+
+Mean PDCP (A) and ADRP (B) expression values are displayed for patients with PD with no evidence of mild cognitive impairment [MCI(2); n 5 18],
+single-domain MCI [MCI(s); n 5 30], multiple-domain MCI [MCI(m); n 5 30], and PD with dementia (PDD; n 5 11); values for normal controls (NL; n 5 15)
+are provided for reference (see text). Arrows indicate post hoc Dunnett test relative to MCI(2) group. (C) ADRP’ subject scores, reflecting the
+expression of this pattern after the exclusion of ADRP/PDRP overlap regions (see text), did not differ significantly from normal in any of the PD
+subgroups, regardless of cognitive status. (D) PDCP expression in this PD cohort (left) correlated significantly (r 5 20.34, p 5 0.001) with executive
+function, whereas ADRP did not correlate with summary scores for executive functioning (right) in these patients with PD (*p , 0.05, **p , 0.01, ***p
+, 0.001, Student t tests compared to normal controls).
+
+RMANOVA) revealed different progression rates for
+the 2 networks over the course of disease. PDCP
+expression in this early PD cohort increased with
+time (F2,23 5 7.16, p , 0.004, 1-way
+RMANOVA), and subject scores for this pattern
+measured at 4 years were higher than at baseline
+(p , 0.003, post hoc Dunnett test). Expression
+values for concurrently measured ADRP, however,
+did not change over the 4 years of follow-up
+(ADRP: F2,23 5 2.21, p 5 0.13, 1-way
+RMANOVA), nor did it correlate with age (p .
+0.31). Moreover, although ADRP expression in
+these patients was elevated relative to control values
+(p , 0.02, Student t test) at all 3 time points, the
+expression of ADRP’ did not reach significance at
+any time point (p . 0.05, Student t test).
+DISCUSSION In this study, we used the distinct network topographies of AD and PD to investigate
+whether the cognitive deficits that commonly occur
+
+in patients with PD are more likely attributable to
+PD itself or to comorbidity with AD. Our analyses
+indicate that, despite overlapping regions of pathology, cognitive dysfunction in PD is largely distinct
+from that which occurs in AD.
+This is not to say, however, that some patients
+with PD may not also have AD. Although most of
+the 11 patients with PD with the most severe disease
+(PDD) had ADRP expression levels tightly clustered
+around the mean, 2 participants showed relatively
+high ADRP expression that remained elevated even
+after masking regions of ADRP/PDRP overlap in
+the parietal association cortex (ADRP: 2.63 and
+2.00, subject score 5 0.98 6 0.76 for the remaining
+9 PDD cases; ADRP’: 1.40 and 1.85, subject score 5
+0.29 6 0.86 for the remaining 9 cases). Even more
+strikingly, the patient with PDD with the highest
+ADRP’ expression was also exceptional in expressing
+almost normal PDCP levels; this patient most likely
+has true comorbid AD. It is worth noting that our
+Neurology 87
+
+November 1, 2016
+
+ª 2016 American Academy of Neurology. Unauthorized reproduction of this article is prohibited.
+
+7
+
+Figure 4
+
+Parkinson disease (PD) cognition-related pattern (PDCP) expression,
+but not Alzheimer disease–related pattern (ADRP) expression, increases in PD over time
+
+intellectual content. Dr. Niethammer: data interpretation and revising
+of the manuscript for intellectual content. Dr. Sako: data analysis and
+drafting of the manuscript for intellectual content. Dr. Tang: statistical
+analysis, data analysis and interpretation, and drafting and revising
+of the manuscript for intellectual content. Dr. Nazem: data analysis
+and drafting of the manuscript for intellectual content. Dr. Gordon:
+data acquisition and revising of the manuscript for intellectual content.
+V. Brandt: revising of the manuscript for intellectual content. Dr. Dhawan:
+data acquisition, data interpretation, study supervision, and revising of the
+manuscript for intellectual content. Dr. Eidelberg: study design, statistical
+analysis, data interpretation, study supervision, obtaining funding, and
+drafting and revising of the manuscript for intellectual content.
+
+ACKNOWLEDGMENT
+The authors wish to thank Ms. Ivana De Lucia for her valuable technical
+assistance and Ms. Yoon Young Choi and Ms. Toni Fitzpatrick for manuscript preparation/copyediting.
+
+STUDY FUNDING
+
+Mean ADRP (squares) and PDCP (triangles) expression in a longitudinal early-stage PD
+cohort (see text). PDCP expression values (gray line) increased over time in this group (p ,
+0.004, repeated-measures analysis of variance [RMANOVA]), while concurrent ADRP
+changes (blue line) did not reach significance (p 5 0.13, RMANOVA). ADRP expression in
+these patients was elevated relative to control values (p , 0.02, Student t test) at all time
+points; PDCP expression, in contrast, reached abnormal levels (p , 0.001) only at the final
+time point. (Error bars represent 1 SE at each time point. *p , 0.05, **p , 0.01, ***p ,
+0.001, Student t tests compared to normal controls.)
+
+metabolic network findings complement structural
+imaging data showing AD-like volumetric changes
+in the cerebral cortex of patients with PD.28 The
+pattern of volume loss seen with structural MRI in
+patients with AD29 exhibits some topographic homology with ADRP but not with PDCP; it is possible
+that Lewy- and Alzheimer-type pathologies affect cognition differently in individuals with PD.6
+From a clinical standpoint, it is important for
+physicians and patients to recognize that cognitive dysfunction in PD is likely not caused by comorbid AD.
+Furthermore, the disease specificity of ADRP and
+PDCP provides a distinct contrast with resting-state
+networks found in healthy controls such as the default
+mode network that show progressive attrition in both
+disease populations.30 To fully articulate the relationship of the observed imaging changes with the underlying disease process will require multimodal imaging
+in conjunction with molecular genetic analyses and
+thorough postmortem assessments. In the meanwhile,
+having objective imaging biomarkers to differentiate
+between underlying pathologies will help with prognosis, selection of participants for clinical trials, and
+choice of treatments when they become available.
+AUTHOR CONTRIBUTIONS
+Dr. Mattis: study design, data acquisition, statistical analysis, data analysis
+and interpretation, and drafting and revising of the manuscript for
+8
+
+Neurology 87
+
+This work was supported in part by the National Institute of Neurologic
+Disorders and Stroke Morris K. Udall Center of Excellence for Parkinson’s Disease Research at The Feinstein Institute for Medical Research
+(P50 NS071675 to D.E.) and the Thomas Hartman Foundation for
+Parkinson’s Research. The content is solely the responsibility of the
+authors and does not necessarily represent the official views of the
+National Institute of Neurologic Disorders and Stroke or the NIH.
+The sponsor did not play a role in study design, collection, analysis or
+interpretation of data, writing the report, or the decision to submit the
+paper for publication.
+
+DISCLOSURE
+P. Mattis, M. Niethammer, W. Sako, C. Tang, A. Nazem, V. Brandt,
+and V. Dhawan report no disclosures relevant to the manuscript. M.
+Gordon received research support, without direct compensation,
+from Merck, Lundbeck, Genentech, Accera, Baxter, Forest, and Eli
+Lilly; he has also participated in an advisory board for Lundbeck.
+D. Eidelberg serves on the scientific advisory board and has received
+honoraria from The Michael J. Fox Foundation for Parkinson’s
+Research; is listed as coinventor of patents for markers for use in
+screening patients for nervous system dysfunction and a method
+and apparatus for using same, without financial gain; and has
+received research support from the NIH (National Institute of Neurologic Disorders and Stroke, National Institute on Deafness and
+Other Communication Disorders, National Institute of Allergy and
+Infectious Diseases) and the Dana Foundation. Go to Neurology.org
+for full disclosures.
+
+Received March 18, 2016. Accepted in final form July 18, 2016.
+REFERENCES
+1. Aarsland D, Kurz MW. The epidemiology of dementia
+associated with Parkinson disease. J Neurol Sci 2010;
+289:18–22.
+2. Janvin CC, Larsen JP, Aarsland D, Hugdahl K. Subtypes
+of mild cognitive impairment in Parkinson’s disease: progression to dementia. Mov Disord 2006;21:1343–1349.
+3. Irwin DJ, White MT, Toledo JB, et al. Neuropathologic
+substrates of Parkinson disease dementia. Ann Neurol
+2012;72:587–598.
+4. Irwin DJ, Lee VM, Trojanowski JQ. Parkinson’s disease
+dementia: convergence of alpha-synuclein, tau and amyloidbeta pathologies. Nat Rev Neurosci 2013;14:626–636.
+5. Jellinger KA, Seppi K, Wenning GK, Poewe W. Impact of
+coexistent Alzheimer pathology on the natural history of
+Parkinson’s disease. J Neural Transm 2002;109:329–339.
+6. Compta Y, Parkkinen L, O’Sullivan SS, et al. Lewy- and
+Alzheimer-type pathologies in Parkinson’s disease dementia:
+which is more important? Brain 2011;134:1493–1505.
+
+November 1, 2016
+
+ª 2016 American Academy of Neurology. Unauthorized reproduction of this article is prohibited.
+
+7.
+
+8.
+
+9.
+
+10.
+
+11.
+
+12.
+
+13.
+
+14.
+
+15.
+
+16.
+
+17.
+
+18.
+
+Habeck C, Foster N, Perneczky R, et al. Multivariate and
+univariate neuroimaging biomarkers of Alzheimer’s disease. Neuroimage 2008;40:1503–1515.
+Scarmeas N, Habeck CG, Zarahn E, et al. Covariance
+PET patterns in early Alzheimer’s disease and subjects with
+cognitive impairment but no dementia: utility in group
+discrimination and correlations with functional performance. Neuroimage 2004;23:35–45.
+Teune LK, Strijkert F, Renken RJ, et al. The Alzheimer’s
+disease-related glucose metabolic brain pattern. Curr Alzheimer
+Res 2014;11:725–732.
+Eidelberg D. Metabolic brain networks in neurodegenerative disorders: a functional imaging approach. Trends
+Neurosci 2009;32:548–557.
+Niethammer M, Eidelberg D. Metabolic brain networks in
+translational neurology: concepts and applications. Ann
+Neurol 2012;72:635–647.
+Feigin A, Leenders KL, Moeller JR, et al. Metabolic network abnormalities in early Huntington’s disease: an [(18)
+F]FDG PET study. J Nucl Med 2001;42:1591–1595.
+Tang CC, Feigin A, Ma Y, et al. Metabolic network as
+a progression biomarker of premanifest Huntington’s disease. J Clin Invest 2013;123:4076–4088.
+Mure H, Hirano S, Tang CC, et al. Parkinson’s disease
+tremor-related metabolic network: characterization, progression, and treatment effects. Neuroimage 2011;54:
+1244–1253.
+Huang C, Mattis P, Tang C, Perrine K, Carbon M, Eidelberg D. Metabolic brain networks associated with cognitive function in Parkinson’s disease. Neuroimage 2007;34:
+714–723.
+Mattis PJ, Tang CC, Ma Y, Dhawan V, Eidelberg D.
+Network correlates of the cognitive response to levodopa
+in Parkinson disease. Neurology 2011;77:858–865.
+Meles SK, Tang CC, Teune LK, et al. Abnormal metabolic pattern associated with cognitive impairment in Parkinson’s disease: a validation study. J Cereb Blood Flow
+Metab 2015;35:1478–1484.
+Huang C, Mattis P, Perrine K, Brown N, Dhawan V,
+Eidelberg D. Metabolic abnormalities associated with mild
+cognitive impairment in Parkinson disease. Neurology
+2008;70:1470–1477.
+
+19.
+
+20.
+
+21.
+
+22.
+
+23.
+24.
+
+25.
+
+26.
+
+27.
+
+28.
+
+29.
+
+30.
+
+31.
+
+Spetsieris P, Ma Y, Peng S, et al. Identification of diseaserelated spatial covariance patterns using neuroimaging
+data. J Vis Exp 2013;76:e50319.
+Spetsieris PG, Eidelberg D. Scaled subprofile modeling of
+resting state imaging data in Parkinson’s disease: methodological issues. Neuroimage 2011;54:2899–2914.
+McKhann G, Drachman D, Folstein M, Katzman R, Price
+D, Stadlan EM. Clinical diagnosis of Alzheimer’s disease:
+report of the NINCDS-ADRDA work group under the
+auspices of Department of Health and Human Services Task
+Force on Alzheimer’s Disease. Neurology 1984;34:939–944.
+Hughes A, Daniel S, Ben-Shlomo Y, Lees A. The accuracy
+of diagnosis of parkinsonian syndromes in a specialist
+movement disorder service. Brain 2002;125:861–870.
+Mattis S. Dementia Rating Scale: Professional Manual.
+Odessa: Psychological Assessment Resources; 1988.
+Tang C, Poston K, Dhawan V, Eidelberg D. Abnormalities in
+metabolic network activity precede the onset of motor symptoms in Parkinson’s disease. J Neurosci 2010;30:1049–1056.
+Holtbernd F, Ma Y, Peng S, et al. Dopaminergic correlates
+of metabolic network activity in Parkinson’s disease. Hum
+Brain Mapp 2015;36:3575–3585.
+Niethammer M, Tang CC, Ma Y, et al. Parkinson’s disease cognitive network correlates with caudate dopamine.
+Neuroimage 2013;78:204–209.
+Crane PK, Carle A, Gibbons LE, et al. Development and
+assessment of a composite score for memory in the Alzheimer’s
+Disease Neuroimaging Initiative (ADNI). Brain Imaging
+Behav 2012;6:502–516.
+Weintraub D, Dietz N, Duda JE, et al. Alzheimer’s
+disease pattern of brain atrophy predicts cognitive decline
+in Parkinson’s disease. Brain 2012;135:170–180.
+Davatzikos C, Genc A, Xu D, Resnick SM. Voxel-based
+morphometry using the RAVENS maps: methods and
+validation using simulated longitudinal atrophy. Neuroimage 2001;14:1361–1369.
+Spetsieris PG, Ko JH, Tang CC, et al. Metabolic restingstate brain networks in health and disease. Proc Natl Acad
+Sci U S A 2015;112:2563–2568.
+Schmahmann JD, Doyon J, Toga AW, Petrides M, Evans
+AC. MRI Atlas of the Human Cerebellum. San Diego:
+Academic Press; 2000.
+
+Neurology 87
+
+November 1, 2016
+
+ª 2016 American Academy of Neurology. Unauthorized reproduction of this article is prohibited.
+
+9
+
+Distinct brain networks underlie cognitive dysfunction in Parkinson and Alzheimer
+diseases
+Paul J. Mattis, Martin Niethammer, Wataru Sako, et al.
+Neurology published online October 5, 2016
+DOI 10.1212/WNL.0000000000003285
+This information is current as of October 5, 2016
+Updated Information &
+Services
+
+including high resolution figures, can be found at:
+http://www.neurology.org/content/early/2016/10/05/WNL.0000000000
+003285.full.html
+
+Supplementary Material
+
+Supplementary material can be found at:
+http://www.neurology.org/content/suppl/2016/10/05/WNL.000000000
+0003285.DC1.html
+
+Subspecialty Collections
+
+This article, along with others on similar topics, appears in the
+following collection(s):
+Alzheimer's disease
+http://www.neurology.org//cgi/collection/alzheimers_disease
+Assessment of cognitive disorders/dementia
+http://www.neurology.org//cgi/collection/assessment_of_cognitive_dis
+orders_dementia
+MCI (mild cognitive impairment)
+http://www.neurology.org//cgi/collection/mci_mild_cognitive_impairm
+ent
+Parkinson's disease/Parkinsonism
+http://www.neurology.org//cgi/collection/parkinsons_disease_parkinso
+nism
+PET
+http://www.neurology.org//cgi/collection/pet
+
+Permissions & Licensing
+
+Information about reproducing this article in parts (figures,tables) or in
+its entirety can be found online at:
+http://www.neurology.org/misc/about.xhtml#permissions
+
+Reprints
+
+Information about ordering reprints can be found online:
+http://www.neurology.org/misc/addir.xhtml#reprintsus
+
+Neurology ® is the official journal of the American Academy of Neurology. Published continuously since
+1951, it is now a weekly with 48 issues per year. Copyright © 2016 American Academy of Neurology. All
+rights reserved. Print ISSN: 0028-3878. Online ISSN: 1526-632X.
+
+
