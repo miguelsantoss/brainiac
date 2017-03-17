@@ -56,6 +56,7 @@
     "react-draggable": "^2.2.3",
     "react-redux": "^4.4.0",
     "react-resizable": "^1.6.0",
+    "react-rnd": "^4.2.2",
     "redux": "^3.3.1"
   }
 }

@@ -2,7 +2,8 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import Draggable from 'react-draggable';
-import Resizable from 'react-resizable';
+import { Resizable, ResizableBox } from 'react-resizable';
+import Rnd from 'react-rnd';
 
 // Import d3 stuff
 import * as d3 from 'd3-force';
@@ -14,6 +15,7 @@ import { drag } from 'd3-drag';
 import './App.css';
 import './Network.css';
 
+// import some placeholder data
 const doc_sim= require('../cosine-sample.json');
 
 export default class Network extends Component {
@@ -23,12 +25,25 @@ export default class Network extends Component {
     this.state = {
       initialData: [],
       nodes: [],
-      links: []
+      links: [],
+      height: 500,
+      width: 500,
+      x: 25,
+      y: 25,
+      width_viz: 0,
+      height_viz: 0,
     }; 
     this.initializeD3 = this.initializeD3.bind(this);
   }
 
   componentDidMount() {
+    const height_content = document.getElementById('window-network-content').clientHeight;
+    const width_content = document.getElementById('window-network-content').clientWidth;
+
+    //this.setState({ ...this.state });
+    // newState = { ...this.state };
+    // this.setState({...this.state, width_viz: width_content, height_viz: height_content });
+
     fetch(doc_sim).then((response) => {
       return doc_sim;
     }).then((data) => {
@@ -43,12 +58,14 @@ export default class Network extends Component {
       })
   }
 
+  onResize(event, {element, size}) {
+    this.setState({width: size.width, height: size.height});
+  }
+
   initializeD3() {
-    const width = 500;
-    const height = 300;
-
+    const width = this.state.width;
+    const height = this.state.height;
     const aspect = width / height;
-
     const color = scaleOrdinal(schemeCategory20);
     
     console.log(d3_sel.select(this.refs.mountPoint));
@@ -124,23 +141,28 @@ export default class Network extends Component {
 
   render() {
     return (
-      <Draggable
-        axis="both"
-        handle=".handle"
-        defaultPosition={{x: 50, y: 50}}
-        position={null}
-        grid={[1, 1]}
-        zIndex={100}
-        onStart={this.handleStart}
-        onDrag={this.handleDrag}
-        onStop={this.handleStop}>
-        <div className="drag-wrapper">
-          <div className="handle box">Network</div>
-          <div className="Network">
-            <div className="content" id="mountDiv" ref="mountPoint"></div>
+      <Rnd
+				ref={c => { this.rnd = c; }}
+        initial={{
+          x: this.state.x,
+          y: this.state.y,
+          width: this.state.width,
+          height: this.state.height,
+        }}
+        dragHandlerClassName='.handle'
+        moveGrid={[1, 1]}
+        resizeGrid={[1, 1]}
+      >
+				<div className='drag-wrapper'>
+          <div className='handle text-vert-center'>
+            <span>Network</span>
+          </div>
+          <div id="window-network-content" className='content no-cursor text-vert-center'>
+            <div className="Network"></div>
+            <div id="mountDiv" ref="mountPoint"></div>
           </div>
         </div>
-      </Draggable>
+      </Rnd>
     );
   }
 };
