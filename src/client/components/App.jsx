@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import Network from './Network.jsx';
+
+import Dashboard from './Dashboard.jsx';
+import View from './View.jsx';
 
 export default class App extends Component {
   render() {
     return (
       <div className="App">
-        <Network />
+        <Dashboard />
+        <View />
       </div>
     );
   }

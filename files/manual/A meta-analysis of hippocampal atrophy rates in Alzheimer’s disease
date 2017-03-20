@@ -1,0 +1,515 @@
+Alzheimer’s disease (AD) is a large and growing problem
+with increasing financial and social burdens to the individual,
+carers and society. AD affects over 5% of the population
+over 60 years and its prevalencedoubles every 5–10 years
+above that age.
+
+A definitive diagnosis of AD can only be given following
+pathologic examination of the brain, usually at post-mortem.
+The disease is pathologically characterised by the presence
+of microscopic extracellular neuritic plaques and intracellular
+neurofibrillary tangles. AD tangle pathology progresses
+from medial temporal lobe structures such as the entorhinal
+cortex and hippocampus, to encompass the whole cortex,
+whereas plaque pathology is largely cortical and increases
+with disease severity. One of the results
+of this pathology is cerebral atrophy which can be visualised
+using structural MRI. The atrophy
+can be seen even at a single time-point, as brain structures in
+Alzheimer’s subjects are smaller on average compared with
+controls. In addition, loss of tissue volume over time can also
+be detected in large regions such as the whole brain
+and in smaller temporal areas such as the hippocampus
+and entorhinal cortex. This has led to a number of studies
+that have suggested that hippocampal atrophy rates may be useful both
+diagnostically, and to track disease progression.
+Many studies assessing longitudinal hippocampal change
+have been reported in the literature. Different methods have been
+used to generate these rates of atrophy including automated
+and manual techniques. In addition, different
+populations of patients have also been included. To the best
+of our knowledge, no statistical review of the hippocampal
+atrophy rate literature has been conducted to date. Such a
+review is required to assess heterogeneity of reported studies,
+to better understand how age and disease severity affect
+the calculated atrophy rates, and to pool the results from
+these studies to more accurately estimate the rate of atrophy
+of the hippocampus in AD and matched control groups.
+This type of analysis may also be useful in identifying outlier
+results where the methodology employed may deserve
+critical review. In addition measuring the inter-site variance
+in hippocampal atrophy rates may be useful for anyone planning
+a multi-site trial, as it may define the level of consistency
+to expect in the imaging measures across sites.
+
+Study objective
+
+The objective of this study is to perform a meta-analysis of
+hippocampal atrophy rates in patients with AD and matched
+controls from studies reported in the peer-reviewed literature.
+
+Methods
+
+The following protocol was employed in the study.
+
+General study inclusion criteria
+
+We aimed to identify all observational and randomised
+controlled trials (RCT) where hippocampal volume was measured
+on MRI at two or more points in time, and annualised
+hippocampal atrophy rate was reported for patients with
+AD. We included data from both arms of randomised controlled
+trials if symptomatic treatment was given, and only
+the placebo arm if a disease-modifying treatment was given
+as atrophy rate might have been altered by the treatment.
+Disease-modifying treatments were classified as those that
+had been shown to significantly alter whole brain atrophy
+rates.
+
+We included MRI studies reporting results from patients
+with AD of any age or gender. There were no restrictions on
+the method used to diagnose AD. As MCI was not a subject
+group being formally assessed as part of this meta-analysis,
+cognitively impaired subject groups with a mean MMSE
+>26 were excluded. No restriction was placed on scanning
+protocol, strength of magnet used to image the patients or
+segmentation protocol used to determine the atrophy rate.
+
+Unpublished studies were not included, unless accepted
+papers had been published ahead of print online, and studies
+where the mean annualised rates of atrophy could not
+be provided by the author were excluded. Since people with
+Down’s syndrome/Alzheimer’s disease and mutation carriers
+of the known AD-causing genes may have a different
+course of disease, studies based on their populations were
+also excluded.
+
+Outcome measure
+
+Mean (arithmetic) atrophy rate specified as % loss of base-
+line volume per year.
+
+Search methods for identification of studies
+
+Searches for relevant studies were performed using elec-
+tronic and other sources.
+
+Electronic sources
+
+The published literature was searched in MEDLINE (1950
+to February Week 2 2007) through OVID using the following
+strategy:
+
+(hippocamp$.tw) AND ((EXP magnetic resonance imaging
+OR((magnetic AND resonance AND imag$).
+tw OR mri$.tw)) AND ((EXP Alzheimer’s Disease/)OR
+Alzheimer$.tw))
+
+Abstracts were read for all papers with relevant titles and
+full papers obtained and examined for all relevant abstracts.
+This search was extended by examining reference lists for
+the papers thus identified. Further papers citing these papers
+were examined using Web of Science (1985–2007).
+
+Individual searching of journals
+
+In addition the following journals were searched
+including Neurology, Annals of Neurology, Archives of
+Neurology, Neurobiology of Aging, American Journal of
+Neuroradiology, Brain, Cerebral Cortex, Cortex, European
+Journal of Neurology, Hippocampus, Journal of Neurology,
+Journal of Neurology, Neurosurgery and Psychiatry, Lancet Neurology
+, NeuroImage, Neuroradiology, Dementia and
+Geriatric Cognitive Disorders, Journal of Alzheimer’s Disease,
+American Journal of Alzheimer’s disease and other
+dementias, Alzheimer’s Disease and Associated Disorders,
+Lancet, PNAS, and Nature.
+
+Personal communication with content experts
+
+The list of published studies generated were shown to
+another researcher in this field from a different research group
+(LvdP) who checked whether there were any studies that may
+have not been included. Once the potential list was finalised
+between the two research groups, all authors of the studies
+were contacted to ensure that correct information was being
+used and any information that was lacking (such as MMSEs,
+or mean rates of atrophy) was requested. In addition, the
+full list was sent to each author to ensure no other studies
+had been missed by the searches. Published studies resulting
+from searches that are not in English were to be included
+when possible through contact with authors where necessary.
+
+Quality assessment
+
+After studies were selected for the meta-analysis, each
+was assessed for quality by tabulating variables which may
+introduce bias or explain heterogeneity of the results. These
+include: cohorts used (population, case/control, case series),
+blinding of raters to patient information, chronology of
+scan ordering, drop-out rate if RCT, assessment of and
+exclusion criteria for controls, AD diagnostic criteria and
+exclusion criteria, white matter damage exclusion criteria,
+white matter lesion quantification, apolipoprotein E (APOE)
+genotyping, other medications, magnet strength, number of
+scanning sites, scan “slice” thickness, hippocampal measurement
+method, number of raters, registered images or total
+intracranial volume (TIV) corrected, whole hippocampus
+measured and reliability of method.
+
+Statistical analysis
+
+STATA Version 9 (Stata Corporation, College Station, TX,
+USA) and SAS proc mixed Version 8 (SAS Institute Inc.,
+Cary, NC, USA) were used for the statistical analysis. From
+each study, the mean atrophy rate and standard deviation were
+obtained for the AD patients (and separately for controls
+where available), together with means and standard deviations
+of the ages, MMSEs and inter-scan intervals in each
+subject group. Calculation of the standard error required for
+meta-analysis was based on the standard deviation and the
+number of patients for each study.
+
+Data synthesis (meta-analysis)
+
+A random-effects meta-analysis model was fitted using
+restricted maximum likelihood (REML), consistent with the
+assumption that mean atrophy rates measured in individual
+studies vary around an overall average atrophy rate. The
+random-effect for between-study heterogeneity was assumed
+to be normally distributed, as were the within-study errors.
+In addition, we tested the hypothesis that the random-effects
+were needed, by comparing the REML log likelihood ratio
+statistic to its asymptotic distribution under the null hypothesis
+that the random-effect variance is 0, which is given by a
+mixture of two chi-squared distributions.
+
+Since some studies reported results separately for different
+subgroups of AD patients, we attempted to fit a
+random-effects model that allowed for both between - and
+within-study variation. Unfortunately this was not possible,
+due to the limited number of studies that reported results separately
+by subgroup. In view of this the non-independence of
+results from subgroups of the same study was accounted for
+through sharing the study-specific random-effect. For studies
+containing both a control and an AD group, the mean
+difference in atrophy rates between the two groups was calculated.
+These differences were then entered in a further
+random-effects meta-analysis to estimate the overall mean
+within-study difference in rates between AD and control
+groups.
+
+Assessment of reporting bias
+
+Due to the focus of this meta-analysis, it is unlikely that
+studies would be denied publication on the basis of the
+estimated size of mean atrophy in AD patients. However,
+publication bias was examined with funnel plots. Funnel plots
+graphically demonstrate publication bias: as the precision of
+the studies increases, there should be a decrease in the variability
+of results leading to a funnel shape. Lack of symmetry
+implies evidence of a publication bias.
+
+Subgroup analysis and investigation of heterogeneity
+
+Heterogeneity in atrophy rates between studies may be
+explained by the mean age or disease severity (MMSE score)
+of study participants, or inter-scan interval. This was explored
+using the data on AD groups through use of meta-regression. This
+meta-regression analysis can only reveal
+associations between mean age, MMSE, or scan interval
+and mean atrophy rates, rather than revealing associations
+between individual ages, MMSEs, or scan intervals and individual
+atrophy rates. We added age, MMSE, and scan interval
+separately as a linear fixed effect in our random-effects model
+to estimate any such associations. It was recognised that estimates
+of such effects may be imprecise if only a small number
+of studies are available and if between-study variability in
+such factors is small.
+
+Sample size calculation
+
+Of the studies included in the meta-analysis, those with
+mean scan intervals of 1 year ± 2 months were used to calculated
+sample sizes. In these studies there was little variation
+in scan interval between patients. We performed a random
+effects meta-analysis (on the variance scale) of these studies’
+estimated atrophy rate standard deviations, to give a pooled
+estimate of the standard deviation. We assumed that a drug
+would decrease the atrophy of the hippocampus by a certain
+percentage. Standard techniques were used estimate sample
+sizes that give 90% statistical power to detect 20 and 50%
+reduction in hippocampal atrophy rates (using two-sided significance
+test at the 0.05 level).
+
+Results
+
+Our Medline search strategy identified 535 papers, 19 of
+which satisfied our inclusion criteria. Eleven of these 19
+papers were excluded, because: six presented overlapping
+data with the primary report already included, three did
+not report annualised atrophy rate and two included patients
+with Vascular Dementia. For the eight papers thus identified,
+we extended the search by examining reference lists
+and Web of Science, which yielded no further papers. Hand
+searching and personal communication with content experts
+yielded an additional paper that does not contain the word
+‘hippocampus’ in its title or abstract. We were also aware
+of one study available online ahead of print
+at time of searching which replaced owing to overlap of patient
+populations. The resulting studies included in this meta-analysis
+are displayed in Table 1. The quality of these studies is reported in
+Table 2, and those studies that were excluded are detailed in
+Table 3.
+
+Data synthesis and heterogeneity
+
+Fig. 1 is a Forest plot demonstrating the results for the AD
+subjects from the individual studies included in the metaanalysis
+(n = 595). The estimate of the overall mean atrophy
+rate in these groups from a random-effects meta-analysis was
+4.66% per year (95% CI 3.92, 5.40). The estimate of the
+between-study standard deviation was 0.77%. The likelihood
+ratio test for the need for the between-study random-effect
+was highly statistically significant (p = 0.0001), confirming
+that there was strong evidence of between-study heterogeneity.
+Fig. 2 is a Forest plot of the matched control
+groups (n = 212). The estimated overall mean atrophy rate
+in these groups from a random-effects meta-analysis was
+1.41% per year (95% CI 0.52, 2.30). The estimate of
+between-study standard deviation was 0.74%. The likelihood
+ratio test for the presence of between-study heterogeneity
+was highly statistically significant (p < 0.0001). Fig. 3
+shows the differences between the control and AD groups
+in those studies where both groups were studied (six studies
+in total). Using data from these studies, and combining
+AD subgroups within studies, using a random-effects meta-analysis
+the estimated mean difference in atrophy rates
+between controls and AD subjects was 3.33% per year
+(95% CI 1.73, 4.94). The estimate of between-study standard
+deviation in the AD/control difference was 1.28%,
+and the likelihood ratio test showed strong evidence for
+between-study heterogeneity in AD-control rate differences
+(p = 0.002).
+
+Publication bias
+
+Figs. 4 and 5 show funnel plots of AD and AD-control
+differences respectively against the standard error of the estimate.
+Although few conclusions can be drawn given the small
+number of studies, there was no suggestion that studies with
+either large or small atrophy rates were more likely to be
+published.
+
+Subgroup analysis and meta-regression
+
+Plots of the ADstudy/subgroup mean atrophy rates against
+age, MMSE and inter-scan interval are shown in Figs. 6–8,
+respectively. There were no apparent relationships between
+these variables and mean atrophy rate. An increase of 1 year in
+study mean age was associated with a 0.18% (95% CI −0.29,
+0.64%) in mean atrophy rate, though this was not statistically
+significant (p = 0.24). There was no evidence of an association
+between study mean MMSE score and mean atrophy rate,
+with a one unit increase in study mean MMSE score being
+associated with a reduction in mean atrophy rate of 0.07%
+(−0.56to0.70%p = 0.68). Each 1 year increase in mean inter-scan
+interval was associated with a 0.45% (95% CI −3.07,
+3.97%) increase in mean study atrophy rate, but again this
+association was not statistically significant (p = 0.64).
+
+Sample sizes
+
+Four studies were included in sample size calculations
+(Barnes et al., 2007b); Fox et al., 2005); (Hashimoto et al.,
+2005); and (Jack et al., 2003). For these groups the pooled
+mean atrophy rate was 4.51% per year, while the correspond-
+ing pooled estimate of the standard deviation of measured
+atrophy rates was 3.06%. The estimated numbers of subjects
+per treatment arm using these estimates were 242 and 39
+subjects for a 20 and 50% reduction in hippocampal atrophy
+rates, respectively.
+
+Discussion
+
+This study aimed to estimate the mean rate of hippocampal
+atrophy across a number of published studies. In addition,
+this study aimed to formally assess some aspects of the heterogeneity
+in these studies. Meta-analysis plays an important
+role in summarising results from studies owing to
+between - study heterogeneity. Effects of confounders such as
+disease severity or age may be lessened by pooling results from all
+studies, making the results more applicable to the wider population.
+
+Hippocampal rates of atrophy were consistently greater in
+AD subjects than controls in all studies included in this
+meta-analysis. The pooled mean rates of atrophy were 1.41% in
+the control subjects and 4.66% in AD subjects, respectively.
+The AD/control differences were significantly different in the
+5/7 studies where both controls and AD subjects had been
+assessed and reported. The two studies where the differences
+were not statistically significant had the largest confidence
+intervals. Overall, the pooled mean difference between AD and
+control groups was 3.33% and was significantly greater than 0
+(Fig. 3). There was a large amount of between-study variability
+in both AD rates and control rates. The between-study
+variability in
+
+AD/control rate differences was also relatively large, which
+cannot be attributed to factors that affect both controls and
+ADs in a study, such as scanning protocol. Our results therefore
+suggest that there is genuine variation between studies
+in AD/control rate difference, possibly as a result of differences
+in disease severity between studies. It has been shown
+that rates of atrophy can change as the disease progresses.
+Other factors such
+as concurrent vascular disease may also affect atrophy rates.
+Some studies had higher variances that others, this may be
+due to the methods employed by these studies or it may
+be chance owing to the relatively small numbers within the
+subject groups.
+
+Some aspects of the heterogeneity of studies are difficult
+to formally assess because certain variables were not reported
+(see Table 2). These variables include patient-related information
+such as other administered medications and APOE
+genetic status. Treatments may be particularly difficult for
+case–control or population-based studies to report accurately,
+since many of these studies will be conducted at a tertiary
+referral centre whereas it may be the general physician at
+the primary level who prescribes and monitors the administration
+of medication. Another example of the differences
+in reporting in studies is reliability of segmentation technique.
+Most studies did report reliability, however the results
+are largely incomparable in most cases since the measures
+were performed on different numbers of subjects, and with
+different numbers of repetitions and in some cases with
+same scanning acquisitions and others with different scanning
+acquisitions.
+
+Other scan parameters and hippocampal delineation methods
+may also affect the measured atrophy rates such as scan
+“slice” thickness or segmentation protocol. Differences in
+anatomical structures included in the delineation of hippocampi
+may not have substantial effects on the atrophy
+rate determined if the same protocol is used for both baseline
+and follow-up scans. Data from centres using different
+delineation protocols would only agree if rates of atrophy
+were similar in separate anatomical locations within the hippocampus
+(for example, rate of atrophy of the hippocampal
+tail is similar to the hippocampal head). Meta-analysis on
+the AD-control differences should be robust to these potential
+confounders since the hippocampal rates determined in
+both subject groups should have been determined in the same
+way.
+
+Formal meta-regression analyses showed no significant
+associations between mean atrophy rates quoted in the studies
+included in the meta-analysis, and age, MMSE and interval.
+However, it may be that these relationships do exist;
+meta-regression can detect such associations only if there
+is sufficient variability in the explanatory variable between
+studies. There was little variability in mean age between
+studies relative to within studies, perhaps explaining the lack
+of association with age. A number of studies (not included
+here) have examined rates of hippocampal atrophy in normal
+ageing and have shown that age does influence hippocampal
+atrophy rates in “healthy controls”.
+There was some variability in mean MMSE score between
+studies however this was not sufficient to show any potential
+association between this variable and rates of atrophy.
+Most AD subjects included in the studies were mild to moderately
+affected, perhaps because of the need to comply with
+imaging; as a result 11 of the 12 AD groups included had a
+mean MMSE between 17 and 22 (one group had an MMSE
+of 25.7); this lack of variability in mean MMSE reduced the
+chance of finding an association. There was no evidence of
+an association between mean interval and mean atrophy rate,
+despite relatively large variation in mean interval between
+scans and between studies.
+
+Sample sizes were estimated using data from 432 subjects
+which is an estimate based on a greater number of subjects
+than previously reported. Compared with other brain regions
+reported for a similar interval, a greater number of subjects
+were required for hippocampal atrophy rates than required
+for whole brain, or ventricular atrophy rates (approximately
+150 subjects required per treatment arm for either brain atrophy
+or ventricular enlargement for 20% reduction in atrophy
+rates, n = 38). However, it may be that
+disease-specific effects require investigation, and therefore
+hippocampal atrophy rates, or temporal horn enlargement
+may be of interest in clinical trials. The 39 subjects estimated
+for a 50% reduction in atrophy rates were similar to, but
+lower than, the numbers required for temporal horn enlargement
+(number required per treatment arm = 65, n = 192).
+
+This study has a number of limitations. Although this
+meta-analysis attempted to include as many studies as possible
+and there was no evidence of publication bias, only nine
+studies analysed owing to a number of reasons (see Table 3).
+Larger numbers of studies would allow a more precise estimate
+of the mean rates to be calculated and for associated
+meta-regression analyses to be more robust. Collating the
+individual patient data from these studies would enable much
+more precise estimation of relationships between factors such
+as age and disease severity with hippocampal atrophy rates.
+Associations using individual patient data within studies
+would not be confounded by study-level factors, such as scan
+acquisition protocols and methods to determine hippocampal
+atrophy rate. Also, variability both within and between
+studies could be used to estimate these associations more precisely.
+In addition, standard meta-analysis techniques assume
+that the precision of individual study estimates are known
+(assumed to be the estimated value). When some contributing
+studies are small, as in our meta-analysis, this assumption
+may not be reasonable. Consequently, our reported confidence
+intervals may be too narrow.
+
+Because some specific study variables were not reported
+consistently (see Table 2), and this was an impediment to
+meta-analysis, we suggest that new studies explicitly report
+the following information (including presence or lack of
+information) as part of the subject demographics, scanning,
+and hippocampal atrophy methods:
+
+Subject demographics
+
+Cohort: population/case/control/case series
+Age
+Gender: % male/n male
+APOE genotype: % E4/n E4
+Neuropsychology: MMSE
+AD diagnostic criteria: which used (imaging used in diag-
+nosis?)
+AD exclusion criteria
+Symptomatic/disease modifying treatments
+Drop-out rate if RCT
+Details of clinical assessment of controls
+Exclusion criteria for control group
+Post-mortem confirmation of disease
+
+Imaging
+
+Magnetic field strength (Tesla)
+Number of scanning sites
+Acquisition protocol: full details including “slice” thickness
+(mm)
+
+Post-processing of scans
+
+Region measurement method: manual/automated
+Number of raters
+Measurement on registered scans or TIV-corrected scans
+Details of anatomy included in the segmentation
+Intra-rater segmentation reliability using ICC (preferably
+quote statistics based on 10 subjects segmented twice by
+the same rater)
+Blinding of raters to diagnosis
+Blinding of raters to order of scans
+
+Conclusions
+
+The overall hippocampal atrophy rate is 1.4% in normal
+controls with the range of the quoted mean age being 69–83
+years. In AD subjects the overall atrophy rate is 4.6%.

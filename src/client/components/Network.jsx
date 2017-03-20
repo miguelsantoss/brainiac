@@ -1,8 +1,6 @@
 // Import React stuff
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import Draggable from 'react-draggable';
-import { Resizable, ResizableBox } from 'react-resizable';
 import Rnd from 'react-rnd';
 
 // Import d3 stuff
@@ -40,9 +38,7 @@ export default class Network extends Component {
     const height_content = document.getElementById('window-network-content').clientHeight;
     const width_content = document.getElementById('window-network-content').clientWidth;
 
-    //this.setState({ ...this.state });
-    // newState = { ...this.state };
-    // this.setState({...this.state, width_viz: width_content, height_viz: height_content });
+    this.setState({...this.state, width_viz: width_content, height_viz: height_content });
 
     fetch(doc_sim).then((response) => {
       return doc_sim;
@@ -58,23 +54,32 @@ export default class Network extends Component {
       })
   }
 
-  onResize(event, {element, size}) {
-    this.setState({width: size.width, height: size.height});
+  onResize(direction, styleSize, clientSize, delta, newPos){
+    const height_content = document.getElementById('window-network-content').clientHeight;
+    const width_content = document.getElementById('window-network-content').clientWidth;
+    this.setState({...this.state, width: clientSize.width, height: clientSize.height, width_viz: width_content, height_viz: height_content });
+
+    this.state.d3Viz.svg = d3_sel.select('#network_svg')
+      .attr('width', width_content)
+      .attr('height', height_content);
+
+    this.state.d3Viz.simulation.force('center', d3.forceCenter(width_content / 2, height_content / 2));
+
   }
 
   initializeD3() {
-    const width = this.state.width;
-    const height = this.state.height;
+    const width = this.state.width_viz;
+    const height = this.state.height_viz;
     const aspect = width / height;
     const color = scaleOrdinal(schemeCategory20);
     
-    console.log(d3_sel.select(this.refs.mountPoint));
-
-    const svg = d3_sel.select(this.refs.mountPoint)
+    const svg = d3_sel.select(this.refs.mountPoint_network)
       .append('svg')
       .attr('width', width)
       .attr('height', height)
-      .attr('id', 'initialD3Element');
+      .attr('overflow', 'hidden')
+      .attr('id', 'initialD3Element')
+      .attr('ref', 'svg_el');
       
     const link = svg.append('g')
       .attr('class', 'links')
@@ -92,10 +97,6 @@ export default class Network extends Component {
       .append('circle')
       .attr('r', 10)
       .style('stroke', '#FFFFFF')
-			.attr('x', () => Math.floor(Math.random() * (width-300 - 200 + 1)) + 200)
-			.attr('y', () => Math.floor(Math.random() * (height-300 - 200 + 1)) + 200)
-			.attr('cx', () => Math.floor(Math.random() * (width-300 - 200 + 1)) + 200)
-			.attr('cy', () => Math.floor(Math.random() * (height-300 - 200 + 1)) + 200)
       .style('fill', (d) => color(d.value))
       .call(drag()
         .on('start', (d) => {
@@ -137,6 +138,9 @@ export default class Network extends Component {
 
     simulation.force('link')
       .links(this.state.links);
+    
+    const d3Viz = { svg, link, node, simulation };
+    this.setState({ ...this.state, d3Viz  });
   }
 
   render() {
@@ -149,6 +153,7 @@ export default class Network extends Component {
           width: this.state.width,
           height: this.state.height,
         }}
+        onResize={this.onResize.bind(this)}
         dragHandlerClassName='.handle'
         moveGrid={[1, 1]}
         resizeGrid={[1, 1]}
@@ -158,8 +163,7 @@ export default class Network extends Component {
             <span>Network</span>
           </div>
           <div id="window-network-content" className='content no-cursor text-vert-center'>
-            <div className="Network"></div>
-            <div id="mountDiv" ref="mountPoint"></div>
+            <div className="mount" ref="mountPoint_network"></div>
           </div>
         </div>
       </Rnd>
