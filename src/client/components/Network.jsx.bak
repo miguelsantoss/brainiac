@@ -1,7 +1,7 @@
 // Import React stuff
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import sizeMe from 'react-sizeme';
+import Rnd from 'react-rnd';
 
 // Import d3 stuff
 import * as d3 from 'd3-force';
@@ -16,7 +16,7 @@ import './Network.css';
 // import some placeholder data
 const doc_sim= require('../cosine-sample.json');
 
-class Network extends Component {
+export default class Network extends Component {
   constructor(props) {
     super(props);
 
@@ -24,15 +24,21 @@ class Network extends Component {
       initialData: [],
       nodes: [],
       links: [],
+      height: 500,
+      width: 500,
+      x: 25,
+      y: 25,
+      width_viz: 0,
+      height_viz: 0,
     }; 
     this.initializeD3 = this.initializeD3.bind(this);
   }
 
   componentDidMount() {
-    const height = document.getElementById('window-network-content').clientHeight;
-    const width = document.getElementById('window-network-content').clientWidth;
+    const height_content = document.getElementById('window-network-content').clientHeight;
+    const width_content = document.getElementById('window-network-content').clientWidth;
 
-    this.setState({...this.state, width: width, height: height});
+    this.setState({...this.state, width_viz: width_content, height_viz: height_content });
 
     fetch(doc_sim).then((response) => {
       return doc_sim;
@@ -48,37 +54,22 @@ class Network extends Component {
       })
   }
 
-  componentWillReceiveProps() {
-    this.handleResize();
-  }
-
   onResize(direction, styleSize, clientSize, delta, newPos){
     const height_content = document.getElementById('window-network-content').clientHeight;
     const width_content = document.getElementById('window-network-content').clientWidth;
-    const height = document.getElementById('window-network-content').clientHeight;
-    const width = document.getElementById('window-network-content').clientWidth;
     this.setState({...this.state, width: clientSize.width, height: clientSize.height, width_viz: width_content, height_viz: height_content });
 
     this.state.d3Viz.svg = d3_sel.select('#network-svg-element')
       .attr('width', width_content)
       .attr('height', height_content);
+
     this.state.d3Viz.simulation.force('center', d3.forceCenter(width_content / 2, height_content / 2));
-  }
 
-  handleResize(){
-    const height = document.getElementById('window-network-content').clientHeight;
-    const width = document.getElementById('window-network-content').clientWidth;
-
-    this.setState({...this.state, width, height});
-    this.state.d3Viz.svg = d3_sel.select('#network-svg-element')
-      .attr('width', width)
-      .attr('height', height);
-    this.state.d3Viz.simulation.force('center', d3.forceCenter(width / 2, height / 2));
   }
 
   initializeD3() {
-    const width = this.state.width;
-    const height = this.state.height;
+    const width = this.state.width_viz;
+    const height = this.state.height_viz;
     const aspect = width / height;
     const color = scaleOrdinal(schemeCategory20);
     
@@ -154,16 +145,28 @@ class Network extends Component {
 
   render() {
     return (
-		  <div className='drag-wrapper'>
-        <div className='handle text-vert-center'>
-          <span>Network</span>
+      <Rnd
+				ref={c => { this.rnd = c; }}
+        initial={{
+          x: this.state.x,
+          y: this.state.y,
+          width: this.state.width,
+          height: this.state.height,
+        }}
+        onResize={this.onResize.bind(this)}
+        dragHandlerClassName='.handle'
+        moveGrid={[1, 1]}
+        resizeGrid={[1, 1]}
+      >
+				<div className='drag-wrapper'>
+          <div className='handle text-vert-center'>
+            <span>Network</span>
+          </div>
+          <div id="window-network-content" className='content no-cursor text-vert-center'>
+            <div className="mount" ref="mountPoint_network"></div>
+          </div>
         </div>
-        <div id="window-network-content" className='content no-cursor text-vert-center'>
-          <div className="mount" ref="mountPoint_network"></div>
-        </div>
-      </div>
+      </Rnd>
     );
   }
 };
-
-export default sizeMe({ monitorHeight: true })(Network);

@@ -1,18 +1,25 @@
 // Import React stuff
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import Rnd from 'react-rnd';
+import _ from 'lodash';
 
-import Network from './Network.jsx';
-import Timeline from './Timeline.jsx';
+import Layout from './Layout.jsx';
 
 export default class View extends Component {
+  constructor(props) {
+    const vizArray = [];
+    super(props);
+    this.state = {
+      viz: vizArray
+    }
+  }
+
+  onLayoutChange() { }
+  
   render() {
     return (
       <div>
-        <Network />
-        <Timeline />
+        <Layout onLayoutChange={this.onLayoutChange.bind(this)} viz={this.state.viz}/>
       </div>
     );
   }
-}
+};

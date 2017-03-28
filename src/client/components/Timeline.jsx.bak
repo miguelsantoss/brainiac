@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import Rnd from 'react-rnd';
 import axios from 'axios';
-import sizeMe from 'react-sizeme';
 
 // Import d3 stuff
 import * as d3 from 'd3-force';
@@ -28,23 +27,29 @@ const margin_bottom = 20;
 const margin_right = 20;
 const margin_left = 20;
 
-class Timeline extends Component {
+export default class Timeline extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
       initialData: [],
       nodes: [],
-      links: []
+      links: [],
+      height: 229,
+      width: 964,
+      x: 25,
+      y: 25,
+      width_viz: 0,
+      height_viz: 0,
     }; 
     this.initializeD3 = this.initializeD3.bind(this);
   }
 
   componentDidMount() {
-    const height = document.getElementById('window-timeline-content').clientHeight;
-    const width = document.getElementById('window-timeline-content').clientWidth;
+    const height_content = document.getElementById('window-timeline-content').clientHeight;
+    const width_content = document.getElementById('window-timeline-content').clientWidth;
 
-    this.setState({...this.state, width: width, height: height});
+    this.setState({...this.state, width_viz: width_content, height_viz: height_content });
 
     fetch(doc_sim).then((response) => {
       return doc_sim;
@@ -58,10 +63,6 @@ class Timeline extends Component {
       .then(() => {
         this.initializeD3();
       })
-  }
-
-  componentWillReceiveProps() {
-    this.handleResize();
   }
 
   onResize(direction, styleSize, clientSize, delta, newPos){
@@ -84,24 +85,9 @@ class Timeline extends Component {
 
   }
 
-  handleResize(){
-    const height = document.getElementById('window-timeline-content').clientHeight;
-    const width = document.getElementById('window-timeline-content').clientWidth;
-    this.setState({...this.state, width, height});
-    this.state.d3Viz.svg
-      .attr('width', width)
-      .attr('height', height);
-    this.state.d3Viz.x.rangeRound([0, width - (margin_right + margin_left)]);
-    const n_ticks = Math.ceil(width * 0.01);
-    this.state.d3Viz.g_x.call(d3_axis.axisBottom(this.state.d3Viz.x).ticks(n_ticks, ""));
-    this.state.d3Viz.simulation.force('x', d3.forceX((d) => this.state.d3Viz.x(d.year)).strength(1))
-    this.state.d3Viz.nodes.attr('x', (d) => { return this.state.d3Viz.x(d.data.year)});
-    this.state.d3Viz.nodes.attr('cx', (d) => { return this.state.d3Viz.x(d.data.year)});
-  }
-
   initializeD3() {
-    const width = this.state.width;
-    const height = this.state.height;
+    const width = this.state.width_viz;
+    const height = this.state.height_viz;
     const aspect = width / height;
     const color = scaleOrdinal(schemeCategory20);
 
@@ -160,16 +146,28 @@ class Timeline extends Component {
 
   render() {
     return (
-			<div className='drag-wrapper'>
-        <div className='handle text-vert-center'>
-          <span>Timeline</span>
+      <Rnd
+				ref={c => { this.rnd = c; }}
+        initial={{
+          x: this.state.x,
+          y: this.state.y,
+          width: this.state.width,
+          height: this.state.height,
+        }}
+        onResize={this.onResize.bind(this)}
+        dragHandlerClassName='.handle'
+        moveGrid={[1, 1]}
+        resizeGrid={[1, 1]}
+      >
+				<div className='drag-wrapper'>
+          <div className='handle text-vert-center'>
+            <span>Timeline</span>
+          </div>
+          <div id="window-timeline-content" className='content no-cursor text-vert-center'>
+            <div className="mount" ref="mountPoint_timeline"></div>
+          </div>
         </div>
-        <div id="window-timeline-content" className='content no-cursor text-vert-center'>
-          <div className="mount" ref="mountPoint_timeline"></div>
-        </div>
-      </div>
+      </Rnd>
     );
   }
 };
-
-export default sizeMe({ monitorHeight: true })(Timeline);

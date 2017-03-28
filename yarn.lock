@@ -883,6 +883,10 @@ base64-js@^1.0.2:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.2.0.tgz#a39992d723584811982be5e290bb6a53d86700f1"
 
+batch-processor@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/batch-processor/-/batch-processor-1.0.0.tgz#75c95c32b748e0850d10c2b168f6bdbe9891ace8"
+
 batch@0.5.3:
   version "0.5.3"
   resolved "https://registry.yarnpkg.com/batch/-/batch-0.5.3.tgz#3f3414f380321743bfc1042f9a83ff1d5824d464"
@@ -1049,7 +1053,7 @@ clap@^1.0.9:
   dependencies:
     chalk "^1.1.3"
 
-classnames@^2.2.0:
+classnames@^2.2.0, classnames@^2.2.5:
   version "2.2.5"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.5.tgz#fb3801d453467649ef3603c7d61a02bd129bde6d"
 
@@ -1691,6 +1695,12 @@ ee-first@1.1.1:
 electron-to-chromium@^1.2.3:
   version "1.2.5"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.2.5.tgz#d373727228843dfd8466c276089f13b40927a952"
+
+element-resize-detector@1.1.8:
+  version "1.1.8"
+  resolved "https://registry.yarnpkg.com/element-resize-detector/-/element-resize-detector-1.1.8.tgz#f293ce063d170ff9dab6a3a3e25d801b49fec3bf"
+  dependencies:
+    batch-processor "^1.0.0"
 
 emojis-list@^2.0.0:
   version "2.1.0"
@@ -2624,7 +2634,7 @@ lodash.isarray@^3.0.0:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/lodash.isarray/-/lodash.isarray-3.0.4.tgz#79e4eb88c36a8122af86f844aa9bcd851b5fbb55"
 
-lodash.isequal@^4.2.0:
+lodash.isequal@^4.0.0, lodash.isequal@^4.2.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.isequal/-/lodash.isequal-4.5.0.tgz#415c4478f2bcc30120c22ce10ed3226f7d3e18e0"
 
@@ -2701,6 +2711,10 @@ lodash.words@^3.0.0:
   resolved "https://registry.yarnpkg.com/lodash.words/-/lodash.words-3.2.0.tgz#4e2a8649bc08745b17c695b1a3ce8fee596623b3"
   dependencies:
     lodash._root "^3.0.0"
+
+lodash@4.15.0:
+  version "4.15.0"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.15.0.tgz#3162391d8f0140aa22cf8f6b3c34d6b7f63d3aa9"
 
 lodash@^4.17.2, lodash@^4.17.3, lodash@^4.2.0:
   version "4.17.4"
@@ -3455,6 +3469,21 @@ react-dom@^0.14.7:
   version "0.14.8"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-0.14.8.tgz#0f1c547514263f771bd31814a739e5306575069e"
 
+react-draggable@^2.1.0, react-draggable@^2.1.1:
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/react-draggable/-/react-draggable-2.2.3.tgz#17628cb8aaefed639d38e0021b978a685d80b08b"
+  dependencies:
+    classnames "^2.2.5"
+
+react-grid-layout@^0.14.4:
+  version "0.14.4"
+  resolved "https://registry.yarnpkg.com/react-grid-layout/-/react-grid-layout-0.14.4.tgz#7d2b664ea7368824a9a4e660ec56c8f8f498cca8"
+  dependencies:
+    classnames "^2.2.5"
+    lodash.isequal "^4.0.0"
+    react-draggable "^2.1.1"
+    react-resizable "^1.4.0"
+
 react-hot-api@^0.4.5:
   version "0.4.7"
   resolved "https://registry.yarnpkg.com/react-hot-api/-/react-hot-api-0.4.7.tgz#a7e22a56d252e11abd9366b61264cf4492c58171"
@@ -3472,12 +3501,26 @@ react-resizable-box@^1.8.1:
   dependencies:
     lodash.isequal "^4.2.0"
 
+react-resizable@^1.4.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/react-resizable/-/react-resizable-1.6.0.tgz#7968c456538a349db1742680f9a05dc9780e6188"
+  dependencies:
+    react-draggable "^2.1.0"
+
 react-rnd@^4.2.2:
   version "4.2.2"
   resolved "https://registry.yarnpkg.com/react-rnd/-/react-rnd-4.2.2.tgz#c07e9322b65cf62a026a4c1a7346f8680af1dc22"
   dependencies:
     "@bokuweb/react-draggable-custom" "^1.3.10"
     react-resizable-box "^1.8.1"
+
+react-sizeme@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/react-sizeme/-/react-sizeme-2.2.0.tgz#f5b23126a014aafc97fb8b0b5af1575f7e9bbed2"
+  dependencies:
+    element-resize-detector "1.1.8"
+    invariant "^2.2.0"
+    lodash "4.15.0"
 
 react@^0.14.7:
   version "0.14.8"

@@ -56,7 +56,7 @@ if (TARGET === 'start' || !TARGET) {
       hot: true,
       inline: true,
       progress: true,
-      port: 8080
+      port: 8081
     },
     plugins: [
       new webpack.HotModuleReplacementPlugin()
