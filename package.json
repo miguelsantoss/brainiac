@@ -55,7 +55,6 @@
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
     "react-grid-layout": "^0.14.4",
-    "react-rnd": "^4.2.2",
     "react-sizeme": "^2.2.0"
   }
 }

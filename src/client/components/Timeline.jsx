@@ -1,7 +1,6 @@
 // Import React stuff
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import Rnd from 'react-rnd';
 import axios from 'axios';
 import sizeMe from 'react-sizeme';
 
@@ -18,8 +17,8 @@ import * as d3_format from 'd3-format';
 import * as d3_time from 'd3-time';
 
 // import css
-import './App.css';
-import './Timeline.css';
+import '../css/App.css';
+import '../css/Timeline.css';
 
 // import some placeholder data
 const doc_sim = require('../cosine-sample.json');
@@ -64,39 +63,40 @@ class Timeline extends Component {
     this.handleResize();
   }
 
-  onResize(direction, styleSize, clientSize, delta, newPos){
-    const height_content = document.getElementById('window-timeline-content').clientHeight;
-    const width_content = document.getElementById('window-timeline-content').clientWidth;
-    this.setState({...this.state, width: clientSize.width, height: clientSize.height, width_viz: width_content, height_viz: height_content });
-
-    this.state.d3Viz.svg
-      .attr('width', width_content)
-      .attr('height', height_content);
-
-    this.state.d3Viz.x.rangeRound([0, width_content - (margin_right + margin_left)]);
-
-    const n_ticks = Math.ceil(width_content * 0.01);
-    this.state.d3Viz.g_x.call(d3_axis.axisBottom(this.state.d3Viz.x).ticks(n_ticks, ""));
-
-    this.state.d3Viz.simulation.force('x', d3.forceX((d) => this.state.d3Viz.x(d.year)).strength(1))
-    this.state.d3Viz.nodes.attr('x', (d) => { return this.state.d3Viz.x(d.data.year)});
-    this.state.d3Viz.nodes.attr('cx', (d) => { return this.state.d3Viz.x(d.data.year)});
-
-  }
-
   handleResize(){
     const height = document.getElementById('window-timeline-content').clientHeight;
     const width = document.getElementById('window-timeline-content').clientWidth;
+    const oldHeight = this.state.height;
     this.setState({...this.state, width, height});
     this.state.d3Viz.svg
       .attr('width', width)
       .attr('height', height);
     this.state.d3Viz.x.rangeRound([0, width - (margin_right + margin_left)]);
     const n_ticks = Math.ceil(width * 0.01);
-    this.state.d3Viz.g_x.call(d3_axis.axisBottom(this.state.d3Viz.x).ticks(n_ticks, ""));
-    this.state.d3Viz.simulation.force('x', d3.forceX((d) => this.state.d3Viz.x(d.year)).strength(1))
+    this.state.d3Viz.g_x.attr('transform', 'translate(0,' + (height-margin_bottom) + ')').call(d3_axis.axisBottom(this.state.d3Viz.x).ticks(n_ticks, ""));
+    this.state.d3Viz.simulation
+      .force('x', d3.forceX((d) => this.state.d3Viz.x(d.year)).strength(1))
+      .force("y", d3.forceY(height / 2))
+      .force("collide", d3.forceCollide(4))
+      .stop();
+
+    for (var i = 0; i < 120; ++i) this.state.d3Viz.simulation.tick();
+
     this.state.d3Viz.nodes.attr('x', (d) => { return this.state.d3Viz.x(d.data.year)});
     this.state.d3Viz.nodes.attr('cx', (d) => { return this.state.d3Viz.x(d.data.year)});
+    // this.state.d3Viz.nodes.attr('cy', (d) => { return d.data.y });
+    // this.state.d3Viz.nodes.attr('y', (d) => {
+    //   console.log("oldHeight: ", oldHeight);
+    //   console.log("height: ", height);
+    //   console.log("y: ", d.data.y);
+    //   console.log("cy: ", d.data.y);
+    //   console.log("oldHeight/2: ", oldHeight/2);
+    //   console.log("height/2: ", height/2);
+    //   console.log("diff: ", ((oldHeight / 2) - d.data.y));
+    //   console.log("new: ", (height/2) + (d.data.y - (oldHeight / 2)));
+    //   const y = ((height / 2) + ((oldHeight / 2) - d.data.y));
+    //   return y;
+    // });
   }
 
   initializeD3() {

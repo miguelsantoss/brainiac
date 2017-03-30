@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/App.jsx';
-import './main.css';
+
+import './css/main.css';
 
 const mountingPoint = document.createElement('div');
 mountingPoint.className = 'react-app';

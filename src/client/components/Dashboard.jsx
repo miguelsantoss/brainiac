@@ -5,7 +5,9 @@ import ReactDOM from 'react-dom';
 export default class Dashboard extends Component {
   render() {
     return (
-      <div></div>
+      <div>
+
+      </div>
     );
   }
 }

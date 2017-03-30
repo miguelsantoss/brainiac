@@ -10,8 +10,8 @@ import * as d3_sel from 'd3-selection';
 import { drag } from 'd3-drag';
 
 // import css
-import './App.css';
-import './Network.css';
+import '../css/App.css';
+import '../css/Network.css';
 
 // import some placeholder data
 const doc_sim= require('../cosine-sample.json');
@@ -52,19 +52,6 @@ class Network extends Component {
     this.handleResize();
   }
 
-  onResize(direction, styleSize, clientSize, delta, newPos){
-    const height_content = document.getElementById('window-network-content').clientHeight;
-    const width_content = document.getElementById('window-network-content').clientWidth;
-    const height = document.getElementById('window-network-content').clientHeight;
-    const width = document.getElementById('window-network-content').clientWidth;
-    this.setState({...this.state, width: clientSize.width, height: clientSize.height, width_viz: width_content, height_viz: height_content });
-
-    this.state.d3Viz.svg = d3_sel.select('#network-svg-element')
-      .attr('width', width_content)
-      .attr('height', height_content);
-    this.state.d3Viz.simulation.force('center', d3.forceCenter(width_content / 2, height_content / 2));
-  }
-
   handleResize(){
     const height = document.getElementById('window-network-content').clientHeight;
     const width = document.getElementById('window-network-content').clientWidth;
@@ -73,7 +60,11 @@ class Network extends Component {
     this.state.d3Viz.svg = d3_sel.select('#network-svg-element')
       .attr('width', width)
       .attr('height', height);
-    this.state.d3Viz.simulation.force('center', d3.forceCenter(width / 2, height / 2));
+
+    this.state.d3Viz.simulation.force('center', d3.forceCenter(width / 2, height / 2))
+      .force('center', d3.forceCenter(width / 2, height / 2));
+
+    this.state.d3Viz.simulation.alphaTarget(0.3).restart();
   }
 
   initializeD3() {
