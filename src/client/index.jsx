@@ -4,8 +4,6 @@ import App from './components/App.jsx';
 
 import './css/main.css';
 
-const mountingPoint = document.createElement('div');
-mountingPoint.className = 'react-app';
-document.body.appendChild(mountingPoint);
+import 'index.html';
 
-ReactDOM.render(<App />, mountingPoint);
+ReactDOM.render(<App />, document.getElementById('root'));

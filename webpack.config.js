@@ -1,66 +1,140 @@
-var path              = require('path');
-var HtmlwebpackPlugin = require('html-webpack-plugin');
-var webpack           = require('webpack');
-var merge             = require('webpack-merge');
+const path = require('path');
+const webpack = require('webpack');
+// const BabiliPlugin = require('babili-webpack-plugin');
 
-var TARGET    = process.env.npm_lifecycle_event;
-var ROOT_PATH = path.resolve(__dirname);
+const rootPath = path.resolve(__dirname);
+const sourcePath = path.resolve(rootPath, 'src/client');
+const distPath = path.resolve(rootPath, 'dist');
 
-var common = {
-  entry: path.resolve(ROOT_PATH, 'src/client'),
-  resolve: {
-    extensions: ['', '.js', '.jsx']
-  },
-  output: {
-    path: path.resolve(ROOT_PATH, 'build'),
-    filename: 'bundle.js'
-  },
-  module: {
-    loaders: [
-      {
-        test: /\.css$/,
-        loaders: ['style', 'css'],
-        include: path.resolve(ROOT_PATH, 'src')
-      },
-      {
-        test: /\.json$/,
-        loaders: ['json'],
-        include: path.resolve(ROOT_PATH, 'src')
-      }
-    ]
-  },
-  plugins: [
-    new HtmlwebpackPlugin({
-      title: 'Brainiac'
-    })
-  ]
-};
+module.exports = function(env) {
+  const nodeEnv = env && env.prod ? 'production' : 'development';
+  const isProd = nodeEnv === 'production';
 
-if (TARGET === 'start' || !TARGET) {
-  module.exports = merge(common, {
-    devtool: 'eval-source-map',
+  const plugins = [
+   	new webpack.optimize.CommonsChunkPlugin({
+      name: 'vendor',
+      filename: 'vendor.bundle.js',
+			minChunks: Infinity,
+    }),
+		new webpack.EnvironmentPlugin({
+      NODE_ENV: nodeEnv,
+    }),
+    new webpack.NamedModulesPlugin(),
+  ];
+
+  if (isProd) {
+    plugins.push(
+      new webpack.LoaderOptionsPlugin({
+        minimize: true,
+        debug: false
+      }),
+      new webpack.optimize.UglifyJsPlugin({
+        compress: {
+          warnings: false,
+          screw_ie8: true,
+          conditionals: true,
+          unused: true,
+          comparisons: true,
+          sequences: true,
+          dead_code: true,
+          evaluate: true,
+          if_return: true,
+          join_vars: true,
+        },
+        output: {
+          comments: false,
+        },
+      })
+    );
+  } else {
+    plugins.push(
+      new webpack.HotModuleReplacementPlugin()
+    );
+  }
+
+	return {
+    devtool: isProd ? 'source-map' : 'eval',
+    context: sourcePath,
+    entry: {
+      js: 'index.jsx',
+      vendor: ['react']
+    },
+    output: {
+      path: distPath,
+      filename: '[name].bundle.js',
+    },
     module: {
-      loaders: [
+      rules: [
         {
-          test: /\.jsx?$/,
-          include: path.resolve(ROOT_PATH, 'src'),
-          loaders: [
-            'react-hot',
-            'babel?presets[]=react,presets[]=es2015,presets[]=stage-0'
-         ]
-        }
+          test: /\.html$/,
+          exclude: /node_modules/,
+          use: {
+            loader: 'file-loader',
+            query: {
+              name: '[name].[ext]'
+            },
+          },
+        },
+        {
+          test: /\.css$/,
+          exclude: /node_modules/,
+          use: [
+            'style-loader',
+            'css-loader'
+          ]
+        },
+        {
+          test: /\.(js|jsx)$/,
+          exclude: /node_modules/,
+          use: [
+            'babel-loader'
+          ],
+        },
+      ],
+    },
+    resolve: {
+      extensions: ['.webpack-loader.js', '.web-loader.js', '.loader.js', '.js', '.jsx'],
+      modules: [
+        path.resolve(rootPath, 'node_modules'),
+        sourcePath
       ]
     },
-    devServer: {
-      historyApiFallback: true,
-      hot: true,
-      inline: true,
-      progress: true,
-      port: 8081
-    },
-    plugins: [
-      new webpack.HotModuleReplacementPlugin()
-    ]
-  })
-}
 
+    plugins,
+
+    performance: isProd && {
+      maxAssetSize: 100,
+      maxEntrypointSize: 300,
+      hints: 'warning',
+    },
+
+    stats: {
+      colors: {
+        green: '\u001b[32m',
+      }
+    },
+
+    devServer: {
+      contentBase: 'distPath',
+      historyApiFallback: true,
+      port: 8081,
+      compress: isProd,
+      inline: !isProd,
+      hot: !isProd,
+      stats: {
+        assets: true,
+        children: false,
+        chunks: false,
+        hash: false,
+        modules: false,
+        publicPath: false,
+        timings: true,
+        version: false,
+        warnings: true,
+        colors: {
+          green: '\u001b[32m',
+        }
+      },
+    }
+  };
+}
