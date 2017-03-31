@@ -1,14 +1,16 @@
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+import 'grommet/scss/vanilla/index.scss';
+
+import React from 'react';
+import App from 'grommet/components/App';
 
 import View from './View.jsx';
 
-export default class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <View />
-      </div>
-    );
-  }
-}
+const Main = function () {
+  return (
+    <App centered={false}>
+      <View />
+    </App>
+  );
+};
+
+export default Main;

@@ -76,19 +76,44 @@ module.exports = function(env) {
           },
         },
         {
-          test: /\.css$/,
-          exclude: /node_modules/,
-          use: [
-            'style-loader',
-            'css-loader'
+					test: /\.css$/,
+					exclude: /node_modules/,
+      		use: [
+      		  'style-loader',
+      		  'css-loader',
+      		],
+        },
+        {
+					test: /\.scss$/,
+      		use: [
+            {
+              loader:'style-loader',
+            },
+            {
+              loader:'css-loader',
+            },
+            {
+              loader: 'sass-loader',
+              options: {
+                includePaths: ['./node_modules', './node_modules/grommet/node_modules'],
+              }
+            },
           ]
+        },
+        {
+          enforce: 'pre',
+          test: /\.(js|jsx)$/,
+          exclude: /node_modules/,
+          loader: 'eslint-loader',
+          options: {
+            failOnWarning: true,
+            failOnError: true,
+          },
         },
         {
           test: /\.(js|jsx)$/,
           exclude: /node_modules/,
-          use: [
-            'babel-loader'
-          ],
+          loader: 'babel-loader',
         },
       ],
     },

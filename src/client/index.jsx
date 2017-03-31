@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App.jsx';
 
-import './css/main.css';
+import Main from 'components/App.jsx';
 
+import 'css/main.css';
 import 'index.html';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const root = document.getElementById('root');
+ReactDOM.render(<Main />, root);
