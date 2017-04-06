@@ -1,4 +1,4 @@
-import 'grommet/scss/vanilla/index.scss';
+import 'grommet/scss/hpe/index.scss';
 
 import React from 'react';
 import App from 'grommet/components/App';

@@ -1,52 +1,97 @@
-import React from 'react';
+import React, { Component } from 'react';
+import _ from 'lodash';
 
 import Split from 'grommet/components/Split';
 import Sidebar from 'grommet/components/Sidebar';
-import Search from 'grommet/components/Search';
+import Header from 'grommet/components/Header';
+import Title from 'grommet/components/Title';
+import Box from 'grommet/components/Box';
+import Heading from 'grommet/components/Heading';
 
 import Layout from './Layout.jsx';
-import Network from './Network.jsx';
-import Timeline from './Timeline.jsx';
+import SearchBox from './SearchBox.jsx';
 
-const vizArray = [
-  {
-    id: 'network',
-    d3: <Network />,
-    lg: { x: 0, y: 0, w: 12, h: 8 }
-  },
-  {
-    id: 'timeline',
-    d3: <Timeline />,
-    lg: { x: 0, y: 1, w: 12, h: 8 }
-  }
-];
+import docSim from '../cosine-sample.json';
 
-class View extends React.Component {
+class View extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      viz: vizArray
+      name: 'Brainiac',
+      search: '',
+      nodes: docSim.nodes,
+      links: docSim.links,
+      filteredNodes: docSim.nodes,
+      filteredLinks: docSim.links,
     };
+
+    this.searchFunc = this.searchFunc.bind(this);
+  }
+
+  searchFunc(query) {
+    const filtered = _.cloneDeep(this.state.nodes).filter(
+      node => node.name.includes(query) || node.author.includes(query)
+    );
+    this.setState({ ...this.state, search: query, filteredNodes: filtered });
+    this.forceUpdate();
+  }
+
+  renderTitle() {
+    const title = this.state.name;
+    return (
+      <Title responsive={false}>
+        <Box align="center" direction="row">
+          <Heading
+            strong={false}
+            uppercase={false}
+            truncate={false}
+            align="start"
+            margin="none"
+          >
+            {title}
+          </Heading>
+        </Box>
+      </Title>
+    );
+  }
+
+  renderSidebar() {
+    const title = this.renderTitle();
+    return (
+      <Sidebar
+        fixed={true}
+        size="small"
+        full={true}
+        separator="right"
+        ref={(r) => { this.sidebar = r; }}
+        colorIndex="brand"
+      >
+        <Header justify="between" size="large" pad={{ horizontal: 'medium' }}>
+          {title}
+        </Header>
+        <Box
+          full={true}
+          pad={{ horizontal: 'medium' }}
+        >
+          <SearchBox searchFunc={this.searchFunc} />
+        </Box>
+      </Sidebar>
+    );
   }
 
   render() {
     return (
       <Split
         fixed={true}
-        flex={'right'}
+        flex="right"
+        priority="right"
       >
-        <Sidebar
-          fixed={true}
-          size={'small'}
-          full={true}
-        >
-          <Search
-            placeHolder={'Search'}
-            inline={true}
-            value={''}
-          />
-        </Sidebar>
-        <Layout vizArray={this.state.viz} />
+        {this.renderSidebar()}
+        <Layout
+          nodes={this.state.nodes}
+          links={this.state.links}
+          filterNodes={this.state.filteredNodes}
+        />
       </Split>
     );
   }

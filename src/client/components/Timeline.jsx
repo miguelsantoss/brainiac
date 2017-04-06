@@ -18,23 +18,41 @@ import * as d3Voronoi from 'd3-voronoi';
 import '../css/App.css';
 import '../css/Timeline.css';
 
-// import some placeholder data
-const docSim = require('../cosine-sample.json');
-
 const marginBottom = 20;
 const marginRight = 20;
 const marginLeft = 20;
+const docSim = require('../cosine-sample.json');
 
 class Timeline extends Component {
+  static propTypes = {
+    nodes: React.PropTypes.arrayOf(React.PropTypes.shape({
+      name: React.PropTypes.string,
+      author: React.PropTypes.string,
+      year: React.PropTypes.string,
+      value: React.PropTypes.number,
+    })).isRequired,
+    hoverNode: React.PropTypes.func.isRequired,
+    hover: React.PropTypes.shape({
+      name: React.PropTypes.string,
+      author: React.PropTypes.string,
+      year: React.PropTypes.string,
+      value: React.PropTypes.number,
+    }),
+
+  }
+
+  static defaultProps = {
+    hover: null,
+  }
+
   constructor(props) {
     super(props);
-
     this.state = {
-      initialData: [],
-      nodes: [],
-      links: [],
+      nodes: props.nodes,
       init: false,
+      hover: props.hover,
     };
+
     this.initializeD3 = this.initializeD3.bind(this);
   }
 
@@ -42,15 +60,10 @@ class Timeline extends Component {
     const height = document.getElementById('window-timeline-content').clientHeight;
     const width = document.getElementById('window-timeline-content').clientWidth;
 
-    // this.setState({...this.state, width: width, height: height});
-
     fetch(docSim).then(() => docSim)
-      .then((data) => {
+      .then(() => {
         this.setState({
           ...this.state,
-          initialData: data,
-          nodes: data.nodes,
-          links: data.links,
           width,
           height
         }, () => {});
@@ -163,20 +176,21 @@ class Timeline extends Component {
     const nodes = cell.append('circle')
       .attr('r', 3)
       .attr('cx', d => d.data.x)
-      .attr('cy', d => d.data.y);
+      .attr('cy', d => d.data.y)
+      .attr('id', d => d.data.author)
+      .style('fill', '#111111');
 
     cell.append('path')
-      .attr('d', (d) => {
-        const path = `M${d.join('L')}Z`;
-        return path;
+      .attr('d', d => `M${d.join('L')}Z`)
+      .on('mouseover', (d) => {
+        this.props.hoverNode(d.data, true);
+      })
+      .on('mouseout', (d) => {
+        this.props.hoverNode(d.data, false);
       });
 
     cell.append('title')
-      .text((d) => {
-        const { name, author } = d.data;
-        const title = `${name}\n${author}`;
-        return title;
-      });
+      .text(d => `${d.data.name}\n${d.data.author}`);
 
     const d3Viz = { svg, cell, g, x, xAxis, simulation, nodes };
     this.setState({ ...this.state, d3Viz, init: true });
