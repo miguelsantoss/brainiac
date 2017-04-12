@@ -1,0 +1,59 @@
+$node-fill: #111111;
+$hover-fill: #ff1111;
+$node-stroke: $node-fill;
+
+$opacity-normal: 1;
+$opacity-greyed-out: 0.1;
+
+// animations
+$opacity-animation-time: 0.5s;
+$fill-animation-time: 0.2s;
+$opacity-animation: opacity $opacity-animation-time ease;
+$fill-animation: fill $fill-animation-time ease;
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  font: 10px sans-serif;
+}
+
+.cells path {
+  fill: none;
+  pointer-events: all;
+}
+
+.timeline-node {
+  fill: $node-fill;
+  stroke: $node-stroke;
+  opacity: $opacity-normal;
+  -webkit-transition: $opacity-animation, $fill-animation;
+     -moz-transition: $opacity-animation, $fill-animation;
+      -ms-transition: $opacity-animation, $fill-animation;
+       -o-transition: $opacity-animation, $fill-animation;
+          transition: $opacity-animation, $fill-animation;
+}
+
+.timeline-node.node-greyed-out {
+  opacity: $opacity-greyed-out;
+  -webkit-transition: $opacity-animation;
+     -moz-transition: $opacity-animation;
+      -ms-transition: $opacity-animation;
+       -o-transition: $opacity-animation;
+          transition: $opacity-animation;
+}
+
+.timeline-node.hover-node {
+  fill: $hover-fill;
+  stroke: $node-stroke;
+  opacity: $opacity-normal;
+  -webkit-transition: $opacity-animation, $fill-animation;
+     -moz-transition: $opacity-animation, $fill-animation;
+      -ms-transition: $opacity-animation, $fill-animation;
+       -o-transition: $opacity-animation, $fill-animation;
+          transition: $opacity-animation, $fill-animation;
+}

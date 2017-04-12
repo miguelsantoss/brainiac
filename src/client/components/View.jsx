@@ -28,7 +28,8 @@ class View extends Component {
     this.searchFunc = this.searchFunc.bind(this);
   }
 
-  searchFunc(query) {
+  searchFunc(event) {
+    const query = event.target.value;
     const filtered = _.cloneDeep(this.state.nodes).filter(
       node => node.name.includes(query) || node.author.includes(query)
     );
@@ -73,7 +74,7 @@ class View extends Component {
           full={true}
           pad={{ horizontal: 'medium' }}
         >
-          <SearchBox searchFunc={this.searchFunc} />
+          <SearchBox value={this.state.search} searchFunc={this.searchFunc} />
         </Box>
       </Sidebar>
     );

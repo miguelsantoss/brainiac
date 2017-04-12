@@ -8,8 +8,8 @@ import { selectAll } from 'd3-selection';
 import Network from './Network.jsx';
 import Timeline from './Timeline.jsx';
 
-import '../css/demo.css';
-import '../css/base-style.css';
+import '../css/layout.scss';
+import '../css/d3viz.scss';
 
 const ResponsiveReactGridLayout = WidthProvider(Responsive);
 
@@ -35,6 +35,11 @@ class Layout extends Component {
     })).isRequired,
   }
 
+  static hoverNode(d, state) {
+    // selectAll(`#${d.author}`).style('fill', state ? '#ff0000' : '#111111');
+    selectAll(`#${d.author}`).classed('hover-node', state);
+  }
+
   constructor(props) {
     super(props);
     this.state = {
@@ -47,11 +52,9 @@ class Layout extends Component {
       nodes: props.nodes,
       links: props.links,
       filterNodes: props.filterNodes,
-      hover: null,
     };
 
     this.onBreakpointChange = this.onBreakpointChange.bind(this);
-    this.hoverNode = this.hoverNode.bind(this);
   }
 
   componentDidMount() {
@@ -66,11 +69,6 @@ class Layout extends Component {
     });
   }
 
-  hoverNode(d, state) {
-    selectAll(`#${d.author}`).style('fill', state ? '#ff0000' : '#111111');
-    this.setState({ ...this.state, hover: state ? d : null });
-  }
-
   render() {
     return (
       <div>
@@ -82,18 +80,17 @@ class Layout extends Component {
         >
           <div key="network" data-grid={{ x: 0, y: 0, w: 12, h: 8, static: false }}>
             <Network
-              hoverNode={this.hoverNode}
+              hoverNode={Layout.hoverNode}
               nodes={_.cloneDeep(this.props.nodes)}
               filterNodes={_.cloneDeep(this.props.filterNodes)}
               links={_.cloneDeep(this.props.links)}
-              hover={_.cloneDeep(this.state.hover)}
             />
           </div>
           <div key="timeline" data-grid={{ x: 0, y: 0, w: 12, h: 8, static: false }}>
             <Timeline
-              hoverNode={this.hoverNode}
+              hoverNode={Layout.hoverNode}
               nodes={_.cloneDeep(this.props.nodes)}
-              hover={_.cloneDeep(this.state.hover)}
+              filterNodes={_.cloneDeep(this.props.filterNodes)}
             />
           </div>
         </ResponsiveReactGridLayout>

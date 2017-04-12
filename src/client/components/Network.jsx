@@ -3,13 +3,12 @@ import React, { Component } from 'react';
 import sizeMe from 'react-sizeme';
 
 // Import d3 stuff
-import { forceCenter, forceX, forceY, forceSimulation, forceLink, forceManyBody } from 'd3-force';
+import { forceX, forceY, forceSimulation, forceLink, forceManyBody } from 'd3-force';
 import { select, event } from 'd3-selection';
 import { drag } from 'd3-drag';
 
 // import css
-import '../css/App.css';
-import '../css/Network.css';
+import '../css/Network.scss';
 
 class Network extends Component {
   static propTypes = {
@@ -31,16 +30,6 @@ class Network extends Component {
       value: React.PropTypes.number,
     })).isRequired,
     hoverNode: React.PropTypes.func.isRequired,
-    hover: React.PropTypes.shape({
-      name: React.PropTypes.string,
-      author: React.PropTypes.string,
-      year: React.PropTypes.string,
-      value: React.PropTypes.number,
-    }),
-  }
-
-  static defaultProps = {
-    hover: null,
   }
 
   constructor(props) {
@@ -49,8 +38,6 @@ class Network extends Component {
       nodes: props.nodes,
       links: props.links,
       init: false,
-      hover: props.hover,
-      filterNodes: props.filterNodes,
     };
     this.initializeD3 = this.initializeD3.bind(this);
     this.setupNetwork = this.setupNetwork.bind(this);
@@ -71,25 +58,14 @@ class Network extends Component {
   }
 
   componentWillReceiveProps() {
+    this.setState({ ...this.state }, () => { this.filterNodes(); });
     this.handleResize();
-    console.log(this.props.filterNodes);
-    if (this.props.filterNodes.length !== this.state.filterNodes.length) {
-      this.setState({
-        ...this.state,
-        nodes: this.props.nodes,
-        filterNodes: this.props.filterNodes
-      }, () => {
-        // console.log(this.props.filterNodes);
-        // console.log(this.state.filterNodes);
-        // this.filterNodes();
-      });
-    }
   }
 
   setupNetwork() {
     const svg = this.state.d3Viz.svg;
     const simulation = this.state.d3Viz.simulation;
-    const nodes = this.state.filterNodes;
+    const nodes = this.props.filterNodes;
 
     const link = svg.append('g')
       .attr('class', 'links')
@@ -97,6 +73,7 @@ class Network extends Component {
       .data(this.state.links)
       .enter()
       .append('line')
+      .attr('class', 'line-network')
       .attr('stroke-width', 1.5);
 
     const node = svg.append('g')
@@ -105,10 +82,8 @@ class Network extends Component {
       .data(nodes, d => d.author)
       .enter()
       .append('circle')
-      .attr('class', 'node')
+      .attr('class', 'network-node')
       .attr('r', 7)
-      .style('stroke', '#FFFFFF')
-      .style('fill', '#111111')
       .attr('id', d => d.author)
       .on('mouseover', (d) => {
         this.props.hoverNode(d, true);
@@ -157,9 +132,25 @@ class Network extends Component {
   }
 
   filterNodes() {
-    const { node } = this.state.d3Viz;
-    const filter = this.state.filterNodes;
-    node.style('fill', d => (filter.filter(nodeE => nodeE.name === d.name).length > 0 ? '#ff00ff' : '#111111'));
+    const { node, link } = this.state.d3Viz;
+    const filter = this.props.filterNodes;
+    node.attr('class', (d) => {
+      const isPresent = filter.filter(nodeE => nodeE.name === d.name).length > 0;
+      return isPresent ? 'network-node' : 'network-node node-greyed-out';
+    });
+    link.attr('class', (d) => {
+      const filterLength = filter.length;
+      for (let i = 0; i < filterLength; i += 1) {
+        if (filter[i].name === d.source.name) {
+          for (let j = 0; j < filterLength; j += 1) {
+            if (filter[j].name === d.target.name && i !== j) {
+              return 'line-network';
+            }
+          }
+        }
+      }
+      return 'line-network line-greyed-out';
+    });
   }
 
   initializeD3() {
@@ -178,9 +169,9 @@ class Network extends Component {
     const simulation = forceSimulation()
       .force('link', forceLink().distance(linkDistanceMult))
       .force('charge', forceManyBody())
-      .force('center', forceCenter(width / 2, height / 2));
-      // .force('x', forceX(width / 2))
-      // .force('y', forceY(height / 2));
+      .force('x', forceX(width / 2))
+      .force('y', forceY(height / 2));
+      // .force('center', forceCenter(width / 2, height / 2));
 
     const d3Viz = { svg, simulation };
     this.setState({ ...this.state, d3Viz }, () => {
@@ -196,9 +187,7 @@ class Network extends Component {
 
     if (!this.state.init) return;
 
-    this.state.d3Viz.svg = select('#network-svg-element')
-      .attr('width', width)
-      .attr('height', height);
+    this.state.d3Viz.svg.attr('width', width).attr('height', height);
 
     this.state.d3Viz.simulation.force('x', forceX(width / 2)).force('y', forceY(height / 2));
     this.state.d3Viz.simulation.alphaTarget(0.3).restart();

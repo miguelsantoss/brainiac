@@ -5,14 +5,11 @@ import Search from 'grommet/components/Search';
 class SearchBox extends Component {
   static propTypes = {
     searchFunc: React.PropTypes.func.isRequired,
+    value: React.PropTypes.string.isRequired,
   }
 
   constructor(props) {
     super(props);
-    this.state = {
-      query: '',
-    };
-
     this.handleSearch = this.handleSearch.bind(this);
   }
 
@@ -28,8 +25,8 @@ class SearchBox extends Component {
         <Search
           inline={true}
           size="small"
-          value={this.state.query}
-          onDOMChange={this.handleSearch}
+          value={this.props.value}
+          onDOMChange={this.props.searchFunc}
         />
       </div>
     );
