@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import _ from 'lodash';
+import axios from 'axios';
 
 import Split from 'grommet/components/Split';
 import Sidebar from 'grommet/components/Sidebar';
@@ -7,11 +8,15 @@ import Header from 'grommet/components/Header';
 import Title from 'grommet/components/Title';
 import Box from 'grommet/components/Box';
 import Heading from 'grommet/components/Heading';
+import Button from 'grommet/components/Button';
+import Layer from 'grommet/components/Layer';
 
 import Layout from './Layout.jsx';
 import SearchBox from './SearchBox.jsx';
+import DocViewer from './DocViewer.jsx';
+import DocumentList from './DocumentList.jsx';
 
-import docSim from '../cosine-sample.json';
+import file from '../example2.pdf';
 
 class View extends Component {
   constructor(props) {
@@ -19,22 +24,54 @@ class View extends Component {
     this.state = {
       name: 'Brainiac',
       search: '',
-      nodes: docSim.nodes,
-      links: docSim.links,
-      filteredNodes: docSim.nodes,
-      filteredLinks: docSim.links,
+      nodes: [],
+      links: [],
+      filteredNodes: [],
+      filteredLinks: [],
+      pdf: false,
     };
 
     this.searchFunc = this.searchFunc.bind(this);
+    this.renderTitle = this.renderTitle.bind(this);
+    this.renderSidebar = this.renderSidebar.bind(this);
+    this.renderLayout = this.renderLayout.bind(this);
+    this.openDocumentFile = this.openDocumentFile.bind(this);
+    this.renderDocViewers = this.renderDocViewers.bind(this);
+    this.fetchPdf = this.fetchPdf .bind(this);
+  }
+
+  componentDidMount() {
+    axios({
+      method: 'get',
+      url: 'http://localhost:3000/pdf',
+      headers: { 'X-Requested-With': 'XMLHttpRequest' },
+    })
+      .then(response => response.data)
+       .then(data =>
+         this.setState({
+           ...this.state,
+           nodes: data.nodes,
+           links: data.links,
+           filteredNodes: data.nodes,
+           filteredLinks: data.links,
+         })
+       );
   }
 
   searchFunc(event) {
     const query = event.target.value;
     const filtered = _.cloneDeep(this.state.nodes).filter(
-      node => node.name.includes(query) || node.author.includes(query)
+      node => node.title.includes(query)
+      // node => node.title.includes(query) || node.author.includes(query)
     );
+    // console.log(filtered);
     this.setState({ ...this.state, search: query, filteredNodes: filtered });
     this.forceUpdate();
+  }
+
+  openDocumentFile(id) {
+    // this.fetchPdf(id);
+    this.setState({ ...this.state, pdf: id });
   }
 
   renderTitle() {
@@ -75,25 +112,69 @@ class View extends Component {
           pad={{ horizontal: 'medium' }}
         >
           <SearchBox value={this.state.search} searchFunc={this.searchFunc} />
+          <DocumentList
+            openDocumentFile={this.openDocumentFile}
+            nodes={this.state.nodes}
+            filteredNodes={this.state.filteredNodes}
+          />
         </Box>
       </Sidebar>
     );
   }
 
+  fetchPdf(id) {
+    axios({
+      method: 'get',
+      url: `http://localhost:3000/pdf/${id}`,
+      headers: { 'X-Requested-With': 'XMLHttpRequest' },
+    }).then(response => this.setState({
+      ...this.state,
+      pdfFile: response.data,
+    }, () => { console.log(response); this.renderDocViewers(); }));
+  }
+
+  renderDocViewers() {
+    if (this.state.pdf) {
+      return (
+        <div>
+          <Layer
+            onClose={() => this.setState({ ...this.state, pdf: false })}
+          >
+            <DocViewer file={`http://localhost:3000/pdf/${this.state.pdf}.pdf`} />;
+          </Layer>
+        </div>
+      );
+    }
+    return null;
+  }
+
+  renderLayout() {
+    if(this.state.nodes.length > 0) {
+      return (
+        <div>
+          <Layout
+            nodes={this.state.nodes}
+            links={this.state.links}
+            filteredNodes={this.state.filteredNodes}
+          />
+        </div>
+      );
+    }
+  }
+
   render() {
     return (
-      <Split
-        fixed={true}
-        flex="right"
-        priority="right"
-      >
-        {this.renderSidebar()}
-        <Layout
-          nodes={this.state.nodes}
-          links={this.state.links}
-          filterNodes={this.state.filteredNodes}
-        />
-      </Split>
+      <div>
+        <Split
+          fixed={true}
+          flex="right"
+          priority="right"
+        >
+          {this.renderSidebar()}
+          {this.renderLayout()}
+        </Split>
+        {this.renderDocViewers()}
+      </div>
     );
   }
 }

@@ -17,15 +17,21 @@ class Layout extends Component {
   static propTypes = {
     // searchQuery: React.PropTypes.string.isRequired,
     nodes: React.PropTypes.arrayOf(React.PropTypes.shape({
-      name: React.PropTypes.string,
-      author: React.PropTypes.string,
-      year: React.PropTypes.string,
+      id: React.PropTypes.string,
+      title: React.PropTypes.string,
+      authors: React.PropTypes.arrayOf(React.PropTypes.shape({
+        name: React.PropTypes.string
+      })),
+      date: React.PropTypes.string,
       value: React.PropTypes.number,
     })).isRequired,
-    filterNodes: React.PropTypes.arrayOf(React.PropTypes.shape({
-      name: React.PropTypes.string,
-      author: React.PropTypes.string,
-      year: React.PropTypes.string,
+    filteredNodes: React.PropTypes.arrayOf(React.PropTypes.shape({
+      id: React.PropTypes.string,
+      title: React.PropTypes.string,
+      authors: React.PropTypes.arrayOf(React.PropTypes.shape({
+        name: React.PropTypes.string
+      })),
+      date: React.PropTypes.string,
       value: React.PropTypes.number,
     })).isRequired,
     links: React.PropTypes.arrayOf(React.PropTypes.shape({
@@ -37,7 +43,8 @@ class Layout extends Component {
 
   static hoverNode(d, state) {
     // selectAll(`#${d.author}`).style('fill', state ? '#ff0000' : '#111111');
-    selectAll(`#${d.author}`).classed('hover-node', state);
+    // fixme ids start with letter
+    selectAll(`#${d.id}`).classed('hover-node', state);
   }
 
   constructor(props) {
@@ -82,7 +89,7 @@ class Layout extends Component {
             <Network
               hoverNode={Layout.hoverNode}
               nodes={_.cloneDeep(this.props.nodes)}
-              filterNodes={_.cloneDeep(this.props.filterNodes)}
+              filteredNodes={_.cloneDeep(this.props.filteredNodes)}
               links={_.cloneDeep(this.props.links)}
             />
           </div>
@@ -90,7 +97,7 @@ class Layout extends Component {
             <Timeline
               hoverNode={Layout.hoverNode}
               nodes={_.cloneDeep(this.props.nodes)}
-              filterNodes={_.cloneDeep(this.props.filterNodes)}
+              filteredNodes={_.cloneDeep(this.props.filteredNodes)}
             />
           </div>
         </ResponsiveReactGridLayout>

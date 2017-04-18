@@ -100,20 +100,25 @@ module.exports = function(env) {
             },
           ]
         },
-        {
-          enforce: 'pre',
-          test: /\.(js|jsx)$/,
-          exclude: /node_modules/,
-          loader: 'eslint-loader',
-          options: {
-            failOnWarning: true,
-            failOnError: true,
-          },
-        },
+        // {
+        //   enforce: 'pre',
+        //   test: /\.(js|jsx)$/,
+        //   exclude: /node_modules/,
+        //   loader: 'eslint-loader',
+        //   options: {
+        //     failOnWarning: true,
+        //     failOnError: true,
+        //   },
+        // },
         {
           test: /\.(js|jsx)$/,
           exclude: /node_modules/,
           loader: 'babel-loader',
+        },
+        {
+          test: /\.pdf$/,
+          exclude: /node_modules/,
+          loader: 'file-loader',
         },
       ],
     },

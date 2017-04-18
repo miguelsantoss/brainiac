@@ -13,20 +13,26 @@ import '../css/Network.scss';
 class Network extends Component {
   static propTypes = {
     nodes: React.PropTypes.arrayOf(React.PropTypes.shape({
-      name: React.PropTypes.string,
-      author: React.PropTypes.string,
-      year: React.PropTypes.string,
+      id: React.PropTypes.string,
+      title: React.PropTypes.string,
+      authors: React.PropTypes.arrayOf(React.PropTypes.shape({
+        name: React.PropTypes.string
+      })),
+      date: React.PropTypes.string,
       value: React.PropTypes.number,
     })).isRequired,
-    filterNodes: React.PropTypes.arrayOf(React.PropTypes.shape({
-      name: React.PropTypes.string,
-      author: React.PropTypes.string,
-      year: React.PropTypes.string,
+    filteredNodes: React.PropTypes.arrayOf(React.PropTypes.shape({
+      id: React.PropTypes.string,
+      title: React.PropTypes.string,
+      authors: React.PropTypes.arrayOf(React.PropTypes.shape({
+        name: React.PropTypes.string
+      })),
+      date: React.PropTypes.string,
       value: React.PropTypes.number,
     })).isRequired,
     links: React.PropTypes.arrayOf(React.PropTypes.shape({
-      source: React.PropTypes.number,
-      target: React.PropTypes.number,
+      source: React.PropTypes.any,
+      target: React.PropTypes.any,
       value: React.PropTypes.number,
     })).isRequired,
     hoverNode: React.PropTypes.func.isRequired,
@@ -65,7 +71,7 @@ class Network extends Component {
   setupNetwork() {
     const svg = this.state.d3Viz.svg;
     const simulation = this.state.d3Viz.simulation;
-    const nodes = this.props.filterNodes;
+    const nodes = this.props.filteredNodes;
 
     const link = svg.append('g')
       .attr('class', 'links')
@@ -79,12 +85,12 @@ class Network extends Component {
     const node = svg.append('g')
       .attr('class', 'nodes')
       .selectAll('circle')
-      .data(nodes, d => d.author)
+      .data(nodes, d => d.id)
       .enter()
       .append('circle')
       .attr('class', 'network-node')
       .attr('r', 7)
-      .attr('id', d => d.author)
+      .attr('id', d => d.id)
       .on('mouseover', (d) => {
         this.props.hoverNode(d, true);
       })
@@ -109,7 +115,7 @@ class Network extends Component {
       );
 
     node.append('title')
-      .text(d => d.author);
+      .text(d => d.title);
 
     simulation
       .nodes(nodes)
@@ -133,17 +139,17 @@ class Network extends Component {
 
   filterNodes() {
     const { node, link } = this.state.d3Viz;
-    const filter = this.props.filterNodes;
+    const filter = this.props.filteredNodes;
     node.attr('class', (d) => {
-      const isPresent = filter.filter(nodeE => nodeE.name === d.name).length > 0;
+      const isPresent = filter.filter(nodeE => nodeE.title === d.title).length > 0;
       return isPresent ? 'network-node' : 'network-node node-greyed-out';
     });
     link.attr('class', (d) => {
       const filterLength = filter.length;
       for (let i = 0; i < filterLength; i += 1) {
-        if (filter[i].name === d.source.name) {
+        if (filter[i].title === d.source.title) {
           for (let j = 0; j < filterLength; j += 1) {
-            if (filter[j].name === d.target.name && i !== j) {
+            if (filter[j].title === d.target.title && i !== j) {
               return 'line-network';
             }
           }

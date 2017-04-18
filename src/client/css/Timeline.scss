@@ -57,3 +57,12 @@ $fill-animation: fill $fill-animation-time ease;
        -o-transition: $opacity-animation, $fill-animation;
           transition: $opacity-animation, $fill-animation;
 }
+
+.timeline-node.node-greyed-out.hover-node {
+  opacity: $opacity-greyed-out;
+  -webkit-transition: $opacity-animation;
+     -moz-transition: $opacity-animation;
+      -ms-transition: $opacity-animation;
+       -o-transition: $opacity-animation;
+          transition: $opacity-animation;
+}

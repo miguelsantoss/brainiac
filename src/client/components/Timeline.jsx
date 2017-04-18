@@ -17,22 +17,31 @@ import * as d3Voronoi from 'd3-voronoi';
 // import css
 import '../css/Timeline.scss';
 
+import docSim from '../cosine-sample.json';
+
 const marginBottom = 20;
 const marginRight = 20;
 const marginLeft = 20;
+const forceYspaceCollide = 1.5;
 
 class Timeline extends Component {
   static propTypes = {
     nodes: React.PropTypes.arrayOf(React.PropTypes.shape({
-      name: React.PropTypes.string,
-      author: React.PropTypes.string,
-      year: React.PropTypes.string,
+      id: React.PropTypes.string,
+      title: React.PropTypes.string,
+      authors: React.PropTypes.arrayOf(React.PropTypes.shape({
+        name: React.PropTypes.string
+      })),
+      date: React.PropTypes.string,
       value: React.PropTypes.number,
     })).isRequired,
-    filterNodes: React.PropTypes.arrayOf(React.PropTypes.shape({
-      name: React.PropTypes.string,
-      author: React.PropTypes.string,
-      year: React.PropTypes.string,
+    filteredNodes: React.PropTypes.arrayOf(React.PropTypes.shape({
+      id: React.PropTypes.string,
+      title: React.PropTypes.string,
+      authors: React.PropTypes.arrayOf(React.PropTypes.shape({
+        name: React.PropTypes.string
+      })),
+      date: React.PropTypes.string,
       value: React.PropTypes.number,
     })).isRequired,
     hoverNode: React.PropTypes.func.isRequired,
@@ -43,6 +52,7 @@ class Timeline extends Component {
     this.state = {
       nodes: props.nodes,
       init: false,
+      nodeRadius: 6,
     };
 
     this.initializeD3 = this.initializeD3.bind(this);
@@ -76,10 +86,13 @@ class Timeline extends Component {
     const mountPoint = this.mountTimeline;
     const width = this.state.width;
     const height = this.state.height;
-    const nodeRadius = 6;
+    const nodeRadius = this.state.nodeRadius;
+    const forceYcollide = nodeRadius + forceYspaceCollide;
+    const nodeData = this.state.nodes;
+    const nTicks = Math.ceil(width * 0.01);
 
     const x = d3Scale.scaleLinear().rangeRound([0, width - (marginRight + marginLeft)]);
-    x.domain(d3Array.extent(this.state.nodes, d => d.year));
+    x.domain(d3Array.extent(nodeData, d => d.date.slice(0,4)));
 
     const svg = d3Sel.select(mountPoint)
       .append('svg')
@@ -91,15 +104,14 @@ class Timeline extends Component {
     const g = svg.append('g')
       .attr('transform', 'translate(20,0)');
 
-    const simulation = d3Force.forceSimulation(this.state.nodes)
-      .force('x', d3Force.forceX(d => x(d.year)).strength(1))
+    const simulation = d3Force.forceSimulation(nodeData)
+      .force('x', d3Force.forceX(d => x(d.date.slice(0,4))).strength(1))
       .force('y', d3Force.forceY(height / 2))
-      .force('collide', d3Force.forceCollide(nodeRadius + 1.5))
+      .force('collide', d3Force.forceCollide(forceYcollide))
       .stop();
 
     for (let i = 0; i < 120; i += 1) simulation.tick();
 
-    const nTicks = Math.ceil(width * 0.01);
     const xAxis = g.append('g')
       .attr('class', 'axis axis--x')
       .attr('transform', () => {
@@ -114,7 +126,7 @@ class Timeline extends Component {
         .extent([[0, 0], [width, height]])
         .x(d => d.x)
         .y(d => d.y)
-      .polygons(this.state.nodes))
+      .polygons(nodeData))
       .enter()
       .append('g');
 
@@ -123,7 +135,7 @@ class Timeline extends Component {
       .attr('r', nodeRadius)
       .attr('cx', d => d.data.x)
       .attr('cy', d => d.data.y)
-      .attr('id', d => d.data.author);
+      .attr('id', d => d.data.id);
 
     cell.append('path')
       .attr('d', d => `M${d.join('L')}Z`)
@@ -135,19 +147,22 @@ class Timeline extends Component {
       });
 
     cell.append('title')
-      .text(d => `${d.data.name}\n${d.data.author}`);
+      .text(d => `${d.data.title}\n${d.data.date.slice(0,4)}`);
 
     const d3Viz = { svg, cell, g, x, xAxis, simulation, nodes };
     this.setState({ ...this.state, d3Viz, init: true });
   }
 
   handleResize() {
+    if (!this.state.init) return;
     const height = document.getElementById('window-timeline-content').clientHeight;
     const width = document.getElementById('window-timeline-content').clientWidth;
+    const nTicks = Math.ceil(width * 0.01);
+    const nodeRadius = this.state.nodeRadius;
+    const forceYcollide = nodeRadius + forceYspaceCollide;
+    const nodeData = this.state.nodes;
 
     this.setState({ ...this.state, width, height });
-
-    if (!this.state.init) return;
 
     this.state.d3Viz.svg
       .attr('width', width)
@@ -155,43 +170,29 @@ class Timeline extends Component {
 
     this.state.d3Viz.x.rangeRound([0, width - (marginRight + marginLeft)]);
 
-    const nTicks = Math.ceil(width * 0.01);
     this.state.d3Viz.xAxis.attr('transform', () => {
       const translate = `translate(0,${height - marginBottom})`;
       return translate;
     }).call(d3Axis.axisBottom(this.state.d3Viz.x).ticks(nTicks, ''));
 
-    this.state.d3Viz.simulation
-      .force('x', d3Force.forceX(d => this.state.d3Viz.x(d.year)).strength(1))
+    const simulation = d3Force.forceSimulation(nodeData)
+      .force('x', d3Force.forceX(d => this.state.d3Viz.x(d.date.slice(0,4))).strength(1))
       .force('y', d3Force.forceY(height / 2))
-      .force('collide', d3Force.forceCollide(4))
+      .force('collide', d3Force.forceCollide(forceYcollide))
       .stop();
 
-    for (let i = 0; i < 120; i += 1) this.state.d3Viz.simulation.tick();
+    for (let i = 0; i < 120; i += 1) simulation.tick();
 
-    this.state.d3Viz.nodes.attr('x', d => this.state.d3Viz.x(d.data.year));
-    this.state.d3Viz.nodes.attr('cx', d => this.state.d3Viz.x(d.data.year));
+    this.state.d3Viz.nodes.attr('cx', d => d.data.x);
+    this.state.d3Viz.nodes.attr('cy', d => d.data.y);
 
-    // this.state.d3Viz.nodes.attr('cy', (d) => { return d.data.y });
-    // this.state.d3Viz.nodes.attr('y', (d) => {
-    //   console.log("oldHeight: ", oldHeight);
-    //   console.log("height: ", height);
-    //   console.log("y: ", d.data.y);
-    //   console.log("cy: ", d.data.y);
-    //   console.log("oldHeight/2: ", oldHeight/2);
-    //   console.log("height/2: ", height/2);
-    //   console.log("diff: ", ((oldHeight / 2) - d.data.y));
-    //   console.log("new: ", (height/2) + (d.data.y - (oldHeight / 2)));
-    //   const y = ((height / 2) + ((oldHeight / 2) - d.data.y));
-    //   return y;
-    // });
   }
 
   filterNodes() {
     const { nodes } = this.state.d3Viz;
-    const filter = this.props.filterNodes;
+    const filter = this.props.filteredNodes;
     nodes.attr('class', (d) => {
-      const isPresent = filter.filter(nodeE => nodeE.name === d.data.name).length > 0;
+      const isPresent = filter.filter(nodeE => nodeE.title === d.data.title).length > 0;
       return isPresent ? 'timeline-node' : 'timeline-node node-greyed-out';
     });
   }
