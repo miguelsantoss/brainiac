@@ -17,8 +17,6 @@ import * as d3Voronoi from 'd3-voronoi';
 // import css
 import '../css/Timeline.scss';
 
-import docSim from '../cosine-sample.json';
-
 const marginBottom = 20;
 const marginRight = 20;
 const marginLeft = 20;
@@ -92,7 +90,7 @@ class Timeline extends Component {
     const nTicks = Math.ceil(width * 0.01);
 
     const x = d3Scale.scaleLinear().rangeRound([0, width - (marginRight + marginLeft)]);
-    x.domain(d3Array.extent(nodeData, d => d.date.slice(0,4)));
+    x.domain(d3Array.extent(nodeData, d => d.date.slice(0, 4)));
 
     const svg = d3Sel.select(mountPoint)
       .append('svg')
@@ -105,7 +103,7 @@ class Timeline extends Component {
       .attr('transform', 'translate(20,0)');
 
     const simulation = d3Force.forceSimulation(nodeData)
-      .force('x', d3Force.forceX(d => x(d.date.slice(0,4))).strength(1))
+      .force('x', d3Force.forceX(d => x(d.date.slice(0, 4))).strength(1))
       .force('y', d3Force.forceY(height / 2))
       .force('collide', d3Force.forceCollide(forceYcollide))
       .stop();
@@ -147,7 +145,7 @@ class Timeline extends Component {
       });
 
     cell.append('title')
-      .text(d => `${d.data.title}\n${d.data.date.slice(0,4)}`);
+      .text(d => `${d.data.title}\n${d.data.date.slice(0, 4)}`);
 
     const d3Viz = { svg, cell, g, x, xAxis, simulation, nodes };
     this.setState({ ...this.state, d3Viz, init: true });
@@ -176,7 +174,7 @@ class Timeline extends Component {
     }).call(d3Axis.axisBottom(this.state.d3Viz.x).ticks(nTicks, ''));
 
     const simulation = d3Force.forceSimulation(nodeData)
-      .force('x', d3Force.forceX(d => this.state.d3Viz.x(d.date.slice(0,4))).strength(1))
+      .force('x', d3Force.forceX(d => this.state.d3Viz.x(d.date.slice(0, 4))).strength(1))
       .force('y', d3Force.forceY(height / 2))
       .force('collide', d3Force.forceCollide(forceYcollide))
       .stop();
@@ -185,7 +183,6 @@ class Timeline extends Component {
 
     this.state.d3Viz.nodes.attr('cx', d => d.data.x);
     this.state.d3Viz.nodes.attr('cy', d => d.data.y);
-
   }
 
   filterNodes() {

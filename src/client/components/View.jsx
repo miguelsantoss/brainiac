@@ -8,15 +8,12 @@ import Header from 'grommet/components/Header';
 import Title from 'grommet/components/Title';
 import Box from 'grommet/components/Box';
 import Heading from 'grommet/components/Heading';
-import Button from 'grommet/components/Button';
 import Layer from 'grommet/components/Layer';
 
 import Layout from './Layout.jsx';
 import SearchBox from './SearchBox.jsx';
 import DocViewer from './DocViewer.jsx';
 import DocumentList from './DocumentList.jsx';
-
-import file from '../example2.pdf';
 
 class View extends Component {
   constructor(props) {
@@ -37,7 +34,7 @@ class View extends Component {
     this.renderLayout = this.renderLayout.bind(this);
     this.openDocumentFile = this.openDocumentFile.bind(this);
     this.renderDocViewers = this.renderDocViewers.bind(this);
-    this.fetchPdf = this.fetchPdf .bind(this);
+    this.fetchPdf = this.fetchPdf.bind(this);
   }
 
   componentDidMount() {
@@ -74,23 +71,15 @@ class View extends Component {
     this.setState({ ...this.state, pdf: id });
   }
 
-  renderTitle() {
-    const title = this.state.name;
-    return (
-      <Title responsive={false}>
-        <Box align="center" direction="row">
-          <Heading
-            strong={false}
-            uppercase={false}
-            truncate={false}
-            align="start"
-            margin="none"
-          >
-            {title}
-          </Heading>
-        </Box>
-      </Title>
-    );
+  fetchPdf(id) {
+    axios({
+      method: 'get',
+      url: `http://localhost:3000/pdf/${id}`,
+      headers: { 'X-Requested-With': 'XMLHttpRequest' },
+    }).then(response => this.setState({
+      ...this.state,
+      pdfFile: response.data,
+    }, () => { console.log(response); this.renderDocViewers(); }));
   }
 
   renderSidebar() {
@@ -114,23 +103,30 @@ class View extends Component {
           <SearchBox value={this.state.search} searchFunc={this.searchFunc} />
           <DocumentList
             openDocumentFile={this.openDocumentFile}
-            nodes={this.state.nodes}
-            filteredNodes={this.state.filteredNodes}
+            nodes={this.state.filteredNodes}
           />
         </Box>
       </Sidebar>
     );
   }
 
-  fetchPdf(id) {
-    axios({
-      method: 'get',
-      url: `http://localhost:3000/pdf/${id}`,
-      headers: { 'X-Requested-With': 'XMLHttpRequest' },
-    }).then(response => this.setState({
-      ...this.state,
-      pdfFile: response.data,
-    }, () => { console.log(response); this.renderDocViewers(); }));
+  renderTitle() {
+    const title = this.state.name;
+    return (
+      <Title responsive={false}>
+        <Box align="center" direction="row">
+          <Heading
+            strong={false}
+            uppercase={false}
+            truncate={false}
+            align="start"
+            margin="none"
+          >
+            {title}
+          </Heading>
+        </Box>
+      </Title>
+    );
   }
 
   renderDocViewers() {
@@ -149,7 +145,7 @@ class View extends Component {
   }
 
   renderLayout() {
-    if(this.state.nodes.length > 0) {
+    if (this.state.nodes.length > 0) {
       return (
         <div>
           <Layout
@@ -160,6 +156,7 @@ class View extends Component {
         </div>
       );
     }
+    return null;
   }
 
   render() {

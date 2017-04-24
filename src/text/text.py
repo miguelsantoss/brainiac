@@ -35,33 +35,34 @@ lemmatizer = WordNetLemmatizer()
 
 
 def stem_tokens(tokens, stemmer):
-    stemmed = []
-    for item in tokens:
-        stemmed.append(stemmer.stem(item))
-    return stemmed
+  stemmed = []
+  for item in tokens:
+    stemmed.append(stemmer.stem(item))
+  return stemmed
 
 def lemmatize(tokens, lemmatizer):
-    lemmas = []
-    for item in tokens:
-        lemmas.append(lemmatizer.lemmatize(item))
-    return lemmas
+  lemmas = []
+  for item in tokens:
+    lemmas.append(lemmatizer.lemmatize(item))
+  return lemmas
     
 
 def tokenize(text):
-    tokens = nltk.word_tokenize(text)
-    lemmas = lemmatize(tokens, lemmatizer)
-    return lemmas 
+  tokens = nltk.word_tokenize(text)
+  lemmas = lemmatize(tokens, lemmatizer)
+  return lemmas 
 
-for subdir, dirs, files in os.walk(path):
+def documentAnalysis():
+  for subdir, dirs, files in os.walk(path):
     for file in files:
-        n_files = n_files + 1
-        file_path = subdir + os.path.sep + file
-        file_names.append(file_path)
-        shakes = open(file_path, 'r')
-        text = shakes.read().replace('\n','')
-        lowers = text.lower()
-        no_punctuation = lowers.translate(str.maketrans('','',string.punctuation))
-        token_dict[file] = no_punctuation
+      n_files = n_files + 1
+      file_path = subdir + os.path.sep + file
+      file_names.append(file_path)
+      shakes = open(file_path, 'r')
+      text = shakes.read().replace('\n','')
+      lowers = text.lower()
+      no_punctuation = lowers.translate(str.maketrans('','',string.punctuation))
+      token_dict[file] = no_punctuation
 
 vect = TfidfVectorizer(tokenizer=tokenize, stop_words='english')
 #tfidf = TfidfVectorizer(tokenizer=tokenize)
@@ -80,12 +81,12 @@ sim_json = {}
 doc_array = []
 
 for index, file in enumerate(file_names):
-    doc_obj = {}
-    file_name = file[:-4]
-    file_name = file_name[4:]
-    doc_obj['name'] = file_name
-    doc_obj['similarity'] = sim[index]
-    doc_array.append(doc_obj)
+  doc_obj = {}
+  file_name = file[:-4]
+  file_name = file_name[4:]
+  doc_obj['name'] = file_name
+  doc_obj['similarity'] = sim[index]
+  doc_array.append(doc_obj)
 
 sim_json['array'] = doc_array
 

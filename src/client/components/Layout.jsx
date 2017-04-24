@@ -58,7 +58,7 @@ class Layout extends Component {
       },
       nodes: props.nodes,
       links: props.links,
-      filterNodes: props.filterNodes,
+      filterNodes: props.filteredNodes,
     };
 
     this.onBreakpointChange = this.onBreakpointChange.bind(this);

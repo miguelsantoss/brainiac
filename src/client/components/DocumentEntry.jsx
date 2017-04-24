@@ -7,11 +7,14 @@ class DocumentEntry extends React.Component {
     title: React.PropTypes.string.isRequired,
     id: React.PropTypes.string.isRequired,
     handleClick: React.PropTypes.func.isRequired,
+    handleHover: React.PropTypes.func.isRequired,
   }
 
   constructor(props) {
     super(props);
-    this.state = {};
+    this.handleMouseEnter = this.handleMouseEnter.bind(this, props.id);
+    this.handleMouseLeave = this.handleMouseLeave.bind(this, props.id);
+    this.handleClick = this.handleClick.bind(this, props.id);
   }
 
   handleClick() {
@@ -19,16 +22,31 @@ class DocumentEntry extends React.Component {
     this.props.handleClick(id);
   }
 
+  handleMouseEnter(id) {
+    this.props.handleHover(id, true);
+  }
+
+  handleMouseLeave(id) {
+    this.props.handleHover(id, false);
+  }
+
   render() {
     const { id, title } = this.props;
     return (
-      <ListItem
-        onClick={this.handleClick.bind(this, id)}
+      <div
+        onMouseEnter={this.handleMouseEnter}
+        onMouseLeave={this.handleMouseLeave}
       >
-        <span>
-          {title}
-        </span>
-      </ListItem>
+        <ListItem
+          className="item"
+          id={id}
+          onClick={this.handleClick}
+        >
+          <span>
+            {title}
+          </span>
+        </ListItem>
+      </div>
     );
   }
 }

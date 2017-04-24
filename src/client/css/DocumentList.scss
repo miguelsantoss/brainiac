@@ -1,3 +1,28 @@
-ul {
-  list-style-type: none;
+$opacity-item: 1;
+$opacity-hover: 0.5;
+
+$fill-hover: rgba(221, 221, 221, 0.5);
+
+$opacity-animation-time: 0.5s;
+$opacity-animation: opacity $opacity-animation-time ease;
+$fill-animation-time: 0.2s;
+$fill-animation: background-color $fill-animation-time ease;
+
+.item {
+  opacity: $opacity-item;
+  -webkit-transition: $opacity-animation, $fill-animation;
+     -moz-transition: $opacity-animation, $fill-animation;
+      -ms-transition: $opacity-animation, $fill-animation;
+       -o-transition: $opacity-animation, $fill-animation;
+          transition: $opacity-animation, $fill-animation;
+}
+
+.item.hover-node {
+  // opacity: $opacity-hover;
+  background-color: $fill-hover;
+  -webkit-transition: $opacity-animation, $fill-animation;
+     -moz-transition: $opacity-animation, $fill-animation;
+      -ms-transition: $opacity-animation, $fill-animation;
+       -o-transition: $opacity-animation, $fill-animation;
+          transition: $opacity-animation, $fill-animation;
 }
