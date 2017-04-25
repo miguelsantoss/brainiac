@@ -1,0 +1,580 @@
+Neurobiology of Aging 22 2001 747754
+www elsevier com locate neuaging
+MRI derived entorhinal and hippocampal atrophy in incipient and very
+mild Alzheimers disease
+B C Dickersona f I Goncharovaa g M P Sullivana h C Forchettia b i R S Wilsona b c d 
+D A Bennetta b d L A Beckettd e L deToledo Morrella b c 
+a
+Department of Neurological Sciences
+b
+Rush Alzheimers Disease Center
+c
+Department of Psychology
+d
+Rush Institute for Healthy Aging
+e
+Department of Medicine Rush University Chicago IL 60612 USA
+f
+Now at Departments of Neurology Massachusetts General and Brigham and Womens Hospitals Harvard Medical School Boston Massachusetts USA
+g
+Now at Wadsworth Center New York State Department of Health Albany New York USA
+h
+Now at the Biomedical Department University of Alaska Anchorage Alaska USA
+i
+Now at the Chicago Center for Clinical Research Chicago Illinois USA
+Received 15 August 2000 received in revised form 20 June 2001 accepted 20 June 2001
+Abstract
+With high resolution quantitative magnetic resonance imaging MRI techniques it is now possible to examine alterations in brain
+anatomy in vivo and to identify regions affected in the earliest stages of Alzheimers disease AD In this study we compared MRI derived
+entorhinal and hippocampal volume in healthy elderly controls patients who presented at the clinic with cognitive complaints but did not
+meet criteria for dementia non demented and patients with very mild AD The two patient groups differed significantly from controls in
+entorhinal volume but not from each other in contrast they differed from each other as well as from controls in hippocampal volume 
+with the mild AD cases showing the greatest atrophy Follow up clinical evaluations available on 23 28 non demented patients indicated
+that 12 23 had converted to AD within 1277 months from the baseline MRI examination Converters could be best differentiated from
+non converters on the basis of entorhinal but not hippocampal volume These data suggest that although both the EC and hippocampal
+formation degenerate before the onset of overt dementia EC volume is a better predictor of conversion  2001 Elsevier Science Inc All
+rights reserved 
+Keywords Mesial temporal lobe Parahippocampal gyrus Aging Mild cognitive impairment Memory
+Introduction
+Quantitative high resolution magnetic resonance imaging MRI techniques provide a unique tool for examining
+alterations in brain anatomy in vivo during healthy aging
+and in age related degenerative diseases Such techniques
+are especially useful in identifying the anatomical origins of
+Alzheimers disease AD 
+ This research was supported by grants and 
+ from the National Institute on Aging National Institutes of
+Health 
+ Corresponding author Tel 1 fax 1 
+E mail address ldetoledrush edu L deToledo Morrell 
+The entorhinal cortex EC and the hippocampal formation HF are part of the mesial temporal lobe memory
+system 42 50 the EC connects the neocortex with the HF
+via the perforant path thereby providing the latter with
+multimodal sensory information These brain regions have
+received special attention in investigations on the pathophysiology of AD since memory dysfunction is one of its
+earliest hallmarks 
+Post mortem pathological studies have implicated the EC
+and the transentorhinal region as early sites of involvement
+in AD and in individuals with mild cognitive impairment
+4  6 18 21 35 46 However the EC has received less attention in in vivo investigations partly due to the fact that
+MRI derived quantitative protocols for this structure were
+only recently developed 2 22 
+0197 01  see front matter  2001 Elsevier Science Inc All rights reserved 
+PII S 0 1 9 7 4 5 8 0 0 1 0 0 2 7 1 8
+B C Dickerson et al Neurobiology of Aging 22 2001 747754
+Atrophy of the HF a region important for the acquisition
+of certain types of new information i e declarative knowledge has been well documented in AD using quantitative
+volumetric MRI analyses 7 1214 23 24 29 32 38 40 48 
+49 More recently atrophy of the EC was demonstrated in
+AD with MRI based quantitation of its volume 27 49 Yet 
+while in vivo anatomical investigations using structural MRI
+are rapidly proliferating relatively few volumetric studies
+have focused strictly on patients in the earliest stages of AD
+or on those with mild cognitive impairment see for example 31 49 
+Two studies that measured the entire parahippocampal
+gyrus failed to detect significant atrophy in this structure in
+patients with a clinical diagnosis of very mild AD 14 24 
+In these mild cases however there was significant hippocampal atrophy These results were initially somewhat
+surprising given the early pathological involvement of the
+entorhinal and transentorhinal cortices in the disease process In the two studies cited above parahippocampal gyrus
+volume included both white and gray matter and in the case
+of the report from our laboratory 14 measurements continued beyond the anatomical boundaries of the entorhinal
+and perirhinal cortices As a result any changes in the EC
+itself may have been masked It was therefore important to
+use newly developed protocols for the quantitation of the
+EC in order to re examine its involvement in patients with
+very mild or incipient AD 
+In addition to patients with very mild AD individuals at
+high risk for AD are now being studied in order to identify
+anatomical changes that precede a clinical diagnosis and to
+develop sensitive in vivo markers that might be predictive of
+conversion to AD One such group consists of those patients
+who have cognitive complaints cognitive impairment or
+both but who do not meet diagnostic criteria for dementia
+after a thorough evaluation Such groups are of special
+interest since they provide information on the transitional
+state between normal aging and AD although definitions
+and designations of this subgroup have varied 8 15 25 36 
+37 A number of investigations have suggested that when
+followed longitudinally these individuals are at increased
+risk for developing AD 1 3 9 15 31 36 43 Furthermore 
+there is increased risk for incident dementia among elderly
+people with subjective or informant corroborated memory
+complaints even if their baseline cognitive assessment is
+normal 17 26 39 44 45 
+Of the few MRI studies that have examined the volumes
+of mesial temporal lobe structures in elderly patients with
+mild cognitive impairment or age associated memory impairment some have found hippocampal atrophy 7 10 25 
+49 while others have not 32 41 Two recent investigations that assessed MRI based entorhinal volume in such
+patients found significant EC atrophy compared to controls
+The present research was undertaken to compare the
+extent of MRI derived hippocampal and entorhinal atrophy
+in very mild and incipient AD in an attempt to determine the
+earliest sites of pathological involvement in the disease
+process and to develop in vivo anatomical markers 
+Materials and methods
+2 1 Subjects
+Data reported here were obtained from the following
+three groups of participants 1 34 healthy elderly normal
+control subjects NC 2 28 patients who were evaluated for
+cognitive complaints but who did not meet clinical criteria
+for dementia they are referred to here as non demented
+patients or ND and 3 16 patients with very mild probable
+AD The major difference between the ND patients and the
+elderly controls is that the patients were recruited from a
+clinic where they were being evaluated for possible dementia whereas the elderly controls were recruited from the
+general population and had to meet the criteria described
+below 
+2 2 Clinical work up
+All evaluations were carried out at the Rush Alzheimers
+Disease Center RADC Chicago IL as previously described 14 48 Briefly the evaluation incorporated the
+Consortium to Establish a Registry for Alzheimers Disease
+ CERAD 34 procedures and included a medical history 
+neurological examination neuropsychological testing informant interview and blood tests 
+The clinical diagnosis of probable AD followed
+NINCDS ADRDA guidelines 33 it required a history of
+cognitive decline and neuropsychological test evidence of
+impairment in at least two cognitive domains one of which
+had to be memory In the present study we only included
+patients with a diagnosis of probable AD whose Mini Mental State Examination MMSE 17 score was 26 i e 
+those with very mild AD 
+Patients in the non demented group presented at the
+clinic with cognitive complaints received the same standard
+evaluation as the AD patients but did not meet clinical
+criteria for dementia Exclusion criteria for both AD and ND
+patients were evidence of other neurologic psychiatric or
+systemic conditions that could cause cognitive impairment
+ e g stroke alcoholism major depression Neuropsychological test results indicated that the ND group included 13
+members with isolated memory impairment two members
+with impairment of attention one with language deficits and
+12 individuals without demonstrable cognitive deficits on
+clinical testing It should be noted that no individual patient
+in this group had a deficit in more than one domain Because
+elderly individuals with complaints of memory are at high
+risk of developing AD even if they do not show significant
+deficits on formal testing we did not exclude those ND
+patients without demonstrable cognitive deficits for the purpose of this study 
+B C Dickerson et al Neurobiology of Aging 22 2001 747754
+Control subjects were recruited from friends and family
+members of patients and the RADC staff as well as from
+hospital volunteers Selection as an elderly control subject
+required a normal neurological examination an MMSE
+score 28 and CERAD delayed list recall 6 Exclusion
+criteria for the controls were the same as those used for the
+patient groups Informed consent was obtained from all
+subjects according to the rules of the Human Investigation
+Committee of Rush Medical College 
+2 3 Acquisition and quantitation of MRI data
+All MR images were acquired on a 1 5 Tesla General
+Electric Signa scanner Gapless 5 mm coronal slices were
+taken perpendicular to the long axis of the hippocampal
+formation with the following parameters matrix  256 
+256 field of view  16 cm eight acquisitions TR  400 
+TE  1316 In addition gapless 5 mm sagittal slices were
+taken spanning the entire brain with the following parameters matrix  256  128 field of view  24 cm one
+acquisition TR  200 TE  12 1
+Manual segmentation with a PC based image analysis
+program Amersham Image Analysis System with software
+designed by Loates Associates was used to compute volumes of regions of interest To correct for individual differences in brain size entorhinal and hippocampal volumes
+were normalized by dividing with intracranial volume derived from sagittal slices To compute intracranial volume 
+the inner table of the cranium was traced in consecutive
+sagittal sections spanning the entire brain At the level of the
+foramen magnum a straight line was drawn from the inner
+surface of the clivus to the most anterior extension of the
+occipital bone 
+EC volume was quantified with the use of a new protocol
+developed and validated in our laboratory technical details
+of which are presented in Goncharova et al 19 accompanying manuscript The advantage of this protocol is that EC
+volume is measured from the same oblique coronal sections
+most commonly used for hippocampal volumetry to avoid
+overestimation of one of these two adjacent structures at the
+expense of the other 
+Briefly both entorhinal and hippocampal volumes were
+computed separately for the right and left hemispheres from
+coronal slices taken perpendicular to the long axis of the
+HF For the EC tracing began with the first section in which
+the gyrus ambiens amygdala and the white matter of the
+parahippocampal gyrus first appeared visible The superomedial border in rostral sections was the sulcus semiannularis and in caudal sections the subiculum The shoulder of
+the collateral sulcus was used as the lateral border The
+latter is somewhat of a conservative criterion that allowed
+consistency in tracings and avoided the use of different
+lateral borders depending on individual differences in the
+depth of the collateral sulcus see for example ref 22 In
+the majority of cases tracings were carried out on 4 5
+sections Validation procedures as well as inter and intra 
+Fig 1 A single coronal slice illustrating an example of the tracings used to
+measure the volumes of the entorhinal cortex right and hippocampal
+formation left 
+rater reliability scores for EC measurements are described in
+Goncharova et al 19 accompanying paper 
+The protocol and validation procedures used for quantifying hippocampal volume were published previously 14 
+48 Tracings of the HF started with the first section where
+the dentate gyrus could be clearly identified and included
+the fimbria dentate gyrus the hippocampus proper and the
+subiculum All sections in which the hippocampus could be
+clearly seen without partial volume averaging were included
+ usually 6 7 slices 
+Fig 1 shows sample tracings of both the EC and HF from
+a single MR image 
+2 4 Statistical analyses
+Group differences were evaluated with the use of either
+one way or two way repeated measures analyses of variance ANOVA followed by post hoc comparisons with the
+studentized range test Logistic regression analyses were
+performed to determine how well hippocampal and entorhinal volume could predict group membership 
+Results
+As indicated above all patients in the ND group sought
+formal evaluations due to complaints of cognitive decline 
+Because there were no significant differences in EC or HF
+volumes based on the presence or absence of cognitive
+deficits on formal testing data not shown the group of ND
+patients was considered as a whole in all subsequent analyses 
+Demographic and MMSE data are presented in Table 1 
+Separate one way ANOVAs showed that the three groups
+did not differ in age or level of education There was 
+however a significant group effect for MMSE scores
+F 2 75  18 0 p  0 001 Pairwise comparisons indicated that the non demented patients and those with a clinical diagnosis of mild AD differed significantly from controls p  0 05 but not from each other 
+Mean normalized entorhinal and hippocampal volumes
+for the three groups of participants are plotted in Figs 2 and
+3 respectively Group differences in the volumes of the two
+B C Dickerson et al Neurobiology of Aging 22 2001 747754
+Table 1
+Demographic characteristics of participants
+N
+Age in years 
+Education in years 
+Female Male
+MMSE Score
+Elderly controls
+Patients with very
+mild AD
+Non demented patients
+ Significantly different from controls p  0 05 
+regions of interest were assessed with separate two way
+repeated measures ANOVAs with group and hemisphere as
+the two factors The analysis on entorhinal volume showed
+significant group F 2 75  15 73 p  0 001 and hemisphere F 1 75  13 11 p  0 001 effects but no significant interaction between them The hemisphere effect can
+be accounted for by a larger right EC in all three groups 
+Pairwise comparisons indicated that both the ND patients
+and those with mild AD differed significantly from controls
+in total EC volume p  0 05 but not from each other 
+The ANOVA on hippocampal volume also showed significant group F 2 75  16 65 p  0 001 and hemisphere
+F 1 75  14 02 p  0 001 effects without a significant
+interaction between them However in this case pairwise
+comparisons demonstrated that the two patient groups dif 
+fered in total hippocampal volume from controls as well as
+from each other p  0 05 with the very mild AD group
+showing the greatest atrophy 
+Logistic regression analyses were then performed to determine how well hippocampal and entorhinal volume could
+predict group membership In these analyses total EC and
+HF volumes were used as predictors to determine the extent
+to which each region of interest contributed separately to
+describing group differences with models used for two
+groups at a time Scatter plots showing the logistic regression lines for two groups at a time are displayed in Fig 4 
+The results of the logistic regressions were consistent
+with the ANOVA findings EC volume was better than
+hippocampal volume at predicting membership in the ND
+group compared to controls even with hippocampal volume
+Fig 2 Mean normalized entorhinal volume absolute volume in 
+intracranial volume in  1000 for elderly control subjects patients
+with very mild AD and those who did not meet criteria for dementia 
+Volumes are shown for each hemisphere separately Vertical bars represent
+the standard error of the mean Note that the two patient groups were
+significantly different from controls indicated by but not from each
+other 
+Fig 3 Mean normalized hippocampal volume absolute volume in 
+intracranial volume in  1000 for the three groups of subjects
+plotted as a function of hemisphere Vertical bars represent the standard
+error of the mean Note that the two patient groups were significantly
+different from controls indicated by and from each other indicated by
+B C Dickerson et al Neurobiology of Aging 22 2001 747754
+Table 2
+Follow up period in months for each of the converters and
+non converters
+Non Converters
+Fig 4 Scatterplot of total entorhinal and hippocampal volume absolute
+volume in intracranial volume in  1000 shown for two groups
+at a time including regression line derived from logistic regression models
+using both volumes Upper panel elderly control subjects and non demented patients middle panel non demented patients and those with very
+mild AD lower panel control subjects and patients with very mild AD 
+Converters
+in the model In this case hippocampal volume did not add
+significantly to predictions based on EC volume the latter
+alone correctly classified 69 of all subjects in the two
+groups  12 7 p  0 001 
+In contrast when comparing patients with very mild AD
+to ND cases the prediction based on hippocampal volume
+alone suggested improvement over the prediction based on
+EC volume alone  3 76 p  0 052 Entorhinal
+volume did not contribute any additional ability to classify
+patients with AD Again the volume of each area of interest
+predicted group membership significantly when examined
+alone but more subjects could be classified accurately using
+hippocampal volume 75  8 64 p  0 003 
+The comparison of patients with very mild AD and
+control subjects indicated that both entorhinal and hippocampal volume contributed significantly to the model 
+The model with both predictors classified 86 of the cases
+correctly  29 8 p  0 001 
+The results of the logistic regression analyses did not
+change when adjusted for age or sex Taken together they
+indicate that the primary difference between the controls
+and ND patients is in entorhinal volume while hippocampal
+atrophy plays a more important role in differentiating AD
+patients from the ND cases 
+Follow up clinical evaluations available on 23 of the 28
+ND participants included in this study indicated that 12 of
+the 23 had converted since the initial clinical and MRI
+evaluation and received a clinical diagnosis of probable AD 
+The follow up period ranged from 12 to 77 months mean 
+39 and was equivalent for converters and non converters
+t 22  0 63 p  0 05 See Table 2  Entorhinal and
+hippocampal volumes derived from the baseline MRI
+showed that converters differed significantly from non converters in total right  left entorhinal volume t 22 
+2 94 p  0 008 but not hippocampal volume see Fig 5 
+Further in logistic regressions using total hippocampal and
+entorhinal volume as predictors only EC volume was a
+significant predictor of the likelihood of conversion odds
+ratio  0 993 per normalized unit volume p  0 046 
+B C Dickerson et al Neurobiology of Aging 22 2001 747754
+Fig 5 Box plot comparing MRI derived entorhinal left hand side and
+hippocampal right hand side volume in non demented participants who
+converted to a diagnosis of Alzheimers disease in contrast to those who
+did not The central box shows the data between the upper and lower
+quartiles with the median represented by the line The height of the line is
+the interquartile range IQR the whiskers extend from the upper and
+lower quartiles to a distance of 1 5 IQR away or to the most extreme data
+point within that range whichever is closer 
+Thus for every 10 unit decrease in EC volume the chances
+of converting to AD increased by 7 Results were not
+changed by adjustment for age or follow up interval When
+entorhinal volume alone was used as a predictor 83 3 of
+converters and 72 7 of non converters were correctly classified 
+It is interesting to note that among the 12 ND patients
+who converted 9 had a memory impairment 2 had attentional deficits and one did not show any demonstrable cognitive deficits on clinical testing Of the 11 non demented
+participants who did not convert to AD four had a memory
+impairment and seven had no demonstrable cognitive impairment on clinical testing 
+Discussion
+A major strength of our study is the inclusion of extremely mild cases of AD and a comparison of the anatomical changes detected in vivo in these mild cases with those
+observed in patients who do not meet diagnostic criteria but
+are at risk for AD 
+Individuals at risk for AD are of interest since they
+provide valuable information on the transitional state between normal aging and AD Different investigators have
+used different definitions to characterize this population 
+although recently criteria for mild cognitive impairment
+have been more stringently formulated 36 37 These criteria include objective memory impairment Thus the difference between the ND group in the present study and mild
+cognitive impairment as defined by Petersen and colleagues
+36 37 is that we included some individuals who presented
+at the clinic with subjective cognitive complaints but did
+not show objective deficits Our reason for including them
+was that they have been shown to be at high risk for AD as
+well 17 Although we recognize the limitations of our
+approach it is of interest to note that the rate of conversion
+observed in the ND group in this study is very similar to the
+rate reported by Petersen 36 for those diagnosed with mild
+cognitive impairment 
+The results described above showed that both patient
+groups mild AD and ND differed from controls in entorhinal volume but not from each other In contrast the two
+patient groups differed from controls in hippocampal volume as well as from each other with the AD cases showing
+the greatest atrophy Taken together these findings suggest
+that degeneration of the EC and HF occurs before the onset
+of obvious dementia and that HF atrophy is associated with
+the progression from mild subjective or objective cognitive
+impairment to AD Although the ND group showed significant atrophy in both structures logistic regression models
+demonstrated that entorhinal volume was better than hippocampal volume in differentiating these patients from controls suggesting that the EC becomes pathologically involved before the HF On the other hand the extent of
+hippocampal atrophy was better at differentiating patients
+with very mild AD from ND cases atrophy of both structures played an equivalent role in differentiating patients
+with very mild AD from controls 
+The lack of a significant difference between the two
+patient groups in entorhinal volume and the fact that the ND
+cases could best be differentiated from controls by EC
+volume further suggest that MRI based entorhinal atrophy
+may provide an in vivo marker of incipient AD This suggestion is strongly supported by the fact that converters to
+AD among the ND participants could be best differentiated
+from non converters on the basis of entorhinal volume 
+Our findings on hippocampal atrophy in patients with
+very mild AD are in general agreement with most of the
+published literature to date In numerous studies on MRbased volumetric estimates of mesial temporal lobe structures in AD HF atrophy has been shown to be one of the
+most robust and consistently documented findings 11 12 
+14 2325 28 30 32 40 48 49 However only a few groups
+have focused their investigations on patients with very mild
+AD 
+The literature is less clear cut with respect to alterations
+in hippocampal volume in patients with isolated memory
+complaints or mild cognitive impairment compared to controls Our finding of hippocampal atrophy in the ND group
+is consistent with results reported by two other laboratories
+7 25 49 However two studies published by another group
+failed to find significant hippocampal atrophy in such patients 32 41 
+A likely reason for this inconsistency is selection criteria 
+Most groups reporting on MR volumetric studies of elderly
+patients with mild cognitive impairment or age associated
+memory impairment have selected their subjects by neuro 
+B C Dickerson et al Neurobiology of Aging 22 2001 747754
+psychological test scores some have focused on clinic populations while others have studied community derived samples 
+The investigators reporting an absence of significant hippocampal atrophy obtained their sample from a communitybased population which was later shown to have only a 10 
+incidence of dementia in 3 5 years of follow up 20 Therefore it is likely that their group contained a greater number of
+subjects who were not in the incipient phases of AD at the time
+MRI scans were acquired 
+Our volumetric results on EC atrophy in AD are in
+agreement with those reported by other laboratories 27 31 
+49 They are also in agreement with two very recent papers
+reporting that individuals with mild memory impairment
+show significant atrophy of the EC compared to controls
+31 49 However Killiany et al 31 found that among the
+participants with mild memory impairment what discriminated converters from non converters was the volumes of
+the superior temporal sulcus and anterior cingulate but not
+the EC One possible factor contributing to the difference
+between our findings on converters and theirs may be the
+way in which EC volume was derived The estimate of EC
+volume in the Killiany et al 31 paper was based on
+tracings from three 1 5 mm coronal sections while ours was
+based on a much larger portion of the structure 
+In summary the in vivo anatomical results presented here
+are in agreement with post mortem pathological studies and
+underscore the early involvement of the entorhinal cortex in
+AD The results further suggest that the progression to a
+diagnosis of AD requires significant atrophy of the HF in
+addition to the EC Taken together our findings demonstrate the potential of sensitive neuroimaging techniques for
+the development of early anatomical markers of AD Such
+predictive biological markers could be of great help for the
+development and monitoring of early interventions designed
+to retard disease progression 
+Acknowledgment
+We thank Dr Jeffrey Kordower for his cogent and critical comments on the manuscript 
+Notes
+We now use a new protocol that acquires 1 6 mm
+coronal images of the entire head with an SPGR pulse
+sequence For purposes of consistency and to have
+large enough group sizes the present study was restricted to those patients and controls scanned with our
+old protocol 
+References
+1 Albert MS Normal and abnormal memory Aging and Alzheimers
+disease In Wang E Snyder DS editors Handbook on the aging
+brain San Diego Academic Press 1998 p 117 
+2 Bobinski M de Leon MJ Convit A De Santi S Wegiel J Tarshish
+CY Louis LAS Wisniewski HM MRI of entorhinal cortex in mild
+Alzheimers disease Lancet 1999 353 38  40 
+3 Bowen J Teri L Kukull W McCormick W McCurry SM Larson
+EB Progression to dementia in patients with isolated memory loss 
+Lancet 1997 349 7635 
+4 Braak H Braak E Neuropathological stageing of Alzheimer related
+changes Acta Neuropathol 1991 82 239 59 
+5 Braak H Braak E Staging of Alzheimers disease related neurofibrillary changes Neuorobiol Aging 1995 16 271 88 
+6 Braak H Braak E Bohl J Bratzke H Evolution of Alzheimers
+disease related cortical lesions J Neural Transm Suppl 1998 54 97
+7 Convit A de Leon MJ Tarshish C De Santi S Tsui W Rusinek H 
+George A Specific hippocampal volume reductions in individuals at
+risk for Alzheimers disease Neurobiol Aging 1997 18 131 8 
+8 Crook T Larrabee GT Age associated memory impairment diagnostic criteria and treatment strategies Psychopharm Bull 1988 24 
+9 Dawe B Procter A Philpot M Concepts of mild memory impairment
+in the elderly and their relationship to dementia a review Int J
+Geriatr Psychiatry 1992 7 4739 
+10 de Leon MJ Convit A George AE Golomb J De Santi S Tarshish
+C Rusinek H Bobinski M Ince C Miller D Wisniewski H In vivo
+structural studies of the hippocampus in normal aging and in incipient
+Alzheimers disease Ann NY Acad Sci 1996 777 113 
+11 de Leon MJ George AE Golomb J Tarshish C Convit A Kluger A 
+De Santi S McRae T Ferris SH Reisberg B Ince C Rusinek H 
+Bobinski M Quinn B Miller DC Wisniewski HM Frequency of
+hippocampal formation atrophy in normal aging and Alzheimers
+disease Neurobiol Aging 1997 18 111 
+12 deToledo Morrell L Dickerson B Sullivan MP Spanovic C Wilson
+RS Bennett D Hemispheric differences in hippocampal volume
+predict verbal and spatial memory performance in patients with Alzheimers disease Hippocampus 2000 10 136  42 
+13 deToledo Morrell L Goncharova I Dickerson B Wilson RS Bennett
+DA From healthy aging to early Alzheimers disease In vivo detection of entorhinal cortex atrophy Ann NY Acad Sci 2000 911 240 
+14 deToledo Morrell L Sullivan MP Morrell F Wilson RS Bennett
+DA Spencer S Alzheimers disease In vivo detection of differential
+vulnerability of brain regions Neurobiol Aging 1997 18 46338 
+15 Friedrich MJ Mild cognitive impairment raises Alzheimers disease
+risk JAMA 1999 282 6212 
+16 Folstein MF Folstein SE McHugh PR Mini Mental State A practical method for grading the mental status of patients for the clinician 
+J Psychiatric Res 1975 12 189 98 
+17 Geerlings MJ Jonker C Bouter LM Ader HJ Schmand B Association between memory complaints and incident Alzheimers disease
+in elderly people with normal baseline cognition Am J Psychiatry
+18 Gomez Isla T Price JL McKeel DW Morris JC Growdon JH 
+Hyman BT Profound loss of layer II entorhinal cortex neurons occurs
+in very mild Alzheimers disease J Neurosci 1996 16 4491 4500 
+19 Goncharova II Dickerson BC Stoub TR deToledo Morrell L MRI
+of entorhinal cortex a reliable protocol for volumetric measurement 
+Neurobiol Aging 2001 22 737745 
+20 Hanninen T Hallikainen M Koivisto K Helkala EL Reinikainen KJ 
+Soininen H Mykkanen L Laakso M Pyorala K Riekkinen PJ A
+follow up study of age associated memory impairment Neuropsychological predictors of dementia J Am Geriatr Soc 1995 43 1007
+21 Hyman BT Van Hoesen GW Damasio AR Barnes CL Alzheimers
+disease Cell specific pathology isolates the hippocampal formation 
+Science 1984 225 1168 70 
+22 Insausti R Juottonen K Soininen H Insausti AM Partanen K Vainio
+P Laakso MP Pitkanen A MR volumetric analysis of the human
+B C Dickerson et al Neurobiology of Aging 22 2001 747754
+entorhinal perirhinal and temporopolar cortices Am J Neuroradiol
+Jack CR Petersen RC OBrien PC Tangalos EG MR based hippocampal volumetry in the diagnosis of Alzheimers disease Neurology 1992 42 183 8 
+Jack CR Petersen RC Xu YC Waring SC OBrien PC Tangalos
+EG Smith GE Ivnik RJ Kokmen E Medial temporal atrophy on
+MRI in normal aging and very mild Alzheimers disease Neurology
+Jack CR Petersen RC Xu YC OBrien PC Smith GE Ivnik RJ 
+Boeve BF Waring SC Tangalos EG Kokmen E Prediction of AD
+with MRI based hippocampal volume in mild cognitive impairment 
+Neurology 1999 52 13971403 
+Johansson B Allen Burge R Zarit SH Self reports on memory
+functioning in a longitudinal study of the oldest old Relation to
+concurrent prospective and retrospective performance J Gerontol 
+Psychol Sci 1997 52B  46 
+Juottonen K Laakso MP Insausti R Lehtovirta M Pitkanen A 
+Partanen K Soininen H Volumes of the entorhinal and perirhinal
+cortices in Alzheimers disease Neurobiol Aging 1998 19 1522 
+Juottonen K Laakso MP Partanen K Soininen H Comparative MR
+analysis of the entorhinal cortex and hippocampus in diagnosing
+Alzheimers disease Am J Neuroradiol 1999 20 139  44 
+Kesslak JP Nalcioglu O Cotman CW Quantification of magnetic
+scans for hippocampal and parahippocampal atrophy in Alzheimers
+disease Neurology 1991 41 51 4 
+Killiany RJ Moss MB Albert MS Sandor T Tieman J Jolesz F 
+Temporal lobe regions on magnetic resonance imaging identify patients with early Alzheimers disease Arch Neurol 1993 50 949 54 
+Killiany RJ Gomez Isla T Moss M Kikinis R Sandor T Jolesz F 
+Tanzi R Jones K Hyman BT Albert MS Use of structural magnetic
+resonance imaging to predict who will get Alzheimers disease Ann
+Neurol 2000 47 430 9 
+Laakso MP Soininen H Partanen K Lehtovirta M Hallikainen M 
+Hanninen T Helkala EL Vainio P Riekkinen PJ MRI of the hippocampus in Alzheimers disease sensitivity specificity and analysis of the incorrectly classified subjects Neurobiol Aging 1998 19 
+McKhann G Drachman D Folstein M Katzman R Price D Stadlan
+EM Clinical diagnosis of Alzheimers disease report of the
+NINCDS ADRDA work group under the auspices of Department of
+Health and Human Services Task Force on Alzheimers disease 
+Neurology 1984 34 939  44 
+Morris JC Heyman A Mohs RC Hughes JP van Belle G Fillenbaum G Mellits ED Clark C The Consortium to Establish a Registry
+for Alzheimers Disease CERAD Part I Clinical and neuropsychological assessment of Alzheimers disease Neurology 1989 39 
+35 Mufson EJ Chin EY Cochran EJ Beckett LA Bennett DA Kordower JH Entorhinal cortex beta amyloid load in individuals with
+mild cognitive impairment Exp Neurol 1999 158 469 90 
+36 Petersen RC Aging mild cognitive impairment and Alzheimers
+disease Dementia 2000 18 789  805 
+37 Petersen RC Smith GE Waring SC Ivnik RJ Tangalos EG Kokmen
+E Mild cognitive impairment Clinical characterization and outcome 
+Arch Neurol 1999 56 303 8 
+38 Petersen RC Jack CR Xu YC Waring SC OBrien PC Smith GE 
+Ivnik RJ Tangalos EG Boeve BF Kokmen E Memory and MRIbased hippocampal volumes in aging and AD Neurology 2000 54 
+39 Schmand B Jonker C Hooijer C Lindeboom J Subjective memory
+complaints may announce dementia Neurology 1996 46 1215 
+40 Seab JP Jagust ST Wong ST Roos MS Reed BR Budinger TF 
+Quantitative NMR measurements of hippocampal atrophy in Alzheimers disease Magn Reson Med 1988 8 200  8 
+41 Soininen HS Partanen K Pitkanen A Vainio P Hanninen T Hallikainen M Koivisto K Riekkinen PJ Volumetric MRI analysis of the
+amygdala and the hippocampus in subjects with age associated memory impairment correlation to visual and verbal memory Neurology
+42 Squire LR Zola Morgan S The medial temporal lobe memory system Science 1991 253 1380  6 
+43 Tierney MC Szalai JP Snow WG Fisher RH Nores A Nadon G 
+Dunn E St George Hyslop PH Prediction of probable Alzheimers
+disease in memory impaired patients a prospective longitudinal
+study Neurology 1996 46 6615 
+44 Tierney MC Szalai JP Snow WG Fisher RH The prediction of
+Alzheimers disease The role of patient and informant perceptions of
+cognitive deficits Arch Neurol 1996 53 4237 
+45 Tobiansky R Blizard R Livingston G Mann A The Gospel Oak
+Study stage IV the clinical relevance of subjective memory impairment in older people Psychol Med 1995 25 779  86 
+46 Van Hoesen GW Hyman BT Damasio AR Entorhinal cortex pathology in Alzheimers disease Hippocampus 1991 1 1 8 
+47 Welsh KA Butters N Hughes JP Mohs RC Heyman A Detection of
+abnormal memory decline in mild cases of Alzheimers disease using
+CERAD neuropsychological measures Arch Neurol 1991 48 278 
+48 Wilson RS Sullivan MP deToledo Morrell L Stebbins GT Bennett
+DA Morrell F Association of memory and cognition in Alzheimers
+disease with volumetric estimates of temporal lobe structures Neuropsychology 1996 10 459  63 
+49 Xu Y Jack CR OBrien PC Kokmen E Smith GE Ivnik RJ Boeve
+BF Tangalos RG Petersen RC Usefulness of MRI measures of
+entorhinal cortex versus hippocampus in AD Neurology 2000 54 
+50 Young B Otto T Fox GD Eichenbaum H Memory representation
+within the parahippocampal region J Neurosci 1997 17 518395 

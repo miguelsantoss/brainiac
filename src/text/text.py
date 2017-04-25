@@ -25,15 +25,6 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.decomposition import TruncatedSVD
 from sklearn.metrics.pairwise import cosine_similarity
 
-path = 'txt'
-n_files = 0;
-file_names = []
-
-token_dict = {}
-stemmer = PorterStemmer()
-lemmatizer = WordNetLemmatizer()
-
-
 def stem_tokens(tokens, stemmer):
   stemmed = []
   for item in tokens:
@@ -52,43 +43,62 @@ def tokenize(text):
   lemmas = lemmatize(tokens, lemmatizer)
   return lemmas 
 
-def documentAnalysis():
+def documentAnalysis(path):
+  token_dict = {}
   for subdir, dirs, files in os.walk(path):
     for file in files:
-      n_files = n_files + 1
       file_path = subdir + os.path.sep + file
-      file_names.append(file_path)
-      shakes = open(file_path, 'r')
-      text = shakes.read().replace('\n','')
-      lowers = text.lower()
-      no_punctuation = lowers.translate(str.maketrans('','',string.punctuation))
-      token_dict[file] = no_punctuation
+      if(file_path[-3:] == 'txt'):
+        doc_id = file[:-4]
+        file_names.append(doc_id)
 
-vect = TfidfVectorizer(tokenizer=tokenize, stop_words='english')
+        #  Open file and read content into docText, removing newlines
+        #  and lowercasing characters
+        with open(file_path, 'r') as docFile:
+          docText = docFile.read().replace('\n', '').lower()
+        
+        #  Remove pontuation from the text
+        docText = docText.translate(str.maketrans('', '', string.punctuation))
+        token_dict[doc_id] = docText
+  return token_dict
+
+file_names = []
+
+stemmer = PorterStemmer()
+lemmatizer = WordNetLemmatizer()
+
+#  vect = TfidfVectorizer(tokenizer=tokenize, stop_words='english')
 #tfidf = TfidfVectorizer(tokenizer=tokenize)
-tfidf = vect.fit_transform(token_dict.values())
+#  tfidf = vect.fit_transform(token_dict.values())
 
-print(tfidf)
-print(vect.get_feature_names())
+#  print(tfidf)
+#  print(vect.get_feature_names())
 
 #svd = TruncatedSVD(n_components = 100)
 #svdMatrix = svd.fit_transform(tfs)
 
-similarity = (tfidf * tfidf.T).A
-sim = similarity.tolist()
+#  similarity = (tfidf * tfidf.T).A
+#  sim = similarity.tolist()
 
-sim_json = {}
-doc_array = []
+#  sim_json = {}
+#  doc_array = []
+#
+#  for index, file in enumerate(file_names):
+#    doc_obj = {}
+#    file_name = file[:-4]
+#    file_name = file_name[4:]
+#    doc_obj['name'] = file_name
+#    doc_obj['similarity'] = sim[index]
+#    doc_array.append(doc_obj)
+#
+#  sim_json['array'] = doc_array
+#
+#  np.savetxt('cosine_similarity.txt', similarity)
+#  json.dump(sim_json, codecs.open('cosine.json', 'w', encoding='utf-8'), separators=(',',':'), sort_keys=True, indent=4)
 
-for index, file in enumerate(file_names):
-  doc_obj = {}
-  file_name = file[:-4]
-  file_name = file_name[4:]
-  doc_obj['name'] = file_name
-  doc_obj['similarity'] = sim[index]
-  doc_array.append(doc_obj)
+def main():
+  path = 'pdf'
+  token_dict = documentAnalysis(path)
+  print(token_dict)
 
-sim_json['array'] = doc_array
-
-np.savetxt('cosine_similarity.txt', similarity)
-json.dump(sim_json, codecs.open('cosine.json', 'w', encoding='utf-8'), separators=(',',':'), sort_keys=True, indent=4)
+if __name__ == '__main__': main()

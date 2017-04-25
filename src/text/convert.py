@@ -2,10 +2,6 @@ import os
 import re
 from textract import process
 
-#  Path where to start searching for pdf files to convert
-#  Must be run on the same directory as the files for now
-path = '.'
-
 #  Convert file given in filePath variable
 #  If a file with with 'txt' extension already exists with the same name,
 #  the function ignores and returns
@@ -17,15 +13,19 @@ def convertFile(filePath):
     documentText = cleanDocumentText(documentText)
     with open(savePath, 'w') as txtFile:
       txtFile.write(documentText)
+    return documentText
+  return None
 
+#  Clean text from the document
 def cleanDocumentText(text):
   lines = text.split('\n')
   documentText = []
   for line in lines:
     line = re.sub('^[0-9]+\. ', '', line)
     line = re.sub('[-a-zA-Z]+[0-9]+', '', line)
-    line = re.sub('^[. ]+', '', line)
     line = re.sub('^\. ', '', line)
+    line = re.sub('([.,\/#!$%\^&\*;:{}=\-_`~()])', ' ', line)
+    line = re.sub('\ +', ' ', line)
     line = re.sub('\([0-9.-:,]+\)', '', line)
     line = re.sub('\(Fig\. [0-9]+\)', '', line)
     line = re.sub('Fig\. [0-9]+', '', line)
@@ -44,4 +44,10 @@ def convert(path):
   for subdir, dirs, files in os.walk(path):
     for file in files:
       filePath = subdir + os.path.sep + file
-      convertFile(filePath)
+      documentText = convertFile(filePath)
+
+def main():
+    path = 'pdf'
+    convert(path)
+
+if __name__ == '__main__': main()
