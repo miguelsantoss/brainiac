@@ -1,0 +1,448 @@
+Movement Disorders
+Vol Suppl 
+ Movement Disorder Society
+MRI and Cognitive Impairment Parkinsons Disease
+Naroa Ibarretxe Bilbao PhD Eduardo Tolosa MD Carme Junque PhD 
+and Maria Jose Marti 
+Centro Investigacion Red Enfermedades Neurodegenerativas CIBERNED 
+Hospital Clnic Barcelona Barcelona Spain
+Institute Biomedical Research August Pi Sunyer Institut dInvestigacions Biome diques August Pi Sunyer Barcelona Spain
+Department Psychiatry and Clinical Psychobiology University Barcelona Barcelona Spain
+Movement Disorders Unit Neurology Service Institut Clnic Neurociencies ICN 
+Hospital Clnic Barcelona Barcelona Spain
+Abstract Patients with Parkinsons disease PD may present
+impairment cognitive functions even early stages the
+disease When compared with the general population their
+risk dementia six times higher Recent investigations using structural MRI have shown that dementia PD 
+related cortical structural changes and that specic cognitive dysfunctions can attributed atrophy specic structures We review the structural MRI studies carried out PD
+using either manual region interest ROI approach 
+voxel based morphometry VBM ROI studies have shown
+that hippocampal volume decreased patients with PD
+with and without dementia addition hippocampal atrophy
+correlated with decits verbal memory VBM studies have
+demonstrated that dementia PD involves structural changes
+ limbic areas and widespread cortical atrophy Findings 
+nondemented patients with PD are less conclusive possibly
+because cognitively heterogeneous groups patients have
+been studied Patients with PD with cognitive impairment
+and visual hallucinations present greater brain atrophy than
+patients without these characteristics These ndings suggest
+that cortical atrophy related cognitive dysfunction PD
+and precedes the development dementia Structural MRI
+might therefore provide early marker for dementia 
+PD Movement Disorder Society
+Key words Parkinsons disease dementia hallucinations 
+MRI cognitive functions
+Parkinsons disease PD has traditionally been considered motor disorder However cognitive dysfunctions are known occur even early and
+most patients develop dementia over the course the
+disease Dementia PD was initially described 
+subcortical and cognitive dysfunctions nondemented
+patients have been attributed dopaminergic depletion
+affecting the fronto striatal the dopamine acetylcholine synaptic imbalance Nevertheless recent
+investigations using MRI suggest that specic cogni 
+tive decits such memory decits and dementia 
+PD may also explained cortical structural
+changes The methods most widely used assess
+structural MRI changes PD have been region interest ROI and voxel based morphometry VBM 
+The ROI method consists measuring manually
+delineated and anatomically dened regions within the
+brain based priori hypothesis ROI approach
+takes into consideration the variability across subjects 
+but also depends the subjective criteria the
+investigator time consuming inter and intrarater validations are mandatory VBM fully automated
+whole brain measurement technique that maps the statistical probability differences regional tissue volume density between groups It provides nonbiased measure regions that may neglected 
+hypothesis based studies using ROI However the normalization stage within the VBM analysis which 
+required ensure that the same brain regions can 
+ Correspondence Eduardo Tolosa Movement Disorders Unit 
+Neurology Service Hospital Clnic Barcelona Villarroel Barcelona Spain E mail etolosaclinic 
+Potential conict interest None reported 
+Received January Revised April Accepted 
+May 
+Published online Wiley InterScience www interscience wiley 
+com DOI mds 
+MRI AND COGNITIVE IMPAIRMENT IN PD
+compared between subjects transforms the shape 
+the brain image and may distort the abnormal tissue
+and articially inate the atrophied areas Other structural techniques that have proved successful detecting atrophy are surface based and D modeling analyses but they have not been used date PD 
+In this study review structural MRI ndings
+using manual ROI and VBM patients with PD with
+dementia patients with PD without dementia and nondemented patients with PD with neuropsychological
+impairment and hallucinations who are therefore 
+risk developing dementia 
+MRI STUDIES IN PATIENTS WITH PD WITH
+DEMENTIA
+Manual ROI studies patients with PD have mainly
+focused medial temporal lobe structures because
+these areas are known present atrophy other
+dementias such Alzheimers disease AD and dementia with Lewy bodies DLB and because differences the degree atrophy between dementias may
+have important implications for diagnosis Atrophy
+ the and has been
+reported PD with dementia remaining statistically
+signicant after controlling for global cerebral volume 
+In addition reduced entorhinal cortex volume has been
+reported patients with PD with dementia when compared with controls Medial temporal lobe atrophy 
+encountered AD but studies PD with dementia
+show that atrophy medial temporal lobe areas may
+also underlie dementia PD 
+In previous study using VBM observed that
+patients with PD with dementia showed gray matter
+loss hippocampus parahippocampus and anterior
+cingulate gyrus well the basal ganglia comparison with healthy controls Interestingly the and cingulate are known 
+major targets for Lewy body LB inclusions PD 
+Another VBM study with large number patients
+provided further evidence medial temporal and basal
+ganglia atrophy but also reported greater widespread
+neocortical atrophy In that study atrophy the
+medial temporal lobe structures was more pronounced
+ AD than demented PD and there were differences between DLB and PD with dementia However 
+another group has recently reported that patients with
+DLB showed greater neocortical atrophy than patients
+with PD with dementia the temporal parietal and
+occipital lobes 
+The degree atrophy demented patients with PD
+may vary depending the time the occurrence 
+dementia the course the disease early 
+late Early development dementia has been associated with more severe degeneration cortical and
+subcortical structures and neuroimaging studies Overall neuroimaging studies are 
+agreement with ndings postmortem neuropathological studies demented PD which report morphological changes and neocortical 
+and have the advantage assessing these changes 
+vivo The fact that changes medial temporal lobe
+areas are common dementia PD and other neurodegenerative diseases such AD and DLB raises
+the question whether AD cortical LB type
+changes underlie cognitive dysfunctions 
+unfortunately the structural MRI neuroimaging techniques reviewed this work are still some way from
+resolving this matter 
+MRI STUDIES IN PATIENTS WITH PD
+WITHOUT DEMENTIA
+The rst study using manual ROI 
+assess the hippocampus nondemented patients with
+PD reported decreased hippocampal volume patients
+with PD without dementia when compared with controls However these results should viewed with
+caution because some patients may have met criteria
+for mild cognitive impairment MCI but was not
+detected Another looked for differences 
+several structures including the hippocampus parahippocampus temporal lobe frontal lobe and parietooccipital areas nding that only corrected hippocampal
+volumes differed nondemented patients with PD and
+controls P even though the effect size for
+nondemented patients with PD was only when
+compared with effect sizes and for
+demented PD and AD groups respectively It has also
+been reported that nondemented patients with PD presented volume reductions the amygdala and
+ the hippocampus when compared with controls volumes both structures nondemented
+patients with PD had values between those 
+demented patients and controls although the differences did not reach statistical signicance In addition 
+signicant age associated hippocampal atrophy PD
+was found one study which hippocampal volumes
+ old nondemented patients differed from controls but not younger cases 
+Studies using visual evaluation PD 
+ which score zero represented absence atrophy and score four high severity reported that
+early stage nonmedicated patients with PD had atrophy
+Movement Disorders Vol Suppl 
+IBARRETXE BILBAO ET AL 
+ the bilateral prefrontal cortex and hippocampus The
+right hippocampus atrophy score was PD versus controls and the left hippocampus score
+was PD versus controls Another
+study from the same sample nondemented patients with PD but more advanced stage
+ the disease and with impairment several cognitive
+domains also reported atrophy the hippocampus and
+the prefrontal cortex when compared with controls 
+Rated visually more severe medial temporal atrophy
+has also been reported patients with PD versus controls but less than subjects with DLB and AD 
+Results VBM studies patients with PD without
+dementia are heterogeneous but most ndings suggest
+the involvement neocortical areas In these patients 
+atrophy has been reported caudate nucleus frontal
+areas and insula prefrontal cortex and parahippocampus hippocampus and anterior cingulate left intraparietal sulcus superior temporal and frontal
+gyrus and cerebellum A possible explanation
+for this high variability might the heterogeneous
+characteristics patients with PD who are often considered one uniform group without differentiating
+between cognitively intact patients and those with neuropsychological decits with hallucinations 
+MRI IN PATIENTS WITH PD WITH
+COGNITIVE IMPAIRMENT AND
+HALLUCINATIONS
+Cognitive impairment common even newly diagnosed patients with PD occurring 
+cases Patients with cognitive decits have increased
+risk developing dementia One study found that
+patients with PD with MCI diagnosis according the
+criteria proposed Petersen had gray matter
+reductions temporal and frontal areas when compared
+with patients without MCI Another imaging study that
+identied MCI subtypes before conversion various
+kinds dementia found that the subtype most closely
+associated with conversion dementia PD was characterized third ventricular enlargement and similar 
+though less severe atrophy the medial temporal lobe
+when compared with patients with MCI who converted
+ AD Corrected hippocampal volumes patients with
+MCI converting AD were left and 
+ right when compared with values 
+ left and right patients with MCI converting PD Unfortunately MCI criteria for PD are
+not well dened and modied criteria used for 
+have mainly been used for the diagnosis New criteria
+have recently been proposed for the diagnosis demen 
+Movement Disorders Vol Suppl 
+tia PD and similar efforts should made create
+standardized criteria for MCI diagnosis this condition 
+Patients with visual hallucinations VHs present
+greater neuropsychological impairment domains such
+ verbal memory language semantic uency and
+visuoperceptive functions than those without Longitudinal studies have pointed out the presence VH 
+ predictor dementia PD We found that nondemented patients with PD with VH had gray matter
+loss occipito parietal regions when compared with
+patients without and also presented hippocampal
+atrophy when compared with healthy controls These
+results suggest that pathological changes occurring 
+PD with VH are more marked and severe than those
+occurring nonhallucinating patients with PD As 
+AD hippocampal atrophy mainly affected the head 
+the structure and correlated with verbal memory 
+Smaller hippocampal volumes and specically the
+involvement the hippocampal head have been identied predictors conversion dementia AD The
+same may apply PD this initially nondemented
+sample patients with PD with VH nearly half met the
+criteria for dementia after year follow 
+Manual ROI studies also provide evidence that specic cognitive decits are related specic structural
+changes PD Hippocampus volumes have been
+reported correlate with memory and
+overall cognitive performance scores but not with
+frontal functions In addition amygdalar volumes
+have been reported correlate with scores these
+cognitive tests The atrophy medial temporal
+structures probably runs parallel and may underlie
+the memory dysfunctions associated with PD 
+LONGITUDINAL MRI STUDIES IN PATIENTS
+WITH PD
+The progression regional brain atrophy with
+VBM PD has only been investigated two studies The rst study showed limbic and temporooccipital areas gray matter reduction after month follow but the other study found areas
+ gray matter loss patients with PD after followup period years The differences these
+results may explained longer disease duration 
+increased age patients more prolonged follow 
+and use uncorrected P values the study which
+atrophy was documented In agreement with the rst
+study earlier report Hu found that annual
+brain volume loss was greater patients with PD than
+ controls and these changes correlated with cognitive
+decline However other serial MRI studies using meas 
+MRI AND COGNITIVE IMPAIRMENT IN PD
+ures global atrophy for monitoring disease progression reported differences atrophy rates between
+controls and nondemented patients with PD but
+found signicantly increased atrophy patients with
+PD with dementia when compared with nondemented
+patients with PD and controls 
+Longitudinal MRI studies should focus tracking
+regional cortical changes PD Neuropathological
+studies PD have proposed six stage 
+brain pathology indicate predictable sequence 
+ascending lesions that correlates with neurological decits the majority patients with early onset and
+long duration the disease but this classication often fails correlate with clinical severity and dementia PD MRI studies permit assessment morphological changes vivo allowing establish where
+morphological changes begin and for which kind 
+patients these changes become more marked and which
+ones remain stable over time Furthermore the areas
+that suffer the most atrophy over time are related 
+cognitive dysfunctions that lead dementia would
+ able determine objective markers for the development dementia and provide evidence therapeutic
+effect when modifying treatments related the onset
+ dementia are available 
+CONCLUSIONS
+MRI studies have reported cortical atrophy PD 
+ROI imaging studies have shown reduced hippocampal
+and amygdala volumes even nondemented patients 
+and atrophy these structures has been related 
+overall cognitive performance and memory decits 
+PD VBM studies have demonstrated that patients with
+PD with dementia present limbic and widespread neocortical gray matter loss whereas patients with PD
+without dementia mainly present atrophy frontal and
+temporal areas Nondemented patients with PD with 
+higher risk developing dementia for example those
+with cognitive impairment and VHs show greater
+atrophy than patients who not present these risk factors The involvement the hippocampus patients
+with PD with cognitive decits has been identied 
+both ROI and VBM studies Evidence neocortical
+involvement currently available only from whole
+brain VBM studies because date ROI studies
+have focused the relationship between specic neocortical regions and cognitive domains Overall these
+ndings suggest that cortical atrophy related cognitive dysfunction PD and precedes the development
+ dementia Cortical atrophy assessed MRI may
+therefore useful early marker for the development
+ dementia PD The imaging ndings reviewed
+here suggest that the term subcortical dementia 
+not adequate describe the dementia occurring PD 
+However should borne mind that the results
+from MRI structural studies PD vary widely The
+main problems are follows the heterogeneity 
+samples studied not always well dened whether
+the patients with PD included present cognitive decits
+and psychiatric symptoms and fact the criteria
+used diagnose dementia vary from study study 
+ the inconsistency applying correction for global
+cerebral volume whole brain VBM and ROI studies 
+and the inconsistency the protocol used VBM 
+optimized versus classical protocols use modulated
+versus unmodulated images and the size the Gaussian kernel the smoothing 
+To overcome these difculties make the following recommendations cognitive and psychiatric
+symptoms the sample should dened using the
+criteria proposed the Movement Disorder Task
+Force for the diagnosis dementia PD both
+raw and corrected volumes the selected structures
+should reported ROI studies the standard
+ for reporting VBM studies should followed and modulation gray matter volume should
+ used based the warping applied during normalization minimize the danger distortion We
+also favor the use the recently developed Diffeomorphic Anatomical Registration Through Exponentiated Lie Algebra DARTEL algorithm nonlinear
+warping technique minimize structural variation
+between subjects 
+Major challenges that remain the eld MRI
+structural studies PD are the need establish patterns
+ atrophy that can predict different disease outcomes
+and combine their use with other approaches such 
+PET studies using different tracers FDG MPPF and
+FDDNP determine the etiopathogenesis PD 
+Acknowledgments This study was supported Generalitat Catalunya E T 
+C J UNI E T UNI C J Ministerio Educacion Ciencia AP N I B 
+Author Roles Naroa Ibarretxe Bilbao Research Project 
+Conception organization and execution Eduardo Tolosa 
+Research Project Conception organization and execution 
+Carme Junque Research Project Conception organization 
+and execution Maria Jose Marti Research Project Conception organization and execution Statistical analysis There
+ statistical analysis this review Naroa Ibarretxe Bilbao Manuscript Writing the rst draft Eduardo Tolosa 
+Manuscript Review and critique Carme Junque Manuscript 
+Review and critique Maria Jose Marti Manuscript Review
+and critique 
+Movement Disorders Vol Suppl 
+IBARRETXE BILBAO ET AL 
+REFERENCES
+Muslimovic D Post B Speelman JD Schmand B Cognitive prole patients with newly diagnosed Parkinson disease Neurology 
+Hely MA Reid WGJ Adena MA Halliday GM Morris JGL 
+The Sydney multicenter study Parkinsons disease the inevitability dementia years Mov Disord 
+Owen AM Cognitive dysfunction Parkinsons disease the
+role frontostriatal circuitry Neuroscientist 
+Calabresi C Picconi B Parnetti L Di Filippo M A convergent
+model for cognitive dysfunctions Parkinsons disease the critical dopamine acetylcholine synaptic balance Lancet Neurol
+Ashburner J Friston KJ Voxel based morphometry the methods 
+Neuroimage 
+Mechelli A Price CJ Friston KJ Ashburner J Voxel based morphometry the human brain methods and applications Curr
+Med Imaging Rev 
+Scher AI Xu Y Korf ESC Hippocampal shape analysis 
+Alzheimers disease population based study Neuroimage
+Apostolova L Dutton RA Dinos ID Conversion mild
+cognitive impairment Alzheimers disease predicted hippocampal atrophy maps Arch Neurol 
+Hashimoto M Kitagaki H Imamura T Medial temporal
+and whole brain atrophy dementia with Lewy bodies volumetric MRI study Neurology 
+Barber R Ballard C McKeith IG Gholkar A OBrien JT MRI
+volumetric study dementia with Lewy bodies comparison
+with AD and vascular dementia Neurology 
+Laakso MP Partanen K Riekkinen P Hippocampal volumes 
+Alzheimers disease Parkinsons disease with and without dementia and vascular dementia MRI study Neurology
+Camicioli R Moore MM Kinney A Corbridge E Glassberg K 
+Kaye JA Parkinsons disease associated with hippocampal atrophy Mov Disord 
+Junque C Ramirez Ruiz B Tolosa E Amygdalar and hippocampal MRI volumetric reductions Parkinsons disease with
+dementia Mov Disord 
+Bouchard TP Malykhin N Martin WR Age and dementiaassociated atrophy predominates the hippocampal head and amygadala Parkinsons disease Neurobiol Aging 
+Kenny ER Burton EJ OBrien JT A volumetric magnetic resonance imaging study entorhinal cortex volume dementia
+with Lewy bodies A comparison with Alzheimers disease and
+Parkinsons disease with and without dementia Dement Geriatr
+Cogn Disord 
+Scheltens P Fox N Barkhof F De Carli C Structural magnetic
+resonance imaging the practical assessment dementia 
+beyond exclusion Lancet Neurol 
+Summereld C Junque C Tolosa E Structural brain
+changes Parkinson disease with dementia voxel based morphometry study Arch Neurol 
+Churchyard A Lees AJ The relationship between dementia and
+direct involvement the hippocampus and amygdala Parkinsons disease Neurology 
+Apaydin H Ahlskog E Parisi JE Boeve BF Dickson DW Parkinson disease neuropathology Later developing dementia and
+loss the levodopa response Arch Neurol 
+Mattila PM Rinne JO Helenius H Dickson DW Roytta M 
+Alpha synuclein immureactive cortical Lewy bodies are associated with cognitive impairment Parkinsons disease Acta Neuropathol 
+Kovari E Gold G Herrmann FR Lewy body densities the
+entorhinal and anterior cingulated cortex predict cognitive decits Parkinsons disease Acta Neuropathol 
+Movement Disorders Vol Suppl 
+Burton EJ McKeith IG Burn DJ Williams ED OBrien JT 
+Cerebral atrophy Parkinsons disease with and without dementia comparison with Alzheimers disease dementia with Lewy
+bodies and controls Brain 
+Beyer MK Larsen JP Aarsland D Gray matter atrophy Parkinson disease with dementia and dementia with Lewy bodies 
+Neurology 
+Beyer MK Aarsland D Grey matter atrophy early versus late
+dementia Parkinsons disease Parkinsonism Relat Disord
+Ballard C Ziabreva I Perry R Differences neuropathologic characteristics across the Lewy body dementia spectrum 
+Neurology 
+Jellinger KA Seppi K Wenning GK Poewe W Impact coexistent Alzheimer pathology the natural history Parkinsons
+disease J Neural Transm 
+Scheltens P Leys D Barkhof F Atrophy medial temporal lobes MRI probable Alzheimers disease and normal
+aging diagnostic value and neuropsychological correlates J Neurol Neurosurg Psychiatry 
+Bruck A Kurki T Kaasinen V Vahlberg T Rinne JO Hippocampal and prefrontal atrophy patients with early nondemented Parkinsons disease related cognitive impairment 
+J Neurol Neurosurg Psychiatry 
+Jokinen P Bruck A Aalto S Forsback S Parkkola R Rinne JO 
+Impaired cognitive performance Parkinsons disease related
+ caudate dopaminergic hypofunction and hippocampal atrophy 
+Parkinsonism Relat Disord 
+Tam CWC Burton EJ McKeith IG Burn DJ OBrien JT Temporal lobe atrophy MRI Parkinson disease with dementia 
+A comparison with Alzheimer disease and dementia with Lewy
+bodies Neurology 
+Brenneis C Seppi K Schocke MF Voxel based morphometry detects cortical atrophy the Parkinson variant multiple
+system atrophy Mov Disord 
+Nagano Saito A Washimi Y Arahata Y Kachi T Lerch JP 
+Evans AC Cerebral atrophy and its relation cognitive impairment Parkinson disease Neurology 
+Cordato NJ Duggins AJ Halliday GM Morris JGL Pantelis C 
+Clinical decits correlate with regional cerebral atrophy progressive supranuclear palsy Brain 
+Ramirez Ruiz B Marti MJ Tolosa E Cerebral atrophy 
+Parkinsons disease patients with visual hallucinations Eur
+J Neurol 
+Beyer MK Janvin CC Larsen JP Aarsland D A magnetic resonance imaging study patients with Parkinsons disease with
+mild cognitive impairment and dementia using voxel based morphometry J Neurol Neurosurg Psychiatry 
+Camicioli R Gee M Fisher NJ Voxel based morphometry
+reveals extra nigral atrophy patterns associated with dopamine
+refractory cognitive and motor impairment parkinsonism 
+Parkinsonism Relat Disord 
+Janvin C Aarsland D Larsen JP Hugdahl K Neuropsychological prole patients with Parkinsons disease without dementia 
+Dement Geriatr Cogn Disord 
+Williams Gray CH Foltynie T Brayne CEG Robbins TW 
+Barker RA Evolution cognitive dysfunction incident
+Parkinsons disease cohort Brain 
+Petersen RC Doody R Kurz A Current concepts mild
+cognitive impairment Arch Neurol 
+Meyer JS Huang J Chowdhury MH MRI conrms mild
+cognitive impairments prodromal for Alzheimers vascular and
+Parkinson Lewy bodies dementias J Neurol Sci 
+Dubois B Burn D Goetz C Diagnostic procedures for Parkinsons disease dementia recommendations from the movement
+disorder society task force Mov Disord 
+Grossi D Trojano L Pellecchia MT Amboni M Fragassi NA 
+Barone P Frontal dysfunction contributes the genesis hallu 
+MRI AND COGNITIVE IMPAIRMENT IN PD
+cinations non demented Parkinsonian patients Int J Geriatr
+Psychiatry 
+Ramirez Ruiz B Junque C Marti MJ Vallderiola F Tolosa E 
+Neuropsychological decits Parkinsons disease patients with
+visual hallucinations Mov Disord 
+Sinforiani E Zangaglia R Manni R REM sleep behavior
+disorder hallucinations and cognitive impairment Parkinsons
+disease Mov Disord 
+Aarsland D Andersen K Larsen JP Lolk A Kragh Srensen P 
+Prevalence and characteristics dementia Parkinson disease 
+ year prospective study Arch Neurol 
+Galvin JE Pollack J Morris JC Clinical phenotype Parkinson
+disease dementia Neurology 
+Santangelo G Trojano L Vitale C A neuropsychological
+longitudinal study Parkinsons patients with and without visual
+hallucinations Mov Disord 
+Ibarretxe Bilbao N Ramirez Ruiz B Tolosa E Hippocampal head atrophy predominance Parkinsons disease with hallucinations and with dementia J Neurol 
+Ramirez Ruiz B Junque C Marti MJ Valldeoriola F Tolosa E 
+Cognitive changes Parkinsons disease patients with visual
+hallucinations Dement Geriatr Cogn Disord 
+Riekkinen P Kejonen K Laakso MP Soininen H Partanen K 
+Riekkinen M Hippocampal atrophy related impaired memory but not frontal functions non demented Parkinsons disease patients Neuroreport 
+Ramirez Ruiz B Marti MJ Tolosa E Longitudinal evaluation cerebral morphological changes Parkinsons dis 
+ease with and without dementia J Neurol 
+Brenneis C Egger K Scherer C Progression brain atrophy multiple system atrophy longitudinal VBM study 
+J Neurol 
+Hu MTM White SJ Chaudhuri KR Morris RG Bydder GM 
+Brooks DJ Correlating rates cerebral atrophy Parkinsons
+disease with measures cognitive decline J Neural Transm
+Burton EJ McKeith IG Burn DJ OBrien JT Brain atrophy
+rates Parkinsons disease with and without dementia using serial magnetic resonance imaging Mov Disord 
+Paviour DC Price SL Jahanshashi M Lees AJ Fox NC Longitudinal MRI progressive supranuclear palsy and multiple system atrophy rates and regions atrophy Brain 
+Braak H Del tredici K Rub U Vos RAI Jansen Steur EHN 
+Braak E Staging brain pathology related sporadic Parkinsons disease Neurobiol Aging 
+Jellinger KA A critical reappraisal current staging Lewyrelated pathology human brain Acta Neuropathol 
+Ridgway GR Henley SMD Rohrer JD Scahill RI Warren JD 
+Fox NC Ten simple rules for reporting voxel based morphometry studies Neuroimage 
+Ashburner J A fast diffeomorphic image registration algorithm 
+Neuroimage 
+Movement Disorders Vol Suppl 

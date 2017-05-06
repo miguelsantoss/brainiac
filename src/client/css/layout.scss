@@ -2,8 +2,14 @@ body {
   background: white;
   overflow: scroll;
 }
-#content {
+
+.content {
   width: 100%;
+  cursor: auto;
+}
+
+.LayoutHandle {
+  cursor: move;
 }
 
 .react-grid-layout {

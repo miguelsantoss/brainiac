@@ -1,1716 +1,1981 @@
 {
-  "nodes": [
-    {
-      "id": "p36921b93f40c4161",
-      "title": "Conversion of Mild Cognitive Impairment to Alzheimer Disease Predicted by Hippocampal Atrophy Maps",
-      "authors": [
+    "links":[
         {
-          "name": "Liana G. Apostolova"
+            "source":0,
+            "target":1,
+            "value":0.5812671240864103
         },
         {
-          "name": "Rebecca A. Dutton"
+            "source":0,
+            "target":2,
+            "value":0.5722147064678096
         },
         {
-          "name": "Ivo D. Dinov"
+            "source":0,
+            "target":5,
+            "value":0.5068089408643748
         },
         {
-          "name": "Jeffrey L. Cummings"
+            "source":0,
+            "target":7,
+            "value":0.5761626995857734
         },
         {
-          "name": "Arthur W. Toga"
+            "source":0,
+            "target":9,
+            "value":0.5495264078231102
         },
         {
-          "name": "Paul M. Thompson"
+            "source":0,
+            "target":13,
+            "value":0.5528802835215755
+        },
+        {
+            "source":0,
+            "target":16,
+            "value":0.5538613142634939
+        },
+        {
+            "source":0,
+            "target":20,
+            "value":0.6193077478819682
+        },
+        {
+            "source":0,
+            "target":22,
+            "value":0.537359343457972
+        },
+        {
+            "source":0,
+            "target":24,
+            "value":0.50629562961432
+        },
+        {
+            "source":1,
+            "target":2,
+            "value":0.6311759107562803
+        },
+        {
+            "source":1,
+            "target":5,
+            "value":0.6296411296995919
+        },
+        {
+            "source":1,
+            "target":7,
+            "value":0.6109016843575967
+        },
+        {
+            "source":1,
+            "target":9,
+            "value":0.5293149054970179
+        },
+        {
+            "source":1,
+            "target":13,
+            "value":0.56506406891516
+        },
+        {
+            "source":1,
+            "target":16,
+            "value":0.5695537345315149
+        },
+        {
+            "source":1,
+            "target":20,
+            "value":0.6607905156482932
+        },
+        {
+            "source":1,
+            "target":24,
+            "value":0.5817666293756826
+        },
+        {
+            "source":1,
+            "target":25,
+            "value":0.5003265315726496
+        },
+        {
+            "source":2,
+            "target":4,
+            "value":0.5668358524296797
+        },
+        {
+            "source":2,
+            "target":5,
+            "value":0.6213681669415644
+        },
+        {
+            "source":2,
+            "target":7,
+            "value":0.6066107827901557
+        },
+        {
+            "source":2,
+            "target":9,
+            "value":0.5236225434750998
+        },
+        {
+            "source":2,
+            "target":13,
+            "value":0.7501485479599181
+        },
+        {
+            "source":2,
+            "target":16,
+            "value":0.5579779740578937
+        },
+        {
+            "source":2,
+            "target":17,
+            "value":0.6718425302456255
+        },
+        {
+            "source":2,
+            "target":20,
+            "value":0.6067678527801714
+        },
+        {
+            "source":2,
+            "target":24,
+            "value":0.7700558055339187
+        },
+        {
+            "source":4,
+            "target":13,
+            "value":0.6312166324394719
+        },
+        {
+            "source":4,
+            "target":15,
+            "value":0.5239522273287254
+        },
+        {
+            "source":4,
+            "target":17,
+            "value":0.6842574159105747
+        },
+        {
+            "source":4,
+            "target":24,
+            "value":0.5596792612109517
+        },
+        {
+            "source":5,
+            "target":7,
+            "value":0.6087243887147252
+        },
+        {
+            "source":5,
+            "target":13,
+            "value":0.5905258160917694
+        },
+        {
+            "source":5,
+            "target":16,
+            "value":0.5578423199819885
+        },
+        {
+            "source":5,
+            "target":20,
+            "value":0.6396879286615539
+        },
+        {
+            "source":5,
+            "target":24,
+            "value":0.6638241953142293
+        },
+        {
+            "source":5,
+            "target":25,
+            "value":0.5144377082151194
+        },
+        {
+            "source":7,
+            "target":9,
+            "value":0.5614685998112944
+        },
+        {
+            "source":7,
+            "target":13,
+            "value":0.5112567441455337
+        },
+        {
+            "source":7,
+            "target":16,
+            "value":0.6236065823180548
+        },
+        {
+            "source":7,
+            "target":20,
+            "value":0.6974037416467871
+        },
+        {
+            "source":7,
+            "target":24,
+            "value":0.5364164569842145
+        },
+        {
+            "source":7,
+            "target":25,
+            "value":0.5075529466403071
+        },
+        {
+            "source":7,
+            "target":27,
+            "value":0.5115072293645517
+        },
+        {
+            "source":9,
+            "target":16,
+            "value":0.5470384246860672
+        },
+        {
+            "source":9,
+            "target":20,
+            "value":0.5342145580576151
+        },
+        {
+            "source":9,
+            "target":27,
+            "value":0.6360966306600498
+        },
+        {
+            "source":13,
+            "target":15,
+            "value":0.5124034231281389
+        },
+        {
+            "source":13,
+            "target":16,
+            "value":0.5098084250267454
+        },
+        {
+            "source":13,
+            "target":17,
+            "value":0.7680978035762178
+        },
+        {
+            "source":13,
+            "target":20,
+            "value":0.5170820126878338
+        },
+        {
+            "source":13,
+            "target":24,
+            "value":0.745686071908432
+        },
+        {
+            "source":15,
+            "target":17,
+            "value":0.5354740095911851
+        },
+        {
+            "source":16,
+            "target":20,
+            "value":0.6171193115517642
+        },
+        {
+            "source":16,
+            "target":25,
+            "value":0.5762690604616308
+        },
+        {
+            "source":17,
+            "target":24,
+            "value":0.6813182641554023
+        },
+        {
+            "source":19,
+            "target":24,
+            "value":0.5425627442805993
+        },
+        {
+            "source":20,
+            "target":24,
+            "value":0.5723505214774464
         }
-      ],
-      "date": "2006/05/01",
-      "value": 1
-    },
-    {
-      "id": "p8d944f8de99287e1",
-      "title": "MRI volumetric study of dementia with Lewy bodies",
-      "authors": [
+    ],
+    "nodes":[
         {
-          "name": "R. Barber"
+            "authors":[
+                {
+                    "name":"B. C. Dickerson"
+                },
+                {
+                    "name":"I. Goncharova"
+                },
+                {
+                    "name":"M. P. Sullivan"
+                },
+                {
+                    "name":"C. Forchetti"
+                },
+                {
+                    "name":"R. S. Wilson"
+                },
+                {
+                    "name":"D. A. Bennett"
+                },
+                {
+                    "name":"L. A. Beckett"
+                },
+                {
+                    "name":"L. deToledo-Morrell"
+                }
+            ],
+            "date":"2001/09/01",
+            "id":"pbf5741583ce566a5",
+            "title":"MRI-derived entorhinal and hippocampal atrophy in incipient and very mild Alzheimer's disease",
+            "value":6
         },
         {
-          "name": "C. Ballard"
+            "authors":[
+                {
+                    "name":"Mikko P. Laakso"
+                },
+                {
+                    "name":"Giovanni B. Frisoni"
+                },
+                {
+                    "name":"Mervi K\u00f6n\u00f6nen"
+                },
+                {
+                    "name":"Mia Mikkonen"
+                },
+                {
+                    "name":"Alberto Beltramello"
+                },
+                {
+                    "name":"Claudia Geroldi"
+                },
+                {
+                    "name":"Angelo Bianchetti"
+                },
+                {
+                    "name":"Marco Trabucchi"
+                },
+                {
+                    "name":"Hilkka Soininen"
+                },
+                {
+                    "name":"Hannu J. Aronen"
+                }
+            ],
+            "date":"2000/06/01",
+            "id":"p66b5b5e2afa23902",
+            "title":"Hippocampus and Entorhinal Cortex in Frontotemporal Dementia and Alzheimer's Disease: A Morphometric MRI Study",
+            "value":21
         },
         {
-          "name": "I.G. McKeith"
+            "authors":[
+                {
+                    "name":"M. P. Laakso"
+                },
+                {
+                    "name":"K. Partanen"
+                },
+                {
+                    "name":"P. Riekkinen"
+                },
+                {
+                    "name":"M. Lehtovirta"
+                },
+                {
+                    "name":"E.-L. Helkala"
+                },
+                {
+                    "name":"M. Hallikainen"
+                },
+                {
+                    "name":"T. Hanninen"
+                },
+                {
+                    "name":"P. Vainio"
+                },
+                {
+                    "name":"H. Soininen"
+                }
+            ],
+            "date":"1996/03/01",
+            "id":"p2727b2bd4fb6ef6b",
+            "title":"Hippocampal volumes in Alzheimer's disease, Parkinson's disease with and without dementia, and in vascular dementia: An MRI study",
+            "value":20
         },
         {
-          "name": "A. Gholkar"
+            "authors":[
+                {
+                    "name":"Andrea Polli"
+                },
+                {
+                    "name":"Luca Weis"
+                },
+                {
+                    "name":"Roberta Biundo"
+                },
+                {
+                    "name":"Michael Thacker"
+                },
+                {
+                    "name":"Andrea Turolla"
+                },
+                {
+                    "name":"Kostantinos Koutsikos"
+                },
+                {
+                    "name":"K. Ray Chaudhuri"
+                },
+                {
+                    "name":"Angelo Antonini"
+                }
+            ],
+            "date":"2016/12/01",
+            "id":"p0bf3d570e5f3350d",
+            "title":"Anatomical and Functional Correlates of Persistent Pain in Parkinson\u2019s Disease",
+            "value":27
         },
         {
-          "name": "J.T. O’Brien"
+            "authors":[
+                {
+                    "name":"Christopher Summerfield"
+                },
+                {
+                    "name":"Carme Junqu\u00e9"
+                },
+                {
+                    "name":"Eduardo Tolosa"
+                },
+                {
+                    "name":"Pilar Salgado-Pineda"
+                },
+                {
+                    "name":"Beatriz G\u00f3mez-Ans\u00f3n"
+                },
+                {
+                    "name":"Maria Jos\u00e9 Mart\u00ed"
+                },
+                {
+                    "name":"Pau Pastor"
+                },
+                {
+                    "name":"Blanca Ram\u00edrez-Ru\u00edz"
+                },
+                {
+                    "name":"Jos\u00e9 Mercader"
+                }
+            ],
+            "date":"2005/02/01",
+            "id":"pc2abdb0ee2a8c5e8",
+            "title":"Structural Brain Changes in Parkinson Disease With Dementia",
+            "value":32
+        },
+        {
+            "authors":[
+                {
+                    "name":"R. Barber"
+                },
+                {
+                    "name":"C. Ballard"
+                },
+                {
+                    "name":"I.G. McKeith"
+                },
+                {
+                    "name":"A. Gholkar"
+                },
+                {
+                    "name":"J.T. O\u2019Brien"
+                }
+            ],
+            "date":"2000/03/28",
+            "id":"p8d944f8de99287e1",
+            "title":"MRI volumetric study of dementia with Lewy bodies",
+            "value":2
+        },
+        {
+            "authors":[
+                {
+                    "name":"Ioannis Siasios"
+                },
+                {
+                    "name":"Eftychia Z. Kapsalaki"
+                },
+                {
+                    "name":"Kostas N. Fountas"
+                },
+                {
+                    "name":"Aggeliki Fotiadou"
+                },
+                {
+                    "name":"Alexander Dorsch"
+                },
+                {
+                    "name":"Kunal Vakharia"
+                },
+                {
+                    "name":"John Pollina"
+                },
+                {
+                    "name":"Vassilios Dimopoulos"
+                }
+            ],
+            "date":"2016/09/01",
+            "id":"p5c9433861db6048e",
+            "title":"The role of diffusion tensor imaging and fractional anisotropy in the evaluation of patients with idiopathic normal pressure hydrocephalus: a literature review",
+            "value":31
+        },
+        {
+            "authors":[
+                {
+                    "name":"N. Schuff"
+                },
+                {
+                    "name":"D. Amend"
+                },
+                {
+                    "name":"F. Ezekiel"
+                },
+                {
+                    "name":"S. K. Steinman"
+                },
+                {
+                    "name":"J. Tanabe"
+                },
+                {
+                    "name":"D. Norman"
+                },
+                {
+                    "name":"W. Jagust"
+                },
+                {
+                    "name":"J. H. Kramer"
+                },
+                {
+                    "name":"J. A. Mastrianni"
+                },
+                {
+                    "name":"G. Fein"
+                },
+                {
+                    "name":"M. W. Weiner"
+                }
+            ],
+            "date":"1997/12/01",
+            "id":"p3adb19dfff6f7898",
+            "title":"Changes of hippocampal N-acetyl aspartate and volume in Alzheimer's disease",
+            "value":28
+        },
+        {
+            "authors":[
+                {
+                    "name":"P Jr Riekkinen"
+                },
+                {
+                    "name":"K Kejonen"
+                },
+                {
+                    "name":"M P Laakso"
+                },
+                {
+                    "name":"H Soininen"
+                },
+                {
+                    "name":"K Partanen"
+                },
+                {
+                    "name":"M Riekkinen"
+                }
+            ],
+            "date":"1998/05/11",
+            "id":"p7aadcd192c6b13f2",
+            "title":"Hippocampal atrophy is related to impaired memory, but not frontal functions in non-demented Parkinson's disease patients",
+            "value":12
+        },
+        {
+            "authors":[
+                {
+                    "name":"Feng Shi"
+                },
+                {
+                    "name":"Bing Liu"
+                },
+                {
+                    "name":"Yuan Zhou"
+                },
+                {
+                    "name":"Chunshui Yu"
+                },
+                {
+                    "name":"Tianzi Jiang"
+                }
+            ],
+            "date":"2009/11/01",
+            "id":"p25066a75ce048c92",
+            "title":"Hippocampal Volume and Asymmetry in Mild Cognitive Impairment and Alzheimer's Disease: Meta-Analyses of MRI Studies",
+            "value":30
+        },
+        {
+            "authors":[
+                {
+                    "name":"Lorna Harper"
+                },
+                {
+                    "name":"Frederik Barkhof"
+                },
+                {
+                    "name":"Philip Scheltens"
+                },
+                {
+                    "name":"Jonathan M. Schott"
+                },
+                {
+                    "name":"Nick C. Fox"
+                }
+            ],
+            "date":"2014/06/01",
+            "id":"pf37dc76323f6c28a",
+            "title":"An algorithmic approach to structural imaging in dementia",
+            "value":11
+        },
+        {
+            "authors":[
+                {
+                    "name":"Clifford R. Jack"
+                },
+                {
+                    "name":"Matt A. Bernstein"
+                },
+                {
+                    "name":"Nick C. Fox"
+                },
+                {
+                    "name":"Paul Thompson"
+                },
+                {
+                    "name":"Gene Alexander"
+                },
+                {
+                    "name":"Danielle Harvey"
+                },
+                {
+                    "name":"Bret Borowski"
+                },
+                {
+                    "name":"Paula J. Britson"
+                },
+                {
+                    "name":"Chadwick Ward"
+                },
+                {
+                    "name":"Anders M. Dale"
+                },
+                {
+                    "name":"Joel P. Felmlee"
+                },
+                {
+                    "name":"Jeffrey L. Gunter"
+                },
+                {
+                    "name":"Derek L.G. Hill"
+                },
+                {
+                    "name":"Ron Killiany"
+                },
+                {
+                    "name":"Norbert Schuff"
+                },
+                {
+                    "name":"Sabrina Fox-Bosetti"
+                },
+                {
+                    "name":"Chen Lin"
+                },
+                {
+                    "name":"Colin Studholme"
+                },
+                {
+                    "name":"Charles S. DeCarli"
+                },
+                {
+                    "name":"Gunnar Krueger"
+                },
+                {
+                    "name":"Heidi A. Ward"
+                },
+                {
+                    "name":"Gregory J. Metzger"
+                },
+                {
+                    "name":"Katherine T. Scott"
+                },
+                {
+                    "name":"Richard Mallozzi"
+                },
+                {
+                    "name":"Daniel Blezek"
+                },
+                {
+                    "name":"Joshua Levy"
+                },
+                {
+                    "name":"Josef P. Debbins"
+                },
+                {
+                    "name":"Adam S. Fleisher"
+                },
+                {
+                    "name":"Marilyn Albert"
+                },
+                {
+                    "name":"Robert Green"
+                },
+                {
+                    "name":"George Bartzokis"
+                },
+                {
+                    "name":"Gary Glover"
+                },
+                {
+                    "name":"John Mugler"
+                },
+                {
+                    "name":"Michael W. Weiner"
+                }
+            ],
+            "date":"2008/04/01",
+            "id":"p0a9650062ef6b287",
+            "title":"The Alzheimer\u2019s Disease Neuroimaging Initiative (ADNI): MRI Methods",
+            "value":17
+        },
+        {
+            "authors":[
+                {
+                    "name":"Jay N. Giedd"
+                },
+                {
+                    "name":"A. Catherine Vaituzis"
+                },
+                {
+                    "name":"Susan D. Hamburger"
+                },
+                {
+                    "name":"Nicholas Lange"
+                },
+                {
+                    "name":"Jagath C. Rajapakse"
+                },
+                {
+                    "name":"Debra Kaysen"
+                },
+                {
+                    "name":"Yolanda C. Vauss"
+                },
+                {
+                    "name":"Judith L. Rapoport"
+                }
+            ],
+            "date":"1996/03/04",
+            "id":"pa9238aa0a5f56f7f",
+            "title":"Quantitative MRI of the Temporal Lobe, Amygdala, and Hippocampus in Normal Human Development: Ages 4-18 Years",
+            "value":10
+        },
+        {
+            "authors":[
+                {
+                    "name":"Richard Camicioli"
+                },
+                {
+                    "name":"M. Milar Moore"
+                },
+                {
+                    "name":"Anthony Kinney"
+                },
+                {
+                    "name":"Elizabeth Corbridge"
+                },
+                {
+                    "name":"Kathryn Glassberg"
+                },
+                {
+                    "name":"Jeffrey A. Kaye"
+                }
+            ],
+            "date":"2003/07/01",
+            "id":"padc524ddda484d04",
+            "title":"Parkinson\u2019s Disease Is Associated with Hippocampal Atrophy",
+            "value":5
+        },
+        {
+            "authors":[
+                {
+                    "name":"Bradley T. Hyman"
+                },
+                {
+                    "name":"Creighton H. Phelps"
+                },
+                {
+                    "name":"Thomas G. Beach"
+                },
+                {
+                    "name":"Eileen H. Bigio"
+                },
+                {
+                    "name":"Nigel J. Cairns"
+                },
+                {
+                    "name":"Maria C. Carrillo"
+                },
+                {
+                    "name":"Dennis W. Dickson"
+                },
+                {
+                    "name":"Charles Duyckaerts"
+                },
+                {
+                    "name":"Matthew P. Frosch"
+                },
+                {
+                    "name":"Eliezer Masliah"
+                },
+                {
+                    "name":"Suzanne S. Mirra"
+                },
+                {
+                    "name":"Peter T. Nelson"
+                },
+                {
+                    "name":"Julie A. Schneider"
+                },
+                {
+                    "name":"Dietmar Rudolf Thal"
+                },
+                {
+                    "name":"Bill Thies"
+                },
+                {
+                    "name":"John Q. Trojanowski"
+                },
+                {
+                    "name":"Harry V. Vinters"
+                },
+                {
+                    "name":"Thomas J. Montine"
+                }
+            ],
+            "date":"2012/01/01",
+            "id":"p48552e3cf5a7d428",
+            "title":"National Institute on Aging\u2013Alzheimer's Association guidelines for the neuropathologic assessment of Alzheimer's disease: a practical approach",
+            "value":13
+        },
+        {
+            "authors":[
+                {
+                    "name":"Myrlene Gee"
+                },
+                {
+                    "name":"Juergen Dukart"
+                },
+                {
+                    "name":"Bogdan Draganski"
+                },
+                {
+                    "name":"W. R. Wayne Martin"
+                },
+                {
+                    "name":"Derek Emery"
+                },
+                {
+                    "name":"Richard Camicioli"
+                }
+            ],
+            "date":"2017/02/15",
+            "id":"pcba779ac0ec2c700",
+            "title":"Regional volumetric change in Parkinson's disease with cognitive decline",
+            "value":9
+        },
+        {
+            "authors":[
+                {
+                    "name":"M. P. Laakso"
+                },
+                {
+                    "name":"H. Soininen"
+                },
+                {
+                    "name":"K. Partanen"
+                },
+                {
+                    "name":"E.-L. Helkala"
+                },
+                {
+                    "name":"P. Hartikainen"
+                },
+                {
+                    "name":"P. Vainio"
+                },
+                {
+                    "name":"M. Hallikainen"
+                },
+                {
+                    "name":"T. H\u00e4nninen"
+                },
+                {
+                    "name":"P. J. Riekkinen Sr"
+                }
+            ],
+            "date":"1995/02/01",
+            "id":"pc02d5774cf74a770",
+            "title":"Volumes of hippocampus, amygdala and frontal lobes in the MRI-based diagnosis of early Alzheimer's disease: correlation with memory functions",
+            "value":19
+        },
+        {
+            "authors":[
+                {
+                    "name":"Naroa Ibarretxe-Bilbao"
+                },
+                {
+                    "name":"Eduardo Tolosa"
+                },
+                {
+                    "name":"Carme Junque"
+                },
+                {
+                    "name":"Maria-Jose Marti"
+                }
+            ],
+            "date":"2009/01/01",
+            "id":"pd3d518b425c63c44",
+            "title":"MRI and Cognitive Impairment in Parkinson's Disease",
+            "value":14
+        },
+        {
+            "authors":[
+                {
+                    "name":"Kazuki Nakajima"
+                },
+                {
+                    "name":"Hisako Akiyama"
+                },
+                {
+                    "name":"Kaori Tanaka"
+                },
+                {
+                    "name":"Ayako Kohyama-Koganeya"
+                },
+                {
+                    "name":"Peter Greimel"
+                },
+                {
+                    "name":"Yoshio Hirabayashi"
+                }
+            ],
+            "date":"2016/09/15",
+            "id":"pc00b3c65b5287be0",
+            "title":"Separation and analysis of mono-glucosylated lipids in brain and skin by hydrophilic interaction chromatography based on carbohydrate and lipid moiety",
+            "value":25
+        },
+        {
+            "authors":[
+                {
+                    "name":"Paul J. Mattis"
+                },
+                {
+                    "name":"Martin Niethammer"
+                },
+                {
+                    "name":"Wataru Sako"
+                },
+                {
+                    "name":"Chris C. Tang"
+                },
+                {
+                    "name":"Amir Nazem"
+                },
+                {
+                    "name":"Marc L. Gordon"
+                },
+                {
+                    "name":"Vicky Brandt"
+                },
+                {
+                    "name":"Vijay Dhawan"
+                },
+                {
+                    "name":"David Eidelberg"
+                }
+            ],
+            "date":"2016/11/01",
+            "id":"pd9e19bca2600b2b3",
+            "title":"Distinct brain networks underlie cognitive dysfunction in Parkinson and Alzheimer diseases",
+            "value":23
+        },
+        {
+            "authors":[
+                {
+                    "name":"Clifford R. Jack"
+                },
+                {
+                    "name":"Ronald C. Petersen"
+                },
+                {
+                    "name":"Yue Cheng Xu"
+                },
+                {
+                    "name":"Stephen C. Waring"
+                },
+                {
+                    "name":"Peter C. O'Brien"
+                },
+                {
+                    "name":"Eric G. Tangalos"
+                },
+                {
+                    "name":"Glenn E. Smith"
+                },
+                {
+                    "name":"Robert J. Ivnik"
+                },
+                {
+                    "name":"Emre Kokmen"
+                }
+            ],
+            "date":"1997/09/01",
+            "id":"p0efa1235d81453d8",
+            "title":"Medial temporal atrophy on MRI in normal aging and very mild Alzheimer's disease",
+            "value":15
+        },
+        {
+            "authors":[
+                {
+                    "name":"Sonja Sch\u00f6necker"
+                },
+                {
+                    "name":"Matthias Brendel"
+                },
+                {
+                    "name":"Marion Huber"
+                },
+                {
+                    "name":"Christian Vollmar"
+                },
+                {
+                    "name":"Hans-Juergen Huppertz"
+                },
+                {
+                    "name":"Stefan Teipel"
+                },
+                {
+                    "name":"Nobuyuki Okamura"
+                },
+                {
+                    "name":"Johannes Levin"
+                },
+                {
+                    "name":"Axel Rominger"
+                },
+                {
+                    "name":"Adrian Danek"
+                }
+            ],
+            "date":"2016/08/09",
+            "id":"p25728be31519b600",
+            "title":"Applied multimodal diagnostics in a case of presenile dementia",
+            "value":29
+        },
+        {
+            "authors":[
+                {
+                    "name":"Marta Nesteruk"
+                },
+                {
+                    "name":"Tomasz Nesteruk"
+                },
+                {
+                    "name":"Maria Styczy\u0144ska"
+                },
+                {
+                    "name":"Anna Barczak"
+                },
+                {
+                    "name":"Monika Mandecka"
+                },
+                {
+                    "name":"Jerzy Walecki"
+                },
+                {
+                    "name":"Maria Barcikowska-Kotowicz"
+                }
+            ],
+            "date":"2015/01/01",
+            "id":"p76d4e9088134dc50",
+            "title":"Predicting the conversion of mild cognitive impairment to Alzheimer's disease based on the volumetric measurements of the selected brain structures in magnetic resonance imaging",
+            "value":26
+        },
+        {
+            "authors":[
+                {
+                    "name":"Liana G. Apostolova"
+                },
+                {
+                    "name":"Rebecca A. Dutton"
+                },
+                {
+                    "name":"Ivo D. Dinov"
+                },
+                {
+                    "name":"Jeffrey L. Cummings"
+                },
+                {
+                    "name":"Arthur W. Toga"
+                },
+                {
+                    "name":"Paul M. Thompson"
+                }
+            ],
+            "date":"2006/05/01",
+            "id":"p36921b93f40c4161",
+            "title":"Conversion of Mild Cognitive Impairment to Alzheimer Disease Predicted by Hippocampal Atrophy Maps",
+            "value":1
+        },
+        {
+            "authors":[
+                {
+                    "name":"C. W. C. Tam"
+                },
+                {
+                    "name":"E. J. Burton"
+                },
+                {
+                    "name":"I. G. McKeith"
+                },
+                {
+                    "name":"D. J. Burn"
+                },
+                {
+                    "name":"J. T. O\u2019Brien"
+                }
+            ],
+            "date":"2005/03/08",
+            "id":"pd95669bdd96047e4",
+            "title":"Temporal lobe atrophy on MRI in Parkinson disease with dementia",
+            "value":33
+        },
+        {
+            "authors":[
+                {
+                    "name":"Grazia D. Femminella"
+                },
+                {
+                    "name":"Siddharth Ninan"
+                },
+                {
+                    "name":"Rebecca Atkinson"
+                },
+                {
+                    "name":"Zhen Fan"
+                },
+                {
+                    "name":"David J. Brooks"
+                },
+                {
+                    "name":"Paul Edison"
+                }
+            ],
+            "date":"2016/01/01",
+            "id":"p225cc835ad930b3b",
+            "title":"Does Microglial Activation Influence Hippocampal Volume and Neuronal Function in Alzheimer's Disease and Parkinson's Disease Dementia?",
+            "value":8
+        },
+        {
+            "authors":[
+                {
+                    "name":"C. Duchesne"
+                },
+                {
+                    "name":"F. Gheysen"
+                },
+                {
+                    "name":"A. Bore"
+                },
+                {
+                    "name":"G. Albouy"
+                },
+                {
+                    "name":"A. Nadeau"
+                },
+                {
+                    "name":"M. E. Robillard"
+                },
+                {
+                    "name":"F. Bobeuf"
+                },
+                {
+                    "name":"A. L. Lafontaine"
+                },
+                {
+                    "name":"O. Lungu"
+                },
+                {
+                    "name":"L. Bherer"
+                },
+                {
+                    "name":"J. Doyon"
+                }
+            ],
+            "date":"2016/09/14",
+            "id":"p4c71bbe7d05a72ef",
+            "title":"Influence of aerobic exercise training on the neural correlates of motor learning in Parkinson's disease individuals",
+            "value":7
+        },
+        {
+            "authors":[
+                {
+                    "name":" Josephine Barnes"
+                },
+                {
+                    "name":"Jonathan W. Bartlett"
+                },
+                {
+                    "name":"Laura A. van de Pol"
+                },
+                {
+                    "name":"Clement T. Loy"
+                },
+                {
+                    "name":"Rachael I. Scahill"
+                },
+                {
+                    "name":"Chris Frost"
+                },
+                {
+                    "name":"Paul Thompson"
+                },
+                {
+                    "name":"Nick C. Fox"
+                }
+            ],
+            "date":"2009/11/01",
+            "id":"pf0a92ee32f8d2420",
+            "title":"A meta-analysis of hippocampal atrophy rates in Alzheimer's disease",
+            "value":3
+        },
+        {
+            "authors":[
+                {
+                    "name":"Marina Boccardi"
+                },
+                {
+                    "name":"Martina Bocchetta"
+                },
+                {
+                    "name":"Liana G. Apostolova"
+                },
+                {
+                    "name":"Gregory Preboske"
+                },
+                {
+                    "name":"Nicolas Robitaille"
+                },
+                {
+                    "name":"Patrizio Pasqualetti"
+                },
+                {
+                    "name":"Louis D. Collins"
+                },
+                {
+                    "name":"Simon Duchesne"
+                },
+                {
+                    "name":"Clifford R. Jack"
+                },
+                {
+                    "name":"Giovanni B. Frisoni"
+                }
+            ],
+            "date":"2014/09/01",
+            "id":"p44489f4856976977",
+            "title":"Establishing Magnetic Resonance Images Orientation for the EADC-ADNI Manual Hippocampal Segmentation Protocol",
+            "value":4
+        },
+        {
+            "authors":[
+                {
+                    "name":"Brit Mollenhauer"
+                },
+                {
+                    "name":"Johannes Zimmermann"
+                },
+                {
+                    "name":"Friederike Sixel-D\u00f6ring"
+                },
+                {
+                    "name":"Niels K. Focke"
+                },
+                {
+                    "name":"Tamara Wicke"
+                },
+                {
+                    "name":"Jens Ebentheuer"
+                },
+                {
+                    "name":"Martina Schaumburg"
+                },
+                {
+                    "name":"Elisabeth Lang"
+                },
+                {
+                    "name":"Ellen Trautmann"
+                },
+                {
+                    "name":"Henrik Zetterberg"
+                },
+                {
+                    "name":"Peggy Taylor"
+                },
+                {
+                    "name":"Tim Friede"
+                },
+                {
+                    "name":"Claudia Trenkwalder"
+                },
+                {
+                    "name":"DeNoPa Study Group"
+                }
+            ],
+            "date":"2016/07/12",
+            "id":"p03357fdbc3285a1f",
+            "title":"Monitoring of 30 marker candidates in early Parkinson disease as progression markers",
+            "value":24
+        },
+        {
+            "authors":[
+                {
+                    "name":"Young-Do Kim"
+                },
+                {
+                    "name":"Hyeonseok S. Jeong"
+                },
+                {
+                    "name":"In-Uk Song"
+                },
+                {
+                    "name":"Yong-An Chung"
+                },
+                {
+                    "name":"Eun Namgung"
+                },
+                {
+                    "name":"Yong-Duk Kim"
+                }
+            ],
+            "date":"2016/12/01",
+            "id":"pcb9c19017550a5b0",
+            "title":"Brain perfusion alterations in depressed patients with Parkinson's disease",
+            "value":18
+        },
+        {
+            "authors":[
+                {
+                    "name":"C. R. Jack"
+                },
+                {
+                    "name":"R. C. Petersen"
+                },
+                {
+                    "name":"Y. C. Xu"
+                },
+                {
+                    "name":"P. C. O\u2019Brien"
+                },
+                {
+                    "name":"G. E. Smith"
+                },
+                {
+                    "name":"R. J. Ivnik"
+                },
+                {
+                    "name":"B. F. Boeve"
+                },
+                {
+                    "name":"S. C. Waring"
+                },
+                {
+                    "name":"E. G. Tangalos"
+                },
+                {
+                    "name":"E. Kokmen"
+                }
+            ],
+            "date":"1999/04/01",
+            "id":"pe79b3fc6b2f4c642",
+            "title":"Prediction of AD with MRI-based hippocampal volume in mild cognitive impairment",
+            "value":16
+        },
+        {
+            "authors":[
+                {
+                    "name":"Jean-Charles Lambert"
+                },
+                {
+                    "name":"Carla A. Ibrahim-Verbaas"
+                },
+                {
+                    "name":"Denise Harold"
+                },
+                {
+                    "name":"Adam C. Naj"
+                },
+                {
+                    "name":"Rebecca Sims"
+                },
+                {
+                    "name":"C\u00e9line Bellenguez"
+                },
+                {
+                    "name":"Gyungah Jun"
+                },
+                {
+                    "name":"Anita L. DeStefano"
+                },
+                {
+                    "name":"Joshua C. Bis"
+                },
+                {
+                    "name":"Gary W. Beecham"
+                },
+                {
+                    "name":"Benjamin Grenier-Boley"
+                },
+                {
+                    "name":"Giancarlo Russo"
+                },
+                {
+                    "name":"Tricia A. Thornton-Wells"
+                },
+                {
+                    "name":"Nicola Jones"
+                },
+                {
+                    "name":"Albert V. Smith"
+                },
+                {
+                    "name":"Vincent Chouraki"
+                },
+                {
+                    "name":"Charlene Thomas"
+                },
+                {
+                    "name":"M. Arfan Ikram"
+                },
+                {
+                    "name":"Diana Zelenika"
+                },
+                {
+                    "name":"Badri N. Vardarajan"
+                },
+                {
+                    "name":"Yoichiro Kamatani"
+                },
+                {
+                    "name":"Chiao-Feng Lin"
+                },
+                {
+                    "name":"Amy Gerrish"
+                },
+                {
+                    "name":"Helena Schmidt"
+                },
+                {
+                    "name":"Brian Kunkle"
+                },
+                {
+                    "name":"Melanie L. Dunstan"
+                },
+                {
+                    "name":"Agustin Ruiz"
+                },
+                {
+                    "name":"Marie-Th\u00e9r\u00e8se Bihoreau"
+                },
+                {
+                    "name":"Seung-Hoan Choi"
+                },
+                {
+                    "name":"Christiane Reitz"
+                },
+                {
+                    "name":"Florence Pasquier"
+                },
+                {
+                    "name":"Paul Hollingworth"
+                },
+                {
+                    "name":"Alfredo Ramirez"
+                },
+                {
+                    "name":"Olivier Hanon"
+                },
+                {
+                    "name":"Annette L. Fitzpatrick"
+                },
+                {
+                    "name":"Joseph D. Buxbaum"
+                },
+                {
+                    "name":"Dominique Campion"
+                },
+                {
+                    "name":"Paul K. Crane"
+                },
+                {
+                    "name":"Clinton Baldwin"
+                },
+                {
+                    "name":"Tim Becker"
+                },
+                {
+                    "name":"Vilmundur Gudnason"
+                },
+                {
+                    "name":"Carlos Cruchaga"
+                },
+                {
+                    "name":"David Craig"
+                },
+                {
+                    "name":"Najaf Amin"
+                },
+                {
+                    "name":"Claudine Berr"
+                },
+                {
+                    "name":"Oscar L. Lopez"
+                },
+                {
+                    "name":"Philip L. De Jager"
+                },
+                {
+                    "name":"Vincent Deramecourt"
+                },
+                {
+                    "name":"Janet A. Johnston"
+                },
+                {
+                    "name":"Denis Evans"
+                },
+                {
+                    "name":"Simon Lovestone"
+                },
+                {
+                    "name":"Luc Letenneur"
+                },
+                {
+                    "name":"Francisco J. Mor\u00f3n"
+                },
+                {
+                    "name":"David C. Rubinsztein"
+                },
+                {
+                    "name":"Gudny Eiriksdottir"
+                },
+                {
+                    "name":"Kristel Sleegers"
+                },
+                {
+                    "name":"Alison M. Goate"
+                },
+                {
+                    "name":"Nathalie Fi\u00e9vet"
+                },
+                {
+                    "name":"Matthew J. Huentelman"
+                },
+                {
+                    "name":"Michael Gill"
+                },
+                {
+                    "name":"Kristelle Brown"
+                },
+                {
+                    "name":"M. Ilyas Kamboh"
+                },
+                {
+                    "name":"Lina Keller"
+                },
+                {
+                    "name":"Pascale Barberger-Gateau"
+                },
+                {
+                    "name":"Bernadette McGuinness"
+                },
+                {
+                    "name":"Eric B. Larson"
+                },
+                {
+                    "name":"Robert Green"
+                },
+                {
+                    "name":"Amanda J. Myers"
+                },
+                {
+                    "name":"Carole Dufouil"
+                },
+                {
+                    "name":"Stephen Todd"
+                },
+                {
+                    "name":"David Wallon"
+                },
+                {
+                    "name":"Seth Love"
+                },
+                {
+                    "name":"Ekaterina Rogaeva"
+                },
+                {
+                    "name":"John Gallacher"
+                },
+                {
+                    "name":"Peter St George-Hyslop"
+                },
+                {
+                    "name":"Jordi Clarimon"
+                },
+                {
+                    "name":"Alberto Lleo"
+                },
+                {
+                    "name":"Anthony Bayer"
+                },
+                {
+                    "name":"Debby W. Tsuang"
+                },
+                {
+                    "name":"Lei Yu"
+                },
+                {
+                    "name":"Magda Tsolaki"
+                },
+                {
+                    "name":"Paola Boss\u00f9"
+                },
+                {
+                    "name":"Gianfranco Spalletta"
+                },
+                {
+                    "name":"Petroula Proitsi"
+                },
+                {
+                    "name":"John Collinge"
+                },
+                {
+                    "name":"Sandro Sorbi"
+                },
+                {
+                    "name":"Florentino Sanchez-Garcia"
+                },
+                {
+                    "name":"Nick C. Fox"
+                },
+                {
+                    "name":"John Hardy"
+                },
+                {
+                    "name":"Maria Candida Deniz Naranjo"
+                },
+                {
+                    "name":"Paolo Bosco"
+                },
+                {
+                    "name":"Robert Clarke"
+                },
+                {
+                    "name":"Carol Brayne"
+                },
+                {
+                    "name":"Daniela Galimberti"
+                },
+                {
+                    "name":"Michelangelo Mancuso"
+                },
+                {
+                    "name":"Fiona Matthews"
+                },
+                {
+                    "name":"European Alzheimer's Disease Initiative (eadi)"
+                },
+                {
+                    "name":"Genetic and Environmental Risk in Alzheimer's Disease (gerad)"
+                },
+                {
+                    "name":"Alzheimer's Disease Genetic Consortium (adgc)"
+                },
+                {
+                    "name":"Cohorts for Heart and Aging Research in Genomic Epidemiology (charge)"
+                },
+                {
+                    "name":"Susanne Moebus"
+                },
+                {
+                    "name":"Patrizia Mecocci"
+                },
+                {
+                    "name":"Maria Del Zompo"
+                },
+                {
+                    "name":"Wolfgang Maier"
+                },
+                {
+                    "name":"Harald Hampel"
+                },
+                {
+                    "name":"Alberto Pilotto"
+                },
+                {
+                    "name":"Maria Bullido"
+                },
+                {
+                    "name":"Francesco Panza"
+                },
+                {
+                    "name":"Paolo Caffarra"
+                },
+                {
+                    "name":"Benedetta Nacmias"
+                },
+                {
+                    "name":"John R. Gilbert"
+                },
+                {
+                    "name":"Manuel Mayhaus"
+                },
+                {
+                    "name":"Lars Lannfelt"
+                },
+                {
+                    "name":"Hakon Hakonarson"
+                },
+                {
+                    "name":"Sabrina Pichler"
+                },
+                {
+                    "name":"Minerva M. Carrasquillo"
+                },
+                {
+                    "name":"Martin Ingelsson"
+                },
+                {
+                    "name":"Duane Beekly"
+                },
+                {
+                    "name":"Victoria Alvarez"
+                },
+                {
+                    "name":"Fanggeng Zou"
+                },
+                {
+                    "name":"Otto Valladares"
+                },
+                {
+                    "name":"Steven G. Younkin"
+                },
+                {
+                    "name":"Eliecer Coto"
+                },
+                {
+                    "name":"Kara L. Hamilton-Nelson"
+                },
+                {
+                    "name":"Wei Gu"
+                },
+                {
+                    "name":"Cristina Razquin"
+                },
+                {
+                    "name":"Pau Pastor"
+                },
+                {
+                    "name":"Ignacio Mateo"
+                },
+                {
+                    "name":"Michael J. Owen"
+                },
+                {
+                    "name":"Kelley M. Faber"
+                },
+                {
+                    "name":"Palmi V. Jonsson"
+                },
+                {
+                    "name":"Onofre Combarros"
+                },
+                {
+                    "name":"Michael C. O'Donovan"
+                },
+                {
+                    "name":"Laura B. Cantwell"
+                },
+                {
+                    "name":"Hilkka Soininen"
+                },
+                {
+                    "name":"Deborah Blacker"
+                },
+                {
+                    "name":"Simon Mead"
+                },
+                {
+                    "name":"Thomas H. Mosley Jr"
+                },
+                {
+                    "name":"David A. Bennett"
+                },
+                {
+                    "name":"Tamara B. Harris"
+                },
+                {
+                    "name":"Laura Fratiglioni"
+                },
+                {
+                    "name":"Clive Holmes"
+                },
+                {
+                    "name":"Renee F. A. G. de Bruijn"
+                },
+                {
+                    "name":"Peter Passmore"
+                },
+                {
+                    "name":"Thomas J. Montine"
+                },
+                {
+                    "name":"Karolien Bettens"
+                },
+                {
+                    "name":"Jerome I. Rotter"
+                },
+                {
+                    "name":"Alexis Brice"
+                },
+                {
+                    "name":"Kevin Morgan"
+                },
+                {
+                    "name":"Tatiana M. Foroud"
+                },
+                {
+                    "name":"Walter A. Kukull"
+                },
+                {
+                    "name":"Didier Hannequin"
+                },
+                {
+                    "name":"John F. Powell"
+                },
+                {
+                    "name":"Michael A. Nalls"
+                },
+                {
+                    "name":"Karen Ritchie"
+                },
+                {
+                    "name":"Kathryn L. Lunetta"
+                },
+                {
+                    "name":"John S. K. Kauwe"
+                },
+                {
+                    "name":"Eric Boerwinkle"
+                },
+                {
+                    "name":"Matthias Riemenschneider"
+                },
+                {
+                    "name":"Merc\u00e8 Boada"
+                },
+                {
+                    "name":"Mikko Hiltunen"
+                },
+                {
+                    "name":"Eden R. Martin"
+                },
+                {
+                    "name":"Reinhold Schmidt"
+                },
+                {
+                    "name":"Dan Rujescu"
+                },
+                {
+                    "name":"Li-San Wang"
+                },
+                {
+                    "name":"Jean-Fran\u00e7ois Dartigues"
+                },
+                {
+                    "name":"Richard Mayeux"
+                },
+                {
+                    "name":"Christophe Tzourio"
+                },
+                {
+                    "name":"Albert Hofman"
+                },
+                {
+                    "name":"Markus M. N\u00f6then"
+                },
+                {
+                    "name":"Caroline Graff"
+                },
+                {
+                    "name":"Bruce M. Psaty"
+                },
+                {
+                    "name":"Lesley Jones"
+                },
+                {
+                    "name":"Jonathan L. Haines"
+                },
+                {
+                    "name":"Peter A. Holmans"
+                },
+                {
+                    "name":"Mark Lathrop"
+                },
+                {
+                    "name":"Margaret A. Pericak-Vance"
+                },
+                {
+                    "name":"Lenore J. Launer"
+                },
+                {
+                    "name":"Lindsay A. Farrer"
+                },
+                {
+                    "name":"Cornelia M. van Duijn"
+                },
+                {
+                    "name":"Christine Van Broeckhoven"
+                },
+                {
+                    "name":"Valentina Moskvina"
+                },
+                {
+                    "name":"Sudha Seshadri"
+                },
+                {
+                    "name":"Julie Williams"
+                },
+                {
+                    "name":"Gerard D. Schellenberg"
+                },
+                {
+                    "name":"Philippe Amouyel"
+                }
+            ],
+            "date":"2013/12/01",
+            "id":"pd28c36a66168d75d",
+            "title":"Meta-analysis of 74,046 individuals identifies 11 new susceptibility loci for Alzheimer's d isease",
+            "value":22
         }
-      ],
-      "date": "2000/03/28",
-      "value": 2
-    },
-    {
-      "id": "pf0a92ee32f8d2420",
-      "title": "A meta-analysis of hippocampal atrophy rates in Alzheimer's disease",
-      "authors": [
-        {
-          "name": " Josephine Barnes"
-        },
-        {
-          "name": "Jonathan W. Bartlett"
-        },
-        {
-          "name": "Laura A. van de Pol"
-        },
-        {
-          "name": "Clement T. Loy"
-        },
-        {
-          "name": "Rachael I. Scahill"
-        },
-        {
-          "name": "Chris Frost"
-        },
-        {
-          "name": "Paul Thompson"
-        },
-        {
-          "name": "Nick C. Fox"
-        }
-      ],
-      "date": "2009/11/01",
-      "value": 3
-    },
-    {
-      "id": "p44489f4856976977",
-      "title": "Establishing Magnetic Resonance Images Orientation for the EADC-ADNI Manual Hippocampal Segmentation Protocol",
-      "authors": [
-        {
-          "name": "Marina Boccardi"
-        },
-        {
-          "name": "Martina Bocchetta"
-        },
-        {
-          "name": "Liana G. Apostolova"
-        },
-        {
-          "name": "Gregory Preboske"
-        },
-        {
-          "name": "Nicolas Robitaille"
-        },
-        {
-          "name": "Patrizio Pasqualetti"
-        },
-        {
-          "name": "Louis D. Collins"
-        },
-        {
-          "name": "Simon Duchesne"
-        },
-        {
-          "name": "Clifford R. Jack"
-        },
-        {
-          "name": "Giovanni B. Frisoni"
-        }
-      ],
-      "date": "2014/09/01",
-      "value": 4
-    },
-    {
-      "id": "padc524ddda484d04",
-      "title": "Parkinson’s Disease Is Associated with Hippocampal Atrophy",
-      "authors": [
-        {
-          "name": "Richard Camicioli"
-        },
-        {
-          "name": "M. Milar Moore"
-        },
-        {
-          "name": "Anthony Kinney"
-        },
-        {
-          "name": "Elizabeth Corbridge"
-        },
-        {
-          "name": "Kathryn Glassberg"
-        },
-        {
-          "name": "Jeffrey A. Kaye"
-        }
-      ],
-      "date": "2003/07/01",
-      "value": 5
-    },
-    {
-      "id": "pbf5741583ce566a5",
-      "title": "MRI-derived entorhinal and hippocampal atrophy in incipient and very mild Alzheimer's disease",
-      "authors": [
-        {
-          "name": "B. C. Dickerson"
-        },
-        {
-          "name": "I. Goncharova"
-        },
-        {
-          "name": "M. P. Sullivan"
-        },
-        {
-          "name": "C. Forchetti"
-        },
-        {
-          "name": "R. S. Wilson"
-        },
-        {
-          "name": "D. A. Bennett"
-        },
-        {
-          "name": "L. A. Beckett"
-        },
-        {
-          "name": "L. deToledo-Morrell"
-        }
-      ],
-      "date": "2001/09/01",
-      "value": 6
-    },
-    {
-      "id": "p4c71bbe7d05a72ef",
-      "title": "Influence of aerobic exercise training on the neural correlates of motor learning in Parkinson's disease individuals",
-      "authors": [
-        {
-          "name": "C. Duchesne"
-        },
-        {
-          "name": "F. Gheysen"
-        },
-        {
-          "name": "A. Bore"
-        },
-        {
-          "name": "G. Albouy"
-        },
-        {
-          "name": "A. Nadeau"
-        },
-        {
-          "name": "M. E. Robillard"
-        },
-        {
-          "name": "F. Bobeuf"
-        },
-        {
-          "name": "A. L. Lafontaine"
-        },
-        {
-          "name": "O. Lungu"
-        },
-        {
-          "name": "L. Bherer"
-        },
-        {
-          "name": "J. Doyon"
-        }
-      ],
-      "date": "2016/09/14",
-      "value": 7
-    },
-    {
-      "id": "p225cc835ad930b3b",
-      "title": "Does Microglial Activation Influence Hippocampal Volume and Neuronal Function in Alzheimer's Disease and Parkinson's Disease Dementia?",
-      "authors": [
-        {
-          "name": "Grazia D. Femminella"
-        },
-        {
-          "name": "Siddharth Ninan"
-        },
-        {
-          "name": "Rebecca Atkinson"
-        },
-        {
-          "name": "Zhen Fan"
-        },
-        {
-          "name": "David J. Brooks"
-        },
-        {
-          "name": "Paul Edison"
-        }
-      ],
-      "date": "2016/01/01",
-      "value": 8
-    },
-    {
-      "id": "pcba779ac0ec2c700",
-      "title": "Regional volumetric change in Parkinson's disease with cognitive decline",
-      "authors": [
-        {
-          "name": "Myrlene Gee"
-        },
-        {
-          "name": "Juergen Dukart"
-        },
-        {
-          "name": "Bogdan Draganski"
-        },
-        {
-          "name": "W. R. Wayne Martin"
-        },
-        {
-          "name": "Derek Emery"
-        },
-        {
-          "name": "Richard Camicioli"
-        }
-      ],
-      "date": "2017/02/15",
-      "value": 9
-    },
-    {
-      "id": "pa9238aa0a5f56f7f",
-      "title": "Quantitative MRI of the Temporal Lobe, Amygdala, and Hippocampus in Normal Human Development: Ages 4-18 Years",
-      "authors": [
-        {
-          "name": "Jay N. Giedd"
-        },
-        {
-          "name": "A. Catherine Vaituzis"
-        },
-        {
-          "name": "Susan D. Hamburger"
-        },
-        {
-          "name": "Nicholas Lange"
-        },
-        {
-          "name": "Jagath C. Rajapakse"
-        },
-        {
-          "name": "Debra Kaysen"
-        },
-        {
-          "name": "Yolanda C. Vauss"
-        },
-        {
-          "name": "Judith L. Rapoport"
-        }
-      ],
-      "date": "1996/03/04",
-      "value": 10
-    },
-    {
-      "id": "pf37dc76323f6c28a",
-      "title": "An algorithmic approach to structural imaging in dementia",
-      "authors": [
-        {
-          "name": "Lorna Harper"
-        },
-        {
-          "name": "Frederik Barkhof"
-        },
-        {
-          "name": "Philip Scheltens"
-        },
-        {
-          "name": "Jonathan M. Schott"
-        },
-        {
-          "name": "Nick C. Fox"
-        }
-      ],
-      "date": "2014/06/01",
-      "value": 11
-    },
-    {
-      "id": "p7aadcd192c6b13f2",
-      "title": "Hippocampal atrophy is related to impaired memory, but not frontal functions in non-demented Parkinson's disease patients",
-      "authors": [
-        {
-          "name": "P Jr Riekkinen"
-        },
-        {
-          "name": "K Kejonen"
-        },
-        {
-          "name": "M P Laakso"
-        },
-        {
-          "name": "H Soininen"
-        },
-        {
-          "name": "K Partanen"
-        },
-        {
-          "name": "M Riekkinen"
-        }
-      ],
-      "date": "1998/05/11",
-      "value": 12
-    },
-    {
-      "id": "p48552e3cf5a7d428",
-      "title": "National Institute on Aging–Alzheimer's Association guidelines for the neuropathologic assessment of Alzheimer's disease: a practical approach",
-      "authors": [
-        {
-          "name": "Bradley T. Hyman"
-        },
-        {
-          "name": "Creighton H. Phelps"
-        },
-        {
-          "name": "Thomas G. Beach"
-        },
-        {
-          "name": "Eileen H. Bigio"
-        },
-        {
-          "name": "Nigel J. Cairns"
-        },
-        {
-          "name": "Maria C. Carrillo"
-        },
-        {
-          "name": "Dennis W. Dickson"
-        },
-        {
-          "name": "Charles Duyckaerts"
-        },
-        {
-          "name": "Matthew P. Frosch"
-        },
-        {
-          "name": "Eliezer Masliah"
-        },
-        {
-          "name": "Suzanne S. Mirra"
-        },
-        {
-          "name": "Peter T. Nelson"
-        },
-        {
-          "name": "Julie A. Schneider"
-        },
-        {
-          "name": "Dietmar Rudolf Thal"
-        },
-        {
-          "name": "Bill Thies"
-        },
-        {
-          "name": "John Q. Trojanowski"
-        },
-        {
-          "name": "Harry V. Vinters"
-        },
-        {
-          "name": "Thomas J. Montine"
-        }
-      ],
-      "date": "2012/01/01",
-      "value": 13
-    },
-    {
-      "id": "pd3d518b425c63c44",
-      "title": "MRI and Cognitive Impairment in Parkinson's Disease",
-      "authors": [
-        {
-          "name": "Naroa Ibarretxe-Bilbao"
-        },
-        {
-          "name": "Eduardo Tolosa"
-        },
-        {
-          "name": "Carme Junque"
-        },
-        {
-          "name": "Maria-Jose Marti"
-        }
-      ],
-      "date": "2009/01/01",
-      "value": 14
-    },
-    {
-      "id": "p0efa1235d81453d8",
-      "title": "Medial temporal atrophy on MRI in normal aging and very mild Alzheimer's disease",
-      "authors": [
-        {
-          "name": "Clifford R. Jack"
-        },
-        {
-          "name": "Ronald C. Petersen"
-        },
-        {
-          "name": "Yue Cheng Xu"
-        },
-        {
-          "name": "Stephen C. Waring"
-        },
-        {
-          "name": "Peter C. O'Brien"
-        },
-        {
-          "name": "Eric G. Tangalos"
-        },
-        {
-          "name": "Glenn E. Smith"
-        },
-        {
-          "name": "Robert J. Ivnik"
-        },
-        {
-          "name": "Emre Kokmen"
-        }
-      ],
-      "date": "1997/09/01",
-      "value": 15
-    },
-    {
-      "id": "pe79b3fc6b2f4c642",
-      "title": "Prediction of AD with MRI-based hippocampal volume in mild cognitive impairment",
-      "authors": [
-        {
-          "name": "C. R. Jack"
-        },
-        {
-          "name": "R. C. Petersen"
-        },
-        {
-          "name": "Y. C. Xu"
-        },
-        {
-          "name": "P. C. O’Brien"
-        },
-        {
-          "name": "G. E. Smith"
-        },
-        {
-          "name": "R. J. Ivnik"
-        },
-        {
-          "name": "B. F. Boeve"
-        },
-        {
-          "name": "S. C. Waring"
-        },
-        {
-          "name": "E. G. Tangalos"
-        },
-        {
-          "name": "E. Kokmen"
-        }
-      ],
-      "date": "1999/04/01",
-      "value": 16
-    },
-    {
-      "id": "p0a9650062ef6b287",
-      "title": "The Alzheimer’s Disease Neuroimaging Initiative (ADNI): MRI Methods",
-      "authors": [
-        {
-          "name": "Clifford R. Jack"
-        },
-        {
-          "name": "Matt A. Bernstein"
-        },
-        {
-          "name": "Nick C. Fox"
-        },
-        {
-          "name": "Paul Thompson"
-        },
-        {
-          "name": "Gene Alexander"
-        },
-        {
-          "name": "Danielle Harvey"
-        },
-        {
-          "name": "Bret Borowski"
-        },
-        {
-          "name": "Paula J. Britson"
-        },
-        {
-          "name": "Chadwick Ward"
-        },
-        {
-          "name": "Anders M. Dale"
-        },
-        {
-          "name": "Joel P. Felmlee"
-        },
-        {
-          "name": "Jeffrey L. Gunter"
-        },
-        {
-          "name": "Derek L.G. Hill"
-        },
-        {
-          "name": "Ron Killiany"
-        },
-        {
-          "name": "Norbert Schuff"
-        },
-        {
-          "name": "Sabrina Fox-Bosetti"
-        },
-        {
-          "name": "Chen Lin"
-        },
-        {
-          "name": "Colin Studholme"
-        },
-        {
-          "name": "Charles S. DeCarli"
-        },
-        {
-          "name": "Gunnar Krueger"
-        },
-        {
-          "name": "Heidi A. Ward"
-        },
-        {
-          "name": "Gregory J. Metzger"
-        },
-        {
-          "name": "Katherine T. Scott"
-        },
-        {
-          "name": "Richard Mallozzi"
-        },
-        {
-          "name": "Daniel Blezek"
-        },
-        {
-          "name": "Joshua Levy"
-        },
-        {
-          "name": "Josef P. Debbins"
-        },
-        {
-          "name": "Adam S. Fleisher"
-        },
-        {
-          "name": "Marilyn Albert"
-        },
-        {
-          "name": "Robert Green"
-        },
-        {
-          "name": "George Bartzokis"
-        },
-        {
-          "name": "Gary Glover"
-        },
-        {
-          "name": "John Mugler"
-        },
-        {
-          "name": "Michael W. Weiner"
-        }
-      ],
-      "date": "2008/04/01",
-      "value": 17
-    },
-    {
-      "id": "pcb9c19017550a5b0",
-      "title": "Brain perfusion alterations in depressed patients with Parkinson's disease",
-      "authors": [
-        {
-          "name": "Young-Do Kim"
-        },
-        {
-          "name": "Hyeonseok S. Jeong"
-        },
-        {
-          "name": "In-Uk Song"
-        },
-        {
-          "name": "Yong-An Chung"
-        },
-        {
-          "name": "Eun Namgung"
-        },
-        {
-          "name": "Yong-Duk Kim"
-        }
-      ],
-      "date": "2016/12/01",
-      "value": 18
-    },
-    {
-      "id": "pc02d5774cf74a770",
-      "title": "Volumes of hippocampus, amygdala and frontal lobes in the MRI-based diagnosis of early Alzheimer's disease: correlation with memory functions",
-      "authors": [
-        {
-          "name": "M. P. Laakso"
-        },
-        {
-          "name": "H. Soininen"
-        },
-        {
-          "name": "K. Partanen"
-        },
-        {
-          "name": "E.-L. Helkala"
-        },
-        {
-          "name": "P. Hartikainen"
-        },
-        {
-          "name": "P. Vainio"
-        },
-        {
-          "name": "M. Hallikainen"
-        },
-        {
-          "name": "T. Hänninen"
-        },
-        {
-          "name": "P. J. Riekkinen Sr"
-        }
-      ],
-      "date": "1995/02/01",
-      "value": 19
-    },
-    {
-      "id": "p2727b2bd4fb6ef6b",
-      "title": "Hippocampal volumes in Alzheimer's disease, Parkinson's disease with and without dementia, and in vascular dementia: An MRI study",
-      "authors": [
-        {
-          "name": "M. P. Laakso"
-        },
-        {
-          "name": "K. Partanen"
-        },
-        {
-          "name": "P. Riekkinen"
-        },
-        {
-          "name": "M. Lehtovirta"
-        },
-        {
-          "name": "E.-L. Helkala"
-        },
-        {
-          "name": "M. Hallikainen"
-        },
-        {
-          "name": "T. Hanninen"
-        },
-        {
-          "name": "P. Vainio"
-        },
-        {
-          "name": "H. Soininen"
-        }
-      ],
-      "date": "1996/03/01",
-      "value": 20
-    },
-    {
-      "id": "p66b5b5e2afa23902",
-      "title": "Hippocampus and Entorhinal Cortex in Frontotemporal Dementia and Alzheimer's Disease: A Morphometric MRI Study",
-      "authors": [
-        {
-          "name": "Mikko P. Laakso"
-        },
-        {
-          "name": "Giovanni B. Frisoni"
-        },
-        {
-          "name": "Mervi Könönen"
-        },
-        {
-          "name": "Mia Mikkonen"
-        },
-        {
-          "name": "Alberto Beltramello"
-        },
-        {
-          "name": "Claudia Geroldi"
-        },
-        {
-          "name": "Angelo Bianchetti"
-        },
-        {
-          "name": "Marco Trabucchi"
-        },
-        {
-          "name": "Hilkka Soininen"
-        },
-        {
-          "name": "Hannu J. Aronen"
-        }
-      ],
-      "date": "2000/06/01",
-      "value": 21
-    },
-    {
-      "id": "pd28c36a66168d75d",
-      "title": "Meta-analysis of 74,046 individuals identifies 11 new susceptibility loci for Alzheimer's d isease",
-      "authors": [
-        {
-          "name": "Jean-Charles Lambert"
-        },
-        {
-          "name": "Carla A. Ibrahim-Verbaas"
-        },
-        {
-          "name": "Denise Harold"
-        },
-        {
-          "name": "Adam C. Naj"
-        },
-        {
-          "name": "Rebecca Sims"
-        },
-        {
-          "name": "Céline Bellenguez"
-        },
-        {
-          "name": "Gyungah Jun"
-        },
-        {
-          "name": "Anita L. DeStefano"
-        },
-        {
-          "name": "Joshua C. Bis"
-        },
-        {
-          "name": "Gary W. Beecham"
-        },
-        {
-          "name": "Benjamin Grenier-Boley"
-        },
-        {
-          "name": "Giancarlo Russo"
-        },
-        {
-          "name": "Tricia A. Thornton-Wells"
-        },
-        {
-          "name": "Nicola Jones"
-        },
-        {
-          "name": "Albert V. Smith"
-        },
-        {
-          "name": "Vincent Chouraki"
-        },
-        {
-          "name": "Charlene Thomas"
-        },
-        {
-          "name": "M. Arfan Ikram"
-        },
-        {
-          "name": "Diana Zelenika"
-        },
-        {
-          "name": "Badri N. Vardarajan"
-        },
-        {
-          "name": "Yoichiro Kamatani"
-        },
-        {
-          "name": "Chiao-Feng Lin"
-        },
-        {
-          "name": "Amy Gerrish"
-        },
-        {
-          "name": "Helena Schmidt"
-        },
-        {
-          "name": "Brian Kunkle"
-        },
-        {
-          "name": "Melanie L. Dunstan"
-        },
-        {
-          "name": "Agustin Ruiz"
-        },
-        {
-          "name": "Marie-Thérèse Bihoreau"
-        },
-        {
-          "name": "Seung-Hoan Choi"
-        },
-        {
-          "name": "Christiane Reitz"
-        },
-        {
-          "name": "Florence Pasquier"
-        },
-        {
-          "name": "Paul Hollingworth"
-        },
-        {
-          "name": "Alfredo Ramirez"
-        },
-        {
-          "name": "Olivier Hanon"
-        },
-        {
-          "name": "Annette L. Fitzpatrick"
-        },
-        {
-          "name": "Joseph D. Buxbaum"
-        },
-        {
-          "name": "Dominique Campion"
-        },
-        {
-          "name": "Paul K. Crane"
-        },
-        {
-          "name": "Clinton Baldwin"
-        },
-        {
-          "name": "Tim Becker"
-        },
-        {
-          "name": "Vilmundur Gudnason"
-        },
-        {
-          "name": "Carlos Cruchaga"
-        },
-        {
-          "name": "David Craig"
-        },
-        {
-          "name": "Najaf Amin"
-        },
-        {
-          "name": "Claudine Berr"
-        },
-        {
-          "name": "Oscar L. Lopez"
-        },
-        {
-          "name": "Philip L. De Jager"
-        },
-        {
-          "name": "Vincent Deramecourt"
-        },
-        {
-          "name": "Janet A. Johnston"
-        },
-        {
-          "name": "Denis Evans"
-        },
-        {
-          "name": "Simon Lovestone"
-        },
-        {
-          "name": "Luc Letenneur"
-        },
-        {
-          "name": "Francisco J. Morón"
-        },
-        {
-          "name": "David C. Rubinsztein"
-        },
-        {
-          "name": "Gudny Eiriksdottir"
-        },
-        {
-          "name": "Kristel Sleegers"
-        },
-        {
-          "name": "Alison M. Goate"
-        },
-        {
-          "name": "Nathalie Fiévet"
-        },
-        {
-          "name": "Matthew J. Huentelman"
-        },
-        {
-          "name": "Michael Gill"
-        },
-        {
-          "name": "Kristelle Brown"
-        },
-        {
-          "name": "M. Ilyas Kamboh"
-        },
-        {
-          "name": "Lina Keller"
-        },
-        {
-          "name": "Pascale Barberger-Gateau"
-        },
-        {
-          "name": "Bernadette McGuinness"
-        },
-        {
-          "name": "Eric B. Larson"
-        },
-        {
-          "name": "Robert Green"
-        },
-        {
-          "name": "Amanda J. Myers"
-        },
-        {
-          "name": "Carole Dufouil"
-        },
-        {
-          "name": "Stephen Todd"
-        },
-        {
-          "name": "David Wallon"
-        },
-        {
-          "name": "Seth Love"
-        },
-        {
-          "name": "Ekaterina Rogaeva"
-        },
-        {
-          "name": "John Gallacher"
-        },
-        {
-          "name": "Peter St George-Hyslop"
-        },
-        {
-          "name": "Jordi Clarimon"
-        },
-        {
-          "name": "Alberto Lleo"
-        },
-        {
-          "name": "Anthony Bayer"
-        },
-        {
-          "name": "Debby W. Tsuang"
-        },
-        {
-          "name": "Lei Yu"
-        },
-        {
-          "name": "Magda Tsolaki"
-        },
-        {
-          "name": "Paola Bossù"
-        },
-        {
-          "name": "Gianfranco Spalletta"
-        },
-        {
-          "name": "Petroula Proitsi"
-        },
-        {
-          "name": "John Collinge"
-        },
-        {
-          "name": "Sandro Sorbi"
-        },
-        {
-          "name": "Florentino Sanchez-Garcia"
-        },
-        {
-          "name": "Nick C. Fox"
-        },
-        {
-          "name": "John Hardy"
-        },
-        {
-          "name": "Maria Candida Deniz Naranjo"
-        },
-        {
-          "name": "Paolo Bosco"
-        },
-        {
-          "name": "Robert Clarke"
-        },
-        {
-          "name": "Carol Brayne"
-        },
-        {
-          "name": "Daniela Galimberti"
-        },
-        {
-          "name": "Michelangelo Mancuso"
-        },
-        {
-          "name": "Fiona Matthews"
-        },
-        {
-          "name": "European Alzheimer's Disease Initiative (eadi)"
-        },
-        {
-          "name": "Genetic and Environmental Risk in Alzheimer's Disease (gerad)"
-        },
-        {
-          "name": "Alzheimer's Disease Genetic Consortium (adgc)"
-        },
-        {
-          "name": "Cohorts for Heart and Aging Research in Genomic Epidemiology (charge)"
-        },
-        {
-          "name": "Susanne Moebus"
-        },
-        {
-          "name": "Patrizia Mecocci"
-        },
-        {
-          "name": "Maria Del Zompo"
-        },
-        {
-          "name": "Wolfgang Maier"
-        },
-        {
-          "name": "Harald Hampel"
-        },
-        {
-          "name": "Alberto Pilotto"
-        },
-        {
-          "name": "Maria Bullido"
-        },
-        {
-          "name": "Francesco Panza"
-        },
-        {
-          "name": "Paolo Caffarra"
-        },
-        {
-          "name": "Benedetta Nacmias"
-        },
-        {
-          "name": "John R. Gilbert"
-        },
-        {
-          "name": "Manuel Mayhaus"
-        },
-        {
-          "name": "Lars Lannfelt"
-        },
-        {
-          "name": "Hakon Hakonarson"
-        },
-        {
-          "name": "Sabrina Pichler"
-        },
-        {
-          "name": "Minerva M. Carrasquillo"
-        },
-        {
-          "name": "Martin Ingelsson"
-        },
-        {
-          "name": "Duane Beekly"
-        },
-        {
-          "name": "Victoria Alvarez"
-        },
-        {
-          "name": "Fanggeng Zou"
-        },
-        {
-          "name": "Otto Valladares"
-        },
-        {
-          "name": "Steven G. Younkin"
-        },
-        {
-          "name": "Eliecer Coto"
-        },
-        {
-          "name": "Kara L. Hamilton-Nelson"
-        },
-        {
-          "name": "Wei Gu"
-        },
-        {
-          "name": "Cristina Razquin"
-        },
-        {
-          "name": "Pau Pastor"
-        },
-        {
-          "name": "Ignacio Mateo"
-        },
-        {
-          "name": "Michael J. Owen"
-        },
-        {
-          "name": "Kelley M. Faber"
-        },
-        {
-          "name": "Palmi V. Jonsson"
-        },
-        {
-          "name": "Onofre Combarros"
-        },
-        {
-          "name": "Michael C. O'Donovan"
-        },
-        {
-          "name": "Laura B. Cantwell"
-        },
-        {
-          "name": "Hilkka Soininen"
-        },
-        {
-          "name": "Deborah Blacker"
-        },
-        {
-          "name": "Simon Mead"
-        },
-        {
-          "name": "Thomas H. Mosley Jr"
-        },
-        {
-          "name": "David A. Bennett"
-        },
-        {
-          "name": "Tamara B. Harris"
-        },
-        {
-          "name": "Laura Fratiglioni"
-        },
-        {
-          "name": "Clive Holmes"
-        },
-        {
-          "name": "Renee F. A. G. de Bruijn"
-        },
-        {
-          "name": "Peter Passmore"
-        },
-        {
-          "name": "Thomas J. Montine"
-        },
-        {
-          "name": "Karolien Bettens"
-        },
-        {
-          "name": "Jerome I. Rotter"
-        },
-        {
-          "name": "Alexis Brice"
-        },
-        {
-          "name": "Kevin Morgan"
-        },
-        {
-          "name": "Tatiana M. Foroud"
-        },
-        {
-          "name": "Walter A. Kukull"
-        },
-        {
-          "name": "Didier Hannequin"
-        },
-        {
-          "name": "John F. Powell"
-        },
-        {
-          "name": "Michael A. Nalls"
-        },
-        {
-          "name": "Karen Ritchie"
-        },
-        {
-          "name": "Kathryn L. Lunetta"
-        },
-        {
-          "name": "John S. K. Kauwe"
-        },
-        {
-          "name": "Eric Boerwinkle"
-        },
-        {
-          "name": "Matthias Riemenschneider"
-        },
-        {
-          "name": "Mercè Boada"
-        },
-        {
-          "name": "Mikko Hiltunen"
-        },
-        {
-          "name": "Eden R. Martin"
-        },
-        {
-          "name": "Reinhold Schmidt"
-        },
-        {
-          "name": "Dan Rujescu"
-        },
-        {
-          "name": "Li-San Wang"
-        },
-        {
-          "name": "Jean-François Dartigues"
-        },
-        {
-          "name": "Richard Mayeux"
-        },
-        {
-          "name": "Christophe Tzourio"
-        },
-        {
-          "name": "Albert Hofman"
-        },
-        {
-          "name": "Markus M. Nöthen"
-        },
-        {
-          "name": "Caroline Graff"
-        },
-        {
-          "name": "Bruce M. Psaty"
-        },
-        {
-          "name": "Lesley Jones"
-        },
-        {
-          "name": "Jonathan L. Haines"
-        },
-        {
-          "name": "Peter A. Holmans"
-        },
-        {
-          "name": "Mark Lathrop"
-        },
-        {
-          "name": "Margaret A. Pericak-Vance"
-        },
-        {
-          "name": "Lenore J. Launer"
-        },
-        {
-          "name": "Lindsay A. Farrer"
-        },
-        {
-          "name": "Cornelia M. van Duijn"
-        },
-        {
-          "name": "Christine Van Broeckhoven"
-        },
-        {
-          "name": "Valentina Moskvina"
-        },
-        {
-          "name": "Sudha Seshadri"
-        },
-        {
-          "name": "Julie Williams"
-        },
-        {
-          "name": "Gerard D. Schellenberg"
-        },
-        {
-          "name": "Philippe Amouyel"
-        }
-      ],
-      "date": "2013/12/01",
-      "value": 22
-    },
-    {
-      "id": "pd9e19bca2600b2b3",
-      "title": "Distinct brain networks underlie cognitive dysfunction in Parkinson and Alzheimer diseases",
-      "authors": [
-        {
-          "name": "Paul J. Mattis"
-        },
-        {
-          "name": "Martin Niethammer"
-        },
-        {
-          "name": "Wataru Sako"
-        },
-        {
-          "name": "Chris C. Tang"
-        },
-        {
-          "name": "Amir Nazem"
-        },
-        {
-          "name": "Marc L. Gordon"
-        },
-        {
-          "name": "Vicky Brandt"
-        },
-        {
-          "name": "Vijay Dhawan"
-        },
-        {
-          "name": "David Eidelberg"
-        }
-      ],
-      "date": "2016/11/01",
-      "value": 23
-    },
-    {
-      "id": "p03357fdbc3285a1f",
-      "title": "Monitoring of 30 marker candidates in early Parkinson disease as progression markers",
-      "authors": [
-        {
-          "name": "Brit Mollenhauer"
-        },
-        {
-          "name": "Johannes Zimmermann"
-        },
-        {
-          "name": "Friederike Sixel-Döring"
-        },
-        {
-          "name": "Niels K. Focke"
-        },
-        {
-          "name": "Tamara Wicke"
-        },
-        {
-          "name": "Jens Ebentheuer"
-        },
-        {
-          "name": "Martina Schaumburg"
-        },
-        {
-          "name": "Elisabeth Lang"
-        },
-        {
-          "name": "Ellen Trautmann"
-        },
-        {
-          "name": "Henrik Zetterberg"
-        },
-        {
-          "name": "Peggy Taylor"
-        },
-        {
-          "name": "Tim Friede"
-        },
-        {
-          "name": "Claudia Trenkwalder"
-        },
-        {
-          "name": "DeNoPa Study Group"
-        }
-      ],
-      "date": "2016/07/12",
-      "value": 24
-    },
-    {
-      "id": "pc00b3c65b5287be0",
-      "title": "Separation and analysis of mono-glucosylated lipids in brain and skin by hydrophilic interaction chromatography based on carbohydrate and lipid moiety",
-      "authors": [
-        {
-          "name": "Kazuki Nakajima"
-        },
-        {
-          "name": "Hisako Akiyama"
-        },
-        {
-          "name": "Kaori Tanaka"
-        },
-        {
-          "name": "Ayako Kohyama-Koganeya"
-        },
-        {
-          "name": "Peter Greimel"
-        },
-        {
-          "name": "Yoshio Hirabayashi"
-        }
-      ],
-      "date": "2016/09/15",
-      "value": 25
-    },
-    {
-      "id": "p76d4e9088134dc50",
-      "title": "Predicting the conversion of mild cognitive impairment to Alzheimer's disease based on the volumetric measurements of the selected brain structures in magnetic resonance imaging",
-      "authors": [
-        {
-          "name": "Marta Nesteruk"
-        },
-        {
-          "name": "Tomasz Nesteruk"
-        },
-        {
-          "name": "Maria Styczyńska"
-        },
-        {
-          "name": "Anna Barczak"
-        },
-        {
-          "name": "Monika Mandecka"
-        },
-        {
-          "name": "Jerzy Walecki"
-        },
-        {
-          "name": "Maria Barcikowska-Kotowicz"
-        }
-      ],
-      "date": "2015/01/01",
-      "value": 26
-    },
-    {
-      "id": "p0bf3d570e5f3350d",
-      "title": "Anatomical and Functional Correlates of Persistent Pain in Parkinson’s Disease",
-      "authors": [
-        {
-          "name": "Andrea Polli"
-        },
-        {
-          "name": "Luca Weis"
-        },
-        {
-          "name": "Roberta Biundo"
-        },
-        {
-          "name": "Michael Thacker"
-        },
-        {
-          "name": "Andrea Turolla"
-        },
-        {
-          "name": "Kostantinos Koutsikos"
-        },
-        {
-          "name": "K. Ray Chaudhuri"
-        },
-        {
-          "name": "Angelo Antonini"
-        }
-      ],
-      "date": "2016/12/01",
-      "value": 27
-    },
-    {
-      "id": "p3adb19dfff6f7898",
-      "title": "Changes of hippocampal N-acetyl aspartate and volume in Alzheimer's disease",
-      "authors": [
-        {
-          "name": "N. Schuff"
-        },
-        {
-          "name": "D. Amend"
-        },
-        {
-          "name": "F. Ezekiel"
-        },
-        {
-          "name": "S. K. Steinman"
-        },
-        {
-          "name": "J. Tanabe"
-        },
-        {
-          "name": "D. Norman"
-        },
-        {
-          "name": "W. Jagust"
-        },
-        {
-          "name": "J. H. Kramer"
-        },
-        {
-          "name": "J. A. Mastrianni"
-        },
-        {
-          "name": "G. Fein"
-        },
-        {
-          "name": "M. W. Weiner"
-        }
-      ],
-      "date": "1997/12/01",
-      "value": 28
-    },
-    {
-      "id": "p25728be31519b600",
-      "title": "Applied multimodal diagnostics in a case of presenile dementia",
-      "authors": [
-        {
-          "name": "Sonja Schönecker"
-        },
-        {
-          "name": "Matthias Brendel"
-        },
-        {
-          "name": "Marion Huber"
-        },
-        {
-          "name": "Christian Vollmar"
-        },
-        {
-          "name": "Hans-Juergen Huppertz"
-        },
-        {
-          "name": "Stefan Teipel"
-        },
-        {
-          "name": "Nobuyuki Okamura"
-        },
-        {
-          "name": "Johannes Levin"
-        },
-        {
-          "name": "Axel Rominger"
-        },
-        {
-          "name": "Adrian Danek"
-        }
-      ],
-      "date": "2016/08/09",
-      "value": 29
-    },
-    {
-      "id": "p25066a75ce048c92",
-      "title": "Hippocampal Volume and Asymmetry in Mild Cognitive Impairment and Alzheimer's Disease: Meta-Analyses of MRI Studies",
-      "authors": [
-        {
-          "name": "Feng Shi"
-        },
-        {
-          "name": "Bing Liu"
-        },
-        {
-          "name": "Yuan Zhou"
-        },
-        {
-          "name": "Chunshui Yu"
-        },
-        {
-          "name": "Tianzi Jiang"
-        }
-      ],
-      "date": "2009/11/01",
-      "value": 30
-    },
-    {
-      "id": "p5c9433861db6048e",
-      "title": "The role of diffusion tensor imaging and fractional anisotropy in the evaluation of patients with idiopathic normal pressure hydrocephalus: a literature review",
-      "authors": [
-        {
-          "name": "Ioannis Siasios"
-        },
-        {
-          "name": "Eftychia Z. Kapsalaki"
-        },
-        {
-          "name": "Kostas N. Fountas"
-        },
-        {
-          "name": "Aggeliki Fotiadou"
-        },
-        {
-          "name": "Alexander Dorsch"
-        },
-        {
-          "name": "Kunal Vakharia"
-        },
-        {
-          "name": "John Pollina"
-        },
-        {
-          "name": "Vassilios Dimopoulos"
-        }
-      ],
-      "date": "2016/09/01",
-      "value": 31
-    },
-    {
-      "id": "pc2abdb0ee2a8c5e8",
-      "title": "Structural Brain Changes in Parkinson Disease With Dementia",
-      "authors": [
-        {
-          "name": "Christopher Summerfield"
-        },
-        {
-          "name": "Carme Junqué"
-        },
-        {
-          "name": "Eduardo Tolosa"
-        },
-        {
-          "name": "Pilar Salgado-Pineda"
-        },
-        {
-          "name": "Beatriz Gómez-Ansón"
-        },
-        {
-          "name": "Maria José Martí"
-        },
-        {
-          "name": "Pau Pastor"
-        },
-        {
-          "name": "Blanca Ramírez-Ruíz"
-        },
-        {
-          "name": "José Mercader"
-        }
-      ],
-      "date": "2005/02/01",
-      "value": 32
-    },
-    {
-      "id": "pd95669bdd96047e4",
-      "title": "Temporal lobe atrophy on MRI in Parkinson disease with dementia",
-      "authors": [
-        {
-          "name": "C. W. C. Tam"
-        },
-        {
-          "name": "E. J. Burton"
-        },
-        {
-          "name": "I. G. McKeith"
-        },
-        {
-          "name": "D. J. Burn"
-        },
-        {
-          "name": "J. T. O’Brien"
-        }
-      ],
-      "date": "2005/03/08",
-      "value": 33
-    }
-  ],
-  "links": [
-    {
-      "source": 0,
-      "target": 1,
-      "value": 0.10182939182941059
-    },
-    {
-      "source": 0,
-      "target": 2,
-      "value": 0.1574953305410211
-    },
-    {
-      "source": 0,
-      "target": 3,
-      "value": 0.07874953398626876
-    },
-    {
-      "source": 1,
-      "target": 2,
-      "value": 0.14271985558021336
-    },
-    {
-      "source": 1,
-      "target": 3,
-      "value": 0.145817687774408
-    },
-    {
-      "source": 2,
-      "target": 3,
-      "value": 0.10692413121695839
-    }
-  ]
+    ]
 }

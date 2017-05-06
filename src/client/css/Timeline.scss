@@ -31,6 +31,8 @@ $fill-animation: fill $fill-animation-time ease;
   fill: $node-fill;
   stroke: $node-stroke;
   opacity: $opacity-normal;
+  cursor: pointer;
+  cursor: hand;
   -webkit-transition: $opacity-animation, $fill-animation;
      -moz-transition: $opacity-animation, $fill-animation;
       -ms-transition: $opacity-animation, $fill-animation;

@@ -1,0 +1,766 @@
+neurosurgical
+focus
+Neurosurg Focus 
+The role diffusion tensor imaging and fractional
+anisotropy the evaluation patients with idiopathic
+normal pressure hydrocephalus literature review
+Ioannis Siasios MD MSc Eftychia Z Kapsalaki MD PhD Kostas N Fountas MD PhD 
+Aggeliki Fotiadou MS Alexander Dorsch MD Kunal Vakharia MD John Pollina MD and
+Vassilios Dimopoulos 
+Department Neurosurgery Jacobs School Medicine and Biomedical Sciences University Buffalo State University
+ New York Department Neurosurgery Kaleida Health Buffalo New York and Departments Diagnostic Radiology 
+Neurosurgery and Medicine University Thessaly Larisa Greece
+Objective Diffusion tensor imaging DTI for the assessment fractional anisotropy FA and involving measurements mean diffusivity MD and apparent diffusion coefficient ADC represents novel MRI based noninvasive
+technique that may delineate microstructural changes cerebral white matter WM For example DTI may used
+for the diagnosis and differentiation idiopathic normal pressure hydrocephalus iNPH from other neurodegenerative
+diseases with similar imaging findings and clinical symptoms and signs The goal the current study was identify and
+analyze recently published series the use DTI diagnostic tool Moreover the authors also explored the utility 
+DTI identifying patients with iNPH who could managed surgical intervention 
+Methods The authors performed literature search the PubMed database using any possible combinations 
+the following terms Alzheimers disease brain cerebrospinal fluid CSF diffusion tensor imaging DTI hydrocephalus idiopathic magnetic resonance imaging normal pressure Parkinsons disease and shunting Moreover all reference lists from the retrieved articles were reviewed identify any additional pertinent articles 
+Results The literature search retrieved studies which DTI was used for the identification and differentiation 
+iNPH from other neurodegenerative diseases The DTI protocols involved different approaches such region interest ROI methods tract based spatial statistics voxel based analysis and delta ADC analysis The most studied anatomical regions were the periventricular WM areas such the internal capsule IC the corticospinal tract CST and
+the corpus callosum CC Patients with iNPH had significantly higher MD the periventricular WM areas the CST
+and the CC than had healthy controls In addition FA and ADCs were significantly higher the CST iNPH patients
+than any other patients with other neurodegenerative diseases Gait abnormalities iNPH patients were statistically
+significantly and negatively correlated with FA the CST and the minor forceps Fractional anisotropy had sensitivity
+ and specificity for diagnosing iNPH Furthermore FA and MD values the CST the IC the anterior
+thalamic region the fornix and the hippocampus regions could help differentiate iNPH from Alzheimer Parkinson disease Interestingly CSF drainage ventriculoperitoneal shunting significantly modified FA and ADCs iNPH patients
+whose condition clinically responded these maneuvers 
+Conclusions Measurements FA and MD significantly contribute the detection axonal loss and gliosis the
+periventricular WM areas patients with iNPH Diffusion tensor imaging may also represent valuable noninvasive
+method for differentiating iNPH from other neurodegenerative diseases Moreover DTI can detect dynamic changes 
+the WM tracts after lumbar drainage shunting procedures and could help identify iNPH patients who may benefit from
+surgical intervention 
+http thejns org doi abs 
+Key Words Alzheimer disease diffusion tensor imaging fractional anisotropy idiopathic normal pressure
+hydrocephalus Parkinson disease vascular disorders
+Abbreviations AD Alzheimer disease ADC apparent diffusion coefficient CC corpus callosum CST corticospinal tract DKI diffusional kurtosis imaging DTI 
+diffusion tensor imaging FA fractional anisotropy IC internal capsule iNPH idiopathic NPH MD mean diffusivity MTR magnetization transfer ratio NPH normal
+pressure hydrocephalus PD Parkinson disease ROI region interest TBSS tract based spatial statistics WM white matter 
+SUBMITTED May ACCEPTED June 
+include when citing DOI 
+AANS 
+Neurosurg Focus Volume September 
+I Siasios 
+N
+ormal pressure hydrocephalus NPH first described Salomon Hakim defined 
+ clinicopathological condition related the overproduction flow obstruction CSF The prevalence
+ this disease age related reaching among
+elderly individuals It remains one the most controversial neuropathological entities both regards 
+its diagnosis and its proper management Characteristically despite many recent advances imaging methods 
+most NPH cases still remain idiopathic Normal pressure
+hydrocephalus usually characterized idiopathic although can secondarily present several disorders
+and conditions such subarachnoid hemorrhage head
+trauma and CNS tumors Patients with idiopathic NPH
+ iNPH have enlarged ventricles but normal CSF pressure
+seen diagnostic lumbar puncture The most common
+symptoms iNPH are summarized clinical triad gait
+disturbance dementia and urinary incontinence However these symptoms are not pathognomonic and may
+also present vascular dementia Alzheimer disease
+ AD and Parkinson disease PD among many other less
+common diseases The exact underlying pathophysiological mechanism this disorder has remained ill defined 
+and several theories supporting the combination CSF
+circulation disturbances along with other cerebrovascular
+disorders have been proposed 
+The diagnosis NPH based patients clinical
+status imaging findings and the natural history the disease The imaging criteria for NPH are mainly ventricular
+enlargement with Evans index lack any
+anatomical obstruction the CSF circulation enlarged
+temporal horns and corpus callosum CC angle 
+greater than brain CT MRI scans Other diagnostic methods are radionuclide cisternogram showing delayed clearance hours the infused
+radiotracer over the cerebral convexities brain cine
+MRI study revealing increased ventricular flow rate and
+ SPECT scan indicating decreased periventricular perfusion 
+Recently several clinical investigators have employed
+diffusion tensor imaging DTI techniques detect and
+quantify any WM alterations patients with iNPH The
+DTI data generally indicate the movements water molecules inside the brain tissue The combination D
+diffusionweighted images with all diagonal elements 
+ D diffusion model creates high resolution MRI series which may identify even subtle structural changes
+ the periventricular white matter WM Quantitative
+measurements these changes are enabled fractional
+anisotropy FA and apparent diffusion coefficient ADC 
+methods which can used determine the structural
+integrity the brain tissue Researchers have used basic models analyze DTI data region interest ROI 
+analysis tract specific analysis and voxel wise statistical
+analysis The ROI analysis has the disadvantage subjectivity The tract specific analysis applied only regions the brain which diffusion can accurately
+measured Voxel wise analysis more useful measuring WM changes since can performed the whole
+brain The iNPH associated axonal loss could explain the
+observed decreased FA the anterior frontal WM find 
+Neurosurg Focus Volume September 
+ing that also confirmed proton MR spectroscopy and
+magnetization transfer studies 
+In the current study reviewed and analyzed the
+literature data the use MRI based DTI the differential diagnosis iNPH from other neurodegenerative
+diseases such PD AD with similar clinical symptoms and conventional MRI findings Moreover the potential prognostic role DTI for outcomes among iNPH
+patients undergoing surgical CSF shunt placement was
+evaluated 
+Methods
+An extensive literature search the PubMed database
+was performed for the period January December The following terms were used this search 
+Alzheimers disease brain cerebrospinal fluid 
+CSF diffusion tensor imaging DTI hydrocephalus idiopathic magnetic resonance imaging normal
+pressure Parkinsons disease and shunting all
+possible combinations The search was limited articles
+published English and case reports were excluded 
+All retrieved articles were separately reviewed 
+the authors A F and I S In addition the reference lists
+ all the retrieved articles were meticulously reviewed 
+identify any additional pertinent articles In the review 
+the articles identified particular attention was paid the
+study design its methodological characteristics the technical characteristics the FA and DTI protocols used 
+and the potential clinical significance the DTI and FA
+findings Of note made every possible effort identify any redundant data among the different articles 
+Results
+Our literature search identified studies that are included the current review Table The retrieved studies were separated whenever possible into groups 
+studies attempting define the FA and DTI characteristics iNPH patients comparison with the corresponding characteristics age matched healthy study participants studies examining the role FA and DTI the
+accurate diagnosis iNPH and particularly differentiating iNPH from other neurodegenerative diseases with
+similar signs and symptoms and studies evaluating the
+potential prognostic role FA and DTI for iNPH patients
+undergoing CSF drainage surgical shunt placement 
+In the following detail the findings these selected
+studies 
+DTI Characteristics iNPH Patients and Aged Matched
+Healthy Controls
+Hattingen compared the DTI characteristics 
+ patients with possible iNPH with those healthy
+controls All study participants underwent T brain MRI
+ which DTI gradient directions were acquired The
+authors compared FA and mean diffusivity MD between
+patients and controls either using manual definition 
+ROIs employing fully automated definition ROI
+with tract based spatial statistics TBSS Compared with
+the healthy controls the patients with suspected iNPH had
+ iNPH HCs
+ iNPH HCs
+ iNPH HCs
+Koyama 
+Koyama 
+Lenfeldt 
+ iNPH HCs
+ suspected iNPH HCs
+Anatomical Location
+PVWM SCWM the temporal parietal occipital lobes SLF sagittal stratum ALIC
+ROI
+PVWM ALIC PLIC CC genu SCC SLF 
+ ILF
+ROI
+Minor forceps CST
+ROI TBSS
+CC PLIC cerebral peduncle
+ROI
+CC IC frontal lat PVWM WM centrum
+semiovale
+ROI
+ATR minor major forceps SLF CST
+Tract specific analysis CST
+ROI conventional IC body CC
+delineation method
+Delta ADC analysis
+Frontal temporal occipital lobe
+ROI TBSS
+CST SCWM PVWM PLIC midbrain CC
+ genu body SCC caudate nucleus
+heads
+Voxel based analysis
+IC
+Frontal periventricular region PLIC corona
+radiata centrum semiovale
+ROI TBSS
+CST CC
+ROI tract specific
+CC CST IC PVWM uncinate fasciculus 
+analysis TBSS
+cingulum
+Tract specific analysis Fornix
+Tract specific analysis CST
+ROI
+Hippocampus
+MRI based MD
+Third space MD voxels btwn brain ventricles
+analysis
+Tract specific analysis CST SLF
+ROI
+ROI
+Imaging Analysis
+Method
+FA
+FA ADC axial eigenvalue RD DKI
+FA ADC axial radial
+diffusivities 
+Delta ADC conventional ADC values
+FA MD PDi RD
+FA
+FA
+FA ADC
+MD FA
+MD FA
+FA ADi RD MD MTR
+FA
+FA axial eigenvalues
+FA MD
+MD histogram
+MD FA
+FA ADC axial radial eigenvalues
+FA ADC axial radial diffusivities
+ADC FA
+Studied Parameters
+ADi axial diffusivity ALIC anterior limb lC ATR anterior thalamic radiation HC healthy control ILF inferior longitudinal fasciculus LBD Lewy body dementia PDD Parkinson disease with dementia PDi parallel diffusivity PLIC posterior limb IC PVWM periventricular WM RD radial diffusivity SCC splenium CC SCWM subcortical WM SLF superior longitudinal fasciculus SVD subcortical vascular dementia 
+ and are eigenvalues represents axial diffusivity and represents radial diffusivity 
+Osawa 
+Reiss Zimmermann
+Marumoto iNPH PD HCs
+Nakanishi iNPH HCs
+Nicot 
+ NPH iNPH secondary NPH 
+ iNPH AD SVD HCs
+Kim 
+Kanno 
+Jurcoane 
+Hattori 
+Hattori 
+Hong 
+Ivkovic 
+ iNPH AD HCs
+ iNPH AD PDD HCs
+ iNPH AD HCs
+ probable NPH AD PD LBD combination NPH AD
+ probable iNPH CSF drainage responders 
+nonresponders HCs
+ iNPH PD AD
+ suspected iNPH AD
+ possible iNPH improvements neurological status after CSF tap test neurological improvement 
+ possible probable iNPH HCs
+ iNPH HCs
+Daouk 
+Demura 
+Hattingen 
+Hattori 
+Patients
+Authors Year
+TABLE Synopsis the study populations imaging protocols and study parameters the clinical series identified the present study
+Diffusion tensor imaging iNPH patients
+Neurosurg Focus Volume September 
+I Siasios 
+statistically significantly increased MD the periventricular corticospinal tract CST and the CC Fractional
+anisotropy was also significantly increased the CST
+among the iNPH patients although such increase was not
+observed the CC these patients The authors reported
+that the observed gait abnormalities among the patients
+with iNPH were statistically significantly correlated with
+the DTI results the CST they noted strong positive
+correlation between MD and the number 
+steps and walking duration In addition FA the CST
+was weakly and negatively correlated with both
+ these gait variables 
+In addition Hattori used TBSS ROI and tractspecific analysis methods assess FA the CST 
+patients with iNPH and age matched healthy controls Fractional anisotropy the CST showed patterns specific iNPH White matter abnormalities vary
+ iNPH patients observation that was also confirmed
+ significantly decreased FA the WM located the
+frontal and the parietal lobes and significantly increased FA the IC 
+Similarly Koyama used DTI metrics iNPH
+patients and healthy controls generate FA brain maps
+and determine TBSS measure FA selected ROIs the
+CC posterior limb the internal capsule IC and cerebral peduncles Compared with the controls patients
+with iNPH had significantly lower FA the CC and significantly higher FA the posterior limb the IC The
+authors also reported that gait abnormalities the iNPH
+patients were statistically significantly correlated with the
+lower FA the CC 
+In another study Koyama studying patients
+with iNPH and age matched controls used computer automated method generate FA brain maps adjusted the standard stereotactic space The authors
+focused ROIs the minor forceps and the CST In
+both these regions FA was decreased among the patients with iNPH but this decrease did not reach statistical significance Moreover the authors postulated that the
+FA the minor forceps was negatively correlated with
+the clinical manifestations iNPH such urinary incontinence and gait disturbances Similarly study
+ iNPH patients and healthy controls Nakanishi 
+ used tract specific analysis mean diffusional kurtosis
+imaging DKI and DTI the CST the level the
+lateral ventricle and observed that DKI and axial diffusion kurtosis values were significantly lower the iNPH
+patients than the controls In contrast ADCs FA and
+axial eigenvalues were significantly higher the
+patients with iNPH 
+Recently Osawa and colleagues studying iNPH
+patients and healthy controls used new metric the
+delta ADC which determines the changes ADCs the
+brain during one cardiac cycle Delta ADCs the frontal temporal and occipital lobes were significantly higher
+ the iNPH patients than the control patients Although
+ADCs were also significantly higher the iNPH group
+than the control group these differences were smaller
+than those observed the delta ADCs The authors also
+reported that ADCs and delta ADCs were not significantly correlated with each other 
+Neurosurg Focus Volume September 
+DTI Characteristics iNPH and Other Neurodegenerative
+Diseases With Similar Signs and Symptoms
+Daouk studied DTI patterns WM the region the IC ventricular morphometry and CSF flow
+ patients with iNPH AD The authors reported that
+FA was statistically significantly correlated with the ventricular dimensions the patients with iNPH 
+Spearmans rho In the patients with AD CSF
+aqueductal flow was statistically significantly correlated
+with the ADC Spearmans rho Although the authors noted abnormalities the CSF flow 
+both patient groups patients with iNPH appeared have
+different DTI patterns the region the IC which could
+ significant imaging finding that could differentiate
+these pathological entities 
+Hattori and colleagues investigated the differences 
+DTI findings among patients with iNPH patients
+with AD patients with PD and dementia and 
+healthy controls The authors used DTI the CST 
+measure FA and axial and radial eigenvalues with tractspecific analysis Only FA and axial eigenvalues were
+significantly higher the iNPH group than the other
+ groups The CST tractography patients
+with iNPH revealed qualitative pattern that was different from the patterns the other patient groups and this
+difference was statistically significant The authors reported that the analysis FA the CST had 
+sensitivity and specificity detecting iNPH 
+In further study Hattori using tract specific
+analysis performed DTI the fornix patients with
+iNPH patients with AD and healthy controls In
+addition the authors recorded the volume length and
+mean cross sectional area the fornix the study participants The iNPH and AD groups had significantly
+smaller volume the fornix and had significantly lower
+FA and smaller cross sectional areas this region than
+the healthy controls Interestingly the fornix was significantly longer iNPH patients than the AD patients and
+healthy controls 
+Hong performed DTI the main regions the
+hippocampus the head body and tail iNPH
+patients AD patients and healthy controls The
+authors measured DTI variables both hemispheres and
+used the ROI selection technique They reported that the
+tissue volume the hippocampus did not significantly differ between the iNPH and AD groups Fractional anisotropy was lowest the AD patients whereas MD was the
+highest these patients For the patients with iNPH the
+FA and MD values were between the groups Healthy
+controls had the highest FA and the lowest MD the 
+groups investigated The authors also noted that ROI 
+laterality the hippocampus has insignificant influence
+ FA and MD results 
+Ivkovic and coworkers employed new DTI technique
+based T MRI sequences patients with possible
+iNPH patients with various disorders including AD 
+PD Lewy body dementia and patients with both NPH
+and AD The authors used MD histograms discriminate the brain and the ventricles from theoretical third
+compartment consisting mostly partial volume voxels
+and voxels with high MD determined with combina 
+Diffusion tensor imaging iNPH patients
+tion DTI and diffusion weighted imaging techniques 
+The authors novel technique efficiently recognized and
+distinguished the pathological conditions with sensitivity and specificity respectively However the
+specificity this new method dropped when 
+was used discriminate patients with iNPH from those
+with AD 
+Kanno used the DTI technique determine MD
+and FA from voxel based statistical map distinguish
+iNPH patients from AD patients and PD 
+patients In the supratentorial WM areas the highest
+MD and the lowest FA were observed the patients with
+iNPH The periventricular areas exhibited high MD while
+the CC and subcortical areas had low FA the patients
+with iNPH In addition only the mean hemispherical FA
+values were partially associated with the clinical severity iNPH The authors also reported that the FA results
+obtained from the anterior limb the IC and from the
+region under the left supplementary motor area were associated with more severed gait abnormalities the patients
+with iNPH Using the frontal assessment battery method 
+ evaluation tool that evaluates the functionality the
+frontal lobes and reveals cognitive impairment patients
+with dementia Kanno and coworkers also observed that
+FA the frontal and the parietal subcortical WM was
+statistically significantly correlated with frontal lobe functionality iNPH patients 
+Marumoto and others investigated FA different
+brain regions iNPH patients PD patients and 
+healthy controls According this study FA the anterior thalamic radiation and the minor forceps was lower 
+iNPH patients than the PD patients Moreover FA the
+anterior thalamic radiation was statistically significantly
+associated with gait disturbances both patient groups 
+DTI Characteristics iNPH Patients Undergoing CSF
+Drainage Shunt Placement
+Demura determined FA and ADCs several
+WM regions patients with possible iNPH before and
+ hours after CSF tap test The patients were separated
+into groups those who had significant neurological improvement after the CSF tap test patients and those
+who had improvement patients A statistically significant decrease ADCs was detected only for
+the patients with neurological improvement In contrast 
+significant increase FA after the CSF tap test
+was observed both groups 
+Jurcoane studied groups patients with iNPH
+after they had undergone CSF drainage via spinal tap 
+the first group comprised patients whose gait significantly improved days after the CSF drainage and the
+second group consisted patients whose gait did not
+improve The authors performed DTI and magnetization transfer ratio MTR measurements the CSTs after
+the CSF drainage both patient groups In addition the
+DTI and MTR assessments were repeated the patients
+ the first group after undergoing ventriculoperitoneal
+shunt placement As reference the authors used the DTI
+and MTR results the superior longitudinal fasciculus
+before and after CSF removal the iNPH groups and
+also from age matched healthy controls The study
+participants the control group had statistically significantly lower axial diffusivity than the patients
+ the iNPH groups In addition the patients whose gait
+had improved after CSF drainage had higher FA than the
+healthy controls and both axial diffusivity and FA statistically significantly decreased after the shunt placement
+ these patients The authors concluded that reduction
+ axial diffusivity greater than could accurately
+discriminate with sensitivity between those iNPH
+patients who respond CSF drainage and those who 
+not The authors also postulated that when the axial diffusivity decrease reaches could accurately predict
+with sensitivity and specificity which iNPH
+patients would show overall clinical improvement after
+shunt placement They also concluded that using only DTI
+measurements before CSF drainage their study could
+not differentiate those responding the drainage from
+those who not 
+Lenfeldt performed DTI iNPH patients before and days after removal milliliters CSF via 
+spinal tap and also healthy controls The authors
+reported that FA the anterior frontal WM was significantly lower the iNPH patients than the controls In
+addition the ADCs the genu the CC and the centrum
+semiovale were elevated the iNPH patients compared
+with the ADCs the healthy controls The authors also
+noted that all iNPH patients the ADCs did not change
+after the CSF drainage 
+In study patients with clinical and imaging
+manifestations iNPH and healthy controls ReissZimmermann studied DTI changes the patients
+with iNPH after CSF drainage Of note only the
+patients were eventually included the authors study
+protocol All DTI measurements FA and mean parallel and radial diffusivities were performed before and
+after within hours lumbar drainage The results 
+this study indicated that FA was higher the subcortical
+WM and the CC patients with iNPH than the controls In addition the increased radial diffusivity tended 
+normalize after the CSF drainage 
+Kim employed DTI patients with iNPH
+before surgery and also patients with AD patients with subcortical vascular dementia and healthy
+controls The imaging protocol was repeated iNPH
+patients who had undergone CSF shunt placement The
+authors reported that the presurgical iNPH group had the
+highest FA all groups the posterior limb the IC 
+They also observed that FA significantly decreased after
+the shunt placement Before the shunting the iNPH patients had MD values the anterior periventricular WM 
+the anterior limb the IC and the superior longitudinal
+fasciculus that were higher than the patients with AD
+and the healthy controls but were lower than the
+patients with subcortical vascular dementia The authors
+also reported that FA could diagnose iNPH with 
+sensitivity and specificity 
+Using new direction sequence acquisition with 
+T MRI unit Nicot investigated alterations FA
+and also the ADC the IC and the body the CC 
+ iNPH patients after the patients had undergone shunt
+placement The authors measurements obtained with 
+Neurosurg Focus Volume September 
+I Siasios 
+conventional DTI protocol showed that only the ADCs 
+the IC were significantly higher postoperatively In contrast the novel image acquisition technique indicated 
+significant postoperative decrease FA 
+Discussion
+Several hypotheses have been proposed for explaining
+the underlying pathophysiological mechanisms iNPH 
+Most these theories converge the concept that ventricular enlargement stretches and compresses the periventricular WM and the adjacent CC leading interstitial
+edema and progressive axonal loss Neuropathological findings NPH are consistent with demyelination the frontal lobes presence microinfarctions 
+organized thrombi lacunas arteriole sclerosis the
+periventricular WM and leptomeningeal fibrosis Compression deformation the CST due the ventricular
+enlargement results frontal lobe dysfunction malfunction the corticobasal ganglia thalamic circuit both 
+This malfunction greatly affects the supplementary motor
+cortex resulting the gait disturbances characteristic 
+patients with NPH Numerous similarities pathogenesis between iNPH and AD other subcortical vascular dementias have been reported Symptoms 
+iNPH resemble those observed disorders arising from
+diseases the frontal lobe Biopsy samples taken 
+the time shunt placement patients with iNPH have
+shown the presence AD type histological changes 
+which may explain the lack treatment responses after
+shunt placements these cases 
+Several researchers have underlined the significance
+ DTI based methods for diagnosing iNPH A
+plethora different DTI protocols for examining various
+areas the brain have been described the literature 
+including manual ROI placement TBSS tract specific 
+voxel based and delta ADC analyses The most frequently studied regions patients with iNPH are the periventricular WM areas such the IC CST and CC well 
+the frontal temporal and occipital lobes and the cerebral
+peduncles Patients with iNPH have significantly higher
+MD the CST and the CC than healthy controls In
+addition most studies have reported significantly higher
+FA the CST among iNPH patients than among healthy
+subjects The only exception was the study Koyama
+ which reported decreased FA values the CST and
+the minor forceps iNPH patients Significantly less
+experience exists with the use DKI for evaluating 
+diagnosing iNPH It has been reported however that DKI
+values the CST are significantly decreased iNPH
+patients compared with those healthy controls The
+delta ADC has also been used for examining patients with
+suspected iNPH and has been reported that delta ADCs
+ the frontal temporal and occipital lobes are increased
+ iNPH patients relative the corresponding delta ADCs
+ healthy controls Furthermore several clinical investigators have reported that the gait abnormalities iNPH
+patients are statistically significantly correlated with increased FA the CST and the minor forceps 
+A critical analysis all published series employing
+DTI with combined FA and MD measurements CNS
+Neurosurg Focus Volume September 
+areas such the CST and the CC may help improve the
+diagnosis NPH Additionally FA and MD both seem
+ correlate well with NPH symptoms particularly with
+gait disturbance Thus the DTI method may useful
+noninvasive diagnostic tool that not only can help diagnose NPH but may also assist the grading the clinical
+severity and progression NPH We note that the number
+ published series DTI for NPH diagnosis still small
+and that these studies had relatively low numbers participants In addition some normal age related changes
+ brain function and structure these participants may
+have also influenced the accuracy this imaging method 
+Despite these limiting factors the available data support
+the inclusion DTI preoperative imaging assessments
+during the examination patients with suspected NPH 
+In addition FA and MD may well important for differentiating iNPH from other neurodegenerative diseases
+such AD and PD that frequently have overlapping clinical symptoms and signs It has been shown that
+iNPH and AD patients have different DTI findings the
+IC Moreover also has been reported that the ventricular volume positively correlated with FA patients with
+iNPH Characteristically FA various periventricular
+areas patients with iNPH statistically significantly differs from that patients with PD AD For example 
+FA and axial eigenvalues the CST were reported 
+significantly higher patients with iNPH than PD 
+AD patients Of note FA has sensitivity and 
+specificity for diagnosing iNPH In addition FA
+ the fornix significantly lower patients with iNPH
+than those with AD Patients with iNPH have higher
+FA the hippocampus than AD patients but lower FA
+ the same region than healthy controls Moreover MD
+ the hippocampus iNPH patients was reported 
+significantly lower than AD patients but significantly
+higher than healthy controls Similarly FA values 
+the posterior limb the IC and MD the anterior limb
+ the IC and the superior longitudinal fasciculus are
+significantly higher patients with iNPH than patients
+with AD Also iNPH patients have lower FA the anterior thalamic radiation and the minor forceps than PD
+patients The use the MD histogram method appears
+ have had significant role differentiating iNPH from
+AD PD Lewy body dementia This MD method has
+been reported have sensitivity and specificity
+ differentiating iNPH from the other neurodegenerative
+diseases studied 
+Differentiating iNPH from other neurodegenerative
+diseases represents frequent and complex diagnostic
+problem which can addressed with the use DTI
+metrics Although previously published morphometric
+changes the fornix and the hippocampus appear 
+contradictory their evaluation along with DTI findings
+may help clinicians differentiate iNPH from other neurodegenerative diseases Newer techniques for analyzing
+MD and FA data may provide noninvasive tools for differential diagnosis with high specificity and sensitivity 
+Again the limiting factors small numbers series
+and study sizes decrease the statistical significance the
+impact these new imaging based methods improved
+iNPH diagnosis 
+Diffusion tensor imaging iNPH patients
+Moreover the utility DTI with FA and ADC techniques has been studied also patients with iNPH before
+and after CSF drainage via spinal tap identify imaging characteristics that could used predict which patients would most likely benefit from the drainage 
+Some these studies have reported that CSF drainage
+significantly increases FA the periventricular WM and
+the CC and also significantly decreases ADC these areas The authors observed that elevated radial diffusivity the subcortical WM returned normal after CSF
+drainage iNPH patients with clinical improvement 
+These findings may have predictive value selecting
+those patients whose NPH might respond CSF shunt
+placement However study reported that the DTI variables did not change after CSF drainage 
+In addition previous series have investigated the utility
+ DTI also patients undergoing CSF shunt procedures 
+and all have noted that FA values the CST and the IC decrease after shunt placement Moreover shunt placement increases ADC It has also been proposed that the
+significant decrease axial diffusivity after shunting may
+have predictive value for selecting patient with iNPH for
+surgery In light these findings emphasize the importance adding DTI noninvasive diagnostic tool 
+our armamentarium identify iNPH patients who would
+respond CSF shunt placement 
+Conclusions
+Although DTI relatively new imaging modality 
+may take significant role the diagnosis and differentiation iNPH from other disorders and diseases with
+similar imaging and clinical features The reported specificities and sensitivities this noninvasive imaging method for detecting iNPH are high Moreover the use DTI
+could significantly contribute the selection iNPH patients for surgery potentially improving overall outcomes
+for these patients and mitigating surgical failure rates 
+However wish highlight significant drawbacks
+ the wide clinical application the DTI method First 
+the existence various technical protocols along with the
+significant variation the anatomical areas studied greatly decreases the reproducibility and diagnostic accuracy
+ both FA and MD The use these different techniques
+and metrics makes meaningful comparison previously
+published results practically impossible Second the normal range the parameters measured needs defined
+and most probably needs standardized for different
+age groups This will require large scale multicenter studies and the adoption widely accepted imaging protocol for creating database and for setting normal measurement ranges Despite these technical limitations and
+weaknesses DTI lends itself the examination iNPH
+patients and may well improve overall outcomes for these
+patients 
+References
+Adams RD Fisher CM Hakim S Ojemann RG Sweet WH 
+Symptomatic occult hydrocephalus with normal cerebrospinal fluid pressurea treatable syndrome N Engl J Med
+Akai K Uchigasaki S Tanaka U Komatsu A Normal pressure hydrocephalus Neuropathological study Acta Pathol
+Jpn 
+Anik Y Demirci A Anik I Etus V Arslan A Apparent diffusion coefficient and cerebrospinal fluid flow measurements
+ patients with hydrocephalus J Comput Assist Tomogr
+Basser PJ Jones DK Diffusion tensor MRI theory experimental design and data analysisa technical review NMR
+Biomed 
+Bech RA Juhler M Waldemar G Klinken L Gjerris F 
+Frontal brain and leptomeningeal biopsy specimens correlated with cerebrospinal fluid outflow resistance and B wave
+activity patients suspected normal pressure hydrocephalus Neurosurgery 
+Curran T Lang AE Parkinsonian syndromes associated
+with hydrocephalus case reports review the literature 
+and pathophysiological hypotheses Mov Disord 
+Daouk J Chaarani B Zmudka J Capel C Fichten A Bouzerar R Relationship between cerebrospinal fluid flow 
+ventricles morphology and DTI properties internal capsules differences between Alzheimers disease and normalpressure hydrocephalus Acta Radiol 
+Del Bigio MR Cardoso ER Halliday WC Neuropathological changes chronic adult hydrocephalus cortical biopsies
+and autopsy findings Can J Neurol Sci 
+Demura K Mase M Miyati T Osawa T Hattori M Kasai H 
+ Changes fractional anisotropy and apparent diffusion
+coefficient patients with idiopathic normal pressure hydrocephalus Acta Neurochir Suppl 
+Deo Narine V Gomez DG Vullo T Manzo RP Zimmerman
+RD Deck MD Direct vivo observation transventricular absorption the hydrocephalic dog using magnetic
+resonance imaging Invest Radiol 
+Ding Y McAllister JP II Yao B Yan N Canady AI Axonal
+damage associated with enlargement ventricles during
+hydrocephalus silver impregnation study Neurol Res
+Dubois B Slachevsky A Litvan I Pillon B The FAB A
+Frontal Assessment Battery bedside Neurology 
+Hakim S Adams RD The special clinical problem symptomatic hydrocephalus with normal cerebrospinal fluid pressure Observations cerebrospinal fluid hydrodynamics J
+Neurol Sci 
+Hattingen E Jurcoane A Melber J Blasel S Zanella FE 
+Neumann Haefelin T Diffusion tensor imaging 
+patients with adult chronic idiopathic hydrocephalus Neurosurgery 
+Hattori T Ito K Aoki S Yuasa T Sato R Ishikawa M 
+White matter alteration idiopathic normal pressure hydrocephalus tract based spatial statistics study AJNR Am J
+Neuroradiol 
+Hattori T Sato R Aoki S Yuasa T Mizusawa H Different
+patterns fornix damage idiopathic normal pressure hydrocephalus and Alzheimer disease AJNR Am J Neuroradiol 
+Hattori T Yuasa T Aoki S Sato R Sawaura H Mori T 
+ Altered microstructure corticospinal tract idiopathic
+normal pressure hydrocephalus comparison with Alzheimer
+disease and Parkinson disease with dementia AJNR Am J
+Neuroradiol 
+Hong YJ Yoon B Shim YS Cho AH Lim SC Ahn KJ 
+ Differences microstructural alterations the hippocampus Alzheimer disease and idiopathic normal pressure
+hydrocephalus diffusion tensor imaging study AJNR Am
+J Neuroradiol 
+Horsfield MA Jones DK Applications diffusion weighted
+Neurosurg Focus Volume September 
+I Siasios 
+and diffusion tensor MRI white matter diseasesa review 
+NMR Biomed 
+Ivkovic M Liu B Ahmed F Moore D Huang C Raj A 
+Differential diagnosis normal pressure hydrocephalus 
+MRI mean diffusivity histogram analysis AJNR Am J Neuroradiol 
+Jaraj D Agerskov S Rabiei K Marlow T Jensen C Guo X 
+ Vascular factors suspected normal pressure hydrocephalus population based study Neurology 
+Jurcoane A Keil F Szelenyi A Pfeilschifter W Singer OC 
+Hattingen E Directional diffusion corticospinal tract supports therapy decisions idiopathic normal pressure hydrocephalus Neuroradiology 
+Kalaria RN Erkinjuntti T Small vessel disease and subcortical vascular dementia J Clin Neurol 
+Kanno S Abe N Saito M Takagi M Nishio Y Hayashi A 
+ White matter involvement idiopathic normal pressure
+hydrocephalus voxel based diffusion tensor imaging study 
+J Neurol 
+Kapsalaki E Svolos P Tsougos I Theodorou K Fezoulidis I 
+Fountas KN Quantification normal CSF flow through the
+aqueduct using PC cine MRI T Acta Neurochir Suppl
+Kazui H Current state diagnosis and treatment idiopathic normal pressure hydrocephalus Brain Nerve
+ Jpn 
+Kim MJ Seo SW Lee KM Kim ST Lee JI Nam DH 
+Differential diagnosis idiopathic normal pressure hydrocephalus from other dementias using diffusion tensor imaging AJNR Am J Neuroradiol 
+Klinge PM Brooks DJ Samii A Weckesser E van den Hoff
+J Fricke H Correlates local cerebral blood flow
+ CBF normal pressure hydrocephalus patients before
+and after shuntinga retrospective analysis OO
+PET CBF studies patients Clin Neurol Neurosurg
+Koyama T Marumoto K Domen K Miyake H White matter
+characteristics idiopathic normal pressure hydrocephalus 
+ diffusion tensor tract based spatial statistic study Neurol
+Med Chir Tokyo 
+Koyama T Marumoto K Domen K Ohmura T Miyake H 
+Diffusion tensor imaging idiopathic normal pressure hydrocephalus voxel based fractional anisotropy study Neurol Med Chir Tokyo 
+Larsson A Arlig A Bergh AC Bilting M Jacobsson L 
+Stephensen H Quantitative SPECT cisternography 
+normal pressure hydrocephalus Acta Neurol Scand 
+Leliefeld PH Gooskens RH Braun KP Ramos LM Uiterwaal CS Regli LP Longitudinal diffusion weighted
+imaging infants with hydrocephalus decrease tissue
+water diffusion after cerebrospinal fluid diversion J Neurosurg Pediatr 
+Lenfeldt N Larsson A Nyberg L Andersson M Birgander
+R Eklund A Idiopathic normal pressure hydrocephalus increased supplementary motor activity accounts for improvement after CSF drainage Brain 
+Lenfeldt N Larsson A Nyberg L Birgander R Eklund A 
+Malm J Diffusion tensor imaging reveals supplementary
+lesions frontal white matter idiopathic normal pressure
+hydrocephalus Neurosurgery 
+Malloy P Correia S Stebbins G Laidlaw DH Neuroimaging
+ white matter aging and dementia Clin Neuropsychol
+Malm J Kristensen B Stegmayr B Fagerlund M Koskinen
+LO Three year survival and functional outcome patients
+with idiopathic adult hydrocephalus syndrome Neurology
+Neurosurg Focus Volume September 
+Marumoto K Koyama T Hosomi M Kodama N Miyake H 
+Domen K Diffusion tensor imaging elderly patients with
+idiopathic normal pressure hydrocephalus Parkinsons disease diagnosis gait abnormalities Fluids Barriers CNS
+Matar M Matarn M Poca MA Pueyo R Sahuquillo J 
+Barrios M Functional and magnetic resonance imaging
+correlates corpus callosum normal pressure hydrocephalus before and after shunting J Neurol Neurosurg Psychiatry 
+McAllister JP II Williams MA Walker ML Kestle JR 
+Relkin NR Anderson AM An update research
+priorities hydrocephalus overview the third National
+Institutes Health sponsored symposium Opportunities for
+Hydrocephalus Research Pathways Better Outcomes J
+Neurosurg 
+Miyoshi N Kazui H Ogino A Ishikawa M Miyake H Tokunaga H Association between cognitive impairment and
+gait disturbance patients with idiopathic normal pressure
+hydrocephalus Dement Geriatr Cogn Disord 
+Momjian S Owler BK Czosnyka Z Czosnyka M Pena A 
+Pickard JD Pattern white matter regional cerebral blood
+flow and autoregulation normal pressure hydrocephalus 
+Brain 
+Nakanishi A Fukunaga I Hori M Masutani Y Takaaki H 
+Miyajima M Microstructural changes the corticospinal tract idiopathic normal pressure hydrocephalus comparison diffusion tensor and diffusional kurtosis imaging 
+Neuroradiology 
+Nicot B Bouzerar R Gondry Jouet C Capel C Peltier J 
+Fichten A Effect surgery periventricular white
+matter normal pressure hydrocephalus patients comparison two methods DTI analysis Acta Radiol 
+Nowak DA Gumprecht H Topka H CSF drainage ameliorates the motor deficit normal pressure hydrocephalus 
+evidence from the analysis grasping movements J Neurol
+Osawa T Mase M Miyati T Kan H Demura K Kasai H 
+ Delta ADC apparent diffusion coefficient analysis 
+patients with idiopathic normal pressure hydrocephalus Acta
+Neurochir Suppl 
+Reiss Zimmermann M Scheel M Dengl M Preu M 
+Fritzsch D Hoffmann KT The influence lumbar spinal
+drainage diffusion parameters patients with suspected
+normal pressure hydrocephalus using T MRI Acta Radiol
+Robbins TW James M Owen AM Lange KW Lees AJ 
+Leigh PN Cognitive deficits progressive supranuclear palsy Parkinsons disease and multiple system atrophy 
+tests sensitive frontal lobe dysfunction J Neurol Neurosurg Psychiatry 
+Rricht S Meyer BU Woiciechowsky C Lehmann R Callosal and corticospinal tract function patients with hydrocephalus morphometric and transcranial magnetic stimulation study J Neurol 
+Savolainen S Laakso MP Paljrvi L Alafuzoff I Hurskainen H Partanen K MR imaging the hippocampus 
+normal pressure hydrocephalus correlations with cortical Alzheimers disease confirmed pathologic analysis AJNR
+Am J Neuroradiol 
+Savolainen S Paljrvi L Vapalahti M Prevalence Alzheimers disease patients investigated for presumed normal pressure hydrocephalus clinical and neuropathological
+study Acta Neurochir Wien 
+Shprecher D Schwalb J Kurlan R Normal pressure hydrocephalus diagnosis and treatment Curr Neurol Neurosci
+Rep 
+Diffusion tensor imaging iNPH patients
+Silverberg GD Mayo M Saul T Rubenstein E McGuire D 
+Alzheimers disease normal pressure hydrocephalus and senescent changes CSF circulatory physiology hypothesis 
+Lancet Neurol 
+Stolze H Kuhtz Buschbeck JP Drcke H Jhnk K Illert
+M Deuschl G Comparative analysis the gait disorder 
+normal pressure hydrocephalus and Parkinsons disease J
+Neurol Neurosurg Psychiatry 
+Tullberg M Hultin L Ekholm S Mnsson JE Fredman P 
+Wikkels C White matter changes normal pressure hydrocephalus and Binswanger disease specificity predictive
+value and correlations axonal degeneration and demyelination Acta Neurol Scand 
+Ulu AM Truong TN Filippi CG Chun T Lee JK Yang C 
+ Diffusion imaging obstructive hydrocephalus AJNR
+Am J Neuroradiol 
+Walchenbach R Geiger E Thomeer RT Vanneste JA The
+value temporary external lumbar CSF drainage predicting the outcome shunting normal pressure hydrocephalus J Neurol Neurosurg Psychiatry 
+Waldemar G Schmidt JF Delecluse F Andersen AR Gjerris
+F Paulson OB High resolution SPECT with mTc HMPAO normal pressure hydrocephalus before and after shunt
+operation J Neurol Neurosurg Psychiatry 
+Williams MA Malm J Diagnosis and treatment idiopathic
+normal pressure hydrocephalus Continuum Minneap
+Minn Dementia 
+Disclosures
+The authors report conflict interest concerning the materials methods used this study the findings specified this
+paper 
+Author Contributions
+Conception and design Siasios Fountas Acquisition data 
+Siasios Fotiadou Analysis and interpretation data Siasios 
+Kapsalaki Fountas Drafting the article Siasios Kapsalaki 
+Fountas Fotiadou Critically revising the article Dimopoulos 
+Siasios Kapsalaki Fountas Dorsch Vakharia Pollina Reviewed
+submitted version manuscript all authors 
+Correspondence
+Vassilios G Dimopoulos Department Neurosurgery University Buffalo High St Ste Buffalo NY email 
+vdimopoulosubns com 
+Neurosurg Focus Volume September 

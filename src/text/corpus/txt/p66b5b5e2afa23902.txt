@@ -1,0 +1,632 @@
+Hippocampus and Entorhinal Cortex Frontotemporal
+Dementia and Alzheimers Disease A Morphometric
+MRI Study
+Mikko P Laakso Giovanni B Frisoni Mervi Kononen Mia Mikkonen 
+Alberto Beltramello Claudia Geroldi Angelo Bianchetti Marco Trabucchi 
+Hilkka Soininen and Hannu J Aronen
+Background Magnetic resonance imaging MRI hippocampal atrophy sensitive but not specific method 
+support the clinical diagnosis early Alzheimers disease
+ AD We recently described our findings that atrophy 
+the entorhinal cortex ERC frontotemporal dementia
+ FTD equal that found AD but that hippocampal
+atrophy FTD less than that found AD The MRI
+volumes these structures provide topographic representation the region interest We hypothesized that
+two different dementias with distinct histopathologic and
+clinical features might addition quantitative patterns display topographically different patterns 
+atrophy 
+Methods We adopted morphometric approach monitor the pattern atrophy the hippocampus and the
+ERC computing two dimensional profiles from MRI
+volumes the structures control subjects and patients
+with FTD and AD 
+Results Compared with control subjects atrophy the
+hippocampus patients with AD was diffuse In patients
+with FTD atrophy the hippocampus was localized
+predominantly the anterior hippocampus suggesting 
+different pattern hippocampal atrophy FTD compared with AD The amount and pattern atrophy the
+entorhinal cortex was virtually equal both demented
+groups 
+Conclusions This study provides novel data the nature
+ medial temporal lobe atrophy FTD Morphometric
+MRI may useful technique for characterizing different
+patterns atrophy primary degenerative dementias 
+vivo Biol Psychiatry Society Biological Psychiatry
+From the Departments Neurology MPL HS and Clinical Radiology MPL 
+MK HJA Kuopio University Hospital and the Department Neuroscience
+and Neurology University Kuopio MM HS Kuopio Finland IRCCS San
+Giovanni DioFBF Brescia Italy GBF CG ABi MT Institute 
+Radiology University Verona Ospedale Borgo Roma Verona Italy ABe 
+and the Department Radiology Helsinki University Central Hospital 
+Helsinki Finland HJA 
+Address reprint requests Mikko Laakso Kuopio University Hospital Department
+ Neurology Bldg POB Kuopio Finland 
+Received August revised November accepted December 
+ Society Biological Psychiatry
+Key Words Alzheimers disease brain dementia entorhinal cortex frontal lobe magnetic resonance imaging 
+memory
+Introduction
+A
+lzheimers disease AD has distinctive regional predilection and hierarchical topographic distribution 
+histopathologic changes within the medial temporal lobe
+ MTL specifically the entorhinal cortex ERC and
+the hippocampus Braak and Braak Gomez Isla 
+ Hyman Although pathology the MTL
+ AD well documented data hippocampal atrophy
+ frontotemporal dementia FTD much less consistent 
+FTD constitutes heterogenic disorder not spectrum
+ disorders affecting mainly frontal and anterior temporal
+cortices and often lacking distinctive histopathologic
+markers found other types dementia Brun 
+ With regard the MTL histopathologic studies 
+the hippocampus FTD have shown the involvement 
+the hippocampus range from severe Knopman 
+ through modest varying Bergmann 
+Nagaoka minor involvement Brun
+ Filley Kinoshita Fewer data
+are available about the ERC 
+The pathology AD the MTL leads atrophy the
+MTL structures and volumetric magnetic resonance imaging MRI hippocampal atrophy well established
+tool support the clinical diagnosis early AD Jack 
+ Laakso The atrophy may lack AD
+specificity however We recently have shown that FTD 
+ERC atrophy equal that found AD but hippocampal atrophy less FTD than AD Frisoni 
+ The purpose our article study whether
+different regions interest ROIs with quantitatively
+different volume loss would also display topographically
+distinct patterns volume loss Indeed there 
+increased interest morphometric brain mapping study
+PII 
+D MRI FTD and AD
+BIOL PSYCHIATRY
+Table Sociodemographic and Clinical Features the Study Groups
+Frontotemporal dementia
+M SD
+Age years 
+Gender women 
+Education years 
+ApoE allelea
+Age disease onset
+Disease duration months 
+Mini Mental State Examination
+Clinical Dementia Rating scale
+Disability
+Basic functions lost
+Instrumental functions lost
+Range
+Alzheimers disease
+M SD
+Range
+Controls
+M SD
+Range
+ denotes significance one way analysis variance test Figures with the same letter are not significantly different Duncans post hoc 
+test 
+Genotyping was not available for some subjects 
+the topographic changes relation function and disease
+ the brain For instance researchers have suggested that
+three dimensional mapping the gyral patterns the
+normal brain Kennedy AD Mega 
+ provide evidence multiple influences brain
+organization cognition during development and disease 
+Topographic imaging may provide information about
+individual brain structures integral part hierarchically ordered components distributed neural systems In
+addition the hippocampus can analyzed terms its
+topography In recent study topographic mapping the
+hippocampus revealed what appear specific regional
+volume deficits within the hippocampus patients with
+schizophrenia Csernansky No such data exists
+ the MTL structures dementia 
+In this study adopted morphometric approach 
+assess the atrophy the hippocampus and the ERC 
+FTD compared with patients with AD and control subjects This was done computing two dimensional D 
+sagittal average profiles the ROIs each group 
+describe possible differences the patterns atrophy 
+functionally distinct antero posterior axis the structures 
+This approach based the assumption that structure
+and function the brain are not independent but that they
+interact Hence the shape given structure may also
+reflect the integrity the tissue Van Essen We
+thus hypothesized that two different dementias with distinct pathologies clinical manifestations and different
+amounts MTL damage might display different patterns
+ atrophy 
+Methods and Materials
+Subjects and Clinical Assessment
+Subjects this study have been described previously more
+detail Frisoni Given that the present study included
+ additional FTD patient the study protocol and characteristics
+are presented briefly The study population consisted 
+subjects whom were patients with mild moderate AD
+ mean age years female subjects male subjects 
+patients with FTD mean age years female subjects 
+males subjects and were control subjects mean age 
+ female subjects male subjects Table Routine dementia assessment the Alzheimers unit Brescia Italy was carried
+out all the participants This included clinical and neurologic
+examination comprehensive neuropsychological evaluation including Mini Mental State Examination MMSE and Clinical
+Dementia Rating CDR laboratory studies including complete
+blood count and folic acid thyroid function and chemistry
+profile chest ray ECG EEG Tc HMPAO SPECT and CT 
+Disease history was questioned from knowledgeable informant 
+focusing particularly symptoms that might help the diagnostic differentiation the dementia form well assess
+activities daily living 
+The AD patients met the National Institute Neurological
+and Communicative Disorders and Stroke and the Alzheimers
+Disease and Related Disorders Associations criteria for probable
+AD McKhann The diagnosis FTD was made
+according the guidelines the Lund and Manchester Groups
+ The diagnoses dementia were substantiated follow evaluations In SPECT the FTD patients invariably
+displayed anterior hypoperfusion whereas the hypoperfusion 
+the AD patients tended temporoparietal None the FTD
+ AD patients had clinical features Parkinsonism motor
+M P Laakso 
+BIOL PSYCHIATRY
+neuron disease progressive aphasia the absence other
+cognitive behavioral disturbances A vascular component was
+excluded clinically absence sudden onset and focal
+symptoms and further the findings CT and MRI A
+neurologist and psychologist examined the control subjects 
+The control group consisted the patients relatives mostly
+spouses who did not have any detectable cognitive deficits and
+who had negative history any neurological disease 
+Written informed consent was obtained from both cases and
+control subjects from their primary caregivers after discussion
+ risks and benefits participation No compensation was
+provided The local ethics committee approved the study 
+MRI Protocol and Analysis
+MRI was performed the Department Radiology University
+ Verona Italy with Tesla scanner Siemens Magnetom 
+Erlangen Germany using standard head coil and weighted magnetization prepared rapid acquisition gradient echo
+ TR msec TE msec TI msec flip angle field 
+view acquisition matrix resulting 
+sagittal images 
+Volumetric measurements and analyses were made the
+Kuopio University Hospital Finland The scans were reconstructed coronally oriented perpendicular the intercommissural line The ROIs were manually traced from contiguous
+ thick images single tracer blinded the subjects
+clinical data using custom made software for standard Siemens work console The anatomical starting point was the
+rostral end the hippocampus when first appears below the
+amygdala The tracing the hippocampus ended posteriorly 
+the section where the crura the fornices depart from the lateral
+wall the lateral ventricles Frisoni Laakso 
+ The ERC volumes were traced according the recent
+criteria Insausti In brief the most anterior slice
+measured was the one after the appearance temporal stem and
+the last slice was the one where the uncus and gyrus intralimbicus were longer separable 
+Once the ROI has been traced the software calculates the
+volume for every structure computing the number 
+voxels for each traced image After the tracing complete the
+software also displays the sagittal lateral profile the measured structure for each subject This profile formed from each
+measured slice area displayed the axis and the length
+ number slices the axis The group profiles were
+calculated averaging the profiles for each subject from each 
+the three groups Because the slightly different number 
+slices between individuals the volume profile was computed 
+linear interpolation between separate slices for relative length
+ and the subvolumes were computed for intervals
+ the number ROIs for each subject was transformed 
+for each subject This was done using customized macros
+written for the statistical software for every given number 
+slices The atrophy regions within the ERC and the hippocampus was explored subdividing the ROIs into three subregions
+along their antero posterior axis anterior medial
+ and posterior subregions 
+The intraclass correlation coefficient the intrarater variabil 
+ity was for the hippocampus volumes and for the ERC 
+The coronal intracranial area the level the anterior commissure was used for normalization the volumetric data Frisoni 
+ Laakso For data presentation purposes the
+volumes reported here are normalized the intracranial area
+according the following formula volume intracranial area 
+Statistics
+One way analysis variance ANOVA with the Duncan post
+hoc analysis was used compare the means between study
+groups Differences proportions were assessed with chi square
+test The relationship volumes with gender and age was
+assessed with multivariate ANOVA with the hippocampal and
+ERC volumes dependent variables and gender and age age
+less than and years older factors The results are
+expressed mean SD The level statistical significance 
+the differences 
+Results
+The age difference between the FTD group the AD group 
+and the control group was significant F 
+with the FTD group being younger and differing from both
+the AD and control groups the post hoc analysis There
+were more male patients among the FTD group were than
+among either the AD and control groups 
+ The groups did not differ with regard education 
+As expected both the AD group and the FTD group
+performed significantly worse the MMSE F 
+ Table compared with control subjects In the
+post hoc analysis the FTD patients scored significantly
+worse than the AD patients the MMSE By
+contrast the distribution the CDR scale indicated less
+severe global dementia the FTD patients although the
+finding was not statistically significant Memory disturbances and disorientation onset were more frequent 
+the AD group whereas both behavioral oral and dietary
+changes and language disturbances dominated the clinical
+picture the FTD patients data not presented Disease
+duration did not differ significantly between the demented
+groups months FTD months 
+AD The frequency subjects carrying the allele 
+the FTD group was lower than that the AD group
+ and equal that the control group 
+The relationship between the hippocampal and ERC
+volumes with age the control group was assessed with
+correlation and locally weighted regression analyses data
+not shown Neither method found any association between the hippocampal and ERC volumes with age 
+Furthermore the relationship volumes with gender and
+age was assessed with multivariate ANOVA with the
+hippocampal and ERC volumes dependent variables
+D MRI FTD and AD
+BIOL PSYCHIATRY
+and gender and age factors The main effects and
+interactions gender and age never approached significance which allowed continue the following analyses without further controlling for the effects age and
+gender 
+The normalized volumes the hippocampi and ERC
+are displayed Table Both the hippocampal right 
+F left F and ERC right F left 
+F volumes were smaller the FTD and AD
+patients compared with the control subjects 
+The patients with FTD had hippocampal volumes intermediate between the control subjects and patients with
+AD On the right the difference reached the level 
+significance between all the groups the
+Duncan post hoc analysis The volumes ERC were
+similarly atrophied the patients with FTD and AD 
+The absolute lengths number thick slices
+traced the structures are also displayed Table 
+There were significant differences the length the
+structures between the groups except for the right ERC 
+which was significantly longer the control subjects F 
+ The absolute difference length between
+the structures and for each group however was always
+less than slice 
+The sagittal profiles for each structure are displayed 
+Figures shows the topography the right
+ERC Both the patient groups differed from the control
+group but not from each other the anterior 
+percentiles In the posterior subregion the right both
+the patient groups differed from the control group with the
+AD patients also having significantly smaller regional
+volumes than the FTD patients On the left both the
+Table Descriptive ResultsNormalized Volumes the
+Entorhinal Cortices and the Hippocampi and Their Absolute
+Lengths Number Thick Slices 
+C
+FTD
+Right hippocampus
+Volume
+Length
+Left hippocampus
+Volume
+Length
+Right entorhinal cortex
+Volume
+Length
+Left entorhinal cortex
+Volume
+Length
+AD
+C control subjects FTD frontotemporal dementia AD Alzheimers disease 
+Significantly different from control subjects the level the
+Duncan post hoc analysis 
+Significantly different from control subjects the level the
+Duncan post hoc analysis 
+CTRL
+FTD
+AD
+ANOVA
+F 
+F 
+F 
+ Profiles and the regional volumes the right entorhinal cortex The axis displays regional volume given
+percentile relative length axis percentiles AD Alzheimers disease CTRL control subjects FTD frontotemporal
+dementia ANOVA analysis variance Groups significantly
+different from control subjects the level the post
+hoc analysis Groups significantly different from control
+subjects the level the post hoc analysis 
+patient groups differed from the control group throughout
+the ERC but not from each other The profile 
+the right hippocampus shown On the
+anterior percentile both the patient groups differed
+from the control group the medial subregion only the
+patients with AD differed from the control group In the
+posterior subregion the three groups did not differ significantly from each other although the finding approached
+significance It should noted however that
+the control and FTD groups had identical volumes the
+posterior subregion On the left the results were
+similar the anterior subregion both the patient groups
+differed from the control group but not from each other 
+and the medial subregion only the patients with AD
+differed from the control subjects In the posterior subregion the patients with FTD differed significantly from the
+control group and the patients with AD differed significantly from both the control subjects and the patients with
+FTD 
+M P Laakso 
+BIOL PSYCHIATRY
+exception the posterior ERC the right which was
+significantly more atrophied the patients with AD 
+The question about the pathology underlying the observed finding intriguing In AD the pathology the
+hippocampus entorhinal complex well established
+ Braak and Braak Hyman whereas the
+neuroanatomical neuropathological substrates for the
+current finding FTD require further exploration Although neuropathological data FTDs with regard the
+hippocampus have suggested various patterns atrophy 
+several studies seem support the view for lesser damage 
+ranging from minor involvement involvement Bergmann Brun Filley Kinoshita
+ Nagaoka There are fewer data 
+the ERC involvement FTD There however some
+data support these findings In recent study spheroidical enlargements presynaptic terminals suggestive 
+retrograde degenerative process FTD were found the
+hippocampus with the spheroids being most abundant 
+region rich perforant pathway terminals Zhou 
+ The ERC was reported substantially spared 
+CTRL
+FTD
+AD
+ANOVA
+F 
+F 
+F 
+ Profiles and the regional volumes the left entorhinal
+cortex The axis displays regional volume given percentile 
+relative length axis percentiles AD Alzheimers disease 
+CTRL control subjects FTD frontotemporal dementia 
+ANOVA analysis variance Groups significantly different
+from control subjects the level the post hoc
+analysis 
+Discussion
+In this study used volumetric MRI form D
+topographic models the hippocampus and the ERC 
+controls subjects patients with AD and patients with
+FTD Our previous quantitative finding that both the
+hippocampus and ERC are atrophic both the AD and
+FTD groups compared with the control group were repeated with additional FTD patient Frisoni 
+In short hippocampal atrophy FTD was less severe than
+ AD whereas the atrophy the ERC was equal
+degree both the patient groups The approach this
+paper however entirely different from the previous
+study and the scope reaches beyond the quantitative
+terms Judging the profiles suggest that hippocampal atrophy FTD weighted the anterior part the
+hippocampus with much less atrophy evident posteriorly 
+Particularly the right side the posterior subregional
+volumes are identical the control and FTD groups The
+ERC volumes displayed identical atrophy quantitatively
+and topographically both the patient groups with the
+CTRL
+FTD
+AD
+ANOVA
+F 
+F 
+F 
+ Profiles and the regional volumes the right hippocampus The axis displays regional volume given percentile relative length axis percentiles AD Alzheimers
+disease CTRL control subjects FTD frontotemporal dementia 
+ANOVA analysis variance Groups significantly different
+from control subjects the level the post hoc
+analysis 
+D MRI FTD and AD
+CTRL
+FTD
+BIOL PSYCHIATRY
+AD
+ANOVA
+F 
+F 
+F 
+ Profiles and the regional volumes the left hippocampus The axis displays regional volume given percentile 
+relative length axis percentiles AD Alzheimers disease 
+CTRL control subjects FTD frontotemporal dementia 
+ANOVA analysis variance Groups significantly different
+from control subjects the level the post hoc
+analysis Groups significantly different from control subjects
+ the level the post hoc analysis 
+In another study chromosome linked FTD there
+was damage the ERC with the hippocampus being
+substantially spared except for degeneration those
+regions receiving input from the perforant pathway The
+finding was considered secondary entorhinal nerve cell
+loss Sima 
+Indeed the hippocampus has its major cortical input
+from the ERC The ERC serves source excitatory
+input the perforant pathway which projects the dentate
+gyrus the subiculum and beyond further
+internal projections This results the ventral and dorsal
+parts the hippocampus selectively receiving different
+kinds input Witter and Groenewegen One
+possible explanation for the findings therefore that
+anterior temporal pathology FTD might lead direct
+involvement the ERC Alternatively there may more
+extensive disruption various cortico cortical and cortico basal circuits resulting damage the ERC and 
+subsequent bystander damage the hippocampus Given
+the neuropathological data suggesting sparing the hip 
+pocampus FTD this observed pattern atrophy may
+also nonprogressive In this way FTD differs from AD 
+where these regions are not only the first ones 
+affected but also show progressive deterioration and are
+among the most severely degenerated regions the
+end stage disease Braak and Braak Hyman 
+The substantial sparing the posterior part the
+hippocampus FTD also implies clinical correlations 
+FTD The hippocampus has not only connectional but also
+functional differences along its longitudinal axis Colombo Moser Schacter and Wagner
+ The posterior part the hippocampus has been
+suggested subserve memory encoding Schacter and
+Wagner well visuospatial memory Moser 
+ Notably these functions are considered 
+substantially spared FTD By contrast deficits the
+more anterior parts the temporal lobe such the
+amygdala might associated with the behavioral 
+language disturbances prominent FTD 
+Some possible caveats this study deserve consideration First age gender and disease severity were different between the patients with FTD and those with AD The
+patients with AD and the control patients were significantly older than the FTD patients This however takes
+place default one wants match the groups with
+disease duration severity because the onset FTD 
+typically younger In fact the younger age our FTD
+patients may favor correct diagnosis true FTD because
+frontal lobe syndromes the very elderly are common 
+but only minority actually has primary FTD Gislason 
+ Although the MMSE was indicative greater
+severity the FTD group the other indicators such 
+duration CDR and basic and instrumental disability 
+pointed toward difference slightly greater severity 
+the AD group Indeed because the MMSE highly
+dependent the integrity language function Goldblum may not serve good instrument for
+measurement global severity conditions such FTD 
+ which language disturbances are particularly dominant 
+With regard age neither the hippocampal ERC
+volumes were correlated with age the group control
+subjects this other larger studies our group
+ Insausti Laakso others DeCarli
+ Sullivan In agreement with
+previous studies the hippocampal and the ERC volumes
+did not differ between control men and women after
+adjustment for head size Insausti Laakso 
+ The entorhinal cortex the right was significantly
+longer control subjects but absolute terms never
+exceeded There were differences the
+hippocampal lengths between the groups Nonetheless 
+because pathologic specimen genetic data chro 
+M P Laakso 
+BIOL PSYCHIATRY
+mosome linked anomalies were available from any 
+the subjects possible conceptual bias related with colorful
+nosology FTD cannot excluded Differentiation 
+subtypes FTD clinical grounds difficult not
+impossible Therefore cannot rule out the possible
+impact different variants FTD the possibility 
+rare focal AD presenting with behavioral and language
+disturbances and sparing memory early the course 
+disease Jagust Nonetheless SPECT perfusion
+patterns not indicate any marked heterogeneity FTD
+ this material that all patients with FTD showed
+marked frontal hypoperfusion SPECT scans Frisoni 
+ Moreover the neuropsychologic pattern also has
+been studied patients with FTD and found 
+expected from study the literature marked disturbance
+ language production with sparing nonverbal learning Frisoni The absence Parkinsonism 
+features motor neuron disease should also reduce
+heterogeneity None the subjects were known have 
+autosomal dominant mode inheritance and the frequency apolipoprotein E FTD did not differ from
+control subjects but was significantly lower than patients with AD Geschwind 
+Another conceptual factor related with anatomic and
+functional division the ROIs Whereas the hippocampus
+can divided three subregionsthe head the body 
+and the tail which coarsely correspond the subdivisions 
+the present studyno such distinction exists for the ERC 
+That however may beside the point Of relevance here
+ the fact that morphometry can utilized study
+hippocampus and this approach may reveal distinctive
+groupwise patterns between the study groups the
+case this study The subdivision three regions rather
+should considered means presentation the
+data By using the method regional differences could 
+calculated for every fifth percentile necessary 
+These data provide novel insight into the pattern 
+medial temporal lobe damage FTD In conclusion both
+the hippocampus and ERC are atrophic AD and FTD 
+The extent and pattern atrophy the ERC virtually
+similar both the dementias By contrast the hippocampal atrophy FTD less severe than AD and
+appears attributable atrophy located mainly the
+anterior hippocampus with relative sparing the postrior
+part It possible that the observed pattern hippocampal damage secondary entorhinal pathology Further 
+ suggested that straightforward morphometric approach provides valuable additional information compared
+with conventional quantitative MRI It appears possible
+that structural imaging may identify different patterns 
+atrophy and this can utilized better characterize
+various primary degenerative dementias with different
+underlying pathologies This approach may provide 
+means find substrates different patterns structurefunction relationship functional impairment vivo 
+This study was supported EVO grant from Kuopio University
+Hospital and the Research Council for Health the Academy 
+Finland The authors thank E Koivisto for help with the preparation 
+the figures and G Puppini and A Gassan with the management the
+image files T Metitieri and A Pezzini helped with the data collection 
+and Dr Giuliano Binetti provided the neuropsychologic data 
+References
+Bergmann M Kuchelmeister K Schmid KW Kretzschmar HA 
+Schroder R Different variants frontotemporal
+dementia A neuropathological and immunohistochemical
+study Acta Neuropathol 
+Braak H Braak E Neuropathological stageing Alzheimer related changes Acta Neuropathol 
+Brun A Frontal lobe degeneration non Alzheimer
+type I Neuropathology Arch Gerontol Geriatr 
+Brun A Frontal lobe degeneration non Alzheimer type
+revisited Dementia 
+Colombo M Fernandez T Nakamura K Gross CG 
+Functional differentiation along the anterior posterior axis 
+the hippocampus monkeys J Neurophysiol 
+Csernansky JG Joshi S Wang L Haller JW Gado M Miller JP 
+ Hippocampal morphometry schizophrenia 
+high dimensional brain mapping Proc Natl Acad Sci U S A
+DeCarli C Murphy DGM Gillette JA Haxby JV Teichberg D 
+Schapiro MB Horwitz B Lack age related differences temporal lobe volume very healthy adults Am J
+Neuroradiol 
+Filley CM Kleinschmidt De Masters BK Gross KF 
+Non Alzheimer fronto temporal degenerative dementia A
+neurobehavioral and pathologic study Clin Neuropathol 
+Frisoni GB Laakso MP Beltramello A Geroldi C Bianchetti A 
+Soininen H Trabucchi M Hippocampal and entorhinal cortex atrophy frontotemporal dementia and Alzheimers disease Neurology 
+Frisoni GB Pizzolato G Geroldi C Rossato A Bianchetti A 
+Trabucchi M Dementia the frontal type Neuropsychological and Tc HM PAO SPET features J Geriatr
+Psychiatry Neurol 
+Geschwind D Karrim J Nelson SF Miller B The
+apolipoprotein E allele not significant risk factor for
+frontotemporal dementia Ann Neurol 
+Gislason T Larsson L Sjogren M Skoog I A populationbased study the prevalence frontal lobe dementia 
+ year olds abstract Neurobiol Aging suppl 
+Goldblum M C Tzortzis C Michot JL Panisset M Boller F
+ Language impairment and rate cognitive decline 
+Alzheimers disease Dementia 
+Gomez Isla T Price JL McKeel DW Morris JC Growdon JH 
+Hyman BT Profound loss layer II entorhinal cortex
+neurons occurs very mild Alzheimers disease J Neurosci
+D MRI FTD and AD
+Hyman BT Damasio AR Van Hoesen GW Barnes CL 
+Alzheimers disease Cell specific pathology isolates the
+hippocampal formation Science 
+Insausti R Juottonen K Soininen H Insausti AM Partanen K 
+Vainio P MR imaging volumetric analysis the
+human entorhinal perirhinal and temporopolar cortices Am J
+Neuroradiol 
+Jack CR Jr Petersen RC Xu YC Waring SC OBrien PC 
+Tangalos EG Medial temporal atrophy MRI
+ normal aging and very mild Alzheimers disease Neurology 
+Jagust WJ Davies P Tiller Borcich JK Reed BR Focal
+Alzheimers disease Neurology 
+Kennedy DN Lange N Makris N Bates J Meyer J Caviness VS
+Jr Gyri the human neocortex MRI based
+analysis volumes and variance Cereb Cortex 
+Kinoshita A Tomimoto H Suenaga T Akiguchi I Kimura J
+ Ubiquitin related cytoskeletal abnormality frontotemporal dementia Immunohistochemical and immunoelectron microscope studies Acta Neuropathol 
+Knopman DS Mastri AR Frey WH II Sung JH Rustan T
+ Dementia lacking distinctive histologic features A
+common non Alzheimer degenerative dementia Neurology
+Laakso MP Soininen H Partanen K Lehtovirta M Hallikainen
+M Hanninen T MRI the hippocampus 
+Alzheimers disease Sensitivity specificity and analysis 
+the incorrectly classified subjects Neurobiol Aging 
+Lund and Manchester Groups Clinical and neuropathological criteria for frontotemporal dementia J Neurol Neurosurg Psychiatry 
+McKhann G Drachman D Folstein MF Katzman R Price D 
+Stadlan EM Clinical diagnosis Alzheimers dis 
+BIOL PSYCHIATRY
+ease Report the NINCDS ADRDA Work Group Neurology 
+Mega MS Thompson PM Cummings JL Back CL Xu ML 
+Zohoori S Sulcal variability the Alzheimers
+brain Correlations with cognition Neurology 
+Moser E Moser MB Andersen P Spatial learning
+impairment parallels the magnitude dorsal hippocampal
+lesions but hardly present following ventral lesions 
+J Neurosci 
+Nagaoka S Arai H Iwamoto N Ohwada J Ichimiya Y 
+Nakamura M Inoue R A juvenile case frontotemporal dementia Neurochemical and neuropathological investigations Prog Neuropsychopharmacol Biol Psychiatry 
+Schacter DL Wagner AD Medial temporal lobe activations fMRI and PET studies episodic encoding and
+retrieval Hippocampus 
+Sima AAF Defendini R Keohane C DAmato C Foster NL 
+Parchi P The neuropathology chromosome
+ linked dementia Ann Neurol 
+Sullivan EV Marsh L Mathalon DH Lim KO Pfefferbaum A
+ Age related decline MRI volumes temporal lobe
+gray matter but not hippocampus Neurobiol Aging 
+Van Essen DC A tension based theory morphogenesis
+and compact wiring the central nervous system Nature
+Witter MP Groenewegen HJ Organizational principles
+ hippocampal connections In Trimble MR Bolwig TG 
+editors The Temporal Lobes and the Limbic System Petersfield UK Wrightson Biomedical Publishing 
+Zhou L Miller BL McDaniel CH Kelly L Kim OJ Miller CA
+ Frontotemporal dementia Neuropil spheroids and
+presynaptic terminal degeneration Ann Neurol 

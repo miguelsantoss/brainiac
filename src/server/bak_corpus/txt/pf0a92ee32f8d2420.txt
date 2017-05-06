@@ -1,0 +1,1104 @@
+Neurobiology Aging 
+Review
+A meta analysis hippocampal atrophy rates Alzheimers disease
+Josephine Barnes Jonathan W Bartlett Laura A van Pol Clement T Loy 
+Rachael I Scahill Chris Frost Paul Thompson Nick C Fox 
+Dementia Research Centre University College London Institute Neurology Queen Square London UK
+ London School Hygiene and Tropical Medicine London UK
+ Department Neurology Alzheimer Center Vrije Universiteit Medical Center Amsterdam The Netherlands
+ Prince Wales Medical Research Institute Sydney Australia
+Laboratory Neuro Imaging Department Neurology UCLA School Medicine Los Angeles CA USA
+Received July received revised form January accepted January 
+Available online March 
+Abstract
+Hippocampal atrophy rates are useful both diagnosing and tracking Alzheimers disease AD However cohorts and methods used 
+determine such rates are heterogeneous leading differences reported annualised rates We performed meta analysis hippocampal
+atrophy rates AD patients and matched controls from studies reported the peer reviewed literature Studies reporting longitudinal volume
+change hippocampi AD subjects together with controls were systematically identified and appraised All authors were contacted either
+ confirm the results provide missing data Meta analysis and meta regression were then performed this data Nine studies were
+included from seven centres with data from total AD and matched controls Mean CIs annualised hippocampal atrophy
+rates were found CI for AD subjects and for controls The difference between AD and control
+subject this rate was 
+ Published Elsevier Inc 
+Keywords Meta analysis Hippocampus Atrophy AD Alzheimers Rates Longitudinal
+Introduction
+Alzheimers disease AD large and growing problem
+with increasing financial and social burdens the individual carers and society AD affects over the population
+over years Dawbarn and Allen and its prevalence
+doubles every years above that age Small 
+A definitive diagnosis AD can only given following
+pathologic examination the brain usually post mortem 
+The disease pathologically characterised the presence
+ microscopic extracellular neuritic plaques and intracellular neurofibrillary tangles AD tangle pathology progresses
+from medial temporal lobe structures such the entorhi Corresponding author Dementia Research Centre Box The
+National Hospital for Neurology and Neurosurgery Queen Square London N BG UK Tel 
+fax 
+E mail address barnesdementia ion ucl J Barnes 
+ see front matter Published Elsevier Inc 
+doi neurobiolaging 
+nal cortex and hippocampus encompass the whole cortex 
+whereas plaque pathology largely cortical and increases
+with disease severity Braak One the results
+ this pathology cerebral atrophy which can visualised
+using structural MRI Scheltens The atrophy
+can seen even single time point brain structures 
+Alzheimers subjects are smaller average compared with
+controls In addition loss tissue volume over time can also
+ detected large regions such the whole brain Jack
+ and smaller temporal areas such the hippocampus Jack and entorhinal cortex Du 
+ This has led number studies that have suggested that hippocampal atrophy rates may useful both
+diagnostically and track disease progression 
+Many studies assessing longitudinal hippocampal change
+have been reported the literature Fox Jack
+ Kaye Different methods have been
+used generate these rates atrophy including automated
+ Wang Du and manual techniques
+J Barnes Neurobiology Aging 
+ Jack Barnes In addition different
+populations patients have also been included To the best
+ our knowledge statistical review the hippocampal
+atrophy rate literature has been conducted date Such 
+review required assess heterogeneity reported studies better understand how age and disease severity affect
+the calculated atrophy rates and pool the results from
+these studies more accurately estimate the rate atrophy the hippocampus AD and matched control groups 
+This type analysis may also useful identifying outlier results where the methodology employed may deserve
+critical review In addition measuring the inter site variance
+ hippocampal atrophy rates may useful for anyone planning multi site trial may define the level consistency
+ expect the imaging measures across sites 
+ Study objective
+The objective this study perform meta analysis 
+hippocampal atrophy rates patients with AD and matched
+controls from studies reported the peer reviewed literature 
+Methods
+The following protocol was employed the study 
+ General study inclusion criteria
+We aimed identify all observational and randomised
+controlled trials RCT where hippocampal volume was measured MRI two more points time and annualised
+hippocampal atrophy rate was reported for patients with
+AD We included data from both arms randomised controlled trials symptomatic treatment was given and only
+the placebo arm disease modifying treatment was given
+ atrophy rate might have been altered the treatment 
+Disease modifying treatments were classified those that
+had been shown significantly alter whole brain atrophy
+rates 
+We included MRI studies reporting results from patients
+with AD any age gender There were restrictions 
+the method used diagnose AD As MCI was not subject
+group being formally assessed part this meta analysis 
+cognitively impaired subject groups with mean MMSE
+ were excluded No restriction was placed scanning
+protocol strength magnet used image the patients 
+segmentation protocol used determine the atrophy rate 
+Unpublished studies were not included unless accepted
+papers had been published ahead print online and studies where the mean annualised rates atrophy could not
+ provided the author were excluded Since people with
+Downs syndrome Alzheimers disease and mutation carriers the known AD causing genes may have different
+course disease studies based their populations were
+also excluded 
+ Outcome measure
+Mean arithmetic atrophy rate specified loss baseline volume per year 
+ Search methods for identication studies
+Searches for relevant studies were performed using electronic and other sources 
+ Electronic sources
+The published literature was searched MEDLINE 
+ February Week through OVID using the following
+strategy 
+ hippocamp AND EXP magnetic resonance imaging
+OR magnetic AND resonance AND imag 
+ OR mri AND EXP Alzheimers Disease OR
+Alzheimer 
+Abstracts were read for all papers with relevant titles and
+full papers obtained and examined for all relevant abstracts 
+This search was extended examining reference lists for
+the papers thus identified Further papers citing these papers
+were examined using Web Science 
+ Individual searching journals
+In addition the following journals were searched
+ unless specified including Neurology Annals
+ Neurology Archives Neurology Neurobiology 
+Aging American Journal Neuroradiology Brain Cerebral
+Cortex Cortex European Journal Neurology Hippocampus Journal Neurology Journal 
+Neurology Neurosurgery and Psychiatry Lancet Neurology
+ NeuroImage Neuroradiology Dementia and
+Geriatric Cognitive Disorders Journal Alzheimers Disease American Journal Alzheimers disease and other
+dementias Alzheimers Disease and Associated Disorders 
+Lancet PNAS and Nature 
+ Personal communication with content experts
+The list published studies generated were shown 
+another researcher this field from different research group
+ LvdP who checked whether there were any studies that may
+have not been included Once the potential list was finalised
+between the two research groups all authors the studies
+were contacted ensure that correct information was being
+used and any information that was lacking such MMSEs 
+ mean rates atrophy was requested In addition the
+full list was sent each author ensure other studies
+had been missed the searches Published studies resulting from searches that are not English were included
+when possible through contact with authors where necessary 
+J Barnes Neurobiology Aging 
+ Quality assessment
+After studies were selected for the meta analysis each
+was assessed for quality tabulating variables which may
+introduce bias explain heterogeneity the results These
+include cohorts used population case control case series 
+blinding raters patient information chronology 
+scan ordering drop out rate RCT assessment and
+exclusion criteria for controls AD diagnostic criteria and
+exclusion criteria white matter damage exclusion criteria 
+white matter lesion quantification apolipoprotein E APOE 
+genotyping other medications magnet strength number 
+scanning sites scan slice thickness hippocampal measurement method number raters registered images total
+intracranial volume TIV corrected whole hippocampus
+measured and reliability method 
+ Statistical analysis
+STATA Version Stata Corporation College Station TX 
+USA and SAS proc mixed Version SAS Institute Inc 
+Cary NC USA were used for the statistical analysis From
+each study the mean atrophy rate and standard deviation were
+obtained for the AD patients and separately for controls
+where available together with means and standard deviations the ages MMSEs and inter scan intervals each
+subject group Calculation the standard error required for
+meta analysis was based the standard deviation and the
+number patients for each study 
+ Data synthesis meta analysis 
+A random effects meta analysis model was fitted using
+restricted maximum likelihood REML consistent with the
+assumption that mean atrophy rates measured individual studies vary around overall average atrophy rate The
+random effect for between study heterogeneity was assumed
+ normally distributed were the within study errors 
+In addition tested the hypothesis that the random effects
+were needed comparing the REML log likelihood ratio
+statistic its asymptotic distribution under the null hypothesis that the random effect variance which given 
+mixture two chi squared distributions Morrell 
+Since some studies reported results separately for different subgroups AD patients attempted fit 
+random effects model that allowed for both between and
+within study variation Unfortunately this was not possible 
+due the limited number studies that reported results separately subgroup In view this the non independence 
+results from subgroups the same study was accounted for
+through sharing the study specific random effect For studies containing both control and AD group the mean
+difference atrophy rates between the two groups was calculated These differences were then entered further
+random effects meta analysis estimate the overall mean
+within study difference rates between AD and control
+groups 
+ Assessment reporting bias
+Due the focus this meta analysis unlikely that
+studies would denied publication the basis the
+estimated size mean atrophy AD patients However 
+publication bias was examined with funnel plots Funnel plots
+graphically demonstrate publication bias the precision 
+the studies increases there should decrease the variability results leading funnel shape Lack symmetry
+implies evidence publication bias 
+ Subgroup analysis and investigation 
+heterogeneity
+Heterogeneity atrophy rates between studies may 
+explained the mean age disease severity MMSE score 
+ study participants inter scan interval This was explored
+using the data AD groups through use meta regression
+ Sharp This meta regression analysis can only reveal
+associations between mean age MMSE scan interval
+and mean atrophy rates rather than revealing associations
+between individual ages MMSEs scan intervals and individual atrophy rates We added age MMSE and scan interval
+separately linear fixed effect our random effects model
+ estimate any such associations It was recognised that estimates such effects may imprecise only small number
+ studies are available and between study variability 
+such factors small 
+ Sample size calculation
+Of the studies included the meta analysis those with
+mean scan intervals year months were used calculated sample sizes In these studies there was little variation
+ scan interval between patients We performed randomeffects meta analysis the variance scale these studies
+estimated atrophy rate standard deviations give pooled
+estimate the standard deviation We assumed that drug
+would decrease the atrophy the hippocampus certain
+percentage Standard techniques were used estimate sample
+sizes that give statistical power detect and 
+reduction hippocampal atrophy rates using two sided significance test the level 
+Results
+Our Medline search strategy identified papers 
+which satisfied our inclusion criteria Eleven these 
+papers were excluded because six presented overlapping
+data with the primary report already included Jack 
+ Mori Silbert Barnes
+ three did not report annualised atrophy
+rate Laakso Krishnan Hampel 
+ and two included patients with Vascular Dementia Cardenas Mungas For the
+eight papers thus identified Jack Wang 
+ Du Jack Thompson 
+ Fox Hashimoto Barnes 
+Table 
+Studies included the meta analysis
+Study author 
+year
+Checked with
+author
+Research
+group
+Subject
+groups
+N
+MMSE baseline mean
+ S D number subjects
+Age years first
+MRI mean S D 
+Annualised loss total volume left plus
+right hippocampi mean year S D 
+Barnes 
+Yes
+Fox 
+C
+ days
+AD
+ days
+C
+Interval years unless
+specified mean S D 
+Yes
+Weiner 
+AD
+Fox 
+Hashimoto
+Yes
+Fox 
+AD placebo
+ months
+Yes
+Hashimoto 
+AD treat
+ days
+AD treat
+ days
+C stab
+AD slow
+AD Fast
+Jack 
+Jack 
+Kaye 
+Thompson
+Wang 
+Yes
+Means and
+S D given 
+personal communication
+Yes
+Erratum 
+Neuroimage
+Values here
+are correct
+Yes
+Jack 
+Jack 
+AD
+Kaye 
+C
+AD mild
+AD moderate
+C
+AD
+C
+DAT
+Thompson 
+Csernansky 
+Key AD Alzheimers disease C control DAT dementia Alzheimer type number subjects which information has been obtained italicized information from personal communication C stab stable
+controls AD fast fast progressing AD AD slow slow progressing AD AD mild mildly affected AD subjects AD moderate moderately affected AD subjects AD placebo AD subjects placebo AD treat 
+treated AD symptomatic treatment AD non treat AD not treated with symptomatic treatment 
+J Barnes Neurobiology Aging 
+Du 
+Table 
+Quality assessment studies included the meta analysis
+Study type
+AD Diagnostic
+criteria imaging
+used criteria 
+AD exclusion criteria
+Du 
+Case series with controls
+Fox 
+Trial
+Hashimoto 
+Case series
+Jack 
+Case series with controls
+Jack 
+Trial
+Kaye 
+Case series with controls
+NINCDSADRDA
+NINCDSADRDA
+ imaging used exclude
+other neuropathol 
+Other neuropathol head
+trauma alcoholism 
+psychiatric illness 
+epilepsy hypertension 
+diabetes major heart
+disease
+N R
+NINCDSADRDA
+ imaging supporting
+AD 
+Significant other
+neurological diseases 
+Medications which
+affect cognition
+NINCDSADRDA
+ MMSE 
+NINCDSADRDA DSM
+IIIR general committee
+consensus 
+Symptoms unrelated 
+AD depression
+Mildmoderate AD 
+years old 
+NINCDSADRDA
+ mixture community
+and clinical cohorts 
+Substance abuse 
+depression Parkinsons
+disease depression
+blood test used screen
+for exclusionary medical
+conditionsa
+N R
+Change diagnosis 
+subsequent follow 
+post mortem
+confirmation 
+differing disease
+Non AD disorders 
+major and unstable
+conditions such 
+seizure PD tumour
+N R
+Other
+neuropathol mental
+disorders congnitiveaffecting
+treatments focal brain
+lesions seen MRI
+N R
+Stroke
+Substantial
+cerebro vascular disease
+N R
+N R
+N R
+N R
+AD 
+AD C AD T 
+C slow 
+fast 
+C slow 
+fast 
+N R
+N R
+Thompson 
+Case series with controls
+Wang 
+Case series with
+controls
+NINCDSADRDA DSM DAT CDR 
+IV
+Substance abuse 
+depression psychiatric
+illness head injury
+Other confounding
+neuropsychol Genetic
+family history AD
+White matter lesions
+ images
+N R
+N R
+N R
+N R
+N R
+N R
+AD C 
+AD T 
+N R
+C mild AD 
+moderate 
+C mild 
+moderate 
+N R
+C AD 
+C AD 
+N R
+N R
+N A
+N R
+N A
+N A
+N A
+Normal neurological
+exam Community
+dwelling
+No active neurological
+disorder psychoactive
+medication
+N A
+Yearly assessment 
+neuropsychol physical
+and medical exam
+As for AD plus diabetes
+mellitus hypertension 
+angina arrhythmia 
+seizure disorder cancer 
+COPD renal diseasea
+N R
+CDR 
+Same AD
+Other
+neuropsychiatric
+disorders genetic
+family history AD
+Specific white matter
+damage exclusion
+criteria
+White matter lesion
+quantification
+N R
+APOE genotype 
+Gender male 
+N R
+Volume white matter
+intensities measured 
+baseline Distribution
+similar between subject
+groups
+N R
+C AD 
+C AD 
+AD 
+AD C AD T 
+Treatments
+N R
+N R
+Donepezil 
+galantamine 
+rivastigmine HRT
+ Vit E 
+Drop out RCT
+N A
+N A
+Assessment 
+controls
+N R
+MRI excluding
+neuropathol 
+ due 
+post baseline scan
+N A
+Donepezil AD T 
+AD C Both groups
+allowed Vit E 
+non steroidal
+anti inflammatory ginko
+biloba lecithin
+N A
+Exclusion criteria for
+controls
+N R
+N A
+N A
+Magnet strength
+ Tesla 
+Sites
+Protocol thickness
+Clinical history 
+alcoholism psychiatric
+illness epilepsy 
+hypertension diabetes 
+major heart disease 
+head trauma Du 
+N R
+N R
+ detailed Kaye 
+N R
+N R
+N A
+N A
+J Barnes Neurobiology Aging 
+Barnes 
+Case series with controls
+Table Continued 
+Du 
+Semi automated
+Checked 
+Fox 
+Manual
+Hashimoto 
+Manual
+Jack 
+Manual
+Jack 
+Manual
+Kaye 
+Manual
+Thompson 
+Manual
+Registered scans 
+TIV corrected
+Whole Hc measured?
+Registered
+N R
+Registered
+N R
+Registered
+TIV correcteda
+Registered
+No small part tail
+excluded 
+No small part tail
+excluded Hsu 
+No small part tail
+excluded 
+No white matter
+excluded Tail excluded
+No small part tail
+excluded 
+Registered referenced
+ Jack 
+No small part tail
+excluded 
+No body 
+hippocampus only 
+Kaye 
+No small part tail
+excluded 
+Reliability 
+inter intra rater 
+same different
+acquisitions 
+repeated 
+number subjects 
+volume rate
+Blinding raters 
+diagnosis
+Blinding raters 
+order scans
+N R
+ICC intra rater
+different acquisitions 
+Repeated assumed 
+N volume
+N R
+ICC CV 
+intra rater same
+acquisition 
+Repeated N 
+volume
+ICC IQR 
+difference rate 
+ intra rater 
+same acquisition 
+Repeated N 
+rate
+CV intra rater 
+different acquisitions 
+Repeated N 
+volume
+ICC intra rater 
+same acquisition 
+Repeated N 
+volume
+ICC ICC 
+intra and inter rater 
+respectively Same
+acquisition 
+Repeated N 
+volume
+Yes
+Visually checked
+blinded diagnosis
+N R
+Blinded treatment
+group
+Yes
+Blinded AD C AC T
+Yes
+Yesa
+Yes
+N R
+Yes
+Yes
+Blinded treatment
+group
+Yes
+Yesa
+Yes
+N R
+Yes
+Wang 
+Semi automated
+Team experts for
+template Haller
+ N R for
+landmark placement
+N R
+No exclusion 
+white matter alveus
+and fimbria some 
+tail excluded 
+ICC intra rater
+ assumed different
+acquisitions 
+Repeated N 
+volume
+Key AD Alzheimers disease C control DAT dementia Alzheimer type ICC intra class correlation coefficient CV coefficient variation AD C control group AD patients AD T treated AD
+patients APC annualised percentage change N A not applicable N R not reported CDR clinical dementia rating MMSE mini mental state examination neuropathol neuropathologies neuropsychol 
+neuropsychologies COPD chronic obstructive pulmonary disease slow slowly progressing AD fast quickly progressing AD mild mild AD moderate moderate AD 
+ Conveyed personal communication 
+ Based wider group 
+ CV quoted Jack calculated median range CV quoted Hashimoto was quoted for left and right hippocampus separately right and left This
+was calculated standard deviation mean where standard deviation indicated square root value the arithmetic mean variance estimates 
+J Barnes Neurobiology Aging 
+Barnes 
+Manual
+Measurement method
+Number raters
+Table 
+Studies excluded from the meta analysis
+Study
+Reason for exclusion
+Group
+Subject groups
+N
+Mean S D MMSE
+Mean S D age years
+Rate atrophy
+Barnes 
+Overlap with Barnes 
+Fox 
+C
+Interval years unless
+specified mean S D 
+ days
+AD
+ days
+C
+Dementia
+ AD AD VaD 
+Cardenas 
+VaD included
+Weiner 
+Mean rates not published
+Hampel 
+AD
+ months
+Overlap with Jack 
+ paper
+Jack 
+C
+Jack 
+Overlap subjects with Jack
+Jack 
+C total
+ total
+Jack 
+Subgroup excluded MMSE
+Subgroup excluded MMSE
+No annualised atrophy rates
+provided
+Jack 
+AD
+C conv
+Kaye 
+ mild
+Rogers 
+Placebo AD
+ weeks
+Treated AD
+ weeks endpoint
+AD
+Kaye 
+Krishnan 
+Laakso 
+Cannot provide original data
+annualised
+Soininen 
+StabConv
+C
+ months
+AD
+Moffat 
+Controls only
+Resnick 
+C 
+C 
+Mori 
+Overlap with Hashimoto 
+Hashimoto 
+AD 
+ days
+AD 
+ days
+Mungas 
+VaD included
+Weiner DeCarli 
+C CDR 
+Dementia AD and VaD CDR 
+Silbert 
+Overlap with Kaye 
+Kaye 
+C
+Demented
+J Barnes Neurobiology Aging 
+Hampel 
+Jack 
+Key AD Alzheimers disease C control Stab stable controls Conv converter VaD vascular dementia italicized figures are provided the author Summary statistics given for wider group than that used calculate hippocampal changes Percentage decline over scanning
+interval rather than rate Calculated rates atrophy loss quoted publication over year period actual rates over years for controls and hippocampus No S D given the loss Mean S D rate initially quoted and 
+ loss per year 
+J Barnes Neurobiology Aging 
+Fig Forest plot rates atrophy the hippocampus AD subjects The sizes the squares are proportional within study variance between study
+variance The solid lines represent CIs 
+ extended the search examining reference lists
+and Web Science which yielded further papers Hand
+searching and personal communication with content experts
+yielded additional paper that does not contain the word
+hippocampus its title abstract Kaye We
+were also aware one study available online ahead print
+ time searching Barnes which replaced
+ Barnes owing overlap patient populations 
+The resulting studies included this meta analysis are displayed Table The quality these studies reported 
+Table and those studies that were excluded are detailed 
+Table 
+ Data synthesis and heterogeneity
+Fig Forest plot demonstrating the results for the AD
+subjects from the individual studies included the metaanalysis The estimate the overall mean atrophy
+rate these groups from random effects meta analysis was
+ per year CI The estimate the
+between study standard deviation was The likelihood
+ratio test for the need for the between study random effect
+was highly statistically significant confirming
+that there was strong evidence between study heterogeneity Fig Forest plot the matched control
+groups The estimated overall mean atrophy rate
+ these groups from random effects meta analysis was
+ per year CI The estimate 
+between study standard deviation was The likelihood
+ratio test for the presence between study heterogeneity was highly statistically significant Fig 
+shows the differences between the control and AD groups
+ those studies where both groups were studied six studies total Using data from these studies and combining
+AD subgroups within studies using random effects meta 
+analysis the estimated mean difference atrophy rates
+between controls and AD subjects was per year
+ CI The estimate between study standard deviation the AD control difference was 
+and the likelihood ratio test showed strong evidence for
+between study heterogeneity AD control rate differences
+ Publication bias
+Figs and show funnel plots AD and AD control
+differences respectively against the standard error the estimate Although few conclusions can drawn given the small
+number studies there was suggestion that studies with
+either large small atrophy rates were more likely 
+published 
+Fig Forest plot rates atrophy the hippocampus matched control subjects The sizes the squares are proportional within study
+variance between study variance estimate The solid lines represent 
+CIs 
+J Barnes Neurobiology Aging 
+Fig Forest plot showing the difference between AD and control subjects
+ studies where both were reported The size the squares are proportional
+ within study variance between study variance estimate The solid
+lines represent CIs 
+Fig Meta regression atrophy rate and mean age The size the circles are proportional within study variance between study variance
+estimate larger circles indicate studies with more precise results 
+ Subgroup analysis and meta regression
+Fig Funnel plot AD rates atrophy with pseudo confidence
+limits 
+Fig Funnel plot AD control differences with pseudo confidence
+limits 
+Plots the AD study subgroup mean atrophy rates against
+age MMSE and inter scan interval are shown Figs 
+respectively There were apparent relationships between
+these variables and mean atrophy rate An increase year 
+study mean age was associated with CI 
+ mean atrophy rate though this was not statistically
+significant There was evidence association
+between study mean MMSE score and mean atrophy rate 
+with one unit increase study mean MMSE score being
+associated with reduction mean atrophy rate 
+ Each year increase mean interscan interval was associated with CI 
+ increase mean study atrophy rate but again this
+association was not statistically significant 
+Fig Meta regression atrophy rate and mean MMSE score The size
+ the circles are proportional within study variance between study
+variance larger circles indicate studies with more precise results 
+J Barnes Neurobiology Aging 
+Fig Meta regression atrophy rate and mean scan interval The sizes
+ the circles are proportional within study variance between study
+variance larger circles indicate studies with more precise results 
+ Sample sizes
+Four studies were included sample size calculations
+ Barnes Fox Hashimoto 
+ and Jack For these groups the pooled
+mean atrophy rate was per year while the corresponding pooled estimate the standard deviation measured
+atrophy rates was The estimated numbers subjects
+per treatment arm using these estimates were and 
+subjects for and reduction hippocampal atrophy
+rates respectively 
+Discussion
+This study aimed estimate the mean rate hippocampal atrophy across number published studies In addition 
+this study aimed formally assess some aspects the heterogeneity these studies Meta analysis plays important
+role summarising results from studies owing betweenstudy heterogeneity Effects confounders such disease
+severity age may lessened pooling results from all
+studies making the results more applicable the wider population 
+Hippocampal rates atrophy were consistently greater 
+AD subjects than controls all studies included this metaanalysis The pooled mean rates atrophy were 
+the control subjects and AD subjects respectively 
+The AD control differences were significantly different the
+ studies where both controls and AD subjects had been
+assessed and reported The two studies where the differences
+were not statistically significant had the largest confidence
+intervals Thompson Kaye Overall 
+the pooled mean difference between AD and control groups
+was and was significantly greater than Fig 
+There was large amount between study variability both
+AD rates and control rates The between study variability 
+AD control rate differences was also relatively large which
+cannot attributed factors that affect both controls and
+ADs study such scanning protocol Our results therefore suggest that there genuine variation between studies
+ AD control rate difference possibly result differences disease severity between studies It has been shown
+that rates atrophy can change the disease progresses
+ Kaye Ridha Other factors such
+ concurrent vascular disease may also affect atrophy rates 
+Some studies had higher variances that others this may 
+due the methods employed these studies may
+ chance owing the relatively small numbers within the
+subject groups 
+Some aspects the heterogeneity studies are difficult
+ formally assess because certain variables were not reported
+ see Table These variables include patient related information such other administered medications and APOE
+genetic status Treatments may particularly difficult for
+casecontrol population based studies report accurately 
+since many these studies will conducted tertiary
+referral centre whereas may the general physician 
+the primary level who prescribes and monitors the administration medication Another example the differences
+ reporting studies reliability segmentation technique Most studies did report reliability however the results
+are largely incomparable most cases since the measures
+were performed different numbers subjects and with
+different numbers repetitions and some cases with
+same scanning acquisitions and others with different scanning acquisitions 
+Other scan parameters and hippocampal delineation methods may also affect the measured atrophy rates such scan
+slice thickness segmentation protocol Differences 
+anatomical structures included the delineation hippocampi may not have substantial effects the atrophy
+rate determined the same protocol used for both baseline and follow scans Data from centres using different
+delineation protocols would only agree rates atrophy
+were similar separate anatomical locations within the hippocampus for example rate atrophy the hippocampal
+tail similar the hippocampal head Meta analysis 
+the AD control differences should robust these potential confounders since the hippocampal rates determined 
+both subject groups should have been determined the same
+way 
+Formal meta regression analyses showed significant
+associations between mean atrophy rates quoted the studies
+included the meta analysis and age MMSE and interval However may that these relationships exist 
+meta regression can detect such associations only there
+ sufficient variability the explanatory variable between
+studies There was little variability mean age between
+studies relative within studies perhaps explaining the lack
+ association with age A number studies not included
+here have examined rates hippocampal atrophy normal
+ageing and have shown that age does influence hippocam 
+J Barnes Neurobiology Aging 
+pal atrophy rates healthy controls Scahill 
+There was some variability mean MMSE score between
+studies however this was not sufficient show any potential association between this variable and rates atrophy 
+Most AD subjects included the studies were mild moderately affected perhaps because the need comply with
+imaging result the AD groups included had 
+mean MMSE between and one group had MMSE
+ this lack variability mean MMSE reduced the
+chance finding association There was evidence 
+ association between mean interval and mean atrophy rate 
+despite relatively large variation mean interval between
+scans and between studies 
+Sample sizes were estimated using data from subjects
+which estimate based greater number subjects
+than previously reported Compared with other brain regions
+reported for similar interval greater number subjects
+were required for hippocampal atrophy rates than required
+for whole brain ventricular atrophy rates approximately
+ subjects required per treatment arm for either brain atrophy ventricular enlargement for reduction atrophy
+rates Schott However may that
+disease specific effects require investigation and therefore
+hippocampal atrophy rates temporal horn enlargement
+may interest clinical trials The subjects estimated
+for reduction atrophy rates were similar but
+lower than the numbers required for temporal horn enlargement number required per treatment arm Jack
+This study has number limitations Although this
+meta analysis attempted include many studies possible and there was evidence publication bias only nine
+studies analysed owing number reasons see Table 
+Larger numbers studies would allow more precise estimate the mean rates calculated and for associated
+meta regression analyses more robust Collating the
+individual patient data from these studies would enable much
+more precise estimation relationships between factors such
+ age and disease severity with hippocampal atrophy rates 
+Associations using individual patient data within studies
+would not confounded study level factors such scan
+acquisition protocols and methods determine hippocampal atrophy rate Also variability both within and between
+studies could used estimate these associations more precisely In addition standard meta analysis techniques assume
+that the precision individual study estimates are known
+ assumed the estimated value When some contributing studies are small our meta analysis this assumption
+may not reasonable Consequently our reported confidence intervals may too narrow 
+Because some specific study variables were not reported
+consistently see Table and this was impediment 
+meta analysis suggest that new studies explicitly report
+the following information including presence lack 
+information part the subject demographics scanning 
+and hippocampal atrophy methods 
+ Subject demographics
+Cohort population case control case series
+Age
+Gender male male
+APOE genotype 
+Neuropsychology MMSE
+AD diagnostic criteria which used imaging used diagnosis? 
+AD exclusion criteria
+Symptomatic disease modifying treatments
+Drop out rate RCT
+Details clinical assessment controls
+Exclusion criteria for control group
+Post mortem confirmation disease
+ Imaging
+Magnetic field strength Tesla 
+Number scanning sites
+Acquisition protocol full details including slice thickness
+ Post processing scans
+Region measurement method manual automated
+Number raters
+Measurement registered scans TIV corrected scans
+Details anatomy included the segmentation
+Intra rater segmentation reliability using ICC preferably
+quote statistics based subjects segmented twice 
+the same rater 
+Blinding raters diagnosis
+Blinding raters order scans
+Conclusions
+The overall hippocampal atrophy rate normal
+controls with the range the quoted mean age being 
+years In AD subjects the overall atrophy rate 
+Disclosures
+None the authors have any disclosures make 
+Acknowledgements
+This work was undertaken UCLH UCL who received
+ proportion funding from the Department Healths
+NIHR Biomedical Research Centres funding scheme The
+Dementia Research Centre Alzheimers Research Trust
+Co ordinating Centre JB funded the Alzheimers
+Research Trust UK NF funded the Medical Research
+J Barnes Neurobiology Aging 
+Council UK PT supported the National Institute 
+Aging grant 
+The authors would like thank all those who contributed
+ this paper including Clifford Jack An Tao Du Mamoru
+Hashimoto Lei Wang supported NIH and
+ and Jeffrey Kaye 
+References
+Barnes J Godbolt A K Frost C Boyes R G Jones B F Scahill 
+R I Rossor M N Fox N C Atrophy rates the cingulate gyrus and hippocampus AD and FTLD Neurobiol Aging 
+Barnes J Boyes R G Lewis E B Schott J M Frost C Scahill R I 
+Fox N C Automatic calculation hippocampal atrophy rates
+using hippocampal template and the boundary shift integral Neurobiol 
+Aging 
+Barnes J Scahill R I Boyes R G Frost C Lewis E B Rossor C L 
+Rossor M N Fox N C Differentiating AD from aging using
+semiautomated measurement hippocampal atrophy rates Neuroimage
+Barnes J Scahill R I Schott J M Frost C Rossor M N Fox N C 
+Does Alzheimers disease affect hippocampal asymmetry? Evidence from cross sectional and longitudinal volumetric MRI study 
+Dement Geriatr Cogn Disord 
+Braak H Braak E Bohl J Staging Alzheimer related cortical
+destruction Eur Neurol 
+Cardenas V A Du A T Hardin D Ezekiel F Weber P Jagust W J 
+Chui H C Schuff N Weiner M W Comparison methods
+for measuring longitudinal brain change cognitive impairment and
+dementia Neurobiol Aging 
+Dawbarn D Allen S J Neurobiology Alzheimers disease 
+Oxford University Press Edition 
+Du A T Schuff N Kramer J H Ganzer S Zhu X P Jagust W J Miller 
+B L Reed B R Mungas D Yaffe K Chui H C Weiner M W 
+Higher atrophy rate entorhinal cortex than hippocampus AD 
+Neurology 
+Du A T Schuff N Zhu X P Jagust W J Miller B L Reed B R 
+Kramer J H Mungas D Yaffe K Chui H C Weiner M W 
+Atrophy rates entorhinal cortex AD and normal aging Neurol 
+Fox N C Black R S Gilman S Rossor M N Griffith S G Jenkins 
+L Koller M Effects A beta immunization 
+MRI measures cerebral volume Alzheimer disease Neurology 
+Fox N C Warrington E K Freeborough P A Hartikainen P Kennedy 
+A M Stevens J M Rossor M N Presymptomatic hippocampal
+atrophy Alzheimers disease longitudinal MRI study Brain 
+Hampel H Burger K Pruessner J C Zinkowski R DeBernardis J 
+Kerkman D Leinsinger G Evans A C Davies P Moller H J 
+Teipel S J Correlation cerebrospinal fluid levels tau protein
+phosphorylated threonine with rates hippocampal atrophy 
+Alzheimer disease Arch Neurol 
+Hashimoto M Kazui H Matsumoto K Nakano Y Yasuda M Mori 
+E Does donepezil treatment slow the progression hippocampal
+atrophy patients with Alzheimers disease? Am J Psychiatry 
+Haller J W Banerjee A Christensen G E Gado M Joshi S C Miller 
+M I Sheline Y I Vannier M W Csernansky J G Threedimensional hippocampal MR morphometry with high dimensional
+transformation neuroanatomical atlas Radiology 
+Hsu Y Y Schuff N Du A T Mark K Zhu X Hardin D Weiner 
+M W Comparison Automated and Manual MRI Volumetry 
+Hippocampus Normal Aging and Dementia J Magn Reson Imaging
+Jack C R Petersen R C Xu Y OBrien P C Smith G E Ivnik R J 
+Boeve B F Tangalos E G Kokmen E Rates hippocampal atrophy correlate with change clinical status aging and AD 
+Neurology 
+Jack C R Petersen R C Xu Y OBrien P C Smith G E Ivnik R J 
+Tangalos E G Kokmen E Rate medial temporal lobe atrophy
+ typical aging and Alzheimers disease Neurology 
+Jack C R Slomkowski M Gracon S Hoover T M Felmlee J P Stewart K Xu Y Shiung M OBrien P C Cha R Knopman D 
+Petersen R C MRI biomarker disease progression 
+therapeutic trial milameline for AD Neurology 
+Jack C R J Shiung M M Gunter J L OBrien P C Weigand S D 
+Knopman D S Boeve B F Ivnik R J Smith G E Cha R H Tangalos E G Petersen R C Comparison different MRI brain
+atrophy rate measures with clinical disease progression AD Neurology 
+Kaye J A Moore M M Dame A Quinn J Camicioli R Howieson 
+D Corbridge E Care B Nesbit G Sexton G Asynchronous
+regional brain volume losses presymptomatic moderate AD J 
+Alzheimers Dis 
+Kaye J A Swihart T Howieson D Dame A Moore M M Karnos T 
+Camicioli R Ball M Oken B Sexton G Volume loss the
+hippocampus and temporal lobe healthy elderly persons destined 
+develop dementia Neurol 
+Krishnan K R Charles H C Doraiswamy P M Mintzer J Weisler R 
+Yu X Perdomo C Ieni J R Rogers S Randomized placebocontrolled trial the effects donepezil neuronal markers and
+hippocampal volumes Alzheimers disease Am J Psychiatry 
+Laakso M P Lehtovirta M Partanen K Riekkinen P J Soininen H 
+Hippocampus Alzheimers disease year follow MRI
+study Biol Psychiatry 
+Moffat S D Szekely C A Zonderman A B Kabani N J Resnick S M 
+Longitudinal change hippocampal volume function 
+apolipoprotein E genotype Neurol 
+Mori E Lee K Yasuda M Hashimoto M Kazui H Hirono N Matsui 
+M Accelerated hippocampal atrophy Alzheimers disease with
+apolipoprotein E allele Ann Neurol 
+Morrell C H Likelihood ratio testing variance components 
+the linear mixed effects model using restricted maximum likelihood 
+Biometrics 
+Mungas D Harvey D Reed B R Jagust W J DeCarli C Beckett 
+L Mack W J Kramer J H Weiner M W Schuff N Chui H C 
+Longitudinal volumetric MRI change and rate cognitive decline 
+Neurology 
+Ridha B H Barnes J Bartlett J W Godbolt A Pepple T Rossor M N 
+Fox N C Tracking atrophy progression familial Alzheimers
+disease serial MRI study Lancet Neurol 
+Scahill R I Frost C Jenkins R Whitwell J L Rossor M N Fox N C 
+A longitudinal study brain volume changes normal aging
+using serial registered magnetic resonance imaging Arch Neurol 
+Scheltens P Fox N C Barkhof F DeCarli C D Structural magnetic resonance imaging the practical assessment dementia beyond
+exclusion Lancet Neurol 
+Schott J M Price S L Frost C Whitwell J L Rossor M N Fox N C 
+Measuring atrophy Alzheimer diseasea serial MRI study over
+ and months Neurology 
+Sharp S J Meta analysis regression Stata Technical Bulletin vol 
+Silbert L C Quinn J F Moore M M Corbridge E Ball M J Murdoch 
+G Sexton G Kaye J A Changes premorbid brain volume
+predict Alzheimers disease pathology Neurology 
+Small G W Rabins P V Barry P P Buckholtz N S DeKosky S T Ferris S H Finkel S I Gwyther L P Khachaturian Z S Lebowitz B D 
+J Barnes Neurobiology Aging 
+McRae T D Morris J C Oakley F Schneider L S Streim J E Sunderland T Teri L A Tune L E Diagnosis and treatment 
+Alzheimer disease and related disorders Consensus statement the
+American Association for Geriatric Psychiatry the Alzheimers Association and the American Geriatrics Society JAMA 
+Thompson P M Hayashi K M Zubicaray G I Janke A L Rose 
+S E Semple J Hong M S Herman D H Gravano D Doddrell 
+D M Toga A W Mapping hippocampal and ventricular change
+ Alzheimer disease Neuroimage 
+Wang L Swank J S Glick I E Gado M H Miller M I Morris J C 
+Csernansky J G Changes hippocampal volume and shape
+across time distinguish dementia the Alzheimer type from healthy
+aging Neuroimage 

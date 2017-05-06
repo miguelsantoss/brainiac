@@ -197,7 +197,7 @@ class Timeline extends Component {
   render() {
     return (
       <div className="drag-wrapper">
-        <div className="handle text-vert-center">
+        <div className="LayoutHandle handle text-vert-center">
           <span>Timeline</span>
         </div>
         <div id="window-timeline-content" className="content text-vert-center">

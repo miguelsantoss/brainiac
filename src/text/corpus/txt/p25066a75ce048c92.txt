@@ -1,0 +1,839 @@
+HIPPOCAMPUS 
+COMMENTARY
+Hippocampal Volume and Asymmetry Mild Cognitive Impairment
+and Alzheimers Disease Meta Analyses MRI Studies
+Feng Shi Bing Liu Yuan Zhou Chunshui Yu and Tianzi 
+ABSTRACT 
+Numerous studies have reported smaller hippocampal
+volume Alzheimers disease AD patients than aging controls 
+However mild cognitive impairment MCI the results are inconsistent Moreover the left right asymmetry the hippocampus receives
+less research attention In this article meta analyses are designed 
+determine the extent hippocampal atrophy MCI and AD and 
+evaluate the asymmetry pattern the hippocampal volume control 
+MCI and AD groups From studies including MCI patients and
+ controls signicant atrophy found both the left Effect size
+ ES condence interval CI and right ES 
+ CI hippocampus which lower than that AD ES 
+ CI left ES CI right 
+Comparing with aging controls the average volume reduction weighted
+ sample size and left and right hippocampus 
+MCI and and left and right hippocampus AD 
+respectively The ndings show bilateral hippocampal volume loss 
+MCI and the extent atrophy less than that AD By comparing the
+left and right hippocampal volume consistent left less than right
+asymmetry pattern found but with different extents control ES 
+ MCI ES and AD ES group V Wiley Liss Inc 
+C
+KEY WORDS 
+magnetic resonance imaging hippocampus volumetric
+analysis asymmetry meta analysis
+INTRODUCTION
+Alzheimers disease AD the most common progressive neurodegenerative disorder characterized neurobrillary tangles NFTs and
+amyloid deposition Terry Nestor The spread
+ NFTs hierarchized starting from the medial temporal lobe structures including the hippocampus followed the association areas and
+nally extending the entire cortex Delacourte These
+microscopic changes will inuence global structures which can 
+assessed with volumetric magnetic resonance imaging MRI Mortimer
+National Laboratory Pattern Recognition Institute Automation 
+Chinese Academy Sciences Beijing China Department Radiology Xuanwu Hospital Capital Medical University Beijing China
+Grant sponsor Natural Science Foundation China Grant numbers 
+ Grant sponsor National Key Basic Research and
+Development Program Grant number 
+ Correspondence Tianzi Jiang National Laboratory Pattern Recognition Institute Automation Chinese Academy Sciences Beijing
+ China E mail jiangtznlpr 
+Accepted for publication January 
+DOI hipo 
+Published online March Wiley InterScience www interscience 
+wiley com 
+C 
+V
+WILEY LISS INC 
+ In AD patients numerous neuroimaging
+studies reported structural brain abnormalities and
+hippocampal atrophy was taken consistent nding
+ Chetelat and Baron Hippocampal volume
+and its change were proven effective predicting disease progression and AD diagnosis Mungas
+ Anstey and Maller den Heijer
+As better representation the clinical manifestation incipient AD the criteria mild cognitive
+impairment MCI was developed Petersen 
+ Petersen The rate developing
+AD MCI per year much higher than
+that normal elderly subjects which about 
+per year Pennanen Consequently investigating the hippocampal volume atrophy MCI and
+the comparison magnitude and extent atrophy
+between MCI and AD attract great interest recently 
+because has the potential provide measure for
+tracking the disease progression and understand the
+pathogenesis In MCI many studies reported bilateral
+hippocampal atrophy Wolf Hsu 
+ Anstey and Maller Wang 
+Pennanen Wolf Jessen 
+ However there were also some inconsistent
+results Muller found signicant lower
+volume only existed the left hippocampus and
+Zhang reported smaller hippocampal volume only the right side In several longitudinal
+studies total hippocampal volume was reported 
+reduced the following order control MCI 
+AD Pennanen Jessen and
+the hippocampal volume MCI converters AD
+was signicantly smaller than MCI nonconverters
+ Devanand In general there are many
+previous studies that have investigated the hippocampal volume MCI and AD patients but studies 
+the statistical analysis the magnitude and extent 
+hippocampal volumetric reduction are relatively rare 
+and the ndings are also affected limited sample
+size especially longitudinal studies 
+To address this issue introduce the meta analysis determine the magnitude and extent hippocampal volume MCI and AD studies integrating the results relevant cross sectional studies and
+SHI ET AL 
+overcoming the effect small sample size single study 
+Meta analysis well established statistic method and widely
+used brain and hippocampus volumetric studies depression Campbell Videbech and Ravnkilde 
+Schizophrenia Boos Posttraumatic Stress Disorder
+ PTSD Karl etc Instead simply summarizing
+the previous studies results meta analysis denes effect size
+ represent the quantitative ndings each study and allow
+the comparisons across studies 
+Meanwhile increasing evidence indicates that pathological
+factors may lead asymmetry brain Toga and Thompson 
+ Nardi and Bingman Wolf reported
+signicant left less than right hippocampal asymmetry controls and MCI patients Barnes found nonsignicant trend left less than right asymmetry controls and
+the rst scan AD patients but the asymmetry was not
+remained the follow scan months later These studies indicate the asymmetry the left and right hippocampal
+volume exists and may varies with disease progression and thus
+additional meta analyses hippocampal asymmetry were
+adopted address this issue 
+In this study conduct meta analyses the cross sectional
+MRI studies which contain volumetric analysis the hippocampus MCI AD patients Our aims are summarize the previous hippocampal volume studies MCI and AD
+patients and establish the extent hippocampal atrophy 
+ examine the moderating variables that might contribute 
+the discrepancies and investigate the asymmetry patterns
+ the hippocampus controls MCI and AD patients 
+METHODS
+Considering the MRI techniques were developed rapidly and
+the value earlier volumetric studies with older imaging paradigms might largely diminished studies published before
+the year were not included Seventeen studies showed
+their hippocampal volume results with only gures provided
+only the total hippocampal volume left plus right For these
+studies contacted the authors request the detailed data
+via email Five studies were remained this manner Head
+ Leon Ridha Wang
+ Zhang If the same subjects were
+used different studies only one study with the largest sample
+was included Laakso One study Murphy
+ reporting excessive hippocampal atrophy was discarded for highly bias the following sensitive test In the
+remaining studies the minimum number samples 
+patient and control group was No studies were excluded
+based the sample size but sample size correction was introduced the following effect size denition 
+If study provided both raw volume and normalized volume hippocampus Laakso Wolf
+ Muller Yavuz the latter
+would chosen When multiscan data was provided longitudinal study Dixon Barnes Ridha
+ the rst scan was chosen If more than one control group were provided for example younger and older
+groups Head nondemented cotwins and normal controls Jarvenpaa the one with better
+matched age and the nondemented cotwins were chosen 
+Finally studies were included our meta analysis Fig 
+ which studies included AD patients and controls Laakso Toledo Morrell 
+Laakso Wolf Dixon 
+Hsu Davies Jarvenpaa 
+Data Sources
+The MEDLINE database was searched October 
+using the following keywords Hippocampus Medical
+Subject Heading MeSH term and Alzheimer disease 
+MeSH term and Volume The term Alzheimer disease was
+then substituted with Mild cognitive impairment Dementia MeSH term and the search was repeated Titles
+and abstracts were examined decide whether studies could
+ included and the full article candidates was checked 
+further determination Additional studies were identied from
+the reference lists key studies 
+Study Selection
+A total studies fullling the following criteria were
+included hippocampal volume counting was based MRI
+volumetric data MCI AD patients were involved 
+ population normal controls was reported concurrently 
+ they should published peer review journal with English
+language and they were published not before 
+Hippocampus
+FIGURE 
+Cross sectional studies selection 
+META ANALYSES OF HIPPOCAMPAL STUDIES
+TABLE 
+Cross Sectional Volumetric Studies
+Patient
+Study and year
+Barnes 
+Basso 
+Davies 
+Dixon 
+Head 
+Head 
+Hsu 
+Correction method
+Study used
+N
+Male 
+Age
+MMSE
+N
+Male 
+Age
+MMSE
+Raw volume
+AD
+AD
+AD
+AD
+AD
+AD
+AD
+MCI
+AD
+MCI
+AD
+AD
+AD
+MCI
+MCI
+MCI
+MCI
+AD
+MCI
+MCI
+AD
+AD
+MCI
+AD
+MCI
+AD
+MCI
+AD
+MCI
+AD
+AD
+AD
+AD
+AD
+MCI
+MCI
+AD
+MCI
+NS
+NS
+NS
+NS
+NS
+NS
+NS
+NS
+NS
+NS
+NS
+NS
+NS
+NS
+NS
+NS
+Ridha 
+Scher 
+Teipel 
+van Pol 
+Wang L 
+Wang L 
+Chao 
+ Leon 
+Jessen 
+TIV correction
+Muller 
+Toledo Morrell 
+Wolf 
+Wolf 
+Yavuz 
+Zhang 
+Jarvenpaa 
+Laakso 
+Laakso 
+Laakso 
+Pennannen 
+Sandstrom 
+Wang PN 
+Control
+ICA correction
+NS not stated TIV total intracranial volume ICA coronal intracranial area the level the anterior commissure 
+Head has two samples 
+Pennanen Wolf Barnes 
+Chao Head Basso Jessen
+ Ridha Teipel van 
+Pol Wang Scher Yavuz
+ Zhang and studies included 
+MCI patients and controls Wolf 
+Hsu Wang Pennanen 
+ Muller Leon Jessen
+ Ridha Sandstrom Yavuz
+ Zhang nine studies containing both
+AD and MCI Table 
+Data Analysis
+Data analyzed using the RevMan software supplied
+ Cochrane Collaboration http www ims net RevMan 
+For each study effect size calculated Hedges which 
+similar the metric Cohen Cohen but includes 
+adjustment for small sample size bias Hedges and Olkin 
+ The formula follows 
+Ni 
+Hippocampus
+SHI ET AL 
+Ni 
+where the ith study and are the mean hippocampal
+volume the control group and patient group respectively 
+ and are the standard derivation SD the pooled
+standard deviation and are the number subjects 
+two groups respectively and Ni the number total subjects
+ the ith study Ni 
+Effect size ES can interpreted terms the percent 
+nonoverlap score distributions two groups An ES 
+indicate the distribution volume for two groups are totally
+overlapped ES and indicate nonoverlap rate
+ and referring small medium and
+large effects respectively Cohen The higher ES value
+ the larger difference found two groups 
+After computing the individual effect sizes use random
+effects model weigh the studies inverse variance
+method In this way can obtain combined effect size 
+which indicates the magnitude the association across all
+studies The formulas are follows 
+P
+ P
+Ni
+SEi 
+ Ni 
+where the effect size the ith study the inverse variance weight and SEi the standard error 
+Thus the weighted combined effect size and its condence interval CI can obtained A larger effect size means
+ greater difference the hippocampal volume between the
+two groups If CI contains means that signicant difference exists 
+In addition the homogeneity statistic Q calculated 
+assess the variance results across studies follows 
+Q
+X
+Q distributed the number studies A signicant Q statistic indicates that studies cannot share
+ common population effect size they are heterogenous 
+In this case further analysis needed investigate potential
+moderating factors 
+In the following asymmetry analysis the left and right hippocampal volumes are compared which are dependent groups
+ called correlated design Rosnow and Rosenthal 
+Hedges employed calculate the effect size There are
+Hippocampus
+some arguments how compute the pooled SD Mullen
+and Rosenthal Rosenthal Dunlop 
+In this study choose the original standard deviations instead
+ the paired test value avoid overestimating the actual
+effect size Dunlop 
+Sensitivity analysis conducted ensure that single
+study will bias the combined results removing one study
+each time and recalculating the combined effect size the
+remaining studies Usually published studies tend biased
+toward positive ndings and nonsignicant nding may not
+ published This will cause the drawer problem Fail safe
+number introduced assess this publication bias The failsafe number nfs signies the minimum number unpublished
+studies with nonsignicant ndings that needed overturn the
+conclusion the meta analysis A larger fail safe number
+means the results are safer from publication bias Orwin has
+provided formula calculate nfs follows Orwin 
+nfs 
+ jgj 
+where the number studies and the trivial value 
+which the obtained effect would reduced here set 
+ the criterion effect size 
+Moderator Variables
+Two factors may largely inuence heterogeneity this study 
+namely head size correction methods and disease severities In
+many studies hippocampus volume provided directly raw
+volume To account for variations head size among subjects 
+some studies normalize hippocampus volume total intracranial volume TIV also known intracranial volume ICV 
+dened the sum the whole brain volume WBV and the
+CSF volume Some other studies also control hippocampus volume coronal intracranial area ICA the level the anterior commissure A subgroup analysis performed evaluate
+the effect the heterogeneity raw volume and two head size
+correction methods the hippocampal volume AD and
+MCI analysis 
+MMSE Mini Mental State Examination score always
+taken indicator disease severity and provided MCI and
+AD studies In MCI studies mean MMSE score each study
+ranged from Mean SD suggesting that
+subjects might have similar cognitive level But AD studies 
+ ranged from Mean SD suggesting
+that both mild and moderate Alzheimers disease were included
+ these studies The heterogeneity disease severity may confound the ndings Alzheimers disease Thus subgroup
+analysis designed address the effect the severity heterogeneity the hippocampal volume dividing AD into two
+groups The studies whose mean MMSE score are larger than
+ were classied mild AD group and others moderate
+AD group 
+META ANALYSES OF HIPPOCAMPAL STUDIES
+FIGURE 
+Standardized mean difference left hippocampal volume MCI patients
+with aging controls from meta analysis studies Color gure can viewed the
+online issue which available www interscience wiley com 
+RESULTS
+Hippocampal Volume MCI
+Sensitivity analysis was rst utilized and outliers were
+found this study A total studies which met the inclusion criteria were entered into meta analysis including 
+MCI patients and matched aging controls Table The
+Q test heterogeneity was nonsignicant both the left
+ P and right P hippocampus The combined
+effect size Hedges revealed signicant hippocampal volume
+loss CI for the left hippocampus
+ Fig and CI for the right hippocampus Fig The large effects indicated severe bilateral
+hippocampal atrophy MCI especially left side 
+Comparing with controls the average volume reduction
+ AVR weighted sample size can obtained follows
+ Videbech and Ravnkilde 
+P
+AVR 
+Pi Ci Ci Ni 
+P
+Ni
+where Pi and Ci are the hippocampal volume patients and
+controls Ni the total sample size ith study The average
+volume reduction was SD the left hippocampus and SD the right hippocampus The fail
+safe numbers this case were the left and the
+right which were large enough provide convincing results 
+Hippocampal Volume AD
+Sensitivity analysis was also performed and one study with
+excessive hippocampal atrophy which largely inuenced the
+combined results was taken outlier Murphy 
+ Meta analysis was performed the remaining studies comprising AD patients and matched aging controls Table The Q test heterogeneity was signicant 
+the left P and right P hippocampus Random effect model was chosen the meta analysis calculate
+the effect size reduce the inuence heterogeneity The statistical signicances were revealed combined Hedges 
+ CI for the left hippocampus and 
+CI for the right hippocampus Table By conducting two sample test for the effect size each study 
+MCI and AD meta analyses for each hippocampus severe bilateral hippocampal atrophy pattern was found AD than that
+ MCI left P right P The average volume reduction was SD the left hippocampus
+and SD the right hippocampus Fail safe
+numbers this case were the left and the
+right which were large enough provide convincing results 
+Heterogeneity Analysis
+The results subgroup analysis for head size correction
+methods were shown Table In MCI studies heterogeneity trend was found overall studies P the left 
+P the right In subgroup analysis mild heterogeneity was only found right hippocampus the TIV correction
+Hippocampus
+SHI ET AL 
+FIGURE 
+Standardized mean difference right hippocampal volume MCI patients
+with aging controls from meta analysis studies Color gure can viewed the
+online issue which available www interscience wiley com 
+group P But when one study Leon 
+was excluded sensitivity analysis heterogeneity was reduced
+ nonsignicant P In AD studies signicant heterogeneity observed overall studies was largely reduced these
+subgroups and only remained the raw volume group P 
+ left P right 
+To investigate the inuence disease severity subgroup
+analysis MMSE score was performed AD studies Table
+ Signicant bilateral hippocampal heterogeneity was reduced
+ mild AD MMSE group P left P 
+ right but remained moderate AD MMSE 
+group P left P right The effect size
+which showed the atrophy was smaller mild AD group 
+ left right than moderate AD group left 
+ right usually expected 
+Hippocampal Asymmetry Controls 
+MCI and AD
+To compare the asymmetry the left and right hippocampi 
+meta analyses were performed the controls MCI and AD
+patients respectively 
+In the controls studies were involved including subjects Combined effect size was achieved CI 
+ Left Right In MCI patients studies were
+selected including subjects Combined effect size was
+TABLE 
+Subgroup Meta Analyses Head Size Correction Methods
+Left hippocampus
+Subgroup
+MCI
+AD
+Right hippocampus
+Correction methods
+N
+Effect size
+ CI
+P Q 
+Effect size
+ CI
+P Q 
+Absolute
+TIV correction
+ICA correction
+All studies
+Absolute
+TIV correction
+ICA correction
+All studies
+N the number studies TIV total intracranial volume ICA coronal intracranial area the level the anterior commissure P Q Q statistic test assess heterogeneity 
+ P P P 
+Hippocampus
+META ANALYSES OF HIPPOCAMPAL STUDIES
+TABLE 
+Subgroup Meta Analysis Disease Severity AD Studies
+Left hippocampus
+Right hippocampus
+MMSE
+N
+Effect size
+ CI
+P Q 
+Effect size
+ CI
+P Q 
+All studiesa
+N the number studies P Q Q statistic test assess heterogeneity 
+Two studies not provided MMSE score 
+ P P P 
+obtained CI Left Right In AD
+patients studies were involved including subjects 
+Combined effect size was CI left 
+right Fig A consistent left less than right asymmetry was
+found all three groups Meanwhile conducting two
+sample test for the asymmetry degree among three groups 
+only trend toward signicance was found P 
+between MCI and control group Taking right hippocampus 
+baseline the relative left hippocampus average volume reduction weighted sample size could obtained SD
+ AD SD MCI and SD 
+ controls 
+DISCUSSION
+Through these meta analyses signicant bilateral hippocampal atrophy validated both MCI and AD patients Fig 
+The extent hippocampal volume loss MCI smaller than
+that AD which partially supports the fact that MCI 
+transitional stage AD In the asymmetry analysis left less 
+FIGURE 
+Asymmetry hippocampal volume the controls MCI and AD Positive effect size means the left less thanright pattern hippocampus volume Color gure can viewed
+ the online issue which available www interscience wiley 
+com 
+than right pattern found consistently but with different
+extents all three groups namely MCI AD and controls 
+The disturbance hippocampus asymmetry may characteristic that suggests the onset illness 
+The heterogeneity studies may come from the following
+aspects Variations MRI acquisition protocols In this article the included studies used T MR machine and the
+obtained slice thickness exceeded studies 
+Toledo Morrell Dixon Sandstrom
+ Variations hippocampal boundary delineation methods Anstey and Maller Campbell 
+ In most studies hippocampus was manually traced 
+ neuroanatomists trained operators coronal oblique
+images acquired perpendicular the long axis the body 
+the hippocampus according anatomical guidelines The raters
+were claimed blind the diagnoses and neuropsychological
+performance all subjects but not blinded hemisphere left
+ right The intra inter rater reliability was reported
+higher than Variations the characteristics AD
+patients different studies such disease severity cognitive
+prole family history and genetic variations like ApoE allele
+FIGURE 
+An illustration hippocampal volume reduction
+ MCI and AD patients comparison with controls Note that
+control group taken baseline and the effect size set zero 
+Color gure can viewed the online issue which available
+ www interscience wiley com 
+Hippocampus
+SHI ET AL 
+distribution For example the study Ridha was
+based autosomal dominant AD patients while dominant
+inheritance AD patients were included Basso 
+Only four studies provided the Apo E allele distribution 
+their subjects around Variations head size correction methods A total studies directly provided the
+raw volume hippocampus Table However would 
+reasonable consider the inuence whole brain volume 
+hippocampus volume A total studies corrected hippocampus volume with total intracranial volume TIV which was
+independent with brain atrophy and was proved good
+measurement for premorbid brain size and therefore better
+measure for adjusting individual differences brain size Other
+ studies corrected their volume with the area specic slice 
+ coronal intracranial area the level the anterior commissure ICA for which the accuracy was affected the slice
+chosen So TIV correction method recommended use 
+future hippocampus volumetric studies because takes the intracranial volume into account and more reasonable than area
+correction method 
+We signicant hippocampal atrophy MCI and AD
+groups which may the result neuron loss because strong
+correlations have been found between neuron number and total
+hippocampal volume both AD patients and aging subjects
+ Scheff and Price Kril Neurons human
+hippocampus subeld are signicantly reduced AD
+patients Zarow Moreover postmortem studies have
+shown that such reduction was the following order controls
+ MCI patients mild AD patients Scheff 
+The measure hippocampal volume has been used for predicting MCI DeCarLi Jack Apostolova den Heijer and AD Growdon 
+ Mungas Toledo Morrell 
+Recently the role hippocampus the MCI translation has
+attracted more attention One study Devanand 
+found that the hippocampal volume was signicantly smaller 
+MCI converters AD than MCI nonconverters Moreover 
+MCI patients with smaller hippocampi especially the and
+subicular subregion had increased risk converting into
+AD patients Apostolova However other studies
+reported that the volume the amygdala entorhinal may 
+more predictive than that the hippocampus Dickerson
+ Silbert Toledo Morrell 
+ Stoub Basso Wang 
+ In general hippocampal volume may nonindependent predictor the conversion and other features such 
+age Hampel van Pol the volume
+ amygdala Horinek Horinek and
+entorhinal cortex EC Toledo Morrell Jessen
+ and hippocampal shape features Narr 
+ Wang Li Scher 
+need integrated improve the prediction 
+In this study left less than right pattern found all
+three groups which consistent with previous studies In some
+studies Jessen Ridha Wolf 
+ the right hippocampus was found signicantly
+Hippocampus
+larger than the left the controls and MCI but not AD 
+which indicates the asymmetry was the least AD group In 
+longitudinal study Barnes left less than right
+pattern was found the baseline AD patients but this
+result was not repeated follow scan conducted 
+months later which suggested the asymmetry AD was
+reduced with disease progression A neonatal study found the
+preterm infants tended have less asymmetrical hippocampus
+than full term infants Thompson And males
+with schizophrenia established nonsignicant hippocampus volume asymmetry whereas the control subjects did Fukuzako
+ The abnormal disturbance found MCI and
+AD patients this study may state characteristic and this
+feature may have the potential used tracing the progression this disease 
+There are several limitations our meta analyses One limitation the publication bias Because some relevant studies
+may not included the MEDLINE database and inevitably
+missed this study Fail safe number employed assess this
+bias Second MCI has many subtypes In which amnestic
+MCI was recognized the closest Alzheimers disease In
+cross sectional MCI analyses this article only studies
+declare their patient subtype amnestic MCI which not
+sufcient conduct meta analysis Third hippocampus
+delineation many studies report that their raters are blind 
+clinical neuropsychological data but most them are not
+blind hemisphere left right The left right hippocampus
+asymmetry found this study may affected raters handedness But considering the asymmetry obtained integrating many relevant studies and signicant trend also got
+when comparing asymmetry degree MCI and AD the asymmetry found still meaningful Fourth the combined effect
+sizes are obtained putting together all relevant studies AD
+and MCI analyses Note that the subgroup analyses are also
+provided and that effect sizes has similar magnitude with the
+overall results appropriate get this combined effect size
+for overview the degree hippocampus atrophy AD
+and MCI analyses 
+In summary from the aspect the extent hippocampal
+volume loss our results partly support the hypothesis that MCI
+ transitional stage between normal people and AD Our
+study also shows the consistent left less than right asymmetry
+ the aging control MCI and AD groups but their different
+extents suggest the asymmetry may change dynamically according
+ disease progression These ndings obtained this study may
+ helpful tracing hippocampus change from normal people 
+severe AD patients longitudinally and providing more candidate
+markers for predicting MCI and AD 
+REFERENCES
+Anstey KJ Maller JJ The role volumetric MRI understanding mild cognitive impairment and similar classications 
+Aging Ment Health 
+META ANALYSES OF HIPPOCAMPAL STUDIES
+Apostolova LG Dutton RA Dinov ID Hayashi KM Toga AW 
+Cummings JL Thompson PM Conversion mild cognitive impairment Alzheimer disease predicted hippocampal atrophy maps Arch Neurol 
+Barnes J Scahill RI Schott JM Frost C Rossor MN Fox NC 
+Does Alzheimers disease affect hippocampal asymmetry? Evidence
+from cross sectional and longitudinal volumetric MRI study 
+Dement Geriatr Cogn Disord 
+Basso M Yang J Warren L MacAvoy MG Varma P Bronen RA van
+Dyck CH Volumetry amygdala and hippocampus and
+memory performance Alzheimers disease Psychiatry Res
+Boos H Aleman A Cahn W Pol HH Kahn RS Brain volumes
+ relatives patients with Schizophrenia A meta analysis Arch
+Gen Psychiatry 
+Campbell S Marriott M Nahmias C MacQueen GM Lower
+hippocampal volume patients suffering from depression A
+meta analysis Am J Psychiatry 
+Campbell S Marriott M Nahmias C MacQueen GM Lower
+hippocampal volume patients suffering from depression A
+meta analysis Am J Psychiatry 
+Chao LL Schuff N Kramer JH Du AT Capizzano AA ONeill J Wolkowitz OM Jagust WJ Chui HC Miller BL Yaffe K Weiner MW 
+Reduced medial temporal lobe N acetylaspartate cognitively
+impaired but nondemented patients Neurology 
+Chetelat G Baron JC Early diagnosis Alzheimers disease 
+Contribution structural neuroimaging Neuroimage 
+Cohen J Statistical power analysis for the behavioral sciences 
+Lawrence Erlbaum Associates 
+Davies RR Graham KS Xuereb JH Williams GB Hodges JR 
+The human perirhinal cortex and semantic memory Eur J Neurosci 
+ Leon MJ DeSanti S Zinkowski R Mehta PD Pratico D Segal S 
+Rusinek H Li J Tsui W Saint Louis LA Clark CM Tarshish C 
+Li Y Lair L Javier E Rich K Lesbre P Mosconi L Reisberg B 
+Sadowski M DeBernadis JF Kerkman DJ Hampel H Wahlund
+L O Davies P Longitudinal CSF and MRI biomarkers
+improve the diagnosis mild cognitive impairment Neurobiol
+Aging 
+DeCarli C Mungas D Harvey D Reed B Weiner M Chui H Jagust
+W Memory impairment but not cerebrovascular disease 
+predicts progression MCI dementia Neurology 
+Delacourte A David JP Sergeant N Buee L Wattez A Vermersch P 
+Ghozali F Fallet Bianco C Pasquier F Lebert F Petit H Di Menza
+C The biochemical pathway neurobrillary degeneration
+ aging and Alzheimers disease Neurology 
+den Heijer T Geerlings MI Hoebeek FE Hofman A Koudstaal PJ 
+Breteler MM Use hippocampal and amygdalar volumes
+ magnetic resonance imaging predict dementia cognitively
+intact elderly people Arch Gen Psychiatry 
+ Toledo Morrell L Dickerson B Sullivan MP Spanovic C Wilson
+R Bennett DA Hemispheric differences hippocampal
+volume predict verbal and spatial memory performance patients
+with Alzheimers disease Hippocampus 
+ Toledo Morrell L Stoub TR Bulgakova M Wilson RS Bennett
+DA Leurgans S Wuu J Turner DA MRI derived entorhinal volume good predictor conversion from MCI AD 
+Neurobiol Aging 
+Devanand DP Pradhaban G Liu X Khandji A De Santi S Segal S 
+Rusinek H Pelton GH Honig LS Mayeux R Stern Y Tabert
+MH Leon MJ Hippocampal and entorhinal atrophy 
+mild cognitive impairment prediction Alzheimer disease Neurology 
+Dickerson BC Goncharova I Sullivan MP Forchetti C Wilson RS 
+Bennett DA Beckett LA DeToledo Morrell L MRI derived
+entorhinal and hippocampal atrophy incipient and very mild
+Alzheimers disease Neurobiol Aging 
+Dixon RM Bradley KM Budge MM Styles P Smith AD Longitudinal quantitative proton magnetic resonance spectroscopy 
+the hippocampus Alzheimers disease Brain Part 
+Dunlop WP Cortina JM Vaslow JB Burke MJ Meta analysis
+ experiments with matched groups repeated measures designs 
+Psychol Methods 
+Fukuzako H Yamada K Kodama S Yonezawa T Fukuzako T Takenouchi K Kajiya Y Nakajo M Takigawa M Hippocampal
+volume asymmetry and age illness onset males with schizophrenia Eur Arch Psychiatry Clin Neurosci 
+Growdon JH Biomarkers Alzheimer disease Arch Neurol
+Hampel H Teipel SJ Bayer W Alexander GE Schwarz R Schapiro
+MB Rapoport SI Moller HJ Age transformation combined hippocampus and amygdala volume improves diagnostic accuracy Alzheimers disease J Neurol Sci 
+Head D Snyder AZ Girton LE Morris JC Buckner RL Frontal hippocampal double dissociation between normal aging and
+Alzheimers disease Cereb Cortex 
+Hedges LV Olkin I Statistical methods for meta analysis 
+San Diego Academic Press 
+Horinek D Petrovicky P Hort J Krasensky J Brabec J Bojar M 
+Vaneckova M Seidl Z Amygdalar volume and psychiatric
+symptoms Alzheimers disease An MRI analysis Acta Neurol
+Scand 
+Horinek D Varjassyova A Hort J Magnetic resonance analysis
+ amygdalar volume Alzheimers disease Curr Opin Psychiatry
+Hsu YY Schuff N Du AT Mark K Zhu X Hardin D Weiner MW 
+Comparison automated and manual MRI volumetry 
+hippocampus normal aging and dementia J Magn Reson Imaging 
+Jack CR Jr Shiung MM Weigand SD OBrien PC Gunter JL Boeve
+BF Knopman DS Smith GE Ivnik RJ Tangalos EG andothers 
+Brain atrophy rates predict subsequent clinical conversion 
+normal elderly and amnestic MCI Neurology 
+Jarvenpaa T Laakso MP Rossi R Koskenvuo M Kaprio J Raiha I 
+Kurki T Laine M Frisoni GB Rinne JO Hippocampal
+MRI volumetry cognitively discordant monozygotic twin pairs 
+J Neurol Neurosurg Psychiatry 
+Jessen F Feyen L Freymann K Tepest R Maier W Heun R Schild
+HH Scheef L Volume reduction the entorhinal cortex 
+subjective memory impairment Neurobiol Aging 
+Karl A Schaefer M Malta LS Dorfel D Rohleder N Werner A 
+A meta analysis structural brain abnormalities PTSD 
+Neurosci Biobehav Rev 
+Kril JJ Hodges J Halliday G Relationship between hippocampal volume and neuron loss brains humans with and
+without Alzheimers disease Neurosci Lett 
+Laakso MP Soininen H Partanen K Lehtovirta M Hallikainen M 
+Hanninen T Helkala EL Vainio P Riekkinen PJ Sr MRI 
+the hippocampus Alzheimers disease sensitivity specicity and
+analysis the incorrectly classied subjects Neurobiol Aging
+Laakso MP Hallikainen M Hanninen T Partanen K Soininen H 
+ Diagnosis Alzheimers disease MRI the hippocampus
+ delayed recall Neuropsychologia 
+Laakso MP Lehtovirta M Partanen K Riekkinen PJ Soininen H 
+ Hippocampus Alzheimers disease A year follow 
+MRI study Biol Psychiatry 
+Li S Shi F Pu F Li X Jiang T Xie S Wang Y Hippocampal
+shape analysis Alzheimer disease based machine learning
+methods AJNR Am J Neuroradiol 
+Mortimer JA Gosche KM Riley KP Markesbery WR Snowdon DA 
+Delayed recall hippocampal volume and Alzheimer neuropathology ndings from the Nun Study Neurology 
+Hippocampus
+SHI ET AL 
+Mullen H Rosenthal R BASIC meta analysis Procedures and
+programs Hillsdale NJ Earlbaum 
+Muller MJ Greverus D Dellani PR Weibrich C Wille PR Scheurich
+A Stoeter P Fellgiebel A Functional implications 
+hippocampal volume and diffusivity mild cognitive impairment 
+Neuroimage 
+Mungas D Reed BR Jagust WJ DeCarli C Mack WJ Kramer JH 
+Weiner MW Schuff N Chui HC Volumetric MRI predicts
+rate cognitive decline related AD cerebrovascular disease 
+Neurology 
+Murphy C Jernigan TL Fennema Notestine C Left hippocampal volume loss Alzheimers disease reected performance
+ odor identication A structural MRI study J Int Neuropsychol
+Soc 
+Nardi D Bingman VP Asymmetrical participation the left
+and right hippocampus for representing environmental geometry 
+homing pigeons Behav Brain Res 
+Narr KL Thompson PM Szeszko P Robinson D Jang S Woods RP 
+Kim S Hayashi KM Asunction D Toga AW Bilder RM 
+Regional specicity hippocampal volume reductions rst episode schizophrenia Neuroimage 
+Nestor PJ Scheltens P Hodges JR Advances the early detection Alzheimers disease Nat Med Suppl 
+Orwin RG A fail safe N for effect size meta analysis J Educ
+Stat 
+Pennanen C Kivipelto M Tuomainen S Hartikainen P Haninen T 
+Laakso MP Hallikainen M Vanhanen M Nissinen A Helkala EL 
+Vainioe P Vanninene R Partanene K Soininen H Hippocampus and entorhinal cortex mild cognitive impairment and
+early AD Neurobiol Aging 
+Petersen RC Smith GE Waring SC Ivnik RJ Tangalos EG Kokmen
+E Mild cognitive impairment Clinical characterization and
+outcome Arch Neurol 
+Ridha BH Barnes J Bartlett JW Godbolt A Pepple T Rossor MN 
+Fox NC Tracking atrophy progression familial Alzheimers disease A serial MRI study Lancet Neurol 
+Rosenthal R Meta analytic procedures for social research Newbury Park CA Sage 
+Rosnow RL Rosenthal R Computing contrasts effect sizes 
+and counternulls other peoples published data General procedures for research consumers Pyschol Methods 
+Sandstrom CK Krishnan S Slavin MJ Tran TT Doraiswamy PM 
+Petrella JR Hippocampal atrophy confounds template based
+functional MR imaging measures hippocampal activation 
+patients with mild cognitive impairment AJNR Am J Neuroradiol
+Scheff SW Price DA Synaptic pathology Alzheimers disease 
+A review ultrastructural studies Neurobiol Aging 
+Scheff SW Price DA Schmitt FA Mufson EJ Hippocampal
+synaptic loss early Alzheimers disease and mild cognitive impairment Neurobiol Aging 
+Scheff SW Price DA Schmitt FA DeKosky ST Mufson EJ 
+Synaptic alterations mild Alzheimer disease and mild
+cognitive impairment Neurology 
+Scher AI Xu Y Korf ES White LR Scheltens P Toga AW Thompson
+PM Hartley SW Witter MP Valentino DJ Launer LI Hippocampal shape analysis Alzheimers disease A population based
+study Neuroimage 
+Hippocampus
+Silbert LC Quinn JF Moore MM Corbridge E Ball MJ Murdoch
+G Sexton G Kaye JA Changes premorbid brain volume
+predict Alzheimers disease pathology Neurology 
+Stoub TR Bulgakova M Leurgans S Bennett DA Fleischman D 
+Turner DA DeToledo Morrell L MRI predictors risk 
+incident Alzheimer disease A longitudinal study Neurology 
+Teipel SJ Pruessner JC Faltraco F Born C Rocha Unold M Evans
+A Moller HJ Hampel H Comprehensive dissection the
+medial temporal lobe AD Measurement hippocampus amygdala entorhinal perirhinal and parahippocampal cortices using
+MRI J Neurol 
+Terry RD Masliah E Salmon DP Butters N DeTeresa R Hill R 
+Hansen LA Katzman R Physical basis cognitive alterations Alzheimers disease Synapse loss the major correlate 
+cognitive impairment Ann Neurol 
+Thompson DK Wood SJ Doyle LW Wareld SK Egan GF Inder
+TE MR determined hippocampal asymmetry full term
+and preterm neonates Hippocampus 
+Toga AW Thompson PM Mapping brain asymmetry Nat Rev
+Neurosci 
+van Pol LA Hensel A Barkhof F Gertz HJ Scheltens P van der
+Flier WM Hippocampal atrophy Alzheimer disease age
+matters Neurology 
+van Pol LA Hensel A van der Flier WM Visser PJ Pijnenburg
+YA Barkhof F Gertz HJ Scheltens P Hippocampal atrophy MRI frontotemporal lobar degeneration and Alzheimers
+disease J Neurol Neurosurg Psychiatry 
+Videbech P Ravnkilde B Hippocampal volume and depression 
+A meta analysis MRI studies Am J Psychiatry 
+Wang L Swank JS Glick IE Gado MH Miller MI Morris JC Csernansky JG Changes hippocampal volume and shape
+across time distinguish dementia the Alzheimer type from
+healthy aging Neuroimage 
+Wang L Miller JP Gado MH McKeel DW Rothermich M Miller
+MI Morris JC Csernansky JG Abnormalities hippocampal surface structure very mild dementia the Alzheimer
+type Neuroimage 
+Wang PN Lirng JF Lin KN Chang FC Liu HC Prediction
+ Alzheimers disease mild cognitive impairment prospective
+study Taiwan Neurobiol Aging 
+Wolf H Grunwald M Kruggel F Riedel Heller SG Angerhofer S 
+Hojjatoleslami A Hensel A Arendt T Gertz H Hippocampal volume discriminates between normal cognition questionable
+and mild dementia the elderly Neurobiol Aging 
+Wolf H Hensel A Kruggel F Riedel Heller SG Arendt T Wahlund
+LO Gertz HJ Structural correlates mild cognitive impairment Neurobiol Aging 
+Yavuz BB Ariogul S Cankurtaran M Oguz KK Halil M Dagli N 
+Cankurtaran ES Hippocampal atrophy correlates with the
+severity cognitive decline Int Psychogeriatr 
+Zarow C Vinters HV Ellis WG Weiner MW Mungas D White L 
+Chui HC Correlates hippocampal neuron number 
+Alzheimers disease and ischemic vascular dementia Ann Neurol
+Zhang Y Schuff N Jahng GH Bayne W Mori S Schad L Mueller S 
+Du AT Kramer JH Yaffe K Chui H Jagust WJ Miller BL Weiner
+MW Diffusion tensor imaging cingulum bers mild cognitive impairment and Alzheimer disease Neurology 

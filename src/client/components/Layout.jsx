@@ -84,6 +84,7 @@ class Layout extends Component {
           onBreakpointChange={this.onBreakpointChange}
           onLayoutChange={this.onLayoutChange}
           measureBeforeMount={true}
+          draggableHandle={'.LayoutHandle'}
         >
           <div key="network" data-grid={{ x: 0, y: 0, w: 12, h: 8, static: false }}>
             <Network

@@ -1,0 +1,384 @@
+ORIGINAL CONTRIBUTION
+Structural Brain Changes Parkinson Disease
+With Dementia
+A Voxel Based Morphometry Study
+Christopher Summerfield MSc Carme Junqu PhD Eduardo Tolosa MD 
+Pilar Salgado Pineda PhD Beatriz Gmez Ansn MD PhD FRCR 
+Maria Jos Mart MD Pau Pastor MD Blanca Ramrez Ruz MSc Jos Mercader MD
+Background Parkinson disease with dementia PDD 
+results from neuropathological changes cortical and
+subcortical brain regions Voxel based morphometric
+analysis magnetic resonance images can contribute 
+ vivo identification the cerebral regions predominantly involved PDD 
+Objective To identify structural cerebral regions most
+closely related the presence PDD 
+Design Magnetic resonance images were obtained from
+ patients who had PDD patients with PD without
+dementia and age matched healthy control subjects 
+Gray matter volumes were compared using optimized
+voxel based morphometric analyses 
+P
+Author Affiliations 
+Department Psiquiatria 
+Psicobiologia Universitat 
+Barcelona Mr Summerfield 
+Drs Junqu and Salgado Pineda 
+and Ms Ramrez Ruz Institut
+dInvestigacions Biomdiques
+August Pi Sunyer Drs Junqu 
+Tolosa Gmez Ansn Mart 
+and Mercader Parkinsons
+Disease and Movement
+Disorders Unit Neurology
+Service Institut Clnic 
+Malalties del Sistema Nervis 
+Hospital Clnic Barcelona
+ Drs Tolosa Mart and Pastor 
+and the Centre Diagnstic
+per Imatge Hospital Clnic
+ Barcelona Drs GmezAnsn and Mercader 
+Barcelona Spain 
+Results Compared with healthy controls patients with
+PDD showed gray matter volume decreases several the
+following regions bilateral putamen accumbens nuclei left
+side the thalamus bilateral hippocampus parahippocampal region and anterior cingulate gyrus Patients with PD
+also showed gray matter reductions compared with healthy
+controls the right side the hippocampus left anterior
+cingulate gyrus and left superior temporal gyrus 
+Conclusions The hippocampus thalamus and anterior
+cingulate are the regions most affected PDD Our results agree with recent neuropathological findings suggesting the involvement the limbic and cortical areas PD 
+Arch Neurol 
+ARKINSON DISEASE PD IS
+among the most frequent
+chronic neurodegenerative
+diseases The estimated
+prevalence PD with dementia PDD approximately and the risk
+ dementia patients with PD almost 
+times higher than the general elderly
+population 
+The neuropathological basis responsible for the presence PDD remains
+controversial Degeneration the subcortical structures notably the medial
+part the substantia the basal
+ganglia amygdala and thalamus 
+nucleus basalis and locus
+ have variously been implicated PDD However recent studies
+also emphasize the importance cortical changes An association has been
+observed between dementia and the
+presence cortical Lewy bodies The
+presence Alzheimer type neuropathology PD another likely contributor 
+dementia 
+Magnetic resonance imaging MRI allows vivo identification global and
+regional atrophy Studies have shown PDD
+ REPRINTED ARCH NEUROL VOL FEB 
+ associated with volumetric changes
+ the substantia inominata the hippocampus and total cerebral volume 
+Voxel based morphometry VBM allows the determination brain density
+and volume changes without priori region interest selection This technique has been used degenerative disorders such Alzheimer disease 
+dementia with Lewy bodies DLB and
+mild cognitive impairment In PD has
+been used determine the structures involved the generation parkinsonian
+resting tremor 
+The aim this study was use VBM
+ examine more closely the structural
+brain changes responsible for PDD We 
+therefore compared brain changes patients with PDD patients with PD without dementia and healthy agematched control subjects 
+METHODS
+SUBJECTS
+Forty two subjects between the ages and
+ years participated this study well 
+WWW ARCHNEUROL COM
+ American Medical Association All rights reserved 
+Downloaded From http jamanetwork com pdfaccess ashx?url data journals neur 
+Table Demographic and Clinical Variables 
+Variable
+Age 
+Education attainment 
+HDRS score
+MMSE score
+Duration evolution PD 
+Hoehn and Yahr stages
+UPDRS
+I
+II
+III
+Levodopa dose 
+Patients With PD
+Patients With PDD
+Healthy Control Subjects
+ Test F Statistic
+P Value
+NA
+NA
+NA
+NA
+NA
+NA
+Abbreviations HDRS Hamilton Depression Rating Scale MMSE Mini Mental State Examination NA not applicable PD Parkinson disease PDD Parkinson
+disease with dementia UPDRS Unified Parkinsons Disease Rating Scale 
+ Data are given mean SD For normally distributed variables with homogeneity variance have used analysis variance For nonnormally
+distributed variables and the case inhomogeneity variance have used the nonparametrical Kruskal Wallis test that provides statistic 
+Indicates calculated using the test 
+Denotes significant P differences between healthy controls and patients with PDD and between patients with PD and patients with PDD 
+Denotes statistically significant differences between patients with PD and patients with PDD 
+having been previously published study Three groups
+ patients patients with PDD patients with PD and 
+controls were recruited from the Parkinson Disease and Movement Disorders Unit Hospital Clinic Barcelona Spain during month period Table The study was approved 
+the local ethics committee Written informed consent was obtained from the patient the patients caregiver 
+DIAGNOSTIC CRITERIA AND SELECTION
+Idiopathic PD was diagnosed using the criteria the Parkinsons Disease Society Brain Bank London England All
+patients had good excellent initial response 
+levodopa treatment Dementia was assessed using standardized instruments the Diagnostic and Statistical Manual Mental Disorders Fourth Edition DSM IV the Clinical Dementia Rating scale and the Mini Mental State Examination 
+Subjects needed Clinical Dementia Rating scale score 
+Mini Mental State Examination score less than and both
+DSM IV items fulfill dementia criteria The Clinical Dementia Rating scale and DSM IV were administered trained
+clinician J M Francesc Valldeoriola MD and the MiniMental State Examination experienced neuropsychologist C S Where required for the Clinical Dementia Rating
+scale collateral information was drawn from the patients
+spouse caregiver The control group was matched for sex
+and age SD years the patient with PDD Three
+patients were excluded owing MRI movement artifacts 
+Patients were clinically assessed using the Unified Parkinsons
+Disease Rating Scale 
+MAGNETIC RESONANCE IMAGING
+Magnetic resonance imaging was obtained all subjects using T scanner GE Medical Systems Co Milwaukee Wis 
+and the head coil A strict imaging protocol was used including dimensional inversion recovery preparation spoiled gradient recalled echo sequence the entire brain the axial plane 
+and the following parameters repetition time milliseconds echo time milliseconds inversion time milliseconds section thickness field view 
+and number excitations 
+ REPRINTED ARCH NEUROL VOL FEB 
+VOXEL BASED MORPHOMETRY
+The MRIs were analyzed using WDCN London http 
+ www fil ion ucl spm All the automated image processing was done single masked investigator C S One
+subject with PD was excluded from VBM analysis because visual inspection the MRI revealed marked hypointensities consistent with basal ganglia calcifications 
+All MRI processing was carried out accord with the optimized VBM protocol Briefly the processing steps outlined
+ this protocol are the creation customized anatomical
+ weighted template and prior probability images separately for
+each group normalizing the brain images the default SPM
+ weighted template segmenting averaging and smoothing
+the averaged brains each group normalization the structural brain images each group using these customized templates segmenting and cleaning the original weighted images normalizing the brain images the customized templates 
+segmentation and cleaning normalized brain images and modulation gray matter images the determinant the Jacobian
+matrix derived from the spatial normalization step This procedure has been previously described detail 
+Differences gray matter were examined using analysis 
+variance with post hoc comparisons controlspatients with
+PD controlspatients with PDD patients with PDpatients
+with PDD Statistical thresholds were corrected for the post
+hoc comparisons used here using the comparepopulations scan per subject Exclusive masking was used
+ determine which voxel differences were specific one disease process Results were thresholded for the group being
+studied P uncorrected for multiple comparisons 
+Only those clusters exceeding size voxels were
+included the analysis 
+Owing the characteristics our acquisition protocol and
+head size differences among subjects the most superior and 
+inferior regions were absent some subjects not clearly visible after reorientation Therefore restricted the volumetric analysis region interest comprising the temporal lobes 
+caudate lentiform nuclei cingulate gyrus anterior cingulate 
+thalami insula extranuclear region amygdala hippocampi and
+parahippocampus gyri This was achieved means the Wake
+Forest UniversityPickAtlas available http www
+ fmri wfubmc edu 
+WWW ARCHNEUROL COM
+ American Medical Association All rights reserved 
+Downloaded From http jamanetwork com pdfaccess ashx?url data journals neur 
+Table Brain Areas Showing Significant Differences Between Groups 
+Talairach Coordinate
+Cluster Dimension 
+Score
+R anterior cingulate gyrus BA 
+L anterior cingulate gyrus BA 
+Patients With PD Controls
+R hippocampus
+L anterior cingulate gyrus BA 
+L superior temporal gyrus BA 
+Patients With PDD Patients With PD
+R hippocampus
+L superior temporal gyrus
+Structure
+Patients With PDD Healthy Controls Subjects
+R hippocampus 
+L hippocampus
+L parahippocampal gyrus
+L thalamus 
+R putamen
+L putamen
+Bilateral accumbens and hypothalamus
+Abbreviations BA Broadmann area PD Parkinson disease PDD Parkinson disease with dementia 
+ Each reported anatomical location exceeds voxelwise statistical uncorrected P threshold level Asterisk denotes significance the P corrected
+for multiple comparisons level The cluster size denotes the extent the cluster significant voxels cubic millimeters 
+The Talairach coordinate refers the location the most statistically significant voxel the cluster 
+RESULTS
+PATIENTS WITH PDD VS CONTROLS
+When patients with PDD were compared with normal
+age matched controls several cortical and subcortical areas
+showed gray matter differences Table summarizes the
+brain areas which observed voxels that differed
+significantly between patients with PD and controls the
+size the cluster statistically significant voxels the
+Talairach coordinates the peak voxel and the 
+scores In the basal ganglia observed bilateral gray
+matter loss the putamen nucleus accumbens and the
+left side the thalamus Figure center row In the
+limbic region both sides the hippocampus were
+reduced size Figure top row was the left parahippocampal region In the cortical region the anterior
+cingulate gyrus was also bilaterally decreased Figure 
+bottom row 
+PATIENTS WITH PD VS CONTROLS
+Patients with PD showed gray matter reduction the
+following regions compared with the controls the right
+side the hippocampus the left anterior cingulate and
+the left superior temporal gyri Table 
+PATIENTS WITH PDD VS
+PATIENTS WITH PD
+The comparison patients with PDD and patients with
+PD showed statistically significant differences the left superior temporal gyrus and right side the hippocampus 
+ REPRINTED ARCH NEUROL VOL FEB 
+Figure Gray matter comparison between patients with Parkinson disease
+with dementia PDD and healthy control subjects Voxels reaching
+significance the uncorrected P level are rendered normal
+ weighted image Clusters density differences are observed bilaterally 
+the hippocampus thalamus putamen and anterior cingulate regions 
+COMMENT
+This study aimed identify structural brain changes 
+PDD using VBM Our results showed that volumes the
+following several structures were reduced patients with
+PDD relative age matched controls hippocampus putamen accumbens and thalamic nuclei parahippocampal regions and anterior cingulate gyrus 
+WWW ARCHNEUROL COM
+ American Medical Association All rights reserved 
+Downloaded From http jamanetwork com pdfaccess ashx?url data journals neur 
+Hippocampal atrophy has been consistently described
+ feature dementia In our study VBM results showed
+ bilateral hippocampal reduction patients with PDD 
+which was more pronounced the right hemisphere Previous studies have observed hippocampal degeneration 
+PD Hippocampal reductions may due both Lewy
+body and Alzheimer type changes 
+We also found relationship between reduction the
+left side the thalamus and dementia The thalamus has
+also recently been identified major target for neuropathological inclusions such Lewy bodies patients with PD and earlier study neuropathology
+and dementia PD also identified volumetric loss the
+thalamus predictor dementia Because our study 
+the patients with PDD had greater motor impairment than
+patients with PD possible that tissue loss observed
+ the thalamus and putamen may reflect motor well
+ cognitive impairment PDD 
+Analysis cortical regions with VBM showed marked
+volume decrease the anterior cingulate patients with
+PDD compared with controls The anterior cingulate has
+been shown particularly vulnerable Lewy body
+inclusions and DLB Volumetric reduction
+ the anterior cingulate may involved the attentional deficits described PDD 
+We also found extensive volumetric reduction the
+parahippocampal gyrus In DLB cases with wellformed visual hallucinations exhibited high densities 
+Lewy bodies the amygdala and parahippocampus Several subjects with dementia our sample had history
+ visual hallucinations 
+Patients with PD but without dementia also differed
+from controls the hippocampus and anterior cingulate although reductions were less marked than for patients with PDD Further the comparison between patients with PDD and patients with PD revealed differences
+ the right side the hippocampus and the left superior temporal regions Together these results suggest that
+there may gradient neuropathology affecting cingulate and medial temporal lobe structures parkinsonism Consistent with this idea postmortem studies
+have demonstrated that all patients with PD have some
+degree cortical Lewy body pathology 
+Our study has the limitations implicit VBM procedures One should cautious when using automated image processing packages for investigations degenerative diseases because the software was not specifically
+designed measure atrophy We attempted solve
+this problem creating local template comprising both
+patients with PDD patients with PD and controls Also 
+our sample was exclusive patients from clinical population and may not representative patients with PD
+and patients with PDD the wider community We also
+used criteria for enrollment the PDD group that excluded patients with questionable early onset dementia and that focused memory impairment rather than
+visuospatial attentional deficits Our results may thus 
+pertain more patients the more advanced stages 
+dementia and further studies with patients exhibiting 
+spectrum dementia severity may required establish whether MRI useful technique for differential diagnosis PDD 
+ REPRINTED ARCH NEUROL VOL FEB 
+CONCLUSIONS
+Voxel based morphometric methods were used examine structural brain changes PDD gray matter loss
+ both cortical and subcortical sites was observed Results revealed volumetric reductions thalamic hippocampal and anterior cingulate regions corroborating previous neuropathological findings PDD 
+Accepted for Publication May 
+Correspondence Carme Junqu PhD Departament 
+Psiquiatria Psicobiologia Universitat Barcelona Institut dInvestigacions Biomdiques August Pi Sunyer 
+Casanova Barcelona Spain cjunqueub
+ edu 
+Author Contributions Study concept and design Summerfield Junqu Tolosa Mart and Mercader Acquisition data Summerfield Gmez Ansn Pastor and Mercader Analysis and interpretation data Summerfield 
+Junqu Tolosa Salgado Pineda and Ramrez Ruz Drafting the manuscript Summerfield Junqu Tolosa 
+Gmez Ansn Pastor and Ramrez Ruz Critical revision the manuscript for important intellectual content 
+Summerfield Junqu Tolosa Mart and Mercader Statistical analysis Summerfield Salgado Pineda and
+Ramrez Ruz Obtained funding Junqu and Tolosa Administrative technical and material support Junqu Tolosa Salgado Pineda Gmez Ansn Pastor and Mercader Study supervision Junqu Tolosa and Mart 
+Acknowledgment We thank Francesc Valldeoriola MD 
+for facilitating patients data 
+REFERENCES
+ Rijk MC Breteler MM Graveland GA Prevalence Parkinsons disease
+ the elderly The Rotterdam Study Neurology 
+Aarsland D Tandberg E Larsen JP Cummings JL Frequency dementia Parkinson disease Arch Neurol 
+Aarsland D Andersen K Larsen JP Lolk A Nielsen H Kragh Srensen P Risk
+ dementia Parkinsons disease community based prospective study 
+Neurology 
+Rinne JO Rummukainen J Paljrvi L Rinne UK Dementia Parkinsons disease related neuronal loss the medial substantia nigra Ann Neurol 
+ Monte SM Wells SE Hedley Whyte ET Growdon JH Neuropathological
+distinction between Parkinsons dementia and Parkinsons plus Alzheimers disease 
+Ann Neurol 
+Perry EK Curtis M Dick DJ Cholinergic correlates cognitive impairment Parkinsons disease comparisons with Alzheimers disease J Neurol
+Neurosurg Psychiatry 
+Zweig RM Cardillo JE Cohen M Giere S Hedreen JC The locus ceruleus and
+dementia Parkinsons disease Neurology 
+Hurtig HI Trojanowski JQ Galvin J Alpha synuclein cortical Lewy bodies
+correlate with dementia Parkinsons disease Neurology 
+Apaydin H Ahlskog JE Parisi JE Boeve BF Dickson DW Parkinson disease neuropathology later developing dementia and loss the levodopa response Arch
+Neurol 
+Mattila PM Rytt M Torikka H Dickson DW Rinne JO Cortical Lewy bodies
+and Alzheimer type changes patients with Parkinsons disease Acta Neuropathol Berl 
+Jellinger KA Seppi K Wenning GK Poewe W Impact coexistent Alzheimer
+pathology the natural history Parkinsons disease J Neural Transm 
+Hanyu H Asano T Sakurai H Tanaka Y Takasaki M Abe K MR Analysis the
+substantia innominata normal aging Alzheimer disease and other types 
+dementia AJNR Am J Neuroradiol 
+WWW ARCHNEUROL COM
+ American Medical Association All rights reserved 
+Downloaded From http jamanetwork com pdfaccess ashx?url data journals neur 
+ Laakso MP Partanen K Riekkinen P Hippocampal volumes Alzheimers
+disease Parkinsons disease with and without dementia and vascular dementia MRI study Neurology 
+Hu MT White SJ Chaudhuri KR Morris RG Bydder GM Brooks DJ Correlating
+rates cerebral atrophy Parkinsons disease with measures cognitive decline 
+J Neural Transm 
+Ashburner J Friston KJ Voxel based morphometry the methods Neuroimage 
+Good CD Johnsrude IS Ashburner J Henson RNA Friston KJ Frackowiak RS 
+A voxel based morphometric study ageing normal adult human brains 
+Neuroimage 
+Good CD Scahill RI Fox NC Automatic differentiation anatomical patterns the human brain validation with studies degenerative dementias 
+Neuroimage 
+Frisoni GB Testa C Zorzan A Detection grey matter loss mild Alzheimers disease with voxel based morphometry J Neurol Neurosurg Psychiatry 
+Matsuda H Kitayama N Ohnishi T Longitudinal evaluation both morphologic and functional changes the same individuals with Alzheimers disease 
+J Nucl Med 
+Busatto GF Garrido GE Almeida OP A voxel based morphometry study 
+temporal lobe grey matter reductions Alzheimers disease Neurobiol Aging 
+Burton EJ Karas G Paling SM Patterns cerebral atrophy dementia
+with Lewy bodies using voxel based morphometry Neuroimage 
+Chtelat G Desgranges B Sayette V Viader F Eustache F Baron JC Mapping grey matter loss with voxel based morphometry mild cognitive impairment 
+Neuroreport 
+Kassubek J Juengling FD Hellwig B Spreer J Lcking CH Thalamic grey matter changes unilateral Parkinsonian resting tremor voxel based morphometric analysis dimensional magnetic resonance imaging Neurosci Lett 
+Summerfield C Gmez Ansn B Tolosa E Dementia Parkinsons disease proton magnetic resonance spectroscopy study Arch Neurol 
+Daniel SE Lees AJ Parkinsons Disease Society Brain Bank London overview
+and research J Neural Transm Suppl 
+ REPRINTED ARCH NEUROL VOL FEB 
+American Psychiatric Association Diagnostic and Statistical Manual Mental
+Disorders Fourth Edition Washington DC American Psychiatric Association 
+Morris JC Clinical dementia rating reliable and valid diagnostic and staging
+measure for dementia the Alzheimer type Int Psychogeriatr suppl 
+Folstein MF Folstein SE McHugh PR Mini mental state practical method
+for grading the cognitive state patients for the clinician J Psychiatr Res 
+Fahn S Elton RL Members UPDRS Committee Recent Developments Parkinsons Disease Unified Parkinsons Disease Rating Scale and Appendices I and
+II In Fahn S Marsden CD Goldstein M Calne DM eds New York NY Macmillan Publishing Co Inc 
+Friston KJ Holmes AP Worsley KJ Poline JP Frith CD Frackowiak RS Statistical parametric maps functional imaging general linear approach Hum Brain
+Mapp 
+Maldjian JA Laurienti PJ Kraft RA Burdettea JH An automated method for neuroanatomic and cytoarchitectonic atlas based interrogation fMRI data sets 
+Neuroimage 
+Braak H Braak E Pathoanatomy Parkinsons disease J Neurol suppl
+Mattila PM Rinne JO Helenius H Roytta M Neuritic degeneration the hippocampus and amygdala Parkinsons disease relation Alzheimer pathology 
+Acta Neuropathol Berl 
+ Vos RA Cansen EN Stam FC Ravid R Swaab D Lewy body disease clinicopathological correlations consecutive cases Parkinsons disease with
+and without dementia Clin Neurol Neurosurg 
+Rb U Del Tredici K Schultz C Parkinsons disease the thalamic components the limbic loop are severely impaired synuclein immunopositive
+inclusion body pathology Neurobiol Aging 
+Hishikawa N Hashizume Y Yoshida M Sobue G Clinical and neuropathological
+correlates Lewy body disease Acta Neuropathol Berl 
+Salmon DP Galasko D Hansen LA Neuropsychological deficits associated with diffuse Lewy body disease Brain Cogn 
+Harding AJ Broe GA Halliday GM Visual hallucinations Lewy body disease
+relate Lewy bodies the temporal lobe Brain 
+Bookstein FL Voxel based morphometry should not used with imperfectly
+registered images Neuroimage 
+WWW ARCHNEUROL COM
+ American Medical Association All rights reserved 
+Downloaded From http jamanetwork com pdfaccess ashx?url data journals neur 

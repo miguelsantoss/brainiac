@@ -202,7 +202,7 @@ class Network extends Component {
   render() {
     return (
       <div className="drag-wrapper">
-        <div className="handle text-vert-center">
+        <div className="LayoutHandle handle text-vert-center">
           <span>Network</span>
         </div>
         <div id="window-network-content" className="content no-cursor text-vert-center">

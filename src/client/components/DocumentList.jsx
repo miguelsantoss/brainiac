@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 
 import Box from 'grommet/components/Box';
 import List from 'grommet/components/List';
+import Label from 'grommet/components/Label';
 
 import { selectAll } from 'd3-selection';
 
@@ -36,12 +37,20 @@ class DocumentList extends React.Component {
   }
 
   static isHidden(el) {
-    const style = window.getComputedStyle(el);
+    const style = window.getComputedStyle(document.getElementById(el.props.id), "");
     return (style.display === 'none')
     return (el.offsetParent === null)
   }
 
   render() {
+    const listStyle = {
+      listStyleType: 'none',
+      listStyle: 'none',
+      display: 'inline-block',
+      padding: 0,
+      margin: 0,
+    }
+
     const docList = this.props.nodes.map(doc =>
       <DocumentEntry
         key={doc.id}
@@ -53,11 +62,14 @@ class DocumentList extends React.Component {
       />
     );
     return (
-      <Box>
-        <List>
+      <div>
+        <Label>
+          List of Files:
+        </Label>
+        <ul style={listStyle}>
           {docList}
-        </List>
-      </Box>
+        </ul>
+      </div>
     );
   }
 }

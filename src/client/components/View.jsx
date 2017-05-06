@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import _ from 'lodash';
 import axios from 'axios';
+import Dropzone from 'react-dropzone'
 
 import Split from 'grommet/components/Split';
 import Sidebar from 'grommet/components/Sidebar';
@@ -14,6 +15,7 @@ import Layout from './Layout.jsx';
 import SearchBox from './SearchBox.jsx';
 import DocViewer from './DocViewer.jsx';
 import DocumentList from './DocumentList.jsx';
+import UploadFile from './UploadFile.jsx';
 
 class View extends Component {
   constructor(props) {
@@ -26,6 +28,11 @@ class View extends Component {
       filteredNodes: [],
       filteredLinks: [],
       pdf: false,
+			dropzone: {
+		    accept: '',
+        files: [],
+        dropzoneActive: false,
+      }
     };
 
     this.searchFunc = this.searchFunc.bind(this);
@@ -35,6 +42,9 @@ class View extends Component {
     this.openDocumentFile = this.openDocumentFile.bind(this);
     this.renderDocViewers = this.renderDocViewers.bind(this);
     this.fetchPdf = this.fetchPdf.bind(this);
+    this.onDragEnter = this.onDragEnter.bind(this);
+    this.onDragLeave = this.onDragLeave.bind(this);
+    this.onDrop = this.onDrop.bind(this);
   }
 
   componentDidMount() {
@@ -82,8 +92,48 @@ class View extends Component {
     }, () => { console.log(response); this.renderDocViewers(); }));
   }
 
+	onDragEnter() {
+    let { dropzone } = this.state;
+	  dropzone.dropzoneActive = true;
+    this.setState({
+			...this.state,
+			dropzone: dropzone,
+    });
+  }
+
+  onDragLeave() {
+    let { dropzone } = this.state;
+	  dropzone.dropzoneActive = false;
+    this.setState({
+			...this.state,
+			dropzone,
+    });
+  }
+
+  onDrop(files) {
+    let { dropzone } = this.state;
+	  dropzone.dropzoneActive = false;
+    dropzone.files = files;
+
+    this.setState({
+			...this.state,
+			dropzone,
+    });
+
+    const config = { headers: { 'Content-Type': 'multipart/form-data' } };
+    let data = new FormData();
+    data.append('pdf',files[0])
+
+    axios.post('http://localhost:3000/pdf/upload', data, config).then((response) => {
+      window.URL.revokeObjectURL(files[0].preview);
+    })
+  }
+
   renderSidebar() {
     const title = this.renderTitle();
+    const labelStyle = {
+      marginLeft: 5
+    }
     return (
       <Sidebar
         fixed={true}
@@ -101,6 +151,7 @@ class View extends Component {
           pad={{ horizontal: 'medium' }}
         >
           <SearchBox value={this.state.search} searchFunc={this.searchFunc} />
+          <UploadFile />
           <DocumentList
             openDocumentFile={this.openDocumentFile}
             nodes={this.state.filteredNodes}
@@ -160,8 +211,30 @@ class View extends Component {
   }
 
   render() {
+		const { accept, files, dropzoneActive } = this.state.dropzone;
+    const overlayStyle = {
+      position: 'absolute',
+      top: 0,
+      right: 0,
+      bottom: 0,
+      left: 0,
+      padding: '2.5em 0',
+      background: 'rgba(0,0,0,0.5)',
+      textAlign: 'center',
+      color: '#fff',
+      verticalAlign: 'middle',
+      zIndex: 1000,
+    };
     return (
-      <div>
+      <Dropzone
+        disableClick
+        style={{}}
+        accept={accept}
+        onDrop={this.onDrop}
+        onDragEnter={this.onDragEnter}
+        onDragLeave={this.onDragLeave}
+      >
+				{ dropzoneActive &&  <div style={overlayStyle}>Drop files...</div> }
         <Split
           fixed={true}
           flex="right"
@@ -171,7 +244,7 @@ class View extends Component {
           {this.renderLayout()}
         </Split>
         {this.renderDocViewers()}
-      </div>
+      </Dropzone>
     );
   }
 }

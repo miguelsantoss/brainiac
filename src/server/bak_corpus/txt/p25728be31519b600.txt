@@ -1,0 +1,710 @@
+Schnecker BMC Neurology 
+DOI 
+CASE REPORT
+Open Access
+Applied multimodal diagnostics case 
+presenile dementia
+Sonja Sch Matthias Marion Christian Hans Juergen 
+Stefan Nobuyuki Johannes Axel and Adrian 
+Abstract
+Background Alzheimers disease AD the most common cause dementia the elderly The possibility 
+disease modifying strategies has evoked need for early and accurate diagnosis To improve the accuracy the
+clinical diagnosis AD biomarkers like cerebrospinal fluid CSF and neuroimaging techniques like magnetic
+resonance imaging MRI and positron emission tomography PET have been incorporated into the diagnostic
+guidelines AD 
+Case presentation In this case report outline reference one our patients with presenile dementia the
+current approaches the diagnosis AD The patient was year old woman presenting with progressive
+memory decline CSF A was normal while P tau was slightly increased FDG PET indicated pattern typical for
+AD amyloid PET showed extensive global amyloid load and tau PET depicted pronounced hippocampal tracer
+accumulation The MRI scan was rated normal routine diagnostics however quantitative volumetric analysis
+revealed significant atrophy especially the parietal lobe The combination biomarkers and neuroimaging
+techniques was therefore suggestive underlying AD pathology 
+Conclusions To enable early and accurate diagnosis AD and thereby also patient recruitment for anti tau 
+anti amyloid therapeutic trials combination biomarkers and neuroimaging techniques seems useful 
+Keywords Case report Alzheimers disease Biomarkers CSF MRI FDG PET tau PET Amyloid PET
+Background
+Alzheimers disease AD the most common cause 
+dementia and estimated affect million people
+worldwide the year It clinically characterized progressive memory and language impairment 
+functional and behavioural disturbances and visuospatial
+deficits A definite diagnosis AD still relies postmortem histopathological detection intracellular neurofibrillary tangles and extracellular amyloid plaques It
+ widely acknowledged that histopathological changes
+start years before clinical manifestation the disease 
+As first disease modifying therapies are approaching early
+and accurate diagnosis AD becomes increasingly
+important Therefore the National Institute Aging
+and the Alzheimers Association have revised the criteria
+for the diagnosis AD To assess the probability 
+ Correspondence sonja schoeneckermed uni muenchen 
+Department Neurology Ludwig Maximilians University Munich Germany
+Full list author information available the end the article
+underlying AD pathology biomarkers the disease and
+neuroimaging techniques have been incorporated into the
+diagnostic guidelines AD Here present exemplary case presenile dementia based which 
+discuss the approaches the diagnosis AD 
+Case presentation
+A year old retired attorney with years education presented with three year history progressive
+memory decline For about one year she hadnt been
+able the shopping the cooking No behavioural
+changes language impairment severe fluctuations 
+attention and alertness recurrent visual hallucinations
+ history repetitive brain trauma were reported 
+Family history was positive her mother well 
+uncle had developed late onset dementia 
+The Mini Mental State Examination which had been
+performed three years ago because subjective memory
+impairment had been rated normal For neuropsychological testing applied the CERAD plus battery
+ The Author Open Access This article distributed under the terms the Creative Commons Attribution 
+International License http creativecommons org licenses which permits unrestricted use distribution and
+reproduction any medium provided you give appropriate credit the original author and the source provide link 
+the Creative Commons license and indicate changes were made The Creative Commons Public Domain Dedication waiver
+ http creativecommons org publicdomain zero applies the data made available this article unless otherwise stated 
+Schnecker BMC Neurology 
+additionally including Trail Making Test A and B well
+ verbal fluency tests The scores almost all domains
+ the CERAD plus battery were least standard
+deviations below the age and education adjusted norm
+values She scored out points the MiniMental State Examination Naming Boston Naming test 
+was intact whereas phonemic verbal fluency was slightly
+ words min and semantic fluency words 
+ min was highly reduced Memory was highly impaired 
+She displayed intrusions and showed reduced performance word list recall and recognition Constructional
+practice was impaired well Results the Trail Making
+Test showed reduced visual attention well reduced
+speed processing Cognitive flexibility measured 
+Trail Making Test B was also poor 
+At first presentation the neurological examination was
+normal In particular manifest latent paresis and 
+sensory deficit could detected Deep tendon reflexes
+were mildly hypoactive without any pathological reflexes 
+Cranial nerves were also intact There was evidence 
+extrapyramidal features 
+Laboratory tests for metabolic causes dementia for
+example for vitamin thyroid liver and renal function 
+thiamine level and folate were within the normal range 
+P tau N cerebrospinal fluid CSF 
+was only slightly increased whereas total Tau 
+N and A N were
+normal All other CSF parameters were within the normal
+range 
+The MRI scan which had been performed three years
+ago well the MRI scan first presentation were
+interpreted normal visual inspection Especially 
+sign global regional atrophy could detected However atlas based volumetric MRI analysis showed 
+significant reduction especially temporal and parietal
+lobe volumes Z scores for the hippocampal and parietal
+volumes compared healthy controls were and 
+respectively Fig 
+Moreover quantitative analysis based voxel wise
+ score analysis patient grey matter segments and grey
+matter segments from age and sex matched control
+sample after bias correction and spatial normalization 
+common standard space following established method
+ showed slight asymmetry with more pronounced
+atrophy rightsided parietotemporal cortical areas voxel
+based grey matter reduction Fig It has 
+noted that for the quantitative analysis data the comparison group came from another MRI scanner than the
+scan the patient Acquisition parameters were harmonized between scanners accommodate possible scanner
+effects 
+Fluorodeoxyglucose PET FDG PET showed asymmetric reduction brain glucose metabolism parietal
+and temporal cortical areas with more pronounced
+Page 
+Fig Volumetric MRI analysis our patients dark arrow 
+hippocampus and parietal lobe compared AD patients
+and age matched healthy controls after intracranial volume
+correction Z scores hippocampal and parietal lobe volume
+compared healthy controls were and respectively 
+Our patients datapoint lay within the confidence region 
+Alzheimers disease and outside the confidence region 
+healthy controls and was therefore automatically assigned the
+Alzheimers disease group
+reduction glucose metabolism the right hemisphere 
+In addition glucose metabolism the posterior cingulate
+cortex was significantly reduced Fig 
+The patient underwent florbetaben PET FBB PET 
+scan which showed extensive FBB retention that was
+greater parietotemporal frontal and posterior cingulate precuneus cortex and less pronounced the occipital
+cortex Basal ganglia were also slightly affected Fig 
+The tau PET scan with the other hand
+showed high tracer retention both hippocampi well
+ moderately increased tracer retention parietotemporal cortical areas There was elevated tracer retention other cortical areas Fig 
+Conclusions
+As our patient presented with three year history 
+cognitive decline that interfered with activities daily
+living and scored low almost all domains the CERAD
+plus battery clinical diagnosis AD was made 
+Because the presenile age onset and the positive
+family history monogenic form AD might possible 
+Genetic testing could have excluded conditions mimicking
+sporadic AD like dementia Our patient however refused
+genetic testing Sensitivity and specificity the clinical
+diagnosis AD compared post mortem histopathological diagnosis ranges from and from 
+ respectively The combination biomarkers
+and neuroimaging techniques was suggestive underlying AD pathology In absence neuropathological
+Schnecker BMC Neurology 
+Fig Positron emission tomography the brain with labeled
+fluorodeoxyglucose FDG PET and three dimensional surface
+representation brain regions with grey matter reduction 
+our year old AD patient compared healthy controls Top 
+regional uptake radiolabelled glucose the left lateral left medial
+and right lateral views the brain are presented Middle regional
+metabolic reduction compared age matched healthy controls
+according the methodology Minoshima There 
+asymmetric metabolic reduction parietotemporal and posterior
+cingulate cortex with more pronounced reduction glucose
+metabolism the right hemisphere Bottom color coded brain
+matter reduction Z values grey matter reduction are projected 
+ weighted averaged brain surface healthy control subjects
+confirmation AD pathology definite diagnosis AD 
+however was not possible The most important alternative
+diagnosis case presenile dementia are dementia with
+Lewy bodies DLB frontotemporal dementia with memory
+impairment FTD and chronic traumatic encephalopathy
+ CTE As our patient had pronounced variation 
+attention and alertness reported recurrent visual hallucinations and displayed features parkinsonism the
+core features DLB were not fulfilled Furthermore
+ progressive deterioration personality social comportment was reported and there was evidence 
+progressive language impairment Therefore there was 
+clinical evidence for behavioural variant frontotemporal
+dementia primary progressive aphasia As there
+was history recurrent impacts the head body 
+CTE seemed unlikely well Table summarizes
+biomarker and neuroimaging findings autopsy confirmed
+cases DLB FTD and CTE References Table 
+ In the following the current diagnostic approaches used the diagnosis AD are illustrated with
+reference our year old patient 
+Page 
+Fig A and tau imaging with FBB top and bottom 
+ our year old patient with Alzheimers disease FBB and
+ binding patterns demonstrate the different distributions
+ A and tau deposits the brain our Alzheimers disease
+patient FBB PET scan revealed massive global amyloid load
+with pronounced FBB retention parietotemporal frontal
+and posterior cingulate precuneal cortices In contrast 
+retention was markedly elevated the hippocampus whereas
+onlya slightly increased retention was observed 
+parietotemporal cortical areas
+Neuropsychological testing commonly used 
+aid diagnosing AD In our patient the scores almost
+all domains the CERAD plus battery were well below
+average Memory was most severely affected As the
+earliest pathological changes AD occur medial
+temporal lobe structures episodic memory usually
+the first cognitive ability decline typically followed 
+like our case additional deficits language and
+semantic knowledge executive functions working memory attention and visuospatial abilities 
+Results laboratory testing for example for vitamin 
+thyroid function thiamine level and folate were within the
+normal range Laboratory testing should performed 
+every AD patient rule out metabolic causes dementia 
+CSF did not suggest malignancy neuroinflammation 
+infection P tau that reflects the intensity neuronal degeneration was slightly increased Interestingly although
+amyloid PET revealed extensive global amyloid load 
+CSF A the other hand was normal It has been
+shown that amyloid load autopsy AD patients 
+inversely correlated CSF A whereas tau load 
+positively correlated CSF P tau and total tau Yet
+although CSF and amyloid PET measurements A
+are consistent the majority patients dissociation
+Schnecker BMC Neurology 
+Page 
+Table Summary biomarker and neuroimaging findings autopsy confirmed DLB FTD and CTE cases
+Population
+CSF biomarker Ligand
+Major findings
+Clark 
+ AD FTD DLB
+total Tau A
+higher total tau AD compared FTD and DLB
+Slaets 
+ AD 
+ DLB with SP 
+ DLB without SP
+ AD 
+ DLB with NFT DLB
+without NFT
+P Tau total Tau A
+A reduced AD and DLB with SP compared DLB without SP
+ difference A levels AD and DLB with SP patients
+P Tau total Tau A
+P Tau higher AD compared DLB with and without NFT
+ difference P Tau levels DLB with and without NFT
+ difference total Tau between the DLB subgroups and AD
+Koopmann 
+ AD DLB FTD
+P Tau total Tau A
+P Tau cut off for differentiating AD from FTD 
+from DLB 
+total Tau level AD DLB FTD
+A level AD DLB FTD
+Bian 
+AD FTD 
+total Tau A
+total Tau and tau A ratio lower FTD than AD
+Toledo 
+ AD FTD
+P Tau total Tau A
+high sensitivity and specificity combined CSF biomarkers
+ classifying AD against FTD
+P Tau and total Tau higher AD compared FTD
+A lower AD compared FTD
+CSF
+A reduced AD compared FTD but not compared DLB
+MRI
+Vemuri 
+ AD FTD DLB
+atrophy pattern AD temporoparietal association cortices
+and medial temporal lobe
+FTD frontal and temporal lobes
+DLB bilateral amygdalae dorsal midbrain inferior temporal lobe
+Rabinovici 
+ AD FTD
+atrophy AD posterior temporoparietal and occipital atrophy
+atrophy FTD medial prefrontal and medial temporal
+cortex insula hippocampus amygdala
+Burton 
+ AD DLB
+pronounced medial temporal lobe atrophy AD compared 
+DLB patients
+Kantarci 
+ AD DLB
+more pronounced hippocampal atrophy AD compared DLB
+McKee 
+ CTE
+generalized cortical atrophy enlargement ventricles cavum
+septum pellucidum
+Minoshima 
+ AD DLB
+AD and DLB hypometabolism posterior cingulate 
+parietotemporal and frontal association cortices
+additional occipital hypometabolism DLB
+Albin 
+ AD DLB DLB
+compared AD additional hypometabolism occipital
+association and primary visual cortex
+Kantarci 
+ AD DLB
+low occipital FDG uptake AD patient and all DLB patients
+Foster 
+ AD FTD
+AD temporoparietal and posterior cingulate hypometablism
+FTD frontal anterior cingulate and anterior temporal hypometabolism
+FDG PET
+Amyloid PET
+Kantarci 
+ AD DLB
+PiB
+high global cortical PiB retention one AD patient low
+global cortical PiB the other
+ DLB patients with borderline PiB retention DLB
+patient with high PiB retention
+Bacskai 
+ DLB
+PiB
+tracer uptake posterior cingulate precuneus posterior parietal 
+middle and inferior temporal insular lateral and orbital frontal cortices
+Rabinovici 
+ AD FTD
+PiB
+higher PiB retention AD compared FTD
+better classification accuracy PiB PET compared FDG PET
+ FTD
+elevated tracer uptake anterior temporal and parietal cortex 
+well basal ganglia
+Tau PET
+Ghetti 
+CSF cerebrospinal fluid AD Alzheimers disease FTD frontotemporal dementia DLB dementia with lewy bodies CTE chronic traumatic encephalopathy SP senile
+plaque NFT neurofibrillary tangles MRI magnetic resonance imaging PET positron emission tomography FDG fluorodeoxyglucose
+Schnecker BMC Neurology 
+between A measurements not uncommon 
+Especially the combination CSF biomarkers may increase diagnostic certainty AD pathology Yet CSF
+biomarkers not change during the clinical phase 
+AD they cannot used markers disease progression
+ In comparison AD patients DLB and FTD
+patients present significantly lower P tau and total tau
+levels There however some overlap CSF P tau
+and total tau between AD DLB and FTD patients A 
+generally decreased DLB Most studies could not define
+valuable CSF A cut off scores for differentiation 
+DLB from AD CSF A levels FTD patients 
+the other hand are significantly higher compared AD
+patients The combination CSF P tau total tau and
+A has shown high diagnostic sensitivity and specificity
+ distinguishing AD from DLB and FTD patients In CTE
+one would expect normal CSF A levels and elevated
+P tau total tau ratio Large biomarker studies 
+autopsy confirmed CTE cases however are lacking AS
+CSF P tau was only slightly increased while CSF total tau
+and A were within the normal range CSF analysis was
+not suggestive underlying AD pathology our case 
+The MRI scan was interpreted normal routine
+diagnostics especially sign normal pressure hydrocephalus cerebrovascular disease tumours regional 
+global atrophy could detected Volumetric MRI analysis
+however revealed significant atrophy the parietal and
+temporal lobe especially the hippocampus and may
+therefore useful obtain rater independent and
+objective results Comparison atrophy patterns
+can differentiate AD patients with high sensitivity and
+specificity from healthy controls and other dementia syndromes like DLB and FTD In DLB significant gray
+matter loss detectable bilateral amygdalae the middle
+temporal lobe well the dorsal ponto mesencephalic
+junction area In FTD patients atrophy normally
+restricted the frontal and temporal lobes with relative
+sparing the parietal and occipital lobes MRI may also
+ useful detect neuropathological changes observed 
+CTE like whole brain atrophy cavum septum pellucidum with occasional fenestration In our case volumetric MRI analysis showed typical AD atrophy pattern
+with pronounced atrophy the parietal and temporal
+lobe especially the hippocampus and therefore supported
+the diagnosis AD In Alzheimers disease patients especially hippocampal atrophy Fig seems highly
+correlated with episodic memory impairment 
+In the FDG PET scan Fig the typical AD pattern
+consisting reduction cerebral glucose metabolism
+ precuneus posterior cingulate and parietotemporal
+association cortices could detected In comparison 
+DLB patients show additional significant metabolic
+reduction the occipital cortex particularly the primary
+visual cortex which distinguishes DLB with high
+Page 
+sensitivity and specificity from AD patients FTD 
+the other hand causes hypometabolism the frontal
+lobes the anterior temporal cortex and anterior cingulate
+cortex FDG PET studies that evaluated glucose
+metabolism subjects with repetitive brain trauma have
+shown inconsistent findings In summary FDGPET clearly supported AD the most probable diagnosis
+ our case Like structural MRI FDG PET represents 
+marker neuronal injury Retrospective investigations
+showed sensitivity and specificity for
+FDG PET predicting post mortem AD pathology 
+autopsy FDG PET thereby outperformed the initial
+clinical evaluation Furthermore FDG PET seems 
+suitable predictor conversion AD patients with
+mild cognitive impairment 
+Amyloid and tau Pet represent new diagnostic tools 
+To present definite diagnosis AD relies postmortem histopathology Yet these new imaging techniques
+permit non invasive visualization and quantification the
+two histological hallmarks the disease 
+Amyloid PET showed characteristic increase tracer
+uptake cortical regions known have high amount
+ amyloid burden AD frontal parietal and lateral
+temporal cortex Fig DLB patients can show similar
+pattern yet with lower amount A ligand binding compared with AD patients FTD patients the other
+hand display low cortical tracer retention such that amyloid PET has shown high accuracy discriminating AD
+from FTD Variable degrees diffuse amyloid
+can detected about autopsy confirmed CTE
+cases Amyloid PET may therefore differentiate
+between CTE and AD identifying different amyloiddeposition patterns Further studies are needed determine the topography amyloid depositions CTE 
+Showing high amount tracer uptake parietotemporal frontal and posterior cingulate precuneus cortex 
+FBB PET was suggestive for AD our case Recent phase
+III studies which the vivo uptake F labelled
+amyloid tracers was compared post mortem amyloid
+load showed sensitivity and specificity and
+ respectively for the detection amyloid deposits AD patients As amyloid deposition
+probably represents very early event the course the
+disease that occurs years before onset dementia symptoms amyloid PET may allow early and even presymptomatic diagnosis 
+Increased tau tracer retention could detected 
+parietotemporal cortical areas especially the hippocampus Fig In contrast amyloid PET the sensitivity and
+specificity tau PET imaging have yet determined 
+Post mortem studies have shown that the amount tau
+deposition highly related the severity dementia
+ In addition aiding the early and differential
+diagnosis Alzheimers disease tau PET may therefore
+Schnecker BMC Neurology 
+Page 
+serve marker disease progression Recently first
+experiences with tau PET DLB were reported Tau
+deposition elevated some cases DLB especially 
+the inferior temporal region Tau PET scans may 
+positive some variants FTD A first case report 
+L MAPT mutation carrier showing elevated tau
+tracer uptake frontal anterior temporal and parietal
+cortex well basal ganglia has been published 
+Hitherto single case report patient with clinical
+diagnosis CTE who underwent tau PET imaging has
+been published Increased tracer uptake could 
+detected globus pallidus putamen hippocampus and
+substantia nigra Because increased tracer retention 
+basal ganglia the detected distribution tracer retention
+seemed more suggestive progressive supranuclear palsy 
+However the patient did not manifest the typical clinical
+symptoms progressive supranuclear palsy In summary
+tau PET also supported diagnosis AD our case 
+Overall although CSF A was normal the combination biomarker and neuroimaging findings this
+case was still suggestive AD pathology Table rates
+the biomarker and neuroimaging findings our case
+with respect possible differential diagnosis 
+As some the illustrated diagnostic approaches provided converging evidence CSF P tau MRI FDGPET and Tau PET each indicated AD typical neuronal
+degeneration and thereby provided somewhat redundant
+information the necessity for diagnostic algorithm becomes obvious A sequential diagnostic process where
+widely available diagnostic tools like neuropsychological
+testing establish the diagnosis dementia syndrome
+and laboratory testing exclude metabolic causes 
+dementia are performed first step may useful Such
+ baseline testing could help select patients that profit
+from further diagnostic work In second step CSF
+examination and structural MRI may rational the
+one hand further exclude potentially treatable causes 
+dementia like neuroinflammation normal pressure
+hydrocephalus and the other hand obtain evidence
+for AD related pathological process and AD typical
+Table Rating biomarker and neuroimaging findings our
+case with respect possible differential diagnosis
+Biomarker neuroimaging findings
+AD
+FTD
+DLB
+CTE
+CSF P tau
+CSF A
+O
+O
+MRI clinical routine
+O
+O
+O
+O
+MRI voxel based
+FDG PET
+O
+amyloid PET
+tau PET
+O
+O
+O
+ highly increases probability increases probability O probability
+unchanged decreases probability
+neuronal degeneration In patients presenting with 
+atypical clinical course atypically early age onset the
+more expensive nuclear medicine diagnostic techniques
+FDG amyloid and tau PET might useful differentiate between AD and important differential diagnoses like
+pseudo dementia frontotemporal dementia They may
+also serve markers disease progression and prognostic markers Especially tau and amyloid imaging may
+furthermore useful for patient recruitment and serve 
+ surrogate marker for monitoring the efficacy future
+anti tau anti amyloid strategies 
+Abbreviations
+AD Alzheimers disease CSF cerebrospinal fluid CTE chronic traumatic
+encephalopathy DLB dementia with lewy bodies FBB florbetaben FDG 
+fluorodeoxyglucose FTD frontotemporal dementia MRI magnetic resonance
+imaging PET positron emission tomography
+Funding
+No funding was obtained 
+Availability data and materials
+All data are presented the manuscript There are additional data 
+Authors contributions
+SS coordinated and drafted the manuscript and figures MB CV HJH ST 
+NO AR were involved imaging acquisition and analyses MH was
+involved patient care MB MH CV HJH ST AR JL NO AD critically
+revised the manuscript All authors read and approved the final
+manuscript 
+Competing interests
+The authors declare that they have competing interests 
+Consent for publication
+Written informed consent for publication this Case Report and any
+accompanying images was obtained from the patients next kin 
+her husband A copy the written consent available for review the
+Editor this journal 
+Ethics approval and consent participate
+Not applicable 
+Author details
+Department Neurology Ludwig Maximilians University Munich Germany 
+Department Nuclear Medicine Ludwig Maximilians University Munich 
+Germany Swiss Epilepsy Center Zurich Switzerland Department 
+Psychosomatic Medicine University Rostock Rostock Germany German
+Center for Neurodegenerative Diseases Rostock Germany Department 
+Pharmacology Tohoku University School Medicine Sendai Japan 
+German Center for Neurodegenerative Diseases Munich Germany 
+Received March Accepted July 
+References
+Brookmeyer R Johnson E Ziegler Graham K Arrighi HM Forecasting the
+global burden Alzheimers disease Alzheimers Dementia 
+Cummings JL Alzheimers Disease The New England journal medicine 
+Jellinger KA Neuropathology Dementia Disorders Journal Alzheimers
+Disease Parkinsonism 
+Bateman RJ Xiong C Benzinger TLS Fagan AM Goate A Fox NC Marcus
+DS Cairns NJ Xie X Blazey TM Clinical and Biomarker Changes 
+Dominantly Inherited Alzheimers Disease New England Journal 
+Medicine 
+Schnecker BMC Neurology 
+Bergmans BA De Strooper B secretases from cell biology therapeutic
+strategies The Lancet Neurology 
+McKhann GM Knopman DS Chertkow H Hyman BT Jack CR Kawas CH 
+Klunk WE Koroshetz WJ Manly JJ Mayeux R The diagnosis dementia
+due Alzheimers disease Recommendations from the National Institute
+ Aging Alzheimers Association workgroups diagnostic guidelines for
+Alzheimers disease Alzheimers Dementia 
+Huppertz H J Kroell Seger J Kloeppel S Ganz RE Kassubek J Intra and
+interscanner variability automated voxel based volumetry based D
+probabilistic atlas human cerebral structures NeuroImage 
+Frings L Yew B Flanagan E Lam BY Hull M Huppertz HJ Hodges JR 
+Hornberger M Longitudinal grey and white matter changes 
+frontotemporal dementia and Alzheimers disease PloS one 
+Teipel SJ Reuter S Stieltjes B Acosta Cabronero J Ernemann U Fellgiebel A 
+Filippi M Frisoni G Hentschel F Jessen F Multicenter stability 
+diffusion tensor imaging measures European clinical and physical
+phantom study Psychiatry research 
+Beach TG Monsell SE Phillips LE Kukull W Accuracy the clinical diagnosis
+ Alzheimer disease National Institute Aging Alzheimer Disease
+Centers Journal neuropathology and experimental
+neurology 
+McKeith IG Dickson DW Lowe J Emre M OBrien JT Feldman H Cummings
+J Duda JE Lippa C Perry EK Diagnosis and management dementia
+with Lewy bodies third report the DLB Consortium Neurology 
+Rascovsky K Hodges JR Knopman D Mendez M Kramer JH Neuhause J 
+van Swieten JC Sensitivity revised diagnostic criteria for the behavioural
+variant frontotemporal dementia Brain 
+Gorno Tempini ML Hillis AE Weintraub S Kertesz A Mendez M Cappa SF 
+Ogar JM Rohrer JD Black S Boeve BF Classification primary
+progressive aphasia and its variants Neurology 
+Montenigro PH Baugh CM Daneshvar DH Mez J Budson AE Au R Katz DI 
+Cantu RC Stern RA Clinical subtypes chronic traumatic encephalopathy 
+literature review and proposed research diagnostic criteria for traumatic
+encephalopathy syndrome Alzheimers Res Ther 
+Clark CM Xie S Chittams J Ewbank D Peskind E Galasko D Morris JC 
+McKeel DW Farlow M Weitlauf SL Cerebrospinal fluid tau and amyloid 
+how well these biomarkers reflect autopsy confirmed dementia
+diagnoses? Archives neurology 
+Slaets S Le Bastard N Theuns J Sleegers K Verstraeten A De Leenheir E 
+Luyckx J Martin J J Van Broeckhoven C Engelborghs S Amyloid pathology
+influences cerebrospinal fluid levels dementia with lewy bodies 
+Journal Alzheimers Disease 
+Koopman K Le Bastard N Martin JJ Nagels G De Deyn PP Engelborghs S 
+Improved discrimination autopsy confirmed Alzheimers disease AD 
+from non AD dementias using CSF P tau P Neurochemistry
+international 
+Bian H Van Swieten JC Leight S Massimo L Wood E Forman M Moore P 
+ Koning I Clark CM Rosso S CSF biomarkers frontotemporal
+lobar degeneration with known pathology Neurology Pt 
+Toledo JB Brettschneider J Grossman M Arnold SE Hu WT Xie SX 
+Lee VM Y Shaw LM Trojanowski JQ CSF biomarkers cutoffs the
+importance coincident neuropathological diseases Acta
+neuropathologica 
+Vemuri P Simon G Kantarci K Whitwell JL Senjem ML Przybelski SA 
+Gunter JL Josephs KA Knopman DS Boeve BF Antemortem
+differential diagnosis dementia pathology using structural MRI 
+Differential STAND NeuroImage 
+Rabinovici G Seeley W Kim E Gorno Tempini M Rascovsky K Pagliaro T 
+Allison S Halabi C Kramer J Johnson J Distinct MRI atrophy patterns 
+autopsy proven Alzheimers disease and frontotemporal lobar degeneration 
+American journal Alzheimers disease and other dementias 
+Burton E Barber R Mukaetova Ladinska E Robson J Perry R Jaros E Kalaria
+R OBrien J Medial temporal lobe atrophy MRI differentiates Alzheimers
+disease from dementia with Lewy bodies and vascular cognitive
+impairment prospective study with pathological verification diagnosis 
+Brain 
+Page 
+Kantarci K Lowe VJ Boeve BF Weigand SD Senjem ML Przybelski SA 
+Dickson DW Parisi JE Knopman DS Smith GE Multimodality imaging
+characteristics dementia with Lewy bodies Neurobiology aging 
+McKee AC Cantu RC Nowinski CJ Hedley Whyte ET Gavett BE Budson AE 
+Santini VE Lee HS Kubilus CA Stern RA Chronic traumatic encephalopathy
+ athletes progressive tauopathy after repetitive head injury Journal 
+neuropathology and experimental neurology 
+Minoshima S Foster NL Sima AA Frey KA Albin RL Kuhl DE Alzheimers
+disease versus dementia with Lewy bodies cerebral metabolic distinction
+with autopsy confirmation Annals neurology 
+Albin R Minoshima S DAmato C Frey K Kuhl D Sima A Fluorodeoxyglucose positron emission tomography diffuse Lewy body disease 
+Neurology 
+Foster NL Heidebrink JL Clark CM Jagust WJ Arnold SE Barbas NR DeCarli
+CS Turner RS Koeppe RA Higdon R FDG PET improves accuracy 
+distinguishing frontotemporal dementia and Alzheimers disease Brain 
+ Pt 
+Bacskai BJ Frosch MP Freeman SH Raymond SB Augustinack JC Johnson
+KA Irizarry MC Klunk WE Mathis CA DeKosky ST Molecular imaging with
+Pittsburgh Compound B confirmed autopsy case report Archives 
+neurology 
+Rabinovici G Rosen H Alkalay A Kornak J Furst A Agarwal N Mormino E 
+ONeil J Janabi M Karydas A Amyloid FDG PET the differential
+diagnosis AD and FTLD Neurology 
+Ghetti B Oblak AL Boeve BF Johnson KA Dickerson BC Goedert M 
+Invited review Frontotemporal dementia caused microtubule associated
+protein tau gene MAPT mutations chameleon for neuropathology
+and neuroimaging Neuropathology and applied neurobiology 
+Braak H Braak E Neuropathological stageing Alzheimer related changes 
+Acta neuropathologica 
+Salmon D Disorders memory Alzheimers disease In Cermak L editor 
+Handbook neuropsychology Vol Memory and its disorders Volume 
+edn Amsterdam Elsevier 
+Seppala TT Nerg O Koivisto AM Rummukainen J Puli L Zetterberg H 
+Pyykko OT Helisalmi S Alafuzoff I Hiltunen M CSF biomarkers for
+Alzheimer disease correlate with cortical brain biopsy findings Neurology 
+Landau SM Lu M Joshi AD Pontecorvo M Mintun MA Trojanowski JQ 
+Shaw LM Jagust WJ Comparing positron emission tomography imaging
+and cerebrospinal fluid measurements amyloid Annals neurology 
+Blennow K Zetterberg H Minthon L Lannfelt L Strid S Annas P Basun H 
+Andreasen N Longitudinal stability CSF biomarkers Alzheimers
+disease Neuroscience letters 
+Mollenhauer B Bibl M Wiltfang J Steinacker P Ciesielczyk B Neubert K 
+Trenkwalder C Otto M Total tau protein phosphorylated tau protein 
+beta amyloid and beta amyloid cerebrospinal fluid 
+patients with dementia with Lewy bodies Clinical chemistry and laboratory
+medicine 
+Sexton CE Mackay CE Lonie JA Bastin ME Terrire E OCarroll RE Ebmeier
+KP MRI correlates episodic memory Alzheimers disease mild cognitive
+impairment and healthy aging Psychiatry Research Neuroimaging 
+Herholz K Carter SF Jones M Positron emission tomography imaging 
+dementia The British journal radiology Spec No 
+Provenzano FA Jordan B Tikofsky RS Saxena C Van Heertum RL Ichise M 
+FDG PET imaging chronic traumatic brain injury boxers statistical
+parametric analysis Nuclear medicine communications 
+Peskind ER Petrie EC Cross DJ Pagulayan K McCraw K Hoff D Hart K 
+Yu CE Raskind MA Cook DG Cerebrocerebellar hypometabolism
+associated with repetitive blast exposure mild traumatic brain injury 
+Iraq war Veterans with persistent post concussive symptoms NeuroImage 
+ Suppl 
+Jagust W Reed B Mungas D Ellis W Decarli C What does
+fluorodeoxyglucose PET imaging add clinical diagnosis dementia?
+Neurology 
+Landau S Harvey D Madison C Reiman E Foster N Aisen P Petersen R 
+Shaw L Trojanowski J Jack C Comparing predictors conversion and
+decline mild cognitive impairment Neurology 
+Schnecker BMC Neurology 
+Page 
+Donaghy P Thomas AJ OBrien JT Amyloid PET Imaging Lewy body
+disorders The American journal geriatric psychiatry 
+Rowe C Ng S Ackermann U Gong S Pike K Savage G Cowie T Dickinson
+K Maruff P Darby D Imaging amyloid burden aging and dementia 
+Neurology 
+Engler H Santillo AF Wang SX Lindau M Savitcheva I Nordberg A Lannfelt
+L Langstrom B Kilander L In vivo amyloid imaging with PET 
+frontotemporal dementia Eur J Nucl Med Mol Imaging 
+McKee AC Stern RA Nowinski CJ Stein TD Alvarez VE Daneshvar DH Lee
+HS Wojtowicz SM Hall G Baugh CM The spectrum disease 
+chronic traumatic encephalopathy Brain Pt 
+Curtis C Gamez JE Singh U Sadowsky CH Villena T Sabbagh MN Beach
+TG Duara R Fleisher AS Frey KA Phase trial flutemetamol labeled
+with radioactive fluorine imaging and neuritic plaque density JAMA
+neurology 
+Sabri O Sabbagh MN Seibyl J Barthel H Akatsu H Ouchi Y Senda K 
+Murayama S Ishii K Takao M Florbetaben PET imaging detect amyloid beta
+plaques Alzheimer disease Phase study Alzheimers Dementia 
+Clark CM Pontecorvo MJ Beach TG Bedell BJ Coleman RE Doraiswamy PM 
+Fleisher AS Reiman EM Sabbagh MN Sadowsky CH Cerebral PET with
+florbetapir compared with neuropathology autopsy for detection 
+neuritic amyloid plaques prospective cohort study The Lancet
+Neurology 
+Nelson PT Alafuzoff I Bigio EH Bouras C Braak H Cairns NJ Castellani RJ 
+Crain BJ Davies P Del Tredici K Correlation Alzheimer disease
+neuropathologic changes with cognitive status review the literature 
+Journal neuropathology and experimental neurology 
+Gomperts SN Marquie M Locascio JJ Bayer S Johnson KA Growdon JH 
+PET Radioligands Reveal the Basis Dementia Parkinsons Disease and
+Dementia with Lewy Bodies Neurodegenerative Diseases 
+Mitsis EM Riggio S Kostakoglu L Dickstein DL Machac J Delman B 
+Goldstein M Jennings D DAntonio E Martin J Tauopathy PET and
+amyloid PET the diagnosis chronic traumatic encephalopathies 
+studies retired NFL player and man with FTD and severe head
+injury Translational psychiatry 
+Minoshima S Frey KA Koeppe RA Foster NL Kuhl DE A diagnostic
+approach Alzheimers disease using three dimensional stereotactic
+surface projections FDG PET Journal Nuclear Medicine 
+Submit your next manuscript BioMed Central
+and will help you every step 
+ We accept pre submission inquiries
+ Our selector tool helps you find the most relevant journal
+ We provide round the clock customer support
+ Convenient online submission
+ Thorough peer review
+ Inclusion PubMed and all major indexing services
+ Maximum visibility for your research
+Submit your manuscript 
+www biomedcentral com submit

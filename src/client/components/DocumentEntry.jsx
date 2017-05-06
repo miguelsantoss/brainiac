@@ -32,20 +32,33 @@ class DocumentEntry extends React.Component {
 
   render() {
     const { id, title } = this.props;
+    const style = {
+      textOverflow: 'ellipsis'
+    }
+    const styleLi = {
+      wordWrap: 'break-word',
+      padding: 0,
+      paddingTop: 2,
+      paddingBottom: 2,
+      textOverflow: 'ellipsis',
+      whiteSpace: 'nowrap',
+      overflow: 'hidden',
+    }
     return (
       <div
         onMouseEnter={this.handleMouseEnter}
         onMouseLeave={this.handleMouseLeave}
       >
-        <ListItem
+        <li
+          style={styleLi}
           className="item"
           id={id}
           onClick={this.handleClick}
         >
-          <span>
+          <span style={style}>
             {title}
           </span>
-        </ListItem>
+        </li>
       </div>
     );
   }

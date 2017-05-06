@@ -1,0 +1,788 @@
+NeuroImage Clinical 
+Contents lists available ScienceDirect
+NeuroImage Clinical
+journal homepage www elsevier com locate ynicl
+Inuence aerobic exercise training the neural correlates motor
+learning Parkinsons disease individuals
+C Duchesne MAa F Gheysen PhDa A Bore MAa G Albouy PhDa A Nadeau BSa 
+M E Robillard MSca F Bobeuf PhDa A L Lafontaine MD MSc FRCPCf O Lungu PhDa 
+L Bherer PhDa J Doyon PhDa 
+Centre Recherche lInstitut Universitaire Griatrie Montral Montral Qubec Canada
+Unit Neuroimagerie Fonctionelle Montral Qubec Canada
+Dpartement psychologie Universit Montral Montral Qubec Canada
+Dpartement psychiatrie Universit Montral Montral Qubec Canada
+Centre for Research Aging Donald Berman Maimonides Geriatric Centre Montral Qubec Canada
+McGill Movement Disorder Clinic McGill University Montral Qubec Canada
+Ghent University Ghent Belgium
+PERFORM Centre Concordia University Montral Qubec Canada
+Article history 
+Received April 
+Received revised form September 
+Accepted September 
+Available online September 
+Keywords 
+Parkinsons disease
+Exercise
+Motor learning
+fMRI
+Background Aerobic exercise training AET has been shown provide general health benets and improve
+motor behaviours particular individuals with Parkinsons disease PD However the inuence AET 
+their motor learning capacities well the change neural substrates mediating this effect remains explored 
+Objective In the current study employed functional Magnetic Resonance Imaging fMRI assess the effect
+ month AET program the neural correlates implicit motor sequence learning MSL 
+Methods healthy controls HC and early PD individuals participated supervised high intensity stationary recumbent bike training program times week for weeks Exercise prescription started min
+ min week min based participants maximal aerobic power Before and after the AET program 
+participants brain was scanned while performing implicit version the serial reaction time task 
+Results Brain data revealed pre post MSL related increases functional activity the hippocampus striatum
+and cerebellum PD patients well the striatum HC individuals Importantly the functional brain
+changes PD individuals correlated with changes aerobic tness positive relationship was found with increased activity the hippocampus and striatum while negative relationship was observed with the cerebellar
+activity 
+Conclusion Our results reveal for the rst time that exercise training produces functional changes known
+motor learning related brain structures that are consistent with improved behavioural performance observed
+ PD patients As such AET can valuable non pharmacological intervention promote not only physical
+tness early PD but also better motor learning capacity useful day day activities through increased plasticity motor related structures 
+ Published Elsevier Inc This open access article under the CC BY NC ND license http 
+creativecommons org licenses 
+Introduction
+Parkinsons disease PD progressive disorder multifactorial
+etiology characterized motor symptoms such tremor rigidity bradykinesia and gait difculties Motor decits PD are due abnormal neuronal activity the motor circuit the basal ganglia 
+ Corresponding author Functional Neuroimaging Unit University Montreal 
+Quebec Bio Imaging Network Bureau coordination UNF chemin Queen Mary 
+Montral Qubec W Canada 
+E mail address julien doyonumontreal J Doyon 
+predominantly involving the striatum and the putamen Amano 
+ Such brain dysfunctions lead motor functional difculties including impairments learning new motor skills Clark hence
+adding burden day day activities and leading sometimes inactivity and exacerbation disease manifestation van Nimwegen 
+ As result both the known striatal pathology PD and the
+lack physical activity imposed the disease can jeopardize the patients capacity acquire new motor skilled behaviours throughout
+the progression the neurodegenerative process 
+Apart from the treatments commonly used managed PD symptoms dopaminergic derived drug treatments and DBS alternative
+http doi org nicl 
+ Published Elsevier Inc This open access article under the CC BY NC ND license http creativecommons org licenses 
+C Duchesne NeuroImage Clinical 
+treatments such physical activity have recently been investigated 
+PD Such new approach based increasing number studies 
+animals and humans which indicate that physical exercise may attenuate symptoms the disease and even exert neuroprotective effect
+ Hirsch and Farley In rodents for example mice model PD
+forced exercise treadmill did not develop behavioural decits
+and signicantly preserved nigrostriatal neuronal connections well
+ striatal dopamine levels compared sedentary mice Pothakos 
+ Yoon Petzinger have also found
+that similar exercise intervention improves efciency brain dopamine cells more mice who exercised compared those that did
+not Altogether these results suggest that exercise improves dopaminergic neurotransmission efciency modifying the areas the
+brain the substantia nigra and basal ganglia where dopamine signals originate Petzinger Given that movement modulated through dopamine ndings rodents suggest possible interaction
+between behaviour and neuronal cerebral viability the striatum after
+cardiovascular exercise Petzinger 
+In humans studies PD individuals have demonstrated signicant
+improvement gait and mobility following supervised physical exercise Beall Herman Nadeau Ridgel
+ van Eijkeren Among the many different
+types physical training programs resistance training exibility 
+coordination etc aerobic exercise training AET has been the most
+studied far and the one that has shown the most unequivocal benets health across the life span Voss Although the underlying mechanisms PD still remain conjectural has been
+hypothesized that exercise dependent plasticity following AET acts 
+the brain similar manner the dopaminergic derived treatments 
+using the same pathways produce symptomatic relief Beall 
+ It thus possible that exercise dependent change can have benecial effects motor skill learning processes More specically AET
+may restore motor sequence learning MSL capacity that frequently impaired PD Clark improving brain functioning the
+level the striatum motor related associated circuits 
+Despite behavioural impairment observed when performing MSL
+tasks studies have demonstrated that similar motor related brain regions seem recruited individuals with PD Carbon 
+Schendan Werheid healthy aging controls
+ Albouy Doyon Specically functional brain
+imaging studies with healthy participants have shown that brain plasticity associated with MSL relies recruitment striatum and hippocampus well the cerebellum motor cortical regions and
+prefrontal and parietal cortex Albouy Doyon 
+Studies with PD individuals yielded similar regions but different patterns interaction between them the cortico striatal and mediotemporal lobe networks Carbon Schendan 
+Werheid Furthermore these ndings could inuenced
+ the disease stage and the impact dopaminergic medication see
+Ruitenberg for review However studies directly comparing the neuronal substrate involved MSL healthy and PD are few
+and those directly comparing the effects aerobic exercise the
+MSL neuronal substrate healthy and PD are non existent In fact 
+one study demonstrated that single bout high intensity aerobic exercise facilitates motor sequence learning healthy individuals Mang
+ but the neural correlates these effects have never been
+investigated the whole brain level and furthermore they have
+never been specic the chronic effects exercise 
+Thus date there lack evidence regarding the effects aerobic training exercise the MSL functional neuronal substrate both
+healthy and PD In response this knowledge gap the principal aim 
+the present study was investigate with whole brain functional magnetic resonance imaging fMRI the neural substrate mediating the effects cardiorespiratory exercise MSL both PD and healthy
+control HC individuals We have already presented behavioural evidence that month AET improved MSL capacity both healthy and
+PD individuals well executive functions PD Duchesne 
+ In the current article present the neuroimaging data related
+ MSL from the same study and hypothesize that AET will improve MSL capacity through augmented activity the cortico striatal
+ CS system PD and MSL related cerebral activity changes observed after AET will linked improvement aerobic tness 
+both PD and HC groups 
+Methods
+ Participants
+Forty two participants PD patients and HC were eligible for
+participation after the completion the rst evaluation However between the evaluation and prior the onset the exercise regimen 
+two HC participants decided withdraw from the project for personal
+reasons One PD participant and one HC were excluded after the beginning for health security One PD patient was excluded from analysis because extreme results several outcomes even this person
+respected all inclusion criteria PD patients had classied stage
+ according Hoehn and Yahrs scale Hoehn and Yahr 
+based upon evaluation certied neurologist Participants who
+were under medication continued their treatment all throughout the
+study testing and training A total participants women 
+aged between and years old participated the present study 
+ were diagnosed with PD and were healthy control HC subjects 
+They were screened for appropriateness for testing MR environment metallic implants that could interfere with testing 
+claustrophobia etc Then the Physical Activity Readiness Questionnaire PAR Q Warburton was used verify the
+participants safety participating physical program To control
+for pre existing experience tasks requiring highly coordinated nger
+dexterities PD and HC subjects had have previous training 
+playing musical instrument nor any training professional typist 
+Other exclusion criteria included the presence other neurological disorders comorbidities likely affect gait any history smoking 
+heart diseases and high baseline physical activity 
+These two groups were well matched with respect their sex distribution age number years education and tness level there
+were signicant differences any these variables prior the
+AET intervention program see Table Yet and expected signicant
+group differences were found Becks depression and anxiety scales 
+with PD patients showing higher scores both scales compared
+with HC participants 
+Table 
+Demographics the two groups participants 
+Variablesa
+HC 
+PD 
+ Value
+Sex male female 
+Age years 
+Education years 
+Fitnessd
+Cognition
+ MMSE MOCA 
+Depressionf
+Anxietyf
+Hoehn and Yahr score
+UPDRS total score
+Years diagnosed
+N A
+N A
+N A
+N A
+N A
+N A
+Values represent mean standard deviation except for sex where values represent
+counts 
+ Value from chi square test 
+ Value from ANOVA 
+Jacksons questionnaire assessing activity level baseline 
+ PD and HC were assessed with MMSE and PD and HC with MOCA 
+Beck depression inventory and Beck anxiety were used 
+indicate statistically signicant differences 
+C Duchesne NeuroImage Clinical 
+ Clinical assessment health and cardiovascular tness
+ Behavioural statistical data analysis
+First PD subjects were recruited based neurological assessment
+performed expert neurologist Clinical assessments the participants health and physical activity level were then performed 
+geriatrist neuropsychologist and physiologist using the following
+tests the United Parkinsons Disease Rating Scale UPDRS Goetz 
+ the Montreal Cognitive Assessment MOCA Mini Mental
+State Evaluation MMSE Nazem the Beck Depression Inventory BDI Beck and Beamesderfer and Beck Anxiety Inventory BAI Osman well the Jacksons Questionnaire
+ Jackson 
+Participants cardiovascular tness level was evaluated using either 
+submaximal aerobic test HC PD medically supervised maximal oxygen uptake test HC PD The protocol required minutes resting period before measuring heart rate blood pressure and
+aerobic capacity For the evaluated with sub maximal test using recumbent bike the test started with workload stage W for
+women and men respectively lasting one minute the intensity increasing progressively W every minute until they reached 
+ their predicted maximal heart rate HRmax age 
+When the target heart rate was reached participants were asked 
+complete the current stage possible The power level W the
+last completed stage was used extrapolate the maximal aerobic
+power MAP Then max estimation was calculated with body
+weight and MAP W measures using the American College
+Sport Medicines formula W weight MAP estimation was used for exercise prescription For the participants that were
+evaluated with graded cycling one minute workload stage maximal
+test the protocol started again W W for women and men 
+respectively and the intensity progressively increased W every
+minute until maximal efforts criteria were fullled age predicted
+maximal heart rate bpm and VO plateau until subjects
+could not maintain the required workload anymore fatigue Aerobic
+capacity max was measured directly using breath breath
+system The last completed stage power W was recorded and
+used for exercise prescription American College Sport Medicine 
+ Importantly PD individuals performed the stress test while
+following their usual medication regimen which did not change
+during the study period In addition for each patient the stress
+tests were administered the same time day and did not change
+pre post AET 
+The main independent variables included our analyses were the
+presence absence the disease PD HC groups between group
+variable and the effect aerobic training expressed the time testing pre post intervention within group variable Dependent variables included the following physical tness expressed max
+estimate and the subjects performance learning score the MSL
+task We rst assessed the relationship between independent and dependent variables using mixed repeated measures analysis variance
+ ANOVA with group between subjects factor and time testing 
+within subjects factor In order account for the effect multiple comparisons the statistical signicance was adjusted using the Bonferroni
+method The two psychological variables depression and anxiety 
+were used covariates all subsequent analyses involving behavioural data control for group differences baseline these variables All
+analyses were performed with SPSS IBM Inc Armonk NY 
+ Motor sequence learning task
+Subjects implicit MSL capacity was evaluated using version 
+the serial reaction time SRT task Nissen and Bullemer 
+which participants were asked press buttons keyboard response corresponding visual stimuli presented screen Unbeknown the participants stimuli were presented random 
+ repeating sequential order blocks stimuli each These
+blocks were presented triplets sequence random sequence 
+with total triplets during the entire training session For
+the sequential blocks two item second order conditional
+sequences and were used and
+counterbalanced between sessions pre post AET and subjects 
+ order avoid repetition the learned sequence for the same individual For each trial reaction time the time between the onsets the stimulus the completion the response To assess
+sequence learning reaction times RTs and accuracy were compared between the sequence and random blocks with faster RTs
+and better accuracy for sequence compared the random blocks
+reecting greater motor sequence learning capacity More information motor task procedure can found previous paper
+ Duchesne 
+ Experimental procedure
+Participants were tested two time points pre and post training 
+Each occasion was similar and included two different days testing
+that occurred least apart On day participants were rst informed details about the study protocol before signing consent
+form which was approved the Regroupement Neuroimagerie Qubec Ethics Review Committee Participants were then evaluated with
+respect their functional capacities and cardiorespiratory tness
+level well their medical and psychological status This was
+followed giving instructions participants regarding the scanning
+procedure and the motor sequence learning task while lying mock
+scanner During this familiarization session participants had time 
+practice randomly assigned trial correct the positioning the ngers the response box On Day participants brain was then
+scanned while completing the motor sequence task while positioned
+ the magnetic resonance imaging system available the Unit 
+Neuroimagerie Fonctionnelle from the Universit Montral the
+latter session occurring before and after the AET program 
+ The exercise protocol procedure
+The cardiorespiratory tness program involved three months recumbent bike training three times week session which occurred
+ the same time day The exercise intensity prescription was based
+ the subjects maximal aerobic power output from the maximum volume oxygen VOpeak uptake conducted pre test day American
+College Sport Medicine Duration the exercise program
+started min and intensity per session and was then increased steps min and intensity every week until participants reached min training intensity To reach highintensity level bike speed was maintained rpm As such achieve
+the desired bike resistance power and adjust intensity level needed 
+the work intensity was based power output Watt controlling for
+subjects heart rate In addition rate perceived exertion Borg scale 
+ Borg was assessed each training session The target 
+ more participation rate the tness training program was
+achieved In addition PD individuals did not change their medication
+regimen for the entire duration the study 
+ fMRI data acquisition and analysis
+Functional MRI series were acquired using T TIM TRIO scanner
+system Siemens Erlangen Germany equipped with channel
+head coil Multislice weighted fMRI images were obtained with gradient echo planar sequence using axial slice orientation ascending
+order TR TE FA transverse slices 
+ slice thickness inter slice gap FoV matrix
+size voxel size A structural 
+C Duchesne NeuroImage Clinical 
+weigthed D MP RAGE sequence TR TE TI 
+ FA slices FoV matrix size 
+ voxel size was also acquired all
+subjects Head movements were minimized using cushions and instructions prior scanning 
+Functional volumes were pre processed and analysed using 
+ http www ion ucl spm software Wellcome Department Imaging Neuroscience London UK implemented MATLAB 
+Functional scans each session were realigned using rigid body transformations iteratively optimized minimize the residual sum squares
+between the rst and each subsequent image separately for each session 
+hence creating mean realigned image The mean functional image was
+then coregistered the structural image using rigid body transformation optimized maximize the normalized mutual information between the two images Coregistration parameters were then applied 
+the realigned BOLD time series An average subject based template was
+created using DARTEL and registered MNI space Montreal
+Neurological Institute http www bic mni mcgill All functional and
+anatomical images were then normalized using the resulting template Finally all functional images were spatially smoothed using isotropic full width half maximum FWHM Gaussian kernel 
+The analysis fMRI data based summary statistics approach 
+was conducted serial steps accounting respectively for xed and
+random effects For each subject changes brain regional responses
+were estimated through model including responses the sequence
+and random conditions separately each practice session pre and
+post These four regressors consisted boxcars convolved with the canonical hemodynamic response function Instructions well movement parameters derived from realignment the functional volumes
+were also included covariates interest High pass ltering was
+implemented the design matrix using cut off period remove slow drifts from the time series Serial correlations fMRI signal
+were estimated using autoregressive order plus white noise
+model and restricted maximum likelihood ReML algorithm 
+The contrast interest explored the main motor sequence learning
+effect Sequence Random between sessions POST PRE The
+resulting contrast images each subject were then further spatially
+smoothed Gaussian kernel FWHM and entered secondlevel analysis accounting for inter subject variance In the second
+level analyses one sample tests were performed explore main
+motor sequence learning effect between sessions within each group
+ HC and PD separately Subsequently two sample tests were performed order compare this effect between groups HC PD 
+Furthermore performed additional analysis order assess the
+relationship between these changes brain activation and aerobic tness
+across sessions Specically the main sequence learning effect between
+sessions was regressed against changes aerobic tness ascertain
+whether these effects were related the AET As before one sample ttests were performed explore the regression effects within each group
+ HC and PD separately and two sample tests were performed order
+ compare the regression effects between groups HC PD 
+The set voxel activation values resulting from each analysis described
+above activation and regression analyses were displayed statistical
+maps threshold uncorrected for multiple comparisons 
+However all statistical inferences were performed threshold 
+ after family wise error FWE correction for multiple comparisons
+over small spherical volumes radius located priori dened
+structures interest reported published work motor learning 
+Results
+ Behavioural results
+ Aerobic exercise training
+The months aerobic training regimen yielded signicant improvement aerobic tness indicated the estimated max 
+the two groups combined well 
+both HC and PD 
+groups separately see Supplemental materials for more details Also
+the estimated power level increased signicantly following AET the
+two groups combined well the HC
+ and PD groups
+separately However there was signicant group session interaction nor any group differences for all these tness measures Altogether these results indicate that the effect exercise had similar
+physiological benets both groups participants who signicantly
+increased their individual level aerobic tness Duchesne 
+ Motor sequence learning
+The detailed results the MSL task for the two conditions sequence
+and random and groups PD and HC both pre and post training session are reported elsewhere Duchesne and here Supplemental materials Even though the interaction between groups and
+conditions regardless time testing pre post AET was not
+signicant across all participants observed
+ signicant difference reaction time between conditions 
+ with performance during the sequence being faster
+than during the random condition indicator motor sequence
+learning capacity In addition there was marginally signicant interaction between condition and session across
+the two groups hence demonstrating trend that the participants
+motor sequence learning capacity tended improve more than their
+performance the random condition following AET 
+Within group analyses revealed between session improvement 
+reaction time for both sequence and random
+conditions whereas PD individuals showed
+AET related improvement RT only for the sequential condition
+ Most importantly when assessing motor sequence learning capacity each group identied signicant sequence learning effect sequential random conditions pre AET
+ HC but not PD 
+ After AET however both groups showed signicant sequence
+learning for HC and 
+Table 
+Functional imaging results the changes the main learning effect following aerobic exercise training PD 
+Area
+X 
+Y 
+Z 
+K
+Z
+psvc
+ Main effect session sequence learning POST PRE Sequence 
+Random
+PD
+Right temporal lobe
+Left temporal lobe
+Left striatum ventral
+Left hippocampus
+Right cerebellum lobules and 
+Left cerebellum lobules and 
+Right cerebellum crus 
+ Main effect session sequence learning POST PRE Sequence 
+Random regressed against changes max
+Positive
+Left hippocampus
+Left hippocampus
+Right hippocampus
+Left putamen dorsal
+Negative
+Cerebellum lobule 
+Left cerebellum lobules and 
+Right cerebellum lobules and 
+Statistical inferences were performed threshold after correction for multiple comparisons over small spherical volumes SVC K represents the number voxels 
+each cluster reported determined threshold 
+C Duchesne NeuroImage Clinical 
+ Brain imaging results
+ Functional brain changes related motor learning capacity following
+AET PD
+To investigate the effects AET the neural correlates specic 
+motor sequence learning contrasted the main sequence learning effect Sequence Random session POST PRE within PD group The
+results this analysis revealed signicant training related changes for
+PDs individuals Specically brain responses reecting motor sequence
+learning capacity increased signicantly post AET the temporal lobes 
+left ventral striatum left hippocampus cerebellar lobules and bilaterally and right crus Table Fig 
+To test whether pre post functional brain changes expressing motor
+learning capacity were indeed related improvement aerobic tness conducted regression analysis between changes estimated
+max and changes MSL brain responses Sequence 
+Random session POST PRE In PD patients increases max
+ indicating improved aerobic tness result training correlated
+positively and signicantly with increases activity the hippocampus
+bilaterally Table Fig and the left dorsal striatum This indicated
+that the aerobic capacity improved PD patients the motor learning
+specic activation also increased these brain regions In contrast 
+signicant negative correlation was observed bilateral cerebellum
+lobe and Table Fig 
+While the regions corresponding the main sequence learning effect and those resulting from the regression analysis were found similar macro structures hippocampus striatum they did not
+spatially overlap 
+ Functional brain changes related motor learning capacity following
+AET HC
+The main learning effect Sequence Random session POST 
+PRE assessed within the HC group revealed signicant change activity between sessions The regression analysis Sequence 
+Random session POST PRE also revealed signicant correlation
+between AET related changes aerobic capacity and brain changes related motor learning capacity for HC group alone 
+Fig Motor sequence learning MSL effect PD patients before and after aerobic training 
+C Duchesne NeuroImage Clinical 
+Fig Changes aerobic tness max predict MSL related changes functional brain activity PD patients 
+ Between group differences functional brain activity related motor learning capacity following AET
+When comparing the two groups PD HC the main learning
+effect Sequence Random session POST PRE PD patients
+showed signicantly higher levels motor learning related activation
+than HC post AET compared pre AET the left cerebellum lobules and right globus pallidus and left ventral striatum Table 
+Fig The left hippocampus was marginally signicant this
+contrast However signicant differences were found the opposite
+direction HC greater than PD for the same contrast 
+C Duchesne NeuroImage Clinical 
+Table 
+Functional imaging results the main sequence learning effect following aerobic exercise
+training between PD and HC 
+Area
+X 
+Y 
+Z 
+K
+Z
+psvc
+ Main effect session sequence learning POST PRE Sequence 
+Random
+PD HC
+Left cerebellum lobules and 
+Right globus pallidus
+Left striatum ventral
+Left hippocampus
+HC PD
+No signicant responses
+ Main effect session sequence learning POST PRE Sequence 
+Random regressed against changes max
+PD HC
+Positive
+Right hippocampus
+Negative
+Cerebellum lobule 
+Left cerebellum lobules and 
+HC PD
+Positive
+No signicant responses
+Negative
+No signicant responses
+Statistical inferences were performed threshold after correction for multiple comparisons over small spherical volumes SVC K represents the number voxels 
+each cluster reported determined threshold 
+Marginally signicant 
+ Functional brain changes following AET PD and HC regressed
+against changes aerobic tness
+Between group differences regression between max changes
+and MSL related brain activity changes were observed the right hippocampus Table Fig and left cerebellum lobules and negative correlation These between group effects were both driven the
+ndings the PD group Again there was spatial overlap between
+the regions obtained from the regression analysis Section and
+those obtained from the group contrast Section albeit they
+were found the same macro structures hippocampus cerebellum lobule and Also signicant differences were found the
+opposite direction HC greater than PD 
+Discussion
+We recently reported that weeks progressive intense AET resulted signicant improvement aerobic tness well motor
+skill learning both PD and HC groups Duchesne AET related MSL improvements were global HC individuals they were observed both conditions sequence and random but were specic 
+the sequence condition PD patients In addition PD patients improved their sequence specic motor learning capacity after aerobic
+training indicated the signicant difference between sequence
+and random conditions after the training period only Interestingly 
+the present study the neuroimaging results corroborate those behavioural ndings and suggest that AET related changes motor sequence
+learning capacity difference between sequence and random conditions are mainly seen PD individuals Specically increases MSLspecic brain activity due training were found the temporal lobe 
+Fig Greater MSL related functional brain changes PD patients than healthy controls after AET 
+C Duchesne NeuroImage Clinical 
+Fig Changes aerobic tness max and MSL related changes functional brain activity 
+hippocampus striatum and cerebellum the PD group Importantly 
+there was also positive relation between the patients change aerobic tness and MSL related changes the hippocampal and striatal activity while found negative relation between the change tness
+level and activity the cerebellum PD patients Most importantly 
+the effects the cerebral level are larger the PD than the HC group 
+ MSL exercise dependent plasticity related the striatum and hippocampus PD individuals
+The current study the rst examine the changes neural substrate supporting MSL following aerobic exercise training both
+healthy controls and PD patients Our ndings thus extend the neuroimaging literature implicit MSL PD individuals and HC participants
+ Gamble Ruitenberg Siegert specically highlighting the positive effects AET the MSL related activity the striatum cerebellum and all structures that are typically
+involved motor learning Albouy Doyon 
+ In fact our hypothesis regarding changes MSL specic 
+striatal changes following AET was conrmed PD individuals This
+nding consistent with previous studies which have revealed AETdependent neuroplasticity the central nervous system due neurochemical changes the striatum the latter having been proposed 
+one possible mechanism action explain the gains performance
+ motor tasks PD Petzinger Indeed 
+research animal models PD using dopaminergic neurotoxins has
+shown that behavioural motor ameliorations following physical exercise are associated with increased efciency dopaminergic and glutamatergic neurotransmission Fisher Paillard 
+Petzinger which together are thought reduce
+the cortically driven hyper excitability observed PD patients These
+authors have reported increase dopamine availability coupled
+with greater expression dopamine receptors hence producing
+ better dopaminergic signaling the striatum overall Furthermore 
+physical exercise has been found diminish the amount synaptic
+glutamate release which known decrease the level cortical excitability Fisher Although conjectural thus probable that
+the AET specic changes striatal activity observed the current
+study may reect this type neurochemical mechanism which
+would turn explain the improvement motor learning 
+Interestingly our results revealed that AET related and MSL specic
+functional brain changes are not only observed the striatum but
+within the hippocampus and cerebellum well These ndings could
+suggest that such brain structures are part the functional network
+compensating for the typical dysfunction within the cortico striatal circuits seen PD In fact the reported positive relationship between
+changes aerobic tness and AET related MSL brain changes the
+same macro structures hippocampus and striatum consistent with
+emerging data suggesting that links between the hippocampus and
+the dopaminergic systems PD are important memory and learning
+C Duchesne NeuroImage Clinical 
+ Calabresi In their review Calabresi suggested
+that while dopamine dependent impairment involving complex molecular dysfunction glutamatergic synapses hippocampal longterm potentiation LTP might contribute cognitive impairments 
+PD such interactions could also potential source symptoms reduction PD patients Clinical interventions such AET for example 
+could potentially stimulate neurogenesis the dysfunctional hippocampus PDs individuals has been shown rodents studies
+ Voss Vivar Kramer and van Praag This type interventions
+could also responsible for the associated involvement neurotrophic factors greater expression brain derived neurotrophic factor
+ BDNF and LTP mechanisms following exercise has also been proposed
+ putative mechanism responsible for the neuroprotective effects and
+functional improvements this clinical population Audiffren Andr 
+and Albinet Dishman Fabel and Kempermann 
+ Gomez Pinilla Zhuang Feng Ying and Fan Mustroph 
+ Voss Vivar Kramer and van Praag Based evidence
+that exercise dependent brain changes within the hippocampus have
+been associated with functional changes memory Erickson 
+ Szabo can thus conjecture that the improvement
+observed during MSL PD following AET could explained LTPlike processes due greater expression BDNF the hippocampus 
+In light these recent ndings Calabresi can hypothesized that the benecial effect that AET has MSL related activity both these regions may based the interaction 
+functional connectivity between them It possible that plastic AETand MSL related changes may rst occur within the hippocampus and
+then propagate basal ganglia via interactions between the MTL and
+dopaminergic system This assumption based the fact that while
+MSL related changes were observed both hippocampus and striatum
+ PD individuals only the hippocampus found regions which
+MSL related changes activity remained positively correlated with improvements aerobic tness when PD and HC participants were compared Yet further functional connectivity investigations are still
+necessary elucidate such AET related brain reorganisation 
+indicating restoration functionality the network typically seen
+ MSL 
+According the motor sequence learning literature both the cerebellum and striatum are known involved the early MSL phase 
+while only the striatum has been shown maintain its activity 
+later learning stages when the memory trace has been consolidated
+ Doyon Therefore while modest improvements aerobic capacity linked with increases cerebellar activity
+may reect learning the early stage tested here the fact that large improvements aerobic tness were associated with enhanced hippocampal and striatal functioning may reect transition towards more
+durable stage MSL These MSL ndings are thus line with previous
+structural and physiological investigations which parallel the functional
+changes that aerobic exercise can exert general Hillman 
+Erickson and Kramer for review and PD particular
+ Ahlskog Alberts Linder Penko Lowe and Phillips 
+Goodwin Richards Taylor Taylor and Campbell Hirsch and
+Farley Speelman for reviews 
+ MSL and exercise HC individuals
+Compared PD individuals AET did not have statistically signicant effect changes the neural correlates MSL the HC group 
+Such divergence between the HC and PD groups could explained
+ potential ceiling effect observed baseline for the HC group 
+regards their MSL capacity both the behavioural and cerebral
+level Given that HC individuals already showed good MSL capacity
+prior AET they obviously had less room for sequence specic behavioural improvement compared PD patients This supported the
+fact that analysis the behavioural results revealed that while HC individuals improved their motor performance both random and sequence condition after AET they also maintained similar magnitude
+ RT difference between these two conditions Duchesne 
+This pattern results can interpreted HC individuals having 
+more efcient medial temporal lobe CS CC functioning networks
+prior AET compared PD patients which leaves also less room
+for improvements seen functional activity these brain areas 
+ MSL exercise dependent plasticity related the cerebellum PD
+individuals
+Limitations and conclusions
+In the current study found that AET related and MSL specic
+changes the cerebellum correlated negatively with changes aerobic
+capacity Although apparently contradictory this result can 
+interpreted light several lines evidence from previous studies 
+First changes the cerebellum have been interpreted compensatory functional system animal models PD model following exercise
+ Holschneider Yang Guo and Maarek Wang Guo Myers 
+Heintz and Holschneider Wang Guo Myers Heintz Peng 
+Maarek and Holschneider and similar assumption has been
+proposed following striatal dysfunction PD Doyon Second 
+human studies have indicated that both the cortico striatal CS and
+cortico cerebellar CC systems play distinctive roles MSL Doyon 
+ Doyon and Benali Doyon Leggio and
+Molinari despite the fact that cerebellum and basal ganglia are
+known interconnected Bostan and Strick Hoshi 
+Tremblay Feger Carras and Strick Given the interaction between the CC and CS systems during MSL Doyon Doyon 
+ Doyon and Benali and the fact that previous functional imaging data revealed that cerebellar hemispheres are hyperactivated 
+while the striatum hypoactivated PD patients compared 
+healthy controls Yu Sternad Corcos and Vaillancourt 
+thus possible that the cerebellum capable compensating for the decient basal ganglia activity observed PD Hence the current study 
+the PD participants who improved less their aerobic capacity used predominantly the cerebellum during MSL whereas those who had higher
+changes aerobic tness used more the hippocampus and striatum 
+One the limitations our study was the heterogeneity the patient population Similar many other studies with PD patients disease
+characteristics were diverse motor cognitive neuropsychiatric 
+etc In fact was often challenge control for all symptoms and obtain homogeneous sample However used several strategies address this limitation First matched the PD group with the HC group
+with respect sex distribution age years education cognitive and
+tness level In addition given that the two groups differed their depression and anxiety symptoms accounted for these variables our
+statistical analyses considering them covariates the analyses 
+the behavioural data Another limitation our study was the lack 
+PD control group for the type exercise Despite this constraint however worth noting the fact that conducted regression analysis
+highlighting that there were functional brain changes that were related
+ changes aerobic tness level which indicate that there were brain
+changes specic the AET program PD patients 
+To conclude this study the rst assess the neural correlates 
+MSL following AET PD Functional reorganisation brain activity 
+early PD following aerobic training was observed within the hippocampus the striatum and the cerebellum resulting improvement their
+learning capacity Most importantly the same brain structures albeit
+ different sub regions have also showed that MSL specic brain
+plasticity correlated with changes aerobic tness showing positive
+relationship within the hippocampus and the striatum and negative
+relationship within the cerebellum Altogether our study makes two important contributions the eld First show that week
+C Duchesne NeuroImage Clinical 
+progressive aerobic training regimen has benecial effects motor
+skill learning sedentary PD and healthy individuals Second highlight the neurophysiological changes underlying exercise dependent
+plasticity PD with particular emphasis the neuronal substrate 
+MSL Our results thus pave the way for other studies further explore
+the structural and functional organization within brain regions and how
+exercise dependent plasticity manifests itself within the medial temporal lobe CS and CC systems following chronic acute bouts aerobic
+activities PD As result these ndings have important clinical implications for the rehabilitation PD individuals the design and the use
+ non pharmacological interventions based physical exercise can 
+implemented improve motor learning capacity and restore motor
+functions patients aficted with this debilitating disease 
+Acknowledgments
+This work was supported the Fonds Recherche Qubec Sant under Grant 
+The authors wish thank Dr Juan Manuel Villalpando and Dr Thien
+Tuong Minh Vu who kindly accepted supervise physical assessment during testing 
+Appendix A Supplementary data
+Supplementary data this article can found online http 
+doi org nicl 
+References
+Ahlskog J E Does vigorous exercise have neuroprotective effect 
+Parkinson disease? Neurology http doi org 
+WNL 
+Alberts J L Linder S M Penko A L Lowe M J Phillips M It not about the bike 
+ about the pedaling forced exercise and Parkinsons disease Exerc Sport Sci Rev 
+ http doi org JES 
+Albouy G King B R Maquet P Doyon J Hippocampus and striatum dynamics
+and interaction during acquisition and sleep related motor sequence memory consolidation Hippocampus http doi org hipo 
+Albouy G Fogel S King B R Laventure S Benali H Karni A Doyon J Maintaining enhancing motor sequence memories respective roles striatal and hippocampal systems NeuroImage http doi org 
+neuroimage 
+Amano S Roemmich R T Skinner J W Hass C J Ambulation and Parkinson disease Phys Med Rehabil Clin N Am http doi org 
+pmr 
+American College Sport Medicine ACSMs Guidelines for Exercise Testing and
+Prescription Lippincott Williams Wilkins Lea Febiger USA Philadelphia 
+Audiffren M Andr N Albinet C Effets positifs lexercice physique chronique
+sur les fonctions cognitives des seniors bilan perspectives Revue 
+neuropsychologie neurosciences cognitives cliniques http 
+doi org rne 
+Beall E B Lowe M J Alberts J L Frankemolle A M M Thota A K Shah C Phillips M D 
+The effect forced exercise therapy for Parkinsons disease motor cortex
+functional connectivity Brain Connectivity http doi org 
+ brain 
+Beck A T Beamesderfer A Assessment depression the depression inventory 
+Mod Probl Pharmacopsychiatry http www ncbi nlm nih gov 
+pubmed 
+Borg G Psychophysical bases perceived exertion Med Sci Sports Exerc 
+ http www ncbi nlm nih gov pubmed 
+Bostan A C Strick P L The cerebellum and basal ganglia are interconnected 
+Neuropsychol Rev 
+Calabresi P Castrioto A Di Filippo M Picconi B New experimental and clinical
+links between the hippocampus and the dopaminergic system Parkinsons disease 
+Lancet Neurol http doi org 
+Carbon M Reetz K Ghilardi M F Dhawan V Eidelberg D Early Parkinsons disease longitudinal changes brain activity during sequence learning Neurobiol Dis 
+Clark G M Lum J A G Ullman M T A meta analysis and meta regression serial
+reaction time tast performance Parkinsons disease Neuropsychology 
+Dishman R K Berthoud H R Booth F W Cotman C W Edgerton V R Fleshner M R 
+Zigmond M J Neurobiology exercise Obesity Silver Spring 
+Doyon J Motor sequence learning and movement disorders Curr Opin Neurol 
+Doyon J Benali H Reorganization and plasticity the adult brain during learning
+ motor skills Curr Opin Neurobiol http doi org 
+conb 
+Doyon J Song A W Karni A Lalonde F Adams M M Ungerleider L G Experience dependent changes cerebellar contributions motor sequence learning 
+Proc Natl Acad Sci U S A http doi org pnas 
+Doyon J Penhune V Ungerleider L G Distinct contribution the cortico striatal
+and cortico cerebellar systems motor skill learning Neuropsychologia 
+Doyon J Bellec P Amsel R Penhune V Monchi O Carrier J Benali H Contributions the basal ganglia and functionally related brain structures motor learning 
+Behav Brain Res http doi org bbr 
+Doyon J Orban P Barakat M Debas K Lungu O Albouy G Benali H Functional brain plasticity associated with motor learning Med Sci Paris 
+Duchesne C Lungu O Nadeau A Robillard M E Bore A Bobeuf F Doyon J 
+Enhancing both motor and cognitive functioning Parkinsons disease aerobic exercise rehabilitative intervention Brain Cogn http doi org 
+ bandc 
+Erickson K I Voss M W Prakash R S Basak C Szabo A Chaddock L Kramer A F 
+Exercise training increases size hippocampus and improves memory Proc 
+Natl Acad Sci U S A http doi org pnas 
+Fabel K Kempermann G Physical activity and the regulation neurogenesis 
+the adult and aging brain Neruomol Med 
+Fisher B E Petzinger G M Nixon K Hogg E Bremmer S Meshul C K Jakowec M W 
+Exercise induced behavioral recovery and neuroplasticity the tetrahydropyridine lesioned mouse basal ganglia J Neurosci Res 
+Fisher B E Li Q Nacca A Salem G J Song J Yip J Petzinger G M Treadmill
+exercise elevates striatal dopamine receptor binding potential patients with
+early Parkinsons disease NeuroReport http doi org 
+WNR 
+Gamble K R Cummings Jr T J Lo S E Ghosh P T Howard Jr J H Howard D V 
+Implicit sequence learning people with Parkinsons disease Front Hum Neurosci 
+ http doi org fnhum 
+Goetz C G Tilley B C Shaftman S R Stebbins G T Fahn S Martinez Martin P 
+LaPelle N Movement Disorder Society sponsored revision the Unied
+Parkinsons Disease Rating Scale MDS UPDRS scale presentation and clinimetric
+testing results Mov Disord http doi org mds 
+Gomez Pinilla F Zhuang Y Feng J Ying Z Fan G Exercise impacts brain derived neurotrophic factor plasticity engaging mechanisms epigenetic regulation 
+Eur J Neurosci 
+Goodwin V A Richards S H Taylor R S Taylor A H Campbell J L The effectiveness exercise interventions for people with Parkinsons disease systematic review and meta analysis Mov Disord http doi org 
+mds 
+Herman T Giladi N Gruendlinger L Hausdorff J M Six weeks intensive treadmill training improves gait and quality life patients with Parkinsons disease 
+pilot study Arch Phys Med Rehabil http doi org 
+ apmr 
+Hillman C H Erickson K I Kramer A F Be smart exercise your heart exercise effects brain and cognition Nat Rev Neurosci 
+Hirsch M A Farley B G Exercise and neuroplasticity persons living with
+Parkinsons disease Eur J Phys Rehabil Med 
+Hoehn M M Yahr M D Parkinsonism onset progression and mortality Neurology 
+Holschneider D P Yang J Guo Y Maarek J M Reorganization functional brain
+maps after exercise training importance cerebellar thalamic cortical pathway 
+Brain Res http doi org brainres 
+Hoshi E Tremblay L Feger J Carras P L Strick P L The cerebellum communicates with the basal ganglia Nat Neurosci http www nature 
+com neuro journal suppinfo html 
+Jackson A S Blair S N Mahar M T Wier L T Ross R M Stuteville J E Prediction
+ functional aerobic capacity without exercise testing Med Sci Sports Exerc 
+http www ncbi nlm nih gov pubmed 
+Leggio M Molinari M Cerebellar sequencing trick for predicting the future Cerebellum http doi org 
+Mang C S Snow N J Campbell K L Ross C J Boyd L A A single bout high intensity aerobic exercise facilitates response paired associative stimulation and promotes sequence specic implicit motor learning J Appl Physiol 
+ http doi org japplphysiol 
+Mustroph M L Chen S Desai S C Cay E B DeYoung E K Rhodes J S Aerobic exercise the critical variable enriched environment that increases hippocampal
+neurogenesis and water maze learning male BL J mice Neuroscience 
+ http doi org neuroscience 
+Nadeau A Pourcher E Corbeil P Effects treadmill training gait
+performance Parkinsons disease Med Sci Sports Exerc http 
+ doi org MSS 
+Nazem S Siderowf A D Duda J E Ten Have T Colcher A Horn S S Weintraub D 
+Montreal cognitive assessment performance patients with Parkinsons disease with normal global cognition according mini mental state examination
+score J Am Geriatr Soc http doi org 
+C Duchesne NeuroImage Clinical 
+Nissen Bullemer Attentional requirements learning evidence from performance
+measures Cogn Psychol 
+Osman A Kopper B A Barrios F X Osman J R Wade T The Beck Anxiety Inventory reexamination factor structure and psychometric properties J Clin Psychol 
+ http doi org SICI CO S 
+Paillard T Rolland Y Souto Barreto P Protective effects physical exercise 
+Alzheimers disease and Parkinsons disease narrative review J Clin Neurophysiol 
+Petzinger G M Walsh J P Akopian G Hogg E Abernathy A Arevalo P Jakowec 
+M W Effects treadmill exercise dopaminergic transmission the tetrahydropyridine lesioned mouse model basal ganglia
+injury J Neurosci 
+Petzinger G M Fisher B E Van Leeuwen J E Vukovic M Akopian G Meshul C K 
+Jakowec M W Enhancing neuroplasticity the basal ganglia the role exercise Parkinsons disease Mov Disord Suppl http doi org 
+ mds 
+Petzinger G M Fisher B E Akopian G Holschneider D P Wood R Walsh J P 
+Jakowec M W The role exercise facilitating basal ganglia function 
+Parkinsons disease Neurodegener Dis Manag 
+Petzinger G M Fisher B E McEwen S Beeler J A Walsh J P Jakowec M W Exercise enhanced neuroplasticity targeting motor and cognitive circuitry 
+Parkinsons disease Lancet Neurol http doi org 
+ pii 
+Petzinger G M Holschneider D P Fisher B E McEwen S Kintz N Halliday M 
+Jakowec M W The effects exercise dopamine neurotransmission 
+Parkinsons disease targeting neuroplasticity modulate basal ganglia circuitry 
+Brain Plast 
+Pothakos K Kurz M J Lau Y S Restorative effect endurance exercise behavioral decits the chronic mouse model Parkinsons disease with severe neurodegeneration BMC Neurosci 
+Ridgel A L Vitek J L Alberts J L Forced not voluntary exercise improves motor
+function Parkinsons disease patients Neurorehabil Neural Repair 
+ http doi org 
+Ridgel A L Kim C H Fickes E J Muller M D Alberts J L Changes executive
+function after acute bouts passive cycling Parkinsons disease J Aging Phys 
+Act http www ncbi nlm nih gov pubmed 
+Ruitenberg M F Duthoo W Santens P Notebaert W Abrahamse E L Sequential
+movement skill Parkinsons disease state the art Cortex http 
+ doi org cortex 
+Schendan H E Tinaz S Maher S M Stern C E Frontostriatal and mediotemporal
+lobe contributions implicit higher order spatial sequence learning declines 
+aging and Parkinsons disease Behav Neurosci http doi org 
+Siegert R J Taylor K D Weatherall M Abernethy D A Is implicit sequence learning impaired Parkinsons disease? A meta analysis Neuropsychology 
+Speelman A D van Warrenburg B P van Nimwegen M Petzinger G M Munneke 
+M Bloem B R How might physical activity benet patients with Parkinson
+disease? Nat Rev Neurol http doi org nrneurol 
+Szabo A N McAuley E Erickson K I Voss M Prakash R S Mailey E L Kramer A F 
+Cardiorespiratory tness hippocampal volume and frequency forgetting 
+older adults Neuropsychology http doi org 
+van Eijkeren F J M Reijmers R S J Kleinveld M J Minten A Bruggen J P Bloem B R 
+Nordic walking improves mobility Parkinsons disease Mov Disord 
+van Nimwegen M Speelman A Hofman van Rossum E Overeem S Deeg D Borm G 
+ Munneke M Physical inactivity Parkinsons disease J Neurol 
+Voss M W Nagamatsu L S Liu Ambrose T Kramer A F Exercise brain and cognition across the life span J Appl Physiol http doi org 
+ japplphysiol 
+Voss M W Vivar C Kramer A F van Praag H Bridging animal and human
+models exercise induced brain plasticity Trends Cogn Sci 
+http doi org tics 
+Wang Z Guo Y Myers K G Heintz R Holschneider D P Recruitment the
+prefrontal cortex and cerebellum Parkinsonian rats following skilled aerobic exercise Neurobiol Dis http doi org nbd 
+Wang Z Guo Y Myers K G Heintz R Peng Y H Maarek J M I Holschneider D P 
+ Exercise alters resting state functional connectivity motor circuits parkinsonian rats Neurobiol Aging http doi org 
+neurobiolaging 
+Warburton D E Jamnik V K Bredin S D Gledhill N The Physical Activity Readiness Questionnaire for Everyone PAR Q French North America Version Questionnaire sur laptitude lactivit physique pour tous Q AAP Health Fit 
+J Canada 
+Werheid K Zysset S Mller A Reuter M von Cramon D Y Rule learning 
+serial reaction time task fMRI study patients with early Parkinsons disease 
+Cogn Brain Res http doi org 
+Yoon M C Shin M S Kim T S Kim B K Ko I G Sung Y H Kim C J Treadmill
+exercise suppresses nigrostriatal dopaminergic neuronal loss hydroxydopamineinduced Parkinsons rats Neurosci Lett 
+Yu H Sternad D Corcos D M Vaillancourt D E Role hyperactive cerebellum
+and motor cortex Parkinsons disease NeuroImage http 
+doi org neuroimage X pii 
