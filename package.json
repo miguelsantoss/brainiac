@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --config webpack.config.js",
+    "start-client": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --config webpack.config.js",
+    "start-server": "node ./src/server/server.js",
+    "start": "yarn run start-server | yarn run start-client",
     "prod": "node ./node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=production webpack-dev-server --env.prod=true",
     "build": "node ./node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=production webpack --env.prod=true",
     "lint": "node ./node_modules/eslint/bin/eslint.js ./src/client ./webpack2.config.js -f table || true"
