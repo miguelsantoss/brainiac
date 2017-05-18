@@ -26,9 +26,9 @@ class TFIDF(Transform):
     
     def _tf_idf(self, row, col, word_total):
         term_frequency = self.matrix[row][col] / float(word_total)
-        term_frequency = log(1.0 + term_frequency)
+        #  term_frequency = log(1.0 + term_frequency)
         term_document_ocurrences = float(self._get_term_document_ocurrences(col))
-        inverse_document_frequency = log(abs(self.document_total / term_document_ocurrences)) + 1.0
+        inverse_document_frequency = log((1.0 + self.document_total) / (term_document_ocurrences + 1.0)) + 1.0
         return term_frequency * inverse_document_frequency
 
     def _get_term_document_ocurrences(self, col):

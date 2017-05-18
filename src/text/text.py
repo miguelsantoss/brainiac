@@ -86,7 +86,7 @@ def main():
 
     #  search
     print(tfidf)
-    #  print(token_dict.values())
+    print(vect.vocabulary_)
     #  print(cosine_similarity(vect.transform(['life learning', 'life', 'learning']), tfidf))
     
     similarity = (tfidf * tfidf.T).A
@@ -94,24 +94,24 @@ def main():
     ar = tfidf.toarray()
     print(sim)
 
-    dimensions = 1
-    rows, cols = tfidf.shape
+    # dimensions = 1
+    # rows, cols = tfidf.shape
 
-    if dimensions <= rows:
-        u, sigma, vt = linalg.svd(ar)
+    # if dimensions <= rows:
+    #     u, sigma, vt = linalg.svd(ar)
 
-        for index in range(rows - dimensions, rows):
-            sigma[index] = 0
+    #     for index in range(rows - dimensions, rows):
+    #         sigma[index] = 0
 
-        transformed_matrix = dot(dot(u, linalg.diagsvd(sigma, len(ar), len(vt))), vt)
+    #     transformed_matrix = dot(dot(u, linalg.diagsvd(sigma, len(ar), len(vt))), vt)
 
-    else:
-        print("can't reduce that many dims")
+    # else:
+    #     print("can't reduce that many dims")
 
-    transformed_matrix = sparse.csr_matrix(transformed_matrix)
-    print(transformed_matrix)
-    sim_lsa = (transformed_matrix * transformed_matrix.T).A
-    print(sim_lsa)
+    # transformed_matrix = sparse.csr_matrix(transformed_matrix)
+    # print(transformed_matrix)
+    # sim_lsa = (transformed_matrix * transformed_matrix.T).A
+    # print(sim_lsa)
 
     #sim_json = {}
     #doc_array = []
