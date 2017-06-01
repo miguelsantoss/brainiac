@@ -18,7 +18,7 @@ class VectorSpace:
     document_tokens = []
     remove_stop_words = False
 
-    def __init__(self, documents = [], transforms = [TFIDF], remove_stop_words=True):
+    def __init__(self, documents = [], transforms = [TFIDF, LSA], remove_stop_words=True):
         self.remove_stop_words = remove_stop_words
         self.documents = documents
         self.parser = Parser()
@@ -31,8 +31,6 @@ class VectorSpace:
         matrix = functools.reduce(lambda matrix, transform: transform(matrix).transform(), transforms, matrix)
         test = sparse.csr_matrix(matrix)
         print(matrix)
-        print(test)
-        print(self.vector_index_to_keyword_mapping)
         self.collection_of_documents_term_vectors = matrix
     
     def _get_vector_keyword_index(self, documents):

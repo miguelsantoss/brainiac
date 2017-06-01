@@ -1,0 +1,552 @@
+JOURNAL OF MAGNETIC RESONANCE IMAGING 
+Review Article
+The Alzheimers Disease Neuroimaging Initiative
+ ADNI MRI Methods
+Clifford R Jack Jr MD Matt A Bernstein PhD Nick C Fox MD 
+Paul Thompson PhD Gene Alexander PhD Danielle Harvey PhD 
+Bret Borowski RTR Paula J Britson BS Jennifer L Whitwell PhD 
+Chadwick Ward BA Anders M Dale PhD Joel P Felmlee PhD 
+Jeffrey L Gunter PhD Derek L G Hill PhD Ron Killiany PhD Norbert Schuff PhD 
+Sabrina Fox Bosetti PhD Chen Lin PhD Colin Studholme PhD 
+Charles S DeCarli MD Gunnar Krueger PhD Heidi A Ward PhD 
+Gregory J Metzger PhD Katherine T Scott PhD Richard Mallozzi PhD 
+Daniel Blezek PhD Joshua Levy PhD Josef P Debbins PhD 
+Adam S Fleisher MD Marilyn Albert PhD Robert Green MD 
+George Bartzokis MD Gary Glover PhD John Mugler PhD and
+Michael W Weiner for the ADNI Study
+The Alzheimers Disease Neuroimaging Initiative ADNI 
+longitudinal multisite observational study healthy elders mild cognitive impairment MCI and Alzheimers disease Magnetic resonance imaging MRI F uorodeoxyglucose positron emission tomography FDG PET 
+urine serum and cerebrospinal uid CSF biomarkers 
+ well clinical psychometric assessments are acquiredat multiple time points All data will cross linked and
+made available the general scientic community The
+purpose this report describe the MRI methods employed ADNI The ADNI MRI core established specications thatguided protocol development A major effort was
+Mayo Clinic and Foundation Rochester Minnesota USA 
+National Hospital for Neurology and Neurosurgery Queen Square 
+London United Kingdom 
+Laboratory Neuro Imaging Department Neurology University 
+California Los Angeles School Medicine Los Angeles California 
+USA 
+Neuroimage Analysis Laboratory Department Psychology Arizona
+State University Tempe Arizona USA 
+Department Public Health Sciences University California Davis
+School Medicine Davis California USA 
+Department Neuroscience University California San Diego La
+Jolla California USA 
+Centre for Medical Image Computing University College London 
+United Kingdom 
+Department Anatomy and Neurobiology Boston University School
+ Medicine Boston Massachusetts USA 
+University California San Francisco and Center for Imaging 
+Neurodegenerative Diseases CIND Department Veterans Affairs
+Medical Center San Francisco California USA 
+Department Neurology and Alzheimers Disease Center University
+ California Davis School Medicine Davis California USA 
+Siemens Medical Solutions Erlangen Germany 
+General Electric Healthcare Waukesha WI USA 
+Philips Medical Systems Best The Netherlands 
+The Phantom Laboratory Greenwich New York USA 
+Departments Psychiatry and Neurology Massachusetts General
+Hospital Boston Massachusetts USA 
+ Wiley Liss Inc 
+Division Cognitive Neuroscience Johns Hopkins University School
+ Medicine Baltimore Maryland USA 
+Genetics Program Alzheimers Disease Center Boston University
+School Medicine Boston Massachusetts USA 
+Lucas Magnetic Resonance Imaging Center Department Radiology Stanford University Stanford California USA 
+Department Radiology University Virginia School Medicine 
+Charlottesville Virginia USA 
+Contract grant sponsor the Alzheimers Disease Neuroimaging Initiative ADNI Principal Investigator Michael Weiner National Institutes 
+Health grant ADNI funded the National Institute
+ Aging the National Institute Biomedical Imaging and Bioengineering and the Foundation for the National Institutes Health through
+generous contributions from the following companies and organizations Pzer Inc Wyeth Research Bristol Myers Squibb Eli Lilly and
+Company GlaxoSmithKline Merck Co Inc AstraZeneca AB Novartis Pharmaceuticals Corporation the Alzheimers Association Eisai
+Global Clinical Development Elan Corporation plc Forest Laboratories and the Institute for the Study Aging ISOA with participation
+from the U S Food and Drug Administration 
+ Address reprint requests C R J Jr M D Department Radiology 
+Mayo Clinic First Street SW Rochester MN 
+E mail jack cliffordmayo edu
+Received November Accepted May 
+DOI jmri 
+Published online February Wiley InterScience www 
+interscience wiley com 
+devoted toevaluating D weighted sequences for morphometric analyses Several options for this sequence were
+optimized for the relevant manufacturer platforms and
+then compared reduced scale clinical trial The protocol selected for the ADNI study includes back back D
+magnetization prepared rapid gradient echo MP RAGE 
+scans calibration scans when applicable and axial
+proton dual contrast echo fast spin echo 
+turbo spin echo FSE TSE for pathology detection ADNI
+MRI methods seek maximize scientic utility while minimizing the burden placed participants The approach
+taken ADNI standardization across sites and platforms the MRI protocol postacquisition corrections and
+phantom based monitoring all scanners could used 
+ model for other multisite trials 
+Key Words MRI Alzheimers disease clinical trials imaging methods imaging standardization
+J Magn Reson Imaging 
+ Wiley Liss Inc 
+Dementia one the most feared associates increasing longevity represents pressing public health problem and major research priority Alzheimers disease
+ AD the most common form dementia affecting
+many millions around the world There currently 
+cure for AD but large numbers novel compounds are
+currently under development that have the potential 
+modify the course the disease and slow its progression There pressing need for imaging biomarkers 
+improve understanding the disease and assess the
+efcacy these proposed treatments Structural magnetic resonance imaging MRI has already been shown
+ sensitive presymptomatic disease and
+has the potential provide such biomarker For use
+ large scale multicenter studies however standardized methods that produce stable results across scanners and over time are needed 
+The Alzheimers Disease Neuroimaging Initiative
+ ADNI study longitudinal multisite observational
+study elderly individuals with normal cognition mild
+cognitive impairment MCI AD It jointly
+funded the National Institutes Health NIH and
+industry via the Foundation for the NIH The study will
+assess how well information alone combination 
+obtained from MRI F udeoyglucose positron
+emission tomography FDG PET urine serum and
+cerebrospinal uid CSF biomarkers well clinical
+and neuropsychometric assessments can measure disease progression the three groups elderly subjects
+mentioned above At the participating sites North
+America imaging clinical and biologic samples will 
+collected multiple time points elderly cognitively normal MCI and AD subjects All subjects will scanned with T MRI each time point 
+and half these will also scanned with FDG PET 
+Subjects not assigned the PET arm the study will
+ eligible for T MRI scanning The goal acquire
+both T and T MRI studies multiple time points
+ the subjects who not undergo PET scanning CSF collection both baseline and 
+months targeted for the subjects Sampling
+varies clinical group Healthy elderly controls will 
+Jack Jr 
+sampled and months Subjects with
+MCI will sampled and months 
+AD subjects will sampled and months 
+Major goals the ADNI study are link all these
+data each time point and make this repository available the general scientic community develop
+technical standards for imaging longitudinal studies 
+ determine the optimum methods for acquiring and
+analyzing images validate imaging and biomarker
+data correlating these with concurrent psychometric
+and clinical assessments and improve methods for
+clinical trials MCI and AD The ADNI study overall 
+divided into cores with each core managing ADNI related activities within its sphere expertise clinical 
+informatics biostatistics biomarkers and imaging 
+The purpose this report describe the MRI methods and decision making process underlying the selection the MRI protocol employed the ADNI study 
+MATERIALS AND METHODS
+The MRI portion the ADNI study was divided into
+three phases development preparation and execution
+ the study itself In this report outline activities 
+the rst two phases Members the MRI core established basic set requirements that guided the protocol development process The overarching principle
+was maximize scientic value while minimizing patient burden Specic guidelines were 
+The MRI data acquired ADNI must consistent across sites and over time That similar
+image qualities contrast noise spatial resolution resistance artifact reliability speed etc 
+must achieved across sites and platforms over
+time each eld strength 
+Based responses initial questionnaire 
+virtually all participating clinical enrollment sites
+had access least one MRI scanner from GE
+Healthcare Philips Medical Systems Siemens
+Medical Solutions Consequently scanners from
+only these three vendors were supported A variety but not all the MRI platforms from each
+vendor were supported Specically some older
+platforms Siemens Vision GE Healthcare
+systems running software earlier than were
+not supported 
+Modication existing product pulse sequence particular vendor platform was encouraged but only was both practical and
+would substantially benet the study 
+The study emphasis was brain morphometry 
+hence the most important image set was the weighted D volumetric acquisition Isotropic
+voxels were desired avoid directional bias 
+but not required The target voxel size was approximately with maximum 
+ any one direction 
+The whole brain must covered without image
+wrap Given the large number and variety participating sites the imaging volume must easy
+for technologists prescribe regardless experience level 
+The Alzheimers Disease Neuroimaging Initiative
+Acquisition time for any series should less
+than minutes 
+Artifact reduction more important than reduction acquisition time 
+At T the increased signal noise ratio SNR 
+compared with T was used increase spatial
+resolution while increasing the receiver bandwidth help compensate for the increased
+chemical shift and the more rapid susceptibility
+variation measured hertz T 
+The D weighted protocol must operate successfully with major imaging analysis methods
+that have been employed this eld such 
+manual and atlas based region interest generation boundary shift integral voxel based morphometry and tensor based morphometry 
+ADNI must include phantom based methods 
+monitor scanner calibration across all sites over
+the course the study 
+Post acquisition correction certain image artifacts would implemented where applicable 
+such D distortion correction for warping due
+ gradient nonlinearity 
+Several basic decisions about the composition the
+MRI protocol for the execution phase were made the
+basis the cumulative experience members the
+MRI core with multisite MRI based studies information
+gleaned from surveys the participating ADNI clinical
+sites and the protocol guidelines established above 
+Each subject will enrolled the study for year
+period and multiple types data will collected 
+each sampling point anticipate high research
+burden each participant Moreover ADNI observational study which offers participants experimental treatment In order maximize scientic value
+while minimizing patient burden the MRI core targeted
+the duration the patient scanning portion the execution phase MRI protocol approximately minutes We also decided scan the ADNI phantom immediately after each patient exam rather than
+decoupling phantom and human scanning Site surveys revealed that the average time window allotted for
+ single MRI examination the head was approximately minutes The overall structure the ADNI
+MRI execution phase was therefore targeted 
+minutes patient scan time and minutes phantom scan time 
+The protocol minimum had include least one
+high quality high resolution D weighted sequence 
+ well second acquisition that provided weighted information ascertain brain pathology A
+number optional additional imaging sequences were
+considered for the MRI protocol including MR spectroscopy diffusion tensor imaging arterial spin labeling 
+and uid attenuated inversion recovery FLAIR sequences The MRI core decided limit the scope the
+protocol two domains high quality D weighted
+morphometric information and dual contrast proton
+density weighted sequence for pathology detection 
+This decision was based balancing the various competing considerations outlined above Options for this
+high quality D weighted sequence were magnetiza 
+tion prepared rapid gradient echo MP RAGE and IRFSPGR which related technique available the
+GE scanners and spoiled gradient echo SPGR 
+equivalent spoiled fast low angle shot FLASH for Siemens systems and fast eld echo FFE for Philips
+systems We also considered approach that had
+been adopted the Biomedical Informatics Research
+Network BIRN study generating synthetic images
+ acquiring stand alone SPGR equivalent D volumetric data sets with high and low angles 
+Development Phase
+During the development phase total sample
+human studies with weighted D volumetric studies
+ and T were obtained from various ADNI sites
+and the MRI vendors Based protocol features that
+worked well across vendor platforms set generic
+protocols was generated and then reviewed and revised
+ the MRI core group along with industry and external
+advisors until consensus was reached The generic
+protocols were adapted yield vendor specic protocols for the preparatory phase study based availability software options Also minor protocol differences
+were introduced this stage due vendor specic
+implementation differences A customized MP RAGE
+pulse sequence was developed for the GE platform 
+minimize vendor vendor differences At this stage 
+also identied and implemented pulse sequence xes
+required for the weighted IR pulse sequences 
+some platforms including increased RF bandwidth 
+the inversion pulse T and increased gradient area
+for the end sequence spoiler Note that these customization steps resulted sequences that some
+cases were non product This turn meant that ongoing support throughout the study the MRI vendors
+ systems were upgraded was required At the conclusion the development phase vendor specic protocols that included the list D weighted sequences
+above where appropriate vendor platform were created This protocol was then employed the preparatory phase 
+Preparatory Phase Study
+The ADNI MRI preparatory phase consisted mini
+clinical trial the purpose which was select the D
+ weighted volume sequence that would employed
+ the execution phase the main ADNI study for
+morphometric assessment Two endpoints were evaluated rst the ability the imaging sequence appropriately differentiate normal control subjects from AD
+subjects cross sectionally and second test retest precision serial scan pairs obtained normal elderly
+control subjects situation which systematic
+biologic change expected Six different sites representing the relevant MRI vendor platforms and 
+T participated the ADNI MRI preparatory phase 
+Over these six sites normal elderly subjects and 
+AD subjects were scanned once for cross sectional
+comparison purposes The control subjects were
+scanned again weeks later order evaluate precision Scanning sessions were performed both
+phased array receive and single channel T R birdcage
+RF coils for some platforms The data acquired above
+were submitted for quantitative evaluation using the
+techniques that will employed the main ADNI data
+analyses boundary shift integral voxel based morphometry tensor based morphometry atlas based
+hippocampal volumetrics and also measure graywhite matter contrast noise In addition scans were
+graded qualitatively trained individual for artifacts
+and general image quality four point scale none 
+mild moderate and severe Each scan was graded 
+several separate criteria blurring ghosting artifact intensity and homogeneity SNR susceptibility artifacts and gray white CSF contrast 
+RESULTS
+A total unique MRI studies subjects were
+acquired during the preparatory phase Plans for analysis this data initially outlined were compromised
+ the discovery additional image imperfections 
+some system platforms while the preparatory phase
+was progress These included inconsistent polarity 
+the readout gradient between vendors that resulted 
+undesirable cephalic shift fat over the brain the
+base the skull Fig for sagittal acquisitions Also 
+with transmit receive T R head coils the images were
+unacceptably noisy Fig which was corrected 
+the expense increased imaging time increasing
+the number slices and the MP RAGE repetition time 
+ indicated Table and illustrated Fig Finally 
+some older systems imposed limit the maximal
+number slices This not only degraded the SNR but
+also precluded sufcient coverage Both the change 
+chemical shift direction and the lifting the slice
+limit required further pulse sequence modication The
+protocol change increase SNR for T R birdcage coils
+and pulse sequence modication for chemical shift direction were made while the preparatory phase was 
+progress resulting undesirable discontinuities 
+this data 
+ Undesirable chemical shift The manufacturers default polarity the readout gradient the SI direction for
+sagittal acquisitions shifted fat over the base the brain
+ arrow left the rst version the protocol This hinders
+automated brain extraction algorithms Reversal this shift
+ right required custom alteration the manufacturers product imaging sequence 
+Jack Jr 
+ Poor SNR with single channel birdcage coils rst
+version protocol As indicated Table the protocol using
+ single channel birdcage coil differs from the phased array
+protocol Left When T images are acquired using the
+phased array protocol with birdcage coil poor SNR results 
+Right Making the parameter adjustments listed Table 
+resolves the problem without increasing chemical shift 
+The MRI core along with the external advisors met
+during the annual ISMRM meeting Miami The
+purpose this meeting was review data from the
+preparatory phase and select nal protocol for the
+execution phase ADNI A general summary the
+qualitative ranking results from best worst were 
+MP RAGE SPGR synthetic The different scan
+types were also graded the basis quantitative
+measures made the individual image analysis
+groups the MRI core These data have appeared 
+will appear separate independent publications 
+Overall the results were mixed There was clear
+indication across the different analyses performed that
+one image type outperformed the other In addition 
+where one image type was found better than another differences were typically small There was 
+overall consensus that the MP RAGE and SPGR 
+equivalent sequences outperformed the synthetic 
+images The primary advantages the SPGR over MPRAGE were superior SNR and superior performance 
+applications that placed premium brain CSF segmentation The advantages the MP RAGE sequence
+were superior gray white contrast noise superior
+performance some applications requiring cortical
+segmentation and imaging times that were under 
+minutes for all vendor platforms both eld strengths 
+The evaluation group also noted that the SNR advantage for SPGR was large extent present birdcage
+coil acquisitions T acquired with the initial unsatisfactory version the preparatory phase MP RAGE
+protocol which was acquired with birdcage coils The
+protocol changes illustrated Fig resulted signicant improvement the performance MP RAGE
+ the various image processing algorithms The evaluation group decided extrapolate what would
+have seen had the higher SNR protocol been used
+throughout the entire preparatory phase when weighing the pros and cons various MR sequences 
+The evaluation group unanimously selected MPRAGE the D sequence for the ADNI execution phase
+ Fig The suggestion was also made acquire backto back MP RAGE sequences opposed the more
+traditional approach single acquisition per exam 
+The Alzheimers Disease Neuroimaging Initiative
+Table 
+Range Parameters for MP RAGE Acquisition
+Coil
+Nx
+Ny
+Nz No 
+slices
+FoV 
+TRa 
+TI
+Flip
+ deg 
+ T
+BC
+ T
+MA
+ T
+MA 
+BC
+Plane
+Sagittal PEb
+ A P
+Sagittal PE
+ A P
+Sagittal PE
+ A P
+RBW
+ Hz pixel 
+Time
+ min 
+TR dened here the repetition time for the inversion pulses 
+PE the phase encoded direction 
+ the base resolution Because the eld view rectangular T the net number acquired phase encoding steps 
+approximately 
+The longer value TR T used only with pulse sequences where the train gradient echo readouts represents the plane
+phase encoding Because there are fewer encoded slices than plane phase encodings the T protocol the net acquisition time 
+approximately equal the TR msec case 
+MA multicoil phased array head coil BC birdcage volume head coil 
+The advantage incorporating back back acquisitions standard feature the protocol that the
+decision repeat the scan the basis image quality
+will not placed the hands individual technologists the sites performing the scans The ADNI MRI
+quality control center the Mayo Clinic will select the
+better MP RAGE sequence each time point based 
+centralized and standardized criteria Perhaps most importantly requiring back back MP RAGE scans
+should reduce the number examinations that must
+ repeated due poor image quality This turn
+should minimize patient burden and enhance patient
+retention the study Finally both MP RAGE scans
+are equivalent high quality the magnitude images
+could combined typically after spatial registration 
+the two image volumes produce single image with
+ improvement SNR approaching 
+Discussion the appropriate imaging sequence 
+employ for cerebral pathology detection centered 
+FLAIR dual contrast fast spin echo The minutes
+allotted patient scan time could accommodate only
+one these additional sequences Although the FLAIR
+sequence highly useful was decided that some
+clinical groups would double fast spin echo sequence more keeping with their general practice than
+ stand alone FLAIR image This was important consideration because site interpretation all ADNI
+MRI studies local radiologist for medical alerts 
+feature the overall ADNI study design The MR core
+therefore decided the following for the nal format 
+the ADNI execution phase protocol 
+Standard prescan and scouting procedure recommended the manufacturer
+Sagittal D MP RAGE
+Sagittal D MP RAGE repeat
+Sagittal calibration scan phased array 
+Sagittal calibration scan body coil 
+Axial proton density dual contrast FSE TSE 
+ Example MP RAGE images for each manufacturer
+ T left and T right GE Philips Siemens 
+These six series are typically completed minutes
+ less Series and are low resolution maps used 
+correct for intensity variation the phased array
+receive coil Consequently they are omitted when only
+ single channel T R birdcage head coil available In
+the case the Philips scanners product correction was available the beginning the study and was
+integrated into the protocol The other two vendors introduced product corrections later but reference
+scans and were not replaced help ensure conti 
+Jack Jr 
+nuity the longitudinal data A list parameters for
+series and provided Table and representative
+images for each vendor both eld strengths are
+shown Fig Detailed lists parameters for each
+ADNI supported vendor platform can downloaded 
+http www loni ucla edu ADNI Research Cores 
+DISCUSSION
+The requirements for the ADNI MRI protocol differ from
+those used generate routine clinical protocol For
+example while experienced radiologist often can
+read through minor artifacts the automated software
+programs used for the analysis typically cannot In fact 
+ general rule the more fully automated the analysis
+algorithm the less tolerant image imperfections Therefore smaller elds view that can lead 
+wraparound artifacts the nose onto the back the
+head were avoided well parallel imaging methods
+like sensitivity encoding SENSE that can sometimes
+result residual aliasing when there imperfect calibration Also partial space acquisition was avoided
+because the associated artifacts that can result 
+regions rapid susceptibility variation Consequently 
+the acquisition time the MP RAGE series somewhat longer than corresponding protocol typically
+used for diagnostic purposes The ADNI MRI protocol
+was selected data driven manner with considerable
+deliberation group experts the eld MRI 
+Because the large multicenter nature ADNI MRI
+techniques that were widely available the 
+time frame were given preference although important
+pulse sequence changes like the fat water chemical
+shift direction were allowed The protocol follows set
+ principles outlined the MRI core ADNI executive
+committee and external advisory committee that are
+ ADNI phantom The ADNI phantom spherical 
+with multiple inclusions that are used both for ducial purposes and for SNR and contrast measurements Image the
+bottom MRI illustrating the central SNR inclusion well
+ smaller spheres for ducial measurements 
+ Effect gradwarp Spherical phantom with rectilinear grid inclusion before left and after right gradwarp
+correction 
+meant maximize scientic utility while minimizing
+research burden for participants ADNI 
+In addition imaging study subjects ADNI also
+acquiring images phantom the same examination period each human MRI exam Fig The
+phantom was specically designed for ADNI subset
+ the ADNI MRI core along with partners industry
+ The ADNI phantom and accompanying analysis software will measure gradient calibration residual
+nonlinearity after D distortion gradwarp correction SNR and contrast These measurements will
+ used monitor scanner performance over time for
+each scanner involved the ADNI study Tolerance
+specications for each parameter will established
+when sufcient longitudinal data from all participating
+sites have been acquired and analyzed These specications will used inform sites any deviation from
+tolerance limits detected individual scanners In addition the gradient calibration measures acquired 
+each imaging time point will linked with its corresponding human scan This will permit retrospective
+rescaling human images correct for drift discontinuities gradient calibration 
+To enhance standardization across sites and platforms images acquired the ADNI study post acquisition correction certain image artifacts has been
+implemented These include corrections image geometry for gradient nonlinearity D gradwarp 
+corrections for intensity nonuniformity due nonuniform receiver coil sensitivity and correction image intensity nonuniformity due other causes such
+ wave effects T These corrections are system
+specic For example only systems with apparent gradient nonlinearity undergo this correction and the implementation D gradwarp equivalent specic
+for each gradient conguration Fig Similarly correction for intensity inhomogeneity due nonuniform
+sensitivity multiarray receiver coils was implemented
+for those systems which the manufacturer did not
+provide this feature product the inception the
+study Fig In addition the uncorrected original
+image les the images with all the corrections and
+some with intermediate steps will available the
+general scientic community described http 
+www loni ucla edu ADNI These data correction procedures well image quality control procedures are
+performed single site Mayo Clinic Image data
+quality control includes inspection each incoming
+image for protocol compliance clinically signicant
+The Alzheimers Disease Neuroimaging Initiative
+ Intensity homogeneity correction Phased array
+coil acquisition T before left and after right intensity
+nonuniformity correction Images have been reformatted from
+the sagittal into the axial plane illustrate the intensity inhomogeneity anteriority prior correction 
+medical abnormalities and image quality The results
+ image quality control analysis are uploaded the
+ADNI central data base where this information 
+linked the relevant image and available the
+general scientic community The actual image processing analyses for ADNI are performed separate sites 
+The approach standardization across sites and
+platforms the MRI protocol and acquisition parameters for each imaging sequence post acquisition correction image artifacts and phantom based monitoring the instruments themselves could extended 
+other multisite trials including those other research
+areas This approach will minimize variation the data
+collected due technical nonuniformity and thus maximize across site sensitivity true biologic variation In
+large multisite studies where the role MRI capture relevant phenotypic information all study participants the importance standardization supersedes the natural impulse MR scientists employ
+the most cutting edge MR methods that usually will 
+unique each platform and can introduce undesirable
+technical variability 
+ACKNOWLEDGMENTS
+The authors dedicate this manuscript the memory
+ Dr Leon Thal Dr Thal devoted his career the
+goal nding cure for Alzheimers disease He
+was universally respected and admired and was instrumental establishing the ADNI study See the
+following web site http www alzforum org 
+spotlight Thaltribute asp barrett 
+REFERENCES
+Fox NC Warrington EK Freeborough PA Presymptomatic
+hippocampal atrophy Alzheimers disease A longitudinal MRI
+study Brain 
+Fox NC Crum WR Scahill RI Stevens JM Janssen JC Rossor MN 
+Imaging onset and progression Alzheimers disease with voxelcompression mapping serial magnetic resonance images Lancet
+Jack CR Jr Petersen RC Xu Y Prediction AD with MRIbased hippocampal volume mild cognitive impairment Neurology 
+Jack CR Jr Shiung MM Weignad SD Brain atrophy rates
+predict subsequent clinical conversion normal elderly and amnestic MCI Neurology 
+Xu Y Jack C Jr OBrien PC Usefulness MRI measures 
+entorhinal cortex hippocampus AD Neurology 
+Dickerson BC Goncharova I Sullivan MP MRI derived entorhinal and hippocampal atrophy incipient and very mild Alzheimers disease Neurobiol Aging 
+Dickerson BC Salat D Bates JF Medial temporal lobe function and structure mild cognitive impairment Ann Neurol 
+Killiany R Gomez Isla T Moss M Use structural magnetic
+resonance imaging predict who will get Alzheimers disease Ann
+Neurol 
+Killiany RJ Hyman BT Gopmez Isla T MRI measures 
+entorhinal cortex hippocampus preclinical AD Neurology
+Du AT Schuff N Amend D Magnetic resonance imaging 
+the entorhinal cortex and hippocampus mild cognitive impairment and Alzheimers disease J Neurol Neurosurg Psychiatry
+Mueller SG Weiner MW Thal LJ Ways toward early
+diagnosis Alzheimers disease the Alzheimers Disease Neuroimaging Initiative ADNI Alzheimers Dementia 
+Mueller SG Weiner MW Thal LJ The Alzheimers Disease
+Neuroimaging Initiative Neuroimaging Clin North Am 
+Fischl B Salat DH van der Kouwe A Sequence independent
+segmentation magnetic resonance images NeuroImage 
+Deoni SC Peters TM Rutt BK High resolution and mapping
+ the brain clinically acceptable time with and
+Magn Reson Med 
+Leow AD Klunder AD Jack CR Jr Longitudinal stability 
+MRI for mapping brain change using tensor based morphometry 
+For the ADNI Preparatory Phase Study NeuroImage 
+Gunter JL Bernstein MA Borowski B Validation testing 
+the MRI calibration phantom for the Alzheimers Disease Neuroimaging Initiative Study In ISMRM Scientic Meeting and Exhibition Seattle WA 
+Mallozzi RP Blezek DJ Gunter JL Jack CR Jr Levy JR Phantombased evaluation gradient non linearity for quantitative neurological MRI studies In ISMRM Scientic Meeting and Exhibition Seattle WA 
+Mallozzi RP Blezek DJ Ward CP Gunter JL Jack CR Jr Phantombased geometric distortion correction for volumetric imaging 
+Alzheimers disease In ISMRM Annual Scientic Meeting and
+Exhibition Kyoto Japan 
+Hajnal JV Hill DLG Hawkes DJ Medical image registration New
+York CRC Press 
+Jovicich J Czanner S Greve DN Reliability multi site
+structural MRI studies effects gradient non linearity correction
+ phantom and human data NeuroImage 
+Narayana PA Brey WW Kulkarni MV Sievenpiper CL Compensation for surface coil sensitivity variation magnetic resonance
+imaging Magn Reson Imaging 

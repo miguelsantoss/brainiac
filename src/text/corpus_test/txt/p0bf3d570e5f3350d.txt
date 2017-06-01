@@ -1,0 +1,799 @@
+RESEARCH
+ARTICLE
+Anatomical and Functional Correlates Persistent Pain
+ Parkinsons Disease
+Andrea Polli PT MSc Luca Weis PhD Roberta Biundo PhD Michael Thacker PT MSc Andrea Turolla PT MSc 
+Kostantinos Koutsikos MD K Ray Chaudhuri MD and Angelo Antonini MD 
+Parkinson Unit Institute for Research Hospitalization and Health Care IRCCS San Camillo Rehabilitation Hospital Venice Italy
+Laboratory Robotics and Kinematics Neurorehabilitation Department Institute for Research Hospitalization and Health Care IRCCS San
+Camillo Hospital Foundation Venice Italy
+Centre for Human and Aerospace Physiological Sciences Pain Section Neuroimaging Institute Psychiatry Kings College London London 
+United Kingdom
+Department Neuroscience The University Sheffield Sheffield United Kingdom
+Neuroscience Research and Development Denmark Hill Campus Kings College Hospital Kings College London London United Kingdom
+A B S T R A C T B The pathophysiology
+ pain Parkinsons disease PD still poorly understood although conceivable that supraspinal mechanisms may responsible for pain generation and
+maintenance 
+M We examined brain functional and anatomical changes associated with persistent pain PD
+patients with persistent pain and without pain 
+We also examined pain free healthy participants 
+similar age gender and cognitive state control
+group We assessed pain the Kings Parkinsons
+Pain Scale the Visual Analogue Scale for pain and the
+Leeds Assessment for Neuropathic Symptoms and
+Sign All patients underwent structural diffusion tensor
+imaging and resting state functional MRI We compared clinical characteristics whole brain cortical thickness subcortical volumes diffusion tensor imaging
+scalar measures and functional connectivity network
+based statistics 
+R The group with PD and persistent pain
+showed significant thinning the bilateral temporal
+Pain one the most common nonmotor symptoms
+ Parkinsons disease PD with prevalence ranging
+from heterogeneous clinical presentation 
+ Corresponding author Dr Luca Weis Parkinson Unit IRCCS San
+Camillo Rehabilitation Hospital Via Alberoni Venice Lido
+ Venice Italy luca weisospedalesancamillo net
+Andrea Polli and Luca Weis contributed equally this work 
+Relevant conflicts interests financial disclosures Nothing 
+report 
+Received June Revised August Accepted 
+September 
+Published online Month Wiley Online Library
+ wileyonlinelibrary com DOI mds 
+pole left medial orbitofrontal cortex bilateral superior
+and left inferior parietal areas pars orbicularis and right
+superior frontal posterior cingulated and precentral
+cortex There were significant subcortical volume
+and white matter differences between PD subgroups 
+Functional MRI showed decrease brain activity 
+the left frontal inferior orbital PD patients with persistent pain with greater activity bilaterally the cerebellum and the right inferior temporal areas Only PD
+patients with persistent pain showed accumbens
+hippocampus disconnection without white matter and
+subcortical alterations 
+C We showed that persistent pain PD
+ associated with supraspinal structural and functional
+changes We also highlighted the contribution frontal 
+prefrontal and insular areas nociceptive modulation
+C 
+and accumbenshippocampus disconnection V
+International Parkinson and Movement Disorder Society 
+K W chronic pain Parkinsons disease neuropathic pain neuroimaging fMRI
+and disabling impact quality life Pain 
+reported already the onset the disease negatively affects rehabilitation strategies and increases relatives and caregivers burden Nonetheless often
+underrecognized and undertreated 
+Pain can occur consequence dystonic muscle
+contraction the end levodopa effect secondary 
+comorbidities such osteo arthrosis disk herniation and result peripheral neuropathy 
+Indeed now evident that with advancing disease 
+significant number patients present abnormal nociceptive processing reporting lower pain threshold
+than healthy controls Pain threshold may also 
+Movement Disorders Vol No 
+P O L L I
+E T
+A L
+variably modulated levodopa treatment regardless
+ its aetiology However pain does not constantly
+improve with dopaminergic and may also
+respond other treatments including deep brain stimulation suggesting that other supraspinal mechanisms not directly influenced dopamine are
+involved its modulation 
+The experience pain associated with psychological and neurophysiological responses and processed
+ broad neural network which includes sensorydiscriminative motivational affective and cognitive
+areas Specific brain alterations are found 
+several persistent pain conditions with different
+pathophysiology such irritable bowel syndrome 
+fibromyalgia headache neuropathic pain Regions
+found consistently involved are somatosensory areas 
+the insula anterior cingulate cortex ACC prefrontal
+cortex PFC thalamus Th and periaqueductal gray
+matter Some PFC Th Insula ACC and hippocampus are also linked the pars compacta substantia
+nigra SNpc providing the neural bases for PDspecific network involvement pain processing 
+However date there are studies investigating
+whether pain PD associated with structural alteration whereas functional imaging has confirmed the
+role the insula and ACC well prefrontal and
+somatosensory cortices 
+Nonetheless the exact mechanisms nociceptive
+processing and modulation PD remain unclear In
+this study assessed both structural and functional
+cerebral changes associated with persistent pain PD
+patients Persistent pain was assessed using the Kings
+PD pain scale that has been specifically developed for
+the assessment PD pain and recently applied clinical trials 
+Methods
+stimulation severe psychosis psychological diseases which may hinder perception self reporting
+ pain peripheral neuropathy result comorbidities such Herpes zoster posttraumatic neuropathies and diffuse vascular lesions MRI scan
+ seen FLuid Attenuated Inversion Recovery FLAIR A total age matched and pain free
+healthy controls HC were also included and underwent the same clinical and neuroimaging assessment
+protocols 
+The pain subscales the item Short Form Health items and were used 
+define clear division between the PD Pain group and
+the PD Ctrl group Patients were enrolled the PDPain group they reported severe very severe pain
+ item have pain interfering with everyday
+activities quite bit extremely item In the PDPain group only enrolled patients who had 
+persistent pain for more than months and pain
+experienced recurrent daily basis item 
+Kings Parkinsons Disease Pain Scale KPP 
+PD patients and healthy participants declaring pain
+ very little pain that did not interfere with normal
+activities were included the PD Ctrl and HC
+groups respectively We decided use both the 
+and KPP scales better characterize pain symptoms 
+The scales together can assess pain intensity frequency and its impact daily activities Moreover 
+the KPP has also been used recent clinical trials 
+test the effect pain medications 
+This study was approved the ethical committee
+ the IRCCS San Camillo Hospital Written informed
+consent was obtained from each individual according
+ the Declaration Helsinki after extensive explanation the aim and experimental procedures 
+the study Protocol 
+Participants
+Study Procedure
+From February May total 
+consecutive PD inpatients were examined the Parkinson Disease Unit IRCCS San Camillo Hospital 
+ Venice Italy All patients underwent extensive clinical neuropsychological behavioral and MRI evaluations The patients inclusion criteria were diagnosis
+ idiopathic PD according the UK Brain Bank criteria ability understand study purposes and
+procedures and willingness participate the
+study To maximize subjective feedback from selfreported questionnaires and take into account cognitive and psychological aspect that might influence
+pain Mini Mental State Examination score
+ MMSE and Beck Depression Index II score
+ were considered inclusion criteria 
+Exclusion criteria were the presence previous
+neurosurgical procedures including deep brain
+All patients underwent complete clinical assessment extensive neuropsychological evaluation 
+and MRI imaging acquisition within the first week
+after hospital admission 
+Demographic age gender education clinical disease duration comorbidities medications Unified Parkinson Disease Rating Scale UPDRS parts II and
+III Hoehn and Yahr H Y and pain symptoms cognitive and behavioral status MMSE 
+BDI II State Trait Anxiety Inventory and
+ were assessed Dopaminergic medications
+were stable during the entire assessment period and
+the scanning procedures were always set the same
+time day the medication ON state avoid
+biases because diurnal variations The levodopa
+equivalent dose LEED was calculated and other
+medications were noted 
+Movement Disorders Vol No 
+P E R S I S T E N T
+To comprehensively evaluate the pain the PD and
+healthy participants used the following tools 
+the KPP scale Visual Analogue Scale VAS 
+and Leeds Assessment Neuropathic Symptoms and
+Signs LANSS The KPP scale validated comprehensive questionnaire and was chosen for its ability 
+discriminate different types pain and evaluate its
+intensity and daily frequency The scale has domains investigating musculoskeletal chronic visceral 
+nocturnal motor fluctuationrelated radicular and
+oro facial pain during the last month One more
+items address every domain Higher scores are associated with more frequent more intense pain The
+LANSS scale was developed discriminate whether
+pain had predominantly neuropathic features and 
+includes items investigating different symptoms such
+ burning pain electroshock like pain pins and needles sensations and hyperalgesia Scores can range
+from and score higher indicates
+that pain likely have neuropathic origin 
+Secondary outcomes assessed functional and motor
+severity Parkinsons disease UPDRS part II III and
+H Y and psychological BDI II and and cognitive characteristics MMSE Data relative secondary outcomes and their validity and
+accuracy can found previous studies 
+MRI Acquisition
+Patients underwent structural diffusion tensor imaging DTI and functional resting state MRI with 
+ T Achieva Philips scanner Philips Medical Systems Best The Netherlands with channel head
+coil MRI protocol included whole head dimensional sagittal D TFE repletion
+time TR milliseconds echo time TE 
+milliseconds flip angle matrix resolution
+ slice thickness ST 
+echo planar imaging sequence TR milliseconds TE milliseconds slices ST 
+acquired voxel size 
+ FA SENSE factor volumes 
+and Diffusion Weighted Imaging DWI sequence
+ TR milliseconds TE milliseconds 
+slices ST acquired voxel size 
+ flip angle SENSitivity
+Encoding SENSE factor volumes diffusion
+direction diffusion B value number 
+acquisitions 
+Participants heads were accurately immobilized
+with pillows minimize head movement artifacts 
+During data acquisition participants were instructed
+ lie quietly the scanner close their eyes and
+remain awake The echo planar imaging field view
+was set parallel the intercommissural line guarantee whole brain analysis MRI scans with cerebral
+small vessel disease assessed periventricular
+P A I N
+I N
+P D
+white matter WM hypo intensity evidence 
+space occupying lesions and head motion artefacts
+were excluded 
+Cortical Thickness and Subcortical
+Volume Analysis
+Gray matter GM changes within PD groups were
+analyzed comparing cortical thickness Cortical
+thickness and subcortical volumes were obtained with
+ that computes the curvature
+ the GM and WM interfaces characterize sulci
+and gyri and inflates the whole brain into sphere for
+the purpose surface based nonrigid registering 
+participants according the Talairach standard
+atlas The human cortex then divided into 
+regions interest each and subcortical WM and GM volumetric structures including
+the hippocampus amygdala caudate putamen accumbens and ventricles 
+Tract Based Spatial Statistical Analysis
+WM microstructural brain tissue integrity was
+assessed using DTI measures fractional anisotropy
+ fractional anysotropy FA unspecific microstructural
+alteration mean diffusivity MD cellular membrane
+ cellular density alteration and radial diffusivity
+ demyelination Native data were processed using
+the recon Freesurfer tool Preprocessing steps
+included dual step registration standard Montreal
+Neurologic Institute MNI space and selection WM
+tracts less affected from between subjects variability
+ means skeletonization Functional MRI 
+the Brain FMRIB Software Library FSL procedure
+ http www fmrib fsl See the supplementary material for further details 
+Resting State Analysis
+To analyze persistent pain associated with
+abnormalities regional neuronal spontaneous activity compared MRI based fractional amplitude 
+low frequency fluctuations fALFF between the PDPain and PD Ctrl groups fMRI data preprocessing
+was run using the dpabi Resting State fMRI Data
+Analysis Toolkit version http rfmri org dpabi 
+and included slice timing spatial realignment 
+ nuisance covariates regression temporal band
+pass filtering Hz ALFF and fALFF
+calculation and step normalization the MNI
+template See the supplementary materials for details 
+Region Of Interest ROI based Resting State
+Brain Networks Based Statistical Analysis
+To assess functional connectivity areas involved
+ acute and chronic pain are different among PD subgroups and HC the resting state signal coherence
+Movement Disorders Vol No 
+P O L L I
+E T
+A L
+between the pain networks ROIs was compared using
+ network based statistical analysis NBS The resting state fMRI the HC were previously described
+for PD patients Based recent literature chose
+ regions known associated with pain left and
+right sensory areas and left and right insula 
+supplementary motor regions anterior and posterior
+cingulate cortices left and right thalamus left and
+right hippocampus left and right amygdala periaqueductal gray matter left and right nucleus accumbens 
+and left and right cerebellum areas Thresholds were
+set probability and masked using mean
+GM mask previously obtained Statistical
+Parametric Mapping Data Processing 
+Analysis Brain Imaging DPABI segmentation sample D Raw means were
+extracted from each ROI using the dpabi tool and
+then included NBS using the GraphVar version tool https www nitrc org projects graphvar 
+The preprocessing procedure the fMRI correlation matrix included band pass filtered raw signal
+extraction from the ROIs correlation matrix generation values normalization generation 
+permuted matrix T based threshold and network model generation see the supplementary materials for details After preprocessing network models
+were considered for each participant they reach 
+explorative P and node size 
+Statistical Analysis
+Statistical analyses included between group comparisons demographic and clinical variables PD Pain
+versus PD Ctrl groups Continuous and dichotomous
+variables were compared among groups running nonparametric MannWhitney U and chi squared tests 
+Pearson correlations were used analyze the degree
+ association between clinical demographic and neuropsychologic variables All statistics were performed
+using SPSS version IBM SPSS Chicago Illinois 
+Between group differences for the cerebral GM
+thickness and subcortical volumes were assessed 
+general linear model GLM surface based analysis 
+Statistical maps were generated using Freesurfers
+QDEC Query Design Estimate Contrast application QDEC fits GLM each surface vertex 
+explain the data from all participants the study 
+The results were obtained with full width half max
+ Age disease duration LEED and intracranial volume were used covariates for each group 
+We applied Monte Carlo nonparametric testing correcting for multiple comparisons across space for cerebral thickness For the cortical thickness analysis 
+P clusterwise Monte Carlo corrected threshold
+was used and P uncorrected threshold was
+used only for exploratory purposes A P Sidak
+Movement Disorders Vol No 
+correction for multiple comparisons across areas was
+adopted for subcortical volumes 
+For DTI used the FSL tool Tract Based Spatial
+Statistics TBSS compare diffusion measures
+between PD patients subgroups including age disease
+duration LEED and intracranial volume the model covariates for each group separately In addition 
+fALFF GLM comparisons were performed voxel 
+voxel between PD subgroups with the FSL randomize
+tool Statistical results for the DTI and fALFF were
+corrected for multiple comparisons using the FSL randomize tool with permutations and the randomize option threshold free cluster enhancement
+ TFCE was applied with threshold P We
+adopted nonparametric permutation based FamilyWise Error FWE multiple correction This approach
+has been indicated adequate minimize false positive findings 
+Finally nonparametric analysis variance was run
+among suprathreshold connections the PD Pain 
+PD Ctrl and pain free HC groups rule out possible
+brain alterations specific PD but not related 
+pain The F test for multiple comparisons was performed the P level significance 
+Results
+Demographic and Clinical Features
+ Participants
+A total PD patients men and women 
+and pain free HC men and women fulfilled
+the selection criteria and were enrolled the study 
+Mean patient age was standard deviation SD
+ and disease duration was years SD
+ Of the PD patients men and women 
+were included the PD Pain group and patients
+ men and women were classified PD Ctrl 
+Mean HC age was SD MMSE and
+BDI was SD Demographic and clinical
+features PD patients are summarized Table 
+The PD subgroups were similar age severity 
+the disease H Y motor severity UPDRS III and
+motor aspects experiences daily living UPDRS
+II with trend for greater prevalence women 
+the cohort with pain Cognitive and psychological
+aspects MMSE BDI and were
+also similar the groups PD Pain patients had longer disease duration P received less levodopa
+therapy P and presented greater pain scores
+ P P and P for KPP VAS 
+and LANSS respectively The KPP global score
+strongly correlated with the VAS and LANSS scores
+ P In addition all domains the KPP
+score were correlated P All PD Pain patients
+scored musculoskeletal chronic and visceral pain
+domains and least other domains the scale
+P E R S I S T E N T
+P A I N
+I N
+P D
+TABLE Demographics Parkinson and healthy controls subgroups
+PD Pain
+Mean
+Demographics
+Gender male female
+Age 
+Years disease
+Disease specific assessment
+UPDRS II
+UPDRS III
+H Y 
+LEED
+Cognitive and psychological assessment
+BDI
+MMSE
+Pain
+SF Pain intensity
+SF Pain impact
+LANSS
+VAS
+Kings Parkinsons Disease Pain Scale
+Musculoskeletal Pain
+Chronic and Visceral
+Fluctuation related Pain
+Nocturnal Pain
+Oro facial Pain
+Edema swelling
+Radicular Pain
+Total Kings PD Pain
+ICV
+PD Ctrl
+SD
+Mean
+SD
+P value
+Bold P value fonts indicate variables with significant difference PD Parkinsons disease LANSS Leeds Assessment Neuropathic Symptoms and Signs 
+VAS Visual Analogue Scale UPDRS Unified Parkinson Disease Rating Scale parts II and III H Y Hoehn and Yahr BDI Beck Depression Index STAI State
+Trait Anxiety Inventory part part MMSE Mini Mental State Examination LEED levodopa equivalent dose pain subscales the item
+Short Form Health items and ICV intracranial volume 
+Tests for between group independent comparison were the MannWhitney U and chi squared tests 
+ oro facial domain and edema swelling
+domain the PD Pain subgroup By contrast persistent frequent pain symptoms were
+reported the PD Ctrl group Of the PD Ctrl
+patients were completely pain free and the others
+reported only low intensity scores fewer than subitems mild score related physical exercise 
+digestive functions 
+Disease duration positively correlated with Kings
+PD Pain score P Age negatively correlated
+with the edema swelling domain Kings PD Pain
+score P There was correlation between
+pain scores and disease severity H Y UPDRS III 
+functional impairment UPDRS II LEED psychological status cognitive performances global score 
+any pain assessment measure 
+A total patients the PD Ctrl group and 
+patients the PD Pain group were benzodiazepines antidepressants In both groups there were
+patients additional medications such cardioaspirin melatonin All patients the PD Pain group
+were analgesic medication monotherapy 
+mainly paracetamol and association with codeine
+ oxycodone Only patients the PD Ctrl
+group occasionally take paracetamol 
+Cortical and Subcortical Pattern Associated
+With Pain Parkinsons Patients
+The PD Pain patients showed significant thinning
+ P Monte Carlo corrected the right superior
+frontal gyrus namely the dorso lateral prefrontal cortex DLPFC when compared with the PD without
+pain participants Moreover widespread cortical thinning uncorrected P threshold was also found
+ the temporal pole bilaterally left pars opercularis 
+superior parietal postcentral medial orbitofrontal cortex and parts the superior temporal sulcus In
+the right hemisphere significant thinning was found 
+posterior insular cortex pIC lateral occipital cortex 
+posterior cingulate cortex PCC supramarginal area 
+and superior temporal gyrus see Table Fig A 
+Movement Disorders Vol No 
+P O L L I
+E T
+A L
+TABLE Significant cortical thickness differences between PD Pain and PD Ctrl
+Desikan atlas
+Clusterwise MC value
+Left hemisphere
+Temporal pole
+Pars opercularis
+Superior parietal
+Postcentral
+Inferior parietal
+Banksts
+Medial orbitofrontal
+Right hemisphere
+Lateral occipital
+Temporal pole
+Insula posterior pars 
+Posterior cingulate
+Superior frontal
+Superior frontal SMA aal 
+Max P value
+Size 
+TalX
+TalY
+TalZ
+NVtxs
+GLM surface based cortical thickness analysis Age disease duration LEED and intracranial volume were used covariates Bold font indicates areas significant after Monte Carlo correction clusterwise threshold P Local maxima that were significant after P uncorrected are reported No significant
+between group changes subcortical volumes were found after Sidak correction for multiple comparisons P value Banksts bank the superior temporal sulcus TalX TalY TalZ X Y and Z Talairach coordinate system NVtxs number vertices size cluster surface area clusterwise MC P value clusterwise Monte Carlo corrected P value SMA supplementary motor area aal Automated Anatomical Labeling atlas LEED levodopa equivalent dose 
+There were significant between group changes 
+the subcortical volumes 
+WM microstructural integrity was assessed comparing FA RD and MD maps along the WM region
+with low morphological variation across population 
+No region survived either TFCE FWE correction
+ P exploratory uncorrected P thresholds for each index comparing PD with and without
+pain 
+Changes Regional Spontaneous
+Brain Activity Associated With Pain 
+Parkinsons Patients
+A total patients each PD group had acquisition
+artifacts during fMRI relative movement 
+and were excluded from analysis PD Pain patients
+showed reduction fALFF the frontal inferior
+orbital the left hemisphere Table Fig B On the
+contrary greater fALFF activity was found bilaterally 
+the cerebellum area and the temporal inferior areas
+ the right hemisphere 
+ROI Based Network Comparison 
+Parkinsons Patients and HC
+The F test analysis showed significant difference
+between the HC PD Ctrl and PD Pain groups the
+right Nucleus Accumbens NAc left hippocampus
+connection After post hoc comparisons found
+that this disconnection between the NAc and left hippocampus was determined solely the PD Pain
+cohort T P corrected see Fig 
+Movement Disorders Vol No 
+Discussion
+We investigated functional and structural brain correlates persistent pain PD using both exhaustive clinical evaluation and neuroimaging techniques 
+This the first report linking comprehensive clinical
+assessment persistent pain with anatomical and
+functional neuroimaging 
+Our data indicate that persistent pain PD associated with relative thinning several brain areas
+DLPFC Orbito Frontal Cortex OFC posterior Insular Cortex pIC and PCCand with local functional
+alterations the OFC and cerebellum Most structural alterations the DLPFC OFC and pIC have been
+reported other chronic pain conditions 
+DLPFC part the mesocortical system and
+receives dopamine projections from both the SN pars
+compacta and the ventral tegmental area VTA It
+ key area the descending pain modulatory system consistent with its role expectation reward 
+and decision making The OFC also well connected with the striatum and dopaminergic nuclei and
+ involved expectation and rewards The OFC
+increases its activity link several stimuli with their
+subjective emotional and affective during
+pain inhibition Posterior IC considered central
+area for sensory integration receiving significant inputs from nociceptive and nonnociceptive fibers It
+forms the main sensory area for inputs from the spinothalamic pathway pIC also highly connected with
+primary and secondary sensory areas the parietal
+lobe that are important during sensory discriminative
+processing inputs including nociception Insular
+Cortex IC considered central area for nonmotor
+symptoms PD patients Christopher and
+P E R S I S T E N T
+P A I N
+I N
+P D
+FIG Between group PD Pain PD Ctrl differences cortical thickness and fractional amplitude low frequency fluctuations fALFF 
+Between group PD Pain VS PD Ctrl differences cortical thickness A and fALFF B A General linear model surface based cortical thickness
+using age disease duration levodopa equivalent dose LEED and intracranial volume covariates Areas that were significant after Monte Carlo
+correction P are shown B General linear model voxel based comparison between PD Pain and PD Ctrl groups Age disease duration and
+LEED were used covariates Only regions significance after nonparametric Family Wise Error Threshold Free Cluster Enhancement FWE TFCE 
+correction P are listed Significant cerebellum clusters are overlaid onto MR template using C Rordens MRI tool MRIcro for visualization purpose A detailed list the areas shown Tables and Color figure can viewed wileyonlinelibrary com
+ showed that the cortical thickness the
+IC not related patients cognitive status Taken
+together our data confirm the relevance that the prefrontal insular cortex covers pain conditions 
+On the contrary the best our knowledge the
+PCC not associated with pain generation 
+although may activated during noxious stimulation suggesting role the emotional evaluation 
+stimuli PCC atrophy was found AD but its role 
+cognitive decline PD controversial Our data
+showed structural alterations PCC associated with
+pain and not with cognitive psychological features 
+Despite its unclear function the PCC well connected
+ the PFC and may link DLPFC and OFC and other
+cortical regions possibly association with the emotional evaluation that pain requires 
+Other very interesting results come from the functional MRI evaluation NBS analysis was based 
+several ROIs chosen priori and showed that specific disconnection between the right NAc and the left
+Movement Disorders Vol No 
+P O L L I
+E T
+A L
+TABLE Differences fractional amplitude low frequency fluctuation fALFF between PD Pain and PD Ctrl
+Hemisphere
+Left
+Right
+AAL atlas
+X MNI 
+Y MNI 
+Z MNI 
+ voxel
+Z max
+P value
+Frontal Inferior Orbital
+Cerebellum 
+Cerebellum 
+Temporal Inferior
+General linear model comparison between PD Pain and PD Ctrl groups Age disease duration and levodopa equivalent dose were used covariates Only
+regions that were significant after nonparametric FWE TFCE correction P are listed AAL atlas Automated Anatomical Labelling atlas FWE TFCE Family Wise Error Threshold Free Cluster Enhancement correction procedure 
+FIG PD related connectivity changes the pain network Post hoc between group network based statistics comparison An explorative corrected threshold P was used for visualization purpose Red continuous line network with significant reduction PD Pain compared PD
+without pain PD Ctrl line thickness proportional correlation value Significant disconnection after Monte Carlo randomization correction
+ P Third visualizations onto MNI standard template surface network that were significant after post hoc comparison Hippoc R L right left hippocampus cing post R right posterior part the cingulate cortex cing ant L left anterior part the cingulate cortex Color figure can 
+viewed wileyonlinelibrary com
+Movement Disorders Vol No 
+P E R S I S T E N T
+hippocampuswithin the aforementioned network
+might cover central role persistent PD pain NAc
+receives modulatory inputs the hippocampus and
+VTA NAc has recently emerged key structure
+ chronic and neuropathic pain Both animal and
+human studies pointed out its role the transition
+from subacute chronic and neuropathic pain In
+our study patients the PD Pain group had both
+chronic pain and neuropathic features and the alteration reward feedback because reduced NAc tohippocampus interaction consistent with the clinical
+presentation 
+Other functional MRI studies used fALFF present
+local alterations the OFC temporal areas and cerebellar circuits PD Pain patients Our data demonstrate that OFC covers major role PD pain 
+showing both structural and functional alterations 
+The cerebellum receives projection from the basal ganglia and VTA and sends projections widespread
+network including the frontal DLPFC motor 
+somatosensory and parietal regions Emerging evidence indicates that the cerebellum PD presents specific structural changes and may related 
+nonmotor manifestations Our results are also consistent with evidence demonstrating the functional
+alteration the right cerebellum and parietal regions
+ the early onset PD The role the lingual cortex and temporal areas pain less established 
+They both have been classically ascribed memory 
+word processing and visual function Lingual gyrus
+atrophy has been related visual hallucination 
+PD and temporal pole hypotrophy cognitive
+decline 
+Our clinical assessments were comprehensive and
+PD groups with and without pain were well comparable demographic cognitive psychological and
+motor aspects except for total LEDD which was
+modestly lower the PD Pain patients possibly
+because the greater prevalence women Clinical
+results are consistent with other neuroimaging evaluations We found differences WM the subcortical regions typically related PDs motor and
+cognitive impairment We are confident the presented results express persistent pain and lingual and
+temporal pole fALFF alterations that might therefore
+ related additional nonmotor features which may
+ addressed future studies Of note fMRI highly variable within subjects and may change under
+different conditions ON and OFF phases We
+carefully assessed all patients the ON state 
+explain only those functional alterations that are
+dependent persistent pain and not related motor
+fluctuations 
+We explored persistent pain with the KPP scale the
+first specifically developed and validated for PD 
+We acknowledge that our sample size was not very
+P A I N
+I N
+P D
+large but the prevalence patients with persistent
+pain without any previous peripheral cause that satisfied our criteria was relatively small Indeed our
+cohort was identified after screening patients and
+the participants were carefully evaluated before inclusion Our data showed strong correlations across the
+domains KPP suggesting that common mechanisms
+may responsible for the persistence various pain
+manifestations All PD Pain patients reported positive
+scores least domains Kings PD Pain scale 
+confirming other published data that have showed 
+high prevalence and variability pain PD 
+In conclusion highlighted for the first time network brain regional alterations specifically associated persistent pain PD and not present painfree patients with similar cognitive psychological and
+clinical profiles We propose that the present network
+ involved pain processing regardless its primary
+manifestation Pain PD associated with distinct
+regional alterations dopaminergic areas such the
+OFCwhich presents both functional and structural
+changesand PFC Other nondopaminergic areas
+such the pIC PCC parietal regions and cerebellum
+also showed structural and functional changes that
+might related sensory motor and emotional
+responses pain 
+Further longitudinal studies are needed improve
+our understanding the supraspinal mechanisms 
+pain PD Our data strongly recommend that future
+research considers and controls for pain symptoms 
+they are associated with important structural and
+functional cerebral changes 
+Acknowledgments The authors thank Dr Manuela Pilleri for her
+help interpreting the results and conceptualization the study All
+authors gave final approval this version the manuscript published and can assure that there one else who fulfils the criteria but
+has not been included author 
+References
+Broen MP Braaksma MM Patijn J Weber WE Prevalence pain
+ Parkinsons disease systematic review using the modified
+QUADAS tool Mov Disord 
+Martinez Martin P Rodriguez Blazquez C Kurtis MM Chaudhuri
+KR NMSS Validation Group The impact non motor symptoms
+ health related quality life patients with Parkinsons disease Mov Disord 
+Defazio G Berardelli A Fabbrini G Pain nonmotor
+symptom Parkinson disease evidence from case control study 
+Arch Neurol 
+Beiske AG Loge JH Ronningen A Svensson E Pain 
+Parkinsons disease prevalence and characteristics Pain 
+Chaudhuri KR Odin P Antonini A Martinez Martin P Parkinsons disease the non motor issues Parkinsonism Relat Disord
+Zis P Martinez Martin P Sauerbier A Non motor symptoms
+burden treated and untreated early Parkinsons disease patients 
+argument for non motor subtypes Eur J Neurol 
+Negre Pages L Regragui W Bouhassira D Grandjean H Rascol
+O DoPaMiP Study Group Chronic pain Parkinsons disease 
+the cross sectional French DoPaMiP survey Mov Disord 
+Movement Disorders Vol No 
+P O L L I
+E T
+A L
+Zambito Marsala S Tinazzi M Vitaliani R Spontaneous
+pain pain threshold and pain tolerance Parkinsons disease 
+J Neurol 
+Worker A Blain C Jarosz J Cortical thickness surface area and
+volume measures Parkinsons disease multiple system atrophy and
+progressive supranuclear palsy PLoS ONE 
+Defazio G Tinazzi M Berardelli A How pain arises Parkinsons disease? Eur J Neurol 
+Fischl B FreeSurfer Neuroimage 
+Desikan RS Segonne F Fischl B An automated labeling system for subdividing the human cerebral cortex MRI scans into
+gyral based regions interest Neuroimage 
+Wozniak JR Lim KO Advances white matter imaging review
+ vivo magnetic resonance methodologies and their applicability the study development and aging Neurosci Biobehav Rev
+Zou QH Zhu CZ Yang Y An improved approach detection
+ amplitude low frequency fluctuation ALFF for resting state
+fMRI fractional ALFF J Neurosci Methods 
+Yan CG Wang XD Zuo XN Zang YF DPABI Data processing
+ analysis for resting state brain imaging Neuroinformatics
+Zalesky A Fornito A Bullmore ET Network based statistic identifying differences brain networks Neuroimage 
+Brefel Courbon C Payoux P Thalamas C Effect levodopa
+ pain threshold Parkinsons disease clinical and positron
+emission tomography study Mov Disord 
+Surucu O Baumann Vogel H Uhl M Imbach LL Baumann CR 
+Subthalamic deep brain stimulation versus best medical therapy for
+L dopa responsive pain Parkinsons disease Pain 
+Scherder EJ Sergeant JA Swaab DF Pain processing dementia
+and its relation neuropathology Lancet Neurol 
+Willis WD Westlund KN Neuroanatomy the pain system and 
+the pathways that modulate pain J Clin Neurophysiol 
+Cauda F Palermo S Costa T Gray matter alterations 
+chronic pain network oriented meta analytic approach Neuroimage Clin 
+Wasner G Deuschl G Pains Parkinson diseasemany syndromes under one umbrella Nat Rev Neurol 
+Denk F McMahon SB Tracey I Pain vulnerability neurobiological perspective Nat Neurosci 
+Scherder E Wolters E Polman C Sergeant J Swaab D Pain 
+Parkinsons disease and multiple sclerosis its relation the medial
+and lateral pain systems Neurosci Biobehav Rev 
+Kruschwitz JD List D Waller L Rubinov M Walter H GraphVar 
+ user friendly toolbox for comprehensive graph analyses functional brain connectivity J Neurosci Methods 
+Engels G Weeda WD Vlaar AM Weinstein HC Scherder EJ 
+Clinical pain and neuropsychological functioning Parkinsons
+disease are they related? Parkinsons Dis 
+Smith SM Jenkinson M Johansen Berg H Tract based spatial statistics voxelwise analysis multi subject diffusion data 
+Neuroimage 
+Dellapina E Ory Magne F Regragui W Effect subthalamic deep brain stimulation pain Parkinsons disease Pain
+Eklund A Nichols TE Knutsson H Cluster failure why fMRI
+inferences for spatial extent have inflated false positive rates Proc
+Natl Acad Sci U S A 
+Ha AD Jankovic J Pain Parkinsons disease Mov Disord 
+Krummenacher P Candia V Folkers G Schedlowski M 
+Schonbachler G Prefrontal cortex modulates placebo analgesia 
+Pain 
+Trenkwalder C Chaudhuri KR Martinez Martin P Prolongedrelease oxycodone naloxone for treatment severe pain patients
+with Parkinsons disease PANDA double blind randomised 
+placebo controlled trial Lancet Neurol 
+Staudinger MR Erk S Walter H Dorsolateral prefrontal cortex
+modulates striatal reward encoding during reappraisal reward
+anticipation Cereb Cortex 
+Chaudhuri KR Rizos A Trenkwalder C Kings Parkinsons
+disease pain scale the first scale for pain PD international
+validation Mov Disord 
+Rolls ET Grabenhorst F The orbitofrontal cortex and beyond 
+from affect decision making Prog Neurobiol 
+Moont R Crispel Y Lev R Pud D Yarnitsky D Temporal
+changes cortical activation during conditioned pain modulation
+ CPM LORETA study Pain 
+Mazzola L Faillenot I Barral FG Mauguiere F Peyron R Spatial
+segregation somato sensory and pain activations the human
+operculo insular cortex Neuroimage 
+Wiech K Jbabdi S Lin CS Andersson J Tracey I Differential structural and resting state connectivity between insular subdivisions and
+other pain related brain regions Pain 
+Christopher L Marras C Duff Canning S Combined insular
+and striatal dopamine dysfunction are associated with executive
+deficits Parkinsons disease with mild cognitive impairment 
+Brain 
+Gelb DJ Oliver E Gilman S Diagnostic criteria for Parkinson disease Arch Neurol 
+Folstein MF Folstein SE McHugh PR Mini mental state A
+practical method for grading the cognitive state patients for the
+clinician J Psychiatr Res 
+Beck AT Steer RA Brown GK Manual for the Beck Depression
+Inventory II San Antonio TX Psychological Corporation 
+Apolone G Mosconi P The Italian Health Survey translation 
+validation and norming J Clin Epidemiol 
+Biundo R Weis L Pilleri M Diagnostic and screening power 
+neuropsychological testing detecting mild cognitive impairment 
+Parkinsons disease J Neural Transm Vienna 
+Biundo R Weis L Facchini S Cognitive profiling Parkinson disease patients with mild cognitive impairment and dementia 
+Parkinsonism Relat Disord 
+Vogt BA Pain and emotion interactions subregions the cingulate gyrus Nat Rev Neurosci 
+Movement Disorder Society Task Force Rating Scales for Parkinsons Disease The Unified Parkinsons Disease Rating Scale UPDRS 
+status and recommendations Mov Disord 
+Almuqbel M Melzer TR Myall DJ Metabolite ratios the posterior cingulate cortex not track cognitive decline Parkinsons disease clinical setting Parkinsonism Relat Disord 
+Goetz CG Poewe W Rascol O Movement Disorder Society
+Task Force report the Hoehn and Yahr staging scale status and
+recommendations Mov Disord 
+Chen B Fan GG Liu H Wang S Changes anatomical and
+functional connectivity Parkinsons disease patients according 
+cognitive status Eur J Radiol 
+Leech R Sharp DJ The role the posterior cingulate cortex 
+cognition and disease Brain 
+Pedrabissi L Santinello M Inventario per lansia Stato 
+Tratto nuova versione Italiana dello STAI Y Manuale Organizzazioni Speciali Firenze Italy 
+Kahn I Shohamy D Intrinsic connectivity between the hippocampus nucleus accumbens and ventral tegmental area humans 
+Hippocampus 
+Tomlinson CL Stowe R Patel S Rick C Gray R Clarke CE Systematic review levodopa dose equivalency reporting Parkinsons disease Mov Disord 
+Farmer MA Baliki MN Apkarian AV A dynamic network perspective chronic pain Neurosci Lett 
+Price DD McGrath PA Rafii A Buckingham B The validation 
+visual analogue scales ratio scale measures for chronic and
+experimental pain Pain 
+Chang PC Pollema Mays SL Centeno MV Role nucleus
+accumbens neuropathic pain linked multi scale evidence the
+rat transitioning neuropathic pain Pain 
+Bennett M The LANSS Pain Scale the Leeds assessment neuropathic symptoms and signs Pain 
+Zhang J Wei L Hu X Specific frequency band amplitude
+low frequency fluctuation predicts Parkinsons disease Behav Brain
+Res 
+Movement Disorders Vol No 
+P E R S I S T E N T
+OReilly JX Beckmann CF Tomassini V Ramnani N JohansenBerg H Distinct and overlapping functional zones the cerebellum defined resting state functional connectivity Cereb Cortex
+Wu T Hallett M Reply the cerebellum Parkinsons disease and
+parkinsonism cerebellar disorders Brain 
+Ramirez Ruiz B Marti MJ Tolosa E Cerebral atrophy 
+Parkinsons disease patients with visual hallucinations Eur J Neurol 
+Pereira JB Svenningsson P Weintraub D Initial cognitive
+decline associated with cortical thinning early Parkinson disease Neurology 
+P A I N
+I N
+P D
+Agosta F Canu E Stefanova E Mild cognitive impairment 
+Parkinsons disease associated with distributed pattern brain
+white matter damage Hum Brain Mapp 
+Supporting Data
+Additional Supporting Information may found 
+the online version this article the publishers
+web site 
+Movement Disorders Vol No 
+SGML and CITI Use Only
+DO NOT PRINT
+Authors Roles
+Research Project A Conception B Organization C Execution Statistical Analysis A Design B Execution C Review and Critique Manuscript A Writing the First Draft B Review and Critique
+A P A B C B
+L W A B C A B C A
+R B C B
+M T B
+A T B B
+K K C
+C K R B
+A A A B C B
+Full financial disclosure for the previous months
+A T supported the Higher Education Funding Council for England Catalyst Fund financed the Sheffield
+Healthcare Gateway University Sheffield C K R supported the International Parkinsons Disease NonMotor Group and National Parkinson Foundation A A received funding from Neureca Foundation 
+project and from Italian National Research project He has also received consultancy fees and honoraria for speaker related activities from AbbVie UCB Pharma Zambon General Electric 
+Boston Scientific and Mundipharma L W and B R are supported project A P 
+M T and K K have financial support declare 

@@ -16,7 +16,7 @@ $fill-animation: fill $fill-animation-time ease;
 }
 
 .network-node {
-  fill: $node-fill;
+  // fill: $node-fill;
   stroke: $node-fill;
   opacity: $opacity-normal;
   cursor: pointer;

@@ -1,0 +1,764 @@
+Medial temporal atrophy MRI normal aging and very mild
+Alzheimers disease
+Clifford R Jack Jr Ronald C Petersen Yue Cheng Xu 
+Neurology 
+DOI WNL 
+This information current September 
+The online version this article along with updated information and services 
+located the World Wide Web 
+http www neurology org content full html
+Neurology the official journal the American Academy Neurology Published continuously
+since now weekly with issues per year Copyright All rights reserved Print ISSN 
+ Online ISSN X 
+Medial temporal atrophy MRI 
+normal aging and very mild
+Alzheimers disease
+Clifford R Jack Jr MD Ronald C Petersen PhD MD Yue Cheng Xu MD PhD 
+Stephen C Waring DVM PhD Peter C OBrien PhD Eric G Tangalos MD Glenn E Smith PhD 
+Robert J Ivnik PhD and Emre Kokmen MD
+Article abstract Magnetic resonance imaging based volumetric measurements medial temporal lobe MTL 
+structures can discriminate between normal elderly control subjects and patients with Alzheimers disease AD 
+moderate advanced severity In terms clinical utility however more important issue concerns the ability the
+technique differentiate between normal elderly control subjects and AD patients with the very mildest form the
+disease We performed MRI based volumetric measurements the hippocampus parahippocampal gyrus and amygdala
+ cognitively normal elderly control subjects and patients with probable AD The diagnosis AD was made
+according NINDS ADRDA criteria and disease severity was categorized Clinical Dementia Rating CDR scores 
+Patients with CDR were classified very mild CDR mild and CDR moderate disease severity Volumes 
+each structure declined with increasing age control subjects and did parallel for men and women The volume 
+each measured MTL structure also declined with age patients with AD The volume each MTL structure was
+significantly smaller AD patients than control subjects Of the several MTL measures the total hippocampal volumetric measurements were best discriminating control subjects from AD patients The mean hippocampal
+volumes for AD patients relative control subjects severity disease were follows very mild AD CDR 
+SD below the control mean mild AD CDR SD and moderate AD CDR SD Age and gender adjusted 
+normalized MRI based hippocampal volumetric measurements provide sensitive marker the MTL neuroanatomic
+degeneration AD early the disease process 
+NEUROLOGY 
+Alzheimers disease AD the most common cause
+ dementia individuals older than years 
+age A well accepted biological concomitant AD
+ cerebral The
+ rationale for quantitative
+MRI medial temporal lobe MTL atrophy the
+diagnosis AD memory impairment usually the earliest and most severe clinical manifestation AD MTL limbic structures are central 
+the integrity declarative memory 
+MTL limbic structures are involved earliest and
+most extensively the pathology AD and 
+several principal MTL limbic structures are amenable accurate volumetric quantitation MRI the
+hippocampal formation amygdala and parahippocampal gyrus PHG Based initial studies 
+MRI based volumetric measurements the MTL
+have been proposed clinically useful test for the
+diagnosis AD Some limitations the published data include anatomic boundary criteria
+for the various MTL structures varied significantly
+among the different studies different structures
+ combinations MTL structures were evaluated 
+the various studies relatively small numbers 
+subjects were included individual studies and 
+rigorous definitions the severity AD often were
+not employed Most previous studies have primarily
+included subjects with AD moderate severity Consequently the differences between the AD patients
+and control subjects with regard MTL atrophy
+have been dramatic The most important test the
+utility the technique would patients with
+very mild AD whom the diagnostic decisionmaking process difficult 
+We report large series carefully evaluated and
+longitudinally followed subjects with AD and large
+group prospectively studied normal elderly control
+subjects The AD patients were categorized basis
+ severity and include large sample individuals
+with very mild AD As such are able evaluate
+the utility volumetric MRI assisting the clinical diagnosis AD its most mild stages The
+goals this study were characterize volumetric changes the hippocampus amygdala and PHG
+ normal aging and AD and estimate the
+ability these measures discriminate between
+From the Departments Diagnostic Radiology Drs Jack and Xu Neurology Drs Petersen and Kokmen Health Sciences Research Drs Waring OBrien 
+and Petersen Internal Medicine Dr Tangalos Department Psychiatry and Psychology Drs Smith and Ivnik Mayo Clinic and Foundation Rochester 
+MN 
+Supported The DANA Foundation and the Alzheimers Association 
+Received December Accepted final form April 
+Address correspondence and reprint requests Dr Clifford R Jack Jr Mayo Clinic Diagnostic Radiology First Street SW Rochester MN 
+Copyright the American Academy Neurology
+causes dementia The volumetric data were not used 
+aid the clinical diagnosis AD 
+M R image acquisition All subjects were imaged 
+T Signa General Electric Milwaukee WI using stanMethods Recruitment and characterization subjects 
+dardized imaging protocol The first sequence was Patients with AD and the cognitively normal control subweighted sagittal set images that was used measure
+jects for this study were recruited from the Mayo Clinic
+total intracranial volume and for landmarking subsequent
+Alzheimers Disease Center ADC AlzheimersDisease Paimage acquisitions The other MRI pulse sequence relevant
+tient Registry ADPR 
+which promote prospective lonto this report was weighted three dimensional volugitudinal studies aging and dementia Informed consent
+metric spoiled gradient echo sequence with contiguous
+was obtained for participation the longitudinal studies 
+partitions slice thickness field 
+which included clinicalkognitive assessment well 
+view views and degree flip angle Volume meaMRI studies and all studies were approved the Mayo
+surements the hippocampus PHG and amygdala were
+Institutional Review Board Patients with suspected cogderived from this pulse sequence 
+nitive impairment were identified during general medical
+Image processing All image processing steps includexaminations Mayo primary care physicians A neuroling boundary tracing every subject were performed 
+ogist then performed detailed neurologic examination
+the same trained research assistant who was blinded all
+and obtained complete history from the patient and 
+clinical information ensure that the volumetric data
+collateral source Two sets neuropsychological tests were
+were generated unbiased fashion The reformatting
+administered two sessions assess memory attention 
+and realignment the MR images and all anatomic traclanguage visuospatial skills and problem 
+One
+ ings every subject were reviewed three member
+set was used for diagnostic purposes and the second was
+panel who were likewise blinded all clinical information 
+used for research goals Laboratory studies included senand corrections were made that time necessary This
+sitive thyroid stimulating hormone vitamin folic
+ensured rigorous quality control well uniformity 
+acid syphilis serology sedimentation rate and clinically
+the subjective aspects image processing across all the
+indicated EEG single photon emission computed tomosubjects this study Validation studies show the ingraphic scan CSF analysis HIV Lyme disease titer antitrarater test retest coefficient variation hippocampal
+nuclear antigen extractable nuclear antigen and volumetric measurements with this method 
+hour urine collection for heavy metals Patients were not
+The D MRI data were first interpolated the slice
+excluded for the presence ongoing medical problems
+select dimension give cubic sWhen
+ necessary the
+such diabetes hypertension heart disease The diagimages were reformatted that the image sections were
+nosis AD was made according the NINCDS ADRDA
+oriented perpendicularly the principal axis the left
+ consensus conference attended behavioral
+hippocampal formation Any rotation the subjects head
+neurologists nurses geriatrician and neuropsycholowith respect the orthogonal coronal plane was corrected
+gists Disease severity AD patients was assessed the
+ well during this reformatting and realignment step The
+Clinical Dementia Rating CDR scale very mild CDR 
+image data were then interpolated plane the equivamild CDR moderate CDR An important distinction
+lent X matrix and magnified two times The
+ made between establishing diagnosis AD and rankvoxel size the fully processed image data was 
+ing its severity The former was done according 
+The borders the hippocampi PHG and amygdala
+NINCDS ADRDA criteria which emphasize decline 
+were manually traced sequentially with mouse driven
+cognitive performance over time important benchcursor each slice from posterior anterior Having
+mark establishing the diagnosis AD The CDR score
+identified the boundaries these MTL anatomic strucwas used staging instrument rank disease severity
+tures the number voxels each was counted automatically using summed region interest function These
+ specific point time It was therefore possible for
+were multiplied voxel volume give numeric value 
+patients meet NINCDS ADRDA criteria for AD and also
+cubic millimeters The processed image files well the
+ ranked only very mildly demented CDR 
+Control subjects were recruited from the same pool 
+accompanying region interest tracing files were saved
+for subsequent review 
+patients coming Mayo primary care physicians for 
+In plane hippocampal anatomic boundaries were degeneral medical examination Control subjects were evalufined include the sectors the hippocamated the same way patients with the exception the
+pus proper the dentate gyrus and the 
+additional laboratory studies for cognitive impairment 
+ figure The posterior boundary the hippocampus was
+Their status was reviewed the consensus conference 
+The criteria for cognitively normal control subjects were determined the oblique coronal anatomic section 
+which the crura the fornices were identified full prono active neurologic psychiatric disorders and like
+file Thus essentially the entire hippocampus from the
+the patients some had ongoing medical problems however
+tail through the head was included these measurethe illnesses their treatments did not interfere with
+ments These same neuroanatomic hippocampal boundary
+cognitive function 
+criteria are employed many epilepsy research
+An MRI examination the brain was performed within
+group Subdivision the hippocampus along its months the clinical assessment including CDR scartemporal axis into three segments labeled head body and
+ing all subjects For all AD patients this study the
+tail was accomplished follows The hippocampal head
+MRI was therefore performed with close temporal proximwas defined encompass those imaging slices extending
+ity the initial diagnosis AD These MR studies were
+from the intralimbic gyrus forward the anterior termiused the diagnostic process only exclude treatable
+normal aging and AD varying degrees severity
+with emphasis mild disease 
+September NEUROLOGY 
+ Neuroanatomic boundaries 
+Two columns images are presented 
+cropped oblique coronal M R images
+through the temporal lobes year old female control subject left 
+and images from year oldfemale
+A D patient right CDR I each
+column three images are present 
+From top bottom these represent
+sections the level the hippocampal tail hippocampal body and hippocampal head The anatomic outlines
+ the hippocampus and parahippocampal gyrus are indicated images the hippocampal head and
+hippocampal body The utlin the
+amygdala and hippocampus are indicated the bottom image the
+hippocampal head Neuroanatomic
+criteria employed when tracing the
+boundaries these three medial temporal lobe structures are indicated 
+the text 
+nation the hippocampal formation If the posterior margin the hippocampal head was labeled imaging slice
+ then the volume the hippocampal tail was determined
+ summing the area the hippocampus successive
+The
+slices beginning from the forniceal crura slice 
+volume the body consisted the sum areas succes 
+ and extending
+sive slices beginning with slice 
+ slice 
+The posterior boundary the PHG was defined 
+manner identical that for the hippocampal formation 
+The superior boundary the PHG was defined the
+gray white matter interface between the subiculum and
+the PHG white matter Medially the PHG was demarcated
+ CSF the uncal cistern Laterally and inferiorly its
+boundary was the collateral sulcus The imaging slice immediately preceding that which the hippocampal intralimbic gyrus first appeared when progressing from posterior anterior was defined the anterior boundary the
+PHG In some patients clearly identifiable collateral sulcus was not present along the entire anteroposterior extent
+ the PHG For this reason PHG measurements were not
+possible control subjects and AD patients 
+The posterior superior medial and lateral boundaries
+ the amygdala were defined gray white matter borders where appropriate CSF the uncal cistern The
+inferior border the amygdala was either the uncal recess
+ the temporal horn the alveus covering the hippocampal head The anterior boundary the amygdala ill
+defined nature and defined operationally the
+most anterior slice which the head the hippocampus
+was present 
+Statistical methods Individual MTL structure volumes were normalized for intersubject variation head
+size dividing structure volume cubic millimeters 
+the total intracranial volume TIV cubic centimeters 
+that particular subject Associations between normalized MTL volumes age and gender normal subjects
+ NEUROLOGY September 
+were evaluated using stepwise regression including evaluation nonlinearity and interactions Stepwise regression
+was also used determine variability was associated
+with age gender 
+Volumetric percentiles controls specific for age and
+gender were obtained using the algorithm described 
+OBrien and D Age and gender specific volumetric
+percentiles among AD patients were determined and converted W scores normal deviates using the inverse 
+the standard normal distribution percentile value 
+corresponding W score for example The W
+score value covariate adjusted Z score relative the
+control group Comparison W values among MTL anatomic structures for AD patients was performed using
+ANOVA for repeated measures and paired tests To identify the MTL limbic structures that best distinguish between AD and control subjects performed stepwise
+discriminant analysis including normalized volumes age 
+and gender predictor variables 
+Results Two hundred twenty subjects are included 
+this control subjects and AD patients table
+ The control and AD patients were well matched 
+education and gender distribution with approximately 
+ female male ratio both groups The age range 
+control subjects was years and AD patients was
+ years Forty four the control subjects were
+men the CDR Alzheimer disease patients
+were men the CDR patients were men and
+seven the CDR patients were men As expected 
+Dementia Rating and Mini Mental State scores declined with increasing CDR grade AD
+patients 
+The results from this study are discussed three parts 
+ descriptive statistics the control subjects which characterize the relationship between normal aging gender 
+and MTL volumes similar descriptive statistics the
+AD patients which are compared with those control
+subjects and analysis the ability MTL volumetric
+Table I Characterization subjects
+AD CDR N 
+ mean SD 
+Controls CDR N 
+ mean SD 
+AD CDR N 
+ mean SD 
+Age
+Education
+Variable
+MMSE
+DRST
+ C
+AD CDR N 
+ mean SD 
+ One patient each CDR group with missing values 
+ One control subject three patients CDR four patients CDR and two patients CDR with missing values 
+CDR
+Clinical Dementia Rating MMSE
+Mini Mental State Examination DRS
+measurements discriminate between control and AD
+subjects with varying disease severity 
+Control subjects Normalized MTL volumes declined
+with age linear fashion table figure The segment the hippocampus that demonstrated the greatest
+decline with age was the head No significant hemispheric
+differences volume loss with age were observed any
+MTL structure except the PHG where the age related volume loss was greater the left than the right side 
+ The mean unnormalized volumetric decline with
+age was per year for the total hippocampus 
+ for the hippocampal head for the
+hippocampal body for the hippocampal tail 
+ for the PHG and for the amygdala 
+Mean total intracranial volume control subjects was
+ SD 
+The unnormalized MTL structure volumes men were
+generally larger than those women while the normalized MTL volumes women were generally larger than
+those men see table and figure That these MTL
+limbic structures occupied larger percentage TIV 
+women than men The decline volume associated with
+age did not differ significantly between men and women 
+These associations were used estimate age and genderspecific normal percentiles for TIV normalized MTL volumes table 
+Alzheimers disease patients A decline normalized
+MTL volumes with age was observed among AD patients 
+The slopes the age volume regression lines were not
+significantly different between patients and control sub 
+Dementia Rating Scale 
+jects over the age range studied see table and figure 
+As with controls unnormalized volumes were generally
+larger among men than women while larger normalized
+volumes were observed among female AD patients Associations between MTL volume and age were linear and did
+not differ between men and women The segment the
+hippocampus showing the greatest decline with age was
+the head 
+Age and gender specific percentiles for normalized volumes were computed for each the AD patients and
+these were converted W scores corresponding normal distribution table Thus values W indicate
+that volume less than the mean value expected for 
+normal subject after adjustment for age and gender A
+value corresponds value that the 
+percentile among normal controls 
+We assessed the extent which patients differed from
+control subjects and for each anatomic structure W scores
+were significantly O among AD patients As
+would expected from table the deficit volumes
+relative controls was not associated with age gender 
+We also assessed whether the magnitude the volumetric
+deficit cases relative controls was greater some
+structures than others The differences among the hippocampus PHG and amygdala were significant I
+ ANOVA and all pairwise comparisons paired
+ tests were also significant hippocampus versus amygdala hippocampus versus PHG 
+amygdala versus PHG see table Within the
+hippocampus volumes differed significantly among the
+Table Relationship between normalized volume age and gender controls and Alzheimers disease AD patients 
+Controls
+AD patients
+Normalized structure volume
+Intercept
+Age
+Gender
+Intercept
+Age
+Gender
+Total hippocampus
+Hippocampal head
+Hippocampal body
+Hippocampal tail
+Amygdala
+Parahippocampal gyrus
+ The entries the table may used predict volumes For example the predicted normalized total hippocampal volume for 
+control subject age years 
+ except indicated 
+ gender female male All associations shown are significant with
+September NEUROLOGY 
+WOMEN
+MEN
+I
+I
+I
+Age
+I
+ I
+Age
+A
+B
+ Normalized hippocampal volume age control subjects and AlzheimerS disease AD patients Regression 
+the mean normalized hippocampal volume age male A and female B control subjects and A D patients The upper
+and lower limits dashed lines represent the and percentile values for each group Hippocampal volumes A D
+patients are smaller than those age matched control subjects Volumes both groups decline linearly and parallel
+with advancing age For clinical purposes the position memory impaired elderly subject may plotted and compared age and gender matched control subjects and AD patients 
+head body and tail ANOVA and pairwise
+differences between the head and body and body and tail
+were also significant paired tests The mean
+TIV AD patients was not significantly
+different from that control subjects 
+When AD patients were categorized disease severity
+into those with very mild mild moderate disease W
+scores within each group remained significantly less than
+Table Age and gender specific normal percentiles mmlcm
+X
+ see table The MTL structure with the
+lowest W scores was the hippocampus for all three AD
+groups Within the hippocampus W values were the most
+negative for the head see table W scores for the total
+hippocampus and hippocampal head 
+ were significantly different among AD patients 
+different CDR severity grades Spearmans rank correlation Painvise comparison the W scores was also signif 
+ for hippocampal volume normalized total intracranial volume 
+Normal percentiles
+Gender
+M
+F
+M
+F
+M
+F
+M
+F
+M
+F
+ Values the body the table represent age and gender specific mean normalized hippocampal volume control subjects The
+first fifth loth and percentile values control subjects are reported The presence hippocampal atrophy individual patient can assessed comparing the total intracranial volume normalized hippocampal volumes that patient against those
+ age and gender matched control subjects reported this table 
+ NEUROLOGY September 
+Table W scores Alzheimers disease patients
+CDR N 
+CDR N
+CDR N
+Mean W value
+SD
+Mean W value
+SD
+Hippocampal tail
+Parahippocampal gyrus
+Amygdala
+Mean W value
+SD
+Total hippocampus
+Hippocampal head
+Hippocampal body
+Variable
+ The W score the normal
+deviate relative control subjects adjusted for age and gender All mean W scores were significantly different from the expected value for normal subjects 
+CDR
+Clinical Dementia Rating 
+icant for the total hippocampus CDR versus 
+ CDR versus rank sum test 
+Discrimination between controls and A D patients 
+varying severity Using stepwise linear discriminant
+analysis including age gender and TIV normalized volumes independent variables predict AD the only
+variables that appeared the final model were hippocampal volume hippocampal volume squared and age Although all these terms were significant the level 
+the prediction equation was dominated the linear hippocampal volume term and the accuracy the prediction
+was identical that obtained using hippocampal W scores
+alone The sensitivity hippocampal volumes distinguish AD patients from control subjects was assessed 
+computing the percentage AD patients with W scores 
+selected percentiles among control subjects table For
+example fixed specificity the sensitivity 
+hippocampal volumetric measurements discriminating
+control subjects from patients was for CDR 
+ for CDR and for CDR Discrimination
+between control subjects and AD patients was roughly
+equivalent among the three AD severity groups the 
+and percentiles normal Discrimination was
+greater for CDRs and than CDR patients the
+ and fifth percentile normal At the first percentile
+ normal discrimination improved the patients disease
+severity CDR score increased 
+Discussion In this study involving large group
+ well characterized AD patients and elderly control
+subjects have demonstrated that MR volumetric
+measurements the hippocampal formation are
+useful discriminating between very mild AD and
+elderly control subjects The very mild AD subjects
+ CDR qualify for the diagnosis probable AD 
+clinical research criteria yet exhibit only the minimal
+symptoms necessary for this diagnostic classification These patients present significant diagnostic
+difficulties for the clinician and constitute area
+where structural imaging test may particularly
+useful 
+Control subjects All MTL limbic structures measured declined volume with advancing age This 
+consistent with observations age related brain atrophy other imaging and autopsy It
+ not clear whether this volume loss inevitable
+consequence aging 
+Subjects enrolled normal control subjects this study were communitydwelling individuals with evidence cognitive
+impairment Subjects with medical conditions 
+heart disease diabetes hypertension were included
+ normal control subjects It possible that medical
+conditions that increase prevalence with advancing age and that may associated with brain atrophy such hypertension diabetes atherosclerosis might account for some the observed
+correlation between age and volume loss these
+normal control Yet 
+ this
+ control population typical what clinician faces daily practice These data not address the issue optimal
+Table Diagnostic discrimination normalized total hippocampal volume adjusted for age and gender
+Indicated percentile normal
+AD patients
+CDR N
+CDR N 
+CDR N 
+Overall N
+ Percentage
+ Alzheimers disease AD patients below indicated percentile normal 
+CDR Clinical Dementia Rating 
+September NEUROLOGY 
+MTL structures measured the anatomic boundaries
+aging the aging process without any comorbid illpresented MRI are more precise and less normal
+nesses In analyzing the association between MTL
+anatomic variability exists for the hippocampus
+volume and age recognize that this crosssectional sample and that secular effects different
+than for the amygdala PHG Hippocampal meaenvironmental socioeconomic conditions experisurements therefore have less measurement error
+enced successive age groups may unrecogand also less noise introduced function nornized 
+mal anatomic variation than those the PHG 
+Alzheimers disease patients The duration disam gdala 
+ease younger AD patients this study was not
+Hippocampal W values progressively decline indifferent from that older AD patients Our data
+creasing atrophy with increasing CDR score table
+therefore reflect cross sectional sample the time
+This suggests that hippocampal volumetric meaof the initial diagnosis AD across age spectrum
+surements are sensitive marker the degenerafrom years In AD patients MTL volumes
+tive neuroanatomic substrate the progressively
+declined with advancing age parallel with those 
+more severe memory impairment seen with advanccontrol subjects However the age and gendering CDR scores AD Hippocampal volumetric meaadjusted normalized MTL volumes AD patients
+surements will not however discriminate among
+were significantly smaller than those control subdifferent conditions that share MTL atrophy 
+jects This was true for each MTL structure all
+common pathologic feature Nevertheless beages and for both men and women We hypothesize
+lieve that this type MRI based hippocampal voluthat the volume loss AD patients represents the
+metric measurement may helpful the clinician
+progressive atrophy associated with the degenerative
+ adjunctive piece diagnostic information 
+disease superimposed that associated with aging 
+situations when the clinical diagnosis difficult A
+The analysis segmental hippocampal volumes
+comparison the normalized hippocampal volumetin control subjects demonstrated that age associated
+ric measurements individual patient with agevolume loss the head the hippocampus exceeds
+and gender specific normal percentiles illustrated
+that either the body the tail In addition the
+ figure and table would provide clinically
+hippocampal segments the largest volumetric differuseful assessment the presence and severity 
+ence between control subjects and AD patients was
+hippocampal atrophy An elderly patient complainfound the hippocampal head This observation 
+ing memory impairment whose hippocampal volin agreement with similar analysis that was perumes fell into the AD range might more closely
+formed autopsy specimens These data would
+scrutinized for diagnosis AD while patient
+suggest that the head the hippocampus more
+with similar complaint whose hippocampal volsusceptible age related atrophy and also more susumes fell into the control range might reassured
+ceptible the degenerative change associated with
+that AD was less likely One caveat however that
+AD The observed differential sensitivity the hipthe absolute numeric output any image based
+pocampal head age related and AD related atrovolumetric measurement technique methodology
+phy may related differences the nature the
+dependent Therefore while the associations recortical input between the hippocampal head and the
+ported should generalizable the specific numeric
+more posterior segments the values may vary among different sites 
+Discrimination between control subjects and AD
+In summary the most encouraging finding this
+patients varying severity Although all the MTL
+study was the ability hippocampal volumetric
+limbic structures measured were significantly
+measurements discriminate between control subsmaller AD patients than control subjects the
+jects and AD patients with very mild disease The
+structure that best discriminated between AD pamean hippocampal volume very mild CDR 
+tients and controls was the total hippocampal volAD patients was SD below the control mean 
+ume When linear discriminant function model was
+and all CDR AD patients had hippocamconstructed essentially all the discriminatory power
+pal volumes below the percentile normal 
+was found the hippocampal volume alone These
+These data derived from large number subjects 
+results are odds with those published several
+demonstrate that MRI volumetric measurements 
+other investigators who found that combinations 
+hippocampal atrophy are sensitive marker the
+different volumetric measurements more effectively
+pathology AD its most mild form The ability 
+separated controls from AD patients than measurequantitative MRI volumetric measurements prement any single J ItJ 
+ possible
+ dict which currently normal mildly impaired elthat measurement brain structures other than the
+derly subjects will develop AD the future will 
+ones evaluated here may useful discriminant
+however require longitudinal studies which are 
+function analysis However the large number subprogress 
+jects and careful attention details technical and
+neuroanatomic boundary criteria employed this
+study should convincingly demonstrate the absence
+Acknowledgments
+ additional discriminatory power provided meaThe authors would like thank Brenda Maxwell for typing the
+manuscript and Ruth Cha for performing the statistical analysis 
+surements the PHG amygdala Of the three
+ NEUROLOGY September 
+References
+McKhann G Drachman D Folstein M Katzman R Price D 
+Stadlan EM Clinical diagnosis Alzheimers disease report
+ the NINCDS ADRDAWork Group under the auspices 
+Department Health and Human Services Task Force 
+Alzheimers Disease Neurology 
+Katzman R Alzheimers disease N Engl J Med 
+Koknlen E Beard CM OBrien PC Is the incidence 
+dementing illness changing? A year time trend study 
+Rochester MN Neurology 
+DeCarli C Kaye JA Honvitz B Rapoport SI Critical analysis
+ the use computer assisted transverse axial tomography
+ study human brain aging and dementia the Alzheinler
+type Neurology 
+ Squire LR Memory and the hippocampus synthesis from
+findings with rats monkeys and humans Psychol Rev 
+Hyman BT Van Hoesen GW Damasio AR Barnes CL Alzheimers disease cell specific pathology isolates the hippocampal
+formation Science 
+Tomlinson BE Blessed G Roth M Observations the brains
+ demented old people J Neurol Sci 
+Naidich TP Daniels DL Haughton VM Hippocampal
+formation and related structures the limbic lobe anatomic
+MR correlation Part I Surface features and coronal sections 
+Radiology 
+Jack CR J Gehring D Sharbrough F Temporal lobe
+volume measurement from MR images accuracy and leftright asymmetry normal individuals J Comput Assist Tomogr 
+Jack CR Jr Twomey CK Zinsmeister AR Anterior
+temporal lobes and hippocampal formations normative volumetric measurements for MR images young adults Radiology 
+Jack CR Jr Sharbrough FW Twomey CK Temporal
+lobe seizures lateralization with MR volume measurements 
+hippocampal formation Radiology 
+Jack CR J Bentley M Twomey CK Zinsmeister AR MRbased volume measurements the hippocampal formation
+and anterior temporal lobe validation studies Radiology
+Kesslak JP Nalcioglu Cotman CW Quantification magnetic resonance scans for hippocampal and parahippocampal
+atrophy Alzheimers disease Neurology 
+Jack CR Jr Petersen RC OBrien PC MR based hippocampal volumetry the diagnosis Alzheimers disease 
+Neurology 
+Lehericy S Baulac M Chiras J Amygdalohippocampal
+MR volume measurements the early stages Alzheinier
+disease AJNR Am J Neuroradiol 
+Laakso MP Soininen H Partanen K Volumes hippocampus amygdala and frontal lobes the MRI based diagnosis early Alzheimers disease correlation with memory
+functions J Neural Transm 
+Soininen HS Partanen K Pitkanen A Volumetric MRI
+analysis the amygdala and the hippocampus subjects
+with age associated memory impairment correlation visual
+and veibal memory Neurology 
+Pearlson G Harris GJ Powers RE Quantitative
+changes mesial temporal volume regional cerebral blood
+flow and cognition Alzheimers disease Arch Gen Psychiatry 
+Killiany RJ Moss MB Albert MS Temporal lobe regions
+ magnetic resonance imaging identify patients with early
+Alzheimers disease Arch Neurol 
+Convit A deLeon MJ Golomb J George AE Hippocampal atrophy early Alzheimers disease anatomic specificity
+and validation Psychiatry Q 
+Convit A Leon MH Tarshish C Hippocampal volume
+losses minimally impaired elderly Lancet 
+Petersen RC Kokmen E Tangalos EG Mayo Clinic
+Alzheimers Disease Patient Registry Aging 
+Petersen RC Smith G Kokmen E Memory function 
+normal aging Neurology 
+Petersen RC Smith GE Ivnik RJ Memory function 
+very early Alzheimers disease Neurology 
+Petersen RC Smith GE Ivnik RJ Apolipoprotein E
+status predictor the development Alzheimers disease memory impaired individuals JAMA 
+Q
+I I
+Ivnik R J Malec JF Tangalos EG The Auditory Verbal
+Learning Test AVLT norms for ages years and older 
+Psychol Assess 
+Ivnik FkI Malec J F Smith GE Mayos older Americans
+normative studies WAIS R WMS R and AVLT norms for
+ages through Clin Neuropsychol 
+Morns JC The Clinical Dementia Rating CDR current version and scoring rules Neurology 
+Jack CR Jr MRI based hippocampal volume measurements 
+epilepsy Epilepsia suppl 
+Duvernoy HM The human hippocampus An atlas applied
+anatomy Munich J F Bergmann 
+Watson C Andermann F Gloor P Anatomic basis 
+amygdaloid and hippocampal volume measurement magnetic resonance imaging Neurology 
+Cendes F Andermann F Gloor P MRI volumetric measurement amygdala and hippocampus temporal lobe epilepsy Neurology 
+Cook MJ Fish DR Shorvon SD Straughan K Stevens JM 
+Hippocampal volumetric and morphometric studies frontal
+and temporal lobe epilepsy Brain 
+Adam C Baulac M Saint Hilaire J Value magnetic
+resonance imaging based measurements hippocampal formations patients with partial epilepsy Arch Neurol 
+Free SL Bergin PS Fish DR Methods for normalization
+ hippocampal volumes measured with MR AJNR Am J Neuroradiol 
+Kuks JBM Cook MJ Fish DR Stevens JM Shorvon SD 
+Hippocampal sclerosis epilepsy and childhood febrile seizures Lancet 
+Murro AM Park YD King DW Seizure localization 
+temporal lobe epilepsy comparison scalp sphenoidal EEG
+and volumetric MRI Neurology 
+OBrien PC Dyck PJ Procedures for setting normal values 
+Neurology 
+Mattis S Mental status examination for organic mental syndromes the elderly patient In Bellak KT Geriatric
+psychiatry Grune and Stratton New York 
+Folstein MF Folstein SE McHugh PR Mini Mental State 
+practical method for grading the cognitive state patients for
+the clinician J Psych Res 
+Gur RC Mozley PD Resnick SM Gender differences 
+age effect brain atrophy measured magnetic resonance
+imaging Proc Natl Acad Sci USA 
+Coffey CE Wilkinson WE Parashos IA Quantitative
+cerebral anatomy the aging human brain cross sectional
+study using magnetic resonance imaging Neurology 
+ JA DeCarli C Luxenberg JS Rapoport SI The significance age related enlargement the cerebral ventricles 
+healthy men and women measured quantitative computed
+X ray tomography J Am Geriatr 
+Dekaban AS Sadowskg BS Changes brain weights during
+the span human life relation brain weights body
+heights and body weights Ann Neurol 
+Miller AKH Alston RL Corsellis JAN Variation with age 
+the volumes grey and white matter the cerebral hemispheres man measurements with image analyser Neuropathol Appl Neurobiol 
+Zatz LM Jernigan TL Ahumada AJ Changes computed
+cranial tomography with aging Intracranial fluid volume 
+AJNR Am J Neuroradiol 
+Sullivan EV Marsh L Mathalon DH Lim KO Pfefferbaum A 
+Age related decline MRI volumes temporal lobe gray
+matter but not hippocampus Neurobiol Aging 
+DeCarli C Murphy DGM Gillette JA Lack agerelated differences temporal lobe volume very healthy
+adults AJNR Am J Neuroradiol 
+Murphy DGM DeCarli C Schapiro MB Age related
+differences volumes subcortical nuclei brain matter and
+cerebrospinal fluid healthy men measured with magnetic resonance imaging Arch Neurol 
+September NEUROLOGY 
+ Salerno JA Murphy DGM Honvitz B Brain atrophy 
+hypertension A volumetric magnetic resonance imaging
+study Hypertension 
+Chang F LF Parisi JE Jack CFLJ Petersen RC Morphometric
+analysis the hippocampus Alzheimers disease post mortem
+MRI and histological correlates Ann Neural 
+Rosene DL Van Hoesen GW Hippocampal efferents reach
+widespread areas cerebral cortex and amygdala the rhesus monkey Science 
+Van Hoesen GW Pawdya DN Butters N Cortical afferents 
+the entorhinal cortex the rhesus monkey Science 
+Witter MP Room P Goenewegen HJ Lohman AHM Connections the parahippocampal cortex the cat V Instrinsic
+connections comments input output connections with the
+hippocampus J Camp Neural 
+DeCarli C Murphy DGM McIntosh AR Discriminant analysis Alzheimers disease Arch Neural 
+DeCarli C Murphy DGM McIntosh AR Discriminant
+analysis MRI measures method determine the presence dementia the Alzheimer type Psychiatry Res 
+Laakso MP Partanen K Lehtovirta M MRI amygdala fails diagnose early Alzheimers disease Neuroreport
+Laakso MP Partanen K Riekkinen P Hippocampal
+volumes Alzheimers disease Parkinsons disease with and
+without dementia and vascular dementia MRI study 
+Neurology 
+The apolipoprotein E allele not
+associated with psychiatric symptoms 
+extrapyramidal signs probable
+Alzheimers disease
+O L Lopez MD M I Kamboh PhD J T Becker PhD D I Kaufer MD and S T DeKosky MD
+Article abstract The objective our study was examine the relationship between the presence the apolipoprotein
+E apo E allele psychiatric symptoms and extrapyramidal signs EPS probable Alzheimers disease AD The apo
+E allele modifies the risk and age onset AD However still needs determined whether marker for
+specific clinical subgroups The frequency clinical signs and symptoms was examined AD patients with the apo E
+ N N and N genotypes participating longitudinal study dementia Each patient
+was assessed with semistructured psychiatric and neurologic examinations Patients with the genotype had earlier
+age onset dementia However individual psychiatric symptom neurologic sign was associated with
+the presence the apo E allele including major depression odds ratio OR GI psychosis
+ delusions and hallucinations OR GI and EPS neuroleptic free patients OR 
+GI after controlling age onset duration the symptoms education and severity 
+dementia The presence the apo E allele has limited utility the characterization neurologic and psychiatric
+subgroups probable AD patients The apo E genotype appears related age onset AD consistent with
+previous findings 
+NEUROLOGY 
+The apolipoprotein E apo E allele has been
+shown modify risk and age onset Alzheimers
+disease AD Neuropathologic studies have found
+more severe AD pathology subjects carrying the
+apo E allele than those without the allele This
+includes more cortical neurofibrillary tangles and senile neuritic plaques SP and more severe cholinergic deficit the frontal Moreover neuroimaging studies have shown greater atrophy 
+medial temporal structures AD patients carrying
+the apo E allele 
+The development psychiatric symptoms appears
+ related more severe neuropathologic
+change and specific neurotransmitter imbalances notably acetylcholinelO and serotonin Consequently given that patients carrying the apo E 
+allele have more severe structural and neurochemical abnormalities psychiatric symptoms should 
+From the Alzheimers Disease Research Center Departments Neurology Drs Lopez Becker Kaufer and DeKosky Psychiatry Drs Becker Kaufer and
+DeKosky and Human Genetics Dr Kamboh and the Graduate School Public Health Dr Kamboh University Pittsburgh School Medicine PA 
+Supported grants AG and AG from the National Institute Aging 
+Presented part the annual meeting the American Academy Neurology Boston MA 
+Received November Accepted final form April 
+Address correspondence and reprint requests Dr Oscar L Lopez Neuropsychology Research Program Forbes Avenue Suite Pittsburgh PA
+Copyright the American Academy Neurology
+Medial temporal atrophy MRI normal aging and very mild Alzheimers
+disease
+Clifford R Jack Jr Ronald C Petersen Yue Cheng Xu 
+Neurology 
+DOI WNL 
+This information current September 
+Updated Information 
+Services
+including high resolution figures can found 
+http www neurology org content full html
+References
+This article cites articles which you can access for free
+http www neurology org content full html 
+Citations
+This article has been cited HighWire hosted articles 
+http www neurology org content full html otherarticl
+Permissions Licensing
+Information about reproducing this article parts figures tables 
+ its entirety can found online 
+http www neurology org misc about xhtml permissions
+Reprints
+Information about ordering reprints can found online 
+http www neurology org misc addir xhtml reprintsus

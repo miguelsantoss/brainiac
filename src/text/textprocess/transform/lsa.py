@@ -2,7 +2,7 @@ from scipy import linalg,dot
 from textprocess.transform.transform import Transform
 
 class LSA(Transform):
-    def transform(self, dimensions=1):
+    def transform(self, dimensions=3):
         rows, cols = self.matrix.shape
 
         if dimensions <= rows:

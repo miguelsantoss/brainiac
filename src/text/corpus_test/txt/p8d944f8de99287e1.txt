@@ -1,0 +1,568 @@
+tion acid guanidinium thiocyanate phenol chlorophorm extraction Analyt Biochem 
+Feinberg AP Vogelstein B A technique for radiolabelling
+DNA restriction endonuclease fragments high specific activity Analyt Biochem 
+Noonberg SB Scott GK Hunt CA Benz CC Detection 
+triplex forming RNA oligonucleotides triplex blotting BioTechniques 
+Church GM Gilbert W Genomic sequencing Proc Natl Acad
+Sci USA 
+Menzel DB Rasmussen RE Lee E Human lymphocyte
+heme response biomarker inorganic arsenic Biochem Biophys Res Commun 
+Ponka P Beaumont C Richardson DR Function and regulation transferrin and ferritin Sem Hematol 
+Famulari AL Marschoff ER Llesuy SF The antioxidant
+enzymatic blood profile Alzheimers and vascular diseases 
+Their association and possible assay differentiate demented subjects and controls J Neurol Sci 
+Kimpara T Takeda A Watanabe K Microsatellite poly 
+morphism the human heme gene promoter and
+its application association studies with Alzheimer and Parkinson disease Hum Genet 
+Abraham NG Drummond GS Lutton JD Kappas A The
+biological significance and physiological role heme oxygenase Cell Physiol Biochem 
+Balldin J Gottfries C Karlsson I Lindstedt G Langstrom G 
+Walinder J Dexamethasone suppression test and serum prolactin dementia disorders Br J Psychiatr 
+Litvan I Methodological and research issues the evaluation
+ biological diagnostic markers for Alzheimers disease Neurobiol Aging 
+Liebson E Albert ML Cognitive changes dementia the
+Alzheimer type In Calne DB Neurodegenerative diseases Philadelphia WB Saunders 
+Thal L Potential prevention strategies for Alzheimers disease Alzheimer Dis Assoc Disord suppl 
+Klunk WE Biological markers Alzheimers disease Neurobiol Aging 
+MRI volumetric study dementia with
+Lewy bodies
+A comparison with AD and vascular dementia
+R Barber MRCPsych C Ballard MD I G McKeith MD A Gholkar FRCR and J T OBrien DM
+Article abstractObjective To compare global and regional atrophy MRI subjects with dementia with Lewy bodies
+ DLB AD vascular dementia VaD and normal aging In addition the relationship between APOE genotype and
+volumetric indices was examined Method MRI based volume measurements the whole brain ventricles frontal lobe 
+temporal lobe hippocampus and amygdala were acquired elderly subjects with DLB mean age years 
+AD years VaD years and normal control subjects years Results Subjects with
+DLB had significantly larger temporal lobe hippocampal and amygdala volumes than those with AD No significant
+volumetric difference between subjects with DLB and VaD was observed Compared with control subjects ventricular
+volumes were increased all patients with dementia though those with DLB showed relative preservation wholebrain volume There were significant differences frontal lobe volumes between the four groups APOE status was
+not associated with volumetric indices Conclusion The findings support the hypothesis that DLB associated with 
+relative preservation temporal lobe structures In the differentiation DLB and AD this may have important
+implications for diagnosis Key words Dementia with Lewy bodiesAlzheimers diseaseVascular dementiaMRI
+Temporal lobeFrontal lobe 
+NEUROLOGY 
+Dementia with Lewy bodies DLB characterized
+ fluctuating cognitive impairment persistent visual hallucinosis and parkinsonism It the second
+most common form degenerative dementia and
+may account for cases late life dementia Ante mortem diagnosis DLB and its differentiation from other common forms late onset
+dementias particularly AD and vascular dementia
+ VaD important for number reasons Some
+patients with DLB may have accelerated disease
+progression and approximately subjects experience life threatening adverse reactions antipsychotic medications neuroleptic sensitivity In
+contrast subjects with DLB may have enhanced
+therapeutic response treatment with cholinesterase inhibitors 
+Volumetric MRI may provide important supplementary information that could support counter 
+From the Institute for the Health the Elderly Drs Barber Ballard McKeith and OBrien and the Department Neuroradiology Dr Gholkar 
+Newcastle General Hospital Newcastle upon Tyne UK 
+Supported grant from the Northern and Yorkshire Regional Health Authority and Medical Research Council UK 
+Received August Accepted final form December 
+Address correspondence and reprint requests Dr R Barber Institute for the Health the Elderly Westgate Road Newcastle General Hospital Newcastle
+upon Tyne BE UK mail robert barberncl 
+Copyright the American Academy Neurology
+Table Subject characteristics
+Characteristic
+Age 
+MF
+Education 
+Length history 
+DLB 
+AD 
+VaD 
+Control 
+NS
+NS
+ Value
+NS
+NA
+NS
+MMSE score max 
+CAMCOG score max 
+Values expressed mean standard deviation 
+ Post hoc Scheffe test showed significant differences between control and AD control and VaD control and DLB and between VaD and DLB 
+VaD vascular dementia DLB dementia with Lewy bodies MMSE Mini Mental State Examination CAMCOG Cambridge
+Cognitive Examination NS not significant NA not applicable 
+clinical diagnosis DLB A recent volumetric 
+and initial work from our indicate that there
+may less atrophy temporal lobe structures 
+MRI DLB compared with AD Information regarding
+other structural features that may differentiate DLB
+from AD are inconclusive and there has been detailed volumetric comparison DLB and VaD date 
+A number recent studies reported association between the APOE genotype and specific
+morphologic changes identified neuroimaging 
+subjects with AD No consistent link has been
+identified and the relationship between volumetric
+indices MRI and APOE status DLB has not
+been characterized 
+The purpose this study was compare the extent global and regional atrophy MRI patients with DLB AD and VaD and age comparable
+normal control subjects We also examined the relationship between APOE status and volumetric indices these subjects We hypothesized that
+subjects with DLB would have less temporal lobe
+atrophy than those with AD and VaD 
+Methods Recruitment subjects Seventy six subjects
+over age years who fulfilled Diagnostic and Statistical
+Manual Mental Disorders Edition DSM IV criteria for dementia were recruited from communitydwelling population patients with informant 
+regular contact Seventy two these subjects were prospectively chosen from clinical case consecutive referrals old age psychiatry services All potential
+subjects the register were assessed for their
+suitability take part the study whether they met the
+entry criteria could give consent and were willing take
+part the study could cooperate and tolerate having 
+MRI scan and exhibited the absence medical contraindications for MRI An additional four subjects were recruited
+from specialist dementia clinic Twenty six age matched
+controls were recruited from among spouses and friends 
+dementia subjects The local ethics committee approved
+the research and all subjects well the nearest relative for patients gave informed consent after the nature 
+the procedures had been fully explained 
+Assessments and diagnosis All dementia subjects
+were assessed previously described Cognitive function
+was measured using the Cambridge Cognitive Examination CAMCOG which incorporates the Mini Mental
+State Examination MMSE within months the MRI
+scan Depressive symptoms were also rated using the
+Montgomery Asberg Depression Rating Scale MADRS 
+Standardized clinical diagnostic criteria were used 
+characterize the type dementia Diagnosis AD VaD 
+and DLB were made accordance with National Institute
+ Neurological and Communicative Disorders and Stroke 
+Alzheimers Disease and Related Disorders Association 
+National Institute Neurological Disorders and Stroke 
+Association International pour Recherche Enseignement Neuroscience and DLB consensus 
+consensus agreement between three experienced raters
+ J O C B I M Diagnosis was made blind MRI scan
+findings Pathologic confirmation diagnosis has since
+been acquired seven patients 
+Subjects with dementia The total sample size consisted subjects with consensus criteria DLB probable
+ possible with autopsy confirmation 
+subjects with NINCDS ADRDA AD definite probable
+ and possible and subjects with National
+Institute Neurological Disorders and Stroke AIREN
+VaD probable and possible Subject characteristics are summarized table 
+Normal control subjects Control subjects were recruited after detailed assessment exclude evidence 
+dementia from history score the CAMCOG 
+depression from history score the MADRS and
+ history any other significant neurologic physical 
+psychiatric disorder including drug and alcohol abuse 
+MRI scan acquisition All scans were performed 
+ tesla Siemens Magnetom Impact Expert MRI Scanner
+ Siemens Medical Munich Erlangen Germany weighted three dimensional MPRAGE magnetizationprepared rapid acquisition gradient echo turbo flash
+sagittal sequence was used acquire whole brain images
+ repetition time msec time echo msec 
+inversion time msec time delay msec matrix
+ slice thickness Standard head positioning was used 
+March 
+NEUROLOGY 
+Table Summary mean normalized ratios and raw volumes diagnostic group
+Structure
+DLB 
+AD 
+VaD 
+Controls 
+Differences between
+dementia groups
+Differences between
+controls and
+dementia groups
+Whole brain
+Ratio
+Raw volume
+NS
+AD and VaD
+NS
+AD and VaD DLB 
+NS
+NS
+DLB AD 
+AD and VaD DLB 
+DLB ADVaD AD 
+AD VaD and DLB
+DLB AD
+AD and VaD
+Ventricles
+Ratio
+Raw volume
+Frontal lobes
+Ratio
+Raw volume
+Temporal lobes
+Ratio
+Raw volume
+Hippocampus
+Ratio
+Raw volume
+Amygdala
+Ratio
+Raw volume
+Normalized intracranial area volume structure midsagittal intracranial area Values are post hoc Scheffe adjusted for MMSE score For hippocampal volumes for AD and for VaD for amygdala volumes for both groups 
+DLB dementia with Lewy bodies VaD vascular dementia NS significant difference 
+Analysis regions interest Images were transferred workstation SPARCSTATION Tatung Telford UK and analyzed using ANALYZE 
+ Version Mayo Foundation Rochester MN The
+data were first reformatted into coronal slices perpendicular the long axis the left hippocampus slice thickness cubic voxels correcting for any
+malalignment when necessary 
+Six regions interest ROI were measured two indices
+ global atrophy whole brain and ventricular volumes 
+two indices lobar atrophy frontal and temporal lobe
+volumes and two indices medial temporal atrophy hippocampal and amygdala volumes The right and left sides
+ bilateral ROIs were measured each slice accordance with the anatomic boundaries described below 
+ CSF spaces were excluded from all parenchymal
+measurements To control for variation head size volume for each ROI were normalized the midsagittal intracranial area Final volumes were expressed 
+normalized ratio units 
+All ROIs except whole brain volumes were measured
+sequentially slice slice The frontal lobes temporal lobes and ventricles were measured using combination thresholding between CSF and brain and
+automatic edge finding techniques The hippocampus 
+amygdala and intracranial area were manually traced NEUROLOGY 
+March 
+ing mouse driven cursor Whole brain volumes were determined using semiautomated segmentation process 
+The same trained rater R B conducted all measurements blind diagnosis Intrarater reliability was assessed measuring seven subjects three occasions 
+The mean coefficient variation for the volumetric indices
+was between and 
+Anatomic borders regions interest Whole brain
+volume was measured from above the level the foramen
+magnum Ventricular volume lateral and third ventricles 
+was measured across the entire length and defined the
+CSF brain boundary Frontal lobes were measured from
+the first cortical gyrus the slice anterior the optic
+chiasm using accordance with previous studies The
+average length measured equivalent the number 
+slices was SD 
+Temporal lobes were measured throughout their length
+from the first cortical gyrus rostrally the slice showing
+the longest length fornix separating from the hippocampus caudally The average length measured was 
+ SD 
+Standard anatomic boundaries were used define the
+hippocampus The measurement included the hippocampus proper dentate gyrus subicular complex 
+alveus and fimbria The hippocampus was measured from
+the first slice identifying the head the slice showing the
+Table Differences between controls and dementia subjects
+Region interest
+DLB
+AD
+VaD
+Whole brain
+NS
+Ventricles
+Frontal lobes
+NS
+NS
+NS
+Temporal lobes
+Hippocampus
+Amygdala
+NS
+ significantly smaller volume dementia subjects compared
+ control subjects two arrows indicate difference over 
+ significantly larger volume dementia compared control
+subjects VaD vascular dementia DLB dementia with Lewy
+bodies NS significant difference 
+longest length fornix The average length measured
+was SD In two subjects with AD and four
+with VaD the hippocampus could not reliably identified
+due movement artifacts 
+The anatomic boundaries the amygdala were defined
+according standard criteria The anterior margin was
+arbitrarily defined from the first slice the closure the
+lateral sulcus The average length measured was 
+ SD In six subjects with AD and five with VaD the
+amygdala could not reliably identified due movement
+artifacts 
+Determination APOE genotype Genomic DNA was
+isolated from whole blood and APOE genotypes were determined using standard PCR 
+Statistical analysis The statistical package SPSS for
+Windows release SPSS Chicago IL was used for
+data analysis Volumetric comparisons were made using
+the normalized ratio volume structure divided
+ midsagittal intracranial area Differences between diagnostic groups volumetric indices were assessed using analysis variance adjusting for MMSE
+score followed post hoc Scheffe test correct for multiple comparisons Linear regression was used explore the
+relationship between volumetric findings diagnosis and
+variables which may influence brain size Independent
+Students tests were used examine volume differences
+between subjects with and without APOE allele For
+nonparametric data Kruskal Wallis analysis variance
+was used All statistical tests were two tailed and regarded significant 
+Table Differences between subjects with DLB and other
+dementia subjects
+Region interest
+DLB versus AD
+DLB versus VaD
+Whole brain
+NS
+NS
+Ventricles
+NS
+NS
+Frontal lobes
+NS
+NS
+NS
+Temporal lobes
+Hippocampus
+NS
+Amygdala
+NS
+ significantly larger volume subjects with dementia with
+Lewy bodies DLB compared with AD VaD vascular dementia NS significant difference 
+Results As shown table groups were comparable
+for age gender length 
+history and years education Ninety five percent subjects were right hand dominant with group differences 
+As would expected CAMCOG and MMSE scores were
+lower all dementia groups compared with control subjects Subjects with DLB were more impaired
+than those with VaD MMSE versus 
+and CAMCOG versus scores 
+Mean normalized and raw volumes for each ROI are
+shown table Differences between control and dementia subjects are summarized table and between subjects with DLB and other dementia subjects table 
+Measured volumes Control subjects had larger normalized whole brain volumes compared with AD 
+ and VaD but not DLB patients There was trend for DLB subjects have larger
+whole brain volumes than those with AD but
+not VaD 
+Ventricular volume was smaller contrast compared 
+all dementia groups 
+There were differences between dementia subjects 
+There were significant differences normalized frontal
+lobe volumes between control and dementia subjects 
+Control subjects had larger normalized temporal lobe
+volumes compared all dementia groups 
+Subjects with DLB had larger temporal lobe volumes compared those with AD versus 
+Control subjects had larger hippocampi compared all
+dementia groups Subjects with DLB had
+larger hippocampi than those with AD but not
+VaD AD subjects also had smaller hippocampi
+than those with VaD 
+Controls had larger amygdalae compared subjects
+with AD and VaD but not DLB 
+Subjects with DLB had larger left and right amygdalae
+than those with AD 
+Stepwise linear regression was used examine the relationship between hippocampal volume the different dementia subtypes and factors that may influence brain
+volume age gender MMSE score APOE status history hypertension Significant variables were diagnosis AD Beta MMSE score Beta 
+ and diagnosis VaD Beta 
+ Together these variables predicted the
+variance 
+APOE and volumetric indices There were significant differences volumetric indices between negative
+and positive subjects for all dementia groups Within each
+dementia group there were significant differences 
+age duration illness and cognitive impairment between
+ negative and positive subjects In addition APOE 
+status did not predict atrophy for any volumetric indices 
+dementia subjects using linear regression 
+Discussion This study examined MRI volumetric
+differences subjects with DLB AD VaD and normal subjects Subjects with DLB had significantly
+larger temporal lobe hippocampal and amygdala
+volumes than those with AD with trend toward
+larger whole brain volumes Overall there were 
+significant volumetric differences between subjects
+with DLB and VaD and frontal lobe volumes beMarch 
+NEUROLOGY 
+tween all subjects Total ventricular volumes were
+nonspecifically increased all subjects with dementia Atrophy was not associated with presence 
+APOE 
+The strengths this study included the recruitment community based elderly subjects with latelife dementia with comparable age sex education 
+and duration illness Volumetric differences between groups were therefore unlikely related 
+differences age gender A potential criticism 
+this study would the reliance clinical rather
+than pathologic diagnoses However previously
+ clinical diagnoses were made after detailed assessments and accordance with standardized criteria 
+A major finding this study was that subjects
+with DLB had significantly larger whole temporal
+lobes hippocampi and amygdalae than those with
+AD This consistent with and further extends our
+previous observation using visual rating medial
+temporal lobe atrophy the same sample A similar
+pattern differential hippocampal atrophy AD
+and DLB has been reported although the volume
+loss dementia subjects was less extensive addition there was difference amygdala volume 
+These discrepancies need explored further but
+may reflect variations methodology and sample
+selection our subjects were average 
+years older had had dementia for longer period 
+and had lower MMSE scores 
+Importantly the differential pattern temporal
+lobe atrophy DLB and AD during life consistent
+with autopsy studies The convergence findings
+suggest that the differentiation DLB from AD 
+the preservation temporal lobe structures especially the hippocampus supportive clinical
+diagnosis DLB Pathologically this may explained the relative absence AD type pathology
+ DLB especially neurofibrillary tangles 
+All three dementia groups had more extensive
+temporal lobe and hippocampal atrophy when compared with age matched controls In relation AD 
+this highly consistent with well established and may relate the extent tangle pathology Previous studies have also reported
+increased atrophy temporal lobe structures both
+subjects with Lewy body and 
+when compared with normal controls The pathologic
+basis these findings less clear Further neuropathologic studies are necessary order clarify
+the relationship any between concurrent AD type
+pathology and temporal lobe atrophy MRI subjects with DLB and VaD It would important 
+determine whether MTA life marker AD type
+pathology not only AD but also other disorders
+where comorbid processes may interacting 
+Measures global atrophy demonstrated significant enlargement ventricles dementia subjects
+compared with control subjects Patients with DLB 
+however had relatively well preserved whole brain
+parenchyma volume Autopsy studies indicating NEUROLOGY 
+March 
+ative preservation synapse and neuronal counts subjects with may explain this
+relative conservation overall brain volume 
+Frontal lobe volumes were similar all three dementia groups In relation DLB and AD this replicates the finding autopsy and our
+MRI pilot using different cohort subjects 
+As such the results did not confirm previous reports
+ association between frontal lobe atrophy and
+Lewy body although once again comparisons between studies are complicated differences methodology patient selection and the
+relative small number subjects 
+There were significant differences frontal
+lobe volumes between control and dementia subjects 
+This may reflect the limitations our measurement 
+which was restricted the anterior third the frontal lobe Alternatively could indicate that changes
+ frontal lobe volume are relatively normal feature
+ successful aging that subjects with dementia
+atrophy may only emerge late stage the progression the illness This could account for the
+discrepancies between ante mortem and post mortem studies noted above 
+Overall observed MRI volumetric differences between DLB and VaD This suggests other
+structural changes particular cerebral infarcts 
+possibly conjunction with white matter changes 
+are likely more useful discriminating these
+conditions Given that subjects with VaD performed
+better tests cognitive function raises the possibility that differences neurochemical substrates may
+underlie the cognitive impairment DLB 
+The role APOE the pathogenesis dementias remains determined In particular studies
+examining the relationship between the APOE allele and neuroimaging changes have far produced
+contrasting findings Our results accord with
+those Jack found association between volumetric indices and the presence the
+APOE allele Further this finding was observed
+ subjects with AD well those with DLB and
+VaD Although still controversial this finding suggests atrophic processes are not directly linked the
+presence APOE allele 
+There growing body evidence from both 
+vivo MRI and autopsy studies suggest that the
+consensus criteria for should modified 
+emphasize the relative preservation temporal lobe
+structures DLB compared with AD 
+Acknowledgments
+The authors thank Professor R Perry and Dr E Jaros for neuropathologic diagnoses Dr C Morris for providing APOE genotypes and Mr P English Radiographer 
+References
+McKeith IG Galasko D Kosaka K Consensus guidelines for the clinical and pathological diagnosis dementia
+with Lewy bodies DLB report the Consortium Dementia with Lewy Bodies International Workshop Neurology
+ McKeith IG Fairbairn AF Perry RH Neuroleptic sensitivity patients with senile dementia Lewy body type 
+BMJ 
+Perry EK McKeith IG Perry RH Dementia with Lewy bodies common cause dementia with therapeutic potential 
+Int J Geriatr Psychopharmacol 
+Hashimoto M Kitagaki H Imamura T Medial temporal
+and whole brain atrophy dementia with Lewy bodies 
+volumetric MRI study Neurology 
+Harvey GT Hughes J McKeith IG Magnetic resonance
+imaging differences between dementia with Lewy bodies and
+Alzheimers disease pilot study Psychol Med 
+Barber R Gholkar A Scheltens P Medial temporal lobe
+ dementia with Lewy bodies Neurology 
+Lehtovirta M Laakso MP Soininen H Volumes hippocampus amygdala and frontal lobe Alzheimer patients
+with different apolipoprotein E genotypes Neuroscience 
+Lehtovirta M Soininen H Laakso MP SPECT and MRI
+analysis Alzheimers disease relation apolipoprotein E epsilon allele J Neurol Neurosurg Psychiatry 
+Jack CR Jr Petersen RC Xu YC Hippocampal atrophy
+and apolipoprotein E genotype are independently associated
+with Alzheimers disease Ann Neurol 
+Tanaka S Kawamata J Shimohana S Inferior temporal
+lobe atrophy and APOE genotypes Alzheimers disease 
+X ray computed tomography magnetic resonance imaging
+and SPECT studies Dement Geriatr Cogn Disord
+Yasuda M Mori E Kitagaki H Apolipoprotein E 
+allele and whole brain atrophy late onset Alzheimers disease Am J Psychiatry 
+American Psychiatric Association Diagnostic and Statistical
+Manual Mental Disorders Washington DC American Psychiatric Association 
+Ballard C Holmes C McKeith I Psychiatric morbidity
+ dementia with Lewy bodies prospective clinical and neuropathological comparative study with Alzheimers disease 
+Am J Psychiatry 
+Roth M Tym E Mountjoy C CAMDEX standardised
+instrument for the diagnosis mental disorder the elderly
+with special reference the early detection dementia Br J
+Psychiatry 
+Folstein M Folstein S McHugh P Mini Mental State 
+practical method for grading the cognitive state patients for
+the clinician J Psychiatr Res 
+Montgomery SA Asberg M A new depression scale designed
+ sensitive change Br J Psychiatry 
+McKhann G Drachman D Folstein M Clinical diagnosis Alzheimers disease report the NINCDS ADRDA
+Work Group under the auspices Department Health and
+Human Services Task Force Alzheimers disease Neurology 
+Roman GC Tatemischi T Erkinjuntti T Vascular dementia diagnostic criteria for research studies Report the
+NINDS AIRENS International Workshop Neurology 
+Robb RA Multidimensional biomedical image display and
+analysis the biotechnology computer resource the Mayo
+Clinic Machine Vision and Appliances 
+Coffey CE Wilkinson WE Weiner RD Quantitative
+cerebral anatomy depression controlled magnetic resonance imaging study Arch Gen Psychiatry 
+Duvernoy HM The Human Hippocampus Functional Anatomy Vascularization and Serial Sections with MRI Berlin 
+Springer 
+Jack CR Jr Peterson RC Xu YC Medial temporal
+atrophy MRI normal aging and very mild Alzheimers
+disease Neurology 
+Jack CR Jr Peterson RC OBrien PC Tangalos EG MRbased hippocampal volumetry the diagnosis Alzheimers
+disease Neurology 
+Barber R Gholkar A Scheltens P Apolipoprotein E 
+allele temporal lobe atrophy and white matter lesions 
+late life dementias Arch Neurol 
+Lippa CF Johson R Smith TW The medial temporal lobe 
+dementia with Lewy bodies comparative study with Alzheimers disease Ann Neurol 
+Lippa CF Smith TW Swearer JM Alzheimers disease and
+Lewy body disease comparative neuropathological study 
+Ann Neurol 
+Lippa CF Pulaski Salo D Dickson DW Smith TW Alzheimers
+disease Lewy body disease and aging comparative study 
+the perforant pathway J Neurol Sci 
+Ince P Irving D MacArthur F Perry RH Quantitative neuropathological study Alzheimer type pathology the hippocampus comparison senile dementia Alzheimer type 
+senile dementia Lewy body type Parkinsons disease and
+non demented elderly control patients J Neurol Sci 
+Dickson DW Ruan H Crystal H Hippocampal degeneration differentiates diffuse Lewy body disease DLBD from
+Alzheimers disease light and electron microscopic immunocytochemistry neurities specific DLBD Neurology
+OBrien JT Is hippocampal atrophy magnetic resonance
+imaging marker for Alzheimers disease? Int J Geriatr Psychiatry 
+Huesgen CT Burger PC Crain BJ Johnston GA In vitro
+microscopy the hippocampus Alzheimers disease Neurology 
+Bobinski M Wegiel J Wisniewski HM Neurofibrillary
+pathology correlation with hippocampal atrophy Alzheimer
+disease Neurobiol Aging 
+Laakso MP Partanen K Riekkinen P Hippocampal
+volumes Alzheimers disease Parkinsons disease with and
+without dementia and vascular dementia Neurology 
+Double KL Halliday GM McRitchie DA Reid WGJ Hely MA 
+Morris JGL Regional brain atrophy idiopathic Parkinsons
+disease and diffuse Lewy body disease Dement Geriatr Cogn
+Disord 
+Samuel W Alford M Hofstetter CR Hansen L Dementia
+with Lewy bodies versus pure Alzheimers disease differences
+ cognition neuropathology cholinergic dysfunction and synapse density J Neuropathol Exp Neurol 
+Gomez Isla T Growdon W McNamara M Diffuse Lewy
+body dementia quantitative neuropathological studies and
+APOE genotyping Neurology Abstract 
+Mann DMA Snowden JS THe topographic distribution 
+brain atrophy cortical Lewy body disease comparison with
+Alzheimers disease Acta Neuropathol 
+Forstl H Burns A Luthert P The Lewy body variant 
+Alzheimers disease clinical and pathological findings Br J
+Psychiatry 
+Barber R Scheltens P Gholkar A White matter lesions
+ magnetic resonance imaging dementia with Lewy bodies Alzheimers disease vascular dementia and normal aging J Neurol Neurosurg Psychiatry 
+Juottonen K Lehtovirta M Helisalmi S Major decrease
+ the volume the entorhinal cortex patients with Alzheimers disease carrying the apolipoprotein E allele J Neurol
+Neurosurg Psychiatry 
+March 
+NEUROLOGY 
+MRI volumetric study dementia with Lewy bodies A comparison with AD and
+vascular dementia
+R Barber C Ballard I G McKeith 
+Neurology 
+DOI WNL 
+This information current March 
+Updated Information 
+Services
+including high resolution figures can found 
+http www neurology org content full html
+References
+This article cites articles which you can access for free 
+http www neurology org content full html 
+Citations
+This article has been cited HighWire hosted articles 
+http www neurology org content full html otherarticles
+Permissions Licensing
+Information about reproducing this article parts figures tables 
+its entirety can found online 
+http www neurology org misc about xhtml permissions
+Reprints
+Information about ordering reprints can found online 
+http www neurology org misc addir xhtml reprintsus
+Neurology the official journal the American Academy Neurology Published continuously since
+ now weekly with issues per year Copyright All rights reserved Print ISSN 
+Online ISSN X 

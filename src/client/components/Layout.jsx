@@ -7,6 +7,7 @@ import { selectAll } from 'd3-selection';
 
 import Network from './Network.jsx';
 import Timeline from './Timeline.jsx';
+import ClusterLayout from './ClusterLayout.jsx';
 
 import '../css/layout.scss';
 import '../css/d3viz.scss';
@@ -86,7 +87,7 @@ class Layout extends Component {
           measureBeforeMount={true}
           draggableHandle={'.LayoutHandle'}
         >
-          <div key="network" data-grid={{ x: 0, y: 0, w: 12, h: 8, static: false }}>
+          <div key="network" data-grid={{ x: 0, y: 0, w: 6, h: 8, static: false }}>
             <Network
               hoverNode={Layout.hoverNode}
               nodes={_.cloneDeep(this.props.nodes)}
@@ -99,6 +100,14 @@ class Layout extends Component {
               hoverNode={Layout.hoverNode}
               nodes={_.cloneDeep(this.props.nodes)}
               filteredNodes={_.cloneDeep(this.props.filteredNodes)}
+            />
+          </div>
+          <div key="clusterlayout" data-grid={{ x: 0, y: 0, w: 12, h: 8, static: false }}>
+            <ClusterLayout
+              hoverNode={Layout.hoverNode}
+              nodes={_.cloneDeep(this.props.nodes)}
+              filteredNodes={_.cloneDeep(this.props.filteredNodes)}
+              links={_.cloneDeep(this.props.links)}
             />
           </div>
         </ResponsiveReactGridLayout>
