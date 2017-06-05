@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 import sizeMe from 'react-sizeme';
 
 // Import d3 stuff
-import { forceX, forceY, forceSimulation, forceLink, forceManyBody } from 'd3-force';
-import { select, event } from 'd3-selection';
+import * as d3Force from 'd3-force';
+import { select, selectAll, event, mouse } from 'd3-selection';
+// import forceOrbit from '../../lib/forceOrbit.js';
 import { drag } from 'd3-drag';
-import { event as d3Event } from 'd3-selection';
 
 // import css
 import '../css/Network.scss';
@@ -40,7 +40,6 @@ class Network extends Component {
   }
 
   constructor(props) {
-    console.log(event);
     super(props);
     this.state = {
       nodes: props.nodes,
@@ -54,8 +53,8 @@ class Network extends Component {
   }
 
   componentDidMount() {
-    const height = document.getElementById('window-network-content').clientHeight;
-    const width = document.getElementById('window-network-content').clientWidth;
+    const height = document.getElementById('window-network2-content').clientHeight;
+    const width = document.getElementById('window-network2-content').clientWidth;
 
     this.setState({
       ...this.state,
@@ -75,6 +74,8 @@ class Network extends Component {
     const svg = this.state.d3Viz.svg;
     const simulation = this.state.d3Viz.simulation;
     const nodes = this.props.filteredNodes;
+    const { width, height } = this.state;
+    let linkTest = [];
 
     const link = svg.append('g')
       .attr('class', 'links')
@@ -82,7 +83,8 @@ class Network extends Component {
       .data(this.state.links)
       .enter()
       .append('line')
-      .attr('class', 'line-network')
+      .attr('class', d => `line-network ${nodes[d.source].id} ${nodes[d.target].id}`)
+      .attr('id', d => d.source.id)
       .attr('stroke-width', 1.5);
 
     const node = svg.append('g')
@@ -101,8 +103,56 @@ class Network extends Component {
         this.props.hoverNode(d, false);
       })
       .on('click', (d) => {
-        if (d3Event.defaultPrevented) return;
+        if (event.defaultPrevented) return;
         this.setState({ ...this.state, centered: d}, () => {
+          d.centered = true;
+          d.fx = width / 2;
+          d.fy = height / 2;
+          select(`circle#${d.id}`).attr('r', 14);
+
+          let r = [75, 150, 225];
+          let coords = [[0, 1], [1, 0], [0, -1], [-1, 0]];
+          let target = [width / 2, height / 2];
+
+          let dataOrg = [[], [], []];
+
+          for(let i = 0; i < nodes.length; i++) {
+            if(nodes[i].id !== d.id) {
+              let coord = Math.floor(Math.random() * coords.length);
+              let dist = Math.floor(Math.random() * r.length);
+              let rad = Math.random() * 2 * Math.PI;
+              nodes[i].rad = rad;
+              nodes[i].r = r[dist];
+              nodes[i].dist = dist;
+              dataOrg[dist].push(0);
+            }
+          }
+          let dataOrgI = [0, 0, 0];
+          for(let i = 0; i < dataOrg.length; i++) {
+            dataOrg[i] = dataOrg[i].length;
+            dataOrg[i] = 360 / dataOrg[i];
+          }
+
+          for(let i = 0; i < nodes.length; i++) {
+            let distI = nodes[i].dist;
+            if(nodes[i].id !== d.id) {
+              nodes[i].fx = d.fx + nodes[i].r * Math.cos(dataOrg[distI]*dataOrgI[distI]*Math.PI/180);
+              nodes[i].fy = d.fy + nodes[i].r * Math.sin(dataOrg[distI]*dataOrgI[distI]*Math.PI/180);
+              dataOrgI[distI]++;
+            }
+          }
+
+          svg.select('g.orbits').selectAll('circle')
+            .data(r)
+            .enter()
+            .append('circle')
+            .attr('r', d => d)
+            .attr('fill', 'none')
+            .attr('stroke', 'grey')
+            .attr('opacity', 0.3)
+            .attr('cx', d.fx)
+            .attr('cy', d.fy);
+
         });
       })
       .call(drag()
@@ -117,8 +167,10 @@ class Network extends Component {
         })
         .on('end', (d) => {
           if (!event.active) simulation.alphaTarget(0);
-          d.fx = null;
-          d.fy = null;
+          if(!d.centered){
+            d.fx = null;
+            d.fy = null;
+          }
         })
       );
 
@@ -138,8 +190,9 @@ class Network extends Component {
           .attr('cy', d => d.y);
       });
 
-    simulation.force('link')
-      .links(this.state.links);
+    simulation.force('link').links(this.state.links);
+
+    simulation.restart()
 
     const d3Viz = { svg, link, node, simulation };
     this.setState({ ...this.state, d3Viz, init: true });
@@ -178,14 +231,22 @@ class Network extends Component {
       .attr('width', width)
       .attr('height', height)
       .attr('overflow', 'hidden')
-      .attr('id', 'network-svg-element');
+      .attr('id', 'network2-svg-element')
+      .on('click', () => {
+        if(event.ctrlKey) {
+          console.debug("Ctrl+click has just happened!");
+        }
+      });
 
-    const simulation = forceSimulation()
-      .force('link', forceLink().distance(linkDistanceMult))
-      .force('charge', forceManyBody())
-      .force('x', forceX(width / 2))
-      .force('y', forceY(height / 2));
-      // .force('center', forceCenter(width / 2, height / 2));
+    svg.append('g').attr('class', 'orbits');
+
+    const simulation = d3Force.forceSimulation()
+      .force('link', d3Force.forceLink().distance(linkDistanceMult).strength(0.00001))
+      //.force('collide', d3Force.forceCollide((d) => d.r + 10).iterations(16))
+      //.force('attract', forceAttract().target([width / 2, height / 2]).strength(1))
+      .force('charge', d3Force.forceManyBody().strength(-100))
+      .force('x', d3Force.forceX(width / 2))
+      .force('y', d3Force.forceY(height / 2));
 
     const d3Viz = { svg, simulation };
     this.setState({ ...this.state, d3Viz }, () => {
@@ -194,8 +255,8 @@ class Network extends Component {
   }
 
   handleResize() {
-    const height = document.getElementById('window-network-content').clientHeight;
-    const width = document.getElementById('window-network-content').clientWidth;
+    const height = document.getElementById('window-network2-content').clientHeight;
+    const width = document.getElementById('window-network2-content').clientWidth;
 
     this.setState({ ...this.state, width, height });
 
@@ -203,7 +264,7 @@ class Network extends Component {
 
     this.state.d3Viz.svg.attr('width', width).attr('height', height);
 
-    this.state.d3Viz.simulation.force('x', forceX(width / 2)).force('y', forceY(height / 2));
+    this.state.d3Viz.simulation.force('x', d3Force.forceX(width / 2)).force('y', d3Force.forceY(height / 2));
     this.state.d3Viz.simulation.alphaTarget(0.3).restart();
   }
 
@@ -211,9 +272,9 @@ class Network extends Component {
     return (
       <div className="drag-wrapper">
         <div className="LayoutHandle handle text-vert-center">
-          <span>Network</span>
+          <span>Network2</span>
         </div>
-        <div id="window-network-content" className="content no-cursor text-vert-center">
+        <div id="window-network2-content" className="content no-cursor text-vert-center">
           <div className="mount" ref={(r) => { this.mountNetwork = r; }} />
         </div>
       </div>

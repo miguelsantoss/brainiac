@@ -5,9 +5,9 @@ import { Responsive, WidthProvider } from 'react-grid-layout';
 
 import { selectAll } from 'd3-selection';
 
-import Network from './Network.jsx';
-import Timeline from './Timeline.jsx';
-import ClusterLayout from './ClusterLayout.jsx';
+import Network from './Network_2.jsx';
+//import Timeline from './Timeline.jsx';
+//import ClusterLayout from './ClusterLayout.jsx';
 
 import '../css/layout.scss';
 import '../css/d3viz.scss';
@@ -43,9 +43,8 @@ class Layout extends Component {
   }
 
   static hoverNode(d, state) {
-    // selectAll(`#${d.author}`).style('fill', state ? '#ff0000' : '#111111');
-    // fixme ids start with letter
     selectAll(`#${d.id}`).classed('hover-node', state);
+    selectAll(`.line-network.${d.id}`).classed('hover-line-network', state);
   }
 
   constructor(props) {
@@ -87,23 +86,8 @@ class Layout extends Component {
           measureBeforeMount={true}
           draggableHandle={'.LayoutHandle'}
         >
-          <div key="network" data-grid={{ x: 0, y: 0, w: 6, h: 8, static: false }}>
+          <div key="network2" data-grid={{ x: 0, y: 0, w: 12, h: 16, static: false }}>
             <Network
-              hoverNode={Layout.hoverNode}
-              nodes={_.cloneDeep(this.props.nodes)}
-              filteredNodes={_.cloneDeep(this.props.filteredNodes)}
-              links={_.cloneDeep(this.props.links)}
-            />
-          </div>
-          <div key="timeline" data-grid={{ x: 0, y: 0, w: 12, h: 8, static: false }}>
-            <Timeline
-              hoverNode={Layout.hoverNode}
-              nodes={_.cloneDeep(this.props.nodes)}
-              filteredNodes={_.cloneDeep(this.props.filteredNodes)}
-            />
-          </div>
-          <div key="clusterlayout" data-grid={{ x: 0, y: 0, w: 12, h: 8, static: false }}>
-            <ClusterLayout
               hoverNode={Layout.hoverNode}
               nodes={_.cloneDeep(this.props.nodes)}
               filteredNodes={_.cloneDeep(this.props.filteredNodes)}
@@ -117,3 +101,27 @@ class Layout extends Component {
 }
 
 export default Layout;
+
+          //<div key="network" data-grid={{ x: 0, y: 0, w: 5, h: 8, static: false }}>
+          //  <Network
+          //    hoverNode={Layout.hoverNode}
+          //    nodes={_.cloneDeep(this.props.nodes)}
+          //    filteredNodes={_.cloneDeep(this.props.filteredNodes)}
+          //    links={_.cloneDeep(this.props.links)}
+          //  />
+          //</div>
+          //<div key="clusterlayout" data-grid={{ x: 5, y: 0, w: 5, h: 8, static: false }}>
+          //  <ClusterLayout
+          //    hoverNode={Layout.hoverNode}
+          //    nodes={_.cloneDeep(this.props.nodes)}
+          //    filteredNodes={_.cloneDeep(this.props.filteredNodes)}
+          //    links={_.cloneDeep(this.props.links)}
+          //  />
+          //</div>
+          //<div key="timeline" data-grid={{ x: 0, y: 0, w: 12, h: 8, static: false }}>
+          //  <Timeline
+          //    hoverNode={Layout.hoverNode}
+          //    nodes={_.cloneDeep(this.props.nodes)}
+          //    filteredNodes={_.cloneDeep(this.props.filteredNodes)}
+          //  />
+          //</div>

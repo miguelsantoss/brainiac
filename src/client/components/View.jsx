@@ -50,7 +50,7 @@ class View extends Component {
   componentDidMount() {
     axios({
       method: 'get',
-      url: 'http://localhost:3000/pdf',
+      url: 'http://localhost:4000/pdf',
       headers: { 'X-Requested-With': 'XMLHttpRequest' },
     })
       .then(response => response.data)
@@ -84,7 +84,7 @@ class View extends Component {
   fetchPdf(id) {
     axios({
       method: 'get',
-      url: `http://localhost:3000/pdf/${id}`,
+      url: `http://localhost:4000/pdf/${id}`,
       headers: { 'X-Requested-With': 'XMLHttpRequest' },
     }).then(response => this.setState({
       ...this.state,
@@ -124,7 +124,7 @@ class View extends Component {
     let data = new FormData();
     data.append('pdf',files[0])
 
-    axios.post('http://localhost:3000/pdf/upload', data, config).then((response) => {
+    axios.post('http://localhost:4000/pdf/upload', data, config).then((response) => {
       window.URL.revokeObjectURL(files[0].preview);
     })
   }
@@ -187,7 +187,7 @@ class View extends Component {
           <Layer
             onClose={() => this.setState({ ...this.state, pdf: false })}
           >
-            <DocViewer file={`http://localhost:3000/pdf/${this.state.pdf}.pdf`} />;
+            <DocViewer file={`http://localhost:4000/pdf/${this.state.pdf}.pdf`} />;
           </Layer>
         </div>
       );

@@ -4,16 +4,18 @@ $node-stroke: $node-fill;
 $opacity-normal: 1;
 $opacity-greyed-out: 0.1;
 
+$link-stroke: #999;
+$hover-stroke: #ff1111;
+$opacity-links: 0.5;
+
 // animations
 $opacity-animation-time: 0.5s;
 $fill-animation-time: 0.2s;
+$stroke-animation-time: 0.2s;
+
 $opacity-animation: opacity $opacity-animation-time ease;
 $fill-animation: fill $fill-animation-time ease;
-
-.links line {
-  stroke: #999;
-  stroke-opacity: 0.6;
-}
+$stroke-animation: stroke $stroke-animation-time ease;
 
 .network-node {
   // fill: $node-fill;
@@ -47,13 +49,25 @@ $fill-animation: fill $fill-animation-time ease;
 }
 
 .line-network {
-  opacity: $opacity-normal;
+  stroke: $link-stroke;
+  opacity: $opacity-links;
   -webkit-transition: $opacity-animation, $fill-animation;
      -moz-transition: $opacity-animation, $fill-animation;
       -ms-transition: $opacity-animation, $fill-animation;
        -o-transition: $opacity-animation, $fill-animation;
           transition: $opacity-animation, $fill-animation;
 }
+
+.line-network.hover-line-network {
+  opacity: $opacity-normal;
+  stroke: $hover-stroke;
+  -webkit-transition: $stroke-animation, $opacity-animation;
+     -moz-transition: $stroke-animation, $opacity-animation;
+      -ms-transition: $stroke-animation, $opacity-animation;
+       -o-transition: $stroke-animation, $opacity-animation;
+          transition: $stroke-animation, $opacity-animation;
+}
+
 
 .line-network.line-greyed-out {
   opacity: $opacity-greyed-out;

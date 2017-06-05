@@ -100,7 +100,7 @@ def main():
     #  path = 'example/txt2'
     # real data
     path = 'corpus_test/txt'
-    path = 'corpus/txt'
+    #  path = 'corpus/txt'
     print('Loading Documents...')
     token_dictionary, file_names = documentAnalysis(path)
 
@@ -225,8 +225,8 @@ def main():
         docs.append(doc)
 
     # Annotate each document with it's id - filename
-    for i, doc in enumerate(docs):
-        ax.annotate(doc, (X[i][0], X[i][1]))
+    #  for i, doc in enumerate(docs):
+    #      ax.annotate(doc, (X[i][0], X[i][1]))
 
     # Plot TSNE and LSA reduced TF-IDF Model
     # No colors with this one
@@ -243,12 +243,12 @@ def main():
     fig.suptitle('TSNE/LSA clusters', fontsize=20)
     for index, instance in enumerate(tsne_reduced):
         tsne_comp_1, tsne_comp_2 = tsne_reduced[index]
-        color = labels_color_map[labels_tsne[index]]
+        color = labels_color_map[labels[index]]
         ax.scatter(tsne_comp_1, tsne_comp_2, c=color)
 
     # Annotate each document with it's id - filename
-    for i, doc in enumerate(docs):
-        ax.annotate(doc, (tsne_reduced[i][0], tsne_reduced[i][1]))
+    #  for i, doc in enumerate(docs):
+    #      ax.annotate(doc, (tsne_reduced[i][0], tsne_reduced[i][1]))
 
     plt.show(block=False)
 
