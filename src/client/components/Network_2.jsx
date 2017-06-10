@@ -5,8 +5,8 @@ import sizeMe from 'react-sizeme';
 // Import d3 stuff
 import * as d3Force from 'd3-force';
 import { select, selectAll, event, mouse } from 'd3-selection';
-// import forceOrbit from '../../lib/forceOrbit.js';
 import { drag } from 'd3-drag';
+import * as d3Zoom from 'd3-zoom';
 
 // import css
 import '../css/Network.scss';
@@ -46,6 +46,10 @@ class Network extends Component {
       links: props.links,
       init: false,
       centered: false,
+      zoom: {
+        scaleFactor: 1,
+        translation: [0,0],
+      },
     };
     this.initializeD3 = this.initializeD3.bind(this);
     this.setupNetwork = this.setupNetwork.bind(this);
@@ -75,6 +79,8 @@ class Network extends Component {
     const simulation = this.state.d3Viz.simulation;
     const nodes = this.props.filteredNodes;
     const { width, height } = this.state;
+    const { scaleFactor, translation } = this.state.zoom;
+
     let linkTest = [];
 
     const link = svg.append('g')
@@ -83,7 +89,7 @@ class Network extends Component {
       .data(this.state.links)
       .enter()
       .append('line')
-      .attr('class', d => `line-network ${nodes[d.source].id} ${nodes[d.target].id}`)
+      .attr('class', d => `line-network ${nodes[d.source].id} ${nodes[d.source].id}`)
       .attr('id', d => d.source.id)
       .attr('stroke-width', 1.5);
 
@@ -94,7 +100,7 @@ class Network extends Component {
       .enter()
       .append('circle')
       .attr('class', 'network-node')
-      .attr('r', 7)
+      .attr('r', 4)
       .attr('id', d => d.id)
       .on('mouseover', (d) => {
         this.props.hoverNode(d, true);
@@ -181,13 +187,13 @@ class Network extends Component {
       .nodes(nodes)
       .on('tick', () => {
         link
-          .attr('x1', d => d.source.x)
-          .attr('y1', d => d.source.y)
-          .attr('x2', d => d.target.x)
-          .attr('y2', d => d.target.y);
+          .attr('x1', d => this.state.zoom.translation[0] + this.state.zoom.scaleFactor * d.source.x)
+          .attr('y1', d => this.state.zoom.translation[1] + this.state.zoom.scaleFactor * d.source.y)
+          .attr('x2', d => this.state.zoom.translation[0] + this.state.zoom.scaleFactor * d.target.x)
+          .attr('y2', d => this.state.zoom.translation[1] + this.state.zoom.scaleFactor * d.target.y);
         node
-          .attr('cx', d => d.x)
-          .attr('cy', d => d.y);
+          .attr('cx', d => this.state.zoom.translation[0] + this.state.zoom.scaleFactor * d.x)
+          .attr('cy', d => this.state.zoom.translation[1] + this.state.zoom.scaleFactor * d.y);
       });
 
     simulation.force('link').links(this.state.links);
@@ -211,7 +217,7 @@ class Network extends Component {
         if (filter[i].title === d.source.title) {
           for (let j = 0; j < filterLength; j += 1) {
             if (filter[j].title === d.target.title && i !== j) {
-              return 'line-network';
+              return `line-network ${d.source.id} ${d.target.id}`;
             }
           }
         }
@@ -234,9 +240,25 @@ class Network extends Component {
       .attr('id', 'network2-svg-element')
       .on('click', () => {
         if(event.ctrlKey) {
-          console.debug("Ctrl+click has just happened!");
+          console.log("Ctrl+click has just happened!");
         }
-      });
+        else if(event.altKey) {
+          console.log("Alt+click has just happened!");
+        }
+      })
+      .call(d3Zoom.zoom().on('zoom', (d) => {
+        const scaleFactor = event.transform.k;
+        const translation = [event.transform.x, event.transform.y];
+        this.setState({
+          ...this.state,
+          zoom: {
+            scaleFactor, translation,
+          }
+        }, () => {
+          this.state.d3Viz.simulation.restart();
+        })
+     }).scaleExtent([0.1,10]))
+     .on('dblclick.zoom', null);
 
     svg.append('g').attr('class', 'orbits');
 

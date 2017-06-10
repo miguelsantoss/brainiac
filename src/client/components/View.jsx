@@ -17,6 +17,12 @@ import DocViewer from './DocViewer.jsx';
 import DocumentList from './DocumentList.jsx';
 import UploadFile from './UploadFile.jsx';
 
+import Network from './Network_2.jsx';
+import Timeline from './Timeline.jsx';
+import ClusterLayout from './ClusterLayout.jsx';
+
+import { selectAll } from 'd3-selection';
+
 class View extends Component {
   constructor(props) {
     super(props);
@@ -197,13 +203,39 @@ class View extends Component {
 
   renderLayout() {
     if (this.state.nodes.length > 0) {
+      const vizProps = {
+        nodes: this.state.nodes,
+        links: this.state.links,
+        hoverNode: (d, state) => {
+          selectAll(`#${d.id}`).classed('hover-node', state);
+          selectAll(`.line-network.${d.id}`).classed('hover-line-network', state);
+        },
+      }
+
+      const vizArray = [
+        (<Network
+          gridKey='network'
+          gridData={{ x: 0, y: 0, w: 5, h: 8, static: false }}
+          filteredNodes={_.cloneDeep(this.state.filteredNodes)}
+          {...vizProps}
+        />),
+        (<ClusterLayout
+          gridKey='clusterLayout'
+          gridData={{ x: 5, y: 0, w: 5, h: 8, static: false }}
+          filteredNodes={_.cloneDeep(this.state.filteredNodes)}
+          {...vizProps}
+        />),
+        (<Timeline
+          gridKey='timeline'
+          gridData={{ x: 0, y: 0, w: 12, h: 8, static: false }}
+          filteredNodes={_.cloneDeep(this.state.filteredNodes)}
+          {...vizProps}
+        />),
+      ]
+
       return (
         <div>
-          <Layout
-            nodes={this.state.nodes}
-            links={this.state.links}
-            filteredNodes={this.state.filteredNodes}
-          />
+          <Layout children={vizArray} />
         </div>
       );
     }

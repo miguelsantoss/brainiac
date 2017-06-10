@@ -8,7 +8,7 @@ import * as d3Scale from 'd3-scale';
 import * as d3Sel from 'd3-selection';
 // import * as d3Drag from 'd3-drag';
 // import * as d3Request from 'd3-request';
-import * as d3Array from 'd3-array';
+import { extent } from 'd3-array';
 import * as d3Axis from 'd3-axis';
 import * as d3Voronoi from 'd3-voronoi';
 // import * as d3Format from 'd3-format';
@@ -90,7 +90,7 @@ class Timeline extends Component {
     const nTicks = Math.ceil(width * 0.01);
 
     const x = d3Scale.scaleLinear().rangeRound([0, width - (marginRight + marginLeft)]);
-    x.domain(d3Array.extent(nodeData, d => d.date.slice(0, 4)));
+    x.domain(extent(nodeData, d => d.date.slice(0, 4)));
 
     const svg = d3Sel.select(mountPoint)
       .append('svg')

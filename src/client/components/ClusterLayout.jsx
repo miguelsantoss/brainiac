@@ -8,6 +8,7 @@ import { select, event } from 'd3-selection';
 import { drag } from 'd3-drag';
 import { range } from 'd3-array';
 import { scaleOrdinal, schemeCategory20 } from 'd3-scale';
+import * as d3Zoom from 'd3-zoom';
 import * as d3quadtree from 'd3-quadtree';
 
 // import css
@@ -19,7 +20,11 @@ class ClusterLayout extends Component {
     this.state = {
       nodes: props.nodes,
       links: props.links,
-      init: false
+      init: false,
+      zoom: {
+        scaleFactor: 1,
+        translation: [0,0],
+      },
     };
 
     this.initializeD3 = this.initializeD3.bind(this);
@@ -91,7 +96,7 @@ class ClusterLayout extends Component {
       .enter()
       .append('circle')
       .attr('class', 'network-node')
-      .attr('r', d => d.r)
+      .attr('r', d => 5)
       .attr('id', d => d.id)
       .attr('fill', d => z(d.cluster))
       .on('mouseover', (d) => {
@@ -168,8 +173,8 @@ class ClusterLayout extends Component {
       })
       .on('tick', () => {
         node
-        .attr('cx', (d) => d.x)
-        .attr('cy', (d) => d.y);
+          .attr('cx', d => this.state.zoom.translation[0] + this.state.zoom.scaleFactor * d.x)
+          .attr('cy', d => this.state.zoom.translation[1] + this.state.zoom.scaleFactor * d.y);
       });
       
     const d3Viz = { svg, link, node, simulation };
@@ -208,12 +213,33 @@ class ClusterLayout extends Component {
       .attr('width', width)
       .attr('height', height)
       .attr('overflow', 'hidden')
-      .attr('id', 'cluster-svg-element');
+      .attr('id', 'cluster-svg-element')
+      .on('click', () => {
+        if(event.ctrlKey) {
+          console.log("Ctrl+click has just happened!");
+        }
+        else if(event.altKey) {
+          console.log("Alt+click has just happened!");
+        }
+      })
+      .call(d3Zoom.zoom().on('zoom', (d) => {
+        const scaleFactor = event.transform.k;
+        const translation = [event.transform.x, event.transform.y];
+        this.setState({
+          ...this.state,
+          zoom: {
+            scaleFactor, translation,
+          }
+        }, () => {
+          this.state.d3Viz.simulation.restart();
+        })
+     }).scaleExtent([0.1,10]))
+     .on('dblclick.zoom', null);
 
     const simulation = forceSimulation(nodes)
       .velocityDecay(0.2)
-      .force('x', forceX(width / 2).strength(0.005))
-      .force('y', forceY(height / 2).strength(0.005));
+      .force('x', forceX(width / 2))
+      .force('y', forceY(height / 2));
 
     const d3Viz = { svg, simulation };
     this.setState({ ...this.state, d3Viz }, () => {

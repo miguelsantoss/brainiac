@@ -1,13 +1,6 @@
 // Import React stuff
 import React, { Component } from 'react';
-import _ from 'lodash';
 import { Responsive, WidthProvider } from 'react-grid-layout';
-
-import { selectAll } from 'd3-selection';
-
-import Network from './Network_2.jsx';
-//import Timeline from './Timeline.jsx';
-//import ClusterLayout from './ClusterLayout.jsx';
 
 import '../css/layout.scss';
 import '../css/d3viz.scss';
@@ -15,38 +8,6 @@ import '../css/d3viz.scss';
 const ResponsiveReactGridLayout = WidthProvider(Responsive);
 
 class Layout extends Component {
-  static propTypes = {
-    // searchQuery: React.PropTypes.string.isRequired,
-    nodes: React.PropTypes.arrayOf(React.PropTypes.shape({
-      id: React.PropTypes.string,
-      title: React.PropTypes.string,
-      authors: React.PropTypes.arrayOf(React.PropTypes.shape({
-        name: React.PropTypes.string
-      })),
-      date: React.PropTypes.string,
-      value: React.PropTypes.number,
-    })).isRequired,
-    filteredNodes: React.PropTypes.arrayOf(React.PropTypes.shape({
-      id: React.PropTypes.string,
-      title: React.PropTypes.string,
-      authors: React.PropTypes.arrayOf(React.PropTypes.shape({
-        name: React.PropTypes.string
-      })),
-      date: React.PropTypes.string,
-      value: React.PropTypes.number,
-    })).isRequired,
-    links: React.PropTypes.arrayOf(React.PropTypes.shape({
-      source: React.PropTypes.number,
-      target: React.PropTypes.number,
-      value: React.PropTypes.number,
-    })).isRequired,
-  }
-
-  static hoverNode(d, state) {
-    selectAll(`#${d.id}`).classed('hover-node', state);
-    selectAll(`.line-network.${d.id}`).classed('hover-line-network', state);
-  }
-
   constructor(props) {
     super(props);
     this.state = {
@@ -86,14 +47,14 @@ class Layout extends Component {
           measureBeforeMount={true}
           draggableHandle={'.LayoutHandle'}
         >
-          <div key="network2" data-grid={{ x: 0, y: 0, w: 12, h: 16, static: false }}>
-            <Network
-              hoverNode={Layout.hoverNode}
-              nodes={_.cloneDeep(this.props.nodes)}
-              filteredNodes={_.cloneDeep(this.props.filteredNodes)}
-              links={_.cloneDeep(this.props.links)}
-            />
-          </div>
+        {
+          this.props.children.map((viz) => {
+            const { gridKey, gridData } = viz.props;
+            return (
+              <div key={gridKey} data-grid={gridData}>{viz}</div>
+            )
+          })
+        }
         </ResponsiveReactGridLayout>
       </div>
     );
@@ -101,27 +62,3 @@ class Layout extends Component {
 }
 
 export default Layout;
-
-          //<div key="network" data-grid={{ x: 0, y: 0, w: 5, h: 8, static: false }}>
-          //  <Network
-          //    hoverNode={Layout.hoverNode}
-          //    nodes={_.cloneDeep(this.props.nodes)}
-          //    filteredNodes={_.cloneDeep(this.props.filteredNodes)}
-          //    links={_.cloneDeep(this.props.links)}
-          //  />
-          //</div>
-          //<div key="clusterlayout" data-grid={{ x: 5, y: 0, w: 5, h: 8, static: false }}>
-          //  <ClusterLayout
-          //    hoverNode={Layout.hoverNode}
-          //    nodes={_.cloneDeep(this.props.nodes)}
-          //    filteredNodes={_.cloneDeep(this.props.filteredNodes)}
-          //    links={_.cloneDeep(this.props.links)}
-          //  />
-          //</div>
-          //<div key="timeline" data-grid={{ x: 0, y: 0, w: 12, h: 8, static: false }}>
-          //  <Timeline
-          //    hoverNode={Layout.hoverNode}
-          //    nodes={_.cloneDeep(this.props.nodes)}
-          //    filteredNodes={_.cloneDeep(this.props.filteredNodes)}
-          //  />
-          //</div>
