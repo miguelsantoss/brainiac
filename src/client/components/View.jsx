@@ -21,7 +21,7 @@ import Network from './Network_2.jsx';
 import Timeline from './Timeline.jsx';
 import ClusterLayout from './ClusterLayout.jsx';
 
-import { selectAll } from 'd3-selection';
+import { selectAll, select } from 'd3-selection';
 
 class View extends Component {
   constructor(props) {
@@ -209,6 +209,16 @@ class View extends Component {
         hoverNode: (d, state) => {
           selectAll(`#${d.id}`).classed('hover-node', state);
           selectAll(`.line-network.${d.id}`).classed('hover-line-network', state);
+          if(state) {
+            select(this.tooltip)
+              .style('left', event.x + 10 + 'px')
+              .style('top', event.y + 10 + 'px')
+              .style('display', 'inline-block')
+              .html((d.title));
+          }
+          else {
+            select(this.tooltip).style('display', 'none');
+          }
         },
       }
 
@@ -257,6 +267,16 @@ class View extends Component {
       verticalAlign: 'middle',
       zIndex: 1000,
     };
+    const tooltipStyle = {
+      position: 'absolute',
+      display: 'none',
+      minWidth: 'px',
+      height: 'auto',
+      background: 'none repeat scroll 0 0 #ffffff',
+      border: '1px solid #6F257F',
+      padding: '2px',
+      textAlign: 'center',
+    }
     return (
       <Dropzone
         disableClick
@@ -275,6 +295,7 @@ class View extends Component {
           {this.renderSidebar()}
           {this.renderLayout()}
         </Split>
+        <div style={tooltipStyle} ref={(r) => { this.tooltip = r; }} id='tooltip'/>
         {this.renderDocViewers()}
       </Dropzone>
     );

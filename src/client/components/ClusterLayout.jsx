@@ -4,7 +4,7 @@ import sizeMe from 'react-sizeme';
 
 // Import d3 stuff
 import { forceX, forceY, forceSimulation, forceLink, forceManyBody } from 'd3-force';
-import { select, event } from 'd3-selection';
+import { select, event, mouse } from 'd3-selection';
 import { drag } from 'd3-drag';
 import { range } from 'd3-array';
 import { scaleOrdinal, schemeCategory20 } from 'd3-scale';
@@ -21,6 +21,7 @@ class ClusterLayout extends Component {
       nodes: props.nodes,
       links: props.links,
       init: false,
+      drag: false,
       zoom: {
         scaleFactor: 1,
         translation: [0,0],
@@ -100,23 +101,30 @@ class ClusterLayout extends Component {
       .attr('id', d => d.id)
       .attr('fill', d => z(d.cluster))
       .on('mouseover', (d) => {
-        this.props.hoverNode(d, true);
+        if(!this.state.drag)
+          this.props.hoverNode(d, true);
       })
       .on('mouseout', (d) => {
-        this.props.hoverNode(d, false);
+        if(!this.state.drag)
+          this.props.hoverNode(d, false);
       })
       .call(drag()
         .on('start', (d) => {
           if (!event.active) simulation.alphaTarget(0.3).restart();
+          this.props.hoverNode(d, true);
+          this.state.drag = true;
           d.fx = d.x;
           d.fy = d.y;
         })
         .on('drag', (d) => {
-          d.fx = event.x;
-          d.fy = event.y;
+          const mouseCoords = mouse(svg.node());
+          d.fx = (mouseCoords[0] - this.state.zoom.translation[0]) / this.state.zoom.scaleFactor;
+          d.fy = (mouseCoords[1] - this.state.zoom.translation[1]) / this.state.zoom.scaleFactor;
         })
         .on('end', (d) => {
           if (!event.active) simulation.alphaTarget(0);
+          this.state.drag = false;
+          this.props.hoverNode(d, false);
           d.fx = null;
           d.fy = null;
         })
@@ -216,10 +224,10 @@ class ClusterLayout extends Component {
       .attr('id', 'cluster-svg-element')
       .on('click', () => {
         if(event.ctrlKey) {
-          console.log("Ctrl+click has just happened!");
+          console.log('Ctrl+click has just happened!');
         }
         else if(event.altKey) {
-          console.log("Alt+click has just happened!");
+          console.log('Alt+click has just happened!');
         }
       })
       .call(d3Zoom.zoom().on('zoom', (d) => {
@@ -261,7 +269,7 @@ class ClusterLayout extends Component {
     this.state.d3Viz.simulation.alphaTarget(0.3).restart();
   }
 
-  render() {
+  render() { 
     return (
       <div className="drag-wrapper">
         <div className="LayoutHandle handle text-vert-center">

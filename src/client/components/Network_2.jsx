@@ -46,6 +46,7 @@ class Network extends Component {
       links: props.links,
       init: false,
       centered: false,
+      drag: false,
       zoom: {
         scaleFactor: 1,
         translation: [0,0],
@@ -102,11 +103,13 @@ class Network extends Component {
       .attr('class', 'network-node')
       .attr('r', 4)
       .attr('id', d => d.id)
-      .on('mouseover', (d) => {
-        this.props.hoverNode(d, true);
+      .on('mouseover', d => {
+        if(!this.state.drag)
+          this.props.hoverNode(d, true);
       })
-      .on('mouseout', (d) => {
-        this.props.hoverNode(d, false);
+      .on('mouseout', d => {
+        if(!this.state.drag)
+          this.props.hoverNode(d, false);
       })
       .on('click', (d) => {
         if (event.defaultPrevented) return;
@@ -164,24 +167,26 @@ class Network extends Component {
       .call(drag()
         .on('start', (d) => {
           if (!event.active) simulation.alphaTarget(0.3).restart();
+          this.props.hoverNode(d, true);
+          this.state.drag = true;
           d.fx = d.x;
           d.fy = d.y;
         })
         .on('drag', (d) => {
-          d.fx = event.x;
-          d.fy = event.y;
+          const mouseCoords = mouse(svg.node());
+          d.fx = (mouseCoords[0] - this.state.zoom.translation[0]) / this.state.zoom.scaleFactor;
+          d.fy = (mouseCoords[1] - this.state.zoom.translation[1]) / this.state.zoom.scaleFactor;
         })
         .on('end', (d) => {
           if (!event.active) simulation.alphaTarget(0);
+          this.props.hoverNode(d, false);
+          this.state.drag = false;
           if(!d.centered){
             d.fx = null;
             d.fy = null;
           }
         })
       );
-
-    node.append('title')
-      .text(d => d.title);
 
     simulation
       .nodes(nodes)
@@ -238,12 +243,12 @@ class Network extends Component {
       .attr('height', height)
       .attr('overflow', 'hidden')
       .attr('id', 'network2-svg-element')
-      .on('click', () => {
+      .on('click', (d) => {
         if(event.ctrlKey) {
-          console.log("Ctrl+click has just happened!");
+          console.log('Ctrl+click has just happened!');
         }
         else if(event.altKey) {
-          console.log("Alt+click has just happened!");
+          console.log('Alt+click has just happened!');
         }
       })
       .call(d3Zoom.zoom().on('zoom', (d) => {

@@ -12,7 +12,7 @@ import { extent } from 'd3-array';
 import * as d3Axis from 'd3-axis';
 import * as d3Voronoi from 'd3-voronoi';
 import * as d3Transition from 'd3-transition'
-import * as d3Timer from 'd3-timer';
+import * as d3Timer from 'd3-timer'
 // import * as d3Format from 'd3-format';
 // import * as d3Time from 'd3-time';
 
@@ -124,40 +124,106 @@ class Timeline extends Component {
         .x(d => d.x)
         .y(d => d.y)
         .extent([[0, 0], [width, height]]);
-
-    const voronoiG = g.append('g').attr('class', 'voronoi-path');
     
-    const voronoiGroup = voronoiG
-      .selectAll('.voronoi')
+    const voronoiGroup = g.append('g')
+      .attr('class', 'voronoi-path')
+      .selectAll('voronoi')
       .data(voronoi(nodeData).polygons(), d => d.data.id);
 
-    voronoiGroup.enter().append('path')
-          .attr('class', 'voronoi')
-          .attr('d', d => d ? 'M' + d.join('L') + 'Z' : null)
-          .on('mouseover', d => {
-            this.props.hoverNode(d.data, true);
-          })
-          .on('mouseout', d => {
-            this.props.hoverNode(d.data, false);
-          });
+    voronoiGroup.exit()
+        .style("stroke", "#b26745")
+      .transition(t)
+        .style("opacity", 1e-6)
+        .remove();
 
-    const nodes = g.append('g')
-      .attr('class', 'timeline-nodes')
-      .selectAll('timeline-node').data(nodeData, d => d.id)
-      .enter().append('circle')
+    voronoiGroup
+        .transition(t)
+          .delay(250)
+          .attr("d", function(d) { return d ? "M" + d.join("L") + "Z" : null; })
+          .style("stroke", "#3a403d");
+
+    voronoiGroup.enter().append("path")
+          .attr("class", "voronoi")
+          .attr("d", function(d) { return d ? "M" + d.join("L") + "Z" : null; })
+          .style("stroke", "#45b29d")
+          .style("opacity", 1e-6)
+        .transition(t)
+          .delay(250)
+          .style("opacity", 1);
+
+    const nodes = {};
+    const d3Viz = { svg, g, x, xAxis, simulation, nodes, t };
+    this.setState({ ...this.state, d3Viz, init: true });
+  }
+
+initbak() {
+    const width = this.state.width;
+    const height = this.state.height;
+    const nodeRadius = this.state.nodeRadius;
+    const forceYcollide = nodeRadius + forceYspaceCollide;
+    const nodeData = this.state.nodes;
+    const nTicks = Math.ceil(width * 0.01);
+
+    const x = d3Scale.scaleLinear().rangeRound([0, width - (marginRight + marginLeft)]);
+    x.domain(extent(nodeData, d => d.date.slice(0, 4)));
+
+    const svg = d3Sel.select(mountPoint)
+      .append('svg')
+      .attr('width', width)
+      .attr('height', height)
+      .attr('overflow', 'hidden')
+      .attr('id', 'timeline-svg-element');
+
+    const g = svg.append('g')
+      .attr('transform', 'translate(20,0)');
+
+    const simulation = d3Force.forceSimulation(nodeData)
+      .force('x', d3Force.forceX(d => x(d.date.slice(0, 4))).strength(1))
+      .force('y', d3Force.forceY(height / 2))
+      .force('collide', d3Force.forceCollide(forceYcollide))
+      .stop();
+
+    for (let i = 0; i < 120; i += 1) simulation.tick();
+
+    const xAxis = g.append('g')
+      .attr('class', 'axis axis--x')
+      .attr('transform', () => {
+        const translate = `translate(0,${height - marginBottom})`;
+        return translate;
+      })
+      .call(d3Axis.axisBottom(x).ticks(nTicks, ''));
+
+    const cell = g.append('g')
+      .attr('class', 'cells')
+    .selectAll('g').data(d3Voronoi.voronoi()
+        .extent([[0, 0], [width, height]])
+        .x(d => d.x)
+        .y(d => d.y)
+      .polygons(nodeData), d => d.data.id)
+      .enter()
+      .append('g');
+
+    const nodes = cell.append('circle')
       .attr('class', 'timeline-node')
       .attr('r', nodeRadius)
-      .attr('cx', d => d.x)
-      .attr('cy', d => d.y)
-      .attr('id', d => d.id)
+      .attr('cx', d => d.data.x)
+      .attr('cy', d => d.data.y)
+      .attr('id', d => d.data.id);
+
+    cell.append('path')
+      .attr('id', d => d.data.id)
+      .attr('d', d => `M${d.join('L')}Z`)
       .on('mouseover', (d) => {
-        this.props.hoverNode(d, true);
+        this.props.hoverNode(d.data, true);
       })
       .on('mouseout', (d) => {
-        this.props.hoverNode(d, false);
+        this.props.hoverNode(d.data, false);
       });
 
-    const d3Viz = { svg, g, x, xAxis, simulation, nodes, t, voronoiG };
+    cell.append('title')
+      .text(d => `${d.data.title}\n${d.data.date.slice(0, 4)}`);
+
+    const d3Viz = { svg, cell, g, x, xAxis, simulation, nodes, t };
     this.setState({ ...this.state, d3Viz, init: true });
   }
 
@@ -169,7 +235,7 @@ class Timeline extends Component {
     const nodeRadius = this.state.nodeRadius;
     const forceYcollide = nodeRadius + forceYspaceCollide;
     const nodeData = this.state.nodes;
-    const { t, g, voronoiG } = this.state.d3Viz;
+    const { t,g } = this.state.d3Viz;
 
     this.setState({ ...this.state, width, height });
 
@@ -192,28 +258,48 @@ class Timeline extends Component {
 
     for (let i = 0; i < 120; i += 1) simulation.tick();
 
-    this.state.d3Viz.nodes.attr('cx', d => d.x);
-    this.state.d3Viz.nodes.attr('cy', d => d.y);
+    // this.state.d3Viz.nodes.attr('cx', d => d.data.x);
+    // this.state.d3Viz.nodes.attr('cy', d => d.data.y);
 
     var voronoi = d3Voronoi.voronoi()
         .x(d => d.x)
         .y(d => d.y)
         .extent([[0, 0], [width, height]]);
     
-    const voronoiGroup = voronoiG.selectAll('.voronoi')
+    const voronoiGroup = g.append('g')
+      .attr('class', 'voronoi-path')
+      .selectAll('voronoi')
       .data(voronoi(nodeData).polygons(), d => d.data.id);
 
+    voronoiGroup.exit()
+        .style("stroke", "#b26745")
+      .transition(t)
+        .style("opacity", 1e-6)
+        .remove();
+
     voronoiGroup
-          .attr('d', d => d ? 'M' + d.join('L') + 'Z' : null)
+        .transition(t)
+          .delay(250)
+          .attr("d", function(d) { return d ? "M" + d.join("L") + "Z" : null; })
+          .style("stroke", "#3a403d");
+
+    voronoiGroup.enter().append("path")
+          .attr("class", "voronoi")
+          .attr("d", function(d) { return d ? "M" + d.join("L") + "Z" : null; })
+          .style("stroke", "#45b29d")
+          .style("opacity", 1e-6)
+        .transition(t)
+          .delay(250)
+          .style("opacity", 1);
   }
 
   filterNodes() {
-    const { nodes } = this.state.d3Viz;
-    const filter = this.props.filteredNodes;
-    nodes.attr('class', (d) => {
-      const isPresent = filter.filter(nodeE => nodeE.title === d.title).length > 0;
-      return isPresent ? 'timeline-node' : 'timeline-node node-greyed-out';
-    });
+    // const { nodes } = this.state.d3Viz;
+    // const filter = this.props.filteredNodes;
+    // nodes.attr('class', (d) => {
+    //   const isPresent = filter.filter(nodeE => nodeE.title === d.data.title).length > 0;
+    //   return isPresent ? 'timeline-node' : 'timeline-node node-greyed-out';
+    // });
   }
 
   render() {
@@ -231,3 +317,39 @@ class Timeline extends Component {
 }
 
 export default sizeMe({ monitorHeight: true })(Timeline);
+
+let alphabet = "abcdefghijklmnopqrstuvwxyz".split("");
+function randomizeData(){
+      var d0 = shuffle(alphabet),
+        d1 = [],
+        d2 = [];
+      for (var i = 0; i < random(1, alphabet.length); i++){
+        d1.push(d0[i]);
+      }
+      d1.forEach(function(d){
+        d2.push({name: d, x: random(0, 100), y: random(0, 100), id: name})
+      });
+      return d2;
+    }
+
+    function random(min, max) {
+      return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+
+    function shuffle(array) {
+      var m = array.length, t, i;
+
+      // While there remain elements to shuffle…
+      while (m) {
+
+        // Pick a remaining element…
+        i = Math.floor(Math.random() * m--);
+
+        // And swap it with the current element.
+        t = array[m];
+        array[m] = array[i];
+        array[i] = t;
+      }
+
+      return array;
+    }
