@@ -1,0 +1,19 @@
+Objective: To test the following hypotheses: smaller hip- pocampal volumes predict conversion of MCI to AD, whereas larger hippocampal volumes predict cognitive stability and/or improvement; and patients with MCI who convert to AD have greater atrophy in the CA1 hippocampal subfield and subiculum.
+
+Main Outcome Measure: Baseline regional hippocampal atrophy was analyzed with region-of-interest and 3-dimensional hippocampal mapping techniques.
+
+Hippocampal atrophy correlates strongly with Braak and Braak pathological staging8,9 and cognitive decline,8,10,11 and predates conversion to MCI in the oldest old.12 The MCI outcomes correlate with annualized hippocampal atrophy rates.
+
+We analyzed hippocampal atrophy in MCI with a region-of-interest technique and a new hippocampal 3-dimensional radial atrophy mapping approach21 assessing for subregional structural deformations.
+
+A, Schematic representation of the hippocampal subfields is mapped onto the hippocampal surface.
+
+35 B-D, Statistical maps compare hippocampal radial atrophy between patients with mild cognitive impairment that converted to Alzheimer disease and those with stable MCI; between MCI-nc patients and patients with MCI that improved; and between MCI-c and MCI-i patients.
+
+RADIAL ATROPHY MAP To better understand the anatomical distribution of radial atrophy, we consulted 2 well-established sources34,35 and demarcated the main hippocampal subfields on the hippocampal surface.
+
+COMMENT MCI-c showed a distinct pattern of hippocampal atrophy from MCI-nc and MCI-i. The magnetic resonance imaging preconversion difference at baseline is atrophy of the lateral edge of the hippocampal formation, possibly corresponding to the CA1 subfield.
+
+The AD group had lateral-edge atrophy in regions corresponding to the CA1 hippocampal subfield at baseline with spread to the hippocampal head at follow-up.
+
+A larger MCI patient sample will better define hippocampal regions that correlate best with cognitive outcomes and determine the specificity and sensitivity of our methods in predicting cognitive outcome in patients with newly diagnosed MCI. Without direct pathological validation, the interpretation of the subregional involvement remains arbitrary.

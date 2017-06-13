@@ -1,0 +1,19 @@
+We wished to estimate the effect of magnetic resonance image spatial orientation on manual hippocampal segmentations to define optimal standard orientation of MRIs for hippocampal volumetry.
+
+1, 2 Orientation along the hippocampal axes was long preferred by segmenting neuroanatomists3-9 since it was believed to provide better clear-cut boundaries due to less partial volume effect through the hippocampal body.
+
+15 The tracers segmented all hippocampi twice, once on images oriented along the AC-PC line, once on images oriented along the hippocampal axes.
+
+We used ImageJ to orient images along hippocampal axes, and the Montreal Neurological Institute package AutoReg to orient images along the AC-PC line, with the Institute's ICBM152 nonlinear symmetric template as reference.
+
+Statistics We estimated volume intrarater reliability by computing intraclass correlation coefficients between segmentations on the AC-PC and on hippocampal axes, and computing interrater reliability separately for AC-PC and hippocampal axesoriented images.
+
+Discussion Hippocampal segmentations based on harmonized landmarks, carried out by three expert tracers from independent centres on AC-PC and hippocampal axes oriented scans, were all characterized by very high volume ICCs, but we detected significantly higher spatial overlap for segmentations completed on the AC-PC oriented scans.
+
+The comparison through 3D navigation of the boundary area between the hippocampus and the amygdala on scans oriented on the AC-PC and on hippocampal axes enables an appreciation of more informative details on the former, consisting in better visualization of cerebrospinal fluid spaces, more clearly separating the two structures than in the visualization on the hippocampal axes.
+
+The CSF separating the hippocampal head from the amygdala can be better visualized on the axial plane on images oriented along the AC-PC plane than on images oriented along the hippocampal axes.
+
+The need to carry out this kind of investigation arose from the need to define a Harmonized Protocol for hippocampal segmentation, to set a standardized operating procedure in the use of hippocampal volumetry as a biomarker for AD.20 As the next step of this project, the quantitative data described here were used to inform the Delphi panel of experts16 to decide on the optimal orientation of MRIs for a Harmonized Protocol for hippocampal segmentation.
+
+Table S2 - Crude hippocampal volumes of 10 ADNI subjects obtained through manual segmentation on MRIs oriented along the AC-PC line and long hippocampal axis.

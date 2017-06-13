@@ -1,0 +1,19 @@
+Conclusion: Our results reveal, for the ﬁrst time, that exercise training produces functional changes in known motor learning related brain structures that are consistent with improved behavioural performance observed in PD patients.
+
+Functional brain changes related to motor learning capacity following AET in PD To investigate the effects of AET on the neural correlates speciﬁc to motor sequence learning, we contrasted the main sequence learning effect by session [POST - PRE] within PD group.
+
+To test whether pre-post functional brain changes expressing motor learning capacity were indeed related to improvement in aerobic ﬁtness, we conducted a regression analysis between changes in estimated VO2max and changes in MSL brain responses.
+
+Functional brain changes related to motor learning capacity following AET in HC The main learning effect by session [POST - PRE] assessed within the HC group revealed no signiﬁcant change in activity between sessions.
+
+The regression analysis session [POST - PRE] also revealed no signiﬁcant correlation between AET-related changes in aerobic capacity and brain changes related to motor learning capacity for HC group alone.
+
+Between group differences in functional brain activity related to motor learning capacity following AET When comparing the two groups on the main learning effect by session [POST - PRE], PD patients showed signiﬁcantly higher levels of motor learning related activation than HC, post-AET as compared to pre-AET, in the left cerebellum, right globus pallidus, and left ventral striatum.
+
+Functional brain changes following AET in PD and HC regressed against changes in aerobic ﬁtness Between-group differences in regression between VO2max changes and MSL-related brain activity changes were observed in the right hippocampus and in left cerebellum lobules 8, 9 and 7.
+
+Interestingly, in the present study, the neuroimaging results corroborate those behavioural ﬁndings and suggest that AET-related changes in motor sequence learning capacity are mainly seen in PD individuals.
+
+These ﬁndings could suggest that such brain structures are part of the functional network compensating for the typical dysfunction within the cortico-striatal circuits seen in PD. In fact, the reported positive relationship between changes in aerobic ﬁtness and AET-related MSL brain changes in the same macro-structures is consistent with emerging data suggesting that links between the hippocampus and the dopaminergic systems in PD are important in memory and learning C. Duchesne et al.
+
+567 indicating a 'restoration' of functionality in the network typically seen in MSL. According to the motor sequence learning literature, both the cerebellum and striatum are known to be involved in the early MSL phase, while only the striatum has been shown to maintain its activity in later learning stages when the memory trace has been consolidated.

@@ -100,7 +100,7 @@ def main():
     #  path = 'example/txt2'
     # real data
     path = 'corpus_test/txt'
-    #  path = 'corpus/txt'
+    path = 'corpus/txt'
     print('Loading Documents...')
     token_dictionary, file_names = documentAnalysis(path)
 
@@ -297,35 +297,34 @@ def main():
     doc_array = []
     links = []
 
-    #  with open('document.json', 'r') as docJson:
-    #      documentData = json.load(docJson)['nodes']
-    #
-    #  for index, file in enumerate(file_names):
-    #      for indexj, entry in enumerate(documentData):
-    #          if entry['id'] == file:
-    #              doc_obj = {}
-    #              doc_obj = {key:value for key, value in entry.items()}
-    #              doc_obj['cluster'] = int(labels_pca[index])
-    #              #  doc_obj['r'] = float(math.sqrt((index + 1) / 10 * -math.log(random.random())) * 12)
-    #              doc_obj['r'] = 10
-    #              doc_array.append(doc_obj)
-    #      for indexj, entry in enumerate(tfidf_similarity_list[index]):
-    #          if indexj > index and entry > 0.6:
-    #              link = {}
-    #              link['source'] = index
-    #              link['target'] = indexj
-    #              link['value'] = entry
-    #              links.append(link)
-    #
+    with open('document.json', 'r') as docJson:
+        documentData = json.load(docJson)['nodes']
+    
+    for index, file in enumerate(file_names):
+        for indexj, entry in enumerate(documentData):
+            if entry['id'] == file:
+                doc_obj = {}
+                doc_obj = {key:value for key, value in entry.items()}
+                doc_obj['cluster'] = int(labels_pca[index])
+                doc_obj['similarity_values'] = tfidf_similarity_list[index]
+                doc_array.append(doc_obj)
+        for indexj, entry in enumerate(tfidf_similarity_list[index]):
+            if indexj > index and entry > 0.5:
+                link = {}
+                link['source'] = index
+                link['target'] = indexj
+                link['value'] = entry
+                links.append(link)
+    
 
-    #  sim_json['nodes'] = doc_array
-    #  sim_json['links'] = links
-    #  sim_json['topics_lda'] = topics_lda
-    #  sim_json['topics_nmf'] = topics_nmf
-    #  sim_json['cluster_words_tfidf'] = tfidf_cluster_top_words
-    #  sim_json['cluster_words_lsa'] = lsa_cluster_top_words
-    #
-    #  json.dump(sim_json, codecs.open('cosine_test.json', 'w', encoding='utf-8'), separators=(',',':'), sort_keys=True, indent=4)
+    sim_json['nodes'] = doc_array
+    sim_json['links'] = links
+    sim_json['topics_lda'] = topics_lda
+    sim_json['topics_nmf'] = topics_nmf
+    sim_json['cluster_words_tfidf'] = tfidf_cluster_top_words
+    sim_json['cluster_words_lsa'] = lsa_cluster_top_words
+    
+    json.dump(sim_json, codecs.open('cosine_test.json', 'w', encoding='utf-8'), separators=(',',':'), sort_keys=True, indent=4)
     plt.show()
 
 if __name__ == '__main__': main()

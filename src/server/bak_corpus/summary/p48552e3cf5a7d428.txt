@@ -1,0 +1,19 @@
+Multiple diseases in cerebrum can conspire to worsen cognitive symptoms; however, it often is difficult to judge the extent to which each disease observed at autopsy may have contributed to a given patient's cognitive state.
+
+Regions are recommended for additional stains to reveal Alzheimer's disease neuropathologic change and Lewy body disease.
+
+Although cerebral amyloid angiopathy is not considered in the ''ABC'' score, it is very commonly observed in cases with parenchymal Ab plaques and should be evaluated and reported systematically as well as appreciated for its potential pathophysiological significance [56, 61]. Reporting For all cases, regardless of clinical history, reporting should follow the format of these examples: ''Alzheimer Disease Neuropathologic Change: A1, B0, C0'' or ''Alzheimer Disease Neuropathologic Change: A3, B3, C3''. Using the system shown in Table 3, the ABC scores are transformed into one of four levels of AD neuropathologic change: Not, Low, Intermediate or High.
+
+C Neuritic plaque score should be determined by the method of CERAD d Medial temporal lobe NFTs in the absence of significant Ab or neuritic plaques occurs in older people and may be seen in individuals without cognitive impairment, with mild impairment, or with cognitive impairment from causes other than AD. Consider other diseases when clinically or pathologically indicated e Widespread NFTs with some Ab/amyloid plaques but limited neuritic plaques is relatively infrequent and when it occurs, other diseases, particularly tauopathies, should be considered.
+
+TDP-43 immunoreactive inclusions are observed in the majority of cases of HS , about onehalf of cases with FTLD and ubiquitin inclusions with or without motor neuron disease, most sporadic cases of amyotrophic lateral sclerosis, and commonly in cases with AD neuropathologic change [8, 9] or with LBD , as well as other neurodegenerative diseases.
+
+We refer the reader to recent consensus guidelines for the neuropathologic evaluation of FTLD and its subtypes [17, 34, 35], and issues important in the distinction of AD neuropathologic change from those of some forms of FTLD. Finally, not only can the neuropathologic changes of prion disease be co-morbid with AD, but some forms of prion disease can overlap with AD and need to be distinguished with special stains.
+
+Albert MS, Dekosky ST, Dickson D et al The diagnosis of mild cognitive impairment due to Alzheimer's disease: recommendations from the National Institute on Aging-Alzheimer's Association workgroups on diagnostic guidelines for Alzheimer's disease.
+
+Alzheimer's Dement Hyman BT, Trojanowski JQ Consensus recommendations for the postmortem diagnosis of Alzheimer disease from the National Institute on Aging and the Reagan Institute Working Group on diagnostic criteria for the neuropathological assessment of Alzheimer disease.
+
+McKhann GM, Knopman DS, Chertkow H et al The diagnosis of dementia due to Alzheimer's disease: Recommendations from the National Institute on Aging-Alzheimer's Association workgroups on diagnostic guidelines for Alzheimer's disease.
+
+Sperling RA, Aisen PS, Beckett LA et al Toward defining the preclinical stages of Alzheimer's disease: Recommendations from the National Institute on Aging-Alzheimer's Association workgroups on diagnostic guidelines for Alzheimer's disease.

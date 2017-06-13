@@ -1,0 +1,19 @@
+Right-greater-than-left laterality effects were found for temporal lobe, superior temporal gyrus, amygdala, and hippocampal volumes.
+
+A study comparing temporal lobe measures of 96 subjects aged 18-40 years to those of 34 subjects aged 41-80 years found an 8%.decrease in temporal lobe volume for males.
+
+Volumetric measures of the temporal lobe, superior temporal gyrus, amygdala, and hippocampus were acquired in 99 healthy children and adolescents aged 4-18 years.
+
+Boundaries for measures of temporal lobe, superior temporal gyrus, amygdala, and hippocampus.
+
+The imaging data were imported into an image analysis program developed at the NIH. Measures of the temporal lobe, superior temporal gyrus, amygdala, and hippocampal formation were all done by manual tracing in the coronal plane by a single experienced rater who was blind to any subject characteristics.
+
+The superior temporal gyrus was identified by the gyral boundary in each of the coronal sections of the temporal lobes and extended posteriorly to the most posterior slice in which fibers of the fornix were visible.
+
+Interrater ICCs for the structures measured were as follows: temporal lobe, 0.98; superior temporal gyrus, 0.92; amygdala, 0.86; hippocampus, 0.87.
+
+Asymmetries The temporal lobe, superior temporal gyrus, amygdala, and hippocampus all exhibited a right-greater-than-left asymmetry and the hippocampus having a predominance of estrogen receptors.
+
+The stability of the total temporal lobe volume with age for our sample mirrors findings from the adult literature in which temporal lobe volumes decrease at a much slower rate than other brain regions.
+
+Anomalies of temporal lobe and medial temporal lobe structures have been reported for a variety of psychiatric PEDIATRIC MRI OF TEMPORAL LOBE disorders, including affective disorders.

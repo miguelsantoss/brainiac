@@ -1,0 +1,19 @@
+Such a review is required to assess heterogeneity of reported studies, to better understand how age and disease severity affect the calculated atrophy rates, and to pool the results from these studies to more accurately estimate the rate of atrophy of the hippocampus in AD and matched control groups.
+
+Study objective The objective of this study is to perform a meta-analysis of hippocampal atrophy rates in patients with AD and matched controls from studies reported in the peer-reviewed literature.
+
+Unpublished studies were not included, unless accepted papers had been published ahead of print online, and studies where the mean annualised rates of atrophy could not be provided by the author were excluded.
+
+Search methods for identiﬁcation of studies Searches for relevant studies were performed using electronic and other sources.
+
+Manual 1 Measurement method Number of raters Table 3 Studies excluded from the meta-analysis Study Reason for exclusion Group Subject groups N Mean MMSE Mean age in years Rate of atrophy Barnes et al.
+
+The quality of these studies is reported in Table 2 , and those studies that were excluded are detailed in Table 3.
+
+Using data from these studies, and combining AD subgroups within studies, using a random-effects meta- analysis the estimated mean difference in atrophy rates between controls and AD subjects was 3.33% per year.
+
+Although few conclusions can be drawn given the small number of studies, there was no suggestion that studies with either large or small atrophy rates were more likely to be published.
+
+Our results therefore suggest that there is genuine variation between studies in AD/control rate difference, possibly as a result of differences in disease severity between studies.
+
+Treatments may be particularly difficult for case-control or population-based studies to report accurately, since many of these studies will be conducted at a tertiary referral centre whereas it may be the general physician at the primary level who prescribes and monitors the administration of medication.

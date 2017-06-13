@@ -1,0 +1,19 @@
+Method: MRI-based volume measurements of the whole-brain, ventricles, frontal lobe, temporal lobe, hippocampus, and amygdala were acquired in elderly subjects with DLB, AD, VaD, and normal control subjects.
+
+Results: Subjects with DLB had significantly larger temporal lobe, hippocampal, and amygdala volumes than those with AD. No significant volumetric difference between subjects with DLB and VaD was observed.
+
+All potential subjects on the register were assessed for their suitability to take part in the study: whether they met the entry criteria; could give consent and were willing to take part in the study; could cooperate and tolerate having an MRI scan; and exhibited the absence of medical contraindications for MRI. An additional four subjects were recruited from a specialist dementia clinic.
+
+The total sample size consisted of 27 subjects with consensus criteria DLB, 25 subjects with NINCDS/ADRDA AD and 24 subjects with National Institute of Neurological Disorders and Stroke/AIREN VaD. Subject characteristics are summarized in table 1.
+
+Table 4 Differences between subjects with DLB and other dementia subjects Region of interest DLB versus AD DLB versus VaD Whole brain NS NS Ventricles NS NS Frontal lobes NS NS 1 NS Temporal lobes Hippocampus 1 NS Amygdala 1 NS 1 significantly larger volume in subjects with dementia with Lewy bodies compared with AD; VaD vascular dementia; NS no significant difference.
+
+Differences between control and dementia subjects are summarized in table 3, and between subjects with DLB and other dementia subjects in table 4.
+
+Subjects with DLB had larger temporal lobe volumes compared to those with AD. Control subjects had larger hippocampi compared to all dementia groups.
+
+Subjects with DLB had larger hippocampi than those with AD, but not VaD. AD subjects also had smaller hippocampi than those with VaD. Controls had larger amygdalae compared to subjects with AD and VaD, but not DLB. Subjects with DLB had larger left and right amygdalae than those with AD. Stepwise linear regression was used to examine the relationship between hippocampal volume, the different dementia subtypes, and factors that may influence brain volume.
+
+Overall, there were no significant volumetric differences between subjects with DLB and VaD and in frontal lobe volumes beMarch 2000 NEUROLOGY 54 1307 tween all subjects.
+
+Measures of global atrophy demonstrated significant enlargement of ventricles in dementia subjects compared with control subjects.

@@ -3,22 +3,23 @@ import React, { Component } from 'react';
 import sizeMe from 'react-sizeme';
 
 // Import d3 stuff
-import { forceX, forceY, forceSimulation, forceLink, forceManyBody } from 'd3-force';
+import { forceX, forceY, forceSimulation, forceLink, forceManyBody, forceCollide } from 'd3-force';
 import { select, event, mouse } from 'd3-selection';
 import { drag } from 'd3-drag';
 import { range } from 'd3-array';
-import { scaleOrdinal, schemeCategory20 } from 'd3-scale';
+import * as d3Scale from 'd3-scale';
 import * as d3Zoom from 'd3-zoom';
-import * as d3quadtree from 'd3-quadtree';
+import * as d3Cluster from 'd3-force-cluster'
+import * as d3Attract from 'd3-force-attract'
 
 // import css
-import '../css/Network.scss';
+// import '../css/Network.scss';
 
 class ClusterLayout extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      nodes: props.nodes,
+      nodes: props.filteredNodes,
       links: props.links,
       init: false,
       drag: false,
@@ -27,7 +28,6 @@ class ClusterLayout extends Component {
         translation: [0,0],
       },
     };
-
     this.initializeD3 = this.initializeD3.bind(this);
     this.setupNetwork = this.setupNetwork.bind(this);
     this.filterNodes = this.filterNodes.bind(this);
@@ -41,30 +41,28 @@ class ClusterLayout extends Component {
         clusterPadding = 6, // separation between different-color circles
         maxRadius = 12;
     
-    let n = 200, // total number of nodes
-        m = 10, // number of distinct clusters
-        z = scaleOrdinal(schemeCategory20);
+    let n_clusters = 0;
+    this.state.nodes.forEach((d) => {
+      n_clusters = d.cluster > n_clusters ? d.cluster : n_clusters;
+    })
+    
+    const color = d3Scale.scaleSequential(d3Scale.interpolateRainbow)
+    .domain(range(n_clusters));
 
-    let clusters = new Array(m);
+    let clusters = new Array(n_clusters);
 
-    let nodes = range(200).map(() => {
-        let i = Math.floor(Math.random() * m),
-            radius = Math.sqrt((i + 1) / m * -Math.log(Math.random())) * maxRadius,
-        d = {
-          cluster: i,
-          r: radius,
-          x: Math.cos(i / m * 2 * Math.PI) * 200 + width / 2 + Math.random(),
-          y: Math.sin(i / m * 2 * Math.PI) * 200 + height / 2 + Math.random()
-        };
-        if (!clusters[i] || (radius > clusters[i].r)) clusters[i] = d;
-        return d;
-    });
+    this.state.nodes.forEach(d => {
+      const i = d.cluster;
+      const r = Math.sqrt((i + 1) / n_clusters * -Math.log(Math.random())) * maxRadius;
+      d.radius = 5;
+      if (!clusters[i] || (r > clusters[i].radius)) clusters[i] = d;
+    })
 
     this.setState({
       ...this.state,
       width,
       height,
-      padding, clusterPadding, n, m, z, clusters
+      padding, clusterPadding, n_clusters, color, clusters
     }, () => {
       this.initializeD3();
     });
@@ -78,8 +76,7 @@ class ClusterLayout extends Component {
   setupNetwork() {
     const svg = this.state.d3Viz.svg;
     const simulation = this.state.d3Viz.simulation;
-    const z = scaleOrdinal(schemeCategory20);
-    const { nodes, clusters, n, m, maxRadius, padding, clusterPadding } = this.state;
+    const { nodes, clusters, n_clusters, color, maxRadius, padding, clusterPadding, width, height } = this.state;
 
     const link = svg.append('g')
       .attr('class', 'links')
@@ -89,17 +86,16 @@ class ClusterLayout extends Component {
       .append('line')
       .attr('class', 'line-network')
       .attr('stroke-width', 1.5);
-
     const node = svg.append('g')
       .attr('class', 'nodes')
       .selectAll('circle')
-      .data(nodes, d => d.id)
+      .data(nodes)
       .enter()
       .append('circle')
       .attr('class', 'network-node')
-      .attr('r', d => 5)
+      .attr('r', d => d.radius)
       .attr('id', d => d.id)
-      .attr('fill', d => z(d.cluster))
+      .attr('fill', d => color(d.cluster/10))
       .on('mouseover', (d) => {
         if(!this.state.drag)
           this.props.hoverNode(d, true);
@@ -131,59 +127,16 @@ class ClusterLayout extends Component {
       );
 
     simulation
-      .force('collide', (alpha) => {
-        var quadtree = d3quadtree.quadtree()
-        .x((d) => d.x)
-        .y((d) => d.y)
-        .addAll(nodes);
-
-        nodes.forEach(function(d) {
-          var r = d.r + maxRadius + Math.max(padding, clusterPadding),
-              nx1 = d.x - r,
-              nx2 = d.x + r,
-              ny1 = d.y - r,
-              ny2 = d.y + r;
-          quadtree.visit(function(quad, x1, y1, x2, y2) {
-
-            if (quad.data && (quad.data !== d)) {
-              var x = d.x - quad.data.x,
-                  y = d.y - quad.data.y,
-                  l = Math.sqrt(x * x + y * y),
-                  r = d.r + quad.data.r + (d.cluster === quad.data.cluster ? padding : clusterPadding);
-              if (l < r) {
-                l = (l - r) / l * alpha;
-                d.x -= x *= l;
-                d.y -= y *= l;
-                quad.data.x += x;
-                quad.data.y += y;
-              }
-            }
-            return x1 > nx2 || x2 < nx1 || y1 > ny2 || y2 < ny1;
-          });
-        });
-      })
-      .force('cluster', (alpha) => {
-        nodes.forEach(function(d) {
-          var cluster = clusters[d.cluster];
-          if (cluster === d) return;
-          var x = d.x - cluster.x,
-              y = d.y - cluster.y,
-              l = Math.sqrt(x * x + y * y),
-              r = d.r + cluster.r;
-          if (l !== r) {
-            l = (l - r) / l * alpha;
-            d.x -= x *= l;
-            d.y -= y *= l;
-            cluster.x += x;
-            cluster.y += y;
-          }
-        });
-      })
-      .on('tick', () => {
+      .force('cluster', d3Cluster.forceCluster()
+        .centers(function (d) { return clusters[d.cluster]; })
+        .strength(0.5))
+      .force('collide', forceCollide(d => d.radius + padding))
+      .on('tick', (e) => {
         node
           .attr('cx', d => this.state.zoom.translation[0] + this.state.zoom.scaleFactor * d.x)
           .attr('cy', d => this.state.zoom.translation[1] + this.state.zoom.scaleFactor * d.y);
-      });
+      })
+      .nodes(nodes);
       
     const d3Viz = { svg, link, node, simulation };
     this.setState({ ...this.state, d3Viz, init: true });
@@ -244,8 +197,7 @@ class ClusterLayout extends Component {
      }).scaleExtent([0.1,10]))
      .on('dblclick.zoom', null);
 
-    const simulation = forceSimulation(nodes)
-      .velocityDecay(0.2)
+    const simulation = forceSimulation()
       .force('x', forceX(width / 2))
       .force('y', forceY(height / 2));
 

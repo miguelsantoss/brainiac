@@ -223,24 +223,24 @@ class View extends Component {
       }
 
       const vizArray = [
-        (<Network
-          gridKey='network'
-          gridData={{ x: 0, y: 0, w: 5, h: 8, static: false }}
-          filteredNodes={_.cloneDeep(this.state.filteredNodes)}
-          {...vizProps}
-        />),
+        // (<Network
+        //   gridKey='network'
+        //   gridData={{ x: 0, y: 0, w: 5, h: 8, static: false }}
+        //   filteredNodes={_.cloneDeep(this.state.filteredNodes)}
+        //   {...vizProps}
+        // />),
         (<ClusterLayout
           gridKey='clusterLayout'
           gridData={{ x: 5, y: 0, w: 5, h: 8, static: false }}
           filteredNodes={_.cloneDeep(this.state.filteredNodes)}
           {...vizProps}
         />),
-        (<Timeline
-          gridKey='timeline'
-          gridData={{ x: 0, y: 0, w: 12, h: 8, static: false }}
-          filteredNodes={_.cloneDeep(this.state.filteredNodes)}
-          {...vizProps}
-        />),
+        // (<Timeline
+        //   gridKey='timeline'
+        //   gridData={{ x: 0, y: 0, w: 12, h: 8, static: false }}
+        //   filteredNodes={_.cloneDeep(this.state.filteredNodes)}
+        //   {...vizProps}
+        // />),
       ]
 
       return (

@@ -1,0 +1,19 @@
+Conversion Alzheimer's disease The aim of this study was to investigate the usefulness of structural brain magnetic resonance imaging with volumetric assessment of the hippocampus and entorhinal cortex, Volumetry posterior cingulate gyrus, parahippocampal gyrus, temporal gyri: superior, medial and Magnetic resonance imaging inferior, to predict the conversion of MCI to AD. Material and methods: Magnetic resonance imaging of brain was performed at the baseline visit in 101 patients diagnosed with MCI. Clinic follow-ups were scheduled after 6.12 and 24 months.
+
+Results: Amongst 101 patients with MCI, 17 converted into AD within two years of observation.
+
+Patient diagnosed with MCI can present stable, non-progressive symptoms until the end of his life, but there can also be observed progression of the disease, leading to the development of dementia.
+
+According to Jack, in the MRI pathological changes are observed as one of the last biomarkers and our patients were not in the preclinical phase - they were diagnosed with MCI. Reduction of the measured volumes was expected in patients who were at risk of conversion to AD. 2.
+
+Sensitivity of the measurements of the left hippocampus and left entorhinal cortex in the prediction of MCI progression to AD was 58.8%. Sensitivity for these measurements in predicting the stable form of MCI was the same as using all the measured parameters, namely 96.4%, and diagnosis classiﬁcation accuracy using left hippocampus and left entorhinal cortex was 90%. The highest sensitivity in predicting MCI conversion to AD, using a single measurement was for left hippocampus, right hippocampus and left entorhinal cortex.
+
+The most of the published studies has evaluated usefulness of hippocampus and entorhinal cortex volumes in the prediction of MCI conversion to AD. Our study also conﬁrms the highest value of these two parameters.
+
+Patients with MCI are a heterogeneous group and may be at different stages of neuropathological process, that is why use of hippocampus and entorhinal cortex volumes seems be the most optimal method.
+
+Volumetric measurements of hippocampus, entorhinal cortex, posterior cingulate gyrus, parahippocampal gyrus and temporal gyri: superior, medial, inferior showed a relatively low sensitivity in predicting the conversion of MCI to AD. Higher sensitivity was obtained for predicting stable MCI. The limitation of our study was the number of patients.
+
+Another study based on ADNI database covered 293 patients with MCI and the observation period lasted 4 years.
+
+The study from 2014 presents results using data from both mentioned databases and involved 345 patients with MCI. The authors used ordinal regression model to 1023 baseline structural MRI scans.

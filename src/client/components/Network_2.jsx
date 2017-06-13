@@ -10,6 +10,18 @@ import * as d3Zoom from 'd3-zoom';
 
 // import css
 import '../css/Network.scss';
+const r = [{
+    r: 75,
+  }, 
+  {
+    r: 150,
+  },
+  {
+    r: 225,
+  },
+  {
+    r: 300,
+  }];
 
 class Network extends Component {
   static propTypes = {
@@ -114,29 +126,44 @@ class Network extends Component {
       .on('click', (d) => {
         if (event.defaultPrevented) return;
         this.setState({ ...this.state, centered: d}, () => {
+          this.state.d3Viz.node.attr('fx', null).attr('fy', null).attr('r', 5);
           d.centered = true;
-          d.fx = width / 2;
-          d.fy = height / 2;
+          d.fx = this.state.width / 2;
+          d.fy = this.state.height / 2;
           select(`circle#${d.id}`).attr('r', 14);
 
-          let r = [75, 150, 225];
           let coords = [[0, 1], [1, 0], [0, -1], [-1, 0]];
-          let target = [width / 2, height / 2];
+          let target = [this.state.width / 2, this.state.height / 2];
 
-          let dataOrg = [[], [], []];
+          let dataOrg = [[], [], [], []];
+          let dTest = [];
 
           for(let i = 0; i < nodes.length; i++) {
             if(nodes[i].id !== d.id) {
-              let coord = Math.floor(Math.random() * coords.length);
-              let dist = Math.floor(Math.random() * r.length);
-              let rad = Math.random() * 2 * Math.PI;
-              nodes[i].rad = rad;
-              nodes[i].r = r[dist];
-              nodes[i].dist = dist;
-              dataOrg[dist].push(0);
+              if(d.similarity_values[i] >= 0.25) {
+                let coord = Math.floor(Math.random() * coords.length);
+                let dist = 3 - Math.floor(d.similarity_values[i] / 0.25);
+                dTest.push(dist);
+                let rad = Math.random() * 2 * Math.PI;
+                nodes[i].rad = rad;
+                nodes[i].r = r[dist].r;
+                nodes[i].dist = dist;
+                dataOrg[dist].push(0);
+              }
+              else {
+                let dist = 3;
+                let coord = Math.floor(Math.random() * coords.length);
+                let rad = Math.random() * 2 * Math.PI;
+                nodes[i].rad = rad;
+                nodes[i].r = r[dist].r;
+                nodes[i].dist = dist;
+                dataOrg[dist].push(0);
+              }
+              nodes[i].fixed = true;
             }
           }
-          let dataOrgI = [0, 0, 0];
+
+          let dataOrgI = [0, 0, 0, 0];
           for(let i = 0; i < dataOrg.length; i++) {
             dataOrg[i] = dataOrg[i].length;
             dataOrg[i] = 360 / dataOrg[i];
@@ -151,16 +178,24 @@ class Network extends Component {
             }
           }
 
-          svg.select('g.orbits').selectAll('circle')
+          const orbits = svg.select('g.orbits').selectAll('circle')
             .data(r)
             .enter()
             .append('circle')
-            .attr('r', d => d)
+            .attr('r', d => d.r * this.state.zoom.scaleFactor)
             .attr('fill', 'none')
             .attr('stroke', 'grey')
             .attr('opacity', 0.3)
-            .attr('cx', d.fx)
-            .attr('cy', d.fy);
+            .attr('cx', this.state.zoom.translation[0] + this.state.zoom.scaleFactor * d.fx)
+            .attr('cy', this.state.zoom.translation[1] + this.state.zoom.scaleFactor * d.fy);
+
+          this.setState({
+            ...this.state,
+            d3Viz: {
+              ...this.state.d3Viz,
+              orbits
+            }
+          });
 
         });
       })
@@ -181,7 +216,7 @@ class Network extends Component {
           if (!event.active) simulation.alphaTarget(0);
           this.props.hoverNode(d, false);
           this.state.drag = false;
-          if(!d.centered){
+          if(!d.centered && !d.fixed){
             d.fx = null;
             d.fy = null;
           }
@@ -246,6 +281,7 @@ class Network extends Component {
       .on('click', (d) => {
         if(event.ctrlKey) {
           console.log('Ctrl+click has just happened!');
+          this.state.d3Viz.node.attr('fx', null).attr('fy', null).attr('r', 5);
         }
         else if(event.altKey) {
           console.log('Alt+click has just happened!');
@@ -261,6 +297,13 @@ class Network extends Component {
           }
         }, () => {
           this.state.d3Viz.simulation.restart();
+          if(this.state.d3Viz.orbits) {
+
+            this.state.d3Viz.orbits
+              .attr('r', d => d.r * scaleFactor)
+              .attr('cx', translation[0] + scaleFactor * this.state.centered.fx)
+              .attr('cy', translation[1] + scaleFactor * this.state.centered.fy);
+          }
         })
      }).scaleExtent([0.1,10]))
      .on('dblclick.zoom', null);

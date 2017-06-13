@@ -1,0 +1,19 @@
+The memory impaired PD patients had smaller hippocampi than other PD patients.
+
+We compared the volumes of hippocampi of PD patients that had intact or impaired memory performance in two tests that are sensitive to dysfunction of the medial temporal lobe memory systems, DMTS and primacy component of the list learning test.8 To study the selectivity of the association between hippocampal atrophy and impaired performance in DMTS and list learning tests, we also measured spatial working memory and attentional set-shifting functions of these patients.
+
+10 Twenty patients were rated I-II and 23 patients were rated III-IV. None of the patients showed clinical signs of depression, dementia, psychosis or focal cortical pathology.
+
+Results Eight PD patients performed > 1 s.d. below the mean of all the patients at the longest delay of DMTS test and at the primacy component of the list learning test measured after a 6 min forgetting interval.
+
+These patients were called memory impaired PD patients and all of them were suffering from severe PD. The rest of the patients were called memory unimpaired PD patients.
+
+The performance of MI PD patients was at long delays impaired compared with the MU PD patients = 12.1, p < 0.001; Fig.
+
+In the list learning test, MI PD patients after 6 min forgetting interval recalled fewer primacy words, but were as accurate as the MU PD patients in recalling intermediate and recency words.
+
+The normalized right and left hippocampal volumes of the MI severe PD group were smaller than those of the MU mild or severe PD patients > 5.9, p < 0.019 for both comparisons; p < 0.05 vs the other two groups of PD patients; Table 1). The volume of right and left hippocamppi correlated with DMTS accuracy at 16 s delay, but not at shorter delays.
+
+2,3 Previous clinical and experimental results support our finding that impaired memory performance in DMTS and list learning tests in PD patients is at least partly due to hippocampal dysfunction.
+
+Surgical excision of the medial temporal lobe structures during epilepsy surgery17 and neurodegeneration in Alzheimer's disease18 disrupts list learning and impairs the ability to retrieve the words from the beginning of the list.8,19 However, the defective DMTS and word list test scoring may not be only due to degeneration of the hippocampus, as several neurotransmitter systems are affected during the progression of PD.5 For example, dysfunction of cholinergic cells of the basal forebrain or noradrenergic locus coeruleus may impair attention and certain forms of declarative memory functions in more advanced PD patients.

@@ -1,0 +1,19 @@
+Key Words: MRI; Alzheimer's disease; clinical trials; imaging methods; imaging standardization J. Magn.
+
+Major goals of the ADNI study are: to link all of these data at each time point and make this repository available to the general scientiﬁc community; to develop technical standards for imaging in longitudinal studies; to determine the optimum methods for acquiring and analyzing images; to validate imaging and biomarker data by correlating these with concurrent psychometric and clinical assessments; and to improve methods for clinical trials in MCI and AD. The ADNI study overall is divided into cores, with each core managing ADNI-related activities within its sphere of expertise: clinical, informatics, biostatistics, biomarkers, and imaging.
+
+A number of optional additional imaging sequences were considered for the MRI protocol, including MR spectroscopy, diffusion tensor imaging, arterial spin labeling, and ﬂuid attenuated inversion recovery sequences.
+
+Meant to maximize scientiﬁc utility while minimizing research burden for participants in ADNI. In addition to imaging study subjects, ADNI is also acquiring images of a phantom in the same examination period as each human MRI exam.
+
+To enhance standardization across sites and platforms of images acquired in the ADNI study, post- acquisition correction of certain image artifacts has been implemented.
+
+These include corrections in image geometry for gradient nonlinearity, i.e., 3D gradwarp; corrections for intensity nonuniformity due to nonuniform receiver coil sensitivity; and correction of image intensity nonuniformity due to other causes such as wave effects at 3 T. These corrections are system speciﬁc.
+
+Image data quality control includes inspection of each incoming image ﬁle for protocol compliance, clinically signiﬁcant The Alzheimer's Disease Neuroimaging Initiative Figure 6.
+
+The results of image quality control analysis are uploaded to the ADNI central data base, where this information is linked to the relevant image ﬁle and is available to the general scientiﬁc community.
+
+The approach to standardization across sites and platforms of the MRI protocol and acquisition parameters for each imaging sequence, post-acquisition correction of image artifacts, and phantom-based monitoring of the instruments themselves could be extended to other multisite trials, including those in other research areas.
+
+Fox NC, Crum WR, Scahill RI, Stevens JM, Janssen JC, Rossor MN. Imaging of onset and progression of Alzheimer's disease with voxelcompression mapping of serial magnetic resonance images.
