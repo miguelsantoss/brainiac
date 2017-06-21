@@ -2,6 +2,9 @@ var express = require("express");
 var fs = require('fs');
 var cors = require('cors')
 var multer = require('multer')
+var PythonShell = require('python-shell');
+var exec = require('child_process').exec;
+var ncbi = require('node-ncbi');
 
 const docs_folder = __dirname + '/corpus/pdf/';
 var storage = multer.diskStorage({
@@ -44,6 +47,29 @@ function pdf_id_generator() {
   return ('p'+S4()+S4()+S4()+S4());
 }
 
+app.get('/qc=:query', function(req, res) {
+  var pyshell = new PythonShell('spell_checker.py');
+  pyshell.send(req.params.query);
+  pyshell.on('message', function (message) {
+    res.send(message);
+  });
+})
+
+app.get('/search', function(req, res) {
+  if(req.query.s && req.query.s === 'scholar') {
+    //const scholar = 'python ' + __dirname + '/scholar.py -c 10 --phrase "' + req.query.q + '" --json';
+    //exec(scholar, function(error, stdout, stderr) {
+    //  const response = JSON.parse(stdout);
+    //  res.send(response);
+    //});
+    res.json([]);
+  }
+  else if (req.query.s && req.query.s === 'pubmed') {
+    const pubmed = ncbi.pubmed;
+    pubmed.search(req.query.q).then(results => res.json(results.papers));
+  }
+})
+
 app.get('/pdf', function(req, res) {
 	fs.readdir(docs_folder, (err, files) => {
 		res.sendFile(__dirname + '/document.json');
@@ -64,6 +90,7 @@ app.post('/pdf/upload', upload.single('pdf'), function (req, res, next) {
   res.end();
 })
 
-// app.get('*', function(req, res) {
-//   res.json({ test: "test", });
-// });
+app.get('*', function(req, res) {
+  console.log(req);
+  res.send('wrong_request');
+});

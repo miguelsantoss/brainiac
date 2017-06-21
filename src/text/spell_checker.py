@@ -9,7 +9,8 @@ def train(features):
         model[f] += 1
     return model
 
-NWORDS = train(words(file('utils/wordList.txt').read()))
+NWORDS = train(words(open('utils/wordList.txt').read()))
+
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 
 def edits1(word):
@@ -30,5 +31,3 @@ def correct(word):
     candidates = known([word]) or known(edits1(word)) or    known_edits2(word) or [word]
     print(candidates)
     return max(candidates, key=NWORDS.get)
-
-print(correct("tast"))

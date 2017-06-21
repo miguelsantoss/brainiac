@@ -1,26 +1,34 @@
 const path = require('path');
 const webpack = require('webpack');
-// const BabiliPlugin = require('babili-webpack-plugin');
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
+const FriendlyErrors = require('friendly-errors-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
+const config = require('./config');
+const _ = require('./utils');
 
 const rootPath = path.resolve(__dirname);
 const sourcePath = path.resolve(rootPath, 'src/client');
 const distPath = path.resolve(rootPath, 'dist');
 
+const loaders = {
+  style: {loader: 'style-loader'},
+  css: {loader: 'css-loader', options: {sourceMap: true}},
+  resolve: 'resolve-url-loader',
+  postcss: {
+    loader: 'postcss-loader',
+    options: {
+      sourceMap: true
+    }
+  },
+  sass: {loader: 'sass-loader', options: {sourceMap: true}}
+}
+
 module.exports = function(env) {
   const nodeEnv = env && env.prod ? 'production' : 'development';
   const isProd = nodeEnv === 'production';
 
-  const plugins = [
-   	new webpack.optimize.CommonsChunkPlugin({
-      name: 'vendor',
-      filename: 'vendor.bundle.js',
-			minChunks: Infinity,
-    }),
-		new webpack.EnvironmentPlugin({
-      NODE_ENV: nodeEnv,
-    }),
-    new webpack.NamedModulesPlugin(),
-  ];
+  const plugins = [];
 
   if (isProd) {
     plugins.push(
@@ -48,86 +56,84 @@ module.exports = function(env) {
     );
   } else {
     plugins.push(
-      new webpack.HotModuleReplacementPlugin()
+      new webpack.HotModuleReplacementPlugin(),
+      new FriendlyErrors()
     );
   }
 
+  plugins.push(
+      new ExtractTextPlugin("styles.css"),
+      new HtmlWebpackPlugin({
+        title: config.title,
+        template: path.resolve(sourcePath, 'index.html'),
+        filename: _.outputIndexPath
+      }),
+    );
+
 	return {
     devtool: isProd ? 'source-map' : 'eval',
-    context: sourcePath,
     entry: {
-      js: 'index.jsx',
-      vendor: ['react']
+      client: path.join(sourcePath, 'index.js')
     },
     output: {
-      path: distPath,
-      filename: '[name].bundle.js',
+      path: _.outputPath,
+      filename: '[name].js',
+      publicPath: config.publicPath
     },
     module: {
       rules: [
         {
-          test: /\.html$/,
-          exclude: /node_modules/,
-          use: {
-            loader: 'file-loader',
-            query: {
-              name: '[name].[ext]'
-            },
-          },
+          test: /\.(js|jsx)$/,
+          use: 'babel-loader',
+          exclude: [/node_modules/]
         },
         {
-					test: /\.css$/,
-					exclude: /node_modules/,
-      		use: [
-      		  'style-loader',
-      		  'css-loader',
-      		],
+          test: /\.css$/,
+          loaders: [loaders.style, loaders.css, loaders.postcss, loaders.resolve]
         },
         {
-					test: /\.scss$/,
-      		use: [
-            {
-              loader:'style-loader',
-            },
-            {
-              loader:'css-loader',
-            },
-            {
-              loader: 'sass-loader',
-              options: {
-                includePaths: ['./node_modules', './node_modules/grommet/node_modules'],
-              }
-            },
+          test: /\.scss$/,
+          loaders: [
+            loaders.style,
+            loaders.css,
+            loaders.postcss,
+            loaders.resolve,
+            loaders.sass
           ]
         },
-        // {
-        //   enforce: 'pre',
-        //   test: /\.(js|jsx)$/,
-        //   exclude: /node_modules/,
-        //   loader: 'eslint-loader',
-        //   options: {
-        //     failOnWarning: true,
-        //     failOnError: true,
-        //   },
-        // },
         {
-          test: /\.(js|jsx)$/,
-          exclude: /node_modules/,
-          loader: 'babel-loader',
+          test: /\.(ico|eot|otf|webp|ttf|woff|woff2)(\?.*)?$/,
+          use: 'file-loader?limit=100000'
         },
         {
-          test: /\.pdf$/,
-          exclude: /node_modules/,
-          loader: 'file-loader',
-        },
+          test: /\.(jpe?g|png|gif|svg)$/i,
+          use: [
+            'file-loader?limit=100000',
+            {
+              loader: 'img-loader',
+              options: {
+                enabled: true,
+                optipng: true
+              }
+            }
+          ]
+        }
       ],
     },
     resolve: {
-      extensions: ['.webpack-loader.js', '.web-loader.js', '.loader.js', '.js', '.jsx'],
+      extensions: ['.js', '.jsx', '.css', '.scss', '.json'],
       modules: [
-        path.resolve(rootPath, 'node_modules'),
-        sourcePath
-      ]
+        path.resolve(rootPath, 'node_modules')
+      ],
+      alias: {
+            'components': path.join(sourcePath, 'components'),
+            'containers': path.join(sourcePath, 'containers'),
+            'actions': path.join(sourcePath, 'actions'),
+            'reducers': path.join(sourcePath, 'reducers'),
+            'api': path.join(sourcePath, 'api'),
+            'lib': path.join(sourcePath, 'lib'),
+            'css': path.join(sourcePath, 'css'),
+      },
     },
 
     plugins,
