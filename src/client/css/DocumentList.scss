@@ -1,28 +1,23 @@
-$opacity-item: 1;
-$opacity-hover: 0.5;
-
-$fill-hover: rgba(221, 221, 221, 0.5);
-
-$opacity-animation-time: 0.5s;
-$opacity-animation: opacity $opacity-animation-time ease;
+$fill-hover: rgb(255, 255, 255);
+$color-hover: rgb(0, 0, 0);
 $fill-animation-time: 0.2s;
 $fill-animation: background-color $fill-animation-time ease;
+$color-animation: color $fill-animation-time ease;
 
 .item {
-  opacity: $opacity-item;
-  -webkit-transition: $opacity-animation, $fill-animation;
-     -moz-transition: $opacity-animation, $fill-animation;
-      -ms-transition: $opacity-animation, $fill-animation;
-       -o-transition: $opacity-animation, $fill-animation;
-          transition: $opacity-animation, $fill-animation;
+  -webkit-transition: $fill-animation;
+     -moz-transition: $fill-animation;
+      -ms-transition: $fill-animation;
+       -o-transition: $fill-animation;
+          transition: $fill-animation;
 }
 
 .item.hover-node {
-  // opacity: $opacity-hover;
-  background-color: $fill-hover;
-  -webkit-transition: $opacity-animation, $fill-animation;
-     -moz-transition: $opacity-animation, $fill-animation;
-      -ms-transition: $opacity-animation, $fill-animation;
-       -o-transition: $opacity-animation, $fill-animation;
-          transition: $opacity-animation, $fill-animation;
+  background-color: $fill-hover !important;
+  color: $color-hover !important;
+  -webkit-transition: $fill-animation, $color-animation;
+     -moz-transition: $fill-animation, $color-animation;
+      -ms-transition: $fill-animation, $color-animation;
+       -o-transition: $fill-animation, $color-animation;
+          transition: $fill-animation, $color-animation;
 }

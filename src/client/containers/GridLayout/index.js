@@ -1,5 +1,5 @@
-// Import React stuff
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import { Responsive, WidthProvider } from 'react-grid-layout';
 
 import 'css/layout.scss';
@@ -7,7 +7,7 @@ import 'css/d3viz.scss';
 
 const ResponsiveReactGridLayout = WidthProvider(Responsive);
 
-class Layout extends Component {
+class GridLayout extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -17,48 +17,51 @@ class Layout extends Component {
         rowHeight: 30,
         cols: { lg: 12, md: 10, sm: 6, xs: 4, xxs: 2 },
       },
-      nodes: props.nodes,
-      links: props.links,
-      filterNodes: props.filteredNodes,
     };
 
     this.onBreakpointChange = this.onBreakpointChange.bind(this);
   }
 
-  componentDidMount() {
-    this.setState({
-      mounted: true,
-    });
-  }
-
   onBreakpointChange(breakpoint) {
     this.setState({
-      currentBreakpoint: breakpoint
+      currentBreakpoint: breakpoint,
     });
   }
 
   render() {
+    const { children } = this.props;
     return (
       <div>
         <ResponsiveReactGridLayout
           {...this.state.layoutProps}
           onBreakpointChange={this.onBreakpointChange}
           onLayoutChange={this.onLayoutChange}
-          measureBeforeMount={true}
           draggableHandle={'.LayoutHandle'}
+          measureBeforeMount
         >
-        {
-          this.props.children.map((viz) => {
-            const { gridKey, gridData } = viz.props;
-            return (
-              <div key={gridKey} data-grid={gridData}>{viz}</div>
-            )
-          })
-        }
+          {
+            children.length ? children.map((viz) => {
+              const { gridKey, gridData } = viz.props;
+              return (
+                <div key={gridKey} data-grid={gridData}>{viz}</div>
+              );
+            }) : null
+          }
         </ResponsiveReactGridLayout>
       </div>
     );
   }
 }
 
-export default Layout;
+GridLayout.propTypes = {
+  children: PropTypes.oneOfType([
+    PropTypes.arrayOf(PropTypes.element),
+    PropTypes.element,
+  ]),
+};
+
+GridLayout.defaultProps = {
+  children: [],
+};
+
+export default GridLayout;

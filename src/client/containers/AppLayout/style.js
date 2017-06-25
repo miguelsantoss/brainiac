@@ -2,8 +2,8 @@ const style = {};
 const sidebarWidth = 220;
 
 style.main = {
-    marginLeft: sidebarWidth,
-}
+  marginLeft: sidebarWidth,
+};
 
 style.menu = {
   position: 'fixed',
@@ -16,6 +16,6 @@ style.menu = {
   // prevents a white background when items are filtered out by search
   background: '#1B1C1D',
   overflowY: 'auto',
-}
+};
 
 export default style;

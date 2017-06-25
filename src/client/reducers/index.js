@@ -1,8 +1,10 @@
-import {combineReducers} from 'redux';
-import {layout} from './layout';
-import {documents} from './documents';
+import { combineReducers } from 'redux';
+import { layout } from './layout';
+import { documents } from './documents';
 
-export const rootReducer = combineReducers({
+const rootReducer = combineReducers({
   layout,
   documents,
-})
+});
+
+export default rootReducer;

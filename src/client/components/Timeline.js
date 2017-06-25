@@ -30,7 +30,7 @@ class Timeline extends Component {
       id: React.PropTypes.string,
       title: React.PropTypes.string,
       authors: React.PropTypes.arrayOf(React.PropTypes.shape({
-        name: React.PropTypes.string
+        name: React.PropTypes.string,
       })),
       date: React.PropTypes.string,
       value: React.PropTypes.number,
@@ -39,7 +39,7 @@ class Timeline extends Component {
       id: React.PropTypes.string,
       title: React.PropTypes.string,
       authors: React.PropTypes.arrayOf(React.PropTypes.shape({
-        name: React.PropTypes.string
+        name: React.PropTypes.string,
       })),
       date: React.PropTypes.string,
       value: React.PropTypes.number,
@@ -78,10 +78,10 @@ class Timeline extends Component {
     });
   }
 
-    componentWillReceiveProps() {
-      this.setState({ ...this.state }, () => { this.filterNodes(); });
-      this.handleResize();
-    }
+  componentWillReceiveProps() {
+    this.setState({ ...this.state }, () => { this.filterNodes(); });
+    this.handleResize();
+  }
 
   setupNetwork() {
     console.log(this);

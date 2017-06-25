@@ -9,8 +9,8 @@ import { drag } from 'd3-drag';
 import { range } from 'd3-array';
 import * as d3Scale from 'd3-scale';
 import * as d3Zoom from 'd3-zoom';
-import * as d3Cluster from 'd3-force-cluster'
-import * as d3Attract from 'd3-force-attract'
+import * as d3Cluster from 'd3-force-cluster';
+import * as d3Attract from 'd3-force-attract';
 
 // import css
 // import '../css/Network.scss';

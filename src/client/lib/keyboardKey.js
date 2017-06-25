@@ -1,4 +1,4 @@
-import _ from 'lodash'
+import _ from 'lodash';
 
 const codes = {
   // ----------------------------------------
@@ -71,16 +71,16 @@ const codes = {
   249: 'EraseEof',
   250: 'Play',
   251: 'ZoomOut',
-}
+};
 
 // Function Keys (F1-24)
-_.times(24, (i) => (codes[112 + i] = `F${i + 1}`))
+_.times(24, i => (codes[112 + i] = `F${i + 1}`));
 
 // Alphabet (a-Z)
 _.times(26, (i) => {
-  const n = i + 65
+  const n = i + 65;
   codes[n] = [String.fromCharCode(n + 32), String.fromCharCode(n)]
-})
+});
 
 const keyboardKey = {
   codes,
@@ -97,7 +97,7 @@ const keyboardKey = {
     if (_.isObject(name)) {
       return name.keyCode || name.which || this[name.key]
     }
-    return this[name]
+    return this[name];
   },
 
   /**
@@ -109,18 +109,18 @@ const keyboardKey = {
    * @returns {*}
    */
   getName(code) {
-    const isEvent = _.isObject(code)
-    let name = codes[isEvent ? code.keyCode || code.which : code]
+    const isEvent = _.isObject(code);
+    let name = codes[isEvent ? code.keyCode || code.which : code];
 
     if (Array.isArray(name)) {
       if (isEvent) {
-        name = name[code.shiftKey ? 1 : 0]
+        name = name[code.shiftKey ? 1 : 0];
       } else {
-        name = name[0]
+        name = name[0];
       }
     }
 
-    return name
+    return name;
   },
 
   // ----------------------------------------
@@ -244,52 +244,52 @@ const keyboardKey = {
   EraseEof: 249,
   Play: 250,
   ZoomOut: 251,
-}
+};
 
 // ----------------------------------------
 // By Alias
 // ----------------------------------------
 // provide dot-notation accessible keys for all key names
-keyboardKey.Spacebar = keyboardKey[' ']
-keyboardKey.Digit0 = keyboardKey['0']
-keyboardKey.Digit1 = keyboardKey['1']
-keyboardKey.Digit2 = keyboardKey['2']
-keyboardKey.Digit3 = keyboardKey['3']
-keyboardKey.Digit4 = keyboardKey['4']
-keyboardKey.Digit5 = keyboardKey['5']
-keyboardKey.Digit6 = keyboardKey['6']
-keyboardKey.Digit7 = keyboardKey['7']
-keyboardKey.Digit8 = keyboardKey['8']
-keyboardKey.Digit9 = keyboardKey['9']
-keyboardKey.Tilde = keyboardKey['~']
-keyboardKey.GraveAccent = keyboardKey['`']
-keyboardKey.ExclamationPoint = keyboardKey['!']
-keyboardKey.AtSign = keyboardKey['@']
-keyboardKey.PoundSign = keyboardKey['#']
-keyboardKey.PercentSign = keyboardKey['%']
-keyboardKey.Caret = keyboardKey['^']
-keyboardKey.Ampersand = keyboardKey['&']
-keyboardKey.PlusSign = keyboardKey['+']
-keyboardKey.MinusSign = keyboardKey['-']
-keyboardKey.EqualsSign = keyboardKey['=']
-keyboardKey.DivisionSign = keyboardKey['/']
-keyboardKey.MultiplicationSign = keyboardKey['*']
-keyboardKey.Comma = keyboardKey[',']
-keyboardKey.Decimal = keyboardKey['.']
-keyboardKey.Colon = keyboardKey[':']
-keyboardKey.Semicolon = keyboardKey[';']
-keyboardKey.Pipe = keyboardKey['|']
-keyboardKey.BackSlash = keyboardKey['\\']
-keyboardKey.QuestionMark = keyboardKey['?']
-keyboardKey.SingleQuote = keyboardKey['"']
-keyboardKey.DoubleQuote = keyboardKey['"']
-keyboardKey.LeftCurlyBrace = keyboardKey['{']
-keyboardKey.RightCurlyBrace = keyboardKey['}']
-keyboardKey.LeftParenthesis = keyboardKey['(']
-keyboardKey.RightParenthesis = keyboardKey[')']
-keyboardKey.LeftAngleBracket = keyboardKey['<']
-keyboardKey.RightAngleBracket = keyboardKey['>']
-keyboardKey.LeftSquareBracket = keyboardKey['[']
-keyboardKey.RightSquareBracket = keyboardKey[']']
+keyboardKey.Spacebar = keyboardKey[' '];
+keyboardKey.Digit0 = keyboardKey['0'];
+keyboardKey.Digit1 = keyboardKey['1'];
+keyboardKey.Digit2 = keyboardKey['2'];
+keyboardKey.Digit3 = keyboardKey['3'];
+keyboardKey.Digit4 = keyboardKey['4'];
+keyboardKey.Digit5 = keyboardKey['5'];
+keyboardKey.Digit6 = keyboardKey['6'];
+keyboardKey.Digit7 = keyboardKey['7'];
+keyboardKey.Digit8 = keyboardKey['8'];
+keyboardKey.Digit9 = keyboardKey['9'];
+keyboardKey.Tilde = keyboardKey['~'];
+keyboardKey.GraveAccent = keyboardKey['`'];
+keyboardKey.ExclamationPoint = keyboardKey['!'];
+keyboardKey.AtSign = keyboardKey['@'];
+keyboardKey.PoundSign = keyboardKey['#'];
+keyboardKey.PercentSign = keyboardKey['%'];
+keyboardKey.Caret = keyboardKey['^'];
+keyboardKey.Ampersand = keyboardKey['&'];
+keyboardKey.PlusSign = keyboardKey['+'];
+keyboardKey.MinusSign = keyboardKey['-'];
+keyboardKey.EqualsSign = keyboardKey['='];
+keyboardKey.DivisionSign = keyboardKey['/'];
+keyboardKey.MultiplicationSign = keyboardKey['*'];
+keyboardKey.Comma = keyboardKey[','];
+keyboardKey.Decimal = keyboardKey['.'];
+keyboardKey.Colon = keyboardKey[':'];
+keyboardKey.Semicolon = keyboardKey[';'];
+keyboardKey.Pipe = keyboardKey['|'];
+keyboardKey.BackSlash = keyboardKey['\\'];
+keyboardKey.QuestionMark = keyboardKey['?'];
+keyboardKey.SingleQuote = keyboardKey['"'];
+keyboardKey.DoubleQuote = keyboardKey['"'];
+keyboardKey.LeftCurlyBrace = keyboardKey['{'];
+keyboardKey.RightCurlyBrace = keyboardKey['}'];
+keyboardKey.LeftParenthesis = keyboardKey['('];
+keyboardKey.RightParenthesis = keyboardKey[')'];
+keyboardKey.LeftAngleBracket = keyboardKey['<'];
+keyboardKey.RightAngleBracket = keyboardKey['>'];
+keyboardKey.LeftSquareBracket = keyboardKey['['];
+keyboardKey.RightSquareBracket = keyboardKey[']'];
 
-export default keyboardKey
+export default keyboardKey;

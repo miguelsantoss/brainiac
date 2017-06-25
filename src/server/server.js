@@ -70,6 +70,24 @@ app.get('/search', function(req, res) {
   }
 })
 
+app.get('/docinfo', function(req, res) {
+  if(req.query.s && req.query.s === 'scholar') {
+  }
+  else if (req.query.id && req.query.s === 'pubmed') {
+    const pubmed = ncbi.pubmed;
+    pubmed.summary(req.query.id).then(results => res.json(results));
+  }
+})
+
+app.get('/abstract', function(req, res) {
+  if(req.query.s && req.query.s === 'scholar') {
+  }
+  else if (req.query.id && req.query.s === 'pubmed') {
+    const pubmed = ncbi.pubmed;
+    pubmed.abstract(req.query.id).then(results => res.json(results));
+  }
+})
+
 app.get('/pdf', function(req, res) {
 	fs.readdir(docs_folder, (err, files) => {
 		res.sendFile(__dirname + '/document.json');
