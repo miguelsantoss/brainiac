@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import sizeMe from 'react-sizeme';
+import { DropTarget } from 'react-dnd';
 
 import * as d3Force from 'd3-force';
 import { select, selectAll, event, mouse } from 'd3-selection';
@@ -7,6 +8,25 @@ import { drag } from 'd3-drag';
 import * as d3Zoom from 'd3-zoom';
 import * as d3Transition from 'd3-transition';
 import * as d3Ease from 'd3-ease';
+
+const style = {
+  height: '12rem',
+  width: '12rem',
+  marginRight: '1.5rem',
+  marginBottom: '1.5rem',
+  color: 'white',
+  padding: '1rem',
+  textAlign: 'center',
+  fontSize: '1rem',
+  lineHeight: 'normal',
+  float: 'left',
+};
+
+const boxTarget = {
+  drop() {
+    return { name: 'Dustbin' };
+  },
+};
 
 // import css
 import 'css/Network.scss';
@@ -353,17 +373,25 @@ class Network extends Component {
   }
 
   render() {
-    return (
-      <div className="drag-wrapper">
+    const { canDrop, isOver, connectDropTarget } = this.props;
+
+    return connectDropTarget(
+      <div className="drag-wrapper" >
         <div className="LayoutHandle handle text-vert-center">
           <span>Network</span>
         </div>
         <div id="window-network2-content" className="content no-cursor text-vert-center">
           <div className="mount" ref={(r) => { this.mountNetwork = r; }} />
         </div>
-      </div>
+      </div>,
     );
   }
 }
 
-export default sizeMe({ monitorHeight: true })(Network);
+const dragWrapper = DropTarget('box', boxTarget, (connect, monitor) => ({
+  connectDropTarget: connect.dropTarget(),
+  isOver: monitor.isOver(),
+  canDrop: monitor.canDrop(),
+}))(Network);
+
+export default sizeMe({ monitorHeight: true })(dragWrapper);

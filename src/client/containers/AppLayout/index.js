@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
+import _ from 'lodash';
 import { connect } from 'react-redux';
 import { Dimmer, Loader } from 'semantic-ui-react';
-import _ from 'lodash';
+import HTML5Backend from 'react-dnd-html5-backend';
+import { DragDropContext, DragDropContextProvider } from 'react-dnd';
 
 import * as d3Transition from 'd3-transition';
 import * as d3Ease from 'd3-ease';
@@ -14,7 +16,7 @@ import SidebarFixed from 'components/SidebarFixed';
 import SidebarPushable from 'components/SidebarPushable';
 import GridLayout from 'containers/GridLayout';
 
-import Network from 'components/Network';
+import Network from 'components/Network.1';
 import Timeline from 'components/Timeline';
 import ClusterLayout from 'components/ClusterLayout';
 
@@ -102,14 +104,19 @@ class AppLayout extends Component {
         {this.vizLayout()}
       </div>
     );
+    //const t = this.vizLayout();
+    const { db } = this.props;
+    const { documents } = db;
+    const clusterWordsTfidf = documents.cluster_words_tfidf;
     return (
       <div>
         <SidebarFixed
           style={style.menu}
-          buttonVisible={this.props.sidebarOpened}
-          buttonHandle={this.toggleVisibility}
-          documentList={this.props.db.documents}
+          closeSidebarButtonVisible={this.props.sidebarOpened}
+          closeSidebarButtonHandle ={this.toggleVisibility}
+          dbDocumentList={documents || {}}
           handleHover={this.hoverNode}
+          topicWords={clusterWordsTfidf || []}
           queryDocuments={(query) => { this.props.queryPubmed(query); this.props.openSidebar(); }}
         />
         <div style={style.main}>
@@ -147,4 +154,5 @@ const mapStateToProps = state => ({
   docFetch: state.documents.docFetch,
 });
 
-export default connect(mapStateToProps, mapDispatchToProps)(AppLayout);
+const DragWrapper = DragDropContext(HTML5Backend)(AppLayout);
+export default connect(mapStateToProps, mapDispatchToProps)(DragWrapper);

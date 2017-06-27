@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
-import { findDOMNode } from 'react-dom'
-import PropTypes from 'prop-types'
-import { Menu, Input, Button, Icon, Popup, Header } from 'semantic-ui-react';
+import PropTypes from 'prop-types';
+import { Menu, Input, Icon, Popup } from 'semantic-ui-react';
 import _ from 'lodash';
+
 import keyboardKey from 'lib/keyboardKey';
+
+import Box from 'components/test/Box';
+import SidebarItem from 'components/MenuItem';
 
 import 'css/DocumentList.scss';
 import pkg from '../../../package.json';
@@ -15,24 +18,61 @@ style.popup = {
   padding: '2em',
 };
 
-class Sidebar extends Component {
-  static propTypes = {
-    style: PropTypes.object,
-  }
+class SidebarFixed extends Component {
   state = { query: '' }
   _items = new Map();
 
   handleHover = (obj, state) => {
     const { id, i } = obj;
-    const item = this._items.get(i);
-    if (item) {
-      ReactDOM.findDOMNode(item).scrollIntoView({block: 'end', behavior: 'smooth'});
-    }
+    // const item = this._items.get(i);
+    // if (item) {
+    //   ReactDOM.findDOMNode(item).scrollIntoView({block: 'end', behavior: 'smooth'});
+    // }
     this.props.handleHover({ id }, state);
   }
+  handleSearchChange = e => this.setState({
+    query: e.target.value,
+  })
+
+  handleSearchKeyDown = (e) => {
+    const code = keyboardKey.getCode(e);
+
+    if (code === keyboardKey.Enter) {
+      e.preventDefault();
+      this.props.queryDocuments(this.state.query);
+      this.setState({ query: '' });
+    }
+  }
+
+  renderTopicWords = () => {
+    const { topicWords } = this.props;
+    const getImportantWords = d => `${d[0]}, ${d[1]}, ${d[2]}`;
+
+    return (
+      <Menu.Item>
+        <Menu.Header>Words per Topic</Menu.Header>
+        <Menu.Menu>
+          {
+            topicWords && topicWords.map((d, i) => (
+              <Box key={i} name={getImportantWords(d)} />
+            ))
+          }
+        </Menu.Menu>
+      </Menu.Item>
+    );
+  }
+
+  renderListOfFiles = () => (
+    <Menu.Item>
+      <Menu.Header>List of Documents</Menu.Header>
+      <Menu.Menu>
+        {this.renderPopupItems()}
+      </Menu.Menu>
+    </Menu.Item>
+  );
 
   renderPopupItems = () => {
-    const { documentList } = this.props;
+    const { dbDocumentList } = this.props;
     const maxAuthors = 10;
     const authorsToString = (d) => {
       let authors = '';
@@ -43,12 +83,11 @@ class Sidebar extends Component {
       authors = d.length > maxAuthors ? `${authors.slice(0, -1)}...` : authors;
       return authors;
     };
-    const item = documentList && documentList.nodes ? documentList.nodes.map((d, i) => {
+    const item = dbDocumentList && dbDocumentList.nodes ? dbDocumentList.nodes.map((d, i) => {
       const menuItem = (
         <div
           onMouseEnter={() => this.handleHover({ id: d.id, i }, true)}
           onMouseLeave={() => this.handleHover({ id: d.id, i }, false)}
-          ref={(element) => { this._items.set(i, element); }}
         >
           <Menu.Item
             name={d.title}
@@ -78,85 +117,9 @@ class Sidebar extends Component {
     return item;
   }
 
-  renderListOfFiles = () => {
-    const { documentList } = this.props;
-    return (
-      <Menu.Item>
-        <Menu.Header>List of Documents</Menu.Header>
-        <Menu.Menu>
-          {this.renderPopupItems()}
-        </Menu.Menu>
-      </Menu.Item>
-    )
-  }
-
-  omponentDidMount() {
-    document.addEventListener('keydown', this.handleDocumentKeyDown)
-    this.setSearchInput();
-  }
-
-  componentDidUpdate(prevProps, prevState) {
-    this.setSearchInput();
-  }
-
-  componentWillUnmount() {
-    document.removeEventListener('keydown', this.handleDocumentKeyDown);
-  }
-
-  setSearchInput() {
-    this._searchInput = findDOMNode(this).querySelector('.ui.input input');
-  }
-
-  handleDocumentKeyDown = (e) => {
-    const code = keyboardKey.getCode(e);
-    const isAZ = code >= 65 && code <= 90;
-    const hasModifier = e.altKey || e.ctrlKey || e.metaKey;
-    const bodyHasFocus = document.activeElement === document.body;
-
-    if (!hasModifier && isAZ && bodyHasFocus) this._searchInput.focus();
-  }
-
-  handleItemClick = () => {
-    const { query } = this.state;
-
-    if (query) this.setState({ query: '' });
-    if (document.activeElement === this._searchInput) this._searchInput.blur();
-  }
-
-  handleSearchChange = e => this.setState({
-    selectedItemIndex: 0,
-    query: e.target.value,
-  })
-
-  handleSearchKeyDown = (e) => {
-    const { history } = this.props;
-    const { selectedItemIndex } = this.state;
-    const code = keyboardKey.getCode(e);
-
-    if (code === keyboardKey.Enter) {
-      e.preventDefault();
-      this.props.queryDocuments(this.state.query);
-      this._searchInput.blur();
-      this.setState({ query: '' });
-    }
-
-    if (code === keyboardKey.ArrowDown) {
-      e.preventDefault();
-      const next = _.min([selectedItemIndex + 1, this.filteredComponents.length - 1]);
-      this.selectedRoute = getRoute(this.filteredComponents[next]._meta);
-      this.setState({ selectedItemIndex: next });
-    }
-
-    if (code === keyboardKey.ArrowUp) {
-      e.preventDefault();
-      const next = _.max([selectedItemIndex - 1, 0]);
-      this.selectedRoute = getRoute(this.filteredComponents[next]._meta);
-      this.setState({ selectedItemIndex: next });
-    }
-  }
 
   render() {
-    const { style, buttonVisible, buttonHandle } = this.props;
+    const { style, closeSidebarButtonVisible, closeSidebarButtonHandle } = this.props;
     const { query } = this.state;
     return (
       <Menu vertical fixed="left" inverted style={style}>
@@ -165,7 +128,7 @@ class Sidebar extends Component {
             Brainiac &nbsp;
             <small><em>{pkg.version}</em></small>
           </strong>
-          { buttonVisible ? (<Icon inverted name="arrow left" onClick={buttonHandle} />) : null }
+          { closeSidebarButtonVisible ? (<Icon inverted name="arrow left" onClick={closeSidebarButtonHandle} />) : null }
         </Menu.Item>
         <Menu.Item>
           <Input
@@ -177,10 +140,20 @@ class Sidebar extends Component {
             onKeyDown={this.handleSearchKeyDown}
           />
         </Menu.Item>
+        {this.renderTopicWords()}
         {this.renderListOfFiles()}
       </Menu>
     );
   }
 }
 
-export default Sidebar;
+SidebarFixed.propTypes = {
+  queryDocuments: PropTypes.func.isRequired,
+  handleHover: PropTypes.func.isRequired,
+  closeSidebarButtonHandle: PropTypes.func.isRequired,
+  closeSidebarButtonVisible: PropTypes.bool.isRequired,
+  dbDocumentList: PropTypes.object.isRequired,
+  topicWords: PropTypes.arrayOf(PropTypes.arrayOf(PropTypes.string)).isRequired,
+};
+
+export default SidebarFixed;

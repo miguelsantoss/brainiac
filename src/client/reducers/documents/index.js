@@ -24,7 +24,7 @@ export const initialState = {
   queryRequest: false,
   queryLoading: false,
   db: {
-    documents: [],
+    documents: {},
     loading: false,
     errorLoading: false,
   },
@@ -69,7 +69,7 @@ export function documents (state = initialState, action) {
       return {
         ...state,
         db: {
-          documents: [],
+          documents: {},
           errorLoading: true,
           loading: false,
         },
@@ -78,7 +78,7 @@ export function documents (state = initialState, action) {
       return {
         ...state,
         db: {
-          documents: [],
+          documents: {},
           errorLoading: false,
           loading: true,
         },
