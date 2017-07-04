@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
-import { Menu, Input, Icon, Popup } from 'semantic-ui-react';
-import _ from 'lodash';
+import { Menu, Input, Icon, Popup, Loader } from 'semantic-ui-react';
+import Box from 'components/test/Box';
 
 import keyboardKey from 'lib/keyboardKey';
-
-import Box from 'components/test/Box';
-import SidebarItem from 'components/MenuItem';
 
 import 'css/DocumentList.scss';
 import pkg from '../../../package.json';
@@ -19,15 +17,16 @@ style.popup = {
 };
 
 class SidebarFixed extends Component {
-  state = { query: '' }
-  _items = new Map();
+  constructor(props) {
+    super(props);
+    this.state = {
+      query: '',
+    };
+    this._items = new Map();
+  }
 
   handleHover = (obj, state) => {
-    const { id, i } = obj;
-    // const item = this._items.get(i);
-    // if (item) {
-    //   ReactDOM.findDOMNode(item).scrollIntoView({block: 'end', behavior: 'smooth'});
-    // }
+    const { id } = obj;
     this.props.handleHover({ id }, state);
   }
   handleSearchChange = e => this.setState({
@@ -46,15 +45,18 @@ class SidebarFixed extends Component {
 
   renderTopicWords = () => {
     const { topicWords } = this.props;
-    const getImportantWords = d => `${d[0]}, ${d[1]}, ${d[2]}`;
+    const getImportantWords = d => d.slice(0, 3);
 
     return (
       <Menu.Item>
         <Menu.Header>Words per Topic</Menu.Header>
         <Menu.Menu>
           {
-            topicWords && topicWords.map((d, i) => (
-              <Box key={i} name={getImportantWords(d)} />
+            topicWords && topicWords.map((topic, topicIndex) =>
+            getImportantWords(topic).map((word, wordIndex) => (
+              (
+                <Box key={`${word}${topicIndex}${wordIndex}`} name={word} /> // eslint-disable-line react/no-array-index-key
+              )),
             ))
           }
         </Menu.Menu>
@@ -92,6 +94,7 @@ class SidebarFixed extends Component {
           <Menu.Item
             name={d.title}
             id={d.id}
+            ref={(element) => { this._items.set(d.id, element); }}
           />
         </div>
       );
@@ -119,8 +122,11 @@ class SidebarFixed extends Component {
 
 
   render() {
-    const { style, closeSidebarButtonVisible, closeSidebarButtonHandle } = this.props;
+    const { style, closeSidebarButtonVisible, closeSidebarButtonHandle, queryLoading } = this.props;
     const { query } = this.state;
+    const loaderStyle = {
+
+    };
     return (
       <Menu vertical fixed="left" inverted style={style}>
         <Menu.Item>
@@ -128,7 +134,11 @@ class SidebarFixed extends Component {
             Brainiac &nbsp;
             <small><em>{pkg.version}</em></small>
           </strong>
-          { closeSidebarButtonVisible ? (<Icon inverted name="arrow left" onClick={closeSidebarButtonHandle} />) : null }
+          {
+            closeSidebarButtonVisible && (!queryLoading ?
+            (<Icon inverted name="arrow left" onClick={closeSidebarButtonHandle} />)
+            : (<Loader active inline size="tiny" as={Icon} />))
+          }
         </Menu.Item>
         <Menu.Item>
           <Input
@@ -152,8 +162,9 @@ SidebarFixed.propTypes = {
   handleHover: PropTypes.func.isRequired,
   closeSidebarButtonHandle: PropTypes.func.isRequired,
   closeSidebarButtonVisible: PropTypes.bool.isRequired,
-  dbDocumentList: PropTypes.object.isRequired,
+  dbDocumentList: PropTypes.object.isRequired, // eslint-disable-line react/forbid-prop-types
   topicWords: PropTypes.arrayOf(PropTypes.arrayOf(PropTypes.string)).isRequired,
+  queryLoading: PropTypes.bool.isRequired,
 };
 
 export default SidebarFixed;

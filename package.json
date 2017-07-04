@@ -62,6 +62,7 @@
     "webpack-dev-server": "^2.4.5",
     "webpack-hot-middleware": "^2.18.0",
     "webpack-node-externals": "^1.6.0",
+    "why-did-you-update": "^0.0.8",
     "write-file-webpack-plugin": "^4.1.0"
   },
   "dependencies": {
@@ -69,11 +70,14 @@
     "axios": "^0.15.3",
     "babel-polyfill": "^6.23.0",
     "body-parser": "^1.17.1",
+    "compression": "^1.6.2",
     "cors": "^2.8.3",
     "d3": "^4.7.4",
     "d3-force-attract": "^0.1.1",
     "d3-force-cluster": "^0.1.2",
+    "express": "^4.15.3",
     "lodash": "^4.17.4",
+    "morgan": "^1.8.2",
     "multer": "^1.3.0",
     "node-ncbi": "^0.5.1",
     "normalize.css": "^7.0.0",
@@ -129,11 +133,11 @@
     }
   },
   "scripts": {
-    "start:client": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --config webpack.config.js",
-    "start:server": "node ./src/server/server.js",
+    "start:client": "babel-node node_modules/webpack-dev-server/bin/webpack-dev-server.js --config webpack.config.js",
+    "start:server": "cross-env NODE_ENV=development nodemon src/server/server.js --exec babel-node",
     "start": "yarn run start:client",
-    "prod": "node ./node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=production webpack-dev-server --env.prod=true",
-    "build": "node ./node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=production webpack --env.prod=true",
-    "lint": "node ./node_modules/eslint/bin/eslint.js ./src/client ./webpack2.config.js -f table || true"
+    "prod": "babel-node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=production webpack-dev-server --env.prod=true",
+    "build": "babel-node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=production webpack --env.prod=true",
+    "lint": "babel-node node_modules/eslint/bin/eslint.js src/client webpack2.config.js -f table || true"
   }
 }

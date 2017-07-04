@@ -1,8 +1,13 @@
-import { UI_OPEN_SIDEBAR, UI_CLOSE_SIDEBAR } from 'actions/layout';
+import {
+  UI_OPEN_SIDEBAR,
+  UI_CLOSE_SIDEBAR,
+} from 'actions/layout';
+
 import { APP_INIT } from 'actions/common';
 
 export const initialState = {
   sidebarOpened: false,
+  id: '',
 };
 
 export function layout(state = initialState, action) {

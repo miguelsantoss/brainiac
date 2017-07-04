@@ -1,6 +1,8 @@
 import React from 'react';
 import { Sidebar, Menu, Checkbox, Button, Header, Dimmer, Loader, Popup } from 'semantic-ui-react';
 
+import QueryAbstract from 'components/QueryAbstract';
+
 const style = {};
 
 style.shadow = {
@@ -8,12 +10,12 @@ style.shadow = {
 };
 
 style.menu = {
-  //maxHeight: '100vh',
+  // maxHeight: '100vh',
 };
 
 style.popup = {
   borderRadius: 0,
-  padding: '2em',
+  maxWidth: '800px',
 };
 
 class SidebarPushable extends React.Component {
@@ -42,42 +44,39 @@ class SidebarPushable extends React.Component {
   }
 
   renderResults = () => {
-    const { loading, results } = this.props;
-    if (loading) {
+    const { queryLoading, results } = this.props;
+    if (queryLoading) {
       return (
         <Dimmer active inverted>
           <Loader active inline="centered" />
         </Dimmer>
       );
     } else if (results.length > 0) {
-      const items = results.map((d, i) => {
+      const items = results.map((docItem) => {
         const header = (
           <Menu.Header>
             <Checkbox
-              label={d.title}
-              checked={d.checkBox}
-              id={d.pmid}
-              onChange={(event, checkBox) => this.changeCheckBox(d, checkBox)}
+              label={docItem.title}
+              checked={docItem.checkBox}
+              id={docItem.pmid}
+              onChange={(event, checkBox) => this.changeCheckBox(docItem, checkBox)}
             />
           </Menu.Header>
         );
-        const loader = (
-          <Dimmer active inverted>
-            <Loader active inline="centered" />
-          </Dimmer>
-        );
         return (
-          <Menu.Item key={d.pmid}>
+          <Menu.Item key={docItem.pmid}>
             <Popup
               trigger={header}
-              content={d.abstract ? d.abstract : loader}
-              basic
-              wide
-              style={d.abstract ? style.popup : null}
+              content={<QueryAbstract abstract={docItem.abstract} />}
+              flowing
+              size="small"
+              key={docItem.pmid}
+              position="right center"
+              style={style.popup}
             />
             <Menu.Menu>
-              <Menu.Item name={d.authors} />
-              <Menu.Item name={d.pubDate} />
+              <Menu.Item name={docItem.authors} />
+              <Menu.Item name={docItem.pubDate} />
             </Menu.Menu>
           </Menu.Item>
         );
@@ -99,10 +98,10 @@ class SidebarPushable extends React.Component {
     );
   }
   render = () => {
-    const { visible, children } = this.props;
+    const { visible, children, queryLoading } = this.props;
     return (
       <Sidebar.Pushable>
-        <Sidebar style={style.menu} as={Menu} animation="overlay" width="very wide" visible={visible} vertical>
+        <Sidebar style={style.menu} as={Menu} animation="overlay" width="very wide" visible={visible && !queryLoading} vertical>
           {this.renderResults()}
         </Sidebar>
         <Sidebar.Pusher>
@@ -114,5 +113,9 @@ class SidebarPushable extends React.Component {
     );
   }
 }
+
+SidebarPushable.propTypes = {
+
+};
 
 export default SidebarPushable;

@@ -3,45 +3,24 @@ import sizeMe from 'react-sizeme';
 import { DropTarget } from 'react-dnd';
 
 import * as d3Force from 'd3-force';
-import { select, selectAll, event, mouse } from 'd3-selection';
+import { select, event, mouse } from 'd3-selection';
 import { drag } from 'd3-drag';
 import * as d3Zoom from 'd3-zoom';
 import * as d3Transition from 'd3-transition';
 import * as d3Ease from 'd3-ease';
 
-const style = {
-  height: '12rem',
-  width: '12rem',
-  marginRight: '1.5rem',
-  marginBottom: '1.5rem',
-  color: 'white',
-  padding: '1rem',
-  textAlign: 'center',
-  fontSize: '1rem',
-  lineHeight: 'normal',
-  float: 'left',
-};
-
 const boxTarget = {
-  drop() {
-    return { name: 'Dustbin' };
+  drop(props, monitor, component) {
+    const item = monitor.getItem();
+    component.createMagnet(item);
   },
 };
 
 // import css
 import 'css/Network.scss';
-const r = [{
-    r: 75,
-  }, 
-  {
-    r: 150,
-  },
-  {
-    r: 225,
-  },
-  {
-    r: 300,
-  }];
+
+const r = [{ r: 75 }, { r: 150 }, { r: 225 }, { r: 300 }];
+
 
 class Network extends Component {
   static propTypes = {
@@ -49,7 +28,7 @@ class Network extends Component {
       id: React.PropTypes.string,
       title: React.PropTypes.string,
       authors: React.PropTypes.arrayOf(React.PropTypes.shape({
-        name: React.PropTypes.string
+        name: React.PropTypes.string,
       })),
       date: React.PropTypes.string,
       value: React.PropTypes.number,
@@ -58,7 +37,7 @@ class Network extends Component {
       id: React.PropTypes.string,
       title: React.PropTypes.string,
       authors: React.PropTypes.arrayOf(React.PropTypes.shape({
-        name: React.PropTypes.string
+        name: React.PropTypes.string,
       })),
       date: React.PropTypes.string,
       value: React.PropTypes.number,
@@ -81,23 +60,26 @@ class Network extends Component {
       drag: false,
       zoom: {
         scaleFactor: 1,
-        translation: [0,0],
+        translation: [0, 0],
       },
+      magnetNodes: [],
     };
-    
+
     this.initializeD3 = this.initializeD3.bind(this);
     this.setupNetwork = this.setupNetwork.bind(this);
     this.filterNodes = this.filterNodes.bind(this);
   }
 
   componentDidMount() {
+    // eslint-disable-next-line no-undef
     const height = document.getElementById('window-network2-content').clientHeight;
+    // eslint-disable-next-line no-undef
     const width = document.getElementById('window-network2-content').clientWidth;
 
     this.setState({
       ...this.state,
       width,
-      height
+      height,
     }, () => {
       this.initializeD3();
     });
@@ -109,13 +91,10 @@ class Network extends Component {
   }
 
   setupNetwork() {
-    const svg = this.state.d3Viz.svg;
-    const simulation = this.state.d3Viz.simulation;
     const nodes = this.props.filteredNodes;
+    const { svg, simulation, simulationMagnets } = this.state.d3Viz;
     const { width, height } = this.state;
     const { scaleFactor, translation } = this.state.zoom;
-
-    let linkTest = [];
 
     const link = svg.append('g')
       .attr('class', 'links')
@@ -136,18 +115,19 @@ class Network extends Component {
       .attr('class', 'network-node')
       .attr('r', d => d.radius)
       .attr('id', d => d.id)
-      .on('mouseover', d => {
-        if(!this.state.drag)
+      .on('mouseover', (d) => {
+        if (!this.state.drag) {
           this.props.hoverNode(d, true, d.radius, d.radius + 10);
+        }
       })
-      .on('mouseout', d => {
-        if(!this.state.drag)
+      .on('mouseout', (d) => {
+        if (!this.state.drag) {
           this.props.hoverNode(d, false, d.radius, d.radius + 10);
+        }
       })
       .on('click', (d) => {
         if (event.defaultPrevented) return;
-        this.setState({ ...this.state, centered: d}, () => {
-
+        this.setState({ ...this.state, centered: d }, () => {
           const centerTransition = d3Transition.transition().duration(200).ease(d3Ease.easeExp);
 
           this.state.d3Viz.node.transition(centerTransition).attr('r', d => d.radius = d.defaultRadius = 4);
@@ -163,9 +143,9 @@ class Network extends Component {
           let dataOrg = [[], [], [], []];
           let dTest = [];
 
-          for(let i = 0; i < nodes.length; i++) {
-            if(nodes[i].id !== d.id) {
-              if(d.similarity_values[i] >= 0.25) {
+          for (let i = 0; i < nodes.length; i += 1) {
+            if (nodes[i].id !== d.id) {
+              if (d.similarity_values[i] >= 0.25) {
                 let coord = Math.floor(Math.random() * coords.length);
                 let dist = 3 - Math.floor(d.similarity_values[i] / 0.25);
                 dTest.push(dist);
@@ -174,8 +154,7 @@ class Network extends Component {
                 nodes[i].r = r[dist].r;
                 nodes[i].dist = dist;
                 dataOrg[dist].push(0);
-              }
-              else {
+              } else {
                 let dist = 3;
                 let coord = Math.floor(Math.random() * coords.length);
                 let rad = Math.random() * 2 * Math.PI;
@@ -189,21 +168,23 @@ class Network extends Component {
           }
 
           let dataOrgI = [0, 0, 0, 0];
-          for(let i = 0; i < dataOrg.length; i++) {
+          for (let i = 0; i < dataOrg.length; i += 1) {
             dataOrg[i] = dataOrg[i].length;
             dataOrg[i] = 360 / dataOrg[i];
           }
 
-          for(let i = 0; i < nodes.length; i++) {
+          for (let i = 0; i < nodes.length; i += 1) {
             let distI = nodes[i].dist;
-            if(nodes[i].id !== d.id) {
-              nodes[i].fx = d.fx + nodes[i].r * Math.cos(dataOrg[distI]*dataOrgI[distI]*Math.PI/180);
-              nodes[i].fy = d.fy + nodes[i].r * Math.sin(dataOrg[distI]*dataOrgI[distI]*Math.PI/180);
-              dataOrgI[distI]++;
+            if (nodes[i].id !== d.id) {
+              // eslint-disable-next-line max-len
+              nodes[i].fx = d.fx + nodes[i].r * Math.cos(dataOrg[distI] * dataOrgI[distI] * Math.PI / 180);
+              // eslint-disable-next-line max-len
+              nodes[i].fy = d.fy + nodes[i].r * Math.sin(dataOrg[distI] * dataOrgI[distI] * Math.PI / 180);
+              dataOrgI[distI] += 1;
             }
           }
 
-          if(!this.state.d3Viz.orbits) {
+          if (!this.state.d3Viz.orbits) {
             const orbits = svg.select('g.orbits').selectAll('circle')
               .data(r)
               .enter()
@@ -219,18 +200,15 @@ class Network extends Component {
               ...this.state,
               d3Viz: {
                 ...this.state.d3Viz,
-                orbits
-              }
+                orbits,
+              },
             });
-          }
-          else {
+          } else {
             this.state.d3Viz.orbits
-              .attr('r', d => d.r * this.state.zoom.scaleFactor)
+              .attr('r', element => element.r * this.state.zoom.scaleFactor)
               .attr('cx', this.state.zoom.translation[0] + this.state.zoom.scaleFactor * this.state.centered.fx)
               .attr('cy', this.state.zoom.translation[1] + this.state.zoom.scaleFactor * this.state.centered.fy);
           }
-
-
         });
       })
       .call(drag()
@@ -250,15 +228,13 @@ class Network extends Component {
           if (!event.active) simulation.alphaTarget(0);
           this.props.hoverNode(d, false, d.radius, d.radius + 10);
           this.state.drag = false;
-          if(!d.centered && !d.fixed){
+          if (!d.centered && !d.fixed) {
             d.fx = null;
             d.fy = null;
           }
-        })
-      );
+        }));
 
-    simulation
-      .nodes(nodes)
+    simulation.nodes(nodes)
       .on('tick', () => {
         link
           .attr('x1', d => this.state.zoom.translation[0] + this.state.zoom.scaleFactor * d.source.x)
@@ -269,13 +245,88 @@ class Network extends Component {
           .attr('cx', d => this.state.zoom.translation[0] + this.state.zoom.scaleFactor * d.x)
           .attr('cy', d => this.state.zoom.translation[1] + this.state.zoom.scaleFactor * d.y);
       });
-
     simulation.force('link').links(this.state.links);
+    simulation.restart();
 
-    simulation.restart()
-
-    const d3Viz = { svg, link, node, simulation };
+    const d3Viz = { svg, link, node, simulation, simulationMagnets };
     this.setState({ ...this.state, d3Viz, init: true });
+  }
+
+  createMagnet(word) {
+    const randomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+    let id = `m${randomNumber(0, 9)}${randomNumber(0, 9)}${randomNumber(0, 9)}${randomNumber(0, 9)}${randomNumber(0, 9)}`;
+    const { magnetNodes } = this.state;
+    for (let i = 0; i < magnetNodes.length; i += 1) {
+      if (magnetNodes[i] === id) {
+        id = `m${randomNumber(0, 9)}${randomNumber(0, 9)}${randomNumber(0, 9)}${randomNumber(0, 9)}${randomNumber(0, 9)}`;
+        i = 0;
+      }
+    }
+
+    const { svg, simulationMagnets } = this.state.d3Viz;
+    // const mouseCoords = mouse(svg.node());
+
+    magnetNodes.push({
+      id,
+      text: word.name,
+      // x: mouseCoords[0],
+      // y: mouseCoords[1],
+    });
+
+    const magnets = svg.append('g')
+      .attr('class', 'magnets')
+      .selectAll('.magnet-node')
+      .data(magnetNodes, d => d.id)
+      .enter()
+      .append('circle')
+      .attr('class', 'magnet-node')
+      .attr('r', 10)
+      .style('fill', 'green')
+      .attr('id', d => d.id)
+      .call(drag()
+        .on('start', (d) => {
+          if (!event.active) simulationMagnets.alphaTarget(0.3).restart();
+          d.fx = d.x;
+          d.fy = d.y;
+        })
+        .on('drag', (d) => {
+          const mouseCoords = mouse(svg.node());
+          d.fx = (mouseCoords[0] - this.state.zoom.translation[0]) / this.state.zoom.scaleFactor;
+          d.fy = (mouseCoords[1] - this.state.zoom.translation[1]) / this.state.zoom.scaleFactor;
+        })
+        .on('end', (d) => {
+          if (!event.active) simulationMagnets.alphaTarget(0);
+          d.fx = null;
+          d.fy = null;
+        }));
+
+    const magnetLabels = svg.append('g')
+      .attr('class', 'magnetLabels')
+      .selectAll('.magnet-label')
+      .data(magnetNodes, d => d.id)
+      .enter()
+      .append('text')
+      .attr('dx', 13)
+      .attr('dy', 2)
+      .attr('x', d => d.x)
+      .attr('y', d => d.y)
+      .attr('class', 'magnet-label')
+      .style('font-size', '12px')
+      .text(d => d.text);
+
+
+    simulationMagnets.on('tick', () => {
+      magnets
+        .attr('cx', d => this.state.zoom.translation[0] + this.state.zoom.scaleFactor * d.x)
+        .attr('cy', d => this.state.zoom.translation[1] + this.state.zoom.scaleFactor * d.y);
+      magnetLabels
+        .attr('x', d => this.state.zoom.translation[0] + this.state.zoom.scaleFactor * d.x)
+        .attr('y', d => this.state.zoom.translation[1] + this.state.zoom.scaleFactor * d.y);
+    });
+
+
+    simulationMagnets.nodes(magnetNodes);
+    simulationMagnets.restart();
   }
 
   filterNodes() {
@@ -312,54 +363,57 @@ class Network extends Component {
       .attr('height', height)
       .attr('overflow', 'hidden')
       .attr('id', 'network2-svg-element')
-      .on('click', (d) => {
-        if(event.ctrlKey) {
+      .on('click', () => {
+        if (event.ctrlKey) {
           console.log('Ctrl+click has just happened!');
           this.state.d3Viz.node.attr('fx', null).attr('fy', null).attr('r', 5);
-        }
-        else if(event.altKey) {
+        } else if (event.altKey) {
           console.log('Alt+click has just happened!');
         }
       })
-      .call(d3Zoom.zoom().on('zoom', (d) => {
+      .call(d3Zoom.zoom().on('zoom', () => {
         const scaleFactor = event.transform.k;
         const translation = [event.transform.x, event.transform.y];
         this.setState({
           ...this.state,
           zoom: {
             scaleFactor, translation,
-          }
+          },
         }, () => {
           this.state.d3Viz.simulation.restart();
-          if(this.state.d3Viz.orbits) {
-
+          if (this.state.d3Viz.orbits) {
             this.state.d3Viz.orbits
               .attr('r', d => d.r * scaleFactor)
               .attr('cx', translation[0] + scaleFactor * this.state.centered.fx)
               .attr('cy', translation[1] + scaleFactor * this.state.centered.fy);
           }
-        })
-     }).scaleExtent([0.1,10]))
-     .on('dblclick.zoom', null);
+        });
+      }).scaleExtent([0.1, 10]))
+      .on('dblclick.zoom', null);
 
     svg.append('g').attr('class', 'orbits');
 
     const simulation = d3Force.forceSimulation()
       .force('link', d3Force.forceLink().distance(linkDistanceMult).strength(0.00001))
-      //.force('collide', d3Force.forceCollide((d) => d.r + 10).iterations(16))
-      //.force('attract', forceAttract().target([width / 2, height / 2]).strength(1))
+      // .force('collide', d3Force.forceCollide((d) => d.r + 10).iterations(16))
+      // .force('attract', forceAttract().target([width / 2, height / 2]).strength(1))
       .force('charge', d3Force.forceManyBody().strength(-100))
       .force('x', d3Force.forceX(width / 2))
       .force('y', d3Force.forceY(height / 2));
 
-    const d3Viz = { svg, simulation };
+    const simulationMagnets = d3Force.forceSimulation()
+      .force('charge', d3Force.forceManyBody().strength(-100));
+
+    const d3Viz = { svg, simulation, simulationMagnets };
     this.setState({ ...this.state, d3Viz }, () => {
       this.setupNetwork();
     });
   }
 
   handleResize() {
+    // eslint-disable-next-line no-undef
     const height = document.getElementById('window-network2-content').clientHeight;
+    // eslint-disable-next-line no-undef
     const width = document.getElementById('window-network2-content').clientWidth;
 
     this.setState({ ...this.state, width, height });
@@ -374,14 +428,19 @@ class Network extends Component {
 
   render() {
     const { canDrop, isOver, connectDropTarget } = this.props;
+    const isActive = canDrop && isOver;
+
+    const activeStyle = {};
+    activeStyle.backgroundColor = isActive ? 'darkgreen' : '';
+    activeStyle.opacity = isActive ? '0.8' : '1';
 
     return connectDropTarget(
       <div className="drag-wrapper" >
         <div className="LayoutHandle handle text-vert-center">
           <span>Network</span>
         </div>
-        <div id="window-network2-content" className="content no-cursor text-vert-center">
-          <div className="mount" ref={(r) => { this.mountNetwork = r; }} />
+        <div id="window-network2-content" style={activeStyle} className="content no-cursor text-vert-center">
+          <div className="mount" ref={(element) => { this.mountNetwork = element; }} />
         </div>
       </div>,
     );

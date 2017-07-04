@@ -46,7 +46,7 @@ export const initialState = {
 };
 
 export function documents (state = initialState, action) {
-  let documents;
+  let documents, id, result;
   switch (action.type) {
     case APP_INIT:
       return {
@@ -139,47 +139,6 @@ export function documents (state = initialState, action) {
         },
       };
     case DOC_QUERY_DOCUMENT_INFO_PUBMED_LOADING:
-      return {
-        ...state,
-        docFetch: {
-          pubmed: {
-            ...state.docFetch.pubmed,
-            errorLoading: false,
-            loading: true,
-          },
-        },
-      };
-    case DOC_QUERY_DOCUMENT_ABSTRACT_PUBMED_SUCCESS:
-      const { id, result } = action.result;
-      documents = state.docFetch.pubmed.documents;
-      for (let i = 0; i < documents.length; i += 1) {
-        if (documents[i].pmid === id) {
-          documents[i] = Object.assign({}, documents[i]);
-          documents[i].abstract = result;
-        }
-      }
-      return {
-        ...state,
-        docFetch: {
-          pubmed: {
-            documents,
-            errorLoading: false,
-            loading: false,
-          },
-        },
-      };
-    case DOC_QUERY_DOCUMENT_ABSTRACT_PUBMED_FAIL:
-      return {
-        ...state,
-        docFetch: {
-          pubmed: {
-            ...state.docFetch.pubmed,
-            errorLoading: true,
-            loading: false,
-          },
-        },
-      };
-    case DOC_QUERY_DOCUMENT_ABSTRACT_PUBMED_LOADING:
       return {
         ...state,
         docFetch: {

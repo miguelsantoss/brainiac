@@ -1,9 +1,8 @@
-import { 
+import {
   fetchDocuments,
   searchDocumentsPubmed,
   searchDocumentsScholar,
   getDocumentInfoPubmed,
-  getDocumentAbstractPubmed,
 } from 'api/apiCalls';
 
 export const DOC_FETCH_DOCUMENTS_DB_SUCCESS = 'DOC_FETCH_DOCUMENTS_DB_SUCCESS';
@@ -20,10 +19,6 @@ export const DOC_QUERY_DOCUMENTS_PUBMED_LOADING = 'DOC_QUERY_DOCUMENTS_PUBMED_LO
 export const DOC_QUERY_DOCUMENT_INFO_PUBMED_SUCCESS = 'DOC_QUERY_DOCUMENT_INFO_PUBMED_SUCCESS';
 export const DOC_QUERY_DOCUMENT_INFO_PUBMED_FAIL = 'DOC_QUERY_DOCUMENT_INFO_PUBMED_FAIL';
 export const DOC_QUERY_DOCUMENT_INFO_PUBMED_LOADING = 'DOC_QUERY_DOCUMENT_INFO_PUBMED_LOADING';
-
-export const DOC_QUERY_DOCUMENT_ABSTRACT_PUBMED_SUCCESS = 'DOC_QUERY_DOCUMENT_ABSTRACT_PUBMED_SUCCESS';
-export const DOC_QUERY_DOCUMENT_ABSTRACT_PUBMED_FAIL = 'DOC_QUERY_DOCUMENT_ABSTRACT_PUBMED_FAIL';
-export const DOC_QUERY_DOCUMENT_ABSTRACT_PUBMED_LOADING = 'DOC_QUERY_DOCUMENT_ABSTRACT_PUBMED_LOADING';
 
 export const FETCH_DOCUMENTS = () =>
   (dispatch) => {
@@ -53,13 +48,5 @@ export const QUERY_DOCUMENT_INFO_PUBMED = pmid =>
     dispatch({ type: 'DOC_QUERY_DOCUMENT_INFO_PUBMED_LOADING' });
     getDocumentInfoPubmed(pmid).then(response => response.json())
       .then(response => dispatch({ type: 'DOC_QUERY_DOCUMENT_INFO_PUBMED_SUCCESS', result: response }))
-      .catch(err => dispatch({ type: 'DOC_QUERY_DOCUMENT_INFO_PUBMED_FAIL', result: err }))
-  };
-
-export const QUERY_DOCUMENT_ABSTRACT_PUBMED = pmid =>
-  (dispatch) => {
-    dispatch({ type: 'DOC_QUERY_DOCUMENT_ABSTRACT_PUBMED_LOADING' });
-    getDocumentAbstractPubmed(pmid).then(response => response.json())
-      .then(response => dispatch({ type: 'DOC_QUERY_DOCUMENT_ABSTRACT_PUBMED_SUCCESS', result: response }))
-      .catch(err => dispatch({ type: 'DOC_QUERY_DOCUMENT_ABSTRACT_PUBMED_FAIL', result: err }))
+      .catch(err => dispatch({ type: 'DOC_QUERY_DOCUMENT_INFO_PUBMED_FAIL', result: err }));
   };

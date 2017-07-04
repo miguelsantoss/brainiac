@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 import _ from 'lodash';
 import { connect } from 'react-redux';
 import { Dimmer, Loader } from 'semantic-ui-react';
@@ -10,7 +11,7 @@ import * as d3Ease from 'd3-ease';
 import { selectAll, select } from 'd3-selection';
 
 import { CLOSE_SIDEBAR, OPEN_SIDEBAR } from 'actions/layout';
-import { FETCH_DOCUMENTS, QUERY_DOCUMENTS_PUBMED, QUERY_DOCUMENT_INFO_PUBMED } from 'actions/documents';
+import { FETCH_DOCUMENTS, QUERY_DOCUMENTS_PUBMED, QUERY_DOCUMENT_INFO_PUBMED, QUERY_DOCUMENT_ABSTRACT_PUBMED } from 'actions/documents';
 
 import SidebarFixed from 'components/SidebarFixed';
 import SidebarPushable from 'components/SidebarPushable';
@@ -24,28 +25,40 @@ import style from './style';
 
 class AppLayout extends Component {
   componentWillMount = () => this.props.fetchDocuments()
-  toggleVisibility = () => this.props.sidebarOpened ? this.props.closeSidebar() : this.props.openSidebar()
-  hoverNode = (d, state, radius=4, bigRadius=14) => {
-    const hoverTransition = d3Transition.transition().duration(90);
-    selectAll(`#${d.id}`).classed('hover-node', state);
+  toggleVisibility = () => (this.props.sidebarOpened ?
+    this.props.closeSidebar() :
+    this.props.openSidebar())
 
+  hoverNode = (d, state, radius = 4, bigRadius = 14) => {
+    const hoverTransition = d3Transition.transition().duration(140);
+    selectAll(`#${d.id}`).classed('hover-node', state);
+    selectAll(`.line-network.${d.id}`).classed('hover-line-network', state);
+    const docListItem = this.docListSidebar._items.get(d.id);
+    ReactDOM.findDOMNode(docListItem).scrollIntoViewIfNeeded();
+
+    // On Hover
     if (state) {
+      // Animate size on hover, keep bigger than normal at the end
       selectAll(`#${d.id}`)
         .transition(hoverTransition)
         .attr('r', bigRadius)
         .delay(20)
         .transition(hoverTransition)
-        .attr('r', radius);
-    }
+        .attr('r', radius + 5);
 
-    selectAll(`.line-network.${d.id}`).classed('hover-line-network', state);
-    if (state) {
+      // Show the tooltip
       select(this.tooltip)
-        .style('left', event.x + 10 + 'px')
-        .style('top', event.y + 10 + 'px')
+        .style('left', `${event.x + 10}px`) // eslint-disable-line no-undef
+        .style('top', `${event.y + 10}px`) // eslint-disable-line no-undef
         .style('display', 'inline-block')
         .html((d.title));
     } else {
+      // On mouseout, animate size back to normal
+      selectAll(`#${d.id}`)
+        .transition(hoverTransition)
+        .attr('r', radius);
+
+      // Hide tooltip
       select(this.tooltip).style('display', 'none');
     }
   }
@@ -104,7 +117,6 @@ class AppLayout extends Component {
         {this.vizLayout()}
       </div>
     );
-    //const t = this.vizLayout();
     const { db } = this.props;
     const { documents } = db;
     const clusterWordsTfidf = documents.cluster_words_tfidf;
@@ -114,21 +126,25 @@ class AppLayout extends Component {
           style={style.menu}
           closeSidebarButtonVisible={this.props.sidebarOpened}
           closeSidebarButtonHandle ={this.toggleVisibility}
+          queryLoading={query.loading}
           dbDocumentList={documents || {}}
           handleHover={this.hoverNode}
           topicWords={clusterWordsTfidf || []}
           queryDocuments={(query) => { this.props.queryPubmed(query); this.props.openSidebar(); }}
+          ref={(element) => { this.docListSidebar = element; }}
         />
         <div style={style.main}>
           <SidebarPushable
-            children={children}
             visible={this.props.sidebarOpened}
             closeSidebar={this.toggleVisibility}
             saveResults={this.handleSave}
             results={query.results}
-            loading={query.loading}
+            queryLoading={query.loading}
             queryError={query.errorLoading}
-          />
+            getAbstract={this.props.queryDocAbstractPubmed}
+          >
+            {children}
+          </SidebarPushable>
         </div>
       </div>
     );
@@ -141,6 +157,7 @@ const mapDispatchToProps = dispatch => ({
   fetchDocuments: () => dispatch(FETCH_DOCUMENTS()),
   queryPubmed: query => dispatch(QUERY_DOCUMENTS_PUBMED(query)),
   queryDocInfoPubmed: pmid => dispatch(QUERY_DOCUMENT_INFO_PUBMED(pmid)),
+  queryDocAbstractPubmed: pmid => dispatch(QUERY_DOCUMENT_ABSTRACT_PUBMED(pmid)),
 });
 
 const mapStateToProps = state => ({

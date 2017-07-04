@@ -9,6 +9,8 @@ import { composeWithDevTools } from 'redux-devtools-extension';
 import Root from 'containers/Root';
 import 'semantic-ui-css/semantic.min.css';
 
+import './polyfill';
+
 const configureStore = (initialState) => {
   const thunkApplied = applyMiddleware(thunk);
   const loggerRedux = applyMiddleware(logger);
