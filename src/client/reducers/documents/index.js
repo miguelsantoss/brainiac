@@ -10,6 +10,7 @@ import {
     DOC_QUERY_DOCUMENT_INFO_PUBMED_FAIL,
     DOC_QUERY_DOCUMENT_INFO_PUBMED_LOADING,
     DB_FILTER_BY_DATE,
+    DB_CLEAR_FILTER_BY_DATE,
 } from '../../actions/documents';
 import { APP_INIT } from '../../actions/common';
 
@@ -162,6 +163,18 @@ export function documentDb(state = initialState, action) {
         }
         return false;
       });
+      return {
+        ...state,
+        db: {
+          ...state.db,
+          documents: {
+            ...state.db.documents,
+            filteredNodes: f,
+          },
+        },
+      };
+    case DB_CLEAR_FILTER_BY_DATE:
+      f = _.cloneDeep(state.db.documents.nodes);
       return {
         ...state,
         db: {

@@ -21,6 +21,7 @@ export const DOC_QUERY_DOCUMENT_INFO_PUBMED_FAIL = 'DOC_QUERY_DOCUMENT_INFO_PUBM
 export const DOC_QUERY_DOCUMENT_INFO_PUBMED_LOADING = 'DOC_QUERY_DOCUMENT_INFO_PUBMED_LOADING';
 
 export const DB_FILTER_BY_DATE = 'DB_FILTER_BY_DATE';
+export const DB_CLEAR_FILTER_BY_DATE = 'DB_CLEAR_FILTER_BY_DATE';
 
 export const FETCH_DOCUMENTS = () =>
   (dispatch) => {
@@ -53,7 +54,13 @@ export const QUERY_DOCUMENT_INFO_PUBMED = pmid =>
       .catch(err => dispatch({ type: 'DOC_QUERY_DOCUMENT_INFO_PUBMED_FAIL', result: err }));
   };
 
-export const FILTER_BY_DATE = (min, max) =>
+export const FILTER_BY_DATE = dates =>
   (dispatch) => {
-    dispatch({ type: 'DB_FILTER_BY_DATE', result: [min, max] });
+    dispatch({ type: 'DB_FILTER_BY_DATE', result: dates });
   };
+
+export const CLEAR_FILTER_BY_DATE = dates =>
+  (dispatch) => {
+    dispatch({ type: 'DB_CLEAR_FILTER_BY_DATE', result: dates });
+  };
+

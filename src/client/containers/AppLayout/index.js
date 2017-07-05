@@ -17,6 +17,7 @@ import {
   QUERY_DOCUMENT_INFO_PUBMED,
   QUERY_DOCUMENT_ABSTRACT_PUBMED,
   FILTER_BY_DATE,
+  CLEAR_FILTER_BY_DATE,
 } from '../../actions/documents';
 
 import SidebarFixed from '../../components/SidebarFixed';
@@ -35,15 +36,6 @@ class AppLayout extends Component {
   toggleVisibility = () => (this.props.sidebarOpened ?
     this.props.closeSidebar() :
     this.props.openSidebar())
-
-  filterByDate = (date) => {
-    const min = date[0];
-    const max = date[1];
-    this.props.filterByDate(min, max);
-    // console.log(filtered);
-    // this.setState({ ...this.state, search: query, filteredNodes: filtered });
-    // this.forceUpdate();
-  }
 
   hoverNode = (d, state, radius = 4, bigRadius = 14) => {
     const hoverTransition = d3Transition.transition().duration(140);
@@ -121,7 +113,8 @@ class AppLayout extends Component {
         >
           <Timeline
             filteredNodes={_.cloneDeep(documents.filteredNodes)}
-            filterByDate={this.filterByDate}
+            filterByDate={this.props.filterByDate}
+            clearFilterByDate={this.props.clearFilterByDate}
             {...vizProps}
           />
         </VizContainer>),
@@ -194,6 +187,7 @@ AppLayout.propTypes = {
   queryDocInfoPubmed: PropTypes.func.isRequired,
   queryDocAbstractPubmed: PropTypes.func.isRequired,
   filterByDate: PropTypes.func.isRequired,
+  clearFilterByDate: PropTypes.func.isRequired,
   sidebarOpened: PropTypes.bool.isRequired,
   query: PropTypes.shape({
     pubmed: PropTypes.shape({
@@ -257,7 +251,8 @@ const mapDispatchToProps = dispatch => ({
   queryPubmed: query => dispatch(QUERY_DOCUMENTS_PUBMED(query)),
   queryDocInfoPubmed: pmid => dispatch(QUERY_DOCUMENT_INFO_PUBMED(pmid)),
   queryDocAbstractPubmed: pmid => dispatch(QUERY_DOCUMENT_ABSTRACT_PUBMED(pmid)),
-  filterByDate: (min, max) => dispatch(FILTER_BY_DATE(min, max)),
+  filterByDate: date => dispatch(FILTER_BY_DATE(date)),
+  clearFilterByDate: () => dispatch(CLEAR_FILTER_BY_DATE()),
 });
 
 const mapStateToProps = state => ({

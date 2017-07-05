@@ -65,15 +65,14 @@ class Timeline extends Component {
 
     // use the new diagram.find() function to find the voronoi site closest to
     // the mouse, limited by max distance defined by voronoiRadius
-    const site = this.state.d3Viz.voronoi.find(mx, my);
-
     if (this.hover) {
-      if (this.hover === site.data) return;
       this.props.hoverNode(this.hover, false);
-      this.hover = null;
     }
+
+    const site = this.state.d3Viz.voronoi_.find(mx, my);
     this.hover = site.data;
     this.props.hoverNode(site.data, true);
+
     // highlight the point if we found one, otherwise hide the highlight circle
     // highlight(site && site.data);
   }
@@ -134,9 +133,30 @@ class Timeline extends Component {
     //     .duration(750);
 
     const voronoi = d3Voronoi.voronoi()
+        .x(d => d.x)
+        .y(d => d.y)
+        .extent([[0, 0], [width, height]]);
+
+    const voronoi_ = d3Voronoi.voronoi()
       .x(d => d.x)
       .y(d => d.y)
       .size([width, height])(nodeData);
+
+    const voronoiG = g.append('g').attr('class', 'voronoi-path');
+
+    const voronoiGroup = voronoiG
+      .selectAll('.voronoi')
+      .data(voronoi(nodeData).polygons(), d => d.data.id);
+
+    voronoiGroup.enter().append('path')
+      .attr('class', 'voronoi')
+      .attr('d', d => (d ? `M${d.join('L')}Z` : null))
+      .on('mouseover', (d) => {
+        this.props.hoverNode(d.data, true);
+      })
+      .on('mouseout', (d) => {
+        this.props.hoverNode(d.data, false);
+      });
 
     const nodes = g.append('g')
       .attr('class', 'timeline-nodes')
@@ -161,7 +181,7 @@ class Timeline extends Component {
       .attr('class', 'timeline-brush')
       .call(brush);
 
-    const d3Viz = { svg, g, x, xAxis, simulation, nodes, voronoi, brushG, brush };
+    const d3Viz = { svg, g, x, xAxis, simulation, nodes, voronoi_, voronoiG, brushG, brush };
     this.setState({ ...this.state, d3Viz, init: true });
   }
 
@@ -212,11 +232,17 @@ class Timeline extends Component {
     this.state.d3Viz.nodes.attr('cy', d => d.y);
 
     const voronoi = d3Voronoi.voronoi()
-      .x(d => d.x)
-      .y(d => d.y)
-      .size([width, height])(nodeData);
+        .x(d => d.x)
+        .y(d => d.y)
+        .extent([[0, 0], [width, height]]);
 
-    this.setState({ ...this.state, width, height, d3Viz: { ...this.state.d3Viz, brushG, brush, voronoi } });
+    const voronoiGroup = voronoiG.selectAll('.voronoi')
+      .data(voronoi(nodeData).polygons(), d => d.data.id);
+
+    voronoiGroup
+          .attr('d', d => (d ? `M${d.join('L')}Z` : null));
+
+    this.setState({ ...this.state, width, height, d3Viz: { ...this.state.d3Viz, brushG, brush } });
   }
 
   filterNodes() {

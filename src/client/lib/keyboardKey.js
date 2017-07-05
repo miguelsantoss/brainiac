@@ -79,7 +79,7 @@ _.times(24, i => (codes[112 + i] = `F${i + 1}`));
 // Alphabet (a-Z)
 _.times(26, (i) => {
   const n = i + 65;
-  codes[n] = [String.fromCharCode(n + 32), String.fromCharCode(n)]
+  codes[n] = [String.fromCharCode(n + 32), String.fromCharCode(n)];
 });
 
 const keyboardKey = {
@@ -95,7 +95,7 @@ const keyboardKey = {
    */
   getCode(name) {
     if (_.isObject(name)) {
-      return name.keyCode || name.which || this[name.key]
+      return name.keyCode || name.which || this[name.key];
     }
     return this[name];
   },
@@ -127,6 +127,7 @@ const keyboardKey = {
   // By Name
   // ----------------------------------------
   // declare these manually for static analysis
+  /* eslint-disable object-property-newline, no-useless-escape */
   Cancel: 3,
   Help: 6,
   Backspace: 8,
@@ -245,6 +246,7 @@ const keyboardKey = {
   Play: 250,
   ZoomOut: 251,
 };
+/* eslint-enable object-property-newline, no-useless-escape */
 
 // ----------------------------------------
 // By Alias
