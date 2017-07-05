@@ -33,8 +33,8 @@ class DocumentEntry extends React.Component {
   render() {
     const { id, title } = this.props;
     const style = {
-      textOverflow: 'ellipsis'
-    }
+      textOverflow: 'ellipsis',
+    };
     const styleLi = {
       wordWrap: 'break-word',
       padding: 0,
@@ -43,7 +43,7 @@ class DocumentEntry extends React.Component {
       textOverflow: 'ellipsis',
       whiteSpace: 'nowrap',
       overflow: 'hidden',
-    }
+    };
     return (
       <div
         onMouseEnter={this.handleMouseEnter}

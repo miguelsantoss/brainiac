@@ -1,25 +1,16 @@
-// Import React stuff
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import sizeMe from 'react-sizeme';
 
-// Import d3 stuff
 import * as d3Force from 'd3-force';
 import * as d3Scale from 'd3-scale';
 import * as d3Sel from 'd3-selection';
-// import * as d3Drag from 'd3-drag';
-// import * as d3Request from 'd3-request';
 import { extent } from 'd3-array';
 import * as d3Axis from 'd3-axis';
 import * as d3Voronoi from 'd3-voronoi';
-import * as d3Transition from 'd3-transition';
-import * as d3Timer from 'd3-timer';
 import * as d3Brush from 'd3-brush';
-// import * as d3Format from 'd3-format';
-import * as d3Time from 'd3-time';
 
-// import css
-import '../css/Timeline.scss';
+import './Timeline.scss';
 
 const marginBottom = 20;
 const marginRight = 20;
@@ -40,7 +31,7 @@ class Timeline extends Component {
     this.filterNodes = this.filterNodes.bind(this);
   }
 
-  componentDidMount() {
+  componentWillMount() {
     const height = document.getElementById('window-timeline-content').clientHeight; // eslint-disable-line no-undef
     const width = document.getElementById('window-timeline-content').clientWidth; // eslint-disable-line no-undef
 
@@ -230,18 +221,8 @@ class Timeline extends Component {
   }
 
   render() {
-    const style = {
-      paddingLeft: '5px',
-    };
     return (
-      <div className="drag-wrapper">
-        <div className="LayoutHandle handle text-vert-center">
-          <span>Timeline</span>
-        </div>
-        <div id="window-timeline-content" style={style} className="content text-vert-center">
-          <div className="mount" ref={(r) => { this.mountTimeline = r; }} />
-        </div>
-      </div>
+      <div className="mount" ref={(r) => { this.mountTimeline = r; }} />
     );
   }
 }

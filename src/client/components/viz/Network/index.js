@@ -10,6 +10,8 @@ import * as d3Zoom from 'd3-zoom';
 import * as d3Transition from 'd3-transition';
 import * as d3Ease from 'd3-ease';
 
+import './Network.scss';
+
 const boxTarget = {
   drop(props, monitor, component) {
     const item = monitor.getItem();
@@ -17,11 +19,7 @@ const boxTarget = {
   },
 };
 
-// import css
-import 'css/Network.scss';
-
 const r = [{ r: 75 }, { r: 150 }, { r: 225 }, { r: 300 }];
-
 
 class Network extends Component {
   constructor(props) {
@@ -44,11 +42,11 @@ class Network extends Component {
     this.filterNodes = this.filterNodes.bind(this);
   }
 
-  componentDidMount() {
+  componentWillMount() {
     // eslint-disable-next-line no-undef
-    const height = document.getElementById('window-network2-content').clientHeight;
+    const height = document.getElementById('window-network-content').clientHeight;
     // eslint-disable-next-line no-undef
-    const width = document.getElementById('window-network2-content').clientWidth;
+    const width = document.getElementById('window-network-content').clientWidth;
 
     this.setState({
       ...this.state,
@@ -67,8 +65,6 @@ class Network extends Component {
   setupNetwork() {
     const nodes = this.props.filteredNodes;
     const { svg, simulation } = this.state.d3Viz;
-    const { width, height } = this.state;
-    const { scaleFactor, translation } = this.state.zoom;
 
     const link = svg.append('g')
       .attr('class', 'links')
@@ -104,34 +100,37 @@ class Network extends Component {
         this.setState({ ...this.state, centered: d }, () => {
           const centerTransition = d3Transition.transition().duration(200).ease(d3Ease.easeExp);
 
-          this.state.d3Viz.node.transition(centerTransition).attr('r', d => d.radius = d.defaultRadius = 4);
+          this.state.d3Viz.node.transition(centerTransition).attr('r', (element) => {
+            element.radius = 4;
+            element.defaultRadius = 4;
+            return element.radius;
+          });
 
           d.centered = true;
           d.fx = this.state.width / 2;
           d.fy = this.state.height / 2;
-          select(`circle#${d.id}`).transition(centerTransition).attr('r', d => d.radius = d.bigRadius = 15);
+          select(`circle#${d.id}`).transition(centerTransition).attr('r', (element) => {
+            element.radius = 15;
+            element.bigRadius = 15;
+            return element.radius;
+          });
 
-          let coords = [[0, 1], [1, 0], [0, -1], [-1, 0]];
-          let target = [this.state.width / 2, this.state.height / 2];
-
-          let dataOrg = [[], [], [], []];
-          let dTest = [];
+          const dataOrg = [[], [], [], []];
+          const dTest = [];
 
           for (let i = 0; i < nodes.length; i += 1) {
             if (nodes[i].id !== d.id) {
               if (d.similarity_values[i] >= 0.25) {
-                let coord = Math.floor(Math.random() * coords.length);
-                let dist = 3 - Math.floor(d.similarity_values[i] / 0.25);
+                const dist = 3 - Math.floor(d.similarity_values[i] / 0.25);
                 dTest.push(dist);
-                let rad = Math.random() * 2 * Math.PI;
+                const rad = Math.random() * 2 * Math.PI;
                 nodes[i].rad = rad;
                 nodes[i].r = r[dist].r;
                 nodes[i].dist = dist;
                 dataOrg[dist].push(0);
               } else {
-                let dist = 3;
-                let coord = Math.floor(Math.random() * coords.length);
-                let rad = Math.random() * 2 * Math.PI;
+                const dist = 3;
+                const rad = Math.random() * 2 * Math.PI;
                 nodes[i].rad = rad;
                 nodes[i].r = r[dist].r;
                 nodes[i].dist = dist;
@@ -141,19 +140,19 @@ class Network extends Component {
             }
           }
 
-          let dataOrgI = [0, 0, 0, 0];
+          const dataOrgI = [0, 0, 0, 0];
           for (let i = 0; i < dataOrg.length; i += 1) {
             dataOrg[i] = dataOrg[i].length;
             dataOrg[i] = 360 / dataOrg[i];
           }
 
           for (let i = 0; i < nodes.length; i += 1) {
-            let distI = nodes[i].dist;
+            const distI = nodes[i].dist;
             if (nodes[i].id !== d.id) {
               // eslint-disable-next-line max-len
-              nodes[i].fx = d.fx + nodes[i].r * Math.cos(dataOrg[distI] * dataOrgI[distI] * Math.PI / 180);
+              nodes[i].fx = d.fx + (nodes[i].r * Math.cos(dataOrg[distI] * dataOrgI[distI] * (Math.PI / 180)));
               // eslint-disable-next-line max-len
-              nodes[i].fy = d.fy + nodes[i].r * Math.sin(dataOrg[distI] * dataOrgI[distI] * Math.PI / 180);
+              nodes[i].fy = d.fy + (nodes[i].r * Math.sin(dataOrg[distI] * dataOrgI[distI] * (Math.PI / 180)));
               dataOrgI[distI] += 1;
             }
           }
@@ -163,12 +162,12 @@ class Network extends Component {
               .data(r)
               .enter()
               .append('circle')
-              .attr('r', d => d.r * this.state.zoom.scaleFactor)
+              .attr('r', element => element.r * this.state.zoom.scaleFactor)
               .attr('fill', 'none')
               .attr('stroke', 'grey')
               .attr('opacity', 0.3)
-              .attr('cx', this.state.zoom.translation[0] + this.state.zoom.scaleFactor * d.fx)
-              .attr('cy', this.state.zoom.translation[1] + this.state.zoom.scaleFactor * d.fy);
+              .attr('cx', this.state.zoom.translation[0] + (this.state.zoom.scaleFactor * d.fx))
+              .attr('cy', this.state.zoom.translation[1] + (this.state.zoom.scaleFactor * d.fy));
 
             this.setState({
               ...this.state,
@@ -180,8 +179,8 @@ class Network extends Component {
           } else {
             this.state.d3Viz.orbits
               .attr('r', element => element.r * this.state.zoom.scaleFactor)
-              .attr('cx', this.state.zoom.translation[0] + this.state.zoom.scaleFactor * this.state.centered.fx)
-              .attr('cy', this.state.zoom.translation[1] + this.state.zoom.scaleFactor * this.state.centered.fy);
+              .attr('cx', this.state.zoom.translation[0] + (this.state.zoom.scaleFactor * this.state.centered.fx))
+              .attr('cy', this.state.zoom.translation[1] + (this.state.zoom.scaleFactor * this.state.centered.fy));
           }
         });
       })
@@ -217,13 +216,13 @@ class Network extends Component {
     simulation.nodes(nodes)
       .on('tick', () => {
         link
-          .attr('x1', d => this.state.zoom.translation[0] + this.state.zoom.scaleFactor * d.source.x)
-          .attr('y1', d => this.state.zoom.translation[1] + this.state.zoom.scaleFactor * d.source.y)
-          .attr('x2', d => this.state.zoom.translation[0] + this.state.zoom.scaleFactor * d.target.x)
-          .attr('y2', d => this.state.zoom.translation[1] + this.state.zoom.scaleFactor * d.target.y);
+          .attr('x1', d => this.state.zoom.translation[0] + (this.state.zoom.scaleFactor * d.source.x))
+          .attr('y1', d => this.state.zoom.translation[1] + (this.state.zoom.scaleFactor * d.source.y))
+          .attr('x2', d => this.state.zoom.translation[0] + (this.state.zoom.scaleFactor * d.target.x))
+          .attr('y2', d => this.state.zoom.translation[1] + (this.state.zoom.scaleFactor * d.target.y));
         node
-          .attr('cx', d => this.state.zoom.translation[0] + this.state.zoom.scaleFactor * d.x)
-          .attr('cy', d => this.state.zoom.translation[1] + this.state.zoom.scaleFactor * d.y);
+          .attr('cx', d => this.state.zoom.translation[0] + (this.state.zoom.scaleFactor * d.x))
+          .attr('cy', d => this.state.zoom.translation[1] + (this.state.zoom.scaleFactor * d.y));
       });
     simulation.force('link').links(this.state.links);
     simulation.restart();
@@ -233,7 +232,7 @@ class Network extends Component {
   }
 
   createMagnet(word) {
-    const randomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+    const randomNumber = (min, max) => Math.floor(Math.random() * ((max - min) + 1)) + min;
     let id = `m${randomNumber(0, 9)}${randomNumber(0, 9)}${randomNumber(0, 9)}${randomNumber(0, 9)}${randomNumber(0, 9)}`;
     const { magnetNodes } = this.state;
     for (let i = 0; i < magnetNodes.length; i += 1) {
@@ -274,7 +273,7 @@ class Network extends Component {
           d.fx = null;
           d.fy = null;
         }));
-    
+
     magnetLabels.selectAll('.magnet-label')
       .data(magnetNodes, d => d.id)
       .enter()
@@ -289,11 +288,11 @@ class Network extends Component {
 
     simulationMagnets.on('tick', () => {
       magnets.selectAll('.magnet-node')
-        .attr('cx', d => this.state.zoom.translation[0] + this.state.zoom.scaleFactor * d.x)
-        .attr('cy', d => this.state.zoom.translation[1] + this.state.zoom.scaleFactor * d.y);
+        .attr('cx', d => this.state.zoom.translation[0] + (this.state.zoom.scaleFactor * d.x))
+        .attr('cy', d => this.state.zoom.translation[1] + (this.state.zoom.scaleFactor * d.y));
       magnetLabels.selectAll('.magnet-label')
-        .attr('x', d => this.state.zoom.translation[0] + this.state.zoom.scaleFactor * d.x)
-        .attr('y', d => this.state.zoom.translation[1] + this.state.zoom.scaleFactor * d.y);
+        .attr('x', d => this.state.zoom.translation[0] + (this.state.zoom.scaleFactor * d.x))
+        .attr('y', d => this.state.zoom.translation[1] + (this.state.zoom.scaleFactor * d.y));
     });
 
 
@@ -360,8 +359,8 @@ class Network extends Component {
           if (this.state.d3Viz.orbits) {
             this.state.d3Viz.orbits
               .attr('r', d => d.r * scaleFactor)
-              .attr('cx', translation[0] + scaleFactor * this.state.centered.fx)
-              .attr('cy', translation[1] + scaleFactor * this.state.centered.fy);
+              .attr('cx', translation[0] + (scaleFactor * this.state.centered.fx))
+              .attr('cy', translation[1] + (scaleFactor * this.state.centered.fy));
           }
         });
       }).scaleExtent([0.1, 10]))
@@ -388,9 +387,9 @@ class Network extends Component {
 
   handleResize() {
     // eslint-disable-next-line no-undef
-    const height = document.getElementById('window-network2-content').clientHeight;
+    const height = document.getElementById('window-network-content').clientHeight;
     // eslint-disable-next-line no-undef
-    const width = document.getElementById('window-network2-content').clientWidth;
+    const width = document.getElementById('window-network-content').clientWidth;
 
     this.setState({ ...this.state, width, height });
 
@@ -411,14 +410,7 @@ class Network extends Component {
     activeStyle.opacity = isActive ? '0.8' : '1';
 
     return connectDropTarget(
-      <div className="drag-wrapper" >
-        <div className="LayoutHandle handle text-vert-center">
-          <span>Network</span>
-        </div>
-        <div id="window-network2-content" style={activeStyle} className="content no-cursor text-vert-center">
-          <div className="mount" ref={(element) => { this.mountNetwork = element; }} />
-        </div>
-      </div>,
+      <div className="mount" ref={(element) => { this.mountNetwork = element; }} />,
     );
   }
 }
@@ -454,6 +446,10 @@ Network.propTypes = {
     value: PropTypes.number,
   })).isRequired,
   hoverNode: PropTypes.func.isRequired,
+  canDrop: PropTypes.bool.isRequired,
+  isOver: PropTypes.bool.isRequired,
+  connectDropTarget: PropTypes.func.isRequired,
+
 };
 
 export default sizeMe({ monitorHeight: true })(dragWrapper);

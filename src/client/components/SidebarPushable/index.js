@@ -1,16 +1,13 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Sidebar, Menu, Checkbox, Button, Header, Dimmer, Loader, Popup } from 'semantic-ui-react';
 
-import QueryAbstract from 'components/QueryAbstract';
+import QueryAbstract from '../QueryAbstract';
 
 const style = {};
 
 style.shadow = {
   boxShadow: 'none',
-};
-
-style.menu = {
-  // maxHeight: '100vh',
 };
 
 style.popup = {
@@ -22,7 +19,7 @@ class SidebarPushable extends React.Component {
   componentWillReceiveProps = (props) => {
     const { results } = props;
     if (results && results.length) {
-      results.forEach(d => d.checkBox = false);
+      results.forEach((d) => { d.checkBox = false; });
       this.setState({ results });
     }
   }
@@ -37,8 +34,8 @@ class SidebarPushable extends React.Component {
   }
 
   handleButtonSave = () => {
-    let ticked = [];
-    this.state.results.forEach(d => d.checkBox ? ticked.push(d.pmid) : null);
+    const ticked = [];
+    this.state.results.forEach(d => (d.checkBox ? ticked.push(d.pmid) : null));
     this.props.saveResults(ticked);
     this.props.closeSidebar();
   }
@@ -115,7 +112,25 @@ class SidebarPushable extends React.Component {
 }
 
 SidebarPushable.propTypes = {
+  closeSidebar: PropTypes.func.isRequired,
+  saveResults: PropTypes.func.isRequired,
+  queryLoading: PropTypes.bool.isRequired,
+  visible: PropTypes.bool.isRequired,
+  children: PropTypes.oneOfType([
+    PropTypes.arrayOf(PropTypes.element),
+    PropTypes.element,
+  ]),
+  results: PropTypes.arrayOf(PropTypes.shape({
+    abstract: PropTypes.string.isRequired,
+    authors: PropTypes.string.isRequired,
+    pmid: PropTypes.number.isRequired,
+    pubDate: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+  })).isRequired,
+};
 
+SidebarPushable.defaultProps = {
+  children: [],
 };
 
 export default SidebarPushable;

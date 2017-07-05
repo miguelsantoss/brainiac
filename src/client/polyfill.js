@@ -1,4 +1,4 @@
-/* eslint-disable no-undef, max-len, no-mixed-operators, no-param-reassign */
+/* eslint-disable no-undef, max-len, no-mixed-operators */
 if (!Element.prototype.scrollIntoViewIfNeeded) {
   Element.prototype.scrollIntoViewIfNeeded = function (centerIfNeeded) {
     centerIfNeeded = arguments.length === 0 ? true : !!centerIfNeeded;
@@ -27,4 +27,4 @@ if (!Element.prototype.scrollIntoViewIfNeeded) {
   };
 }
 
-/* eslint-enable no-undef */
+/* eslint-enable no-undef, max-len, no-mixed-operators */

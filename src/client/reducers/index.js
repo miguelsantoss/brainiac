@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux';
 import { layout } from './layout';
-import { documents } from './documents';
+import { documentDb } from './documents';
 
 const rootReducer = combineReducers({
   layout,
-  documents,
+  documentDb,
 });
 
 export default rootReducer;

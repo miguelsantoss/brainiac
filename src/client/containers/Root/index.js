@@ -2,8 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Provider } from 'react-redux';
 
-import AppLayout from 'containers/AppLayout';
-import 'css/styles';
+import AppLayout from '../AppLayout';
+import './styles.scss';
 
 const Root = ({ store }) => (
   <Provider store={store} >
@@ -12,7 +12,7 @@ const Root = ({ store }) => (
 );
 
 Root.propTypes = {
-  store: PropTypes.object.isRequired,
+  store: PropTypes.object.isRequired, // eslint-disable-line react/forbid-prop-types
 };
 
 export default Root;

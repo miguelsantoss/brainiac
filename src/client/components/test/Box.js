@@ -15,8 +15,8 @@ const boxSource = {
   },
 
   endDrag(props, monitor) {
-    const item = monitor.getItem();
-    const dropResult = monitor.getDropResult();
+    const item = monitor.getItem(); // eslint-disable-line no-unused-vars
+    const dropResult = monitor.getDropResult(); // eslint-disable-line no-unused-vars
   },
 };
 

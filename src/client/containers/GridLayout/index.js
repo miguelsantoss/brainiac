@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Responsive, WidthProvider } from 'react-grid-layout';
 
-import 'css/layout.scss';
-import 'css/d3viz.scss';
+import './layout.scss';
+import './d3viz.scss';
 
 const ResponsiveReactGridLayout = WidthProvider(Responsive);
 

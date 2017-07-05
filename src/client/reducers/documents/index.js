@@ -1,38 +1,36 @@
 import _ from 'lodash';
-import { 
+import {
     DOC_FETCH_DOCUMENTS_DB_SUCCESS,
     DOC_FETCH_DOCUMENTS_DB_FAIL,
     DOC_FETCH_DOCUMENTS_DB_LOADING,
-    DOC_QUERY_DOCUMENTS_SCHOLAR_SUCCESS,
-    DOC_QUERY_DOCUMENTS_SCHOLAR_FAIL,
-    DOC_QUERY_DOCUMENTS_SCHOLAR_LOADING,
     DOC_QUERY_DOCUMENTS_PUBMED_SUCCESS,
     DOC_QUERY_DOCUMENTS_PUBMED_FAIL,
     DOC_QUERY_DOCUMENTS_PUBMED_LOADING,
     DOC_QUERY_DOCUMENT_INFO_PUBMED_SUCCESS,
     DOC_QUERY_DOCUMENT_INFO_PUBMED_FAIL,
     DOC_QUERY_DOCUMENT_INFO_PUBMED_LOADING,
-    DOC_QUERY_DOCUMENT_ABSTRACT_PUBMED_SUCCESS,
-    DOC_QUERY_DOCUMENT_ABSTRACT_PUBMED_FAIL,
-    DOC_QUERY_DOCUMENT_ABSTRACT_PUBMED_LOADING,
     DB_FILTER_BY_DATE,
-} from 'actions/documents';
-import { APP_INIT } from 'actions/common';
+} from '../../actions/documents';
+import { APP_INIT } from '../../actions/common';
 
 export const initialState = {
   documents: [],
-  documentDbLoading: false,
-  errorLoadingDocDb: false,
-  queryRequest: false,
-  queryLoading: false,
   db: {
-    documents: {},
+    documents: {
+      cluster_words_lsa: [],
+      cluster_words_tfidf: [],
+      filter: '',
+      nodes: [],
+      filteredNodes: [],
+      links: [],
+      topics_lda: [],
+      topics_nmf: [],
+    },
     loading: false,
     errorLoading: false,
   },
   query: {
     pubmed: {
-      request: false,
       loading: false,
       errorLoading: false,
       results: [],
@@ -47,8 +45,11 @@ export const initialState = {
   },
 };
 
-export function documents (state = initialState, action) {
-  let documents, id, result;
+export function documentDb(state = initialState, action) {
+  let documents;
+  let f;
+  let min;
+  let max;
   switch (action.type) {
     case APP_INIT:
       return {
@@ -152,9 +153,9 @@ export function documents (state = initialState, action) {
         },
       };
     case DB_FILTER_BY_DATE:
-      const min = action.result[0];
-      const max = action.result[1];
-      const f = _.cloneDeep(state.db.documents.nodes).filter(doc => {
+      min = action.result[0];
+      max = action.result[1];
+      f = _.cloneDeep(state.db.documents.nodes).filter((doc) => {
         const date = parseInt(doc.date.slice(0, 4), 10);
         if (date >= min && date <= max) {
           return true;

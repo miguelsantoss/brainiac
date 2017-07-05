@@ -3,7 +3,7 @@ import {
   searchDocumentsPubmed,
   searchDocumentsScholar,
   getDocumentInfoPubmed,
-} from 'api/apiCalls';
+} from '../../api/apiCalls';
 
 export const DOC_FETCH_DOCUMENTS_DB_SUCCESS = 'DOC_FETCH_DOCUMENTS_DB_SUCCESS';
 export const DOC_FETCH_DOCUMENTS_DB_FAIL = 'DOC_FETCH_DOCUMENTS_DB_FAIL';

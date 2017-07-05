@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 import { Menu, Input, Icon, Popup, Loader } from 'semantic-ui-react';
-import Box from 'components/test/Box';
+import Box from '../test/Box';
 
-import keyboardKey from 'lib/keyboardKey';
+import keyboardKey from '../../lib/keyboardKey';
 
-import 'css/DocumentList.scss';
-import pkg from '../../../package.json';
+import './DocumentList.scss';
+import pkg from '../../../../package.json';
 
 const style = {};
 
@@ -124,9 +123,6 @@ class SidebarFixed extends Component {
   render() {
     const { style, closeSidebarButtonVisible, closeSidebarButtonHandle, queryLoading } = this.props;
     const { query } = this.state;
-    const loaderStyle = {
-
-    };
     return (
       <Menu vertical fixed="left" inverted style={style}>
         <Menu.Item>

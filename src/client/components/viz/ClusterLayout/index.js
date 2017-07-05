@@ -8,7 +8,7 @@ import { drag } from 'd3-drag';
 import { range } from 'd3-array';
 import * as d3Scale from 'd3-scale';
 import * as d3Zoom from 'd3-zoom';
-import * as d3Cluster from 'd3-force-cluster';
+import * as d3Cluster from 'd3-force-cluster'; // eslint-disable-line import/extensions
 
 // import css
 // import '../css/Network.scss';
@@ -30,7 +30,7 @@ class ClusterLayout extends Component {
     this.filterNodes = this.filterNodes.bind(this);
   }
 
-  componentDidMount() {
+  componentWillMount() {
     const height = document.getElementById('window-cluster-content').clientHeight; // eslint-disable-line no-undef
     const width = document.getElementById('window-cluster-content').clientWidth; // eslint-disable-line no-undef
 
@@ -203,14 +203,7 @@ class ClusterLayout extends Component {
 
   render() {
     return (
-      <div className="drag-wrapper">
-        <div className="LayoutHandle handle text-vert-center">
-          <span>ClusterLayout</span>
-        </div>
-        <div id="window-cluster-content" className="content no-cursor text-vert-center">
-          <div className="mount" ref={(r) => { this.mountClusterLayout = r; }} />
-        </div>
-      </div>
+      <div className="mount" ref={(r) => { this.mountClusterLayout = r; }} />
     );
   }
 }
