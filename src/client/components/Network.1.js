@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import sizeMe from 'react-sizeme';
 import { DropTarget } from 'react-dnd';
 
@@ -12,7 +13,7 @@ import * as d3Ease from 'd3-ease';
 const boxTarget = {
   drop(props, monitor, component) {
     const item = monitor.getItem();
-    component.createMagnet(item);
+    component.state.d3Viz.svg.dispatch('click', { detail: item });
   },
 };
 
@@ -23,33 +24,6 @@ const r = [{ r: 75 }, { r: 150 }, { r: 225 }, { r: 300 }];
 
 
 class Network extends Component {
-  static propTypes = {
-    nodes: React.PropTypes.arrayOf(React.PropTypes.shape({
-      id: React.PropTypes.string,
-      title: React.PropTypes.string,
-      authors: React.PropTypes.arrayOf(React.PropTypes.shape({
-        name: React.PropTypes.string,
-      })),
-      date: React.PropTypes.string,
-      value: React.PropTypes.number,
-    })).isRequired,
-    filteredNodes: React.PropTypes.arrayOf(React.PropTypes.shape({
-      id: React.PropTypes.string,
-      title: React.PropTypes.string,
-      authors: React.PropTypes.arrayOf(React.PropTypes.shape({
-        name: React.PropTypes.string,
-      })),
-      date: React.PropTypes.string,
-      value: React.PropTypes.number,
-    })).isRequired,
-    links: React.PropTypes.arrayOf(React.PropTypes.shape({
-      source: React.PropTypes.any,
-      target: React.PropTypes.any,
-      value: React.PropTypes.number,
-    })).isRequired,
-    hoverNode: React.PropTypes.func.isRequired,
-  }
-
   constructor(props) {
     super(props);
     this.state = {
@@ -92,7 +66,7 @@ class Network extends Component {
 
   setupNetwork() {
     const nodes = this.props.filteredNodes;
-    const { svg, simulation, simulationMagnets } = this.state.d3Viz;
+    const { svg, simulation } = this.state.d3Viz;
     const { width, height } = this.state;
     const { scaleFactor, translation } = this.state.zoom;
 
@@ -234,6 +208,12 @@ class Network extends Component {
           }
         }));
 
+    const magnets = svg.append('g')
+      .attr('class', 'magnets');
+
+    const magnetLabels = svg.append('g')
+      .attr('class', 'magnetLabels');
+
     simulation.nodes(nodes)
       .on('tick', () => {
         link
@@ -248,7 +228,7 @@ class Network extends Component {
     simulation.force('link').links(this.state.links);
     simulation.restart();
 
-    const d3Viz = { svg, link, node, simulation, simulationMagnets };
+    const d3Viz = { ...this.state.d3Viz, svg, link, node, simulation, magnets, magnetLabels };
     this.setState({ ...this.state, d3Viz, init: true });
   }
 
@@ -263,19 +243,14 @@ class Network extends Component {
       }
     }
 
-    const { svg, simulationMagnets } = this.state.d3Viz;
-    // const mouseCoords = mouse(svg.node());
+    const { svg, simulationMagnets, magnets, magnetLabels } = this.state.d3Viz;
 
     magnetNodes.push({
       id,
-      text: word.name,
-      // x: mouseCoords[0],
-      // y: mouseCoords[1],
+      text: word,
     });
 
-    const magnets = svg.append('g')
-      .attr('class', 'magnets')
-      .selectAll('.magnet-node')
+    magnets.selectAll('.magnet-node')
       .data(magnetNodes, d => d.id)
       .enter()
       .append('circle')
@@ -299,10 +274,8 @@ class Network extends Component {
           d.fx = null;
           d.fy = null;
         }));
-
-    const magnetLabels = svg.append('g')
-      .attr('class', 'magnetLabels')
-      .selectAll('.magnet-label')
+    
+    magnetLabels.selectAll('.magnet-label')
       .data(magnetNodes, d => d.id)
       .enter()
       .append('text')
@@ -314,12 +287,11 @@ class Network extends Component {
       .style('font-size', '12px')
       .text(d => d.text);
 
-
     simulationMagnets.on('tick', () => {
-      magnets
+      magnets.selectAll('.magnet-node')
         .attr('cx', d => this.state.zoom.translation[0] + this.state.zoom.scaleFactor * d.x)
         .attr('cy', d => this.state.zoom.translation[1] + this.state.zoom.scaleFactor * d.y);
-      magnetLabels
+      magnetLabels.selectAll('.magnet-label')
         .attr('x', d => this.state.zoom.translation[0] + this.state.zoom.scaleFactor * d.x)
         .attr('y', d => this.state.zoom.translation[1] + this.state.zoom.scaleFactor * d.y);
     });
@@ -364,6 +336,10 @@ class Network extends Component {
       .attr('overflow', 'hidden')
       .attr('id', 'network2-svg-element')
       .on('click', () => {
+        if (event.detail.name) {
+          const mouseCoords = mouse(this.state.d3Viz.svg.node()); // eslint-disable-line no-unused-vars, max-len
+          this.createMagnet(event.detail.name);
+        }
         if (event.ctrlKey) {
           console.log('Ctrl+click has just happened!');
           this.state.d3Viz.node.attr('fx', null).attr('fy', null).attr('r', 5);
@@ -452,5 +428,32 @@ const dragWrapper = DropTarget('box', boxTarget, (connect, monitor) => ({
   isOver: monitor.isOver(),
   canDrop: monitor.canDrop(),
 }))(Network);
+
+Network.propTypes = {
+  nodes: PropTypes.arrayOf(PropTypes.shape({
+    id: PropTypes.string,
+    title: PropTypes.string,
+    authors: PropTypes.arrayOf(PropTypes.shape({
+      name: PropTypes.string,
+    })),
+    date: PropTypes.string,
+    value: PropTypes.number,
+  })).isRequired,
+  filteredNodes: PropTypes.arrayOf(PropTypes.shape({
+    id: PropTypes.string,
+    title: PropTypes.string,
+    authors: PropTypes.arrayOf(PropTypes.shape({
+      name: PropTypes.string,
+    })),
+    date: PropTypes.string,
+    value: PropTypes.number,
+  })).isRequired,
+  links: PropTypes.arrayOf(PropTypes.shape({
+    source: PropTypes.any,
+    target: PropTypes.any,
+    value: PropTypes.number,
+  })).isRequired,
+  hoverNode: PropTypes.func.isRequired,
+};
 
 export default sizeMe({ monitorHeight: true })(dragWrapper);

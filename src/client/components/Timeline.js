@@ -1,5 +1,6 @@
 // Import React stuff
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import sizeMe from 'react-sizeme';
 
 // Import d3 stuff
@@ -11,10 +12,11 @@ import * as d3Sel from 'd3-selection';
 import { extent } from 'd3-array';
 import * as d3Axis from 'd3-axis';
 import * as d3Voronoi from 'd3-voronoi';
-import * as d3Transition from 'd3-transition'
+import * as d3Transition from 'd3-transition';
 import * as d3Timer from 'd3-timer';
+import * as d3Brush from 'd3-brush';
 // import * as d3Format from 'd3-format';
-// import * as d3Time from 'd3-time';
+import * as d3Time from 'd3-time';
 
 // import css
 import '../css/Timeline.scss';
@@ -25,28 +27,6 @@ const marginLeft = 20;
 const forceYspaceCollide = 1.5;
 
 class Timeline extends Component {
-  static propTypes = {
-    nodes: React.PropTypes.arrayOf(React.PropTypes.shape({
-      id: React.PropTypes.string,
-      title: React.PropTypes.string,
-      authors: React.PropTypes.arrayOf(React.PropTypes.shape({
-        name: React.PropTypes.string,
-      })),
-      date: React.PropTypes.string,
-      value: React.PropTypes.number,
-    })).isRequired,
-    filteredNodes: React.PropTypes.arrayOf(React.PropTypes.shape({
-      id: React.PropTypes.string,
-      title: React.PropTypes.string,
-      authors: React.PropTypes.arrayOf(React.PropTypes.shape({
-        name: React.PropTypes.string,
-      })),
-      date: React.PropTypes.string,
-      value: React.PropTypes.number,
-    })).isRequired,
-    hoverNode: React.PropTypes.func.isRequired,
-  }
-
   constructor(props) {
     super(props);
     this.state = {
@@ -61,18 +41,18 @@ class Timeline extends Component {
   }
 
   componentDidMount() {
-    const height = document.getElementById('window-timeline-content').clientHeight;
-    const width = document.getElementById('window-timeline-content').clientWidth;
+    const height = document.getElementById('window-timeline-content').clientHeight; // eslint-disable-line no-undef
+    const width = document.getElementById('window-timeline-content').clientWidth; // eslint-disable-line no-undef
 
-    this.state.nodes.forEach(d => {
+    this.state.nodes.forEach((d) => {
       d.radius = 4;
       d.defaultRadius = 4;
-    })
+    });
 
     this.setState({
       ...this.state,
       width,
-      height
+      height,
     }, () => {
       this.initializeD3();
     });
@@ -87,6 +67,20 @@ class Timeline extends Component {
     console.log(this);
   }
 
+  createBrush(x = this.state.d3Viz.x) {
+    const { width, height } = this.state;
+    return d3Brush.brushX()
+      .extent([[0, 0], [width, height]])
+      .on('end', () => {
+        if (!d3Sel.event.sourceEvent) return; // Only transition after input.
+        if (!d3Sel.event.selection) return;
+        const d0 = d3Sel.event.selection.map(x.invert);
+        const d1 = d0.map(n => Math.round(n));
+        this.props.filterByDate(d1);
+        this.state.d3Viz.brushG.transition().call(d3Sel.event.target.move, d1.map(x));
+      });
+  }
+
   initializeD3() {
     const mountPoint = this.mountTimeline;
     const width = this.state.width;
@@ -96,7 +90,7 @@ class Timeline extends Component {
     const nodeData = this.state.nodes;
     const nTicks = Math.ceil(width * 0.01);
 
-    const x = d3Scale.scaleLinear().rangeRound([0, width - (marginRight + marginLeft)]);
+    const x = d3Scale.scaleLinear().range([marginLeft, width - (marginRight + marginLeft)]);
     x.domain(extent(nodeData, d => d.date.slice(0, 4)));
 
     const svg = d3Sel.select(mountPoint)
@@ -107,7 +101,7 @@ class Timeline extends Component {
       .attr('id', 'timeline-svg-element');
 
     const g = svg.append('g')
-      .attr('transform', 'translate(20,0)');
+      .attr('transform', `translate(${0},0)`);
 
     const simulation = d3Force.forceSimulation(nodeData)
       .force('x', d3Force.forceX(d => x(d.date.slice(0, 4))).strength(1))
@@ -122,34 +116,35 @@ class Timeline extends Component {
       .attr('transform', () => `translate(0,${height - marginBottom})`)
       .call(d3Axis.axisBottom(x).ticks(nTicks, ''));
 
-    var t = d3Transition.transition()
-        .duration(750);
+    // const t = d3Transition.transition()
+    //     .duration(750);
 
-    var voronoi = d3Voronoi.voronoi()
+    const voronoi = d3Voronoi.voronoi()
         .x(d => d.x)
         .y(d => d.y)
         .extent([[0, 0], [width, height]]);
 
     const voronoiG = g.append('g').attr('class', 'voronoi-path');
-    
+
     const voronoiGroup = voronoiG
       .selectAll('.voronoi')
       .data(voronoi(nodeData).polygons(), d => d.data.id);
 
     voronoiGroup.enter().append('path')
           .attr('class', 'voronoi')
-          .attr('d', d => d ? 'M' + d.join('L') + 'Z' : null)
-          .on('mouseover', d => {
+          .attr('d', d => (d ? `M${d.join('L')}Z` : null))
+          .on('mouseover', (d) => {
             this.props.hoverNode(d.data, true);
           })
-          .on('mouseout', d => {
+          .on('mouseout', (d) => {
             this.props.hoverNode(d.data, false);
           });
 
     const nodes = g.append('g')
       .attr('class', 'timeline-nodes')
       .selectAll('timeline-node').data(nodeData, d => d.id)
-      .enter().append('circle')
+      .enter()
+      .append('circle')
       .attr('class', 'timeline-node')
       .attr('r', d => d.defaultRadius)
       .attr('cx', d => d.x)
@@ -162,25 +157,36 @@ class Timeline extends Component {
         this.props.hoverNode(d, false);
       });
 
-    const d3Viz = { svg, g, x, xAxis, simulation, nodes, t, voronoiG };
+    const brush = this.createBrush(x);
+
+    const brushG = svg.append('g')
+      .attr('class', 'timeline-brush')
+      .call(brush);
+
+    const d3Viz = { svg, g, x, xAxis, simulation, nodes, voronoiG, brushG };
     this.setState({ ...this.state, d3Viz, init: true });
   }
 
   handleResize() {
     if (!this.state.init) return;
-    const height = document.getElementById('window-timeline-content').clientHeight;
-    const width = document.getElementById('window-timeline-content').clientWidth;
+    const height = document.getElementById('window-timeline-content').clientHeight; // eslint-disable-line no-undef
+    const width = document.getElementById('window-timeline-content').clientWidth; // eslint-disable-line no-undef
     const nTicks = Math.ceil(width * 0.01);
     const nodeRadius = this.state.nodeRadius;
     const forceYcollide = nodeRadius + forceYspaceCollide;
     const nodeData = this.state.nodes;
-    const { t, g, voronoiG } = this.state.d3Viz;
-
-    this.setState({ ...this.state, width, height });
+    const { voronoiG } = this.state.d3Viz;
 
     this.state.d3Viz.svg
       .attr('width', width)
       .attr('height', height);
+
+    const brush = this.createBrush();
+    this.state.d3Viz.brushG.remove();
+
+    const brushG = this.state.d3Viz.svg.append('g')
+      .attr('class', 'timeline-brush')
+      .call(brush);
 
     this.state.d3Viz.x.rangeRound([0, width - (marginRight + marginLeft)]);
 
@@ -200,16 +206,18 @@ class Timeline extends Component {
     this.state.d3Viz.nodes.attr('cx', d => d.x);
     this.state.d3Viz.nodes.attr('cy', d => d.y);
 
-    var voronoi = d3Voronoi.voronoi()
+    const voronoi = d3Voronoi.voronoi()
         .x(d => d.x)
         .y(d => d.y)
         .extent([[0, 0], [width, height]]);
-    
+
     const voronoiGroup = voronoiG.selectAll('.voronoi')
       .data(voronoi(nodeData).polygons(), d => d.data.id);
 
     voronoiGroup
-          .attr('d', d => d ? 'M' + d.join('L') + 'Z' : null)
+          .attr('d', d => (d ? `M${d.join('L')}Z` : null));
+
+    this.setState({ ...this.state, width, height, d3Viz: { ...this.state.d3Viz, brushG } });
   }
 
   filterNodes() {
@@ -222,17 +230,43 @@ class Timeline extends Component {
   }
 
   render() {
+    const style = {
+      paddingLeft: '5px',
+    };
     return (
       <div className="drag-wrapper">
         <div className="LayoutHandle handle text-vert-center">
           <span>Timeline</span>
         </div>
-        <div id="window-timeline-content" className="content text-vert-center">
+        <div id="window-timeline-content" style={style} className="content text-vert-center">
           <div className="mount" ref={(r) => { this.mountTimeline = r; }} />
         </div>
       </div>
     );
   }
 }
+
+Timeline.propTypes = {
+  nodes: PropTypes.arrayOf(PropTypes.shape({
+    id: PropTypes.string,
+    title: PropTypes.string,
+    authors: PropTypes.arrayOf(PropTypes.shape({
+      name: PropTypes.string,
+    })),
+    date: PropTypes.string,
+    value: PropTypes.number,
+  })).isRequired,
+  filteredNodes: PropTypes.arrayOf(PropTypes.shape({
+    id: PropTypes.string,
+    title: PropTypes.string,
+    authors: PropTypes.arrayOf(PropTypes.shape({
+      name: PropTypes.string,
+    })),
+    date: PropTypes.string,
+    value: PropTypes.number,
+  })).isRequired,
+  hoverNode: PropTypes.func.isRequired,
+  filterByDate: PropTypes.func.isRequired,
+};
 
 export default sizeMe({ monitorHeight: true })(Timeline);

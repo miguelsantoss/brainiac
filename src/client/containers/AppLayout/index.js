@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import ReactDOM from 'react-dom';
 import _ from 'lodash';
 import { connect } from 'react-redux';
@@ -11,7 +12,7 @@ import * as d3Ease from 'd3-ease';
 import { selectAll, select } from 'd3-selection';
 
 import { CLOSE_SIDEBAR, OPEN_SIDEBAR } from 'actions/layout';
-import { FETCH_DOCUMENTS, QUERY_DOCUMENTS_PUBMED, QUERY_DOCUMENT_INFO_PUBMED, QUERY_DOCUMENT_ABSTRACT_PUBMED } from 'actions/documents';
+import { FETCH_DOCUMENTS, QUERY_DOCUMENTS_PUBMED, QUERY_DOCUMENT_INFO_PUBMED, QUERY_DOCUMENT_ABSTRACT_PUBMED, FILTER_BY_DATE } from 'actions/documents';
 
 import SidebarFixed from 'components/SidebarFixed';
 import SidebarPushable from 'components/SidebarPushable';
@@ -28,6 +29,15 @@ class AppLayout extends Component {
   toggleVisibility = () => (this.props.sidebarOpened ?
     this.props.closeSidebar() :
     this.props.openSidebar())
+
+  filterByDate = (date) => {
+    const min = date[0];
+    const max = date[1];
+    this.props.filterByDate(min, max);
+    // console.log(filtered);
+    // this.setState({ ...this.state, search: query, filteredNodes: filtered });
+    // this.forceUpdate();
+  }
 
   hoverNode = (d, state, radius = 4, bigRadius = 14) => {
     const hoverTransition = d3Transition.transition().duration(140);
@@ -91,6 +101,7 @@ class AppLayout extends Component {
           gridKey="timeline"
           gridData={{ x: 0, y: 0, w: 12, h: 8, static: false }}
           filteredNodes={_.cloneDeep(documents.filteredNodes)}
+          filterByDate={this.filterByDate}
           {...vizProps}
         />),
       ];
@@ -112,7 +123,7 @@ class AppLayout extends Component {
         {this.props.db.loading ? (
           <Dimmer active inverted>
             <Loader indeterminate>Preparing Files</Loader>
-          </Dimmer>    
+          </Dimmer>
         ) : null}
         {this.vizLayout()}
       </div>
@@ -125,12 +136,12 @@ class AppLayout extends Component {
         <SidebarFixed
           style={style.menu}
           closeSidebarButtonVisible={this.props.sidebarOpened}
-          closeSidebarButtonHandle ={this.toggleVisibility}
+          closeSidebarButtonHandle={this.toggleVisibility}
           queryLoading={query.loading}
           dbDocumentList={documents || {}}
           handleHover={this.hoverNode}
           topicWords={clusterWordsTfidf || []}
-          queryDocuments={(query) => { this.props.queryPubmed(query); this.props.openSidebar(); }}
+          queryDocuments={(documentQuery) => { this.props.queryPubmed(documentQuery); this.props.openSidebar(); }}
           ref={(element) => { this.docListSidebar = element; }}
         />
         <div style={style.main}>
@@ -151,6 +162,17 @@ class AppLayout extends Component {
   }
 }
 
+AppLayout.propTypes = {
+  openSidebar: PropTypes.func.isRequired,
+  closeSidebar: PropTypes.func.isRequired,
+  fetchDocuments: PropTypes.func.isRequired,
+  queryPubmed: PropTypes.func.isRequired,
+  queryDocInfoPubmed: PropTypes.func.isRequired,
+  queryDocAbstractPubmed: PropTypes.func.isRequired,
+  filterByDate: PropTypes.func.isRequired,
+  sidebarOpened: PropTypes.bool.isRequired,
+};
+
 const mapDispatchToProps = dispatch => ({
   openSidebar: () => dispatch(OPEN_SIDEBAR()),
   closeSidebar: () => dispatch(CLOSE_SIDEBAR()),
@@ -158,6 +180,7 @@ const mapDispatchToProps = dispatch => ({
   queryPubmed: query => dispatch(QUERY_DOCUMENTS_PUBMED(query)),
   queryDocInfoPubmed: pmid => dispatch(QUERY_DOCUMENT_INFO_PUBMED(pmid)),
   queryDocAbstractPubmed: pmid => dispatch(QUERY_DOCUMENT_ABSTRACT_PUBMED(pmid)),
+  filterByDate: (min, max) => dispatch(FILTER_BY_DATE(min, max)),
 });
 
 const mapStateToProps = state => ({

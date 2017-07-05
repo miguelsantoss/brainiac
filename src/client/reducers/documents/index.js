@@ -1,3 +1,4 @@
+import _ from 'lodash';
 import { 
     DOC_FETCH_DOCUMENTS_DB_SUCCESS,
     DOC_FETCH_DOCUMENTS_DB_FAIL,
@@ -14,6 +15,7 @@ import {
     DOC_QUERY_DOCUMENT_ABSTRACT_PUBMED_SUCCESS,
     DOC_QUERY_DOCUMENT_ABSTRACT_PUBMED_FAIL,
     DOC_QUERY_DOCUMENT_ABSTRACT_PUBMED_LOADING,
+    DB_FILTER_BY_DATE,
 } from 'actions/documents';
 import { APP_INIT } from 'actions/common';
 
@@ -146,6 +148,26 @@ export function documents (state = initialState, action) {
             ...state.docFetch.pubmed,
             errorLoading: false,
             loading: true,
+          },
+        },
+      };
+    case DB_FILTER_BY_DATE:
+      const min = action.result[0];
+      const max = action.result[1];
+      const f = _.cloneDeep(state.db.documents.nodes).filter(doc => {
+        const date = parseInt(doc.date.slice(0, 4), 10);
+        if (date >= min && date <= max) {
+          return true;
+        }
+        return false;
+      });
+      return {
+        ...state,
+        db: {
+          ...state.db,
+          documents: {
+            ...state.db.documents,
+            filteredNodes: f,
           },
         },
       };
