@@ -15,6 +15,12 @@ import './Timeline.scss';
 const marginBottom = 20;
 const marginRight = 20;
 const marginLeft = 20;
+const padding = {
+  top: 0,
+  right: 20,
+  bottom: 20,
+  left: 20,
+};
 const forceYspaceCollide = 1.5;
 
 class Timeline extends Component {
@@ -78,10 +84,13 @@ class Timeline extends Component {
     // highlight(site && site.data);
   }
 
-  createBrush(x = this.state.d3Viz.x) {
-    const { width, height } = this.state;
+  createBrush(
+    x = this.state.d3Viz.x,
+    plotAreaWidth = this.state.d3Viz.plotAreaWidth,
+    plotAreaHeight = this.state.d3Viz.plotAreaHeight,
+  ) {
     return d3Brush.brushX()
-      .extent([[0, 0], [width, height]])
+      .extent([[0, 0], [plotAreaWidth, plotAreaHeight]])
       .on('end', () => {
         if (!d3Sel.event.sourceEvent) return; // Only transition after input.
         if (!d3Sel.event.selection) {
@@ -102,10 +111,14 @@ class Timeline extends Component {
     const nodeRadius = this.state.nodeRadius;
     const forceYcollide = nodeRadius + forceYspaceCollide;
     const nodeData = this.state.nodes;
-    const nTicks = Math.ceil(width * 0.01);
 
-    const x = d3Scale.scaleLinear().range([marginLeft, width - (marginRight + marginLeft)]);
-    x.domain(extent(nodeData, d => d.date.slice(0, 4)));
+    const plotAreaWidth = width - padding.left - padding.right;
+    const plotAreaHeight = height - padding.top - padding.bottom;
+    const nTicks = Math.round(plotAreaWidth / 60);
+
+    const x = d3Scale.scaleLinear()
+      .rangeRound([0, plotAreaWidth])
+      .domain(extent(nodeData, d => parseInt(d.date.slice(0, 4), 10))).nice();
 
     const svg = d3Sel.select(mountPoint)
       .append('svg')
@@ -115,28 +128,25 @@ class Timeline extends Component {
       .attr('id', 'timeline-svg-element');
 
     const g = svg.append('g')
-      .attr('transform', `translate(${0},0)`);
+      .attr('transform', `translate(${padding.left},0)`);
 
     const simulation = d3Force.forceSimulation(nodeData)
       .force('x', d3Force.forceX(d => x(d.date.slice(0, 4))).strength(1))
-      .force('y', d3Force.forceY(height / 2))
+      .force('y', d3Force.forceY(plotAreaHeight / 2))
       .force('collide', d3Force.forceCollide(forceYcollide))
       .stop();
 
     for (let i = 0; i < 120; i += 1) simulation.tick();
 
     const xAxis = g.append('g')
-      .attr('class', 'axis axis--x')
-      .attr('transform', () => `translate(0,${height - marginBottom})`)
+      .attr('class', 'axis axis-x')
+      .attr('transform', () => `translate(0,${plotAreaHeight})`)
       .call(d3Axis.axisBottom(x).ticks(nTicks, ''));
-
-    // const t = d3Transition.transition()
-    //     .duration(750);
 
     const voronoi = d3Voronoi.voronoi()
       .x(d => d.x)
       .y(d => d.y)
-      .size([width, height])(nodeData);
+      .size([plotAreaWidth, plotAreaHeight])(nodeData);
 
     const nodes = g.append('g')
       .attr('class', 'timeline-nodes')
@@ -155,13 +165,24 @@ class Timeline extends Component {
         this.props.hoverNode(d, false);
       });
 
-    const brush = this.createBrush(x);
-
-    const brushG = svg.append('g')
+    const brush = this.createBrush(x, plotAreaWidth, plotAreaHeight);
+    const brushG = g.append('g')
       .attr('class', 'timeline-brush')
       .call(brush);
 
-    const d3Viz = { svg, g, x, xAxis, simulation, nodes, voronoi, brushG, brush };
+    const d3Viz = {
+      svg,
+      g,
+      x,
+      xAxis,
+      simulation,
+      nodes,
+      voronoi,
+      brushG,
+      brush,
+      plotAreaHeight,
+      plotAreaWidth,
+    };
     this.setState({ ...this.state, d3Viz, init: true });
   }
 
@@ -169,11 +190,14 @@ class Timeline extends Component {
     if (!this.state.init) return;
     const height = document.getElementById('window-timeline-content').clientHeight; // eslint-disable-line no-undef
     const width = document.getElementById('window-timeline-content').clientWidth; // eslint-disable-line no-undef
-    const nTicks = Math.ceil(width * 0.01);
     const nodeRadius = this.state.nodeRadius;
     const forceYcollide = nodeRadius + forceYspaceCollide;
     const nodeData = this.state.nodes;
-    const { voronoiG } = this.state.d3Viz;
+
+    const plotAreaWidth = width - padding.left - padding.right;
+    const plotAreaHeight = height - padding.top - padding.bottom;
+    const nTicks = Math.round(plotAreaWidth / 60);
+    const { x } = this.state.d3Viz;
 
     this.state.d3Viz.svg
       .attr('width', width)
@@ -182,7 +206,7 @@ class Timeline extends Component {
     const brush = this.createBrush();
     this.state.d3Viz.brushG.remove();
 
-    const brushG = this.state.d3Viz.svg.append('g')
+    const brushG = this.state.d3Viz.g.append('g')
       .attr('class', 'timeline-brush')
       .call(brush)
       .on('mousemove.voronoi', () => {
@@ -193,16 +217,16 @@ class Timeline extends Component {
         this.hover = null;
       });
 
-    this.state.d3Viz.x.rangeRound([0, width - (marginRight + marginLeft)]);
+    x.rangeRound([0, plotAreaWidth]).nice();
 
     this.state.d3Viz.xAxis.attr('transform', () => {
-      const translate = `translate(0,${height - marginBottom})`;
+      const translate = `translate(0,${plotAreaHeight})`;
       return translate;
-    }).call(d3Axis.axisBottom(this.state.d3Viz.x).ticks(nTicks, ''));
+    }).call(d3Axis.axisBottom(x).ticks(nTicks, ''));
 
     const simulation = d3Force.forceSimulation(nodeData)
       .force('x', d3Force.forceX(d => this.state.d3Viz.x(d.date.slice(0, 4))).strength(1))
-      .force('y', d3Force.forceY(height / 2))
+      .force('y', d3Force.forceY(plotAreaHeight / 2))
       .force('collide', d3Force.forceCollide(forceYcollide))
       .stop();
 
@@ -214,9 +238,21 @@ class Timeline extends Component {
     const voronoi = d3Voronoi.voronoi()
       .x(d => d.x)
       .y(d => d.y)
-      .size([width, height])(nodeData);
+      .size([plotAreaWidth, plotAreaHeight])(nodeData);
 
-    this.setState({ ...this.state, width, height, d3Viz: { ...this.state.d3Viz, brushG, brush, voronoi } });
+    this.setState({
+      ...this.state,
+      width,
+      height,
+      d3Viz: {
+        ...this.state.d3Viz,
+        brushG,
+        brush,
+        voronoi,
+        plotAreaHeight,
+        plotAreaWidth,
+      },
+    });
   }
 
   filterNodes() {

@@ -14,7 +14,7 @@ style.menu = {
   paddingBottom: '1em',
   // match menu background
   // prevents a white background when items are filtered out by search
-  background: '#1B1C1D',
+  background: '#3b5998',
   overflowY: 'auto',
 };
 
