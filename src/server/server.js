@@ -4,9 +4,12 @@ import fs from 'fs';
 import cors from 'cors';
 import multer from 'multer';
 import compression from 'compression';
+import bodyParser from 'body-parser';
 import morgan from 'morgan';
 import PythonShell from 'python-shell';
 import ncbi from 'node-ncbi';
+import spawn from 'child_process';
+// import apiRoutes from './routes';
 
 import pdfIdGenerator from './utils';
 
@@ -34,13 +37,15 @@ const upload = multer({ storage });
 const app = express();
 app.use(cors());
 app.use(compression());
+app.use(bodyParser.json());
+
+// app.use('/', apiRoutes);
 
 if (process.env.NODE_ENV === 'development') {
   app.use(morgan('dev'));
 } else if (process.env.NODE_ENV === 'production') {
   app.use(morgan('combined'));
 }
-
 
 const server = app.listen(4000, () => {
   const port = server.address().port;
@@ -90,17 +95,6 @@ app.get('/search', (req, res) => {
   }
 });
 
-app.get('/docinfo', (req, res) => {
-  if (req.query.s && req.query.s === 'scholar') {
-    // todo: doc info google search
-  } else if (req.query.id && req.query.s === 'pubmed') {
-    const pubmed = ncbi.pubmed;
-    pubmed.summary(req.query.id).then(results => res.json(results));
-  } else {
-    res.send('Specify s and id fields, like /docinfo?id=1234567&s=pubmed');
-  }
-});
-
 app.get('/abstract', (req, res) => {
   if (req.query.s && req.query.s === 'scholar') {
     // todo: google search
@@ -130,6 +124,74 @@ app.post('/pdf/upload', upload.single('pdf'), (req, res) => {
   res.end();
 });
 
+app.post('/updateViz', (req, res) => {
+  const { docIds } = req.body;
+  const pubmed = ncbi.pubmed;
+  const infoPromises = [];
+  const abstractPromises = [];
+  docIds.forEach((doc) => {
+    infoPromises.push(pubmed.summary(doc));
+    abstractPromises.push(pubmed.abstract(doc));
+  });
+
+  const vizInfo = {
+    nodes: [],
+    links: [],
+  };
+  Promise.all(infoPromises).then((docs) => {
+    Promise.all(abstractPromises).then((abstracts) => {
+      docs.forEach((doc, i) => {
+        const node = {
+          id: `pub${doc.pmid}`,
+          title: doc.title,
+          authors: doc.authors.split(', '),
+          abstract: abstracts[i],
+        };
+        vizInfo.nodes.push(node);
+      });
+      const vizInfoWrite = JSON.stringify(vizInfo);
+      const writeAbstracts = [];
+      abstracts.forEach((abs, i) => {
+        writeAbstracts.push(new Promise((resolve, reject) => {
+          fs.writeFile(path.resolve(path.join(__dirname, '/corpus/pubmed/'), `pub${docs[i].pmid}.txt`), abs, (err) => {
+            if (err) reject(err);
+            resolve(abs);
+          });
+        }));
+      });
+      const nodeWrite = new Promise((resolve, reject) => {
+        fs.writeFile(path.resolve(path.join(__dirname, '/corpus/pubmed/'), 'documents.json'), vizInfoWrite, 'utf8', (err) => {
+          if (err) reject(err);
+          resolve(vizInfoWrite);
+        });
+      });
+      Promise.all(writeAbstracts).then(() => {
+        nodeWrite.then(() => {
+          const options = {
+            mode: 'text',
+            pythonPath: '/usr/bin/python',
+            pythonOptions: ['-u'],
+            scriptPath: path.resolve(__dirname),
+            args: [
+              '--path', path.join(__dirname, 'corpus/pubmed'),
+              '--node-info', path.resolve(path.join(__dirname, 'corpus/pubmed'), 'documents.json'),
+              '--save', path.resolve(path.join(__dirname, 'corpus/pubmed'), 'vizUpdate.json'),
+              '--word-list', path.resolve(path.join(__dirname, 'utils'), 'wordsEn.txt'),
+            ],
+          };
+          PythonShell.run('text.py', options, (err, results) => {
+            if (err) throw err;
+            // results is an array consisting of messages collected during execution
+            // console.log('results: ', results);
+            console.log(results);
+            res.sendFile(path.resolve(path.join(__dirname, 'corpus/pubmed'), 'vizUpdate.json'));
+          });
+        });
+      });
+    });
+  });
+});
+
 app.get('*', (req, res) => {
-  res.send('wrong_request');
+  res.status(404);
 });

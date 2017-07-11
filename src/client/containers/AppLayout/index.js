@@ -18,6 +18,7 @@ import {
   QUERY_DOCUMENT_ABSTRACT_PUBMED,
   FILTER_BY_DATE,
   CLEAR_FILTER_BY_DATE,
+  UPDATE_VISUALIZATION_WITH_DOCS,
 } from '../../actions/documents';
 
 import SidebarFixed from '../../components/SidebarFixed';
@@ -32,7 +33,10 @@ import VizContainer from '../../containers/VizContainer';
 import style from './style';
 
 class AppLayout extends Component {
-  componentWillMount = () => this.props.fetchDocuments()
+  state = { magnets: false };
+  componentWillMount = () => {
+    this.props.fetchDocuments();
+  }
   toggleVisibility = () => (this.props.sidebarOpened ?
     this.props.closeSidebar() :
     this.props.openSidebar())
@@ -41,11 +45,11 @@ class AppLayout extends Component {
     const hoverTransition = d3Transition.transition().duration(140);
     selectAll(`#${d.id}`).classed('hover-node', state);
     selectAll(`.line-network.${d.id}`).classed('hover-line-network', state);
-    const docListItem = this.docListSidebar._items.get(d.id);
-    ReactDOM.findDOMNode(docListItem).scrollIntoViewIfNeeded(); // eslint-disable-line react/no-find-dom-node, max-len
 
     // On Hover
     if (state) {
+      const docListItem = this.docListSidebar._items.get(d.id);
+      ReactDOM.findDOMNode(docListItem).scrollIntoViewIfNeeded(); // eslint-disable-line react/no-find-dom-node, max-len
       // Animate size on hover, keep bigger than normal at the end
       selectAll(`#${d.id}`)
         .transition(hoverTransition)
@@ -89,6 +93,7 @@ class AppLayout extends Component {
         >
           <Network
             filteredNodes={_.cloneDeep(documents.filteredNodes)}
+            magnets={this.state.magnets}
             {...vizProps}
           />
         </VizContainer>),
@@ -124,10 +129,16 @@ class AppLayout extends Component {
     return (<GridLayout>{[]}</GridLayout>);
   }
 
-  handleSave = (res) => {
+  handleSave = (res, newViz) => {
     if (res && res.length > 0) {
-      res.forEach(d => this.props.queryDocInfoPubmed(d));
+      const docs = { docIds: res };
+      this.props.updateVisualizationWithDocs(docs, newViz);
     }
+  }
+
+  changeMagnetVizState = () => {
+    console.error('not finished yet');
+    // this.setState({ ...this.state, magnets: !this.state.magnets });
   }
 
   render = () => {
@@ -151,6 +162,8 @@ class AppLayout extends Component {
           style={style.menu}
           closeSidebarButtonVisible={this.props.sidebarOpened}
           closeSidebarButtonHandle={this.toggleVisibility}
+          magnetsActive={this.state.magnets}
+          changeMagnetVizState={this.changeMagnetVizState}
           queryLoading={query.loading}
           dbDocumentList={documents || {}}
           handleHover={this.hoverNode}
@@ -169,7 +182,7 @@ class AppLayout extends Component {
             results={query.results}
             queryLoading={query.loading}
             queryError={query.errorLoading}
-            getAbstract={this.props.queryDocAbstractPubmed}
+            zz={this.props.db.zz}
           >
             {children}
           </SidebarPushable>
@@ -184,10 +197,9 @@ AppLayout.propTypes = {
   closeSidebar: PropTypes.func.isRequired,
   fetchDocuments: PropTypes.func.isRequired,
   queryPubmed: PropTypes.func.isRequired,
-  queryDocInfoPubmed: PropTypes.func.isRequired,
-  queryDocAbstractPubmed: PropTypes.func.isRequired,
   filterByDate: PropTypes.func.isRequired,
   clearFilterByDate: PropTypes.func.isRequired,
+  updateVisualizationWithDocs: PropTypes.func.isRequired,
   sidebarOpened: PropTypes.bool.isRequired,
   query: PropTypes.shape({
     pubmed: PropTypes.shape({
@@ -253,6 +265,7 @@ const mapDispatchToProps = dispatch => ({
   queryDocAbstractPubmed: pmid => dispatch(QUERY_DOCUMENT_ABSTRACT_PUBMED(pmid)),
   filterByDate: date => dispatch(FILTER_BY_DATE(date)),
   clearFilterByDate: () => dispatch(CLEAR_FILTER_BY_DATE()),
+  updateVisualizationWithDocs: (docs, newViz) => dispatch(UPDATE_VISUALIZATION_WITH_DOCS(docs, newViz)), // eslint-disable-line max-len
 });
 
 const mapStateToProps = state => ({
@@ -262,6 +275,7 @@ const mapStateToProps = state => ({
     documents: state.documentDb.db.documents,
     loading: state.documentDb.db.loading,
     errorLoading: state.documentDb.db.errorLoading,
+    zz: state.documentDb.db.zz,
   },
   docFetch: state.documentDb.docFetch,
 });

@@ -3,6 +3,7 @@ import {
   searchDocumentsPubmed,
   searchDocumentsScholar,
   getDocumentInfoPubmed,
+  updateVisualizationWithDocs,
 } from '../../api/apiCalls';
 
 export const DOC_FETCH_DOCUMENTS_DB_SUCCESS = 'DOC_FETCH_DOCUMENTS_DB_SUCCESS';
@@ -22,6 +23,10 @@ export const DOC_QUERY_DOCUMENT_INFO_PUBMED_LOADING = 'DOC_QUERY_DOCUMENT_INFO_P
 
 export const DB_FILTER_BY_DATE = 'DB_FILTER_BY_DATE';
 export const DB_CLEAR_FILTER_BY_DATE = 'DB_CLEAR_FILTER_BY_DATE';
+
+export const DB_UPDATE_VISUALIZATION_WITH_DOCS_SUCCESS = 'DB_UPDATE_VISUALIZATION_WITH_DOCS_SUCCESS';
+export const DB_UPDATE_VISUALIZATION_WITH_DOCS_FAIL = 'DB_UPDATE_VISUALIZATION_WITH_DOCS_FAIL';
+export const DB_UPDATE_VISUALIZATION_WITH_DOCS_LOADING = 'DB_UPDATE_VISUALIZATION_WITH_DOCS_LOADING';
 
 export const FETCH_DOCUMENTS = () =>
   (dispatch) => {
@@ -64,3 +69,10 @@ export const CLEAR_FILTER_BY_DATE = dates =>
     dispatch({ type: 'DB_CLEAR_FILTER_BY_DATE', result: dates });
   };
 
+export const UPDATE_VISUALIZATION_WITH_DOCS = (docs, newViz) =>
+  (dispatch) => {
+    dispatch({ type: 'DB_UPDATE_VISUALIZATION_WITH_DOCS_LOADING' });
+    updateVisualizationWithDocs(docs, newViz).then(response => response.json())
+      .then(response => dispatch({ type: 'DB_UPDATE_VISUALIZATION_WITH_DOCS_SUCCESS', result: response }))
+      .catch(err => dispatch({ type: 'DB_UPDATE_VISUALIZATION_WITH_DOCS_FAIL', result: err }));
+  };

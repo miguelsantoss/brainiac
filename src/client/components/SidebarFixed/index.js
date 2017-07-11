@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { Menu, Input, Icon, Popup, Loader } from 'semantic-ui-react';
+import { Menu, Input, Icon, Popup, Loader, Checkbox } from 'semantic-ui-react';
 import Box from '../test/Box';
 
 import keyboardKey from '../../lib/keyboardKey';
@@ -43,22 +43,25 @@ class SidebarFixed extends Component {
   }
 
   renderTopicWords = () => {
-    const { topicWords } = this.props;
+    const { topicWords, magnetsActive } = this.props;
     const getImportantWords = d => d.slice(0, 3);
-
+    if (!magnetsActive) return null;
     return (
       <Menu.Item>
-        <Menu.Header>Words per Topic</Menu.Header>
-        <Menu.Menu>
-          {
-            topicWords && topicWords.map((topic, topicIndex) =>
-            getImportantWords(topic).map((word, wordIndex) => (
-              (
-                <Box key={`${word}${topicIndex}${wordIndex}`} name={word} /> // eslint-disable-line react/no-array-index-key
-              )),
-            ))
-          }
-        </Menu.Menu>
+        {
+          magnetsActive ? (
+            <Menu.Menu>
+              {
+                topicWords && topicWords.map((topic, topicIndex) =>
+                getImportantWords(topic).map((word, wordIndex) => (
+                  (
+                    <Box key={`${word}${topicIndex}${wordIndex}`} name={word} /> // eslint-disable-line react/no-array-index-key
+                  )),
+                ))
+              }
+            </Menu.Menu>
+          ) : null
+        }
       </Menu.Item>
     );
   }
@@ -123,6 +126,7 @@ class SidebarFixed extends Component {
   render() {
     const { style, closeSidebarButtonVisible, closeSidebarButtonHandle, queryLoading } = this.props;
     const { query } = this.state;
+    const { magnetsActive } = this.props;
     return (
       <Menu vertical fixed="left" inverted style={style}>
         <Menu.Item>
@@ -133,7 +137,7 @@ class SidebarFixed extends Component {
           {
             closeSidebarButtonVisible && (!queryLoading ?
             (<Icon inverted name="arrow left" onClick={closeSidebarButtonHandle} />)
-            : (<Loader active inline size="tiny" as={Icon} />))
+            : (<Loader active inverted inline size="tiny" as={Icon} />))
           }
         </Menu.Item>
         <Menu.Item>
@@ -146,6 +150,17 @@ class SidebarFixed extends Component {
             onKeyDown={this.handleSearchKeyDown}
           />
         </Menu.Item>
+        <Menu.Item>
+          <span>Words per Topic</span>
+          <Icon
+            inverted
+            name={magnetsActive ? 'toggle on' : 'toggle off'}
+            size="large"
+            disabled={!magnetsActive}
+            link={magnetsActive}
+            onClick={() => this.props.changeMagnetVizState()}
+          />
+        </Menu.Item>
         {this.renderTopicWords()}
         {this.renderListOfFiles()}
       </Menu>
@@ -156,11 +171,13 @@ class SidebarFixed extends Component {
 SidebarFixed.propTypes = {
   queryDocuments: PropTypes.func.isRequired,
   handleHover: PropTypes.func.isRequired,
+  changeMagnetVizState: PropTypes.func.isRequired,
   closeSidebarButtonHandle: PropTypes.func.isRequired,
   closeSidebarButtonVisible: PropTypes.bool.isRequired,
   dbDocumentList: PropTypes.object.isRequired, // eslint-disable-line react/forbid-prop-types
   topicWords: PropTypes.arrayOf(PropTypes.arrayOf(PropTypes.string)).isRequired,
   queryLoading: PropTypes.bool.isRequired,
+  magnetsActive: PropTypes.bool.isRequired,
 };
 
 export default SidebarFixed;

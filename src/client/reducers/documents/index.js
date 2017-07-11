@@ -11,6 +11,9 @@ import {
     DOC_QUERY_DOCUMENT_INFO_PUBMED_LOADING,
     DB_FILTER_BY_DATE,
     DB_CLEAR_FILTER_BY_DATE,
+    DB_UPDATE_VISUALIZATION_WITH_DOCS_SUCCESS,
+    DB_UPDATE_VISUALIZATION_WITH_DOCS_FAIL,
+    DB_UPDATE_VISUALIZATION_WITH_DOCS_LOADING,
 } from '../../actions/documents';
 import { APP_INIT } from '../../actions/common';
 
@@ -29,6 +32,7 @@ export const initialState = {
     },
     loading: false,
     errorLoading: false,
+    zz: [],
   },
   query: {
     pubmed: {
@@ -183,6 +187,38 @@ export function documentDb(state = initialState, action) {
             ...state.db.documents,
             filteredNodes: f,
           },
+        },
+      };
+    case DB_UPDATE_VISUALIZATION_WITH_DOCS_SUCCESS:
+      documents = { ...action.result };
+      console.log(documents);
+      documents.nodes.forEach((d) => { d.radius = 4; });
+      documents.filteredNodes = [...documents.nodes];
+      documents.filter = '';
+      return {
+        ...state,
+        db: {
+          documents,
+          errorLoading: false,
+          loading: false,
+        },
+      };
+    case DB_UPDATE_VISUALIZATION_WITH_DOCS_FAIL:
+      return {
+        ...state,
+        db: {
+          ...state.db,
+          errorLoading: true,
+          loading: false,
+        },
+      };
+    case DB_UPDATE_VISUALIZATION_WITH_DOCS_LOADING:
+      return {
+        ...state,
+        db: {
+          ...state.db,
+          errorLoading: false,
+          loading: true,
         },
       };
     default:

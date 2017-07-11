@@ -4,6 +4,7 @@ import os
 import numpy as np
 import codecs, json
 import random, math
+import argparse
 
 from nltk.stem.porter import PorterStemmer
 from nltk.stem.wordnet import WordNetLemmatizer
@@ -96,13 +97,13 @@ def documentAnalysis(path):
     return token_dict, file_names
 
 def main():
-    path = 'example/txt2'
-    #  path = 'example/txt2'
-    # real data
-    path = 'corpus_test/txt'
-    path = 'corpus/txt'
+    parser = argparse.ArgumentParser(description='Text processing')
+    parser.add_argument('--path', dest='path', default='corpus/txt')
+
+    args = parser.parse_args()
+    
     print('Loading Documents...')
-    token_dictionary, file_names = documentAnalysis(path)
+    token_dictionary, file_names = documentAnalysis(args.path)
 
     # Init variables:
     num_clusters = 10

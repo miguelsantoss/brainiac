@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Sidebar, Menu, Checkbox, Button, Header, Dimmer, Loader, Popup } from 'semantic-ui-react';
+import { Sidebar, Menu, Checkbox, Button, Header, Dimmer, Loader, Popup, Label } from 'semantic-ui-react';
 
 import QueryAbstract from '../QueryAbstract';
 
@@ -16,6 +16,10 @@ style.popup = {
 };
 
 class SidebarPushable extends React.Component {
+  state = {
+    results: [],
+  }
+
   componentWillReceiveProps = (props) => {
     const { results } = props;
     if (results && results.length) {
@@ -33,15 +37,30 @@ class SidebarPushable extends React.Component {
     this.props.closeSidebar();
   }
 
-  handleButtonSave = () => {
+  handleButtonSave = (newViz) => {
     const ticked = [];
     this.state.results.forEach(d => (d.checkBox ? ticked.push(d.pmid) : null));
-    this.props.saveResults(ticked);
+    this.props.saveResults(ticked, newViz);
     this.props.closeSidebar();
   }
 
+  handleSelectAllClick = (checked) => {
+    const { results } = this.props;
+    const newValue = results.length !== checked;
+    results.forEach(e => e.checkBox = newValue); // eslint-disable-line no-return-assign
+    this.setState(this.state);
+  }
+
   renderResults = () => {
-    const { queryLoading, results } = this.props;
+    const { queryLoading } = this.props;
+    const { results } = this.state;
+    const checkSelection = (res) => {
+      let count = 0;
+      res.forEach(e => (e.checkBox ? count += 1 : null)); // eslint-disable-line no-return-assign
+      if (count === 0) return { icon: 'square outline', checked: count };
+      else if (count === res.length) return { icon: 'checkmark box', checked: count };
+      return { icon: 'minus square outline', checked: count };
+    };
     if (queryLoading) {
       return (
         <Dimmer active inverted>
@@ -49,6 +68,7 @@ class SidebarPushable extends React.Component {
         </Dimmer>
       );
     } else if (results.length > 0) {
+      const { icon, checked } = checkSelection(results);
       const items = results.map((docItem) => {
         const header = (
           <Menu.Header>
@@ -83,8 +103,10 @@ class SidebarPushable extends React.Component {
           {items}
           <Menu.Item>
             <Button.Group>
-              <Button onClick={this.handleButtonCancel}>Cancel</Button>
-              <Button onClick={this.handleButtonSave} positive>Save</Button>
+              <Button negative onClick={() => this.handleButtonCancel()}>Cancel</Button>
+              <Button positive onClick={() => this.handleButtonSave(true)}>Create New</Button>
+              <Button positive onClick={() => this.handleButtonSave(false)}>Append</Button>
+              <Button icon={icon} content="Select all" onClick={() => this.handleSelectAllClick(checked)} />
             </Button.Group>
           </Menu.Item>
         </Menu.Item>

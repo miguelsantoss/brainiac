@@ -12,9 +12,6 @@ import * as d3Brush from 'd3-brush';
 
 import './Timeline.scss';
 
-const marginBottom = 20;
-const marginRight = 20;
-const marginLeft = 20;
 const padding = {
   top: 0,
   right: 20,
@@ -30,6 +27,7 @@ class Timeline extends Component {
       nodes: props.nodes,
       init: false,
       nodeRadius: 4,
+      brush: [],
     };
 
     this.hover = null;
@@ -100,6 +98,7 @@ class Timeline extends Component {
         const d0 = d3Sel.event.selection.map(x.invert);
         const d1 = d0.map(n => Math.round(n));
         this.props.filterByDate(d1);
+        this.setState({ ...this.state, brush: d1 });
         this.state.d3Viz.brushG.transition().call(d3Sel.event.target.move, d1.map(x));
       });
   }
@@ -218,6 +217,10 @@ class Timeline extends Component {
       });
 
     x.rangeRound([0, plotAreaWidth]).nice();
+
+    if (this.state.brush.length) {
+      brushG.transition().call(brush.move, this.state.brush.map(x));
+    }
 
     this.state.d3Viz.xAxis.attr('transform', () => {
       const translate = `translate(0,${plotAreaHeight})`;

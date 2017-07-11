@@ -69,7 +69,7 @@
     "antd": "^2.11.0",
     "axios": "^0.15.3",
     "babel-polyfill": "^6.23.0",
-    "body-parser": "^1.17.1",
+    "body-parser": "^1.17.2",
     "compression": "^1.6.2",
     "cors": "^2.8.3",
     "d3": "^4.7.4",
@@ -149,6 +149,7 @@
   "scripts": {
     "start:client": "babel-node node_modules/webpack-dev-server/bin/webpack-dev-server.js --config webpack.config.js",
     "start:server": "cross-env NODE_ENV=development nodemon src/server/server.js --exec babel-node",
+    "server": "babel-node src/server/server.js",
     "start": "yarn run start:client",
     "prod": "babel-node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=production webpack-dev-server --env.prod=true",
     "build": "babel-node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=production webpack --env.prod=true",

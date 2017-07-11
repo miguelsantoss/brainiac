@@ -339,12 +339,12 @@ class Network extends Component {
           const mouseCoords = mouse(this.state.d3Viz.svg.node()); // eslint-disable-line no-unused-vars, max-len
           this.createMagnet(event.detail.name);
         }
-        if (event.ctrlKey) {
-          console.log('Ctrl+click has just happened!');
-          this.state.d3Viz.node.attr('fx', null).attr('fy', null).attr('r', 5);
-        } else if (event.altKey) {
-          console.log('Alt+click has just happened!');
-        }
+        // if (event.ctrlKey) {
+        //   console.log('Ctrl+click has just happened!');
+        //   this.state.d3Viz.node.attr('fx', null).attr('fy', null).attr('r', 5);
+        // } else if (event.altKey) {
+        //   console.log('Alt+click has just happened!');
+        // }
       })
       .call(d3Zoom.zoom().on('zoom', () => {
         const scaleFactor = event.transform.k;
