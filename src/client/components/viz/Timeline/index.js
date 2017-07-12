@@ -93,6 +93,7 @@ class Timeline extends Component {
         if (!d3Sel.event.sourceEvent) return; // Only transition after input.
         if (!d3Sel.event.selection) {
           this.props.clearFilterByDate();
+          this.setState({ ...this.state, brush: [] });
           return;
         }
         const d0 = d3Sel.event.selection.map(x.invert);
@@ -186,9 +187,13 @@ class Timeline extends Component {
   }
 
   handleResize() {
-    if (!this.state.init) return;
     const height = document.getElementById('window-timeline-content').clientHeight; // eslint-disable-line no-undef
     const width = document.getElementById('window-timeline-content').clientWidth; // eslint-disable-line no-undef
+
+    // if size is the same, or viz is not initialized yet, return
+    if (!this.state.init) return;
+    if (height === this.state.height && width === this.state.width) return;
+
     const nodeRadius = this.state.nodeRadius;
     const forceYcollide = nodeRadius + forceYspaceCollide;
     const nodeData = this.state.nodes;

@@ -6,7 +6,7 @@ import {
 import { APP_INIT } from '../../actions/common';
 
 export const initialState = {
-  sidebarOpened: true,
+  sidebarOpened: false,
   id: '',
 };
 

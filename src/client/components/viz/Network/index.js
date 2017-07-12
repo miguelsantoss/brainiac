@@ -386,13 +386,11 @@ class Network extends Component {
   }
 
   handleResize() {
-    // eslint-disable-next-line no-undef
-    const height = document.getElementById('window-network-content').clientHeight;
-    // eslint-disable-next-line no-undef
-    const width = document.getElementById('window-network-content').clientWidth;
+    const height = document.getElementById('window-network-content').clientHeight; // eslint-disable-line no-undef
+    const width = document.getElementById('window-network-content').clientWidth; // eslint-disable-line no-undef
 
-    this.setState({ ...this.state, width, height });
-
+    // if size is the same, ignore the rest
+    if (height === this.state.height && width === this.state.width) return;
     if (!this.state.init) return;
 
     this.state.d3Viz.svg.attr('width', width).attr('height', height);
