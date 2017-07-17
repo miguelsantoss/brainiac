@@ -19,6 +19,7 @@ import {
   FILTER_BY_DATE,
   CLEAR_FILTER_BY_DATE,
   UPDATE_VISUALIZATION_WITH_DOCS,
+  SORT_DOCUMENTS_BY,
 } from '../../actions/documents';
 
 import SidebarFixed from '../../components/SidebarFixed';
@@ -31,9 +32,11 @@ import ClusterLayout from '../../components/viz/ClusterLayout';
 import VizContainer from '../../containers/VizContainer';
 
 import style from './style';
+import './index.scss';
 
 class AppLayout extends Component {
   state = { magnets: false };
+
   componentWillMount = () => {
     this.props.fetchDocuments();
   }
@@ -48,7 +51,8 @@ class AppLayout extends Component {
 
     // On Hover
     if (state) {
-      const docListItem = this.docListSidebar._items.get(d.id);
+      const docListItem = this.fixedSidebar.docListSidebar._items.get(d.id);
+
       ReactDOM.findDOMNode(docListItem).scrollIntoViewIfNeeded(); // eslint-disable-line react/no-find-dom-node, max-len
       // Animate size on hover, keep bigger than normal at the end
       selectAll(`#${d.id}`)
@@ -172,7 +176,8 @@ class AppLayout extends Component {
             this.props.queryPubmed(documentQuery);
             this.props.openSidebar();
           }}
-          ref={(element) => { this.docListSidebar = element; }}
+          sortDocumentsBy={this.props.sortDocumentsBy}
+          ref={(element) => { this.fixedSidebar = element; }}
         />
         <div style={style.main}>
           <SidebarPushable
@@ -199,6 +204,7 @@ AppLayout.propTypes = {
   queryPubmed: PropTypes.func.isRequired,
   filterByDate: PropTypes.func.isRequired,
   clearFilterByDate: PropTypes.func.isRequired,
+  sortDocumentsBy: PropTypes.func.isRequired,
   updateVisualizationWithDocs: PropTypes.func.isRequired,
   sidebarOpened: PropTypes.bool.isRequired,
   query: PropTypes.shape({
@@ -266,6 +272,7 @@ const mapDispatchToProps = dispatch => ({
   filterByDate: date => dispatch(FILTER_BY_DATE(date)),
   clearFilterByDate: () => dispatch(CLEAR_FILTER_BY_DATE()),
   updateVisualizationWithDocs: (docs, newViz) => dispatch(UPDATE_VISUALIZATION_WITH_DOCS(docs, newViz)), // eslint-disable-line max-len
+  sortDocumentsBy: sortKey => dispatch(SORT_DOCUMENTS_BY(sortKey)),
 });
 
 const mapStateToProps = state => ({

@@ -3,10 +3,3 @@ network:
   roll back from node center
   fix initial zoom
   magnets
- 
-timeline:
-  bush resizing and removing not working well
-
-sidebar:
-  add sorting to document list of the left
-  clarify what is the search for

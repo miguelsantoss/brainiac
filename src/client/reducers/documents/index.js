@@ -1,19 +1,20 @@
 import _ from 'lodash';
 import {
-    DOC_FETCH_DOCUMENTS_DB_SUCCESS,
-    DOC_FETCH_DOCUMENTS_DB_FAIL,
-    DOC_FETCH_DOCUMENTS_DB_LOADING,
-    DOC_QUERY_DOCUMENTS_PUBMED_SUCCESS,
-    DOC_QUERY_DOCUMENTS_PUBMED_FAIL,
-    DOC_QUERY_DOCUMENTS_PUBMED_LOADING,
-    DOC_QUERY_DOCUMENT_INFO_PUBMED_SUCCESS,
-    DOC_QUERY_DOCUMENT_INFO_PUBMED_FAIL,
-    DOC_QUERY_DOCUMENT_INFO_PUBMED_LOADING,
-    DB_FILTER_BY_DATE,
-    DB_CLEAR_FILTER_BY_DATE,
-    DB_UPDATE_VISUALIZATION_WITH_DOCS_SUCCESS,
-    DB_UPDATE_VISUALIZATION_WITH_DOCS_FAIL,
-    DB_UPDATE_VISUALIZATION_WITH_DOCS_LOADING,
+  DOC_FETCH_DOCUMENTS_DB_SUCCESS,
+  DOC_FETCH_DOCUMENTS_DB_FAIL,
+  DOC_FETCH_DOCUMENTS_DB_LOADING,
+  DOC_QUERY_DOCUMENTS_PUBMED_SUCCESS,
+  DOC_QUERY_DOCUMENTS_PUBMED_FAIL,
+  DOC_QUERY_DOCUMENTS_PUBMED_LOADING,
+  DOC_QUERY_DOCUMENT_INFO_PUBMED_SUCCESS,
+  DOC_QUERY_DOCUMENT_INFO_PUBMED_FAIL,
+  DOC_QUERY_DOCUMENT_INFO_PUBMED_LOADING,
+  DB_FILTER_BY_DATE,
+  DB_CLEAR_FILTER_BY_DATE,
+  DB_UPDATE_VISUALIZATION_WITH_DOCS_SUCCESS,
+  DB_UPDATE_VISUALIZATION_WITH_DOCS_FAIL,
+  DB_UPDATE_VISUALIZATION_WITH_DOCS_LOADING,
+  DB_SORT_DOCUMENTS_BY,
 } from '../../actions/documents';
 import { APP_INIT } from '../../actions/common';
 
@@ -219,6 +220,31 @@ export function documentDb(state = initialState, action) {
           ...state.db,
           errorLoading: false,
           loading: true,
+        },
+      };
+    case DB_SORT_DOCUMENTS_BY:
+      f = _.cloneDeep(state.db.documents.nodes);
+      if (action.result === 'title') {
+        f.sort((a, b) => {
+          if (a.title < b.title) return -1;
+          if (a.title > b.title) return 1;
+          return 0;
+        });
+      } else if (action.result === 'date') {
+        f.sort((a, b) => {
+          if (a.date.substring(0, 4) < b.date.substring(0, 4)) return -1;
+          if (a.date.substring(0, 4) > b.date.substring(0, 4)) return 1;
+          return 0;
+        });
+      }
+      return {
+        ...state,
+        db: {
+          ...state.db,
+          documents: {
+            ...state.db.documents,
+            nodes: f,
+          },
         },
       };
     default:

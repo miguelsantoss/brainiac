@@ -1,4 +1,4 @@
-$node-fill: #111111;
+$node-fill: #F0A32F;
 $hover-fill: #ff1111;
 $node-stroke: $node-fill;
 $opacity-normal: 1;
@@ -19,7 +19,6 @@ $stroke-animation: stroke $stroke-animation-time ease;
 
 .network-node {
   // fill: $node-fill;
-  stroke: $node-fill;
   opacity: $opacity-normal;
   cursor: pointer;
   cursor: hand;
