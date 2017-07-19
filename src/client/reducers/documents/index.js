@@ -64,8 +64,14 @@ export function documentDb(state = initialState, action) {
     case DOC_FETCH_DOCUMENTS_DB_SUCCESS:
       documents = { ...action.result };
       documents.nodes.forEach((d) => { d.radius = 4; });
-      documents.filteredNodes = [...documents.nodes];
       documents.filter = '';
+      documents.nodes.sort((a, b) => {
+        if (a.title < b.title) return -1;
+        if (a.title > b.title) return 1;
+        return 0;
+      });
+      f = _.cloneDeep(documents.nodes);
+      documents.filteredNodes = f;
       return {
         ...state,
         db: {
