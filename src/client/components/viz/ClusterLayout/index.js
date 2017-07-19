@@ -8,6 +8,7 @@ import * as d3Drag from 'd3-drag';
 import * as d3Array from 'd3-array';
 import * as d3Scale from 'd3-scale';
 import * as d3Zoom from 'd3-zoom';
+import * as d3Transition from 'd3-transition';
 import * as d3Cluster from 'd3-force-cluster'; // eslint-disable-line import/extensions
 
 import compareArrays from '../../../lib/arrays';
@@ -75,6 +76,19 @@ class ClusterLayout extends Component {
     });
   }
 
+  handleNodeHover = (d, state) => {
+    this.props.hoverNode(d, state);
+  }
+
+  handleResize(newWidth, newHeight, oldWidth, oldHeight) {
+    if (!this.state.init) return;
+    if (newWidth === oldWidth && newHeight === oldHeight) return;
+
+    this.svg.attr('width', newWidth).attr('height', newHeight);
+    this.simulation.force('x', d3Force.forceX(newWidth / 2)).force('y', d3Force.forceY(newHeight / 2));
+    this.simulation.alphaTarget(0.3).restart();
+  }
+
   initializeD3() {
     const { width, height } = this.state;
     const mountPoint = this.mountClusterLayout;
@@ -117,12 +131,12 @@ class ClusterLayout extends Component {
       .attr('fill', d => this.color(d.cluster / 10))
       .on('mouseover', (d) => {
         if (!this.drag) {
-          this.props.hoverNode(d, true);
+          this.handleNodeHover(d, true);
         }
       })
       .on('mouseout', (d) => {
         if (!this.drag) {
-          this.props.hoverNode(d, false);
+          this.handleNodeHover(d, false);
         }
       })
       .call(d3Drag.drag()
@@ -161,15 +175,6 @@ class ClusterLayout extends Component {
       .nodes(nodes);
 
     this.setState({ ...this.state, init: true });
-  }
-
-  handleResize(newWidth, newHeight, oldWidth, oldHeight) {
-    if (!this.state.init) return;
-    if (newWidth === oldWidth && newHeight === oldHeight) return;
-
-    this.svg.attr('width', newWidth).attr('height', newHeight);
-    this.simulation.force('x', d3Force.forceX(newWidth / 2)).force('y', d3Force.forceY(newHeight / 2));
-    this.simulation.alphaTarget(0.3).restart();
   }
 
   render() {

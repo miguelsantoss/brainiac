@@ -148,7 +148,20 @@ class Network extends Component {
     });
   }
 
-  initializeD3() {
+  handleNodeHover = (d, state) => {
+    this.props.hoverNode(d, state);
+  }
+
+  handleResize(newWidth, newHeight, oldWidth, oldHeight) {
+    if (!this.state.init) return;
+    if (newWidth === oldWidth && newHeight === oldHeight) return;
+
+    this.svg.attr('width', newWidth).attr('height', newHeight);
+    this.simulation.force('x', d3Force.forceX(newWidth / 2)).force('y', d3Force.forceY(newHeight / 2));
+    this.simulation.alphaTarget(0.3).restart();
+  }
+
+  initializeD3 = () => {
     const { width, height } = this.state;
     const linkDistanceMult = this.state.height / 2;
     const mountPoint = this.mountNetwork;
@@ -164,8 +177,8 @@ class Network extends Component {
       if (this.orbits) {
         this.orbits
           .attr('r', d => d.r * scaleFactor)
-          .attr('cx', translation[0] + (scaleFactor * this.centered.fx))
-          .attr('cy', translation[1] + (scaleFactor * this.centered.fy));
+          .attr('cx', () => translation[0] + (scaleFactor * this.centered.fx))
+          .attr('cy', () => translation[1] + (scaleFactor * this.centered.fy));
       }
     }).scaleExtent([0.01, 100]);
 
@@ -224,96 +237,118 @@ class Network extends Component {
       .attr('id', d => d.id)
       .on('mouseover', (d) => {
         if (!this.drag) {
+          this.handleNodeHover(d, true, d.radius, d.radius + 10);
           this.props.hoverNode(d, true, d.radius, d.radius + 10);
         }
       })
       .on('mouseout', (d) => {
         if (!this.drag) {
+          this.handleNodeHover(d, false, d.radius, d.radius + 10);
           this.props.hoverNode(d, false, d.radius, d.radius + 10);
         }
       })
       .on('click', (d) => {
         if (d3Sel.event.defaultPrevented) return;
-        this.setState({ ...this.state, centered: d }, () => {
-          const centerTransition = d3Transition.transition().duration(200).ease(d3Ease.easeExp);
+        this.simulation.stop();
+        this.centered = d;
+        const centerTransition = d3Transition.transition().duration(200).ease(d3Ease.easeExp);
 
-          this.node.transition(centerTransition).attr('r', (element) => {
-            element.radius = 4;
-            element.defaultRadius = 4;
-            return element.radius;
-          });
-
-          d.centered = true;
-          d.fx = this.state.width / 2;
-          d.fy = this.state.height / 2;
-          d3Sel.select(`circle#${d.id}`).transition(centerTransition).attr('r', (element) => {
-            element.radius = 15;
-            element.bigRadius = 15;
-            return element.radius;
-          });
-
-          const dataOrg = [[], [], [], []];
-          const dTest = [];
-
-          for (let i = 0; i < nodes.length; i += 1) {
-            if (nodes[i].id !== d.id) {
-              if (d.similarity_values[i] >= 0.25) {
-                const dist = 3 - Math.floor(d.similarity_values[i] / 0.25);
-                dTest.push(dist);
-                const rad = Math.random() * 2 * Math.PI;
-                nodes[i].rad = rad;
-                nodes[i].r = r[dist].r;
-                nodes[i].dist = dist;
-                dataOrg[dist].push(0);
-              } else {
-                const dist = 3;
-                const rad = Math.random() * 2 * Math.PI;
-                nodes[i].rad = rad;
-                nodes[i].r = r[dist].r;
-                nodes[i].dist = dist;
-                dataOrg[dist].push(0);
-              }
-              nodes[i].fixed = true;
-            }
-          }
-
-          const dataOrgI = [0, 0, 0, 0];
-          for (let i = 0; i < dataOrg.length; i += 1) {
-            dataOrg[i] = dataOrg[i].length;
-            dataOrg[i] = 360 / dataOrg[i];
-          }
-
-          for (let i = 0; i < nodes.length; i += 1) {
-            const distI = nodes[i].dist;
-            if (nodes[i].id !== d.id) {
-              // eslint-disable-next-line max-len
-              nodes[i].fx = d.fx + (nodes[i].r * Math.cos(dataOrg[distI] * dataOrgI[distI] * (Math.PI / 180)));
-              // eslint-disable-next-line max-len
-              nodes[i].fy = d.fy + (nodes[i].r * Math.sin(dataOrg[distI] * dataOrgI[distI] * (Math.PI / 180)));
-              dataOrgI[distI] += 1;
-            }
-          }
-
-          if (!this.orbits) {
-            const orbits = this.svg.select('g.orbits').selectAll('circle')
-              .data(r)
-              .enter()
-              .append('circle')
-              .attr('r', element => element.r * this.zoom.scaleFactor)
-              .attr('fill', 'none')
-              .attr('stroke', 'grey')
-              .attr('opacity', 0.3)
-              .attr('cx', this.zoom.translation[0] + (this.zoom.scaleFactor * d.fx))
-              .attr('cy', this.zoom.translation[1] + (this.zoom.scaleFactor * d.fy));
-
-            this.orbits = orbits;
-          } else {
-            this.orbits
-              .attr('r', element => element.r * this.zoom.scaleFactor)
-              .attr('cx', this.zoom.translation[0] + (this.zoom.scaleFactor * this.centered.fx))
-              .attr('cy', this.zoom.translation[1] + (this.zoom.scaleFactor * this.centered.fy));
-          }
+        this.node.transition(centerTransition).attr('r', (element) => {
+          element.radius = 4;
+          element.defaultRadius = 4;
+          return element.radius;
         });
+
+        d.centered = true;
+        d.fx = this.state.width / 2;
+        d.fy = this.state.height / 2;
+
+        d3Sel.select(`circle#${d.id}`).transition(centerTransition).attr('r', (element) => {
+          element.radius = 15;
+          element.bigRadius = 15;
+          return element.radius;
+        });
+
+        const dataOrg = [[], [], [], []];
+        const dTest = [];
+
+        for (let i = 0; i < nodes.length; i += 1) {
+          if (nodes[i].id !== d.id) {
+            if (d.similarity_values[i] >= 0.25) {
+              const daux = 3 - Math.floor(d.similarity_values[i] / 0.25);
+              const dist = daux > 0 ? daux : 0;
+              dTest.push(dist);
+              const rad = Math.random() * 2 * Math.PI;
+              nodes[i].rad = rad;
+              nodes[i].r = r[dist].r;
+              nodes[i].dist = dist;
+              dataOrg[dist].push(0);
+            } else {
+              const dist = 3;
+              const rad = Math.random() * 2 * Math.PI;
+              nodes[i].rad = rad;
+              nodes[i].r = r[dist].r;
+              nodes[i].dist = dist;
+              dataOrg[dist].push(0);
+            }
+            nodes[i].fixed = true;
+          }
+        }
+
+        const dataOrgI = [0, 0, 0, 0];
+        for (let i = 0; i < dataOrg.length; i += 1) {
+          dataOrg[i] = dataOrg[i].length;
+          dataOrg[i] = 360 / dataOrg[i];
+        }
+
+        for (let i = 0; i < nodes.length; i += 1) {
+          const distI = nodes[i].dist;
+          if (nodes[i].id !== d.id) {
+            nodes[i].newfx = d.fx + (nodes[i].r * Math.cos(dataOrg[distI] * dataOrgI[distI] * (Math.PI / 180)));
+            nodes[i].newfy = d.fy + (nodes[i].r * Math.sin(dataOrg[distI] * dataOrgI[distI] * (Math.PI / 180)));
+            nodes[i].fx = nodes[i].newfx;
+            nodes[i].fy = nodes[i].newfy;
+            dataOrgI[distI] += 1;
+          }
+        }
+
+        // this.node.transition().duration(1000)
+        //   .attr('cx', e => this.zoom.translation[0] + (this.zoom.scaleFactor * e.newfx))
+        //   .attr('cy', e => this.zoom.translation[1] + (this.zoom.scaleFactor * e.newfy));
+
+        // this.link.transition().duration(1000)
+        //   .attr('x1', link => this.zoom.translation[0] + (this.zoom.scaleFactor * link.source.newfx))
+        //   .attr('y1', link => this.zoom.translation[1] + (this.zoom.scaleFactor * link.source.newfy))
+        //   .attr('x2', link => this.zoom.translation[0] + (this.zoom.scaleFactor * link.target.newfx))
+        //   .attr('y2', link => this.zoom.translation[1] + (this.zoom.scaleFactor * link.target.newfy));
+
+        if (!this.orbits) {
+          this.orbits = this.svg.select('g.orbits').selectAll('circle')
+            .data(r)
+            .enter()
+            .append('circle')
+            .attr('r', e => e.r * this.zoom.scaleFactor)
+            .attr('fill', 'none')
+            .attr('stroke', 'grey')
+            .attr('opacity', 0.3)
+            .attr('cx', () => this.zoom.translation[0] + (this.zoom.scaleFactor * d.fx))
+            .attr('cy', () => this.zoom.translation[1] + (this.zoom.scaleFactor * d.fy));
+
+          // this.orbits
+          //   .transition()
+          //   .duration(300)
+          //   .delay(200)
+          //   .attr('r', e => e.r * this.zoom.scaleFactor);
+        } else {
+          this.orbits
+            .attr('r', element => element.r * this.zoom.scaleFactor)
+            .attr('cx', () => this.zoom.translation[0] + (this.zoom.scaleFactor * this.centered.fx))
+            .attr('cy', () => this.zoom.translation[1] + (this.zoom.scaleFactor * this.centered.fy));
+        }
+        // this.svg.transition().duration(1500).delay(300)
+        //   .call(zoom.transform, d3Zoom.zoomIdentity
+        //     .translate(145, 77)
+        //     .scale(0.45));
       })
       .call(d3Drag.drag()
         .on('start', (d) => {
@@ -346,6 +381,12 @@ class Network extends Component {
 
     this.simulation.nodes(nodes)
       .on('tick', () => {
+        if (this.centered) {
+          this.node
+            .attr('fx', d => this.zoom.translation[0] + (this.zoom.scaleFactor * d.x))
+            .attr('fy', d => this.zoom.translation[1] + (this.zoom.scaleFactor * d.y));
+          return;
+        }
         this.node
           .attr('cx', d => this.zoom.translation[0] + (this.zoom.scaleFactor * d.x))
           .attr('cy', d => this.zoom.translation[1] + (this.zoom.scaleFactor * d.y));
@@ -365,15 +406,6 @@ class Network extends Component {
         .scale(0.8));
 
     this.setState({ ...this.state, init: true });
-  }
-
-  handleResize(newWidth, newHeight, oldWidth, oldHeight) {
-    if (!this.state.init) return;
-    if (newWidth === oldWidth && newHeight === oldHeight) return;
-
-    this.svg.attr('width', newWidth).attr('height', newHeight);
-    this.simulation.force('x', d3Force.forceX(newWidth / 2)).force('y', d3Force.forceY(newHeight / 2));
-    this.simulation.alphaTarget(0.3).restart();
   }
 
   render() {

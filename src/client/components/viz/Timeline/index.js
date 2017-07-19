@@ -9,6 +9,7 @@ import { extent } from 'd3-array';
 import * as d3Axis from 'd3-axis';
 import * as d3Voronoi from 'd3-voronoi';
 import * as d3Brush from 'd3-brush';
+import * as d3Transition from 'd3-transition';
 
 import compareArrays from '../../../lib/arrays';
 import './Timeline.scss';
@@ -35,6 +36,12 @@ class Timeline extends Component {
 
     this.initializeD3 = this.initializeD3.bind(this);
     this.filterNodes = this.filterNodes.bind(this);
+    this.testFunc = this.testFunc.bind(this);
+  }
+
+  testFunc = () => {
+    console.log('asd');
+    console.log(this);
   }
 
   componentWillMount() {
@@ -93,72 +100,19 @@ class Timeline extends Component {
       });
   }
 
-  initializeD3() {
-    const { width, height } = this.state;
-    const nodeData = this.state.nodes;
-    const mountPoint = this.mountTimeline;
-    const nodeRadius = this.nodeRadius;
+  filterNodes() {
+    const nodes = this.nodes;
+    const filter = this.props.filteredNodes;
+    if (!this.state.init || compareArrays(this.state.nodes, filter)) return;
 
-    const forceYcollide = nodeRadius + forceYspaceCollide;
-    this.plotAreaWidth = width - padding.left - padding.right;
-    this.plotAreaHeight = height - padding.top - padding.bottom;
-    const nTicks = Math.round(this.plotAreaWidth / 60);
+    nodes.attr('class', (d) => {
+      const isPresent = filter.filter(nodeE => nodeE.title === d.title).length > 0;
+      return isPresent ? 'timeline-node' : 'timeline-node node-greyed-out';
+    });
+  }
 
-    this.x = d3Scale.scaleLinear()
-      .rangeRound([0, this.plotAreaWidth])
-      .domain(extent(nodeData, d => parseInt(d.date.slice(0, 4), 10))).nice();
-
-    this.svg = d3Sel.select(mountPoint)
-      .append('svg')
-      .attr('width', width)
-      .attr('height', height)
-      .attr('overflow', 'hidden')
-      .attr('id', 'timeline-svg-element');
-
-    this.g = this.svg.append('g')
-      .attr('transform', `translate(${padding.left},0)`);
-
-    this.simulation = d3Force.forceSimulation(nodeData)
-      .force('x', d3Force.forceX(d => this.x(d.date.slice(0, 4))).strength(1))
-      .force('y', d3Force.forceY(this.plotAreaHeight / 2))
-      .force('collide', d3Force.forceCollide(forceYcollide))
-      .stop();
-
-    for (let i = 0; i < 120; i += 1) this.simulation.tick();
-
-    this.xAxis = this.g.append('g')
-      .attr('class', 'axis axis-x')
-      .attr('transform', () => `translate(0,${this.plotAreaHeight})`)
-      .call(d3Axis.axisBottom(this.x).ticks(nTicks, ''));
-
-    this.voronoi = d3Voronoi.voronoi()
-      .x(d => d.x)
-      .y(d => d.y)
-      .size([this.plotAreaWidth, this.plotAreaHeight])(nodeData);
-
-    this.nodes = this.g.append('g')
-      .attr('class', 'timeline-nodes')
-      .selectAll('timeline-node').data(nodeData, d => d.id)
-      .enter()
-      .append('circle')
-      .attr('class', 'timeline-node')
-      .attr('r', d => d.defaultRadius)
-      .attr('cx', d => d.x)
-      .attr('cy', d => d.y)
-      .attr('id', d => d.id)
-      .on('mouseover', (d) => {
-        this.props.hoverNode(d, true);
-      })
-      .on('mouseout', (d) => {
-        this.props.hoverNode(d, false);
-      });
-
-    this.brush = this.createBrush();
-    this.brushG = this.g.append('g')
-      .attr('class', 'timeline-brush')
-      .call(this.brush);
-
-    this.setState({ ...this.state, init: true });
+  handleNodeHover = (d, state) => {
+    this.props.hoverNode(d, state);
   }
 
   handleResize(newWidth, newHeight, oldWidth, oldHeight) {
@@ -217,15 +171,79 @@ class Timeline extends Component {
       .size([plotAreaWidth, plotAreaHeight])(nodeData);
   }
 
-  filterNodes() {
-    const nodes = this.nodes;
-    const filter = this.props.filteredNodes;
-    if (!this.state.init || compareArrays(this.state.nodes, filter)) return;
+  initializeD3() {
+    const { width, height } = this.state;
+    const nodeData = this.state.nodes;
+    const mountPoint = this.mountTimeline;
+    const nodeRadius = this.nodeRadius;
 
-    nodes.attr('class', (d) => {
-      const isPresent = filter.filter(nodeE => nodeE.title === d.title).length > 0;
-      return isPresent ? 'timeline-node' : 'timeline-node node-greyed-out';
-    });
+    const forceYcollide = nodeRadius + forceYspaceCollide;
+    this.plotAreaWidth = width - padding.left - padding.right;
+    this.plotAreaHeight = height - padding.top - padding.bottom;
+    const nTicks = Math.round(this.plotAreaWidth / 60);
+
+    this.x = d3Scale.scaleLinear()
+      .rangeRound([0, this.plotAreaWidth])
+      .domain(extent(nodeData, d => parseInt(d.date.slice(0, 4), 10))).nice();
+
+    this.svg = d3Sel.select(mountPoint)
+      .append('svg')
+      .attr('width', width)
+      .attr('height', height)
+      .attr('overflow', 'hidden')
+      .attr('id', 'timeline-svg-element');
+
+    this.g = this.svg.append('g')
+      .attr('transform', `translate(${padding.left},0)`);
+
+    this.simulation = d3Force.forceSimulation(nodeData)
+      .force('x', d3Force.forceX(d => this.x(d.date.slice(0, 4))).strength(1))
+      .force('y', d3Force.forceY(this.plotAreaHeight / 2))
+      .force('collide', d3Force.forceCollide(forceYcollide))
+      .stop();
+
+    for (let i = 0; i < 120; i += 1) this.simulation.tick();
+
+    this.xAxis = this.g.append('g')
+      .attr('class', 'axis axis-x')
+      .attr('transform', () => `translate(0,${this.plotAreaHeight})`)
+      .call(d3Axis.axisBottom(this.x).ticks(nTicks, ''));
+
+    this.voronoi = d3Voronoi.voronoi()
+      .x(d => d.x)
+      .y(d => d.y)
+      .size([this.plotAreaWidth, this.plotAreaHeight])(nodeData);
+
+    this.nodes = this.g.append('g')
+      .attr('class', 'timeline-nodes')
+      .selectAll('timeline-node').data(nodeData, d => d.id)
+      .enter()
+      .append('circle')
+      .attr('class', 'timeline-node')
+      .attr('r', d => d.defaultRadius)
+      .attr('cx', d => d.x)
+      .attr('cy', d => d.y)
+      .attr('id', d => d.id)
+      .on('mouseover', (d) => {
+        this.handleNodeHover(d, true);
+      })
+      .on('mouseout', (d) => {
+        this.handleNodeHover(d, false);
+      });
+
+    this.brush = this.createBrush();
+    this.brushG = this.g.append('g')
+      .attr('class', 'timeline-brush')
+      .call(this.brush)
+      .on('mousemove.voronoi', () => {
+        this.mouseMoveHandler();
+      })
+      .on('mouseleave.voronoi', () => {
+        this.props.hoverNode(this.hover, false);
+        this.hover = null;
+      });
+
+    this.setState({ ...this.state, init: true });
   }
 
   render() {

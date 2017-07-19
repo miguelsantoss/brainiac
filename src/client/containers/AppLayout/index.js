@@ -7,8 +7,8 @@ import { Dimmer, Loader } from 'semantic-ui-react';
 import HTML5Backend from 'react-dnd-html5-backend';
 import { DragDropContext } from 'react-dnd';
 
+import * as d3Select from 'd3-selection';
 import * as d3Transition from 'd3-transition';
-import { selectAll, select } from 'd3-selection';
 
 import { CLOSE_SIDEBAR, OPEN_SIDEBAR } from '../../actions/layout';
 import {
@@ -44,38 +44,36 @@ class AppLayout extends Component {
     this.props.closeSidebar() :
     this.props.openSidebar())
 
-  hoverNode = (d, state, radius = 4, bigRadius = 14) => {
+  hoverNode = (d, state) => {
     const hoverTransition = d3Transition.transition().duration(140);
-    selectAll(`#${d.id}`).classed('hover-node', state);
-    selectAll(`.line-network.${d.id}`).classed('hover-line-network', state);
+    d3Select.selectAll(`#${d.id}`).classed('hover-node', state);
+    d3Select.selectAll(`.line-network.${d.id}`).classed('hover-line-network', state);
 
     // On Hover
     if (state) {
       const docListItem = this.fixedSidebar.docListSidebar._items.get(d.id);
-
       ReactDOM.findDOMNode(docListItem).scrollIntoViewIfNeeded(); // eslint-disable-line react/no-find-dom-node, max-len
-      // Animate size on hover, keep bigger than normal at the end
-      selectAll(`#${d.id}`)
+
+      d3Select.selectAll(`circle#${d.id}`)
         .transition(hoverTransition)
-        .attr('r', bigRadius)
+        .attr('r', n => n.radius + 10)
         .delay(20)
         .transition(hoverTransition)
-        .attr('r', radius + 5);
+        .attr('r', n => n.radius + 5);
 
       // Show the tooltip
-      select(this.tooltip)
+      d3Select.select(this.tooltip)
         .style('left', `${event.x + 10}px`) // eslint-disable-line no-undef
         .style('top', `${event.y + 10}px`) // eslint-disable-line no-undef
         .style('display', 'inline-block')
         .html((d.title));
     } else {
-      // On mouseout, animate size back to normal
-      selectAll(`#${d.id}`)
+      d3Select.selectAll(`circle#${d.id}`)
         .transition(hoverTransition)
-        .attr('r', radius);
+        .attr('r', n => n.radius);
 
       // Hide tooltip
-      select(this.tooltip).style('display', 'none');
+      d3Select.select(this.tooltip).style('display', 'none');
     }
   }
 
@@ -98,6 +96,7 @@ class AppLayout extends Component {
             links={_.cloneDeep(documents.links)}
             filteredNodes={_.cloneDeep(documents.filteredNodes)}
             magnets={this.state.magnets}
+            ref={(element) => { this.networkViz = element; }}
             {...vizProps}
           />
         </VizContainer>),
@@ -111,6 +110,7 @@ class AppLayout extends Component {
           <ClusterLayout
             nodes={_.cloneDeep(documents.nodes)}
             filteredNodes={_.cloneDeep(documents.filteredNodes)}
+            ref={(element) => { this.clusterViz = element; }}
             {...vizProps}
           />
         </VizContainer>),
@@ -126,6 +126,7 @@ class AppLayout extends Component {
             filteredNodes={_.cloneDeep(documents.filteredNodes)}
             filterByDate={this.props.filterByDate}
             clearFilterByDate={this.props.clearFilterByDate}
+            ref={(element) => { this.timelineViz = element; }}
             {...vizProps}
           />
         </VizContainer>),
