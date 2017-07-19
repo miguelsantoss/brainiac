@@ -2,13 +2,14 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import sizeMe from 'react-sizeme';
 import { DropTarget } from 'react-dnd';
+import { Icon, Label } from 'semantic-ui-react';
 
 import * as d3Force from 'd3-force';
 import * as d3Sel from 'd3-selection';
 import * as d3Drag from 'd3-drag';
 import * as d3Zoom from 'd3-zoom';
 import * as d3Transition from 'd3-transition';
-import * as d3Ease from 'd3-ease';
+import * as d3Timer from 'd3-timer';
 
 import compareArrays from '../../../lib/arrays';
 import './Network.scss';
@@ -29,6 +30,7 @@ class Network extends Component {
       nodes: props.nodes,
       links: props.links,
       init: false,
+      centered: false,
     };
 
     this.centered = false;
@@ -38,6 +40,7 @@ class Network extends Component {
       scaleFactor: 1,
       translation: [0, 0],
     };
+    this.centerTransition = false;
 
     this.initializeD3 = this.initializeD3.bind(this);
     this.filterNodes = this.filterNodes.bind(this);
@@ -46,6 +49,7 @@ class Network extends Component {
   componentWillMount() {
     const width = document.getElementById('window-network-content').clientWidth; // eslint-disable-line no-undef
     const height = document.getElementById('window-network-content').clientHeight; // eslint-disable-line no-undef
+    this.nodes = this.props.nodes;
     this.setState({ ...this.state, width, height }, () => this.initializeD3());
   }
 
@@ -54,6 +58,111 @@ class Network extends Component {
     const height = document.getElementById('window-network-content').clientHeight; // eslint-disable-line no-undef
     this.handleResize(width, height, this.state.width, this.state.height);
     this.setState({ ...this.state, width, height }, () => this.filterNodes());
+  }
+
+  centerNode = (d) => {
+    if (d3Sel.event.defaultPrevented) return;
+    if (this.centerTransition) return;
+    const nodes = this.nodes;
+    const centerTransition = d3Transition.transition().duration(500);
+
+    this.centered = d;
+    this.centerTransition = true;
+    d.centered = true;
+    d.newfx = this.state.width / 2;
+    d.newfy = this.state.height / 2;
+    d.radius = 15;
+
+    const dataOrg = [[], [], [], []];
+    const dTest = [];
+
+    for (let i = 0; i < nodes.length; i += 1) {
+      if (nodes[i].id !== d.id) {
+        if (d.similarity_values[i] >= 0.25) {
+          const daux = 3 - Math.floor(d.similarity_values[i] / 0.25);
+          const dist = daux > 0 ? daux : 0;
+          dTest.push(dist);
+          const rad = Math.random() * 2 * Math.PI;
+          nodes[i].rad = rad;
+          nodes[i].r = r[dist].r;
+          nodes[i].dist = dist;
+          dataOrg[dist].push(0);
+        } else {
+          const dist = 3;
+          const rad = Math.random() * 2 * Math.PI;
+          nodes[i].rad = rad;
+          nodes[i].r = r[dist].r;
+          nodes[i].dist = dist;
+          dataOrg[dist].push(0);
+        }
+        nodes[i].fixed = true;
+      }
+    }
+
+    const dataOrgI = [0, 0, 0, 0];
+    for (let i = 0; i < dataOrg.length; i += 1) {
+      dataOrg[i] = dataOrg[i].length;
+      dataOrg[i] = 360 / dataOrg[i];
+    }
+
+    for (let i = 0; i < nodes.length; i += 1) {
+      const distI = nodes[i].dist;
+      if (nodes[i].id !== d.id) {
+        nodes[i].newfx = d.newfx + (nodes[i].r * Math.cos(dataOrg[distI] * dataOrgI[distI] * (Math.PI / 180)));
+        nodes[i].newfy = d.newfy + (nodes[i].r * Math.sin(dataOrg[distI] * dataOrgI[distI] * (Math.PI / 180)));
+        nodes[i].radius = nodes[i].defaultRadius;
+        dataOrgI[distI] += 1;
+      }
+    }
+
+    this.node.transition(centerTransition)
+      .attr('r', e => e.radius)
+      .attr('cx', e => this.zoom.translation[0] + (this.zoom.scaleFactor * e.newfx))
+      .attr('cy', e => this.zoom.translation[1] + (this.zoom.scaleFactor * e.newfy))
+      .on('end', (el) => {
+        el.fx = el.newfx;
+        el.fy = el.newfy;
+      });
+
+    this.link.transition(centerTransition)
+      .attr('x1', link => this.zoom.translation[0] + (this.zoom.scaleFactor * link.source.newfx))
+      .attr('y1', link => this.zoom.translation[1] + (this.zoom.scaleFactor * link.source.newfy))
+      .attr('x2', link => this.zoom.translation[0] + (this.zoom.scaleFactor * link.target.newfx))
+      .attr('y2', link => this.zoom.translation[1] + (this.zoom.scaleFactor * link.target.newfy));
+
+    if (!this.orbits) {
+      this.orbits = this.svg.select('g.orbits').selectAll('circle')
+        .data(r)
+        .enter()
+        .append('circle')
+        .attr('r', e => e.r * this.zoom.scaleFactor)
+        .attr('fill', 'none')
+        .attr('stroke', 'grey')
+        .attr('opacity', 0.3)
+        .attr('cx', () => this.zoom.translation[0] + (this.zoom.scaleFactor * d.newfx))
+        .attr('cy', () => this.zoom.translation[1] + (this.zoom.scaleFactor * d.newfy));
+
+      this.orbits.transition(centerTransition).attr('r', e => e.r * this.zoom.scaleFactor);
+    } else {
+      this.orbits
+        .attr('r', element => element.r * this.zoom.scaleFactor)
+        .attr('cx', () => this.zoom.translation[0] + (this.zoom.scaleFactor * this.centered.newfx))
+        .attr('cy', () => this.zoom.translation[1] + (this.zoom.scaleFactor * this.centered.newfy));
+    }
+    this.testTransition = this.svg.transition(centerTransition).delay(550)
+      .call(this.zoomd3.transform, d3Zoom.zoomIdentity
+        .translate(160, 76)
+        .scale(0.45))
+      .on('end', () => {
+        this.centerTransition = false;
+      });
+
+    // sometimes centerFransition isn't set to false
+    // hackky way to make it false and allow hover and other centering
+    d3Timer.timeout(() => {
+      this.centerTransition = false;
+      this.setState({ ...this.state, centered: true });
+    }, 1200);
   }
 
   createMagnet(word) {
@@ -149,7 +258,7 @@ class Network extends Component {
   }
 
   handleNodeHover = (d, state) => {
-    this.props.hoverNode(d, state);
+    if (!this.centerTransition) this.props.hoverNode(d, state);
   }
 
   handleResize(newWidth, newHeight, oldWidth, oldHeight) {
@@ -165,9 +274,9 @@ class Network extends Component {
     const { width, height } = this.state;
     const linkDistanceMult = this.state.height / 2;
     const mountPoint = this.mountNetwork;
-    const nodes = this.props.filteredNodes;
+    const nodes = this.nodes;
 
-    const zoom = d3Zoom.zoom().on('zoom', () => {
+    this.zoomd3 = d3Zoom.zoom().on('zoom', () => {
       const scaleFactor = d3Sel.event.transform.k;
       const translation = [d3Sel.event.transform.x, d3Sel.event.transform.y];
       this.zoom = {
@@ -177,8 +286,8 @@ class Network extends Component {
       if (this.orbits) {
         this.orbits
           .attr('r', d => d.r * scaleFactor)
-          .attr('cx', () => translation[0] + (scaleFactor * this.centered.fx))
-          .attr('cy', () => translation[1] + (scaleFactor * this.centered.fy));
+          .attr('cx', () => translation[0] + (scaleFactor * this.centered.newfx))
+          .attr('cy', () => translation[1] + (scaleFactor * this.centered.newfy));
       }
     }).scaleExtent([0.01, 100]);
 
@@ -200,7 +309,7 @@ class Network extends Component {
         //   console.log('Alt+click has just happened!');
         // }
       })
-      .call(zoom)
+      .call(this.zoomd3)
       .on('dblclick.zoom', null);
 
     this.svg.append('g').attr('class', 'orbits');
@@ -236,120 +345,12 @@ class Network extends Component {
       .attr('r', d => d.radius)
       .attr('id', d => d.id)
       .on('mouseover', (d) => {
-        if (!this.drag) {
-          this.handleNodeHover(d, true, d.radius, d.radius + 10);
-          this.props.hoverNode(d, true, d.radius, d.radius + 10);
-        }
+        if (!this.drag) this.handleNodeHover(d, true);
       })
       .on('mouseout', (d) => {
-        if (!this.drag) {
-          this.handleNodeHover(d, false, d.radius, d.radius + 10);
-          this.props.hoverNode(d, false, d.radius, d.radius + 10);
-        }
+        if (!this.drag) this.handleNodeHover(d, false);
       })
-      .on('click', (d) => {
-        if (d3Sel.event.defaultPrevented) return;
-        this.simulation.stop();
-        this.centered = d;
-        const centerTransition = d3Transition.transition().duration(200).ease(d3Ease.easeExp);
-
-        this.node.transition(centerTransition).attr('r', (element) => {
-          element.radius = 4;
-          element.defaultRadius = 4;
-          return element.radius;
-        });
-
-        d.centered = true;
-        d.fx = this.state.width / 2;
-        d.fy = this.state.height / 2;
-
-        d3Sel.select(`circle#${d.id}`).transition(centerTransition).attr('r', (element) => {
-          element.radius = 15;
-          element.bigRadius = 15;
-          return element.radius;
-        });
-
-        const dataOrg = [[], [], [], []];
-        const dTest = [];
-
-        for (let i = 0; i < nodes.length; i += 1) {
-          if (nodes[i].id !== d.id) {
-            if (d.similarity_values[i] >= 0.25) {
-              const daux = 3 - Math.floor(d.similarity_values[i] / 0.25);
-              const dist = daux > 0 ? daux : 0;
-              dTest.push(dist);
-              const rad = Math.random() * 2 * Math.PI;
-              nodes[i].rad = rad;
-              nodes[i].r = r[dist].r;
-              nodes[i].dist = dist;
-              dataOrg[dist].push(0);
-            } else {
-              const dist = 3;
-              const rad = Math.random() * 2 * Math.PI;
-              nodes[i].rad = rad;
-              nodes[i].r = r[dist].r;
-              nodes[i].dist = dist;
-              dataOrg[dist].push(0);
-            }
-            nodes[i].fixed = true;
-          }
-        }
-
-        const dataOrgI = [0, 0, 0, 0];
-        for (let i = 0; i < dataOrg.length; i += 1) {
-          dataOrg[i] = dataOrg[i].length;
-          dataOrg[i] = 360 / dataOrg[i];
-        }
-
-        for (let i = 0; i < nodes.length; i += 1) {
-          const distI = nodes[i].dist;
-          if (nodes[i].id !== d.id) {
-            nodes[i].newfx = d.fx + (nodes[i].r * Math.cos(dataOrg[distI] * dataOrgI[distI] * (Math.PI / 180)));
-            nodes[i].newfy = d.fy + (nodes[i].r * Math.sin(dataOrg[distI] * dataOrgI[distI] * (Math.PI / 180)));
-            nodes[i].fx = nodes[i].newfx;
-            nodes[i].fy = nodes[i].newfy;
-            dataOrgI[distI] += 1;
-          }
-        }
-
-        // this.node.transition().duration(1000)
-        //   .attr('cx', e => this.zoom.translation[0] + (this.zoom.scaleFactor * e.newfx))
-        //   .attr('cy', e => this.zoom.translation[1] + (this.zoom.scaleFactor * e.newfy));
-
-        // this.link.transition().duration(1000)
-        //   .attr('x1', link => this.zoom.translation[0] + (this.zoom.scaleFactor * link.source.newfx))
-        //   .attr('y1', link => this.zoom.translation[1] + (this.zoom.scaleFactor * link.source.newfy))
-        //   .attr('x2', link => this.zoom.translation[0] + (this.zoom.scaleFactor * link.target.newfx))
-        //   .attr('y2', link => this.zoom.translation[1] + (this.zoom.scaleFactor * link.target.newfy));
-
-        if (!this.orbits) {
-          this.orbits = this.svg.select('g.orbits').selectAll('circle')
-            .data(r)
-            .enter()
-            .append('circle')
-            .attr('r', e => e.r * this.zoom.scaleFactor)
-            .attr('fill', 'none')
-            .attr('stroke', 'grey')
-            .attr('opacity', 0.3)
-            .attr('cx', () => this.zoom.translation[0] + (this.zoom.scaleFactor * d.fx))
-            .attr('cy', () => this.zoom.translation[1] + (this.zoom.scaleFactor * d.fy));
-
-          // this.orbits
-          //   .transition()
-          //   .duration(300)
-          //   .delay(200)
-          //   .attr('r', e => e.r * this.zoom.scaleFactor);
-        } else {
-          this.orbits
-            .attr('r', element => element.r * this.zoom.scaleFactor)
-            .attr('cx', () => this.zoom.translation[0] + (this.zoom.scaleFactor * this.centered.fx))
-            .attr('cy', () => this.zoom.translation[1] + (this.zoom.scaleFactor * this.centered.fy));
-        }
-        // this.svg.transition().duration(1500).delay(300)
-        //   .call(zoom.transform, d3Zoom.zoomIdentity
-        //     .translate(145, 77)
-        //     .scale(0.45));
-      })
+      .on('click', d => this.centerNode(d))
       .call(d3Drag.drag()
         .on('start', (d) => {
           if (!d3Sel.event.active) this.simulation.alphaTarget(0.3).restart();
@@ -359,6 +360,7 @@ class Network extends Component {
           d.fy = d.y;
         })
         .on('drag', (d) => {
+          if (this.centered) return;
           const mouseCoords = d3Sel.mouse(this.svg.node());
           d.fx = (mouseCoords[0] - this.zoom.translation[0]) / this.zoom.scaleFactor;
           d.fy = (mouseCoords[1] - this.zoom.translation[1]) / this.zoom.scaleFactor;
@@ -381,12 +383,6 @@ class Network extends Component {
 
     this.simulation.nodes(nodes)
       .on('tick', () => {
-        if (this.centered) {
-          this.node
-            .attr('fx', d => this.zoom.translation[0] + (this.zoom.scaleFactor * d.x))
-            .attr('fy', d => this.zoom.translation[1] + (this.zoom.scaleFactor * d.y));
-          return;
-        }
         this.node
           .attr('cx', d => this.zoom.translation[0] + (this.zoom.scaleFactor * d.x))
           .attr('cy', d => this.zoom.translation[1] + (this.zoom.scaleFactor * d.y));
@@ -401,23 +397,67 @@ class Network extends Component {
     this.simulation.restart();
 
     this.svg.transition().duration(1500)
-      .call(zoom.transform, d3Zoom.zoomIdentity
-        .translate(35, 26)
+      .call(this.zoomd3.transform, d3Zoom.zoomIdentity
+        .translate(50, 30)
         .scale(0.8));
 
     this.setState({ ...this.state, init: true });
+  }
+
+  resetCentering = () => {
+    const nodes = this.nodes;
+    const centerTransition = d3Transition.transition().duration(500);
+
+    this.node.transition(centerTransition).attr('r', (el) => {
+      el.radius = el.defaultRadius;
+      return el.radius;
+    });
+
+    this.orbits.remove();
+    this.orbits = undefined;
+
+    this.centered.centered = false;
+    this.centered = false;
+
+    for (let i = 0; i < nodes.length; i += 1) {
+      nodes[i].fx = null;
+      nodes[i].fy = null;
+      nodes[i].newfx = null;
+      nodes[i].newfy = null;
+      nodes[i].fixed = false;
+    }
+
+    this.svg.transition().duration(1500).delay(500)
+      .call(this.zoomd3.transform, d3Zoom.zoomIdentity
+        .translate(50, 30)
+        .scale(0.8));
+
+    this.simulation.alphaTarget(1).restart();
+    this.setState({ ...this.state, centered: false });
   }
 
   render() {
     const { canDrop, isOver, connectDropTarget } = this.props;
     const isActive = canDrop && isOver;
 
+    const iconStyle = {
+      position: 'fixed',
+      marginLeft: this.state.width - 79,
+    };
     const activeStyle = {};
     activeStyle.backgroundColor = isActive ? 'darkgreen' : '';
     activeStyle.opacity = isActive ? '0.8' : '1';
 
     return connectDropTarget(
-      <div className="mount" ref={(element) => { this.mountNetwork = element; }} />,
+      <div>
+        {
+          <Label basic style={iconStyle} as="a" size="tiny" onClick={() => this.resetCentering()}>
+            <Icon name="cancel" />
+            Cancel
+          </Label>
+        }
+        <div className="mount" ref={(element) => { this.mountNetwork = element; }} />
+      </div>,
     );
   }
 }
