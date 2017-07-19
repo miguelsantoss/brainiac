@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Responsive, WidthProvider } from 'react-grid-layout';
 
-import './layout.scss';
 import './d3viz.scss';
+import './layout.scss';
 
 const ResponsiveReactGridLayout = WidthProvider(Responsive);
 
@@ -31,24 +31,22 @@ class GridLayout extends Component {
   render() {
     const { children } = this.props;
     return (
-      <div>
-        <ResponsiveReactGridLayout
-          {...this.state.layoutProps}
-          onBreakpointChange={this.onBreakpointChange}
-          onLayoutChange={this.onLayoutChange}
-          draggableHandle={'.LayoutHandle'}
-          measureBeforeMount
-        >
-          {
-            children.length ? children.map((viz) => {
-              const { gridKey, gridData } = viz.props;
-              return (
-                <div key={gridKey} data-grid={gridData}>{viz}</div>
-              );
-            }) : null
-          }
-        </ResponsiveReactGridLayout>
-      </div>
+      <ResponsiveReactGridLayout
+        {...this.state.layoutProps}
+        onBreakpointChange={this.onBreakpointChange}
+        onLayoutChange={this.onLayoutChange}
+        draggableHandle={'.LayoutHandle'}
+        measureBeforeMount
+      >
+        {
+          children.length ? children.map((viz) => {
+            const { gridKey, gridData } = viz.props;
+            return (
+              <div key={gridKey} data-grid={gridData}>{viz}</div>
+            );
+          }) : null
+        }
+      </ResponsiveReactGridLayout>
     );
   }
 }

@@ -32,7 +32,6 @@ import ClusterLayout from '../../components/viz/ClusterLayout';
 import VizContainer from '../../containers/VizContainer';
 
 import style from './style';
-import './index.scss';
 
 class AppLayout extends Component {
   state = { magnets: false };
@@ -44,16 +43,18 @@ class AppLayout extends Component {
     this.props.closeSidebar() :
     this.props.openSidebar())
 
+  scrollToNode = (d) => {
+    const docListItem = this.fixedSidebar.docListSidebar._items.get(d.id);
+    ReactDOM.findDOMNode(docListItem).scrollIntoViewIfNeeded(); // eslint-disable-line react/no-find-dom-node, max-len
+  }
+
   hoverNode = (d, state) => {
     const hoverTransition = d3Transition.transition().duration(140);
     d3Select.selectAll(`#${d.id}`).classed('hover-node', state);
     d3Select.selectAll(`.line-network.${d.id}`).classed('hover-line-network', state);
-
     // On Hover
     if (state) {
-      const docListItem = this.fixedSidebar.docListSidebar._items.get(d.id);
-      ReactDOM.findDOMNode(docListItem).scrollIntoViewIfNeeded(); // eslint-disable-line react/no-find-dom-node, max-len
-
+      this.scrollToNode(d);
       d3Select.selectAll(`circle#${d.id}`)
         .transition(hoverTransition)
         .attr('r', n => n.radius + 10)
@@ -82,6 +83,7 @@ class AppLayout extends Component {
     if (documents.nodes && documents.nodes.length > 0) {
       const vizProps = {
         hoverNode: this.hoverNode,
+        scrollToNode: this.scrollToNode,
       };
       const vizArray = [
         (<VizContainer

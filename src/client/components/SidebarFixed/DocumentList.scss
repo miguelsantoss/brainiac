@@ -1,10 +1,53 @@
 $fill-hover: rgb(255, 255, 255);
 $color-hover: rgb(0, 0, 0);
+$header-color: $fill-hover;
+$text-color: #f2f2f8;
 $fill-animation-time: 0.2s;
 $fill-animation: background-color $fill-animation-time ease;
 $color-animation: color $fill-animation-time ease;
 
+// body .ui.inverted::-webkit-scrollbar-thumb {
+//     background: rgba(255,255,255,.25);
+// }
+// 
+// body ::-webkit-scrollbar {
+//     -webkit-appearance: none;
+//     width: 10px;
+// }
+
+::-webkit-scrollbar {
+	overflow: visible;
+	width: 11px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+	border-width: 4px 6px;
+	min-width: 40px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+	border-width: 6px 4px;
+	min-height: 40px;
+}
+
+::-webkit-scrollbar-corner {
+	background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #1c1368;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: #1c1368;
+}
+
+.header {
+  color: $header-color !important;
+}
+
 .item {
+  color: $text-color !important;
   -webkit-transition: $fill-animation;
      -moz-transition: $fill-animation;
       -ms-transition: $fill-animation;

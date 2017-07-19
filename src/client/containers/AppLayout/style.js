@@ -15,7 +15,7 @@ style.menu = {
   // match menu background
   // prevents a white background when items are filtered out by search
   background: '#30499B',
-  overflowY: 'auto',
+  overflowY: 'scroll',
 };
 
 export default style;

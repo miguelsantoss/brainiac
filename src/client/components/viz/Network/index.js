@@ -451,6 +451,7 @@ class Network extends Component {
     return connectDropTarget(
       <div>
         {
+          this.state.centered &&
           <Label basic style={iconStyle} as="a" size="tiny" onClick={() => this.resetCentering()}>
             <Icon name="cancel" />
             Cancel

@@ -9,7 +9,6 @@ import { extent } from 'd3-array';
 import * as d3Axis from 'd3-axis';
 import * as d3Voronoi from 'd3-voronoi';
 import * as d3Brush from 'd3-brush';
-import * as d3Transition from 'd3-transition';
 
 import compareArrays from '../../../lib/arrays';
 import './Timeline.scss';
@@ -36,12 +35,6 @@ class Timeline extends Component {
 
     this.initializeD3 = this.initializeD3.bind(this);
     this.filterNodes = this.filterNodes.bind(this);
-    this.testFunc = this.testFunc.bind(this);
-  }
-
-  testFunc = () => {
-    console.log('asd');
-    console.log(this);
   }
 
   componentWillMount() {

@@ -1,5 +1,7 @@
-$font-stack: Helvetica, sans-serif;
+$font-stack: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
 $background-color: #222;
+$bottom-border-radius: 2px;
+$handle-color: #545454;
 
 body {
   box-sizing: border-box;
@@ -9,29 +11,37 @@ body {
 }
 
 .drag-wrapper {
-  border: 2px solid #3a3a3a;
-  background: #ddd;
+  border: 2px solid $handle-color;
+  border-bottom-left-radius: $bottom-border-radius;
+  border-bottom-right-radius: $bottom-border-radius;
+  border-radius: $bottom-border-radius;
+  background: #f4f4f4;
   width: 100%;
   height: 100%;
 }
 
 .handle {
-  background: #3a3a3a;
+  font: 100% $font-stack;
+  background: $handle-color;
   width: 100%;
   height: 25px;
-  color: #c5c8c6;
+  color: #f4f4f4;
   font-size: 14px;
 }
 
+.handle > div {
+  font-weight: 600 !important;
+}
+
 .text-vert-center {
-  display: -webkit-flexbox;
+  // display: -webkit-flexbox;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  -webkit-flex-align: center;
-  -ms-flex-align: center;
+  // -webkit-flex-align: center;
+      -ms-flex-align: center;
   -webkit-align-items: center;
-  align-items: center;
+          align-items: center;
   justify-content: center;
 }
 
