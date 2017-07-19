@@ -83,8 +83,6 @@ class AppLayout extends Component {
     const { documents } = this.props.db;
     if (documents.nodes && documents.nodes.length > 0) {
       const vizProps = {
-        nodes: _.cloneDeep(documents.nodes),
-        links: _.cloneDeep(documents.links),
         hoverNode: this.hoverNode,
       };
       const vizArray = [
@@ -96,6 +94,8 @@ class AppLayout extends Component {
           gridData={{ x: 0, y: 0, w: 5, h: 8, static: false }}
         >
           <Network
+            nodes={_.cloneDeep(documents.nodes)}
+            links={_.cloneDeep(documents.links)}
             filteredNodes={_.cloneDeep(documents.filteredNodes)}
             magnets={this.state.magnets}
             {...vizProps}
@@ -109,6 +109,7 @@ class AppLayout extends Component {
           gridData={{ x: 5, y: 0, w: 5, h: 8, static: false }}
         >
           <ClusterLayout
+            nodes={_.cloneDeep(documents.nodes)}
             filteredNodes={_.cloneDeep(documents.filteredNodes)}
             {...vizProps}
           />
@@ -121,6 +122,7 @@ class AppLayout extends Component {
           gridData={{ x: 0, y: 0, w: 12, h: 8, static: false }}
         >
           <Timeline
+            nodes={_.cloneDeep(documents.nodes)}
             filteredNodes={_.cloneDeep(documents.filteredNodes)}
             filterByDate={this.props.filterByDate}
             clearFilterByDate={this.props.clearFilterByDate}
