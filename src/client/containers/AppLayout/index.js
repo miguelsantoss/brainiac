@@ -7,8 +7,8 @@ import { Dimmer, Loader } from 'semantic-ui-react';
 import HTML5Backend from 'react-dnd-html5-backend';
 import { DragDropContext } from 'react-dnd';
 
+import * as d3Select from 'd3-selection';
 import * as d3Transition from 'd3-transition';
-import { selectAll, select } from 'd3-selection';
 
 import { CLOSE_SIDEBAR, OPEN_SIDEBAR } from '../../actions/layout';
 import {
@@ -19,6 +19,7 @@ import {
   FILTER_BY_DATE,
   CLEAR_FILTER_BY_DATE,
   UPDATE_VISUALIZATION_WITH_DOCS,
+  SORT_DOCUMENTS_BY,
 } from '../../actions/documents';
 
 import SidebarFixed from '../../components/SidebarFixed';
@@ -31,9 +32,11 @@ import ClusterLayout from '../../components/viz/ClusterLayout';
 import VizContainer from '../../containers/VizContainer';
 
 import style from './style';
+import './index.scss';
 
 class AppLayout extends Component {
   state = { magnets: false };
+
   componentWillMount = () => {
     this.props.fetchDocuments();
   }
@@ -41,37 +44,36 @@ class AppLayout extends Component {
     this.props.closeSidebar() :
     this.props.openSidebar())
 
-  hoverNode = (d, state, radius = 4, bigRadius = 14) => {
+  hoverNode = (d, state) => {
     const hoverTransition = d3Transition.transition().duration(140);
-    selectAll(`#${d.id}`).classed('hover-node', state);
-    selectAll(`.line-network.${d.id}`).classed('hover-line-network', state);
+    d3Select.selectAll(`#${d.id}`).classed('hover-node', state);
+    d3Select.selectAll(`.line-network.${d.id}`).classed('hover-line-network', state);
 
     // On Hover
     if (state) {
-      const docListItem = this.docListSidebar._items.get(d.id);
+      const docListItem = this.fixedSidebar.docListSidebar._items.get(d.id);
       ReactDOM.findDOMNode(docListItem).scrollIntoViewIfNeeded(); // eslint-disable-line react/no-find-dom-node, max-len
-      // Animate size on hover, keep bigger than normal at the end
-      selectAll(`#${d.id}`)
+
+      d3Select.selectAll(`circle#${d.id}`)
         .transition(hoverTransition)
-        .attr('r', bigRadius)
+        .attr('r', n => n.radius + 10)
         .delay(20)
         .transition(hoverTransition)
-        .attr('r', radius + 5);
+        .attr('r', n => n.radius + 5);
 
       // Show the tooltip
-      select(this.tooltip)
+      d3Select.select(this.tooltip)
         .style('left', `${event.x + 10}px`) // eslint-disable-line no-undef
         .style('top', `${event.y + 10}px`) // eslint-disable-line no-undef
         .style('display', 'inline-block')
         .html((d.title));
     } else {
-      // On mouseout, animate size back to normal
-      selectAll(`#${d.id}`)
+      d3Select.selectAll(`circle#${d.id}`)
         .transition(hoverTransition)
-        .attr('r', radius);
+        .attr('r', n => n.radius);
 
       // Hide tooltip
-      select(this.tooltip).style('display', 'none');
+      d3Select.select(this.tooltip).style('display', 'none');
     }
   }
 
@@ -79,8 +81,6 @@ class AppLayout extends Component {
     const { documents } = this.props.db;
     if (documents.nodes && documents.nodes.length > 0) {
       const vizProps = {
-        nodes: _.cloneDeep(documents.nodes),
-        links: _.cloneDeep(documents.links),
         hoverNode: this.hoverNode,
       };
       const vizArray = [
@@ -92,8 +92,11 @@ class AppLayout extends Component {
           gridData={{ x: 0, y: 0, w: 5, h: 8, static: false }}
         >
           <Network
+            nodes={_.cloneDeep(documents.nodes)}
+            links={_.cloneDeep(documents.links)}
             filteredNodes={_.cloneDeep(documents.filteredNodes)}
             magnets={this.state.magnets}
+            ref={(element) => { this.networkViz = element; }}
             {...vizProps}
           />
         </VizContainer>),
@@ -105,7 +108,9 @@ class AppLayout extends Component {
           gridData={{ x: 5, y: 0, w: 5, h: 8, static: false }}
         >
           <ClusterLayout
+            nodes={_.cloneDeep(documents.nodes)}
             filteredNodes={_.cloneDeep(documents.filteredNodes)}
+            ref={(element) => { this.clusterViz = element; }}
             {...vizProps}
           />
         </VizContainer>),
@@ -117,9 +122,11 @@ class AppLayout extends Component {
           gridData={{ x: 0, y: 0, w: 12, h: 8, static: false }}
         >
           <Timeline
+            nodes={_.cloneDeep(documents.nodes)}
             filteredNodes={_.cloneDeep(documents.filteredNodes)}
             filterByDate={this.props.filterByDate}
             clearFilterByDate={this.props.clearFilterByDate}
+            ref={(element) => { this.timelineViz = element; }}
             {...vizProps}
           />
         </VizContainer>),
@@ -172,7 +179,8 @@ class AppLayout extends Component {
             this.props.queryPubmed(documentQuery);
             this.props.openSidebar();
           }}
-          ref={(element) => { this.docListSidebar = element; }}
+          sortDocumentsBy={this.props.sortDocumentsBy}
+          ref={(element) => { this.fixedSidebar = element; }}
         />
         <div style={style.main}>
           <SidebarPushable
@@ -199,6 +207,7 @@ AppLayout.propTypes = {
   queryPubmed: PropTypes.func.isRequired,
   filterByDate: PropTypes.func.isRequired,
   clearFilterByDate: PropTypes.func.isRequired,
+  sortDocumentsBy: PropTypes.func.isRequired,
   updateVisualizationWithDocs: PropTypes.func.isRequired,
   sidebarOpened: PropTypes.bool.isRequired,
   query: PropTypes.shape({
@@ -266,6 +275,7 @@ const mapDispatchToProps = dispatch => ({
   filterByDate: date => dispatch(FILTER_BY_DATE(date)),
   clearFilterByDate: () => dispatch(CLEAR_FILTER_BY_DATE()),
   updateVisualizationWithDocs: (docs, newViz) => dispatch(UPDATE_VISUALIZATION_WITH_DOCS(docs, newViz)), // eslint-disable-line max-len
+  sortDocumentsBy: sortKey => dispatch(SORT_DOCUMENTS_BY(sortKey)),
 });
 
 const mapStateToProps = state => ({

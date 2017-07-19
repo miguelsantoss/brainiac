@@ -32,6 +32,7 @@
     "babel-types": "^6.25.0",
     "browser-sync": "^2.18.12",
     "chalk": "^1.1.3",
+    "concurrently": "^3.5.0",
     "cross-env": "^5.0.1",
     "css-loader": "^0.28.4",
     "eslint": "^3.19.0",
@@ -150,7 +151,7 @@
     "start:client": "babel-node node_modules/webpack-dev-server/bin/webpack-dev-server.js --config webpack.config.js",
     "start:server": "cross-env NODE_ENV=development nodemon src/server/server.js --exec babel-node",
     "server": "babel-node src/server/server.js",
-    "start": "yarn run start:client",
+    "start": "concurrently --kill-others \"yarn run start:client\" \"yarn run start:server\"",
     "prod": "babel-node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=production webpack-dev-server --env.prod=true",
     "build": "babel-node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=production webpack --env.prod=true",
     "lint": "babel-node node_modules/eslint/bin/eslint.js src/client webpack2.config.js -f table || true"

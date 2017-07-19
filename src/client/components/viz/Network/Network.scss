@@ -1,4 +1,4 @@
-$node-fill: #111111;
+$node-fill: #F0A32F;
 $hover-fill: #ff1111;
 $node-stroke: $node-fill;
 $opacity-normal: 1;
@@ -17,9 +17,14 @@ $opacity-animation: opacity $opacity-animation-time ease;
 $fill-animation: fill $fill-animation-time ease;
 $stroke-animation: stroke $stroke-animation-time ease;
 
+#window-network-content > div {
+  margin: 0 !important;
+  width: 100%;
+  height: 100%;
+}
+
 .network-node {
   // fill: $node-fill;
-  stroke: $node-fill;
   opacity: $opacity-normal;
   cursor: pointer;
   cursor: hand;

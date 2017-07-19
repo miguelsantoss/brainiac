@@ -2,20 +2,22 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import sizeMe from 'react-sizeme';
 import { DropTarget } from 'react-dnd';
+import { Icon, Label } from 'semantic-ui-react';
 
 import * as d3Force from 'd3-force';
-import { select, event, mouse } from 'd3-selection';
-import { drag } from 'd3-drag';
+import * as d3Sel from 'd3-selection';
+import * as d3Drag from 'd3-drag';
 import * as d3Zoom from 'd3-zoom';
 import * as d3Transition from 'd3-transition';
-import * as d3Ease from 'd3-ease';
+import * as d3Timer from 'd3-timer';
 
+import compareArrays from '../../../lib/arrays';
 import './Network.scss';
 
 const boxTarget = {
   drop(props, monitor, component) {
     const item = monitor.getItem();
-    component.state.d3Viz.svg.dispatch('click', { detail: item });
+    component.svg.dispatch('click', { detail: item });
   },
 };
 
@@ -29,253 +31,182 @@ class Network extends Component {
       links: props.links,
       init: false,
       centered: false,
-      drag: false,
-      zoom: {
-        scaleFactor: 1,
-        translation: [0, 0],
-      },
-      magnetNodes: [],
     };
 
+    this.centered = false;
+    this.drag = false;
+    this.magnetNodes = [];
+    this.zoom = {
+      scaleFactor: 1,
+      translation: [0, 0],
+    };
+    this.centerTransition = false;
+
     this.initializeD3 = this.initializeD3.bind(this);
-    this.setupNetwork = this.setupNetwork.bind(this);
     this.filterNodes = this.filterNodes.bind(this);
   }
 
   componentWillMount() {
-    // eslint-disable-next-line no-undef
-    const height = document.getElementById('window-network-content').clientHeight;
-    // eslint-disable-next-line no-undef
-    const width = document.getElementById('window-network-content').clientWidth;
-
-    this.setState({
-      ...this.state,
-      width,
-      height,
-    }, () => {
-      this.initializeD3();
-    });
+    const width = document.getElementById('window-network-content').clientWidth; // eslint-disable-line no-undef
+    const height = document.getElementById('window-network-content').clientHeight; // eslint-disable-line no-undef
+    this.nodes = this.props.nodes;
+    this.setState({ ...this.state, width, height }, () => this.initializeD3());
   }
 
   componentWillReceiveProps() {
-    this.setState({ ...this.state }, () => { this.filterNodes(); });
-    this.handleResize();
+    const width = document.getElementById('window-network-content').clientWidth; // eslint-disable-line no-undef
+    const height = document.getElementById('window-network-content').clientHeight; // eslint-disable-line no-undef
+    this.handleResize(width, height, this.state.width, this.state.height);
+    this.setState({ ...this.state, width, height }, () => this.filterNodes());
   }
 
-  setupNetwork() {
-    const nodes = this.props.filteredNodes;
-    const { svg, simulation } = this.state.d3Viz;
+  centerNode = (d) => {
+    if (d3Sel.event.defaultPrevented) return;
+    if (this.centerTransition) return;
+    const nodes = this.nodes;
+    const centerTransition = d3Transition.transition().duration(500);
 
-    const link = svg.append('g')
-      .attr('class', 'links')
-      .selectAll('line')
-      .data(this.state.links)
-      .enter()
-      .append('line')
-      .attr('class', d => `line-network ${nodes[d.source].id} ${nodes[d.source].id}`)
-      .attr('id', d => d.source.id)
-      .attr('stroke-width', 1.5);
+    this.centered = d;
+    this.centerTransition = true;
+    d.centered = true;
+    d.newfx = this.state.width / 2;
+    d.newfy = this.state.height / 2;
+    d.radius = 15;
 
-    const node = svg.append('g')
-      .attr('class', 'nodes')
-      .selectAll('circle')
-      .data(nodes, d => d.id)
-      .enter()
-      .append('circle')
-      .attr('class', 'network-node')
-      .attr('r', d => d.radius)
-      .attr('id', d => d.id)
-      .on('mouseover', (d) => {
-        if (!this.state.drag) {
-          this.props.hoverNode(d, true, d.radius, d.radius + 10);
+    const dataOrg = [[], [], [], []];
+    const dTest = [];
+
+    for (let i = 0; i < nodes.length; i += 1) {
+      if (nodes[i].id !== d.id) {
+        if (d.similarity_values[i] >= 0.25) {
+          const daux = 3 - Math.floor(d.similarity_values[i] / 0.25);
+          const dist = daux > 0 ? daux : 0;
+          dTest.push(dist);
+          const rad = Math.random() * 2 * Math.PI;
+          nodes[i].rad = rad;
+          nodes[i].r = r[dist].r;
+          nodes[i].dist = dist;
+          dataOrg[dist].push(0);
+        } else {
+          const dist = 3;
+          const rad = Math.random() * 2 * Math.PI;
+          nodes[i].rad = rad;
+          nodes[i].r = r[dist].r;
+          nodes[i].dist = dist;
+          dataOrg[dist].push(0);
         }
-      })
-      .on('mouseout', (d) => {
-        if (!this.state.drag) {
-          this.props.hoverNode(d, false, d.radius, d.radius + 10);
-        }
-      })
-      .on('click', (d) => {
-        if (event.defaultPrevented) return;
-        this.setState({ ...this.state, centered: d }, () => {
-          const centerTransition = d3Transition.transition().duration(200).ease(d3Ease.easeExp);
+        nodes[i].fixed = true;
+      }
+    }
 
-          this.state.d3Viz.node.transition(centerTransition).attr('r', (element) => {
-            element.radius = 4;
-            element.defaultRadius = 4;
-            return element.radius;
-          });
+    const dataOrgI = [0, 0, 0, 0];
+    for (let i = 0; i < dataOrg.length; i += 1) {
+      dataOrg[i] = dataOrg[i].length;
+      dataOrg[i] = 360 / dataOrg[i];
+    }
 
-          d.centered = true;
-          d.fx = this.state.width / 2;
-          d.fy = this.state.height / 2;
-          select(`circle#${d.id}`).transition(centerTransition).attr('r', (element) => {
-            element.radius = 15;
-            element.bigRadius = 15;
-            return element.radius;
-          });
+    for (let i = 0; i < nodes.length; i += 1) {
+      const distI = nodes[i].dist;
+      if (nodes[i].id !== d.id) {
+        nodes[i].newfx = d.newfx + (nodes[i].r * Math.cos(dataOrg[distI] * dataOrgI[distI] * (Math.PI / 180)));
+        nodes[i].newfy = d.newfy + (nodes[i].r * Math.sin(dataOrg[distI] * dataOrgI[distI] * (Math.PI / 180)));
+        nodes[i].radius = nodes[i].defaultRadius;
+        dataOrgI[distI] += 1;
+      }
+    }
 
-          const dataOrg = [[], [], [], []];
-          const dTest = [];
-
-          for (let i = 0; i < nodes.length; i += 1) {
-            if (nodes[i].id !== d.id) {
-              if (d.similarity_values[i] >= 0.25) {
-                const dist = 3 - Math.floor(d.similarity_values[i] / 0.25);
-                dTest.push(dist);
-                const rad = Math.random() * 2 * Math.PI;
-                nodes[i].rad = rad;
-                nodes[i].r = r[dist].r;
-                nodes[i].dist = dist;
-                dataOrg[dist].push(0);
-              } else {
-                const dist = 3;
-                const rad = Math.random() * 2 * Math.PI;
-                nodes[i].rad = rad;
-                nodes[i].r = r[dist].r;
-                nodes[i].dist = dist;
-                dataOrg[dist].push(0);
-              }
-              nodes[i].fixed = true;
-            }
-          }
-
-          const dataOrgI = [0, 0, 0, 0];
-          for (let i = 0; i < dataOrg.length; i += 1) {
-            dataOrg[i] = dataOrg[i].length;
-            dataOrg[i] = 360 / dataOrg[i];
-          }
-
-          for (let i = 0; i < nodes.length; i += 1) {
-            const distI = nodes[i].dist;
-            if (nodes[i].id !== d.id) {
-              // eslint-disable-next-line max-len
-              nodes[i].fx = d.fx + (nodes[i].r * Math.cos(dataOrg[distI] * dataOrgI[distI] * (Math.PI / 180)));
-              // eslint-disable-next-line max-len
-              nodes[i].fy = d.fy + (nodes[i].r * Math.sin(dataOrg[distI] * dataOrgI[distI] * (Math.PI / 180)));
-              dataOrgI[distI] += 1;
-            }
-          }
-
-          if (!this.state.d3Viz.orbits) {
-            const orbits = svg.select('g.orbits').selectAll('circle')
-              .data(r)
-              .enter()
-              .append('circle')
-              .attr('r', element => element.r * this.state.zoom.scaleFactor)
-              .attr('fill', 'none')
-              .attr('stroke', 'grey')
-              .attr('opacity', 0.3)
-              .attr('cx', this.state.zoom.translation[0] + (this.state.zoom.scaleFactor * d.fx))
-              .attr('cy', this.state.zoom.translation[1] + (this.state.zoom.scaleFactor * d.fy));
-
-            this.setState({
-              ...this.state,
-              d3Viz: {
-                ...this.state.d3Viz,
-                orbits,
-              },
-            });
-          } else {
-            this.state.d3Viz.orbits
-              .attr('r', element => element.r * this.state.zoom.scaleFactor)
-              .attr('cx', this.state.zoom.translation[0] + (this.state.zoom.scaleFactor * this.state.centered.fx))
-              .attr('cy', this.state.zoom.translation[1] + (this.state.zoom.scaleFactor * this.state.centered.fy));
-          }
-        });
-      })
-      .call(drag()
-        .on('start', (d) => {
-          if (!event.active) simulation.alphaTarget(0.3).restart();
-          this.props.hoverNode(d, true, d.radius, d.radius + 10);
-          this.state.drag = true;
-          d.fx = d.x;
-          d.fy = d.y;
-        })
-        .on('drag', (d) => {
-          const mouseCoords = mouse(svg.node());
-          d.fx = (mouseCoords[0] - this.state.zoom.translation[0]) / this.state.zoom.scaleFactor;
-          d.fy = (mouseCoords[1] - this.state.zoom.translation[1]) / this.state.zoom.scaleFactor;
-        })
-        .on('end', (d) => {
-          if (!event.active) simulation.alphaTarget(0);
-          this.props.hoverNode(d, false, d.radius, d.radius + 10);
-          this.state.drag = false;
-          if (!d.centered && !d.fixed) {
-            d.fx = null;
-            d.fy = null;
-          }
-        }));
-
-    const magnets = svg.append('g')
-      .attr('class', 'magnets');
-
-    const magnetLabels = svg.append('g')
-      .attr('class', 'magnetLabels');
-
-    simulation.nodes(nodes)
-      .on('tick', () => {
-        link
-          .attr('x1', d => this.state.zoom.translation[0] + (this.state.zoom.scaleFactor * d.source.x))
-          .attr('y1', d => this.state.zoom.translation[1] + (this.state.zoom.scaleFactor * d.source.y))
-          .attr('x2', d => this.state.zoom.translation[0] + (this.state.zoom.scaleFactor * d.target.x))
-          .attr('y2', d => this.state.zoom.translation[1] + (this.state.zoom.scaleFactor * d.target.y));
-        node
-          .attr('cx', d => this.state.zoom.translation[0] + (this.state.zoom.scaleFactor * d.x))
-          .attr('cy', d => this.state.zoom.translation[1] + (this.state.zoom.scaleFactor * d.y));
+    this.node.transition(centerTransition)
+      .attr('r', e => e.radius)
+      .attr('cx', e => this.zoom.translation[0] + (this.zoom.scaleFactor * e.newfx))
+      .attr('cy', e => this.zoom.translation[1] + (this.zoom.scaleFactor * e.newfy))
+      .on('end', (el) => {
+        el.fx = el.newfx;
+        el.fy = el.newfy;
       });
-    simulation.force('link').links(this.state.links);
-    simulation.restart();
 
-    const d3Viz = { ...this.state.d3Viz, svg, link, node, simulation, magnets, magnetLabels };
-    this.setState({ ...this.state, d3Viz, init: true });
+    this.link.transition(centerTransition)
+      .attr('x1', link => this.zoom.translation[0] + (this.zoom.scaleFactor * link.source.newfx))
+      .attr('y1', link => this.zoom.translation[1] + (this.zoom.scaleFactor * link.source.newfy))
+      .attr('x2', link => this.zoom.translation[0] + (this.zoom.scaleFactor * link.target.newfx))
+      .attr('y2', link => this.zoom.translation[1] + (this.zoom.scaleFactor * link.target.newfy));
+
+    if (!this.orbits) {
+      this.orbits = this.svg.select('g.orbits').selectAll('circle')
+        .data(r)
+        .enter()
+        .append('circle')
+        .attr('r', e => e.r * this.zoom.scaleFactor)
+        .attr('fill', 'none')
+        .attr('stroke', 'grey')
+        .attr('opacity', 0.3)
+        .attr('cx', () => this.zoom.translation[0] + (this.zoom.scaleFactor * d.newfx))
+        .attr('cy', () => this.zoom.translation[1] + (this.zoom.scaleFactor * d.newfy));
+
+      this.orbits.transition(centerTransition).attr('r', e => e.r * this.zoom.scaleFactor);
+    } else {
+      this.orbits
+        .attr('r', element => element.r * this.zoom.scaleFactor)
+        .attr('cx', () => this.zoom.translation[0] + (this.zoom.scaleFactor * this.centered.newfx))
+        .attr('cy', () => this.zoom.translation[1] + (this.zoom.scaleFactor * this.centered.newfy));
+    }
+    this.testTransition = this.svg.transition(centerTransition).delay(550)
+      .call(this.zoomd3.transform, d3Zoom.zoomIdentity
+        .translate(160, 76)
+        .scale(0.45))
+      .on('end', () => {
+        this.centerTransition = false;
+      });
+
+    // sometimes centerFransition isn't set to false
+    // hackky way to make it false and allow hover and other centering
+    d3Timer.timeout(() => {
+      this.centerTransition = false;
+      this.setState({ ...this.state, centered: true });
+    }, 1200);
   }
 
   createMagnet(word) {
     const randomNumber = (min, max) => Math.floor(Math.random() * ((max - min) + 1)) + min;
     let id = `m${randomNumber(0, 9)}${randomNumber(0, 9)}${randomNumber(0, 9)}${randomNumber(0, 9)}${randomNumber(0, 9)}`;
-    const { magnetNodes } = this.state;
-    for (let i = 0; i < magnetNodes.length; i += 1) {
-      if (magnetNodes[i] === id) {
+    for (let i = 0; i < this.magnetNodes.length; i += 1) {
+      if (this.magnetNodes[i] === id) {
         id = `m${randomNumber(0, 9)}${randomNumber(0, 9)}${randomNumber(0, 9)}${randomNumber(0, 9)}${randomNumber(0, 9)}`;
         i = 0;
       }
     }
 
-    const { svg, simulationMagnets, magnets, magnetLabels } = this.state.d3Viz;
-
-    magnetNodes.push({
+    this.magnetNodes.push({
       id,
       text: word,
     });
 
-    magnets.selectAll('.magnet-node')
-      .data(magnetNodes, d => d.id)
+    this.magnets.selectAll('.magnet-node')
+      .data(this.magnetNodes, d => d.id)
       .enter()
       .append('circle')
       .attr('class', 'magnet-node')
       .attr('r', 10)
       .style('fill', 'green')
       .attr('id', d => d.id)
-      .call(drag()
+      .call(d3Drag.drag()
         .on('start', (d) => {
-          if (!event.active) simulationMagnets.alphaTarget(0.3).restart();
+          if (!d3Sel.event.active) this.simulationMagnets.alphaTarget(0.3).restart();
           d.fx = d.x;
           d.fy = d.y;
         })
         .on('drag', (d) => {
-          const mouseCoords = mouse(svg.node());
-          d.fx = (mouseCoords[0] - this.state.zoom.translation[0]) / this.state.zoom.scaleFactor;
-          d.fy = (mouseCoords[1] - this.state.zoom.translation[1]) / this.state.zoom.scaleFactor;
+          const mouseCoords = d3Sel.mouse(this.svg.node());
+          d.fx = (mouseCoords[0] - this.zoom.translation[0]) / this.zoom.scaleFactor;
+          d.fy = (mouseCoords[1] - this.zoom.translation[1]) / this.zoom.scaleFactor;
         })
         .on('end', (d) => {
-          if (!event.active) simulationMagnets.alphaTarget(0);
+          if (!d3Sel.event.active) this.simulationMagnets.alphaTarget(0);
           d.fx = null;
           d.fy = null;
         }));
 
-    magnetLabels.selectAll('.magnet-label')
-      .data(magnetNodes, d => d.id)
+    this.magnetLabels.selectAll('.magnet-label')
+      .data(this.magnetNodes, d => d.id)
       .enter()
       .append('text')
       .attr('dx', 13)
@@ -286,27 +217,31 @@ class Network extends Component {
       .style('font-size', '12px')
       .text(d => d.text);
 
-    simulationMagnets.on('tick', () => {
-      magnets.selectAll('.magnet-node')
-        .attr('cx', d => this.state.zoom.translation[0] + (this.state.zoom.scaleFactor * d.x))
-        .attr('cy', d => this.state.zoom.translation[1] + (this.state.zoom.scaleFactor * d.y));
-      magnetLabels.selectAll('.magnet-label')
-        .attr('x', d => this.state.zoom.translation[0] + (this.state.zoom.scaleFactor * d.x))
-        .attr('y', d => this.state.zoom.translation[1] + (this.state.zoom.scaleFactor * d.y));
+    this.simulationMagnets.on('tick', () => {
+      this.magnets.selectAll('.magnet-node')
+        .attr('cx', d => this.zoom.translation[0] + (this.zoom.scaleFactor * d.x))
+        .attr('cy', d => this.zoom.translation[1] + (this.zoom.scaleFactor * d.y));
+      this.magnetLabels.selectAll('.magnet-label')
+        .attr('x', d => this.zoom.translation[0] + (this.zoom.scaleFactor * d.x))
+        .attr('y', d => this.zoom.translation[1] + (this.zoom.scaleFactor * d.y));
     });
 
 
-    simulationMagnets.nodes(magnetNodes);
-    simulationMagnets.restart();
+    this.simulationMagnets.nodes(this.magnetNodes);
+    this.simulationMagnets.restart();
   }
 
   filterNodes() {
-    const { node, link } = this.state.d3Viz;
+    const node = this.node;
+    const link = this.link;
     const filter = this.props.filteredNodes;
+    if (!this.state.init || compareArrays(this.state.nodes, filter)) return;
+
     node.attr('class', (d) => {
       const isPresent = filter.filter(nodeE => nodeE.title === d.title).length > 0;
       return isPresent ? 'network-node' : 'network-node node-greyed-out';
     });
+
     link.attr('class', (d) => {
       const filterLength = filter.length;
       for (let i = 0; i < filterLength; i += 1) {
@@ -322,22 +257,50 @@ class Network extends Component {
     });
   }
 
-  initializeD3() {
-    const width = this.state.width;
-    const height = this.state.height;
+  handleNodeHover = (d, state) => {
+    if (!this.centerTransition) this.props.hoverNode(d, state);
+  }
+
+  handleResize(newWidth, newHeight, oldWidth, oldHeight) {
+    if (!this.state.init) return;
+    if (newWidth === oldWidth && newHeight === oldHeight) return;
+
+    this.svg.attr('width', newWidth).attr('height', newHeight);
+    this.simulation.force('x', d3Force.forceX(newWidth / 2)).force('y', d3Force.forceY(newHeight / 2));
+    this.simulation.alphaTarget(0.3).restart();
+  }
+
+  initializeD3 = () => {
+    const { width, height } = this.state;
     const linkDistanceMult = this.state.height / 2;
     const mountPoint = this.mountNetwork;
+    const nodes = this.nodes;
 
-    const svg = select(mountPoint)
+    this.zoomd3 = d3Zoom.zoom().on('zoom', () => {
+      const scaleFactor = d3Sel.event.transform.k;
+      const translation = [d3Sel.event.transform.x, d3Sel.event.transform.y];
+      this.zoom = {
+        scaleFactor, translation,
+      };
+      if (this.simulation) this.simulation.restart();
+      if (this.orbits) {
+        this.orbits
+          .attr('r', d => d.r * scaleFactor)
+          .attr('cx', () => translation[0] + (scaleFactor * this.centered.newfx))
+          .attr('cy', () => translation[1] + (scaleFactor * this.centered.newfy));
+      }
+    }).scaleExtent([0.01, 100]);
+
+    this.svg = d3Sel.select(mountPoint)
       .append('svg')
       .attr('width', width)
       .attr('height', height)
       .attr('overflow', 'hidden')
       .attr('id', 'network2-svg-element')
       .on('click', () => {
-        if (event.detail.name) {
-          const mouseCoords = mouse(this.state.d3Viz.svg.node()); // eslint-disable-line no-unused-vars, max-len
-          this.createMagnet(event.detail.name);
+        if (d3Sel.event.detail.name) {
+          const mouseCoords = d3Sel.mouse(this.svg.node()); // eslint-disable-line no-unused-vars, max-len
+          this.createMagnet(d3Sel.event.detail.name);
         }
         // if (event.ctrlKey) {
         //   console.log('Ctrl+click has just happened!');
@@ -346,29 +309,12 @@ class Network extends Component {
         //   console.log('Alt+click has just happened!');
         // }
       })
-      .call(d3Zoom.zoom().on('zoom', () => {
-        const scaleFactor = event.transform.k;
-        const translation = [event.transform.x, event.transform.y];
-        this.setState({
-          ...this.state,
-          zoom: {
-            scaleFactor, translation,
-          },
-        }, () => {
-          this.state.d3Viz.simulation.restart();
-          if (this.state.d3Viz.orbits) {
-            this.state.d3Viz.orbits
-              .attr('r', d => d.r * scaleFactor)
-              .attr('cx', translation[0] + (scaleFactor * this.state.centered.fx))
-              .attr('cy', translation[1] + (scaleFactor * this.state.centered.fy));
-          }
-        });
-      }).scaleExtent([0.1, 10]))
+      .call(this.zoomd3)
       .on('dblclick.zoom', null);
 
-    svg.append('g').attr('class', 'orbits');
+    this.svg.append('g').attr('class', 'orbits');
 
-    const simulation = d3Force.forceSimulation()
+    this.simulation = d3Force.forceSimulation()
       .force('link', d3Force.forceLink().distance(linkDistanceMult).strength(0.00001))
       // .force('collide', d3Force.forceCollide((d) => d.r + 10).iterations(16))
       // .force('attract', forceAttract().target([width / 2, height / 2]).strength(1))
@@ -376,39 +322,142 @@ class Network extends Component {
       .force('x', d3Force.forceX(width / 2))
       .force('y', d3Force.forceY(height / 2));
 
-    const simulationMagnets = d3Force.forceSimulation()
+    this.simulationMagnets = d3Force.forceSimulation()
       .force('charge', d3Force.forceManyBody().strength(-100));
 
-    const d3Viz = { svg, simulation, simulationMagnets };
-    this.setState({ ...this.state, d3Viz }, () => {
-      this.setupNetwork();
-    });
+    this.link = this.svg.append('g')
+      .attr('class', 'links')
+      .selectAll('line')
+      .data(this.state.links)
+      .enter()
+      .append('line')
+      .attr('class', d => `line-network ${nodes[d.source].id} ${nodes[d.source].id}`)
+      .attr('id', d => d.source.id)
+      .attr('stroke-width', 1.5);
+
+    this.node = this.svg.append('g')
+      .attr('class', 'nodes')
+      .selectAll('circle')
+      .data(nodes, d => d.id)
+      .enter()
+      .append('circle')
+      .attr('class', 'network-node')
+      .attr('r', d => d.radius)
+      .attr('id', d => d.id)
+      .on('mouseover', (d) => {
+        if (!this.drag) this.handleNodeHover(d, true);
+      })
+      .on('mouseout', (d) => {
+        if (!this.drag) this.handleNodeHover(d, false);
+      })
+      .on('click', d => this.centerNode(d))
+      .call(d3Drag.drag()
+        .on('start', (d) => {
+          if (!d3Sel.event.active) this.simulation.alphaTarget(0.3).restart();
+          this.props.hoverNode(d, true, d.radius, d.radius + 10);
+          this.drag = true;
+          d.fx = d.x;
+          d.fy = d.y;
+        })
+        .on('drag', (d) => {
+          if (this.centered) return;
+          const mouseCoords = d3Sel.mouse(this.svg.node());
+          d.fx = (mouseCoords[0] - this.zoom.translation[0]) / this.zoom.scaleFactor;
+          d.fy = (mouseCoords[1] - this.zoom.translation[1]) / this.zoom.scaleFactor;
+        })
+        .on('end', (d) => {
+          if (!d3Sel.event.active) this.simulation.alphaTarget(0);
+          this.props.hoverNode(d, false, d.radius, d.radius + 10);
+          this.drag = false;
+          if (!d.centered && !d.fixed) {
+            d.fx = null;
+            d.fy = null;
+          }
+        }));
+
+    this.magnets = this.svg.append('g')
+      .attr('class', 'magnets');
+
+    this.magnetLabels = this.svg.append('g')
+      .attr('class', 'magnetLabels');
+
+    this.simulation.nodes(nodes)
+      .on('tick', () => {
+        this.node
+          .attr('cx', d => this.zoom.translation[0] + (this.zoom.scaleFactor * d.x))
+          .attr('cy', d => this.zoom.translation[1] + (this.zoom.scaleFactor * d.y));
+
+        this.link
+          .attr('x1', d => this.zoom.translation[0] + (this.zoom.scaleFactor * d.source.x))
+          .attr('y1', d => this.zoom.translation[1] + (this.zoom.scaleFactor * d.source.y))
+          .attr('x2', d => this.zoom.translation[0] + (this.zoom.scaleFactor * d.target.x))
+          .attr('y2', d => this.zoom.translation[1] + (this.zoom.scaleFactor * d.target.y));
+      });
+    this.simulation.force('link').links(this.state.links);
+    this.simulation.restart();
+
+    this.svg.transition().duration(1500)
+      .call(this.zoomd3.transform, d3Zoom.zoomIdentity
+        .translate(50, 30)
+        .scale(0.8));
+
+    this.setState({ ...this.state, init: true });
   }
 
-  handleResize() {
-    const height = document.getElementById('window-network-content').clientHeight; // eslint-disable-line no-undef
-    const width = document.getElementById('window-network-content').clientWidth; // eslint-disable-line no-undef
+  resetCentering = () => {
+    const nodes = this.nodes;
+    const centerTransition = d3Transition.transition().duration(500);
 
-    // if size is the same, ignore the rest
-    if (height === this.state.height && width === this.state.width) return;
-    if (!this.state.init) return;
+    this.node.transition(centerTransition).attr('r', (el) => {
+      el.radius = el.defaultRadius;
+      return el.radius;
+    });
 
-    this.state.d3Viz.svg.attr('width', width).attr('height', height);
+    this.orbits.remove();
+    this.orbits = undefined;
 
-    this.state.d3Viz.simulation.force('x', d3Force.forceX(width / 2)).force('y', d3Force.forceY(height / 2));
-    this.state.d3Viz.simulation.alphaTarget(0.3).restart();
+    this.centered.centered = false;
+    this.centered = false;
+
+    for (let i = 0; i < nodes.length; i += 1) {
+      nodes[i].fx = null;
+      nodes[i].fy = null;
+      nodes[i].newfx = null;
+      nodes[i].newfy = null;
+      nodes[i].fixed = false;
+    }
+
+    this.svg.transition().duration(1500).delay(500)
+      .call(this.zoomd3.transform, d3Zoom.zoomIdentity
+        .translate(50, 30)
+        .scale(0.8));
+
+    this.simulation.alphaTarget(1).restart();
+    this.setState({ ...this.state, centered: false });
   }
 
   render() {
     const { canDrop, isOver, connectDropTarget } = this.props;
     const isActive = canDrop && isOver;
 
+    const iconStyle = {
+      position: 'fixed',
+      marginLeft: this.state.width - 79,
+    };
     const activeStyle = {};
     activeStyle.backgroundColor = isActive ? 'darkgreen' : '';
     activeStyle.opacity = isActive ? '0.8' : '1';
 
     return connectDropTarget(
-      <div className="mount" ref={(element) => { this.mountNetwork = element; }} />,
+      <div>
+        {
+          <Label basic style={iconStyle} as="a" size="tiny" onClick={() => this.resetCentering()}>
+            <Icon name="cancel" />
+            Cancel
+          </Label>
+        }
+        <div className="mount" ref={(element) => { this.mountNetwork = element; }} />
+      </div>,
     );
   }
 }

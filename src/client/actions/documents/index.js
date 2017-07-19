@@ -28,6 +28,8 @@ export const DB_UPDATE_VISUALIZATION_WITH_DOCS_SUCCESS = 'DB_UPDATE_VISUALIZATIO
 export const DB_UPDATE_VISUALIZATION_WITH_DOCS_FAIL = 'DB_UPDATE_VISUALIZATION_WITH_DOCS_FAIL';
 export const DB_UPDATE_VISUALIZATION_WITH_DOCS_LOADING = 'DB_UPDATE_VISUALIZATION_WITH_DOCS_LOADING';
 
+export const DB_SORT_DOCUMENTS_BY = 'DB_SORT_DOCUMENTS_BY';
+
 export const FETCH_DOCUMENTS = () =>
   (dispatch) => {
     dispatch({ type: 'DOC_FETCH_DOCUMENTS_DB_LOADING' });
@@ -75,4 +77,9 @@ export const UPDATE_VISUALIZATION_WITH_DOCS = (docs, newViz) =>
     updateVisualizationWithDocs(docs, newViz).then(response => response.json())
       .then(response => dispatch({ type: 'DB_UPDATE_VISUALIZATION_WITH_DOCS_SUCCESS', result: response }))
       .catch(err => dispatch({ type: 'DB_UPDATE_VISUALIZATION_WITH_DOCS_FAIL', result: err }));
+  };
+
+export const SORT_DOCUMENTS_BY = sortKey =>
+  (dispatch) => {
+    dispatch({ type: 'DB_SORT_DOCUMENTS_BY', result: sortKey });
   };
