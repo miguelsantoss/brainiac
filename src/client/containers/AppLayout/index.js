@@ -90,7 +90,6 @@ class AppLayout extends Component {
         hoverNode: this.hoverNode,
         scrollToNode: this.scrollToNode,
       };
-      console.log(this.props.db.queryResult);
       const vizArray = [
         (<VizContainer
           windowName="Network"
@@ -133,6 +132,7 @@ class AppLayout extends Component {
           gridData={{ x: 0, y: 0, w: 12, h: 8, static: false }}
         >
           <Timeline
+            queryResult={this.props.db.queryResult}
             nodes={_.cloneDeep(documents.nodes)}
             filteredNodes={_.cloneDeep(documents.filteredNodes)}
             filterByDate={this.props.filterByDate}

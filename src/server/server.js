@@ -1,6 +1,7 @@
 import path from 'path';
 import express from 'express';
 import fs from 'fs';
+import glob from 'glob';
 import cors from 'cors';
 import multer from 'multer';
 import compression from 'compression';
@@ -128,6 +129,8 @@ app.post('/pdf/upload', upload.single('pdf'), (req, res) => {
 });
 
 app.post('/updateviz', (req, res) => {
+  const files = glob.sync(path.resolve(path.join(__dirname, '/corpus/pubmed/'), '*.txt'))
+  files.forEach(d => fs.unlinkSync(d));
   const { docIds } = req.body;
   const pubmed = ncbi.pubmed;
   const infoPromises = [];
@@ -153,6 +156,7 @@ app.post('/updateviz', (req, res) => {
           title: doc.title,
           authors,
           abstract: abstracts[i] ? abstracts[i] : '',
+          date: doc.raw.pubdate,
         };
 
         vizInfo.nodes.push(node);

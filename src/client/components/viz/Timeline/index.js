@@ -43,6 +43,8 @@ class Timeline extends Component {
       d.defaultRadius = 4;
     });
 
+    this.nodes = this.state.nodes;
+
     this.setState({ ...this.state, width, height }, () => this.initializeD3());
   }
 
@@ -51,6 +53,10 @@ class Timeline extends Component {
     const height = document.getElementById('window-timeline-content').clientHeight; // eslint-disable-line no-undef
     this.handleResize(width, height, this.state.width, this.state.height);
     this.setState({ ...this.state, width, height }, () => this.filterNodes());
+    this.setState({ ...this.state, width, height }, () => {
+      if (!this.props.queryResult) this.filterNodes();
+      else this.handleNewNodes();
+    });
   }
 
   mouseMoveHandler() {
@@ -60,6 +66,7 @@ class Timeline extends Component {
     // use the new diagram.find() function to find the voronoi site closest to
     // the mouse, limited by max distance defined by voronoiRadius
     const site = this.voronoi.find(mx, my);
+    if (!site) return;
 
     if (this.hover) {
       if (this.hover === site.data) return;
@@ -91,7 +98,7 @@ class Timeline extends Component {
   }
 
   filterNodes() {
-    const nodes = this.nodes;
+    const nodes = this.node;
     const filter = this.props.filteredNodes;
     if (!this.state.init || compareArrays(this.state.nodes, filter)) return;
 
@@ -99,6 +106,11 @@ class Timeline extends Component {
       const isPresent = filter.filter(nodeE => nodeE.title === d.title).length > 0;
       return isPresent ? 'timeline-node' : 'timeline-node node-greyed-out';
     });
+  }
+
+  handleNewNodes = () => {
+    this.nodes = this.props.filteredNodes;
+    this.updateNodes();
   }
 
   handleNodeHover = (d, state) => {
@@ -111,7 +123,6 @@ class Timeline extends Component {
 
     const nodeRadius = this.nodeRadius;
     const forceYcollide = nodeRadius + forceYspaceCollide;
-    const nodeData = this.state.nodes;
 
     const plotAreaWidth = newWidth - padding.left - padding.right;
     const plotAreaHeight = newHeight - padding.top - padding.bottom;
@@ -144,7 +155,7 @@ class Timeline extends Component {
       return translate;
     }).call(d3Axis.axisBottom(this.x).ticks(nTicks, ''));
 
-    this.simulation = d3Force.forceSimulation(nodeData)
+    this.simulation = d3Force.forceSimulation(this.nodes)
       .force('x', d3Force.forceX(d => this.x(d.date.slice(0, 4))).strength(1))
       .force('y', d3Force.forceY(plotAreaHeight / 2))
       .force('collide', d3Force.forceCollide(forceYcollide))
@@ -152,29 +163,26 @@ class Timeline extends Component {
 
     for (let i = 0; i < 120; i += 1) this.simulation.tick();
 
-    this.nodes.attr('cx', d => d.x);
-    this.nodes.attr('cy', d => d.y);
+    this.node.attr('cx', d => d.x);
+    this.node.attr('cy', d => d.y);
 
     this.voronoi = d3Voronoi.voronoi()
       .x(d => d.x)
       .y(d => d.y)
-      .size([plotAreaWidth, plotAreaHeight])(nodeData);
+      .size([plotAreaWidth, plotAreaHeight])(this.nodes, d => d.id);
   }
 
   initializeD3() {
     const { width, height } = this.state;
-    const nodeData = this.state.nodes;
     const mountPoint = this.mountTimeline;
-    const nodeRadius = this.nodeRadius;
 
-    const forceYcollide = nodeRadius + forceYspaceCollide;
     this.plotAreaWidth = width - padding.left - padding.right;
     this.plotAreaHeight = height - padding.top - padding.bottom;
     const nTicks = Math.round(this.plotAreaWidth / 60);
 
     this.x = d3Scale.scaleLinear()
       .rangeRound([0, this.plotAreaWidth])
-      .domain(extent(nodeData, d => parseInt(d.date.slice(0, 4), 10))).nice();
+      .domain(extent(this.nodes, d => parseInt(d.date.slice(0, 4), 10))).nice();
 
     this.svg = d3Sel.select(mountPoint)
       .append('svg')
@@ -186,40 +194,14 @@ class Timeline extends Component {
     this.g = this.svg.append('g')
       .attr('transform', `translate(${padding.left},0)`);
 
-    this.simulation = d3Force.forceSimulation(nodeData)
-      .force('x', d3Force.forceX(d => this.x(d.date.slice(0, 4))).strength(1))
-      .force('y', d3Force.forceY(this.plotAreaHeight / 2))
-      .force('collide', d3Force.forceCollide(forceYcollide))
-      .stop();
-
-    for (let i = 0; i < 120; i += 1) this.simulation.tick();
-
     this.xAxis = this.g.append('g')
       .attr('class', 'axis axis-x')
       .attr('transform', () => `translate(0,${this.plotAreaHeight})`)
       .call(d3Axis.axisBottom(this.x).ticks(nTicks, ''));
 
-    this.voronoi = d3Voronoi.voronoi()
-      .x(d => d.x)
-      .y(d => d.y)
-      .size([this.plotAreaWidth, this.plotAreaHeight])(nodeData);
-
-    this.nodes = this.g.append('g')
+    this.node = this.g.append('g')
       .attr('class', 'timeline-nodes')
-      .selectAll('timeline-node').data(nodeData, d => d.id)
-      .enter()
-      .append('circle')
-      .attr('class', 'timeline-node')
-      .attr('r', d => d.defaultRadius)
-      .attr('cx', d => d.x)
-      .attr('cy', d => d.y)
-      .attr('id', d => d.id)
-      .on('mouseover', (d) => {
-        this.handleNodeHover(d, true);
-      })
-      .on('mouseout', (d) => {
-        this.handleNodeHover(d, false);
-      });
+      .selectAll('timeline-node');
 
     this.brush = this.createBrush();
     this.brushG = this.g.append('g')
@@ -233,7 +215,45 @@ class Timeline extends Component {
         this.hover = null;
       });
 
-    this.setState({ ...this.state, init: true });
+    this.setState({ ...this.state, init: true }, () => this.updateNodes());
+  }
+
+  updateNodes = () => {
+    const nodeRadius = this.nodeRadius;
+    const forceYcollide = nodeRadius + forceYspaceCollide;
+
+    this.simulation = d3Force.forceSimulation(this.nodes)
+      .force('x', d3Force.forceX(d => this.x(d.date.slice(0, 4))).strength(1))
+      .force('y', d3Force.forceY(this.plotAreaHeight / 2))
+      .force('collide', d3Force.forceCollide(forceYcollide))
+      .stop();
+
+    for (let i = 0; i < 120; i += 1) this.simulation.tick();
+
+    this.node.remove();
+    this.node = this.svg.append('g')
+      .attr('class', 'nodes')
+      .selectAll('circle');
+    this.node = this.node.data(this.nodes, d => d.id);
+    this.node.exit().remove();
+    this.node = this.node.enter()
+      .append('circle')
+      .attr('class', 'timeline-node')
+      .attr('r', d => d.radius)
+      .attr('cx', d => d.x)
+      .attr('cy', d => d.y)
+      .attr('id', d => d.id)
+      .on('mouseover', (d) => {
+        this.handleNodeHover(d, true);
+      })
+      .on('mouseout', (d) => {
+        this.handleNodeHover(d, false);
+      });
+
+    this.voronoi = d3Voronoi.voronoi()
+      .x(d => d.x)
+      .y(d => d.y)
+      .size([this.plotAreaWidth, this.plotAreaHeight])(this.nodes, d => d.id);
   }
 
   render() {
@@ -265,6 +285,7 @@ Timeline.propTypes = {
   hoverNode: PropTypes.func.isRequired,
   filterByDate: PropTypes.func.isRequired,
   clearFilterByDate: PropTypes.func.isRequired,
+  queryResult: PropTypes.bool.isRequired,
 };
 
 export default sizeMe({ monitorHeight: true })(Timeline);

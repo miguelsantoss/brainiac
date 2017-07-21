@@ -199,8 +199,13 @@ export function documentDb(state = initialState, action) {
       };
     case DB_UPDATE_VISUALIZATION_WITH_DOCS_SUCCESS:
       documents = { ...action.result };
-      documents.nodes.forEach((d) => { d.radius = 4; });
+      documents.nodes.forEach((d) => { d.radius = 4; d.defaultRadius = 4; });
       documents.filter = '';
+      documents.nodes.sort((a, b) => {
+        if (a.title < b.title) return -1;
+        if (a.title > b.title) return 1;
+        return 0;
+      });
       f = _.cloneDeep(documents.nodes);
       documents.filteredNodes = f;
       return {
