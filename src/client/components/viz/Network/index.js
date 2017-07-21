@@ -265,6 +265,7 @@ class Network extends Component {
   }
 
   handleNodeHover = (d, state) => {
+    if (!d3Sel.event.ctrlKey) this.hoverTooltip.classed('hover-tn', state);
     if (!this.centerTransition) this.props.hoverNode(d, state);
   }
 
@@ -357,6 +358,12 @@ class Network extends Component {
         .attr('x2', d => this.zoom.translation[0] + (this.zoom.scaleFactor * d.target.x))
         .attr('y2', d => this.zoom.translation[1] + (this.zoom.scaleFactor * d.target.y));
     });
+
+    this.hoverTooltip = this.svg.append('text')
+      .attr('x', 2)
+      .attr('y', height - 5)
+      .attr('class', 'network-toolip-text')
+      .text('To highlight the document on the list, hold the ctrl key when hovering');
 
     this.setState({ ...this.state, init: true }, () => this.updateNodes());
   }
@@ -473,6 +480,7 @@ class Network extends Component {
           </Label>
         }
         <div className="mount" ref={(element) => { this.mountNetwork = element; }} />
+        <div id="network-tooltip" />
       </div>,
     );
   }

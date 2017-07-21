@@ -59,15 +59,14 @@ class Timeline extends Component {
     // use the new diagram.find() function to find the voronoi site closest to
     // the mouse, limited by max distance defined by voronoiRadius
     const site = this.voronoi.find(mx, my);
-    if (!site) return;
 
     if (this.hover) {
       if (this.hover === site.data) return;
-      this.props.hoverNode(this.hover, false);
+      this.handleNodeHover(this.hover, false);
       this.hover = null;
     }
     this.hover = site.data;
-    this.props.hoverNode(site.data, true);
+    this.handleNodeHover(site.data, true);
     // highlight the point if we found one, otherwise hide the highlight circle
     // highlight(site && site.data);
   }
@@ -107,6 +106,7 @@ class Timeline extends Component {
   }
 
   handleNodeHover = (d, state) => {
+    if (!d3Sel.event.ctrlKey) this.hoverTooltip.classed('hover-tn', state);
     this.props.hoverNode(d, state);
   }
 
@@ -204,10 +204,15 @@ class Timeline extends Component {
         this.mouseMoveHandler();
       })
       .on('mouseleave.voronoi', () => {
-        this.props.hoverNode(this.hover, false);
+        this.handleNodeHover(this.hover, false);
         this.hover = null;
       });
 
+    this.hoverTooltip = this.svg.append('text')
+      .attr('x', 2)
+      .attr('y', 12)
+      .attr('class', 'timeline-toolip-text')
+      .text('To highlight the document on the list, hold the ctrl key when hovering');
     this.setState({ ...this.state, init: true }, () => this.updateNodes());
   }
 

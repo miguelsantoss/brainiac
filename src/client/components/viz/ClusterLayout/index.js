@@ -5,12 +5,12 @@ import sizeMe from 'react-sizeme';
 import * as d3Force from 'd3-force';
 import * as d3Sel from 'd3-selection';
 import * as d3Drag from 'd3-drag';
-import * as d3Array from 'd3-array';
 import * as d3Scale from 'd3-scale';
 import * as d3Zoom from 'd3-zoom';
 import * as d3Cluster from 'd3-force-cluster'; // eslint-disable-line import/extensions
 
 import compareArrays from '../../../lib/arrays';
+import './cluster.scss';
 
 class ClusterLayout extends Component {
   constructor(props) {
@@ -39,11 +39,21 @@ class ClusterLayout extends Component {
       this.nClusters = d.cluster > this.nClusters ? d.cluster : this.nClusters;
     });
 
-    this.color = d3Scale.scaleSequential(d3Scale.interpolateRainbow)
-    .domain(d3Array.range(this.nClusters));
+    const color = [
+      '#e6194b', // Red
+      '#3cb44b', // Green
+      '#ffe119', // Yellow
+      '#0082c8', // Blue
+      '#f58231', // Orange
+      '#911eb4', // Purple
+      '#f032e6', // Magenta
+      '#008080', // Teal
+      '#aa6e28', // Brown
+      '#000000', // Black
+    ];
 
+    this.color = d3Scale.scaleOrdinal(color);
     this.clusters = new Array(this.nClusters);
-
     this.state.nodes.forEach((d) => {
       const i = d.cluster;
       const r = (Math.sqrt((i + 1) / this.nClusters) * -Math.log(Math.random())) * this.maxRadius;
@@ -53,7 +63,6 @@ class ClusterLayout extends Component {
     });
 
     this.nodes = this.state.nodes;
-
     this.setState({ ...this.state, width, height }, () => this.initializeD3());
   }
 
@@ -83,6 +92,7 @@ class ClusterLayout extends Component {
   }
 
   handleNodeHover = (d, state) => {
+    if (!d3Sel.event.ctrlKey) this.hoverTooltip.classed('hover-tn', state);
     this.props.hoverNode(d, state);
   }
 
@@ -141,6 +151,11 @@ class ClusterLayout extends Component {
           .attr('cy', d => this.zoom.translation[1] + (this.zoom.scaleFactor * d.y));
       });
 
+    this.hoverTooltip = this.svg.append('text')
+      .attr('x', 2)
+      .attr('y', height - 5)
+      .attr('class', 'cluster-toolip-text')
+      .text('To highlight the document on the list, hold the ctrl key when hovering');
     this.setState({ ...this.state, init: true }, () => this.updateNodes());
   }
 

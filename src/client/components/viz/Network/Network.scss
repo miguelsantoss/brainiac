@@ -82,3 +82,21 @@ $stroke-animation: stroke $stroke-animation-time ease;
        -o-transition: $opacity-animation, $fill-animation;
           transition: $opacity-animation, $fill-animation;
 }
+
+.network-toolip-text {
+  opacity: 0;
+  -webkit-transition: $opacity-animation;
+     -moz-transition: $opacity-animation;
+      -ms-transition: $opacity-animation;
+       -o-transition: $opacity-animation;
+          transition: $opacity-animation;
+}
+
+.network-toolip-text.hover-tn {
+  opacity: $opacity-normal;
+  -webkit-transition: $opacity-animation;
+     -moz-transition: $opacity-animation;
+      -ms-transition: $opacity-animation;
+       -o-transition: $opacity-animation;
+          transition: $opacity-animation;
+}

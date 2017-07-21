@@ -66,3 +66,21 @@ $fill-animation: fill $fill-animation-time ease;
        -o-transition: $opacity-animation;
           transition: $opacity-animation;
 }
+
+.timeline-toolip-text {
+  opacity: 0;
+  -webkit-transition: $opacity-animation;
+     -moz-transition: $opacity-animation;
+      -ms-transition: $opacity-animation;
+       -o-transition: $opacity-animation;
+          transition: $opacity-animation;
+}
+
+.timeline-toolip-text.hover-tn {
+  opacity: $opacity-normal;
+  -webkit-transition: $opacity-animation;
+     -moz-transition: $opacity-animation;
+      -ms-transition: $opacity-animation;
+       -o-transition: $opacity-animation;
+          transition: $opacity-animation;
+}
