@@ -259,7 +259,9 @@ class Network extends Component {
   }
 
   handleNewNodes = () => {
-
+    this.nodes = this.props.filteredNodes;
+    this.links = this.props.links;
+    this.updateNodes();
   }
 
   handleNodeHover = (d, state) => {
@@ -334,7 +336,6 @@ class Network extends Component {
       .attr('class', 'links')
       .selectAll('line');
 
-
     this.node = this.svg.append('g')
       .attr('class', 'nodes')
       .selectAll('circle');
@@ -345,25 +346,17 @@ class Network extends Component {
     this.magnetLabels = this.svg.append('g')
       .attr('class', 'magnetLabels');
 
-    this.simulation.nodes(this.nodes)
-      .on('tick', () => {
-        this.node
-          .attr('cx', d => this.zoom.translation[0] + (this.zoom.scaleFactor * d.x))
-          .attr('cy', d => this.zoom.translation[1] + (this.zoom.scaleFactor * d.y));
+    this.simulation.on('tick', () => {
+      this.node
+        .attr('cx', d => this.zoom.translation[0] + (this.zoom.scaleFactor * d.x))
+        .attr('cy', d => this.zoom.translation[1] + (this.zoom.scaleFactor * d.y));
 
-        this.link
-          .attr('x1', d => this.zoom.translation[0] + (this.zoom.scaleFactor * d.source.x))
-          .attr('y1', d => this.zoom.translation[1] + (this.zoom.scaleFactor * d.source.y))
-          .attr('x2', d => this.zoom.translation[0] + (this.zoom.scaleFactor * d.target.x))
-          .attr('y2', d => this.zoom.translation[1] + (this.zoom.scaleFactor * d.target.y));
-      });
-    this.simulation.force('link').links(this.state.links);
-    this.simulation.restart();
-
-    this.svg.transition().duration(1500)
-      .call(this.zoomd3.transform, d3Zoom.zoomIdentity
-        .translate(50, 30)
-        .scale(0.8));
+      this.link
+        .attr('x1', d => this.zoom.translation[0] + (this.zoom.scaleFactor * d.source.x))
+        .attr('y1', d => this.zoom.translation[1] + (this.zoom.scaleFactor * d.source.y))
+        .attr('x2', d => this.zoom.translation[0] + (this.zoom.scaleFactor * d.target.x))
+        .attr('y2', d => this.zoom.translation[1] + (this.zoom.scaleFactor * d.target.y));
+    });
 
     this.setState({ ...this.state, init: true }, () => this.updateNodes());
   }
@@ -371,7 +364,8 @@ class Network extends Component {
   updateNodes = () => {
     this.node = this.node.data(this.nodes, d => d.id);
     this.node.exit().remove();
-    this.node = this.node.enter().append('circle')
+    this.node = this.node.enter()
+      .append('circle')
       .attr('class', 'network-node')
       .attr('r', d => d.radius)
       .attr('id', d => d.id)
@@ -404,18 +398,25 @@ class Network extends Component {
             d.fx = null;
             d.fy = null;
           }
-        }));
+        }))
+        .merge(this.node);
 
-    this.link = this.link.data(this.links, d => `{d.source.id}-${d.target.id}`)
-      .enter()
+    this.link = this.link.data(this.links, d => `{d.source.id}-${d.target.id}`);
+    this.link.exit().remove();
+    this.link = this.link.enter()
       .append('line')
-      .attr('class', (d) => {
-        console.log(d);
-        console.log(this.nodes[d.source]);
-        return `line-network ${this.nodes[d.source].id} ${this.nodes[d.source].id}`;
-      })
+      .attr('class', d => `line-network ${this.nodes[d.source].id} ${this.nodes[d.source].id}`)
       .attr('id', d => d.source.id)
-      .attr('stroke-width', 1.5);
+      .attr('stroke-width', 1.5)
+      .merge(this.link);
+
+    this.simulation.nodes(this.nodes);
+    this.simulation.force('link').links(this.state.links);
+    this.simulation.alpha(1).restart();
+    this.svg.transition().duration(1500)
+      .call(this.zoomd3.transform, d3Zoom.zoomIdentity
+        .translate(50, 30)
+        .scale(0.8));
   }
 
   resetCentering = () => {

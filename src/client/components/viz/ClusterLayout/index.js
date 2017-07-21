@@ -8,7 +8,6 @@ import * as d3Drag from 'd3-drag';
 import * as d3Array from 'd3-array';
 import * as d3Scale from 'd3-scale';
 import * as d3Zoom from 'd3-zoom';
-import * as d3Transition from 'd3-transition';
 import * as d3Cluster from 'd3-force-cluster'; // eslint-disable-line import/extensions
 
 import compareArrays from '../../../lib/arrays';
@@ -53,6 +52,8 @@ class ClusterLayout extends Component {
       if (!this.clusters[i] || (r > this.clusters[i].radius)) this.clusters[i] = d;
     });
 
+    this.nodes = this.state.nodes;
+
     this.setState({ ...this.state, width, height }, () => this.initializeD3());
   }
 
@@ -60,7 +61,10 @@ class ClusterLayout extends Component {
     const width = document.getElementById('window-cluster-content').clientWidth; // eslint-disable-line no-undef
     const height = document.getElementById('window-cluster-content').clientHeight; // eslint-disable-line no-undef
     this.handleResize(width, height, this.state.width, this.state.height);
-    this.setState({ ...this.state, width, height }, () => this.filterNodes());
+    this.setState({ ...this.state, width, height }, () => {
+      if (!this.props.queryResult) this.filterNodes();
+      else this.handleNewNodes();
+    });
   }
 
   filterNodes() {
@@ -71,6 +75,11 @@ class ClusterLayout extends Component {
       const isPresent = filter.filter(nodeE => nodeE.title === d.title).length > 0;
       return isPresent ? 'network-node' : 'network-node node-greyed-out';
     });
+  }
+
+  handleNewNodes = () => {
+    this.nodes = this.props.filteredNodes;
+    this.updateNodes();
   }
 
   handleNodeHover = (d, state) => {
@@ -89,7 +98,6 @@ class ClusterLayout extends Component {
   initializeD3() {
     const { width, height } = this.state;
     const mountPoint = this.mountClusterLayout;
-    const { nodes } = this.state;
 
     const zoom = d3Zoom.zoom().on('zoom', () => {
       const scaleFactor = d3Sel.event.transform.k;
@@ -118,44 +126,7 @@ class ClusterLayout extends Component {
 
     this.node = this.svg.append('g')
       .attr('class', 'nodes')
-      .selectAll('circle')
-      .data(nodes)
-      .enter()
-      .append('circle')
-      .attr('class', 'network-node')
-      .attr('r', d => d.radius)
-      .attr('id', d => d.id)
-      .attr('fill', d => this.color(d.cluster / 10))
-      .on('mouseover', (d) => {
-        if (!this.drag) {
-          this.handleNodeHover(d, true);
-        }
-      })
-      .on('mouseout', (d) => {
-        if (!this.drag) {
-          this.handleNodeHover(d, false);
-        }
-      })
-      .call(d3Drag.drag()
-        .on('start', (d) => {
-          if (!d3Sel.event.active) this.simulation.alphaTarget(0.3).restart();
-          this.props.hoverNode(d, true);
-          this.drag = true;
-          d.fx = d.x;
-          d.fy = d.y;
-        })
-        .on('drag', (d) => {
-          const mouseCoords = d3Sel.mouse(this.svg.node());
-          d.fx = (mouseCoords[0] - this.zoom.translation[0]) / this.zoom.scaleFactor;
-          d.fy = (mouseCoords[1] - this.zoom.translation[1]) / this.zoom.scaleFactor;
-        })
-        .on('end', (d) => {
-          if (!d3Sel.event.active) this.simulation.alphaTarget(0);
-          this.drag = false;
-          this.props.hoverNode(d, false);
-          d.fx = null;
-          d.fy = null;
-        }));
+      .selectAll('circle');
 
     this.simulation = d3Force.forceSimulation()
       .force('cluster', d3Cluster.forceCluster()
@@ -168,10 +139,57 @@ class ClusterLayout extends Component {
         this.node
           .attr('cx', d => this.zoom.translation[0] + (this.zoom.scaleFactor * d.x))
           .attr('cy', d => this.zoom.translation[1] + (this.zoom.scaleFactor * d.y));
-      })
-      .nodes(nodes);
+      });
 
-    this.setState({ ...this.state, init: true });
+    this.setState({ ...this.state, init: true }, () => this.updateNodes());
+  }
+
+  updateNodes = () => {
+    this.node.remove();
+    this.node = this.svg.append('g')
+      .attr('class', 'nodes')
+      .selectAll('circle');
+    this.node = this.node.data(this.nodes, d => d.id);
+    this.node.exit().remove();
+    this.node = this.node.enter()
+     .append('circle')
+     .attr('class', 'network-node')
+     .attr('r', d => d.radius)
+     .attr('id', d => d.id)
+     .attr('fill', d => this.color(d.cluster / 10))
+     .on('mouseover', (d) => {
+       if (!this.drag) {
+         this.handleNodeHover(d, true);
+       }
+     })
+     .on('mouseout', (d) => {
+       if (!this.drag) {
+         this.handleNodeHover(d, false);
+       }
+     })
+     .call(d3Drag.drag()
+       .on('start', (d) => {
+         if (!d3Sel.event.active) this.simulation.alphaTarget(0.3).restart();
+         this.props.hoverNode(d, true);
+         this.drag = true;
+         d.fx = d.x;
+         d.fy = d.y;
+       })
+       .on('drag', (d) => {
+         const mouseCoords = d3Sel.mouse(this.svg.node());
+         d.fx = (mouseCoords[0] - this.zoom.translation[0]) / this.zoom.scaleFactor;
+         d.fy = (mouseCoords[1] - this.zoom.translation[1]) / this.zoom.scaleFactor;
+       })
+       .on('end', (d) => {
+         if (!d3Sel.event.active) this.simulation.alphaTarget(0);
+         this.drag = false;
+         this.props.hoverNode(d, false);
+         d.fx = null;
+         d.fy = null;
+       }));
+
+    this.simulation.nodes(this.nodes);
+    this.simulation.alpha(1).restart();
   }
 
   render() {
@@ -183,6 +201,7 @@ class ClusterLayout extends Component {
 
 ClusterLayout.propTypes = {
   hoverNode: PropTypes.func.isRequired,
+  queryResult: PropTypes.bool.isRequired,
   nodes: PropTypes.arrayOf(PropTypes.shape({
     id: PropTypes.string,
     title: PropTypes.string,
