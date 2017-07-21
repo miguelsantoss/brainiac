@@ -8,7 +8,6 @@ import bodyParser from 'body-parser';
 import morgan from 'morgan';
 import PythonShell from 'python-shell';
 import ncbi from 'node-ncbi';
-import spawn from 'child_process';
 // import apiRoutes from './routes';
 
 import pdfIdGenerator from './utils';
@@ -84,7 +83,11 @@ app.get('/search', (req, res) => {
       });
       Promise.all(abstractPromises).then((abstractResults) => {
         abstractResults.forEach((d, i) => {
-          results.papers[i].abstract = d;
+          if (d) {
+            results.papers[i].abstract = d;
+          } else {
+            results.papers[i].abstract = '';
+          }
         });
         res.json(results.papers);
       });
@@ -124,7 +127,7 @@ app.post('/pdf/upload', upload.single('pdf'), (req, res) => {
   res.end();
 });
 
-app.post('/updateViz', (req, res) => {
+app.post('/updateviz', (req, res) => {
   const { docIds } = req.body;
   const pubmed = ncbi.pubmed;
   const infoPromises = [];
@@ -141,12 +144,17 @@ app.post('/updateViz', (req, res) => {
   Promise.all(infoPromises).then((docs) => {
     Promise.all(abstractPromises).then((abstracts) => {
       docs.forEach((doc, i) => {
+        const authors = [];
+        const stringSplit = doc.authors.split(', ');
+        stringSplit.forEach(author => authors.push({ name: author }));
+
         const node = {
           id: `pub${doc.pmid}`,
           title: doc.title,
-          authors: doc.authors.split(', '),
-          abstract: abstracts[i],
+          authors,
+          abstract: abstracts[i] ? abstracts[i] : '',
         };
+
         vizInfo.nodes.push(node);
       });
       const vizInfoWrite = JSON.stringify(vizInfo);
@@ -183,7 +191,6 @@ app.post('/updateViz', (req, res) => {
             if (err) throw err;
             // results is an array consisting of messages collected during execution
             // console.log('results: ', results);
-            console.log(results);
             res.sendFile(path.resolve(path.join(__dirname, 'corpus/pubmed'), 'vizUpdate.json'));
           });
         });

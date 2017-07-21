@@ -26,9 +26,6 @@ class ClusterLayout extends Component {
       scaleFactor: 1,
       translation: [0, 0],
     };
-
-    this.initializeD3 = this.initializeD3.bind(this);
-    this.filterNodes = this.filterNodes.bind(this);
   }
 
   componentWillMount() {

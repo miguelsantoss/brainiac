@@ -32,9 +32,6 @@ class Timeline extends Component {
     this.nodeRadius = 4;
     this.brushArray = [];
     this.hover = null;
-
-    this.initializeD3 = this.initializeD3.bind(this);
-    this.filterNodes = this.filterNodes.bind(this);
   }
 
   componentWillMount() {

@@ -29,7 +29,6 @@ $fill-animation: fill $fill-animation-time ease;
 
 .timeline-node {
   fill: $node-fill;
-  stroke: $node-stroke;
   opacity: $opacity-normal;
   cursor: pointer;
   cursor: hand;
@@ -51,7 +50,6 @@ $fill-animation: fill $fill-animation-time ease;
 
 .timeline-node.hover-node {
   fill: $hover-fill;
-  stroke: $node-stroke;
   opacity: $opacity-normal;
   -webkit-transition: $opacity-animation, $fill-animation;
      -moz-transition: $opacity-animation, $fill-animation;

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Dropdown, Menu, Popup } from 'semantic-ui-react';
 
-const getOptions = () => ['title', 'date'].map(e => ({ key: e, text: e, value: e }));
+const getOptions = () => ['Title', 'Date'].map(e => ({ key: e, text: e, value: e }));
 
 class DocumentList extends Component {
   constructor(props) {

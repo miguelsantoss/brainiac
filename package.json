@@ -115,6 +115,7 @@
     "react-redux": "^5.0.5",
     "react-sizeme": "^2.3.2",
     "react-sticky": "^6.0.1",
+    "react-stickynode": "^1.3.1",
     "redux": "^3.7.0",
     "redux-devtools-extension": "^2.13.2",
     "redux-logger": "^3.0.6",
@@ -149,7 +150,7 @@
   },
   "scripts": {
     "start:client": "babel-node node_modules/webpack-dev-server/bin/webpack-dev-server.js --config webpack.config.js",
-    "start:server": "cross-env NODE_ENV=development nodemon src/server/server.js --exec babel-node",
+    "start:server": "cross-env NODE_ENV=development nodemon src/server/server.js --ignore bak_corpus/ --ignore corpus --ignore '*.py' --exec babel-node",
     "server": "babel-node src/server/server.js",
     "start": "concurrently --kill-others \"yarn run start:client\" \"yarn run start:server\"",
     "prod": "babel-node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=production webpack-dev-server --env.prod=true",

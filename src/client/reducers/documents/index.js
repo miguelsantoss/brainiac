@@ -33,7 +33,7 @@ export const initialState = {
     },
     loading: false,
     errorLoading: false,
-    zz: [],
+    queryResult: false,
   },
   query: {
     pubmed: {
@@ -78,6 +78,7 @@ export function documentDb(state = initialState, action) {
           documents,
           errorLoading: false,
           loading: false,
+          queryResult: false,
         },
       };
     case DOC_FETCH_DOCUMENTS_DB_FAIL:
@@ -198,16 +199,17 @@ export function documentDb(state = initialState, action) {
       };
     case DB_UPDATE_VISUALIZATION_WITH_DOCS_SUCCESS:
       documents = { ...action.result };
-      console.log(documents);
       documents.nodes.forEach((d) => { d.radius = 4; });
-      documents.filteredNodes = [...documents.nodes];
       documents.filter = '';
+      f = _.cloneDeep(documents.nodes);
+      documents.filteredNodes = f;
       return {
         ...state,
         db: {
           documents,
           errorLoading: false,
           loading: false,
+          queryResult: true,
         },
       };
     case DB_UPDATE_VISUALIZATION_WITH_DOCS_FAIL:

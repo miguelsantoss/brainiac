@@ -39,16 +39,21 @@ class AppLayout extends Component {
   componentWillMount = () => {
     this.props.fetchDocuments();
   }
-  toggleVisibility = () => (this.props.sidebarOpened ?
-    this.props.closeSidebar() :
-    this.props.openSidebar())
+
+  toggleVisibility = () => {
+    if (this.props.sidebarOpened) this.props.closeSidebar();
+    else this.props.openSidebar();
+  }
 
   scrollToNode = (d) => {
-    const docListItem = this.fixedSidebar.docListSidebar._items.get(d.id);
-    ReactDOM.findDOMNode(docListItem).scrollIntoViewIfNeeded(); // eslint-disable-line react/no-find-dom-node, max-len
+    if (d3Select.event && d3Select.event.ctrlKey) {
+      const docListItem = this.fixedSidebar.docListSidebar._items.get(d.id);
+      ReactDOM.findDOMNode(docListItem).scrollIntoViewIfNeeded(); // eslint-disable-line react/no-find-dom-node
+    }
   }
 
   hoverNode = (d, state) => {
+    if (!d) return;
     const hoverTransition = d3Transition.transition().duration(140);
     d3Select.selectAll(`#${d.id}`).classed('hover-node', state);
     d3Select.selectAll(`.line-network.${d.id}`).classed('hover-line-network', state);
@@ -85,6 +90,7 @@ class AppLayout extends Component {
         hoverNode: this.hoverNode,
         scrollToNode: this.scrollToNode,
       };
+      console.log(this.props.db.queryResult);
       const vizArray = [
         (<VizContainer
           windowName="Network"
@@ -94,6 +100,7 @@ class AppLayout extends Component {
           gridData={{ x: 0, y: 0, w: 5, h: 8, static: false }}
         >
           <Network
+            queryResult={this.props.db.queryResult}
             nodes={_.cloneDeep(documents.nodes)}
             links={_.cloneDeep(documents.links)}
             filteredNodes={_.cloneDeep(documents.filteredNodes)}
@@ -110,6 +117,7 @@ class AppLayout extends Component {
           gridData={{ x: 5, y: 0, w: 5, h: 8, static: false }}
         >
           <ClusterLayout
+            queryResult={this.props.db.queryResult}
             nodes={_.cloneDeep(documents.nodes)}
             filteredNodes={_.cloneDeep(documents.filteredNodes)}
             ref={(element) => { this.clusterViz = element; }}
@@ -117,6 +125,7 @@ class AppLayout extends Component {
           />
         </VizContainer>),
         (<VizContainer
+          queryResult={this.props.db.queryResult}
           windowName="Timeline"
           contentId="window-timeline-content"
           key="timeline"
@@ -192,7 +201,6 @@ class AppLayout extends Component {
             results={query.results}
             queryLoading={query.loading}
             queryError={query.errorLoading}
-            zz={this.props.db.zz}
           >
             {children}
           </SidebarPushable>
@@ -228,6 +236,7 @@ AppLayout.propTypes = {
   db: PropTypes.shape({
     errorLoading: PropTypes.bool.isRequired,
     loading: PropTypes.bool.isRequired,
+    queryResult: PropTypes.bool.isRequired,
     documents: PropTypes.shape({
       cluster_words_lsa: PropTypes.arrayOf(PropTypes.arrayOf(PropTypes.string)).isRequired,
       cluster_words_tfidf: PropTypes.arrayOf(PropTypes.arrayOf(PropTypes.string)).isRequired,
@@ -287,7 +296,7 @@ const mapStateToProps = state => ({
     documents: state.documentDb.db.documents,
     loading: state.documentDb.db.loading,
     errorLoading: state.documentDb.db.errorLoading,
-    zz: state.documentDb.db.zz,
+    queryResult: state.documentDb.db.queryResult,
   },
   docFetch: state.documentDb.docFetch,
 });

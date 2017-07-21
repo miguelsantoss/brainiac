@@ -1,15 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Sidebar, Menu, Checkbox, Button, Header, Dimmer, Loader, Popup, Label } from 'semantic-ui-react';
+import { Sidebar, Menu, Checkbox, Button, Header, Dimmer, Loader, Popup } from 'semantic-ui-react';
 
 import QueryAbstract from '../QueryAbstract';
+import './index.scss';
 
 const style = {};
-
 style.shadow = {
   boxShadow: 'none',
 };
-
 style.popup = {
   borderRadius: 0,
   maxWidth: '800px',
@@ -91,7 +90,7 @@ class SidebarPushable extends React.Component {
               position="right center"
               style={style.popup}
             />
-            <Menu.Menu>
+            <Menu.Menu className="queryDocInfo">
               <Menu.Item name={docItem.authors} />
               <Menu.Item name={docItem.pubDate} />
             </Menu.Menu>
@@ -99,34 +98,44 @@ class SidebarPushable extends React.Component {
         );
       });
       return (
-        <Menu.Item>
-          {items}
-          <Menu.Item>
-            <Button.Group>
+        <Menu.Item id="queryResults">
+          <div id="queryResultList">
+            {items}
+          </div>
+          <Menu.Item style={{ paddingBottom: 5 }}>
+            <Button.Group fluid>
               <Button negative onClick={() => this.handleButtonCancel()}>Cancel</Button>
               <Button positive onClick={() => this.handleButtonSave(true)}>Create New</Button>
-              <Button positive onClick={() => this.handleButtonSave(false)}>Append</Button>
               <Button icon={icon} content="Select all" onClick={() => this.handleSelectAllClick(checked)} />
             </Button.Group>
           </Menu.Item>
         </Menu.Item>
       );
     }
+    // <Button positive onClick={() => this.handleButtonSave(false)}>Append</Button>
     return (
       <Header>No results found!</Header>
     );
   }
+
   render = () => {
     const { visible, children, queryLoading } = this.props;
+    const isVisible = visible && !queryLoading;
     return (
-      <Sidebar.Pushable>
-        <Sidebar style={style.menu} as={Menu} animation="overlay" width="very wide" visible={visible && !queryLoading} vertical>
+      <Sidebar.Pushable id="testID">
+        <Sidebar
+          style={style.menu}
+          as={Menu}
+          animation="overlay"
+          width="very wide"
+          visible={isVisible}
+          vertical
+          id="sidebarPushable"
+        >
           {this.renderResults()}
         </Sidebar>
         <Sidebar.Pusher>
-          <div>
-            {children}
-          </div>
+          {children}
         </Sidebar.Pusher>
       </Sidebar.Pushable>
     );

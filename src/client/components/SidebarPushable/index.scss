@@ -1,0 +1,20 @@
+.queryDocInfo {
+    .item {
+        color: #545454 !important;
+    }
+}
+
+#sidebarPushable {
+    max-height: 100vh;
+    position: absolute;
+    top: 0%;
+}
+
+#queryResults {
+    padding: 0;
+}
+
+#queryResultList {
+    max-height: 90vh;
+    overflow-y: scroll;
+}

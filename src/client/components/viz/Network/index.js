@@ -41,9 +41,6 @@ class Network extends Component {
       translation: [0, 0],
     };
     this.centerTransition = false;
-
-    this.initializeD3 = this.initializeD3.bind(this);
-    this.filterNodes = this.filterNodes.bind(this);
   }
 
   componentWillMount() {
@@ -57,7 +54,10 @@ class Network extends Component {
     const width = document.getElementById('window-network-content').clientWidth; // eslint-disable-line no-undef
     const height = document.getElementById('window-network-content').clientHeight; // eslint-disable-line no-undef
     this.handleResize(width, height, this.state.width, this.state.height);
-    this.setState({ ...this.state, width, height }, () => this.filterNodes());
+    this.setState({ ...this.state, width, height }, () => {
+      if (!this.props.queryResult) this.filterNodes();
+      else this.handleNewNodes();
+    });
   }
 
   centerNode = (d) => {
@@ -255,6 +255,10 @@ class Network extends Component {
       }
       return 'line-network line-greyed-out';
     });
+  }
+
+  handleNewNodes = () => {
+
   }
 
   handleNodeHover = (d, state) => {
@@ -494,10 +498,10 @@ Network.propTypes = {
     value: PropTypes.number,
   })).isRequired,
   hoverNode: PropTypes.func.isRequired,
+  queryResult: PropTypes.bool.isRequired,
   canDrop: PropTypes.bool.isRequired,
   isOver: PropTypes.bool.isRequired,
   connectDropTarget: PropTypes.func.isRequired,
-
 };
 
 export default sizeMe({ monitorHeight: true })(dragWrapper);

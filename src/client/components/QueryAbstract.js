@@ -3,11 +3,12 @@ import PropTypes from 'prop-types';
 
 const queryAbstract = (props) => {
   const { abstract } = props;
+  const noAbstract = !abstract;
   return (
     <div>
       <span>
         <b>Abstract:</b><br />
-        {abstract}
+        { noAbstract ? 'No abstract available' : abstract }
       </span>
     </div>
   );

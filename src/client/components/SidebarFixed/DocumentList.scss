@@ -46,6 +46,12 @@ $color-animation: color $fill-animation-time ease;
   color: $header-color !important;
 }
 
+.dropdown {
+  .header {
+    color: black !important;
+  }
+}
+
 .item {
   color: $text-color !important;
   -webkit-transition: $fill-animation;
