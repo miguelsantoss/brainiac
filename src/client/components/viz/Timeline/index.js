@@ -37,14 +37,7 @@ class Timeline extends Component {
   componentWillMount() {
     const width = document.getElementById('window-timeline-content').clientWidth; // eslint-disable-line no-undef
     const height = document.getElementById('window-timeline-content').clientHeight; // eslint-disable-line no-undef
-
-    this.state.nodes.forEach((d) => {
-      d.radius = 4;
-      d.defaultRadius = 4;
-    });
-
     this.nodes = this.state.nodes;
-
     this.setState({ ...this.state, width, height }, () => this.initializeD3());
   }
 
@@ -231,7 +224,7 @@ class Timeline extends Component {
     for (let i = 0; i < 120; i += 1) this.simulation.tick();
 
     this.node.remove();
-    this.node = this.svg.append('g')
+    this.node = this.g.append('g')
       .attr('class', 'nodes')
       .selectAll('circle');
     this.node = this.node.data(this.nodes, d => d.id);
