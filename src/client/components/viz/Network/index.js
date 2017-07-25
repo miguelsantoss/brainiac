@@ -280,6 +280,7 @@ class Network extends Component {
 
 
   initializeD3 = () => {
+    console.log(this.nodes);
     const { width, height } = this.state;
     const linkDistanceMult = this.state.height / 2;
     const mountPoint = this.mountNetwork;
