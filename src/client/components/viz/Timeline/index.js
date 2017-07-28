@@ -32,6 +32,11 @@ class Timeline extends Component {
     this.nodeRadius = 4;
     this.brushArray = [];
     this.hover = null;
+
+    // click and dblclick stuff
+    this.prevent = false;
+    this.timer = 0;
+    this.delay = 200;
   }
 
   componentWillMount() {
@@ -108,6 +113,20 @@ class Timeline extends Component {
   handleNodeHover = (d, state) => {
     if (!d3Sel.event.ctrlKey) this.hoverTooltip.classed('hover-tn', state);
     this.props.hoverNode(d, state);
+  }
+
+  handleNodeClick(d) {
+    this.timer = setTimeout(() => {
+      if (!this.prevent) this.props.focusNode(d);
+      this.prevent = false;
+    }, this.delay);
+  }
+
+  handleNodeDoubleClick(d) {
+    clearTimeout(this.timer);
+    this.prevent = true;
+    // this.centerNode(d);
+    console.log(d, 'dblclick');
   }
 
   handleResize(newWidth, newHeight, oldWidth, oldHeight) {
@@ -281,6 +300,7 @@ Timeline.propTypes = {
     value: PropTypes.number,
   })).isRequired,
   hoverNode: PropTypes.func.isRequired,
+  focusNode: PropTypes.func.isRequired,
   filterByDate: PropTypes.func.isRequired,
   clearFilterByDate: PropTypes.func.isRequired,
   queryResult: PropTypes.bool.isRequired,

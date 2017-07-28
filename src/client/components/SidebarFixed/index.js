@@ -120,6 +120,8 @@ class SidebarFixed extends Component {
         </Menu.Item>
         {this.renderTopicWords()}
         <DocumentList
+          focusNode={this.props.focusNode}
+          openDocument={this.props.openDocument}
           documentList={this.props.dbDocumentList}
           handleHover={this.props.handleHover}
           sortDocumentsBy={this.props.sortDocumentsBy}
@@ -141,6 +143,8 @@ SidebarFixed.propTypes = {
   topicWords: PropTypes.arrayOf(PropTypes.arrayOf(PropTypes.string)).isRequired,
   queryLoading: PropTypes.bool.isRequired,
   magnetsActive: PropTypes.bool.isRequired,
+  focusNode: PropTypes.func.isRequired,
+  openDocument: PropTypes.func.isRequired,
 };
 
 export default SidebarFixed;

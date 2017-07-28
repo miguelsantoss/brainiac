@@ -36,23 +36,31 @@ import style from './style';
 class AppLayout extends Component {
   state = { magnets: false };
 
-  componentWillMount = () => {
+  componentWillMount() {
     this.props.fetchDocuments();
   }
 
-  toggleVisibility = () => {
+  openDocument(id) {
+    console.log(id);
+  }
+
+  focusNode(id) {
+    console.log(id);
+  }
+
+  toggleVisibility() {
     if (this.props.sidebarOpened) this.props.closeSidebar();
     else this.props.openSidebar();
   }
 
-  scrollToNode = (d) => {
+  scrollToNode(d) {
     if (d3Select.event && d3Select.event.ctrlKey) {
       const docListItem = this.fixedSidebar.docListSidebar._items.get(d.id);
       ReactDOM.findDOMNode(docListItem).scrollIntoViewIfNeeded(); // eslint-disable-line react/no-find-dom-node
     }
   }
 
-  hoverNode = (d, state) => {
+  hoverNode(d, state) {
     if (!d) return;
     const hoverTransition = d3Transition.transition().duration(140);
     d3Select.selectAll(`#${d.id}`).classed('hover-node', state);
@@ -83,11 +91,16 @@ class AppLayout extends Component {
     }
   }
 
+  focusNode(d) {
+    console.log(d);
+  }
+
   vizLayout = () => {
     const { documents } = this.props.db;
     if (documents.nodes && documents.nodes.length > 0) {
       const vizProps = {
         hoverNode: this.hoverNode,
+        focusNode: this.focusNode,
         scrollToNode: this.scrollToNode,
       };
       const vizArray = [
@@ -147,19 +160,19 @@ class AppLayout extends Component {
     return (<GridLayout>{[]}</GridLayout>);
   }
 
-  handleSave = (res, newViz) => {
+  handleSave(res, newViz) {
     if (res && res.length > 0) {
       const docs = { docIds: res };
       this.props.updateVisualizationWithDocs(docs, newViz);
     }
   }
 
-  changeMagnetVizState = () => {
+  changeMagnetVizState() {
     console.error('not finished yet');
     // this.setState({ ...this.state, magnets: !this.state.magnets });
   }
 
-  render = () => {
+  render() {
     const query = this.props.query.pubmed;
     const children = (
       <div>
@@ -185,6 +198,8 @@ class AppLayout extends Component {
           queryLoading={query.loading}
           dbDocumentList={documents || {}}
           handleHover={this.hoverNode}
+          openDocument={this.openDocument}
+          focusNode={this.focusNode}
           topicWords={clusterWordsTfidf || []}
           queryDocuments={(documentQuery) => {
             this.props.queryPubmed(documentQuery);

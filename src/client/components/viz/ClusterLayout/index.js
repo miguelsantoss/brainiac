@@ -25,6 +25,11 @@ class ClusterLayout extends Component {
       scaleFactor: 1,
       translation: [0, 0],
     };
+
+    // click and dblclick stuff
+    this.prevent = false;
+    this.timer = 0;
+    this.delay = 200;
   }
 
   componentWillMount() {
@@ -89,6 +94,20 @@ class ClusterLayout extends Component {
   handleNewNodes = () => {
     this.nodes = this.props.filteredNodes;
     this.updateNodes();
+  }
+
+  handleNodeClick(d) {
+    this.timer = setTimeout(() => {
+      if (!this.prevent) this.props.focusNode(d);
+      this.prevent = false;
+    }, this.delay);
+  }
+
+  handleNodeDoubleClick(d) {
+    clearTimeout(this.timer);
+    this.prevent = true;
+    console.log(d, 'dblclick');
+    // this.centerNode(d);
   }
 
   handleNodeHover = (d, state) => {
@@ -167,41 +186,43 @@ class ClusterLayout extends Component {
     this.node = this.node.data(this.nodes, d => d.id);
     this.node.exit().remove();
     this.node = this.node.enter()
-     .append('circle')
-     .attr('class', 'network-node')
-     .attr('r', d => d.radius)
-     .attr('id', d => d.id)
-     .attr('fill', d => this.color(d.cluster / 10))
-     .on('mouseover', (d) => {
-       if (!this.drag) {
-         this.handleNodeHover(d, true);
-       }
-     })
-     .on('mouseout', (d) => {
-       if (!this.drag) {
-         this.handleNodeHover(d, false);
-       }
-     })
-     .call(d3Drag.drag()
-       .on('start', (d) => {
-         if (!d3Sel.event.active) this.simulation.alphaTarget(0.3).restart();
-         this.props.hoverNode(d, true);
-         this.drag = true;
-         d.fx = d.x;
-         d.fy = d.y;
-       })
-       .on('drag', (d) => {
-         const mouseCoords = d3Sel.mouse(this.svg.node());
-         d.fx = (mouseCoords[0] - this.zoom.translation[0]) / this.zoom.scaleFactor;
-         d.fy = (mouseCoords[1] - this.zoom.translation[1]) / this.zoom.scaleFactor;
-       })
-       .on('end', (d) => {
-         if (!d3Sel.event.active) this.simulation.alphaTarget(0);
-         this.drag = false;
-         this.props.hoverNode(d, false);
-         d.fx = null;
-         d.fy = null;
-       }));
+      .append('circle')
+      .attr('class', 'network-node')
+      .attr('r', d => d.radius)
+      .attr('id', d => d.id)
+      .attr('fill', d => this.color(d.cluster / 10))
+      .on('mouseover', (d) => {
+        if (!this.drag) {
+          this.handleNodeHover(d, true);
+        }
+      })
+      .on('mouseout', (d) => {
+        if (!this.drag) {
+          this.handleNodeHover(d, false);
+        }
+      })
+      .on('click', d => this.handleNodeClick(d))
+      .on('dblclick', d => this.handleNodeDoubleClick(d))
+      .call(d3Drag.drag()
+        .on('start', (d) => {
+          if (!d3Sel.event.active) this.simulation.alphaTarget(0.3).restart();
+          this.props.hoverNode(d, true);
+          this.drag = true;
+          d.fx = d.x;
+          d.fy = d.y;
+        })
+        .on('drag', (d) => {
+          const mouseCoords = d3Sel.mouse(this.svg.node());
+          d.fx = (mouseCoords[0] - this.zoom.translation[0]) / this.zoom.scaleFactor;
+          d.fy = (mouseCoords[1] - this.zoom.translation[1]) / this.zoom.scaleFactor;
+        })
+        .on('end', (d) => {
+          if (!d3Sel.event.active) this.simulation.alphaTarget(0);
+          this.drag = false;
+          this.props.hoverNode(d, false);
+          d.fx = null;
+          d.fy = null;
+        }));
 
     this.simulation.nodes(this.nodes);
     this.simulation.alpha(1).restart();
@@ -216,6 +237,7 @@ class ClusterLayout extends Component {
 
 ClusterLayout.propTypes = {
   hoverNode: PropTypes.func.isRequired,
+  focusNode: PropTypes.func.isRequired,
   queryResult: PropTypes.bool.isRequired,
   nodes: PropTypes.arrayOf(PropTypes.shape({
     id: PropTypes.string,

@@ -23,6 +23,7 @@ const boxTarget = {
 
 const r = [{ r: 75 }, { r: 150 }, { r: 225 }, { r: 300 }];
 
+
 class Network extends Component {
   constructor(props) {
     super(props);
@@ -33,6 +34,7 @@ class Network extends Component {
       centered: false,
     };
 
+    // d3 and viz stuff
     this.centered = false;
     this.drag = false;
     this.magnetNodes = [];
@@ -41,6 +43,11 @@ class Network extends Component {
       translation: [0, 0],
     };
     this.centerTransition = false;
+
+    // click and dblclick stuff
+    this.prevent = false;
+    this.timer = 0;
+    this.delay = 200;
   }
 
   componentWillMount() {
@@ -61,7 +68,21 @@ class Network extends Component {
     });
   }
 
-  centerNode = (d) => {
+
+  handleNodeClick(d) {
+    this.timer = setTimeout(() => {
+      if (!this.prevent) this.props.focusNode(d);
+      this.prevent = false;
+    }, this.delay);
+  }
+
+  handleNodeDoubleClick(d) {
+    clearTimeout(this.timer);
+    this.prevent = true;
+    this.centerNode(d);
+  }
+
+  centerNode(d) {
     if (d3Sel.event.defaultPrevented) return;
     if (this.centerTransition) return;
     const nodes = this.nodes;
@@ -279,8 +300,7 @@ class Network extends Component {
   }
 
 
-  initializeD3 = () => {
-    console.log(this.nodes);
+  initializeD3() {
     const { width, height } = this.state;
     const linkDistanceMult = this.state.height / 2;
     const mountPoint = this.mountNetwork;
@@ -383,7 +403,8 @@ class Network extends Component {
       .on('mouseout', (d) => {
         if (!this.drag) this.handleNodeHover(d, false);
       })
-      .on('click', d => this.centerNode(d))
+      .on('click', d => this.handleNodeClick(d))
+      .on('dblclick', d => this.handleNodeDoubleClick(d))
       .call(d3Drag.drag()
         .on('start', (d) => {
           if (!d3Sel.event.active) this.simulation.alphaTarget(0.3).restart();
@@ -427,7 +448,7 @@ class Network extends Component {
         .scale(0.8));
   }
 
-  resetCentering = () => {
+  resetCentering() {
     const nodes = this.nodes;
     const centerTransition = d3Transition.transition().duration(500);
 
@@ -518,6 +539,7 @@ Network.propTypes = {
     value: PropTypes.number,
   })).isRequired,
   hoverNode: PropTypes.func.isRequired,
+  focusNode: PropTypes.func.isRequired,
   queryResult: PropTypes.bool.isRequired,
   canDrop: PropTypes.bool.isRequired,
   isOver: PropTypes.bool.isRequired,

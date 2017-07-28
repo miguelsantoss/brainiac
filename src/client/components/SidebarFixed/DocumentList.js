@@ -11,17 +11,31 @@ class DocumentList extends Component {
       options: getOptions(),
       value: getOptions()[0].value,
     };
+
+    this.prevent = false;
+    this.timer = 0;
+    this.delay = 200;
     this._items = new Map();
   }
 
-  handleHover = ({ id }, state) => this.props.handleHover({ id }, state)
+  handleClick(id) {
+    this.props.focusNode(id);
+  }
 
-  handleChange = (e, { value }) => {
+  handleDoubleClick(id) {
+    this.props.openDocument(id);
+  }
+
+  handleHover({ id }, state) {
+    this.props.handleHover({ id }, state);
+  }
+
+  handleChange(e, { value }) {
     this.props.sortDocumentsBy(value);
     this.setState({ value });
   }
 
-  fetchOptions = () => {
+  fetchOptions() {
     this.setState({ isFetching: true });
 
     setTimeout(() => {
@@ -30,7 +44,7 @@ class DocumentList extends Component {
     }, 500);
   }
 
-  renderPopupItems = () => {
+  renderPopupItems() {
     const { documentList } = this.props;
     const maxAuthors = 10;
     const authorsToString = (d) => {
@@ -47,6 +61,17 @@ class DocumentList extends Component {
         <div
           onMouseEnter={() => this.handleHover({ id: d.id, i }, true)}
           onMouseLeave={() => this.handleHover({ id: d.id, i }, false)}
+          onClick={() => {
+            this.timer = setTimeout(() => {
+              if (!this.prevent) this.handleClick(d.id);
+              this.prevent = false;
+            }, this.delay);
+          }}
+          onDoubleClick={() => {
+            clearTimeout(this.timer);
+            this.prevent = true;
+            this.handleDoubleClick(d.id);
+          }}
         >
           <Menu.Item
             name={d.title}
@@ -106,6 +131,8 @@ class DocumentList extends Component {
 DocumentList.propTypes = {
   documentList: PropTypes.object.isRequired, // eslint-disable-line react/forbid-prop-types
   handleHover: PropTypes.func.isRequired,
+  focusNode: PropTypes.func.isRequired,
+  openDocument: PropTypes.func.isRequired,
   sortDocumentsBy: PropTypes.func.isRequired,
 };
 

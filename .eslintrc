@@ -10,6 +10,7 @@
         "react/jsx-filename-extension": "off",
         "no-underscore-dangle": "off",
         "no-param-reassign": "off",
-        "max-len": "off"
+        "max-len": "off",
+        "import/no-extraneous-dependencies": "off"
     }
 }
