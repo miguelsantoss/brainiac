@@ -87,7 +87,7 @@ class ClusterLayout extends Component {
 
     this.node.attr('class', (d) => {
       const isPresent = filter.filter(nodeE => nodeE.title === d.title).length > 0;
-      return isPresent ? 'network-node' : 'network-node node-greyed-out';
+      return isPresent ? 'cluster-node' : 'cluster-node node-greyed-out';
     });
   }
 
@@ -111,7 +111,6 @@ class ClusterLayout extends Component {
   }
 
   handleNodeHover = (d, state) => {
-    if (!d3Sel.event.ctrlKey) this.hoverTooltip.classed('hover-tn', state);
     this.props.hoverNode(d, state);
   }
 
@@ -170,11 +169,6 @@ class ClusterLayout extends Component {
           .attr('cy', d => this.zoom.translation[1] + (this.zoom.scaleFactor * d.y));
       });
 
-    this.hoverTooltip = this.svg.append('text')
-      .attr('x', 2)
-      .attr('y', height - 5)
-      .attr('class', 'cluster-toolip-text')
-      .text('To highlight the document on the list, hold the ctrl key when hovering');
     this.setState({ ...this.state, init: true }, () => this.updateNodes());
   }
 
@@ -187,7 +181,7 @@ class ClusterLayout extends Component {
     this.node.exit().remove();
     this.node = this.node.enter()
       .append('circle')
-      .attr('class', 'network-node')
+      .attr('class', 'cluster-node')
       .attr('r', d => d.radius)
       .attr('id', d => d.id)
       .attr('fill', d => this.color(d.cluster / 10))

@@ -5,7 +5,7 @@ import { Header } from 'semantic-ui-react';
 const VizContainer = props => (
   <div className="drag-wrapper">
     <div className="LayoutHandle handle text-vert-center">
-      <Header size="tiny">{props.windowName}</Header>
+      <Header className="header" size="tiny">{props.windowName}</Header>
     </div>
     <div id={props.contentId} className="content no-cursor text-vert-center">
       {props.children}

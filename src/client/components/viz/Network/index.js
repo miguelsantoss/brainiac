@@ -12,7 +12,7 @@ import * as d3Transition from 'd3-transition';
 import * as d3Timer from 'd3-timer';
 
 import compareArrays from '../../../lib/arrays';
-import './Network.scss';
+import './network.scss';
 
 const boxTarget = {
   drop(props, monitor, component) {
@@ -286,7 +286,6 @@ class Network extends Component {
   }
 
   handleNodeHover = (d, state) => {
-    if (!d3Sel.event.ctrlKey) this.hoverTooltip.classed('hover-tn', state);
     if (!this.centerTransition) this.props.hoverNode(d, state);
   }
 
@@ -380,12 +379,6 @@ class Network extends Component {
         .attr('y2', d => this.zoom.translation[1] + (this.zoom.scaleFactor * d.target.y));
     });
 
-    this.hoverTooltip = this.svg.append('text')
-      .attr('x', 2)
-      .attr('y', height - 5)
-      .attr('class', 'network-toolip-text')
-      .text('To highlight the document on the list, hold the ctrl key when hovering');
-
     this.setState({ ...this.state, init: true }, () => this.updateNodes());
   }
 
@@ -434,8 +427,20 @@ class Network extends Component {
     this.link.exit().remove();
     this.link = this.link.enter()
       .append('line')
-      .attr('class', d => `line-network ${this.nodes[d.source].id} ${this.nodes[d.source].id}`)
-      .attr('id', d => d.source.id)
+      .attr('class', d => `line-network ${this.nodes[d.source].id} ${this.nodes[d.target].id}`)
+      .attr('id', (d) => {
+        if (this.nodes[d.source].links) {
+          this.nodes[d.source].links.push(this.nodes[d.target]);
+        } else {
+          this.nodes[d.source].links = [this.nodes[d.target]];
+        }
+        if (this.nodes[d.target].links) {
+          this.nodes[d.target].links.push(this.nodes[d.source]);
+        } else {
+          this.nodes[d.target].links = [this.nodes[d.source]];
+        }
+        return this.nodes[d.source].id;
+      })
       .attr('stroke-width', 1.5)
       .merge(this.link);
 
@@ -502,7 +507,6 @@ class Network extends Component {
           </Label>
         }
         <div className="mount" ref={(element) => { this.mountNetwork = element; }} />
-        <div id="network-tooltip" />
       </div>,
     );
   }

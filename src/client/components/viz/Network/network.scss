@@ -1,0 +1,90 @@
+$node-fill: #F3A530;
+$hover-fill: #EE4035;
+$focus-fill: white;
+$secondary-hover-fill: #56B949;
+$secondary-focus-fill: #30499B;
+$node-stroke: $node-fill;
+$opacity-normal: 1;
+$opacity-greyed-out: 0.1;
+
+$link-stroke: #999;
+$hover-stroke: #EE4035;
+$opacity-links: 0.5;
+
+// animations
+$opacity-animation-time: 0.5s;
+$fill-animation-time: 0.2s;
+$stroke-animation-time: 0.2s;
+
+$opacity-animation: opacity $opacity-animation-time ease;
+$fill-animation: fill $fill-animation-time ease;
+$stroke-animation: stroke $stroke-animation-time ease;
+
+#window-network-content > div {
+  margin: 0 !important;
+  width: 100%;
+  height: 100%;
+}
+
+.network-node {
+  fill: $node-fill;
+  opacity: $opacity-normal;
+  cursor: pointer;
+  cursor: hand;
+  transition: $opacity-animation, $fill-animation;
+
+  &.node-greyd-out {
+    opacity: $opacity-greyed-out;
+    transition: $opacity-animation;
+  }
+
+  &.hover-node {
+    fill: $hover-fill;
+    transition: $fill-animation;
+  }
+
+  &.secondary-hover-node {
+    fill: $secondary-hover-fill;
+    stroke: black;
+    stroke-width: 1px;
+    transition: $fill-animation;
+  }
+
+  &.focus-node {
+    fill: $focus-fill;
+    stroke: black;
+    stroke-width: 2px;
+    transition: $fill-animation;
+  }
+
+  &.secondary-focus-node {
+    fill: $secondary-focus-fill;
+    stroke: black;
+    stroke-width: 1px;
+    transition: $fill-animation;
+  }
+}
+
+.line-network {
+  stroke: $link-stroke;
+  opacity: $opacity-links;
+  transition: $opacity-animation, $fill-animation;
+
+  &.hover-line-network {
+    opacity: $opacity-normal;
+    stroke: $secondary-hover-fill;
+    transition: $stroke-animation, $opacity-animation;
+  }
+
+  &.line-greyed-out {
+    opacity: $opacity-greyed-out;
+    transition: $opacity-animation, $fill-animation;
+  }
+
+  &.focus-line-network {
+    stroke: black;
+    opacity: $opacity-normal;
+    transition: $stroke-animation, $opacity-animation;
+    stroke-dasharray: 5;
+  }
+}

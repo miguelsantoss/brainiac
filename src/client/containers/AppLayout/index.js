@@ -34,7 +34,16 @@ import VizContainer from '../../containers/VizContainer';
 import style from './style';
 
 class AppLayout extends Component {
-  state = { magnets: false };
+  constructor(props) {
+    super(props);
+    this.state = {
+      magnets: false,
+      focusedNode: null,
+    };
+
+    this.hoverNode = this.hoverNode.bind(this);
+    this.focusNode = this.focusNode.bind(this);
+  }
 
   componentWillMount() {
     this.props.fetchDocuments();
@@ -44,30 +53,29 @@ class AppLayout extends Component {
     console.log(id);
   }
 
-  focusNode(id) {
-    console.log(id);
-  }
-
   toggleVisibility() {
     if (this.props.sidebarOpened) this.props.closeSidebar();
     else this.props.openSidebar();
   }
 
   scrollToNode(d) {
-    if (d3Select.event && d3Select.event.ctrlKey) {
-      const docListItem = this.fixedSidebar.docListSidebar._items.get(d.id);
-      ReactDOM.findDOMNode(docListItem).scrollIntoViewIfNeeded(); // eslint-disable-line react/no-find-dom-node
-    }
+    const docListItem = this.fixedSidebar.docListSidebar._items.get(d.id);
+    ReactDOM.findDOMNode(docListItem).scrollIntoViewIfNeeded(); // eslint-disable-line react/no-find-dom-node
   }
 
-  hoverNode(d, state) {
+  hoverNode(d, state, scrollToNode = false) {
     if (!d) return;
     const hoverTransition = d3Transition.transition().duration(140);
     d3Select.selectAll(`#${d.id}`).classed('hover-node', state);
     d3Select.selectAll(`.line-network.${d.id}`).classed('hover-line-network', state);
+    if (d.links) {
+      d.links.forEach((link) => {
+        d3Select.selectAll(`#${link.id}`).classed('secondary-hover-node', state);
+      });
+    }
     // On Hover
     if (state) {
-      this.scrollToNode(d);
+      if (scrollToNode) this.scrollToNode(d);
       d3Select.selectAll(`circle#${d.id}`)
         .transition(hoverTransition)
         .attr('r', n => n.radius + 10)
@@ -76,23 +84,65 @@ class AppLayout extends Component {
         .attr('r', n => n.radius + 5);
 
       // Show the tooltip
-      d3Select.select(this.tooltip)
-        .style('left', `${event.x + 10}px`) // eslint-disable-line no-undef
-        .style('top', `${event.y + 10}px`) // eslint-disable-line no-undef
-        .style('display', 'inline-block')
-        .html((d.title));
+      // d3Select.select(this.tooltip)
+      //   .style('left', `${event.x + 10}px`) // eslint-disable-line no-undef
+      //   .style('top', `${event.y + 10}px`) // eslint-disable-line no-undef
+      //   .style('display', 'inline-block')
+      //   .html((d.title));
     } else {
       d3Select.selectAll(`circle#${d.id}`)
         .transition(hoverTransition)
         .attr('r', n => n.radius);
 
       // Hide tooltip
-      d3Select.select(this.tooltip).style('display', 'none');
+      // d3Select.select(this.tooltip).style('display', 'none');
     }
   }
 
-  focusNode(d) {
-    console.log(d);
+  focusNode(d, state = true, scrollToNode = true) {
+    if (!d) return;
+    if (this.state.focusedNode && this.state.focusedNode === d && state !== false) {
+      this.focusNode(this.state.focusedNode, false, false);
+      return;
+    }
+    if (state) {
+      if (this.state.focusedNode) this.focusNode(this.state.focusedNode, false, false);
+      this.setState({ ...this.state, focusedNode: d });
+    } else {
+      this.setState({ ...this.state, focusedNode: null });
+    }
+    const hoverTransition = d3Transition.transition().duration(140);
+    d3Select.selectAll(`#${d.id}`).classed('focus-node', state);
+    d3Select.selectAll(`.line-network.${d.id}`).classed('focus-line-network', state);
+    if (d.links) {
+      d.links.forEach((link) => {
+        d3Select.selectAll(`#${link.id}`).classed('secondary-focus-node', state);
+      });
+    }
+    // On Focus
+    if (state) {
+      if (scrollToNode) this.scrollToNode(d);
+      d3Select.selectAll(`circle#${d.id}`)
+        .transition(hoverTransition)
+        .attr('r', n => n.radius + 10)
+        .delay(20)
+        .transition(hoverTransition)
+        .attr('r', n => n.radius + 5);
+
+      // Show the tooltip
+      // d3Select.select(this.tooltip)
+      //   .style('left', `${event.x + 10}px`) // eslint-disable-line no-undef
+      //   .style('top', `${event.y + 10}px`) // eslint-disable-line no-undef
+      //   .style('display', 'inline-block')
+      //   .html((d.title));
+    } else {
+      d3Select.selectAll(`circle#${d.id}`)
+        .transition(hoverTransition)
+        .attr('r', n => n.radius);
+
+      // Hide tooltip
+      // d3Select.select(this.tooltip).style('display', 'none');
+    }
   }
 
   vizLayout = () => {

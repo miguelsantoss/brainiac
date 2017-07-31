@@ -11,7 +11,7 @@ import * as d3Voronoi from 'd3-voronoi';
 import * as d3Brush from 'd3-brush';
 
 import compareArrays from '../../../lib/arrays';
-import './Timeline.scss';
+import './timeline.scss';
 
 const padding = {
   top: 0,
@@ -111,7 +111,6 @@ class Timeline extends Component {
   }
 
   handleNodeHover = (d, state) => {
-    if (!d3Sel.event.ctrlKey) this.hoverTooltip.classed('hover-tn', state);
     this.props.hoverNode(d, state);
   }
 
@@ -227,11 +226,6 @@ class Timeline extends Component {
         this.hover = null;
       });
 
-    this.hoverTooltip = this.svg.append('text')
-      .attr('x', 2)
-      .attr('y', 12)
-      .attr('class', 'timeline-toolip-text')
-      .text('To highlight the document on the list, hold the ctrl key when hovering');
     this.setState({ ...this.state, init: true }, () => this.updateNodes());
   }
 

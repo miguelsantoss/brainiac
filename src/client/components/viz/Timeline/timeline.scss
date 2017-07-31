@@ -1,4 +1,6 @@
+$node-fill: #111111;
 $hover-fill: #ff1111;
+$node-stroke: $node-fill;
 
 $opacity-normal: 1;
 $opacity-greyed-out: 0.1;
@@ -8,13 +10,30 @@ $fill-animation-time: 0.2s;
 $opacity-animation: opacity $opacity-animation-time ease;
 $fill-animation: fill $fill-animation-time ease;
 
-.cluster-node {
+.axis {
+  path, line {
+    fill: none;
+    stroke: #000;
+  }
+  text {
+    font: 10px sans-serif;
+  }
+}
+
+.voronoi {
+  fill: none;
+  pointer-events: all;
+}
+
+.timeline-node {
+  fill: $node-fill;
   opacity: $opacity-normal;
   cursor: pointer;
   cursor: hand;
   transition: $opacity-animation, $fill-animation;
 
   &.node-greyed-out {
+    fill: $node-fill;
     opacity: $opacity-greyed-out;
     transition: $opacity-animation;
   }
@@ -25,15 +44,14 @@ $fill-animation: fill $fill-animation-time ease;
     transition: $opacity-animation, $fill-animation;
   }
 
-  &.node-greyed-out.hover-node {
-    opacity: $opacity-greyed-out;
-    transition: $opacity-animation;
-  }
-  
   &.focus-node {
     fill: white;
     stroke: black;
     stroke-width: 2px;
     transition: $fill-animation;
+  }
+  &.node-greyed-out.hover-node {
+    opacity: $opacity-greyed-out;
+    transition: $opacity-animation;
   }
 }

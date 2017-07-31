@@ -1,6 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
-const ExtractTextPlugin = require("extract-text-webpack-plugin");
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const FriendlyErrors = require('friendly-errors-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
@@ -9,22 +9,22 @@ const _ = require('./utils');
 
 const rootPath = path.resolve(__dirname);
 const sourcePath = path.resolve(rootPath, 'src/client');
-const distPath = path.resolve(rootPath, 'dist');
+const distPath = path.resolve(rootPath, 'dist'); // eslint-disable-line no-unused-vars
 
 const loaders = {
-  style: {loader: 'style-loader'},
-  css: {loader: 'css-loader', options: {sourceMap: true}},
+  style: { loader: 'style-loader' },
+  css: { loader: 'css-loader', options: { sourceMap: true } },
   resolve: 'resolve-url-loader',
   postcss: {
     loader: 'postcss-loader',
     options: {
-      sourceMap: true
-    }
+      sourceMap: true,
+    },
   },
-  sass: {loader: 'sass-loader', options: {sourceMap: true}}
-}
+  sass: { loader: 'sass-loader', options: { sourceMap: true } },
+};
 
-module.exports = function(env) {
+module.exports = (env) => {
   const nodeEnv = env && env.prod ? 'production' : 'development';
   const isProd = nodeEnv === 'production';
 
@@ -34,7 +34,7 @@ module.exports = function(env) {
     plugins.push(
       new webpack.LoaderOptionsPlugin({
         minimize: true,
-        debug: false
+        debug: false,
       }),
       new webpack.optimize.UglifyJsPlugin({
         compress: {
@@ -52,44 +52,44 @@ module.exports = function(env) {
         output: {
           comments: false,
         },
-      })
+      }),
     );
   } else {
     plugins.push(
       new webpack.HotModuleReplacementPlugin(),
-      new FriendlyErrors()
+      new FriendlyErrors(),
     );
   }
 
   plugins.push(
-      new ExtractTextPlugin("styles.css"),
+      new ExtractTextPlugin('styles.css'),
       new HtmlWebpackPlugin({
         title: config.title,
         template: path.resolve(sourcePath, 'index.html'),
-        filename: _.outputIndexPath
+        filename: _.outputIndexPath,
       }),
     );
 
-	return {
+  return {
     devtool: isProd ? 'source-map' : 'eval',
     entry: {
-      client: path.join(sourcePath, 'index.js')
+      client: path.join(sourcePath, 'index.js'),
     },
     output: {
       path: _.outputPath,
       filename: '[name].js',
-      publicPath: config.publicPath
+      publicPath: config.publicPath,
     },
     module: {
       rules: [
         {
           test: /\.(js|jsx)$/,
           use: 'babel-loader',
-          exclude: [/node_modules/]
+          exclude: [/node_modules/],
         },
         {
           test: /\.css$/,
-          loaders: [loaders.style, loaders.css, loaders.postcss, loaders.resolve]
+          loaders: [loaders.style, loaders.css, loaders.postcss, loaders.resolve],
         },
         {
           test: /\.scss$/,
@@ -98,12 +98,12 @@ module.exports = function(env) {
             loaders.css,
             loaders.postcss,
             loaders.resolve,
-            loaders.sass
-          ]
+            loaders.sass,
+          ],
         },
         {
           test: /\.(ico|eot|otf|webp|ttf|woff|woff2)(\?.*)?$/,
-          use: 'file-loader?limit=100000'
+          use: 'file-loader?limit=100000',
         },
         {
           test: /\.(jpe?g|png|gif|svg)$/i,
@@ -113,26 +113,26 @@ module.exports = function(env) {
               loader: 'img-loader',
               options: {
                 enabled: true,
-                optipng: true
-              }
-            }
-          ]
-        }
+                optipng: true,
+              },
+            },
+          ],
+        },
       ],
     },
     resolve: {
       extensions: ['.js', '.jsx', '.css', '.scss', '.json'],
       modules: [
-        path.resolve(rootPath, 'node_modules')
+        path.resolve(rootPath, 'node_modules'),
       ],
       alias: {
-            'components': path.join(sourcePath, 'components'),
-            'containers': path.join(sourcePath, 'containers'),
-            'actions': path.join(sourcePath, 'actions'),
-            'reducers': path.join(sourcePath, 'reducers'),
-            'api': path.join(sourcePath, 'api'),
-            'lib': path.join(sourcePath, 'lib'),
-            'css': path.join(sourcePath, 'css'),
+        components: path.join(sourcePath, 'components'),
+        containers: path.join(sourcePath, 'containers'),
+        actions: path.join(sourcePath, 'actions'),
+        reducers: path.join(sourcePath, 'reducers'),
+        api: path.join(sourcePath, 'api'),
+        lib: path.join(sourcePath, 'lib'),
+        css: path.join(sourcePath, 'css'),
       },
     },
 
@@ -147,7 +147,7 @@ module.exports = function(env) {
     stats: {
       colors: {
         green: '\u001b[32m',
-      }
+      },
     },
 
     devServer: {
@@ -169,8 +169,8 @@ module.exports = function(env) {
         warnings: true,
         colors: {
           green: '\u001b[32m',
-        }
+        },
       },
-    }
+    },
   };
-}
+};

@@ -1,5 +1,7 @@
-$fill-hover: rgb(255, 255, 255);
+$fill-hover: #a8c7f7;
+$fill-focus: white;
 $color-hover: rgb(0, 0, 0);
+$color-focus: rgb(0, 0, 0);
 $header-color: $fill-hover;
 $text-color: #f2f2f8;
 $fill-animation-time: 0.2s;
@@ -54,19 +56,18 @@ $color-animation: color $fill-animation-time ease;
 
 .item {
   color: $text-color !important;
-  -webkit-transition: $fill-animation;
-     -moz-transition: $fill-animation;
-      -ms-transition: $fill-animation;
-       -o-transition: $fill-animation;
-          transition: $fill-animation;
+  transition: $fill-animation;
+  
+  &.hover-node {
+    background-color: $fill-hover !important;
+    color: $color-hover !important;
+    transition: $fill-animation, $color-animation;
+  }
+
+  &.focus-node {
+    background-color: $fill-focus !important;
+    color: $color-focus !important;
+    transition: $fill-animation, $color-animation;
+  }
 }
 
-.item.hover-node {
-  background-color: $fill-hover !important;
-  color: $color-hover !important;
-  -webkit-transition: $fill-animation, $color-animation;
-     -moz-transition: $fill-animation, $color-animation;
-      -ms-transition: $fill-animation, $color-animation;
-       -o-transition: $fill-animation, $color-animation;
-          transition: $fill-animation, $color-animation;
-}

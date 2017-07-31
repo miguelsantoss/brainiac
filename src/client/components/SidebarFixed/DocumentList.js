@@ -19,7 +19,7 @@ class DocumentList extends Component {
   }
 
   handleClick(id) {
-    this.props.focusNode(id);
+    this.props.focusNode({ id });
   }
 
   handleDoubleClick(id) {
