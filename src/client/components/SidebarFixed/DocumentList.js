@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { Dropdown, Menu, Popup } from 'semantic-ui-react';
+import { Dropdown, Menu, Popup, Input, Icon } from 'semantic-ui-react';
+import keyboardKey from '../../lib/keyboardKey';
 
 const getOptions = () => ['Title', 'Date'].map(e => ({ key: e, text: e, value: e }));
 
@@ -10,12 +11,15 @@ class DocumentList extends Component {
     this.state = {
       options: getOptions(),
       value: getOptions()[0].value,
+      query: '',
     };
 
     this.prevent = false;
     this.timer = 0;
     this.delay = 200;
     this._items = new Map();
+    this.handleSearchChange = this.handleSearchChange.bind(this);
+    this.handleSearchKeyDown = this.handleSearchKeyDown.bind(this);
   }
 
   handleClick(id) {
@@ -44,6 +48,20 @@ class DocumentList extends Component {
     }, 500);
   }
 
+  handleSearchChange(e) {
+    this.setState({ query: e.target.value }, () => {
+      this.props.filterDocuments(this.state.query.toLowerCase());
+    });
+  }
+
+  handleSearchKeyDown(e) {
+    const code = keyboardKey.getCode(e);
+    if (code === keyboardKey.Enter) {
+      e.preventDefault();
+      this.props.filterDocuments(this.state.query.toLowerCase());
+    }
+  }
+
   renderPopupItems() {
     const { documentList } = this.props;
     const maxAuthors = 10;
@@ -56,7 +74,7 @@ class DocumentList extends Component {
       authors = d.length > maxAuthors ? `${authors.slice(0, -1)}...` : authors;
       return authors;
     };
-    const item = documentList && documentList.nodes ? documentList.nodes.map((d, i) => {
+    const item = documentList && documentList.filteredNodes ? documentList.filteredNodes.map((d, i) => {
       const menuItem = (
         <div
           onMouseEnter={() => this.handleHover({ id: d.id, i }, true)}
@@ -104,7 +122,7 @@ class DocumentList extends Component {
   }
 
   render() {
-    const { options, value } = this.state;
+    const { options, value, query } = this.state;
     return (
       <Menu.Item>
         <Menu.Header>
@@ -120,6 +138,16 @@ class DocumentList extends Component {
             onSearchChange={this.handleSearchChange}
           />
         </Menu.Header>
+        <Input
+          transparent
+          inverted
+          fluid
+          icon={<Icon name="search" />}
+          placeholder="Filter Documents"
+          value={query}
+          onChange={this.handleSearchChange}
+          onKeyDown={this.handleSearchKeyDown}
+        />
         <Menu.Menu>
           {this.renderPopupItems()}
         </Menu.Menu>
@@ -134,6 +162,7 @@ DocumentList.propTypes = {
   focusNode: PropTypes.func.isRequired,
   openDocument: PropTypes.func.isRequired,
   sortDocumentsBy: PropTypes.func.isRequired,
+  filterDocuments: PropTypes.func.isRequired,
 };
 
 export default DocumentList;

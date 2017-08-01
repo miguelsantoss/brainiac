@@ -11,6 +11,7 @@
         "no-underscore-dangle": "off",
         "no-param-reassign": "off",
         "max-len": "off",
-        "import/no-extraneous-dependencies": "off"
+        "import/no-extraneous-dependencies": "off",
+        "no-case-declarations": "off"
     }
 }

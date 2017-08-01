@@ -48,11 +48,9 @@ class SidebarFixed extends Component {
 
   handleSearchKeyDown = (e) => {
     const code = keyboardKey.getCode(e);
-
     if (code === keyboardKey.Enter) {
       e.preventDefault();
       this.props.queryDocuments(this.state.query);
-      this.setState({ query: '' });
     }
   }
 
@@ -99,8 +97,10 @@ class SidebarFixed extends Component {
         </Menu.Item>
         <Menu.Item>
           <Input
-            className="transparent inverted icon"
-            icon="search"
+            transparent
+            inverted
+            fluid
+            icon={<Icon name="search" link onClick={() => this.props.queryDocuments(this.state.query)} />}
             placeholder="Search Pubmed"
             value={query}
             onChange={this.handleSearchChange}
@@ -120,6 +120,7 @@ class SidebarFixed extends Component {
         </Menu.Item>
         {this.renderTopicWords()}
         <DocumentList
+          filterDocuments={this.props.filterDocuments}
           focusNode={this.props.focusNode}
           openDocument={this.props.openDocument}
           documentList={this.props.dbDocumentList}
@@ -135,6 +136,7 @@ class SidebarFixed extends Component {
 SidebarFixed.propTypes = {
   queryDocuments: PropTypes.func.isRequired,
   sortDocumentsBy: PropTypes.func.isRequired,
+  filterDocuments: PropTypes.func.isRequired,
   handleHover: PropTypes.func.isRequired,
   changeMagnetVizState: PropTypes.func.isRequired,
   closeSidebarButtonHandle: PropTypes.func.isRequired,

@@ -15,6 +15,7 @@ import {
   DB_UPDATE_VISUALIZATION_WITH_DOCS_FAIL,
   DB_UPDATE_VISUALIZATION_WITH_DOCS_LOADING,
   DB_SORT_DOCUMENTS_BY,
+  DB_FILTER_DOCUMENTS,
 } from '../../actions/documents';
 import { APP_INIT } from '../../actions/common';
 
@@ -75,16 +76,17 @@ export function documentDb(state = initialState, action) {
       return {
         ...state,
         db: {
+          ...state.db,
           documents,
           errorLoading: false,
           loading: false,
-          queryResult: false,
         },
       };
     case DOC_FETCH_DOCUMENTS_DB_FAIL:
       return {
         ...state,
         db: {
+          ...state.db,
           documents: {},
           errorLoading: true,
           loading: false,
@@ -94,7 +96,7 @@ export function documentDb(state = initialState, action) {
       return {
         ...state,
         db: {
-          documents: {},
+          ...state.db,
           errorLoading: false,
           loading: true,
         },
@@ -257,6 +259,19 @@ export function documentDb(state = initialState, action) {
           documents: {
             ...state.db.documents,
             nodes: f,
+          },
+        },
+      };
+    case DB_FILTER_DOCUMENTS:
+      const query = action.result;
+      const filtered = _.cloneDeep(state.db.documents.nodes).filter(node => node.title.toLowerCase().includes(query));
+      return {
+        ...state,
+        db: {
+          ...state.db,
+          documents: {
+            ...state.db.documents,
+            filteredNodes: filtered,
           },
         },
       };

@@ -33,7 +33,7 @@ $stroke-animation: stroke $stroke-animation-time ease;
   cursor: hand;
   transition: $opacity-animation, $fill-animation;
 
-  &.node-greyd-out {
+  &.node-greyed-out {
     opacity: $opacity-greyed-out;
     transition: $opacity-animation;
   }

@@ -20,6 +20,7 @@ import {
   CLEAR_FILTER_BY_DATE,
   UPDATE_VISUALIZATION_WITH_DOCS,
   SORT_DOCUMENTS_BY,
+  FILTER_DOCUMENTS,
 } from '../../actions/documents';
 
 import SidebarFixed from '../../components/SidebarFixed';
@@ -246,16 +247,17 @@ class AppLayout extends Component {
           magnetsActive={this.state.magnets}
           changeMagnetVizState={this.changeMagnetVizState}
           queryLoading={query.loading}
-          dbDocumentList={documents || {}}
+          dbDocumentList={documents}
           handleHover={this.hoverNode}
           openDocument={this.openDocument}
           focusNode={this.focusNode}
-          topicWords={clusterWordsTfidf || []}
+          topicWords={clusterWordsTfidf}
           queryDocuments={(documentQuery) => {
             this.props.queryPubmed(documentQuery);
             this.props.openSidebar();
           }}
           sortDocumentsBy={this.props.sortDocumentsBy}
+          filterDocuments={this.props.filterDocuments}
           ref={(element) => { this.fixedSidebar = element; }}
         />
         <div style={style.main}>
@@ -283,6 +285,7 @@ AppLayout.propTypes = {
   filterByDate: PropTypes.func.isRequired,
   clearFilterByDate: PropTypes.func.isRequired,
   sortDocumentsBy: PropTypes.func.isRequired,
+  filterDocuments: PropTypes.func.isRequired,
   updateVisualizationWithDocs: PropTypes.func.isRequired,
   sidebarOpened: PropTypes.bool.isRequired,
   query: PropTypes.shape({
@@ -352,6 +355,7 @@ const mapDispatchToProps = dispatch => ({
   clearFilterByDate: () => dispatch(CLEAR_FILTER_BY_DATE()),
   updateVisualizationWithDocs: (docs, newViz) => dispatch(UPDATE_VISUALIZATION_WITH_DOCS(docs, newViz)), // eslint-disable-line max-len
   sortDocumentsBy: sortKey => dispatch(SORT_DOCUMENTS_BY(sortKey)),
+  filterDocuments: query => dispatch(FILTER_DOCUMENTS(query)),
 });
 
 const mapStateToProps = state => ({
