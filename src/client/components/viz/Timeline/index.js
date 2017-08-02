@@ -254,6 +254,8 @@ class Timeline extends Component {
       .attr('cx', d => d.x)
       .attr('cy', d => d.y)
       .attr('id', d => d.id)
+      .on('click', d => this.handleNodeClick(d))
+      .on('dblclick', d => this.handleNodeDoubleClick(d))
       .on('mouseover', (d) => {
         this.handleNodeHover(d, true);
       })

@@ -41,20 +41,17 @@ class AppLayout extends Component {
       magnets: false,
       focusedNode: null,
     };
-
-    this.hoverNode = this.hoverNode.bind(this);
-    this.focusNode = this.focusNode.bind(this);
   }
 
   componentWillMount() {
     this.props.fetchDocuments();
   }
 
-  openDocument(id) {
+  openDocument = (id) => {
     console.log(id);
   }
 
-  toggleVisibility() {
+  toggleVisibility = () => {
     if (this.props.sidebarOpened) this.props.closeSidebar();
     else this.props.openSidebar();
   }
@@ -64,7 +61,7 @@ class AppLayout extends Component {
     ReactDOM.findDOMNode(docListItem).scrollIntoViewIfNeeded(); // eslint-disable-line react/no-find-dom-node
   }
 
-  hoverNode(d, state, scrollToNode = false) {
+  hoverNode = (d, state, scrollToNode = false) => {
     if (!d) return;
     const hoverTransition = d3Transition.transition().duration(140);
     d3Select.selectAll(`#${d.id}`).classed('hover-node', state);
@@ -100,7 +97,7 @@ class AppLayout extends Component {
     }
   }
 
-  focusNode(d, state = true, scrollToNode = true) {
+  focusNode = (d, state = true, scrollToNode = true) => {
     if (!d) return;
     if (this.state.focusedNode && this.state.focusedNode === d && state !== false) {
       this.focusNode(this.state.focusedNode, false, false);
@@ -211,14 +208,14 @@ class AppLayout extends Component {
     return (<GridLayout>{[]}</GridLayout>);
   }
 
-  handleSave(res, newViz) {
+  handleSave = (res, newViz) => {
     if (res && res.length > 0) {
       const docs = { docIds: res };
       this.props.updateVisualizationWithDocs(docs, newViz);
     }
   }
 
-  changeMagnetVizState() {
+  changeMagnetVizState = () => {
     console.error('not finished yet');
     // this.setState({ ...this.state, magnets: !this.state.magnets });
   }

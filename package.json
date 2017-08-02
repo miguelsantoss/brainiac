@@ -74,6 +74,7 @@
     "compression": "^1.6.2",
     "cors": "^2.8.3",
     "d3": "^4.7.4",
+    "d3-force-cluster": "^0.1.2",
     "express": "^4.15.3",
     "glob": "^7.1.2",
     "lodash": "^4.17.4",
@@ -109,7 +110,8 @@
     "semantic-ui-react": "^0.68.5",
     "simple-react-pdf": "^1.0.6",
     "store2": "^2.5.1",
-    "whatwg-fetch": "^2.0.3"
+    "whatwg-fetch": "^2.0.3",
+    "xml2js": "^0.4.17"
   },
   "babel": {
     "presets": [
