@@ -13,7 +13,6 @@ class DocumentList extends Component {
       value: getOptions()[0].value,
       query: '',
     };
-
     this.prevent = false;
     this.timer = 0;
     this.delay = 200;
@@ -22,16 +21,16 @@ class DocumentList extends Component {
     this.handleSearchKeyDown = this.handleSearchKeyDown.bind(this);
   }
 
-  handleClick(id) {
-    this.props.focusNode({ id });
+  handleClick(node) {
+    this.props.focusNode(node);
   }
 
   handleDoubleClick(id) {
     this.props.openDocument(id);
   }
 
-  handleHover({ id }, state) {
-    this.props.handleHover({ id }, state);
+  handleHover(node, state) {
+    this.props.handleHover(node, state);
   }
 
   handleChange(e, { value }) {
@@ -77,18 +76,18 @@ class DocumentList extends Component {
     const item = documentList && documentList.filteredNodes ? documentList.filteredNodes.map((d, i) => {
       const menuItem = (
         <div
-          onMouseEnter={() => this.handleHover({ id: d.id, i }, true)}
-          onMouseLeave={() => this.handleHover({ id: d.id, i }, false)}
+          onMouseEnter={() => this.handleHover(d, true)}
+          onMouseLeave={() => this.handleHover(d, false)}
           onClick={() => {
             this.timer = setTimeout(() => {
-              if (!this.prevent) this.handleClick(d.id);
+              if (!this.prevent) this.handleClick(d);
               this.prevent = false;
             }, this.delay);
           }}
           onDoubleClick={() => {
             clearTimeout(this.timer);
             this.prevent = true;
-            this.handleDoubleClick(d.id);
+            this.handleDoubleClick(d);
           }}
         >
           <Menu.Item

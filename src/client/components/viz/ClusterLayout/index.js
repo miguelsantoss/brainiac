@@ -71,7 +71,24 @@ class ClusterLayout extends Component {
     this.setState({ ...this.state, width, height }, () => this.initializeD3());
   }
 
-  componentWillReceiveProps() {
+  componentWillReceiveProps(nextProps) {
+    if (!this.props.focusedNode && nextProps.focusedNode) {
+      console.log('new focus node');
+      this.nodes.forEach((n) => {
+        if (n.id === nextProps.focusedNode.id) {
+          n.radius = nextProps.focusedNode.radius;
+        }
+      });
+      this.handleBiggerNode();
+    } else if (this.props.focusedNode && !nextProps.focusedNode) {
+      console.log('clear focus node');
+      this.nodes.forEach((n) => {
+        if (n.id === this.props.focusedNode.id) {
+          n.radius = this.props.focusedNode.radius;
+        }
+      });
+      this.handleBiggerNode();
+    }
     const width = document.getElementById('window-cluster-content').clientWidth; // eslint-disable-line no-undef
     const height = document.getElementById('window-cluster-content').clientHeight; // eslint-disable-line no-undef
     this.handleResize(width, height, this.state.width, this.state.height);
@@ -91,6 +108,26 @@ class ClusterLayout extends Component {
     });
   }
 
+  handleBiggerNode = () => {
+    const { width, height } = this.state;
+
+    this.simulation = d3Force.forceSimulation()
+      .force('cluster', d3Cluster.forceCluster()
+        .centers(d => this.clusters[d.cluster])
+        .strength(0.5))
+      .force('collide', d3Force.forceCollide(d => d.radius + this.padding))
+      .force('x', d3Force.forceX(width / 2))
+      .force('y', d3Force.forceY(height / 2))
+      .on('tick', () => {
+        this.node
+          .attr('cx', d => this.zoom.translation[0] + (this.zoom.scaleFactor * d.x))
+          .attr('cy', d => this.zoom.translation[1] + (this.zoom.scaleFactor * d.y));
+      });
+
+    this.simulation.nodes(this.nodes);
+    this.simulation.alpha(1).restart();
+  }
+
   handleNewNodes = () => {
     this.nodes = this.props.filteredNodes;
     this.updateNodes();
@@ -98,7 +135,9 @@ class ClusterLayout extends Component {
 
   handleNodeClick(d) {
     this.timer = setTimeout(() => {
-      if (!this.prevent) this.props.focusNode(d);
+      if (!this.prevent) {
+        this.props.focusNode(d);
+      }
       this.prevent = false;
     }, this.delay);
   }
@@ -251,6 +290,9 @@ ClusterLayout.propTypes = {
     date: PropTypes.string,
     value: PropTypes.number,
   })).isRequired,
+  focusedNode: PropTypes.shape({ // eslint-disable-line react/require-default-props
+    id: PropTypes.string.isRequired,
+  }),
 };
 
 export default sizeMe({ monitorHeight: true })(ClusterLayout);

@@ -91,6 +91,10 @@ class Timeline extends Component {
         this.props.filterByDate(d1);
         this.brushArray = d1;
         this.brushG.transition().call(d3Sel.event.target.move, d1.map(this.x));
+        if (this.brushArray[0] === this.brushArray[1]) {
+          this.props.clearFilterByDate();
+          this.brushArray = [];
+        }
       });
   }
 
@@ -98,6 +102,15 @@ class Timeline extends Component {
     const nodes = this.node;
     const filter = this.props.filteredNodes;
     if (!this.state.init || compareArrays(this.state.nodes, filter)) return;
+
+    if (filter.length === 0) {
+      this.props.clearFilterByDate();
+      this.brushArray = [];
+      // this.brushG.transition().call(this.brush.move, null);
+      setTimeout(() => {
+        this.brushG.call(this.brush.move, null);
+      }, 300);
+    }
 
     nodes.attr('class', (d) => {
       const isPresent = filter.filter(nodeE => nodeE.title === d.title).length > 0;

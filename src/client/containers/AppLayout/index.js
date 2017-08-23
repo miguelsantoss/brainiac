@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import ReactDOM from 'react-dom';
 import _ from 'lodash';
 import { connect } from 'react-redux';
-import { Dimmer, Loader } from 'semantic-ui-react';
+import { Dimmer, Loader, Modal, Button, Icon, Header } from 'semantic-ui-react';
 import HTML5Backend from 'react-dnd-html5-backend';
 import { DragDropContext } from 'react-dnd';
 
@@ -40,6 +40,7 @@ class AppLayout extends Component {
     this.state = {
       magnets: false,
       focusedNode: null,
+      modelOpen: false,
     };
   }
 
@@ -50,6 +51,9 @@ class AppLayout extends Component {
   openDocument = (id) => {
     console.log(id);
   }
+
+  handleOpen = () => this.setState({ ...this.state, modelOpen: true })
+  handleClose = () => this.setState({ ...this.state, modelOpen: false })
 
   toggleVisibility = () => {
     if (this.props.sidebarOpened) this.props.closeSidebar();
@@ -63,6 +67,9 @@ class AppLayout extends Component {
 
   hoverNode = (d, state, scrollToNode = false) => {
     if (!d) return;
+    if (this.state.focusedNode && this.state.focusedNode.id === d.id) {
+      return;
+    }
     const hoverTransition = d3Transition.transition().duration(140);
     d3Select.selectAll(`#${d.id}`).classed('hover-node', state);
     d3Select.selectAll(`.line-network.${d.id}`).classed('hover-line-network', state);
@@ -80,6 +87,7 @@ class AppLayout extends Component {
         .delay(20)
         .transition(hoverTransition)
         .attr('r', n => n.radius + 5);
+      d.radius += 5;
 
       // Show the tooltip
       // d3Select.select(this.tooltip)
@@ -90,7 +98,8 @@ class AppLayout extends Component {
     } else {
       d3Select.selectAll(`circle#${d.id}`)
         .transition(hoverTransition)
-        .attr('r', n => n.radius);
+        .attr('r', n => n.defaultRadius);
+      d.radius = d.defaultRadius;
 
       // Hide tooltip
       // d3Select.select(this.tooltip).style('display', 'none');
@@ -99,14 +108,16 @@ class AppLayout extends Component {
 
   focusNode = (d, state = true, scrollToNode = true) => {
     if (!d) return;
-    if (this.state.focusedNode && this.state.focusedNode === d && state !== false) {
-      this.focusNode(this.state.focusedNode, false, false);
+    if (this.state.focusedNode && this.state.focusedNode === d.id && state !== false) {
+      this.focusNode({ id: this.state.focusedNode }, false, false);
       return;
     }
     if (state) {
-      if (this.state.focusedNode) this.focusNode(this.state.focusedNode, false, false);
-      this.setState({ ...this.state, focusedNode: d });
+      if (this.state.focusedNode) this.focusNode({ id: this.state.focusedNode }, false, false);
+      d.radius += 5;
+      this.setState({ ...this.state, focusedNode: d.id });
     } else {
+      d.radius = d.defaultRadius;
       this.setState({ ...this.state, focusedNode: null });
     }
     const hoverTransition = d3Transition.transition().duration(140);
@@ -122,10 +133,10 @@ class AppLayout extends Component {
       if (scrollToNode) this.scrollToNode(d);
       d3Select.selectAll(`circle#${d.id}`)
         .transition(hoverTransition)
-        .attr('r', n => n.radius + 10)
+        .attr('r', n => n.radius + 5)
         .delay(20)
         .transition(hoverTransition)
-        .attr('r', n => n.radius + 5);
+        .attr('r', n => n.radius);
 
       // Show the tooltip
       // d3Select.select(this.tooltip)
@@ -136,7 +147,7 @@ class AppLayout extends Component {
     } else {
       d3Select.selectAll(`circle#${d.id}`)
         .transition(hoverTransition)
-        .attr('r', n => n.radius);
+        .attr('r', n => n.defaultRadius);
 
       // Hide tooltip
       // d3Select.select(this.tooltip).style('display', 'none');
@@ -165,6 +176,7 @@ class AppLayout extends Component {
             links={_.cloneDeep(documents.links)}
             filteredNodes={_.cloneDeep(documents.filteredNodes)}
             magnets={this.state.magnets}
+            focusedNode={this.state.focusedNode}
             ref={(element) => { this.networkViz = element; }}
             {...vizProps}
           />
@@ -181,6 +193,7 @@ class AppLayout extends Component {
             nodes={_.cloneDeep(documents.nodes)}
             filteredNodes={_.cloneDeep(documents.filteredNodes)}
             ref={(element) => { this.clusterViz = element; }}
+            focusedNode={this.state.focusedNode}
             {...vizProps}
           />
         </VizContainer>),
@@ -216,14 +229,33 @@ class AppLayout extends Component {
   }
 
   changeMagnetVizState = () => {
-    console.error('not finished yet');
+    this.handleOpen();
+    // console.error('not finished yet');
     // this.setState({ ...this.state, magnets: !this.state.magnets });
   }
 
   render() {
+    const { modelOpen } = this.state;
     const query = this.props.query.pubmed;
     const children = (
       <div>
+        <Modal
+          open={modelOpen}
+          onClose={this.handleClose}
+        >
+          <Header icon='archive' content='Archive Old Messages' />
+          <Modal.Content>
+            <p>Your inbox is getting full, would you like us to enable automatic archiving of old messages?</p>
+          </Modal.Content>
+          <Modal.Actions>
+            <Button color='red'>
+              <Icon name='remove' /> No
+            </Button>
+            <Button color='green'>
+              <Icon name='checkmark' /> Yes
+            </Button>
+          </Modal.Actions>
+        </Modal>
         {this.props.db.loading ? (
           <Dimmer active inverted>
             <Loader indeterminate>Preparing Files</Loader>
@@ -266,6 +298,7 @@ class AppLayout extends Component {
             queryLoading={query.loading}
             queryError={query.errorLoading}
           >
+            <Button onClick={this.handleOpen}>TEST</Button>
             {children}
           </SidebarPushable>
         </div>

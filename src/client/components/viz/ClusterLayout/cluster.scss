@@ -31,7 +31,6 @@ $fill-animation: fill $fill-animation-time ease;
   }
   
   &.focus-node {
-    fill: white;
     stroke: black;
     stroke-width: 2px;
     transition: $fill-animation;

@@ -58,7 +58,24 @@ class Network extends Component {
     this.setState({ ...this.state, width, height }, () => this.initializeD3());
   }
 
-  componentWillReceiveProps() {
+  componentWillReceiveProps(nextProps) {
+    // if (!this.props.focusedNode && nextProps.focusedNode) {
+    //   console.log('new focus node');
+    //   this.nodes.forEach((n) => {
+    //     if (n.id === nextProps.focusedNode.id) {
+    //       n.radius = nextProps.focusedNode.radius;
+    //     }
+    //   });
+    //   this.handleBiggerNode();
+    // } else if (this.props.focusedNode && !nextProps.focusedNode) {
+    //   console.log('clear focus node');
+    //   this.nodes.forEach((n) => {
+    //     if (n.id === this.props.focusedNode.id) {
+    //       n.radius = this.props.focusedNode.radius;
+    //     }
+    //   });
+    //   this.handleBiggerNode();
+    // }
     const width = document.getElementById('window-network-content').clientWidth; // eslint-disable-line no-undef
     const height = document.getElementById('window-network-content').clientHeight; // eslint-disable-line no-undef
     this.handleResize(width, height, this.state.width, this.state.height);
@@ -543,6 +560,9 @@ Network.propTypes = {
     value: PropTypes.number,
   })).isRequired,
   hoverNode: PropTypes.func.isRequired,
+  focusedNode: PropTypes.shape({ // eslint-disable-line react/require-default-props
+    id: PropTypes.string.isRequired,
+  }),
   focusNode: PropTypes.func.isRequired,
   queryResult: PropTypes.bool.isRequired,
   canDrop: PropTypes.bool.isRequired,

@@ -9,6 +9,7 @@ import 'semantic-ui-css/semantic.min.css';
 import rootReducer from './reducers';
 import Root from './containers/Root';
 import './polyfill';
+import registerServiceWorker from './registerServiceWorker';
 
 const configureStore = (initialState) => {
   const thunkApplied = applyMiddleware(thunk);
@@ -33,3 +34,4 @@ const mountNode = document.getElementById('root'); // eslint-disable-line no-und
 const render = NewApp => ReactDOM.render(<NewApp store={store} />, mountNode);
 
 render(Root);
+registerServiceWorker();
