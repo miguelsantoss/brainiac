@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import ReactDOM from 'react-dom';
 import _ from 'lodash';
 import { connect } from 'react-redux';
-import { Dimmer, Loader, Modal, Button, Icon, Header } from 'semantic-ui-react';
+import { Dimmer, Loader } from 'semantic-ui-react';
 import HTML5Backend from 'react-dnd-html5-backend';
 import { DragDropContext } from 'react-dnd';
 
@@ -27,6 +27,7 @@ import SidebarFixed from '../../components/SidebarFixed';
 import SidebarPushable from '../../components/SidebarPushable';
 import GridLayout from '../../containers/GridLayout';
 
+import FileUploader from '../../components/FileUploader';
 import Network from '../../components/viz/Network';
 import Timeline from '../../components/viz/Timeline';
 import ClusterLayout from '../../components/viz/ClusterLayout';
@@ -52,6 +53,7 @@ class AppLayout extends Component {
     console.log(id);
   }
 
+  toggleFileModal = () => (this.state.modalOpen ? this.handleClose() : this.handleOpen())
   handleOpen = () => this.setState({ ...this.state, modelOpen: true })
   handleClose = () => this.setState({ ...this.state, modelOpen: false })
 
@@ -235,27 +237,10 @@ class AppLayout extends Component {
   }
 
   render() {
-    const { modelOpen } = this.state;
     const query = this.props.query.pubmed;
     const children = (
       <div>
-        <Modal
-          open={modelOpen}
-          onClose={this.handleClose}
-        >
-          <Header icon='archive' content='Archive Old Messages' />
-          <Modal.Content>
-            <p>Your inbox is getting full, would you like us to enable automatic archiving of old messages?</p>
-          </Modal.Content>
-          <Modal.Actions>
-            <Button color='red'>
-              <Icon name='remove' /> No
-            </Button>
-            <Button color='green'>
-              <Icon name='checkmark' /> Yes
-            </Button>
-          </Modal.Actions>
-        </Modal>
+        <FileUploader visible={this.state.modelOpen} handleClose={this.handleClose} />
         {this.props.db.loading ? (
           <Dimmer active inverted>
             <Loader indeterminate>Preparing Files</Loader>
@@ -285,6 +270,7 @@ class AppLayout extends Component {
             this.props.queryPubmed(documentQuery);
             this.props.openSidebar();
           }}
+          toggleFileModal={this.toggleFileModal}
           sortDocumentsBy={this.props.sortDocumentsBy}
           filterDocuments={this.props.filterDocuments}
           ref={(element) => { this.fixedSidebar = element; }}
@@ -298,7 +284,6 @@ class AppLayout extends Component {
             queryLoading={query.loading}
             queryError={query.errorLoading}
           >
-            <Button onClick={this.handleOpen}>TEST</Button>
             {children}
           </SidebarPushable>
         </div>

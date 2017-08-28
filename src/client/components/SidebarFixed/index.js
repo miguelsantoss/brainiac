@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { Menu, Input, Icon, Loader } from 'semantic-ui-react';
+import { Menu, Input, Icon, Loader, Button } from 'semantic-ui-react';
 import Box from '../test/Box';
 import DocumentList from './DocumentList';
 
@@ -106,6 +106,8 @@ class SidebarFixed extends Component {
             onChange={this.handleSearchChange}
             onKeyDown={this.handleSearchKeyDown}
           />
+          <br />
+          <Button positive compact fluid onClick={this.props.toggleFileModal}>+ Add files</Button>
         </Menu.Item>
         <Menu.Item>
           <span>Words per Topic</span>
@@ -147,6 +149,7 @@ SidebarFixed.propTypes = {
   magnetsActive: PropTypes.bool.isRequired,
   focusNode: PropTypes.func.isRequired,
   openDocument: PropTypes.func.isRequired,
+  toggleFileModal: PropTypes.func.isRequired,
 };
 
 export default SidebarFixed;
