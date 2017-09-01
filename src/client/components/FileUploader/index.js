@@ -1,21 +1,21 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import _ from 'lodash';
+import _map from 'lodash/map';
 import { connect } from 'react-redux';
 import { Modal, Button, Icon, Header, Table, Segment } from 'semantic-ui-react';
 
 class FileUploader extends Component {
   state = {
     selected: null,
-  }
+  };
 
-  toggleSelect = (doc) => {
+  toggleSelect = doc => {
     if (!this.state.selected || this.state.selected.id !== doc.id) {
       this.setState({ ...this.state, selected: doc });
     } else {
       this.setState({ ...this.state, selected: null });
     }
-  }
+  };
 
   renderDocumentTable = () => (
     <Table
@@ -32,18 +32,15 @@ class FileUploader extends Component {
           <Table.HeaderCell>Pub date</Table.HeaderCell>
         </Table.Row>
       </Table.Header>
-      <Table.Body>
-        {this.renderDocumentEntries()}
-      </Table.Body>
+      <Table.Body>{this.renderDocumentEntries()}</Table.Body>
     </Table>
-  )
+  );
 
-  renderTestTable = () => { }
+  renderTestTable = () => {};
 
   renderDocumentEntries = () => {
     const documents = this.props.db.documents.nodes;
-    console.log(documents);
-    const entries = _.map(documents, (doc) => {
+    const entries = _map(documents, doc => {
       const active = this.state.selected && doc.id === this.state.selected.id;
       return (
         <Table.Row
@@ -52,16 +49,18 @@ class FileUploader extends Component {
           active={active}
         >
           <Table.Cell>{doc.title}</Table.Cell>
-          <Table.Cell></Table.Cell>
+          <Table.Cell />
           <Table.Cell>{doc.date.substring(0, 4)}</Table.Cell>
         </Table.Row>
       );
     });
     if (this.state.selected) {
       const infoRow = (
-        <Segment>
-        </Segment>
-
+        <Table.Row key={`${this.state.selected.id}selected`}>
+          <Table.Cell colSpan="3">
+            <Segment>{this.state.selected.summary}</Segment>
+          </Table.Cell>
+        </Table.Row>
       );
       for (let i = 0; i < entries.length; i += 1) {
         if (entries[i].key === this.state.selected.id) {
@@ -71,20 +70,14 @@ class FileUploader extends Component {
       }
     }
     return entries;
-  }
+  };
 
   render = () => {
     const { visible, handleClose } = this.props;
     return (
-      <Modal
-        open={visible}
-        onClose={handleClose}
-        size="fullscreen"
-      >
+      <Modal open={visible} onClose={handleClose} size="fullscreen">
         <Header as="h4" icon="upload" content="Add new documents" />
-        <Modal.Content>
-          {this.renderDocumentTable()}
-        </Modal.Content>
+        <Modal.Content>{this.renderDocumentTable()}</Modal.Content>
         <Modal.Actions>
           <Button color="red">
             <Icon name="remove" /> No
@@ -95,7 +88,7 @@ class FileUploader extends Component {
         </Modal.Actions>
       </Modal>
     );
-  }
+  };
 }
 
 FileUploader.propTypes = {
