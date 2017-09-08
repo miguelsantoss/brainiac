@@ -21,8 +21,11 @@ export const getDocumentInfoPubmed = async pmid =>
   fetch(`http://localhost:4000/api/docinfo?id=${pmid}&s=pubmed`, defaultGet); // eslint-disable-line no-undef
 
 export const updateVisualizationWithDocs = async (pmid, newViz) =>
-  fetch(`http://localhost:4000/api/updateviz?${newViz ? 'n=true' : 'n=false'}`, { // eslint-disable-line no-undef
-    method: 'post',
-    headers,
-    body: JSON.stringify(pmid),
-  });
+  fetch(
+    `http://localhost:4000/api/updateviz?${newViz ? 'n=true' : 'n=false'}`,
+    {
+      method: 'post',
+      headers,
+      body: JSON.stringify(pmid),
+    },
+  );

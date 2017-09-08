@@ -47,6 +47,8 @@ module.exports = {
           allow: ['warn', 'error', 'info'],
         },
       ],
+
+      'no-param-reassign': 'off',
   
       // a11y removed rule, ignore them
       'jsx-a11y/href-no-hash': 'off',

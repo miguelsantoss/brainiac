@@ -3557,6 +3557,12 @@ find-versions@^1.0.0:
     meow "^3.5.0"
     semver-regex "^1.0.0"
 
+fine-uploader-wrappers@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/fine-uploader-wrappers/-/fine-uploader-wrappers-1.0.0.tgz#d7807366446ed05052f2dc11e5c3859db5bf8890"
+  dependencies:
+    object-assign "4.1.0"
+
 first-chunk-stream@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/first-chunk-stream/-/first-chunk-stream-1.0.0.tgz#59bfb50cd905f60d7c394cd3d9acaab4e6ad934e"
@@ -5783,7 +5789,7 @@ object-assign@4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.0.tgz#7a3b3d0e98063d43f4c03f2e8ae6cd51a86883a0"
 
-object-assign@4.x, object-assign@^4, object-assign@^4.0.0, object-assign@^4.0.1, object-assign@^4.1.0, object-assign@^4.1.1, object-assign@~4.1.0:
+object-assign@4.1.1, object-assign@4.x, object-assign@^4, object-assign@^4.0.0, object-assign@^4.0.1, object-assign@^4.1.0, object-assign@^4.1.1, object-assign@~4.1.0:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
 
@@ -6113,6 +6119,13 @@ pbkdf2@^3.0.3:
 pdfjs-dist@1.8.177, pdfjs-dist@^1.5.222:
   version "1.8.177"
   resolved "https://registry.yarnpkg.com/pdfjs-dist/-/pdfjs-dist-1.8.177.tgz#05bb8cd183dcf3582d5392c2f8af61a3b171be13"
+  dependencies:
+    node-ensure "^0.0.0"
+    worker-loader "^0.8.0"
+
+pdfjs-dist@^1.9.524:
+  version "1.9.524"
+  resolved "https://registry.yarnpkg.com/pdfjs-dist/-/pdfjs-dist-1.9.524.tgz#243e320514a2b1dbfcf3c7450a3e8d17629e4f15"
   dependencies:
     node-ensure "^0.0.0"
     worker-loader "^0.8.0"
@@ -7305,6 +7318,13 @@ react-event-listener@^0.4.5:
     fbjs "^0.8.4"
     prop-types "^15.5.4"
     warning "^3.0.0"
+
+react-fine-uploader@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/react-fine-uploader/-/react-fine-uploader-1.0.3.tgz#60838d409f683f83d0a40ccc862bdbc649871594"
+  dependencies:
+    fine-uploader-wrappers "1.0.0"
+    object-assign "4.1.1"
 
 react-grid-layout@^0.14.6:
   version "0.14.6"

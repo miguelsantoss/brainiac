@@ -6,7 +6,7 @@ import AppLayout from '../AppLayout';
 import './styles.scss';
 
 const Root = ({ store }) => (
-  <Provider store={store} >
+  <Provider store={store}>
     <AppLayout />
   </Provider>
 );

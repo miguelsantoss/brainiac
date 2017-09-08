@@ -49,23 +49,25 @@ class AppLayout extends Component {
     this.props.fetchDocuments();
   }
 
-  openDocument = (id) => {
-    console.log(id);
-  }
+  openDocument = id => {
+    console.error(id);
+  };
 
-  toggleFileModal = () => (this.state.modalOpen ? this.handleClose() : this.handleOpen())
-  handleOpen = () => this.setState({ ...this.state, modelOpen: true })
-  handleClose = () => this.setState({ ...this.state, modelOpen: false })
+  toggleFileModal = () =>
+    this.state.modalOpen ? this.handleClose() : this.handleOpen();
+
+  handleOpen = () => this.setState({ ...this.state, modelOpen: true });
+  handleClose = () => this.setState({ ...this.state, modelOpen: false });
 
   toggleVisibility = () => {
     if (this.props.sidebarOpened) this.props.closeSidebar();
     else this.props.openSidebar();
-  }
+  };
 
-  scrollToNode(d) {
-    const docListItem = this.fixedSidebar.docListSidebar._items.get(d.id);
+  scrollToNode = d => {
+    const docListItem = this.fixedSidebar.docListSidebar._items.get(d.id); // eslint-disable-line no-underscore-dangle
     ReactDOM.findDOMNode(docListItem).scrollIntoViewIfNeeded(); // eslint-disable-line react/no-find-dom-node
-  }
+  };
 
   hoverNode = (d, state, scrollToNode = false) => {
     if (!d) return;
@@ -73,22 +75,30 @@ class AppLayout extends Component {
       return;
     }
     const hoverTransition = d3Transition.transition().duration(140);
+
     d3Select.selectAll(`#${d.id}`).classed('hover-node', state);
-    d3Select.selectAll(`.line-network.${d.id}`).classed('hover-line-network', state);
+    d3Select
+      .selectAll(`.line-network.${d.id}`)
+      .classed('hover-line-network', state);
+
     if (d.links) {
-      d.links.forEach((link) => {
-        d3Select.selectAll(`#${link.id}`).classed('secondary-hover-node', state);
+      d.links.forEach(link => {
+        d3Select
+          .selectAll(`#${link.id}`)
+          .classed('secondary-hover-node', state);
       });
     }
     // On Hover
     if (state) {
       if (scrollToNode) this.scrollToNode(d);
-      d3Select.selectAll(`circle#${d.id}`)
+      d3Select
+        .selectAll(`circle#${d.id}`)
         .transition(hoverTransition)
         .attr('r', n => n.radius + 10)
         .delay(20)
         .transition(hoverTransition)
         .attr('r', n => n.radius + 5);
+
       d.radius += 5;
 
       // Show the tooltip
@@ -98,24 +108,32 @@ class AppLayout extends Component {
       //   .style('display', 'inline-block')
       //   .html((d.title));
     } else {
-      d3Select.selectAll(`circle#${d.id}`)
+      d3Select
+        .selectAll(`circle#${d.id}`)
         .transition(hoverTransition)
         .attr('r', n => n.defaultRadius);
+
       d.radius = d.defaultRadius;
 
       // Hide tooltip
       // d3Select.select(this.tooltip).style('display', 'none');
     }
-  }
+  };
 
   focusNode = (d, state = true, scrollToNode = true) => {
     if (!d) return;
-    if (this.state.focusedNode && this.state.focusedNode === d.id && state !== false) {
+    if (
+      this.state.focusedNode &&
+      this.state.focusedNode === d.id &&
+      state !== false
+    ) {
       this.focusNode({ id: this.state.focusedNode }, false, false);
       return;
     }
     if (state) {
-      if (this.state.focusedNode) this.focusNode({ id: this.state.focusedNode }, false, false);
+      if (this.state.focusedNode) {
+        this.focusNode({ id: this.state.focusedNode }, false, false);
+      }
       d.radius += 5;
       this.setState({ ...this.state, focusedNode: d.id });
     } else {
@@ -124,16 +142,22 @@ class AppLayout extends Component {
     }
     const hoverTransition = d3Transition.transition().duration(140);
     d3Select.selectAll(`#${d.id}`).classed('focus-node', state);
-    d3Select.selectAll(`.line-network.${d.id}`).classed('focus-line-network', state);
+    d3Select
+      .selectAll(`.line-network.${d.id}`)
+      .classed('focus-line-network', state);
+
     if (d.links) {
-      d.links.forEach((link) => {
-        d3Select.selectAll(`#${link.id}`).classed('secondary-focus-node', state);
+      d.links.forEach(link => {
+        d3Select
+          .selectAll(`#${link.id}`)
+          .classed('secondary-focus-node', state);
       });
     }
     // On Focus
     if (state) {
       if (scrollToNode) this.scrollToNode(d);
-      d3Select.selectAll(`circle#${d.id}`)
+      d3Select
+        .selectAll(`circle#${d.id}`)
         .transition(hoverTransition)
         .attr('r', n => n.radius + 5)
         .delay(20)
@@ -147,14 +171,15 @@ class AppLayout extends Component {
       //   .style('display', 'inline-block')
       //   .html((d.title));
     } else {
-      d3Select.selectAll(`circle#${d.id}`)
+      d3Select
+        .selectAll(`circle#${d.id}`)
         .transition(hoverTransition)
         .attr('r', n => n.defaultRadius);
 
       // Hide tooltip
       // d3Select.select(this.tooltip).style('display', 'none');
     }
-  }
+  };
 
   vizLayout = () => {
     const { documents } = this.props.db;
@@ -165,7 +190,7 @@ class AppLayout extends Component {
         scrollToNode: this.scrollToNode,
       };
       const vizArray = [
-        (<VizContainer
+        <VizContainer
           windowName="Network"
           contentId="window-network-content"
           key="network"
@@ -179,11 +204,13 @@ class AppLayout extends Component {
             filteredNodes={_.cloneDeep(documents.filteredNodes)}
             magnets={this.state.magnets}
             focusedNode={this.state.focusedNode}
-            ref={(element) => { this.networkViz = element; }}
+            ref={element => {
+              this.networkViz = element;
+            }}
             {...vizProps}
           />
-        </VizContainer>),
-        (<VizContainer
+        </VizContainer>,
+        <VizContainer
           windowName="Cluster Layout"
           contentId="window-cluster-content"
           key="clusterLayout"
@@ -194,12 +221,14 @@ class AppLayout extends Component {
             queryResult={this.props.db.queryResult}
             nodes={_.cloneDeep(documents.nodes)}
             filteredNodes={_.cloneDeep(documents.filteredNodes)}
-            ref={(element) => { this.clusterViz = element; }}
+            ref={element => {
+              this.clusterViz = element;
+            }}
             focusedNode={this.state.focusedNode}
             {...vizProps}
           />
-        </VizContainer>),
-        (<VizContainer
+        </VizContainer>,
+        <VizContainer
           queryResult={this.props.db.queryResult}
           windowName="Timeline"
           contentId="window-timeline-content"
@@ -213,34 +242,39 @@ class AppLayout extends Component {
             filteredNodes={_.cloneDeep(documents.filteredNodes)}
             filterByDate={this.props.filterByDate}
             clearFilterByDate={this.props.clearFilterByDate}
-            ref={(element) => { this.timelineViz = element; }}
+            ref={element => {
+              this.timelineViz = element;
+            }}
             {...vizProps}
           />
-        </VizContainer>),
+        </VizContainer>,
       ];
-      return (<GridLayout>{vizArray}</GridLayout>);
+      return <GridLayout>{vizArray}</GridLayout>;
     }
-    return (<GridLayout>{[]}</GridLayout>);
-  }
+    return <GridLayout>{[]}</GridLayout>;
+  };
 
   handleSave = (res, newViz) => {
     if (res && res.length > 0) {
       const docs = { docIds: res };
       this.props.updateVisualizationWithDocs(docs, newViz);
     }
-  }
+  };
 
   changeMagnetVizState = () => {
     this.handleOpen();
     // console.error('not finished yet');
     // this.setState({ ...this.state, magnets: !this.state.magnets });
-  }
+  };
 
   render() {
     const query = this.props.query.pubmed;
     const children = (
       <div>
-        <FileUploader visible={this.state.modelOpen} handleClose={this.handleClose} />
+        <FileUploader
+          visible={this.state.modelOpen}
+          handleClose={this.handleClose}
+        />
         {this.props.db.loading ? (
           <Dimmer active inverted>
             <Loader indeterminate>Preparing Files</Loader>
@@ -266,14 +300,16 @@ class AppLayout extends Component {
           openDocument={this.openDocument}
           focusNode={this.focusNode}
           topicWords={clusterWordsTfidf}
-          queryDocuments={(documentQuery) => {
+          queryDocuments={documentQuery => {
             this.props.queryPubmed(documentQuery);
             this.props.openSidebar();
           }}
           toggleFileModal={this.toggleFileModal}
           sortDocumentsBy={this.props.sortDocumentsBy}
           filterDocuments={this.props.filterDocuments}
-          ref={(element) => { this.fixedSidebar = element; }}
+          ref={element => {
+            this.fixedSidebar = element;
+          }}
         />
         <div style={style.main}>
           <SidebarPushable
@@ -307,13 +343,15 @@ AppLayout.propTypes = {
     pubmed: PropTypes.shape({
       loading: PropTypes.bool.isRequired,
       errorLoading: PropTypes.bool.isRequired,
-      results: PropTypes.arrayOf(PropTypes.shape({
-        abstract: PropTypes.string.isRequired,
-        authors: PropTypes.string.isRequired,
-        pmid: PropTypes.number.isRequired,
-        pubDate: PropTypes.string.isRequired,
-        title: PropTypes.string.isRequired,
-      })).isRequired,
+      results: PropTypes.arrayOf(
+        PropTypes.shape({
+          abstract: PropTypes.string.isRequired,
+          authors: PropTypes.string.isRequired,
+          pmid: PropTypes.number.isRequired,
+          pubDate: PropTypes.string.isRequired,
+          title: PropTypes.string.isRequired,
+        }),
+      ).isRequired,
     }),
   }).isRequired,
   db: PropTypes.shape({
@@ -321,40 +359,57 @@ AppLayout.propTypes = {
     loading: PropTypes.bool.isRequired,
     queryResult: PropTypes.bool.isRequired,
     documents: PropTypes.shape({
-      cluster_words_lsa: PropTypes.arrayOf(PropTypes.arrayOf(PropTypes.string)).isRequired,
-      cluster_words_tfidf: PropTypes.arrayOf(PropTypes.arrayOf(PropTypes.string)).isRequired,
+      cluster_words_lsa: PropTypes.arrayOf(PropTypes.arrayOf(PropTypes.string))
+        .isRequired,
+      cluster_words_tfidf: PropTypes.arrayOf(
+        PropTypes.arrayOf(PropTypes.string),
+      ).isRequired,
       filter: PropTypes.string.isRequired,
-      nodes: PropTypes.arrayOf(PropTypes.shape({
-        id: PropTypes.string,
-        title: PropTypes.string,
-        authors: PropTypes.arrayOf(PropTypes.shape({
-          name: PropTypes.string,
-        })),
-        date: PropTypes.string,
-        value: PropTypes.number,
-      })).isRequired,
-      filteredNodes: PropTypes.arrayOf(PropTypes.shape({
-        id: PropTypes.string,
-        title: PropTypes.string,
-        authors: PropTypes.arrayOf(PropTypes.shape({
-          name: PropTypes.string,
-        })),
-        date: PropTypes.string,
-        value: PropTypes.number,
-      })).isRequired,
-      links: PropTypes.arrayOf(PropTypes.shape({
-        source: PropTypes.any,
-        target: PropTypes.any,
-        value: PropTypes.number,
-      })).isRequired,
-      topics_lda: PropTypes.arrayOf(PropTypes.shape({
-        index: PropTypes.number.isRequired,
-        top_words: PropTypes.arrayOf(PropTypes.string).isRequired,
-      }).isRequired),
-      topics_nmf: PropTypes.arrayOf(PropTypes.shape({
-        index: PropTypes.number.isRequired,
-        top_words: PropTypes.arrayOf(PropTypes.string).isRequired,
-      })).isRequired,
+      nodes: PropTypes.arrayOf(
+        PropTypes.shape({
+          id: PropTypes.string,
+          title: PropTypes.string,
+          authors: PropTypes.arrayOf(
+            PropTypes.shape({
+              name: PropTypes.string,
+            }),
+          ),
+          date: PropTypes.string,
+          value: PropTypes.number,
+        }),
+      ).isRequired,
+      filteredNodes: PropTypes.arrayOf(
+        PropTypes.shape({
+          id: PropTypes.string,
+          title: PropTypes.string,
+          authors: PropTypes.arrayOf(
+            PropTypes.shape({
+              name: PropTypes.string,
+            }),
+          ),
+          date: PropTypes.string,
+          value: PropTypes.number,
+        }),
+      ).isRequired,
+      links: PropTypes.arrayOf(
+        PropTypes.shape({
+          source: PropTypes.any,
+          target: PropTypes.any,
+          value: PropTypes.number,
+        }),
+      ).isRequired,
+      topics_lda: PropTypes.arrayOf(
+        PropTypes.shape({
+          index: PropTypes.number.isRequired,
+          top_words: PropTypes.arrayOf(PropTypes.string).isRequired,
+        }).isRequired,
+      ),
+      topics_nmf: PropTypes.arrayOf(
+        PropTypes.shape({
+          index: PropTypes.number.isRequired,
+          top_words: PropTypes.arrayOf(PropTypes.string).isRequired,
+        }),
+      ).isRequired,
     }),
   }).isRequired,
 };
@@ -365,10 +420,12 @@ const mapDispatchToProps = dispatch => ({
   fetchDocuments: () => dispatch(FETCH_DOCUMENTS()),
   queryPubmed: query => dispatch(QUERY_DOCUMENTS_PUBMED(query)),
   queryDocInfoPubmed: pmid => dispatch(QUERY_DOCUMENT_INFO_PUBMED(pmid)),
-  queryDocAbstractPubmed: pmid => dispatch(QUERY_DOCUMENT_ABSTRACT_PUBMED(pmid)),
+  queryDocAbstractPubmed: pmid =>
+    dispatch(QUERY_DOCUMENT_ABSTRACT_PUBMED(pmid)),
   filterByDate: date => dispatch(FILTER_BY_DATE(date)),
   clearFilterByDate: () => dispatch(CLEAR_FILTER_BY_DATE()),
-  updateVisualizationWithDocs: (docs, newViz) => dispatch(UPDATE_VISUALIZATION_WITH_DOCS(docs, newViz)), // eslint-disable-line max-len
+  updateVisualizationWithDocs: (docs, newViz) =>
+    dispatch(UPDATE_VISUALIZATION_WITH_DOCS(docs, newViz)), // eslint-disable-line max-len
   sortDocumentsBy: sortKey => dispatch(SORT_DOCUMENTS_BY(sortKey)),
   filterDocuments: query => dispatch(FILTER_DOCUMENTS(query)),
 });

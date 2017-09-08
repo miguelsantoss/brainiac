@@ -42,17 +42,15 @@ class SidebarFixed extends Component {
     };
   }
 
-  handleSearchChange = e => this.setState({
-    query: e.target.value,
-  })
+  handleSearchChange = e => this.setState({ query: e.target.value });
 
-  handleSearchKeyDown = (e) => {
+  handleSearchKeyDown = e => {
     const code = keyboardKey.getCode(e);
     if (code === keyboardKey.Enter) {
       e.preventDefault();
       this.props.queryDocuments(this.state.query);
     }
-  }
+  };
 
   renderTopicWords = () => {
     const { topicWords, magnetsActive } = this.props;
@@ -60,54 +58,72 @@ class SidebarFixed extends Component {
     if (!magnetsActive) return null;
     return (
       <Menu.Item>
-        {
-          magnetsActive ? (
-            <Menu.Menu>
-              {
-                topicWords && topicWords.map((topic, topicIndex) =>
+        {magnetsActive ? (
+          <Menu.Menu>
+            {topicWords &&
+              topicWords.map((topic, topicIndex) =>
                 getImportantWords(topic).map((word, wordIndex) => (
-                  (
-                    <Box key={`${word}${topicIndex}${wordIndex}`} name={word} /> // eslint-disable-line react/no-array-index-key
-                  )),
-                ))
-              }
-            </Menu.Menu>
-          ) : null
-        }
+                  <Box key={`${word}${topicIndex}${wordIndex}`} name={word} /> // eslint-disable-line react/no-array-index-key
+                )),
+              )}
+          </Menu.Menu>
+        ) : null}
       </Menu.Item>
     );
-  }
+  };
 
   render() {
-    const { closeSidebarButtonVisible, closeSidebarButtonHandle, queryLoading } = this.props;
+    const {
+      closeSidebarButtonVisible,
+      closeSidebarButtonHandle,
+      queryLoading,
+    } = this.props;
+
     const { query } = this.state;
     const { magnetsActive } = this.props;
+
     return (
       <Menu vertical fixed="left" inverted style={this.props.style}>
         <Menu.Item>
           <strong>
             Brainiac &nbsp;
-            <small><em>{pkg.version}</em></small>
+            <small>
+              <em>{pkg.version}</em>
+            </small>
           </strong>
-          {
-            closeSidebarButtonVisible && (!queryLoading ?
-            (<Icon inverted name="arrow left" onClick={closeSidebarButtonHandle} />)
-            : (<Loader active inverted inline size="tiny" as={Icon} />))
-          }
+          {closeSidebarButtonVisible &&
+            (!queryLoading ? (
+              <Icon
+                inverted
+                name="arrow left"
+                onClick={closeSidebarButtonHandle}
+              />
+            ) : (
+              <Loader active inverted inline size="tiny" as={Icon} />
+            ))}
         </Menu.Item>
         <Menu.Item>
           <Input
             transparent
             inverted
             fluid
-            icon={<Icon name="search" link onClick={() => this.props.queryDocuments(this.state.query)} />}
+            icon={
+              <Icon
+                name="search"
+                link
+                onClick={() => this.props.queryDocuments(this.state.query)}
+              />
+            }
             placeholder="Search Pubmed"
             value={query}
             onChange={this.handleSearchChange}
             onKeyDown={this.handleSearchKeyDown}
           />
           <br />
-          <Button positive compact fluid onClick={this.props.toggleFileModal}>+ Add files</Button>
+          <Button positive compact fluid onClick={this.props.toggleFileModal}>
+            <Icon name="upload" />
+            <span>Add files</span>
+          </Button>
         </Menu.Item>
         <Menu.Item>
           <span>Words per Topic</span>
@@ -128,7 +144,9 @@ class SidebarFixed extends Component {
           documentList={this.props.dbDocumentList}
           handleHover={this.props.handleHover}
           sortDocumentsBy={this.props.sortDocumentsBy}
-          ref={(element) => { this.docListSidebar = element; }}
+          ref={element => {
+            this.docListSidebar = element;
+          }}
         />
       </Menu>
     );

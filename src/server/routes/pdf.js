@@ -8,11 +8,12 @@ import { pdfIdGenerator, readAsync, promiseReflect } from '../utils';
 
 const indexDir = path.join(__dirname, '..');
 const docsFolder = path.join(__dirname, '../corpus/pdf/');
+const uploadFolder = path.join(__dirname, '../t/');
 const summariesFolder = path.join(__dirname, '../corpus/summary/');
 
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
-    cb(null, docsFolder);
+    cb(null, uploadFolder);
   },
   filename: (req, file, cb) => {
     let exists = false;
@@ -25,34 +26,6 @@ const storage = multer.diskStorage({
     cb(null, fileName);
   },
 });
-
-const testFunc = async () => {
-  const file = path.resolve(indexDir, 'document.json');
-  const summaries = [];
-  const ids = [];
-  jsonfile.readFile(file, (err, obj) => {
-    for (let i = 0; i < obj.nodes.length; i += 1) {
-      const node = obj.nodes[i];
-      const filename = path.resolve(summariesFolder, `${node.id}.txt`);
-      summaries.push(readAsync(filename));
-      ids.push(node);
-    }
-    Promise.all(summaries.map(promiseReflect))
-      .then(results => {
-        const success = results.filter(res => res.status === 'resolved');
-        const failed = results.filter(res => res.status === 'rejected');
-        for (let i = 0; i < results.length; i += 1) {
-          if (results[i].status === 'resolved') {
-            ids[i].summary = results[i].v;
-          } else {
-            ids[i].summary = 'Summary not available';
-          }
-        }
-        res.send(file);
-      })
-      .catch(err2 => console.error(err2));
-  });
-};
 
 const upload = multer({ storage });
 const route = express.Router();
@@ -95,8 +68,25 @@ route.get('/:id', (req, res) => {
   }
 });
 
-route.post('/pdf/upload', upload.single('pdf'), (req, res) => {
-  console.log(`Uploading file: ${req.file.filename}`);
+route.post('/upload', upload.single('pdf'), (req, res) => {
+  console.info(`Uploading file: ${req.file.filename}`);
+  const removeEmptyAuthors = array => {
+    const authors = [];
+    for (let i = 0; i < array.length; i += 1) {
+      if (array[i].name !== '') {
+        authors.push(array[i]);
+      }
+    }
+    return authors;
+  };
+  const title = JSON.parse(req.body.title);
+  const abstract = JSON.parse(req.body.abstract);
+  let authors = JSON.parse(req.body.authors);
+
+  authors = removeEmptyAuthors(authors);
+  console.info(title);
+  console.info(abstract);
+  console.info(authors);
   res.end();
 });
 

@@ -1,14 +1,7 @@
-$font-stack: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
-$background-color: #222;
+@import '../Root/styles.scss';
+
 $bottom-border-radius: 2px;
 $handle-color: #545454;
-
-body {
-  box-sizing: border-box;
-  height: 100%;
-  color: $background-color;
-  font: 100% $font-stack;
-}
 
 .drag-wrapper {
   border: 2px solid $handle-color;

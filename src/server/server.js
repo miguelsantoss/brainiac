@@ -24,17 +24,23 @@ app.use('/api', apiRoutes);
 
 const server = app.listen(4000, () => {
   const port = server.address().port;
-  console.log(`App now running on port ${port}`);
+  console.info(`App now running on port ${port}`);
 });
 
 app.get('*', (req, res) => {
   const parser = new xml2js.Parser();
-  fs.readFile(path.resolve(path.join(__dirname, 'bak_corpus/pdf/refs'), 'p0a9650062ef6b287.references.tei.xml'), (err, data) => {
-    parser.parseString(data, (err2, result) => {
-      console.dir(result);
-      console.log('Done');
-      res.json(result);
-    });
-  });
+  fs.readFile(
+    path.resolve(
+      path.join(__dirname, 'bak_corpus/pdf/refs'),
+      'p0a9650062ef6b287.references.tei.xml',
+    ),
+    (err, data) => {
+      parser.parseString(data, (err2, result) => {
+        console.info(result);
+        console.info('Done');
+        res.json(result);
+      });
+    },
+  );
   res.status(404);
 });
