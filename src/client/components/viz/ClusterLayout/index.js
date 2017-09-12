@@ -34,7 +34,7 @@ class ClusterLayout extends Component {
 
   componentWillMount() {
     const width = document.getElementById('window-cluster-content').clientWidth; // eslint-disable-line no-undef
-    const height = document.getElementById('window-cluster-content').clientHeight; // eslint-disable-line no-undef
+    const height = document.getElementById('window-cluster-content').clientHeight; // eslint-disable-line no-undef, prettier/prettier
     this.padding = 1.5; // separation between same-color circles
     this.clusterPadding = 6; // separation between different-color circles
     this.maxRadius = 12;
@@ -59,12 +59,17 @@ class ClusterLayout extends Component {
 
     this.color = d3Scale.scaleOrdinal(color);
     this.clusters = new Array(this.nClusters);
-    this.state.nodes.forEach((d) => {
+    this.state.nodes.forEach(d => {
       const i = d.cluster;
-      const r = (Math.sqrt((i + 1) / this.nClusters) * -Math.log(Math.random())) * this.maxRadius;
+      const r =
+        Math.sqrt((i + 1) / this.nClusters) *
+        -Math.log(Math.random()) *
+        this.maxRadius;
       d.radius = 4;
       d.defaultRadius = 4;
-      if (!this.clusters[i] || (r > this.clusters[i].radius)) this.clusters[i] = d;
+      if (!this.clusters[i] || r > this.clusters[i].radius) {
+        this.clusters[i] = d;
+      }
     });
 
     this.nodes = this.state.nodes;
