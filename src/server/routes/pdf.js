@@ -90,4 +90,7 @@ route.post('/upload', upload.single('pdf'), (req, res) => {
   res.end();
 });
 
+route.post('/reset', (req, res) => {
+});
+
 export default route;

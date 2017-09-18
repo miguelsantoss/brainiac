@@ -15,6 +15,7 @@ from nltk.corpus import stopwords, wordnet
 # from scikit - tfidf and lsa
 from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 from sklearn.decomposition import TruncatedSVD, PCA, NMF, LatentDirichletAllocation
+from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.preprocessing import Normalizer
 from sklearn.pipeline import make_pipeline
 from sklearn.cluster import KMeans
@@ -25,6 +26,8 @@ from scipy import linalg
 from scipy import dot
 from scipy import sparse
 import matplotlib.pyplot as plt
+
+import spacy
 
 parser = argparse.ArgumentParser(description='Text processing')
 parser.add_argument('--path', dest='path', default='corpus/txt')
@@ -38,6 +41,7 @@ args = parser.parse_args()
 stemmer = PorterStemmer()
 lemmatizer = WordNetLemmatizer()
 stops = set(stopwords.words('english'))
+nlp = spacy.load('en')
 
 print('Loading english word list...')
 with open(args.wordList) as word_file:
@@ -103,7 +107,9 @@ def documentAnalysis(path):
                 #  Remove pontuation from the text
                 docText = docText.translate(str.maketrans('', '', string.punctuation))
                 tokens = tokenize(docText)
-                token_dict[doc_id] = docText
+
+                # Use calculated tokens instead of docText
+                token_dict[doc_id] = " ".join(tokens)
     return token_dict, file_names
 
 def main(args):
@@ -119,6 +125,19 @@ def main(args):
         0: '#20b2aa', 1: '#ff7373', 2: '#ffe4e1', 3: '#005073', 4: '#4d0404',
         5: '#ccc0ba', 6: '#4700f9', 7: '#f6f900', 8: '#00f91d', 9: '#da8c49'
     }
+
+    spacy_dict = {}
+    for key, value in token_dictionary.items():
+        spacy_dict[key] = nlp(value)
+    
+    matrix_n = len(spacy_dict)
+    spacy_similarity_matrix = []
+
+    for i in range(0, matrix_n):
+        row = []
+        for j in range(0, matrix_n):
+            row.append(spacy_dict[file_names[i]].similarity(spacy_dict[file_names[j]]))
+        spacy_similarity_matrix.append(row)
 
     # TF-IDF
     print('Extracting TF-IDF features...')
@@ -317,6 +336,13 @@ def main(args):
     sim_json['topics_nmf'] = topics_nmf
     sim_json['cluster_words_tfidf'] = tfidf_cluster_top_words
     sim_json['cluster_words_lsa'] = lsa_cluster_top_words
+
+    query = 'disease'
+    print(f"query: {query}")
+    res = tfidf_vectorizer.transform([query])
+    cosine = cosine_similarity(res, tfidf_matrix)
+    print(cosine)
+
     
     json.dump(sim_json, codecs.open(args.save, 'w', encoding='utf-8'), separators=(',',':'), sort_keys=True, indent=4)
     if (args.plot):

@@ -262,9 +262,8 @@ class AppLayout extends Component {
   };
 
   changeMagnetVizState = () => {
-    this.handleOpen();
     // console.error('not finished yet');
-    // this.setState({ ...this.state, magnets: !this.state.magnets });
+    this.setState({ ...this.state, magnets: !this.state.magnets });
   };
 
   render() {

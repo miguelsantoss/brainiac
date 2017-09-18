@@ -5,9 +5,9 @@ import ncbi from 'node-ncbi';
 import PythonShell from 'python-shell';
 import express from 'express';
 
-const route = express.Router();
+const router = express.Router();
 
-route.post('/updateviz', (req, res) => {
+router.post('/', (req, res) => {
   const files = glob.sync(
     path.resolve(path.join(__dirname, '/corpus/pubmed/'), '*.txt'),
   );
@@ -115,3 +115,9 @@ route.post('/updateviz', (req, res) => {
     });
   });
 });
+
+router.post('/word', (req, res) => {
+  res.json({});
+});
+
+export default router;

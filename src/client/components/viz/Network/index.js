@@ -16,8 +16,8 @@ import './network.scss';
 
 const boxTarget = {
   drop(props, monitor, component) {
-    const item = monitor.getItem();
-    component.svg.dispatch('click', { detail: item });
+    // const item = monitor.getItem();
+    // component.svg.dispatch('click', { detail: item });
   },
 };
 
@@ -544,7 +544,7 @@ class Network extends Component {
 
     const iconStyle = {
       position: 'fixed',
-      marginLeft: this.state.width - 79,
+      marginLeft: this.state.width - 77,
     };
     const activeStyle = {};
     activeStyle.backgroundColor = isActive ? 'darkgreen' : '';

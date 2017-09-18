@@ -10,7 +10,7 @@ import xml2js from 'xml2js';
 import apiRoutes from './routes';
 
 const app = express();
-if (process.env.NODE_ENV === 'production') {
+if (app.get('env') === 'production') {
   app.use(morgan('combined'));
 } else {
   app.use(morgan('dev'));
