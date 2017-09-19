@@ -31,7 +31,7 @@ const upload = multer({ storage });
 const route = express.Router();
 
 route.get('/', (req, res) => {
-  const file = path.resolve(indexDir, 'document.json');
+  const file = path.resolve(indexDir, 'vizdata.json');
   const summaries = [];
   jsonfile.readFile(file, (err, obj) => {
     const { nodes } = obj;

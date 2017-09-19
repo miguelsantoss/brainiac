@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import sizeMe from 'react-sizeme';
 import { DropTarget } from 'react-dnd';
 
+import * as d3Array from 'd3-array';
 import * as d3Force from 'd3-force';
 import * as d3Sel from 'd3-selection';
 import * as d3Drag from 'd3-drag';
@@ -42,6 +43,9 @@ class ClusterLayout extends Component {
     this.prevent = false;
     this.timer = 0;
     this.delay = 200;
+    this.preventMagnet = false;
+    this.timerMagnet = 0;
+    this.delayMagnet = 200;
   }
 
   componentWillMount() {
@@ -116,6 +120,12 @@ class ClusterLayout extends Component {
   }
 
   createMagnet = word => {
+    for (let i = 0; i < this.magnetNodes.length; i += 1) {
+      if (this.magnetNodes[i].word === word) {
+        return;
+      }
+    }
+
     const randomNumber = (min, max) =>
       Math.floor(Math.random() * (max - min + 1)) + min;
 
@@ -129,7 +139,10 @@ class ClusterLayout extends Component {
 
     this.magnetNodes.push({
       id,
-      text: word,
+      word,
+      min: d3Array.min(this.props.wordDistances[word]),
+      max: d3Array.max(this.props.wordDistances[word]),
+      active: false,
     });
 
     this.magnets
@@ -139,76 +152,32 @@ class ClusterLayout extends Component {
       .append('circle')
       .attr('class', 'magnet-node')
       .attr('r', 10)
-      .style('fill', 'green')
+      .style('fill', d => (d.active ? 'green' : 'black'))
       .attr('id', d => d.id)
+      .on('click', d => this.handleMagnetClick(d))
+      .on('dblclick', d => this.handleMagnetDoubleClick(d))
       .call(
         d3Drag
           .drag()
-          .on('start', d => {
-            d.fx = d.x;
-            d.fy = d.y;
-          })
           .on('drag', d => {
             const mouseCoords = d3Sel.mouse(this.svg.node());
-            d.fx = (mouseCoords[0] - this.zoom.translation[0]) / this.zoom.scaleFactor;
-            d.fy = (mouseCoords[1] - this.zoom.translation[1]) / this.zoom.scaleFactor;
-            this.magnets
-              .select(`#${d.id}`)
-              .attr('cx', (d.x = d.fx))
-              .attr('cy', (d.y = d.fy));
-            this.magnetLabels
-              .select(`#${d.id}label`)
-              .attr('x', (d.x = d.fx))
-              .attr('y', (d.y = d.fy));
+            d.x = (mouseCoords[0] - this.zoom.translation[0]) / this.zoom.scaleFactor;
+            d.y = (mouseCoords[1] - this.zoom.translation[1]) / this.zoom.scaleFactor;
+            this.updateMagnets();
+
+            // For some reason, only works like this
+            // this.magnets
+            //   .select(`#${d.id}`)
+            //   .attr('cx', e => e.x)
+            //   .attr('cy', e => e.y);
+            // this.magnetLabels
+            //   .select(`#${d.id}label`)
+            //   .attr('x', e => e.x)
+            //   .attr('y', e => e.y);
           })
           .on('end', () => {
-            const t = d3Transition
-              .transition()
-              .duration(500)
-              .ease(d3Ease.easeBounce);
-            d3Sel
-              .selectAll('.cluster-node')
-              .transition(t)
-              .attr('cx', d => {
-                // current loc
-                let x = d.x;
-                this.activeMagnets.forEach(key => {
-                  if (key.active === true) {
-                    const val = key.name;
-                    const dustVal = d[val];
-                    // get the difference in distance
-                    const deltaX = key.x - x;
-                    // get the force scalar
-                    const scale = d3Scale
-                      .scaleLinear()
-                      .domain([key.min, key.max])
-                      .range([0.1, 0.9]);
-                    const force = scale(dustVal);
-                    x += deltaX * force;
-                  }
-                });
-                return x;
-              })
-              .attr('cy', d => {
-                // current loc
-                let y = d.y;
-                this.activeMagnets.forEach(key => {
-                  if (key.active === true) {
-                    const val = key.name;
-                    const dustVal = d[val];
-                    // get the difference in distance
-                    const deltaY = key.y - y;
-                    // get the force scalar
-                    const scale = d3Scale
-                      .scaleLinear()
-                      .domain([key.min, key.max])
-                      .range([0.1, 0.9]);
-                    const force = scale(dustVal);
-                    y += deltaY * force;
-                  }
-                });
-                return y;
-              });
+            this.updateMagnets();
+            this.updateDust();
           }),
       );
 
@@ -224,7 +193,7 @@ class ClusterLayout extends Component {
       .attr('class', 'magnet-label')
       .attr('id', d => `${d.id}label`)
       .style('font-size', '12px')
-      .text(d => d.text);
+      .text(d => d.word);
   };
 
   filterNodes() {
@@ -266,6 +235,30 @@ class ClusterLayout extends Component {
   handleNewNodes = () => {
     this.nodes = this.props.filteredNodes;
     this.updateNodes();
+  };
+
+  handleMagnetClick = d => {
+    this.timerMagnet = setTimeout(() => {
+      if (!this.preventMagnet) {
+        console.log('click');
+      }
+      this.preventMagnet = false;
+    }, this.delayMagnet);
+  };
+
+  handleMagnetDoubleClick = d => {
+    clearTimeout(this.timerMagnet);
+    this.preventMagnet = true;
+
+    this.activeMagnets = this.activeMagnets.filter(
+      magnet => magnet.id !== d.id,
+    );
+
+    if (!d.active) this.activeMagnets.push(d);
+    d.active = !d.active;
+
+    this.updateDust();
+    this.updateMagnets();
   };
 
   handleNodeClick = d => {
@@ -312,7 +305,12 @@ class ClusterLayout extends Component {
           scaleFactor,
           translation,
         };
-        if (this.simulation) this.simulation.restart();
+        this.updateMagnets();
+        // Don't animate here, becomes clunky
+        this.updateDust(0);
+        if (this.simulation && !this.activeMagnets.length) {
+          this.simulation.restart();
+        }
       })
       .scaleExtent([0.01, 100]);
 
@@ -398,7 +396,9 @@ class ClusterLayout extends Component {
         d3Drag
           .drag()
           .on('start', d => {
-            if (!d3Sel.event.active) this.simulation.alphaTarget(0.3).restart();
+            if (!d3Sel.event.active && !this.activeMagnets.length) {
+              this.simulation.alphaTarget(0.3).restart();
+            }
             this.props.hoverNode(d, true);
             this.drag = true;
             d.fx = d.x;
@@ -410,7 +410,9 @@ class ClusterLayout extends Component {
             d.fy = (mouseCoords[1] - this.zoom.translation[1]) / this.zoom.scaleFactor;
           })
           .on('end', d => {
-            if (!d3Sel.event.active) this.simulation.alphaTarget(0);
+            if (!d3Sel.event.active && !this.activeMagnets.length) {
+              this.simulation.alphaTarget(0);
+            }
             this.drag = false;
             this.props.hoverNode(d, false);
             d.fx = null;
@@ -420,6 +422,78 @@ class ClusterLayout extends Component {
 
     this.simulation.nodes(this.nodes);
     this.simulation.alpha(1).restart();
+  };
+
+  updateMagnets = () => {
+    this.magnets
+      .selectAll('.magnet-node')
+      // .attr('cx', d => (d.x - this.zoom.translation[0]) / this.zoom.scaleFactor)
+      // .attr('cy', d => (d.y - this.zoom.translation[1]) / this.zoom.scaleFactor)
+      .attr('cx', d => this.zoom.translation[0] + this.zoom.scaleFactor * d.x)
+      .attr('cy', d => this.zoom.translation[1] + this.zoom.scaleFactor * d.y)
+      .style('fill', d => (d.active ? 'green' : 'black'));
+
+    this.magnetLabels
+      .selectAll('.magnet-label')
+      // .attr('x', d => (d.x - this.zoom.translation[0]) / this.zoom.scaleFactor)
+      // .attr('y', d => (d.y - this.zoom.translation[1]) / this.zoom.scaleFactor);
+      .attr('x', d => this.zoom.translation[0] + this.zoom.scaleFactor * d.x)
+      .attr('y', d => this.zoom.translation[1] + this.zoom.scaleFactor * d.y);
+  };
+
+  updateDust = (transition = 500) => {
+    if (!this.activeMagnets.length) {
+      this.simulation.alpha(1).restart();
+      return;
+    }
+    this.simulation.alpha(0).stop();
+    const t = d3Transition
+      .transition()
+      .duration(transition)
+      .ease(d3Ease.easeBounce);
+    d3Sel
+      .selectAll('.cluster-node')
+      .transition(t)
+      .attr('cx', d => {
+        // current loc
+        let x = d.x;
+        this.activeMagnets.forEach(magnet => {
+          if (magnet.active === true) {
+            const val = this.props.wordDistancesWLabels[magnet.word][d.id];
+            // get the difference in distance
+            const deltaX = magnet.x - x;
+            // get the force scalar
+            const scale = d3Scale
+              .scaleLinear()
+              .domain([magnet.min, magnet.max])
+              .range([0.1, 0.9]);
+            const force = scale(val);
+            x += deltaX * force;
+            x = this.zoom.translation[0] + this.zoom.scaleFactor * x;
+          }
+        });
+        return x;
+      })
+      .attr('cy', d => {
+        // current loc
+        let y = d.y;
+        this.activeMagnets.forEach(magnet => {
+          if (magnet.active === true) {
+            const val = this.props.wordDistancesWLabels[magnet.word][d.id];
+            // get the difference in distance
+            const deltaY = magnet.y - y;
+            // get the force scalar
+            const scale = d3Scale
+              .scaleLinear()
+              .domain([magnet.min, magnet.max])
+              .range([0.1, 0.9]);
+            const force = scale(val);
+            y += deltaY * force;
+            y = this.zoom.translation[1] + this.zoom.scaleFactor * y;
+          }
+        });
+        return y;
+      });
   };
 
   render() {
@@ -479,7 +553,10 @@ ClusterLayout.propTypes = {
   ).isRequired,
   focusedNode: PropTypes.shape({ // eslint-disable-line react/require-default-props, prettier/prettier
     id: PropTypes.string.isRequired,
+    radius: PropTypes.number.isRequired,
   }),
+  wordDistances: PropTypes.object.isRequired,
+  wordDistancesWLabels: PropTypes.object.isRequired,
   canDrop: PropTypes.bool.isRequired,
   isOver: PropTypes.bool.isRequired,
   connectDropTarget: PropTypes.func.isRequired,

@@ -337,12 +337,31 @@ def main(args):
     sim_json['cluster_words_tfidf'] = tfidf_cluster_top_words
     sim_json['cluster_words_lsa'] = lsa_cluster_top_words
 
-    query = 'disease'
-    print(f"query: {query}")
-    res = tfidf_vectorizer.transform([query])
-    cosine = cosine_similarity(res, tfidf_matrix)
-    print(cosine)
+    # Flatten list of lists
+    default_words_tfidf = [item for sublist in tfidf_cluster_top_words for item in sublist]
+    default_words_lsa = [item for sublist in lsa_cluster_top_words for item in sublist]
+    default_words = default_words_tfidf + default_words_lsa
 
+    # Remove duplicates
+    default_words = list(set(default_words))
+
+    # Transform to bag of words and get distance to documents
+    word_distances = {}
+    for word in default_words:
+        word_distances[word] = cosine_similarity(tfidf_vectorizer.transform([word]), tfidf_matrix).tolist()
+    
+    distances = {}
+    for word in default_words:
+        index = 0
+        w_aux = {}
+        for file in file_names:
+            w_aux[file] = word_distances[word][0][index]
+            index += 1
+        distances[word] = w_aux
+    
+    sim_json['wordDistances'] = {}
+    sim_json['wordDistances'] = {key:value[0] for key, value in word_distances.items()}
+    sim_json['wordDistancesWLabels'] = distances
     
     json.dump(sim_json, codecs.open(args.save, 'w', encoding='utf-8'), separators=(',',':'), sort_keys=True, indent=4)
     if (args.plot):

@@ -39,6 +39,7 @@ class AppLayout extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      visible: true,
       magnets: false,
       focusedNode: null,
       modelOpen: false,
@@ -220,6 +221,8 @@ class AppLayout extends Component {
           <ClusterLayout
             queryResult={this.props.db.queryResult}
             nodes={_.cloneDeep(documents.nodes)}
+            wordDistances={documents.wordDistances}
+            wordDistancesWLabels={documents.wordDistancesWLabels}
             filteredNodes={_.cloneDeep(documents.filteredNodes)}
             ref={element => {
               this.clusterViz = element;
@@ -264,6 +267,14 @@ class AppLayout extends Component {
   changeMagnetVizState = () => {
     // console.error('not finished yet');
     this.setState({ ...this.state, magnets: !this.state.magnets });
+  };
+
+  handleDismiss = () => {
+    this.setState({ ...this.state, visible: false });
+
+    setTimeout(() => {
+      this.setState({ ...this.state, visible: true });
+    }, 2000);
   };
 
   render() {
