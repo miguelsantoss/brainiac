@@ -4,10 +4,12 @@ import glob from 'glob';
 import ncbi from 'node-ncbi';
 import PythonShell from 'python-shell';
 import express from 'express';
+import childProcess from 'child_process';
 
+const indexDir = path.join(__dirname, '..');
 const router = express.Router();
 
-router.post('/', (req, res) => {
+router.post('/create', (req, res) => {
   const files = glob.sync(
     path.resolve(path.join(__dirname, '/corpus/pubmed/'), '*.txt'),
   );
@@ -117,7 +119,24 @@ router.post('/', (req, res) => {
 });
 
 router.post('/word', (req, res) => {
-  res.json({});
+  const word = req.query.w;
+  const p = childProcess.spawn('sh', [
+    `${indexDir}/scripts/runTextProcess.sh`,
+    word,
+  ]);
+  p.stdout.on('data', data => {
+    console.info(`stdout: ${data}`);
+  });
+  p.stderr.on('data', data => {
+    console.error(`stderr: ${data}`);
+  });
+  p.on('close', code => {
+    fs.readFile(`${indexDir}/wordDistances.json`, 'utf8', (err, data) => {
+      if (err) throw err;
+      const obj = JSON.parse(data);
+      res.json(obj);
+    });
+  });
 });
 
 export default router;

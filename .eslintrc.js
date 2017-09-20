@@ -48,6 +48,8 @@ module.exports = {
         },
       ],
 
+      'jsx-a11y/no-static-element-interactions': 'off',
+
       'no-param-reassign': 'off',
   
       // a11y removed rule, ignore them

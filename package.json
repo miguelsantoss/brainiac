@@ -145,7 +145,7 @@
   },
   "scripts": {
     "start:client": "babel-node node_modules/webpack-dev-server/bin/webpack-dev-server.js --config webpack.config.js",
-    "start:server": "cross-env NODE_ENV=development nodemon src/server/server.js --ignore bak_corpus/ --ignore corpus --ignore '*.py' --exec babel-node",
+    "start:server": "cross-env NODE_ENV=development nodemon src/server/server.js --ignore bak_corpus/ --ignore corpus --ignore '*.py' --ignore '*.json' --exec babel-node",
     "server": "babel-node src/server/server.js",
     "start": "concurrently --kill-others \"yarn run start:client\" \"yarn run start:server\"",
     "prod": "babel-node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=production webpack-dev-server --env.prod=true",

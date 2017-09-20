@@ -4,6 +4,7 @@ import {
   searchDocumentsScholar,
   getDocumentInfoPubmed,
   updateVisualizationWithDocs,
+  getWordDistances,
 } from '../../api/apiCalls';
 
 export const DOC_FETCH_DOCUMENTS_DB_SUCCESS = 'DOC_FETCH_DOCUMENTS_DB_SUCCESS';
@@ -32,61 +33,100 @@ export const DB_UPDATE_VISUALIZATION_WITH_DOCS_LOADING = 'DB_UPDATE_VISUALIZATIO
 export const DB_SORT_DOCUMENTS_BY = 'DB_SORT_DOCUMENTS_BY';
 export const DB_FILTER_DOCUMENTS = 'DB_FILTER_DOCUMENTS';
 
-export const FETCH_DOCUMENTS = () =>
-  (dispatch) => {
-    dispatch({ type: DOC_FETCH_DOCUMENTS_DB_LOADING });
-    fetchDocuments().then(response => response.json())
-      .then(response => dispatch({ type: DOC_FETCH_DOCUMENTS_DB_SUCCESS, result: response }))
-      .catch(err => dispatch({ type: DOC_FETCH_DOCUMENTS_DB_FAIL, result: err }));
-  };
+export const DB_UPDATE_GET_WORD_DISTANCE_SUCCESS = 'DB_UPDATE_GET_WORD_DISTANCE_SUCCESS';
+export const DB_UPDATE_GET_WORD_DISTANCE_FAIL = 'DB_UPDATE_GET_WORD_DISTANCE_FAIL';
+export const DB_UPDATE_GET_WORD_DISTANCE_LOADING = 'DB_UPDATE_GET_WORD_DISTANCE_LOADING';
 
-export const QUERY_DOCUMENTS_SCHOLAR = query =>
-  (dispatch) => {
-    searchDocumentsScholar(query).then(response => response.json())
-      .then(response => dispatch({ type: DOC_QUERY_DOCUMENTS_SCHOLAR_SUCCESS, result: response }))
-      .catch(err => dispatch({ type: DOC_QUERY_DOCUMENTS_SCHOLAR_FAIL, result: err }));
-  };
+export const FETCH_DOCUMENTS = () => dispatch => {
+  dispatch({ type: DOC_FETCH_DOCUMENTS_DB_LOADING });
+  fetchDocuments()
+    .then(response => response.json())
+    .then(response =>
+      dispatch({ type: DOC_FETCH_DOCUMENTS_DB_SUCCESS, result: response }),
+    )
+    .catch(err => dispatch({ type: DOC_FETCH_DOCUMENTS_DB_FAIL, result: err }));
+};
 
-export const QUERY_DOCUMENTS_PUBMED = query =>
-  (dispatch) => {
-    dispatch({ type: DOC_QUERY_DOCUMENTS_PUBMED_LOADING });
-    searchDocumentsPubmed(query).then(response => response.json())
-      .then(response => dispatch({ type: DOC_QUERY_DOCUMENTS_PUBMED_SUCCESS, result: response }))
-      .catch(err => dispatch({ type: DOC_QUERY_DOCUMENTS_PUBMED_FAIL, result: err }));
-  };
+export const QUERY_DOCUMENTS_SCHOLAR = query => dispatch => {
+  searchDocumentsScholar(query)
+    .then(response => response.json())
+    .then(response =>
+      dispatch({ type: DOC_QUERY_DOCUMENTS_SCHOLAR_SUCCESS, result: response }),
+    )
+    .catch(err =>
+      dispatch({ type: DOC_QUERY_DOCUMENTS_SCHOLAR_FAIL, result: err }),
+    );
+};
 
-export const QUERY_DOCUMENT_INFO_PUBMED = pmid =>
-  (dispatch) => {
-    dispatch({ type: DOC_QUERY_DOCUMENT_INFO_PUBMED_LOADING });
-    getDocumentInfoPubmed(pmid).then(response => response.json())
-      .then(response => dispatch({ type: DOC_QUERY_DOCUMENT_INFO_PUBMED_SUCCESS, result: response }))
-      .catch(err => dispatch({ type: DOC_QUERY_DOCUMENT_INFO_PUBMED_FAIL, result: err }));
-  };
+export const QUERY_DOCUMENTS_PUBMED = query => dispatch => {
+  dispatch({ type: DOC_QUERY_DOCUMENTS_PUBMED_LOADING });
+  searchDocumentsPubmed(query)
+    .then(response => response.json())
+    .then(response =>
+      dispatch({ type: DOC_QUERY_DOCUMENTS_PUBMED_SUCCESS, result: response }),
+    )
+    .catch(err =>
+      dispatch({ type: DOC_QUERY_DOCUMENTS_PUBMED_FAIL, result: err }),
+    );
+};
 
-export const FILTER_BY_DATE = dates =>
-  (dispatch) => {
-    dispatch({ type: DB_FILTER_BY_DATE, result: dates });
-  };
+export const QUERY_DOCUMENT_INFO_PUBMED = pmid => dispatch => {
+  dispatch({ type: DOC_QUERY_DOCUMENT_INFO_PUBMED_LOADING });
+  getDocumentInfoPubmed(pmid)
+    .then(response => response.json())
+    .then(response =>
+      dispatch({
+        type: DOC_QUERY_DOCUMENT_INFO_PUBMED_SUCCESS,
+        result: response,
+      }),
+    )
+    .catch(err =>
+      dispatch({ type: DOC_QUERY_DOCUMENT_INFO_PUBMED_FAIL, result: err }),
+    );
+};
 
-export const CLEAR_FILTER_BY_DATE = dates =>
-  (dispatch) => {
-    dispatch({ type: DB_CLEAR_FILTER_BY_DATE, result: dates });
-  };
+export const FILTER_BY_DATE = dates => dispatch => {
+  dispatch({ type: DB_FILTER_BY_DATE, result: dates });
+};
 
-export const UPDATE_VISUALIZATION_WITH_DOCS = (docs, newViz) =>
-  (dispatch) => {
-    dispatch({ type: DB_UPDATE_VISUALIZATION_WITH_DOCS_LOADING });
-    updateVisualizationWithDocs(docs, newViz).then(response => response.json())
-      .then(response => dispatch({ type: DB_UPDATE_VISUALIZATION_WITH_DOCS_SUCCESS, result: response }))
-      .catch(err => dispatch({ type: DB_UPDATE_VISUALIZATION_WITH_DOCS_FAIL, result: err }));
-  };
+export const CLEAR_FILTER_BY_DATE = dates => dispatch => {
+  dispatch({ type: DB_CLEAR_FILTER_BY_DATE, result: dates });
+};
 
-export const SORT_DOCUMENTS_BY = sortKey =>
-  (dispatch) => {
-    dispatch({ type: DB_SORT_DOCUMENTS_BY, result: sortKey });
-  };
+export const UPDATE_VISUALIZATION_WITH_DOCS = (docs, newViz) => dispatch => {
+  dispatch({ type: DB_UPDATE_VISUALIZATION_WITH_DOCS_LOADING });
+  updateVisualizationWithDocs(docs, newViz)
+    .then(response => response.json())
+    .then(response =>
+      dispatch({
+        type: DB_UPDATE_VISUALIZATION_WITH_DOCS_SUCCESS,
+        result: response,
+      }),
+    )
+    .catch(err =>
+      dispatch({ type: DB_UPDATE_VISUALIZATION_WITH_DOCS_FAIL, result: err }),
+    );
+};
 
-export const FILTER_DOCUMENTS = query =>
-  (dispatch) => {
-    dispatch({ type: DB_FILTER_DOCUMENTS, result: query });
-  };
+export const SORT_DOCUMENTS_BY = sortKey => dispatch => {
+  dispatch({ type: DB_SORT_DOCUMENTS_BY, result: sortKey });
+};
+
+export const FILTER_DOCUMENTS = query => dispatch => {
+  dispatch({ type: DB_FILTER_DOCUMENTS, result: query });
+};
+
+export const GET_WORD_DISTANCE = word => dispatch => {
+  dispatch({ type: DB_UPDATE_GET_WORD_DISTANCE_LOADING });
+  getWordDistances(word)
+    .then(response => response.json())
+    .then(response =>
+      dispatch({ type: DB_UPDATE_GET_WORD_DISTANCE_SUCCESS, result: response }),
+    )
+    .catch(err =>
+      dispatch({
+        type: DB_UPDATE_GET_WORD_DISTANCE_FAIL,
+        result: err,
+      }),
+    );
+};

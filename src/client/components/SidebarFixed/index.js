@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import axios from 'axios';
 import PropTypes from 'prop-types';
 import { Menu, Input, Icon, Loader, Button } from 'semantic-ui-react';
 import Box from '../test/Box';
@@ -39,10 +40,15 @@ class SidebarFixed extends Component {
       query: '',
       sortOptions,
       sortBy: sortOptions[0].value,
+      topicValue: '',
     };
   }
 
-  handleSearchChange = e => this.setState({ query: e.target.value });
+  handleSearchChange = e =>
+    this.setState({ ...this.state, query: e.target.value });
+
+  handleTopicChange = e =>
+    this.setState({ ...this.state, topicValue: e.target.value });
 
   handleSearchKeyDown = e => {
     const code = keyboardKey.getCode(e);
@@ -52,20 +58,60 @@ class SidebarFixed extends Component {
     }
   };
 
+  handleTopicKeyDown = e => {
+    const code = keyboardKey.getCode(e);
+    if (code === keyboardKey.Enter && this.state.topicValue !== '') {
+      e.preventDefault();
+      this.handleTopicCreate();
+    }
+  };
+
+  handleTopicCreate = () => {
+    const { topicValue } = this.state;
+    const { topicWords } = this.props;
+    for (let i = 0; i < topicWords.length; i += 1) {
+      if (topicValue.toLowerCase() === topicWords[i].toLowerCase()) {
+        this.setState({ ...this.state, topicValue: '' });
+        return;
+      }
+    }
+    this.props.getWordDistance(topicValue);
+    this.setState({ ...this.state, topicValue: '' });
+  };
+
   renderTopicWords = () => {
     const { topicWords, magnetsActive } = this.props;
-    const getImportantWords = d => d.slice(0, 3);
+    // const getImportantWords = d => d.slice(0, 3);
     if (!magnetsActive) return null;
     return (
       <Menu.Item>
         {magnetsActive ? (
           <Menu.Menu>
+            <Menu.Item>
+              <Input
+                transparent
+                inverted
+                fluid
+                icon={
+                  <Icon
+                    name="plus"
+                    link
+                    onClick={() => this.handleTopicCreate()}
+                  />
+                }
+                placeholder="Create Topic"
+                value={this.state.topicValue}
+                onChange={this.handleTopicChange}
+                onKeyDown={this.handleTopicKeyDown}
+              />
+            </Menu.Item>
             {topicWords &&
-              topicWords.map((topic, topicIndex) =>
-                getImportantWords(topic).map((word, wordIndex) => (
-                  <Box key={`${word}${topicIndex}${wordIndex}`} name={word} /> // eslint-disable-line react/no-array-index-key
-                )),
-              )}
+              // topicWords.map((topic, topicIndex) =>
+              //   getImportantWords(topic).map((word, wordIndex) => (
+              //     <Box key={`${word}${topicIndex}${wordIndex}`} name={word} /> // eslint-disable-line react/no-array-index-key
+              //   )),
+              // )
+              topicWords.map(topic => <Box key={topic} name={topic} />)}
           </Menu.Menu>
         ) : null}
       </Menu.Item>
@@ -126,7 +172,7 @@ class SidebarFixed extends Component {
           </Button>
         </Menu.Item>
         <Menu.Item>
-          <span>Words per Topic</span>
+          <span>Topic Magnets</span>
           <Icon
             inverted
             name={magnetsActive ? 'toggle on' : 'toggle off'}
@@ -162,12 +208,13 @@ SidebarFixed.propTypes = {
   closeSidebarButtonHandle: PropTypes.func.isRequired,
   closeSidebarButtonVisible: PropTypes.bool.isRequired,
   dbDocumentList: PropTypes.object.isRequired, // eslint-disable-line react/forbid-prop-types
-  topicWords: PropTypes.arrayOf(PropTypes.arrayOf(PropTypes.string)).isRequired,
+  topicWords: PropTypes.arrayOf(PropTypes.string).isRequired,
   queryLoading: PropTypes.bool.isRequired,
   magnetsActive: PropTypes.bool.isRequired,
   focusNode: PropTypes.func.isRequired,
   openDocument: PropTypes.func.isRequired,
   toggleFileModal: PropTypes.func.isRequired,
+  getWordDistance: PropTypes.func.isRequired,
 };
 
 export default SidebarFixed;

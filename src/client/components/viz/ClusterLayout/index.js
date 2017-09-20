@@ -163,9 +163,9 @@ class ClusterLayout extends Component {
             const mouseCoords = d3Sel.mouse(this.svg.node());
             d.x = (mouseCoords[0] - this.zoom.translation[0]) / this.zoom.scaleFactor;
             d.y = (mouseCoords[1] - this.zoom.translation[1]) / this.zoom.scaleFactor;
-            this.updateMagnets();
 
             // For some reason, only works like this
+            this.updateMagnets();
             // this.magnets
             //   .select(`#${d.id}`)
             //   .attr('cx', e => e.x)

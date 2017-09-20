@@ -22,10 +22,16 @@ export const getDocumentInfoPubmed = async pmid =>
 
 export const updateVisualizationWithDocs = async (pmid, newViz) =>
   fetch(
-    `http://localhost:4000/api/updateviz?${newViz ? 'n=true' : 'n=false'}`,
+    `http://localhost:4000/api/update-viz/create?${newViz ? 'n=true' : 'n=false'}`,
     {
       method: 'post',
       headers,
       body: JSON.stringify(pmid),
     },
   );
+
+export const getWordDistances = async word =>
+  fetch(`http://localhost:4000/api/update-viz/word?w=${word}`, {
+    method: 'post',
+    headers,
+  });

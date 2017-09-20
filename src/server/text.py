@@ -6,6 +6,7 @@ import codecs, json
 import random, math
 import argparse
 import sys
+import operator
 
 from nltk.stem.porter import PorterStemmer
 from nltk.stem.wordnet import WordNetLemmatizer
@@ -36,6 +37,8 @@ parser.add_argument('--save', dest='save', default='vizdata.json')
 parser.add_argument('--word-list', dest='wordList', default='utils/wordsEn.txt')
 parser.add_argument('--plot', dest='plot', action='store_true')
 parser.add_argument('--plot-annotations', dest='annotate_plot', action='store_true')
+parser.add_argument('--word', dest='word', default=False)
+parser.add_argument('--distances-file', dest='wordDistances', default='wordDistances.json')
 args = parser.parse_args()
 
 stemmer = PorterStemmer()
@@ -143,6 +146,27 @@ def main(args):
     print('Extracting TF-IDF features...')
     tfidf_vectorizer = TfidfVectorizer(tokenizer=tokenize, analyzer='word')
     tfidf_matrix = tfidf_vectorizer.fit_transform(token_dictionary.values())
+
+    if(args.word):
+        print('Calculating word distance to documents...')
+        # Transform to bag of words and get distance to documents
+        word_distances = cosine_similarity(tfidf_vectorizer.transform([args.word]), tfidf_matrix).tolist()[0]
+
+        index = 0
+        distances = {}
+        for file in file_names:
+            distances[file] = word_distances[index]
+            index += 1
+        print('Done.')
+        print('Saving in temporary file...')
+        obj = {}
+        obj[args.word] = {}
+        obj[args.word]['labels'] = distances
+        obj[args.word]['array'] = word_distances
+        print(obj)
+        json.dump(obj, codecs.open(args.wordDistances, 'w', encoding='utf-8'), separators=(',',':'), sort_keys=True, indent=4)
+        print('Saved.')
+        return
 
     # TF-IDF Similarity
     print('Extracting TF-IDF similarity matrix...')
@@ -348,20 +372,28 @@ def main(args):
     # Transform to bag of words and get distance to documents
     word_distances = {}
     for word in default_words:
-        word_distances[word] = cosine_similarity(tfidf_vectorizer.transform([word]), tfidf_matrix).tolist()
+        word_distances[word] = cosine_similarity(tfidf_vectorizer.transform([word]), tfidf_matrix).tolist()[0]
     
     distances = {}
     for word in default_words:
         index = 0
         w_aux = {}
         for file in file_names:
-            w_aux[file] = word_distances[word][0][index]
+            w_aux[file] = word_distances[word][index]
             index += 1
         distances[word] = w_aux
     
-    sim_json['wordDistances'] = {}
-    sim_json['wordDistances'] = {key:value[0] for key, value in word_distances.items()}
+    # Get top words
+    word_distance_sum = {}
+    for key, val in word_distances.items():
+        word_distance_sum[key] = sum(val)
+
+    word_distance_sort = sorted(word_distance_sum.items(), key=operator.itemgetter(1), reverse=True)
+    words = word_distance_sort[:15]
+
+    sim_json['wordDistances'] = {key:value for key, value in word_distances.items()}
     sim_json['wordDistancesWLabels'] = distances
+    sim_json['wordMagnets'] = [word[0] for word in words]
     
     json.dump(sim_json, codecs.open(args.save, 'w', encoding='utf-8'), separators=(',',':'), sort_keys=True, indent=4)
     if (args.plot):

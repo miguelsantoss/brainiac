@@ -21,6 +21,7 @@ import {
   UPDATE_VISUALIZATION_WITH_DOCS,
   SORT_DOCUMENTS_BY,
   FILTER_DOCUMENTS,
+  GET_WORD_DISTANCE,
 } from '../../actions/documents';
 
 import SidebarFixed from '../../components/SidebarFixed';
@@ -295,7 +296,7 @@ class AppLayout extends Component {
     );
     const { db } = this.props;
     const { documents } = db;
-    const clusterWordsTfidf = documents.cluster_words_tfidf;
+    const wordMagnets = documents.wordMagnets;
     return (
       <div>
         <SidebarFixed
@@ -309,7 +310,7 @@ class AppLayout extends Component {
           handleHover={this.hoverNode}
           openDocument={this.openDocument}
           focusNode={this.focusNode}
-          topicWords={clusterWordsTfidf}
+          topicWords={wordMagnets}
           queryDocuments={documentQuery => {
             this.props.queryPubmed(documentQuery);
             this.props.openSidebar();
@@ -317,6 +318,7 @@ class AppLayout extends Component {
           toggleFileModal={this.toggleFileModal}
           sortDocumentsBy={this.props.sortDocumentsBy}
           filterDocuments={this.props.filterDocuments}
+          getWordDistance={this.props.getWordDistance}
           ref={element => {
             this.fixedSidebar = element;
           }}
@@ -348,6 +350,7 @@ AppLayout.propTypes = {
   sortDocumentsBy: PropTypes.func.isRequired,
   filterDocuments: PropTypes.func.isRequired,
   updateVisualizationWithDocs: PropTypes.func.isRequired,
+  getWordDistance: PropTypes.func.isRequired,
   sidebarOpened: PropTypes.bool.isRequired,
   query: PropTypes.shape({
     pubmed: PropTypes.shape({
@@ -420,6 +423,8 @@ AppLayout.propTypes = {
           top_words: PropTypes.arrayOf(PropTypes.string).isRequired,
         }),
       ).isRequired,
+      wordDistancesWLabels: PropTypes.object.isRequired,
+      wordMagnets: PropTypes.arrayOf(PropTypes.string).isRequired,
     }),
   }).isRequired,
 };
@@ -438,6 +443,7 @@ const mapDispatchToProps = dispatch => ({
     dispatch(UPDATE_VISUALIZATION_WITH_DOCS(docs, newViz)), // eslint-disable-line max-len
   sortDocumentsBy: sortKey => dispatch(SORT_DOCUMENTS_BY(sortKey)),
   filterDocuments: query => dispatch(FILTER_DOCUMENTS(query)),
+  getWordDistance: word => dispatch(GET_WORD_DISTANCE(word)),
 });
 
 const mapStateToProps = state => ({
