@@ -118,6 +118,10 @@ router.post('/create', (req, res) => {
   });
 });
 
+router.post('/reset', (req, res) => {
+  
+});
+
 router.post('/word', (req, res) => {
   const word = req.query.w;
   const p = childProcess.spawn('sh', [

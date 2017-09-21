@@ -23,6 +23,10 @@ const boxTarget = {
   },
 };
 
+const zoomToCluster = 0.6;
+const ZOOM_MODE_NODE = 0;
+const ZOOM_MODE_CLUSTER = 1;
+
 class ClusterLayout extends Component {
   constructor(props) {
     super(props);
@@ -46,6 +50,7 @@ class ClusterLayout extends Component {
     this.preventMagnet = false;
     this.timerMagnet = 0;
     this.delayMagnet = 200;
+    this.display = ZOOM_MODE_NODE;
   }
 
   componentWillMount() {
@@ -73,8 +78,13 @@ class ClusterLayout extends Component {
       '#000000', // Black
     ];
 
+    // Cluster and forces setup
     this.color = d3Scale.scaleOrdinal(color);
     this.clusters = new Array(this.nClusters);
+    this.clusterNodes = [];
+
+    // Pick one of the nodes as the cluster center
+    // (Giving them random r; center = node with highest r)
     this.state.nodes.forEach(d => {
       const i = d.cluster;
       const r =
@@ -87,6 +97,16 @@ class ClusterLayout extends Component {
         this.clusters[i] = d;
       }
     });
+
+    for (let i = 0; i <= this.nClusters; i += 1) {
+      this.clusterNodes.push({
+        id: `cluster-${i}-center-${this.clusters[i].id}`,
+        clusterId: i,
+        radius: 8,
+        defaultRadius: 8,
+        color: this.color(i / 10),
+      });
+    }
 
     this.nodes = this.state.nodes;
     this.setState({ ...this.state, width, height }, () => this.initializeD3());
@@ -111,7 +131,7 @@ class ClusterLayout extends Component {
       this.handleBiggerNode();
     }
     const width = document.getElementById('window-cluster-content').clientWidth; // eslint-disable-line no-undef
-    const height = document.getElementById('window-cluster-content').clientHeight; // eslint-disable-line no-undef
+    const height = document.getElementById('window-cluster-content').clientHeight; // eslint-disable-line no-undef, prettier/prettier
     this.handleResize(width, height, this.state.width, this.state.height);
     this.setState({ ...this.state, width, height }, () => {
       if (!this.props.queryResult) this.filterNodes();
@@ -143,6 +163,8 @@ class ClusterLayout extends Component {
       min: d3Array.min(this.props.wordDistances[word]),
       max: d3Array.max(this.props.wordDistances[word]),
       active: false,
+      x: 20,
+      y: 260 - 20 * this.magnetNodes.length,
     });
 
     this.magnets
@@ -161,8 +183,12 @@ class ClusterLayout extends Component {
           .drag()
           .on('drag', d => {
             const mouseCoords = d3Sel.mouse(this.svg.node());
-            d.x = (mouseCoords[0] - this.zoom.translation[0]) / this.zoom.scaleFactor;
-            d.y = (mouseCoords[1] - this.zoom.translation[1]) / this.zoom.scaleFactor;
+            d.x =
+              (mouseCoords[0] - this.zoom.translation[0]) /
+              this.zoom.scaleFactor;
+            d.y =
+              (mouseCoords[1] - this.zoom.translation[1]) /
+              this.zoom.scaleFactor;
 
             // For some reason, only works like this
             this.updateMagnets();
@@ -194,6 +220,8 @@ class ClusterLayout extends Component {
       .attr('id', d => `${d.id}label`)
       .style('font-size', '12px')
       .text(d => d.word);
+
+    this.updateMagnets();
   };
 
   filterNodes() {
@@ -224,8 +252,14 @@ class ClusterLayout extends Component {
       .force('y', d3Force.forceY(height / 2))
       .on('tick', () => {
         this.node
-          .attr('cx', d => this.zoom.translation[0] + this.zoom.scaleFactor * d.x)
-          .attr('cy', d => this.zoom.translation[1] + this.zoom.scaleFactor * d.y);
+          .attr(
+            'cx',
+            d => this.zoom.translation[0] + this.zoom.scaleFactor * d.x,
+          )
+          .attr(
+            'cy',
+            d => this.zoom.translation[1] + this.zoom.scaleFactor * d.y,
+          );
       });
 
     this.simulation.nodes(this.nodes);
@@ -237,10 +271,10 @@ class ClusterLayout extends Component {
     this.updateNodes();
   };
 
-  handleMagnetClick = d => {
+  handleMagnetClick = () => {
     this.timerMagnet = setTimeout(() => {
       if (!this.preventMagnet) {
-        console.log('click');
+        console.info('magnetclick');
       }
       this.preventMagnet = false;
     }, this.delayMagnet);
@@ -281,6 +315,10 @@ class ClusterLayout extends Component {
     this.props.hoverNode(d, state);
   };
 
+  handleClusterHover = (d, state) => {
+    this.props.hoverCluster(d, state);
+  };
+
   handleResize = (newWidth, newHeight, oldWidth, oldHeight) => {
     if (!this.state.init) return;
     if (newWidth === oldWidth && newHeight === oldHeight) return;
@@ -292,11 +330,46 @@ class ClusterLayout extends Component {
     this.simulation.alphaTarget(0.3).restart();
   };
 
+  createSimulation = (nodes, padding = 0, restart = true) => {
+    const { width, height } = this.state;
+    this.simulation = d3Force
+      .forceSimulation()
+      .force(
+        'cluster',
+        d3Cluster
+          .forceCluster()
+          .centers(d => this.clusters[d.cluster])
+          .strength(0.5),
+      )
+      .force(
+        'collide',
+        d3Force.forceCollide(d => d.radius + this.padding + padding),
+      )
+      .force('x', d3Force.forceX(width / 2))
+      .force('y', d3Force.forceY(height / 2))
+      .on('tick', () => {
+        this.node
+          .attr(
+            'cx',
+            d => this.zoom.translation[0] + this.zoom.scaleFactor * d.x,
+          )
+          .attr(
+            'cy',
+            d => this.zoom.translation[1] + this.zoom.scaleFactor * d.y,
+          );
+      });
+
+    this.simulation.nodes(nodes);
+    if (restart) {
+      this.simulation.alpha(1).restart();
+    }
+  };
+
   initializeD3 = () => {
     const { width, height } = this.state;
     const mountPoint = this.mountClusterLayout;
 
-    const zoom = d3Zoom
+    this.zoomFunc = d3Zoom
       .zoom()
       .on('zoom', () => {
         const scaleFactor = d3Sel.event.transform.k;
@@ -305,14 +378,28 @@ class ClusterLayout extends Component {
           scaleFactor,
           translation,
         };
+
         this.updateMagnets();
         // Don't animate here, becomes clunky
         this.updateDust(0);
+
         if (this.simulation && !this.activeMagnets.length) {
           this.simulation.restart();
         }
+
+        if (
+          scaleFactor <= zoomToCluster &&
+          this.display !== ZOOM_MODE_CLUSTER
+        ) {
+          this.zoomOutToClusters();
+        } else if (
+          scaleFactor > zoomToCluster &&
+          this.display !== ZOOM_MODE_NODE
+        ) {
+          this.zoomInToNodes();
+        }
       })
-      .scaleExtent([0.01, 100]);
+      .scaleExtent([0.3, 15]);
 
     this.svg = d3Sel
       .select(mountPoint)
@@ -333,8 +420,35 @@ class ClusterLayout extends Component {
         //   console.log('Alt+click has just happened!');
         // }
       })
-      .call(zoom)
+      .call(this.zoomFunc)
       .on('dblclick.zoom', null);
+
+    this.defs = this.svg.append('defs');
+    this.filter = this.defs.append('filter').attr('id', 'gooey');
+    this.filter
+      .append('feGaussianBlur')
+      .attr('in', 'SourceGraphic')
+      .attr('stdDeviation', '10')
+      .attr('result', 'blur');
+
+    this.filter
+      .append('feColorMatrix')
+      .attr('in', 'blur')
+      .attr('mode', 'matrix')
+      // .attr('values', '1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7')
+      .attr('values', '1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9')
+      .attr('result', 'gooey');
+
+    this.filter
+      .append('feBlend')
+      .attr('in', 'SourceGraphic')
+      .attr('in2', 'gooey');
+
+    // this.filter
+    //   .append('feComposite')
+    //   .attr('in', 'SourceGraphic')
+    //   .attr('in2', 'gooey')
+    //   .attr('operator', 'atop');
 
     this.node = this.svg
       .append('g')
@@ -344,28 +458,11 @@ class ClusterLayout extends Component {
     this.magnets = this.svg.append('g').attr('class', 'magnets');
     this.magnetLabels = this.svg.append('g').attr('class', 'magnetLabels');
 
-    this.simulation = d3Force
-      .forceSimulation()
-      .force(
-        'cluster',
-        d3Cluster
-          .forceCluster()
-          .centers(d => this.clusters[d.cluster])
-          .strength(0.5),
-      )
-      .force('collide', d3Force.forceCollide(d => d.radius + this.padding))
-      .force('x', d3Force.forceX(width / 2))
-      .force('y', d3Force.forceY(height / 2))
-      .on('tick', () => {
-        this.node
-          .attr('cx', d => this.zoom.translation[0] + this.zoom.scaleFactor * d.x)
-          .attr('cy', d => this.zoom.translation[1] + this.zoom.scaleFactor * d.y);
-      });
-
     this.setState({ ...this.state, init: true }, () => this.updateNodes());
   };
 
   updateNodes = () => {
+    this.svg.select('g.nodes').remove();
     this.node.remove();
     this.node = this.svg
       .append('g')
@@ -406,8 +503,12 @@ class ClusterLayout extends Component {
           })
           .on('drag', d => {
             const mouseCoords = d3Sel.mouse(this.svg.node());
-            d.fx = (mouseCoords[0] - this.zoom.translation[0]) / this.zoom.scaleFactor;
-            d.fy = (mouseCoords[1] - this.zoom.translation[1]) / this.zoom.scaleFactor;
+            d.fx =
+              (mouseCoords[0] - this.zoom.translation[0]) /
+              this.zoom.scaleFactor;
+            d.fy =
+              (mouseCoords[1] - this.zoom.translation[1]) /
+              this.zoom.scaleFactor;
           })
           .on('end', d => {
             if (!d3Sel.event.active && !this.activeMagnets.length) {
@@ -420,8 +521,7 @@ class ClusterLayout extends Component {
           }),
       );
 
-    this.simulation.nodes(this.nodes);
-    this.simulation.alpha(1).restart();
+    this.createSimulation(this.nodes);
   };
 
   updateMagnets = () => {
@@ -441,16 +541,15 @@ class ClusterLayout extends Component {
       .attr('y', d => this.zoom.translation[1] + this.zoom.scaleFactor * d.y);
   };
 
-  updateDust = (transition = 500) => {
+  updateDust = (transition = 700) => {
     if (!this.activeMagnets.length) {
-      this.simulation.alpha(1).restart();
       return;
     }
     this.simulation.alpha(0).stop();
     const t = d3Transition
       .transition()
       .duration(transition)
-      .ease(d3Ease.easeBounce);
+      .ease(d3Ease.easeCubic);
     d3Sel
       .selectAll('.cluster-node')
       .transition(t)
@@ -496,6 +595,165 @@ class ClusterLayout extends Component {
       });
   };
 
+  zoomInToNodes = (transitionDuration = 1000) => {
+    this.simulation.alpha(0).stop();
+    this.display = ZOOM_MODE_NODE;
+    this.svg.on('.zoom', null);
+
+    const t = d3Transition
+      .transition()
+      .duration(transitionDuration)
+      .ease(d3Ease.easeCubic);
+
+    let count = this.node.size();
+    this.node
+      .transition(t)
+      .attr('r', d => this.clusters[d.clusterId].radius)
+      .on('end', () => {
+        count -= 1;
+        if (count === 0) {
+          this.svg.select('g.nodes').remove();
+          this.node.remove();
+          this.node = this.svg
+            .append('g')
+            .attr('class', 'nodes')
+            .style('filter', 'url(#gooey)')
+            .selectAll('circle');
+
+          this.node = this.node.data(this.nodes, d => d.id);
+          this.node.exit().remove();
+
+          this.node = this.node
+            .enter()
+            .append('circle')
+            .attr('class', 'cluster-node')
+            .attr('r', d => d.radius)
+            .attr('id', d => d.id)
+            .attr('fill', d => this.color(d.cluster / 10))
+            .attr('cx', d => {
+              d.x = this.clusters[d.cluster].x;
+              return this.zoom.translation[0] + this.zoom.scaleFactor * d.x;
+            })
+            .attr('cy', d => {
+              d.y = this.clusters[d.cluster].y;
+              return this.zoom.translation[1] + this.zoom.scaleFactor * d.y;
+            });
+
+          this.createSimulation(this.nodes, 0, true);
+          this.svg.call(this.zoomFunc);
+          setTimeout(() => {
+            this.svg.select('g.nodes').style('filter', null);
+          }, 500);
+        }
+      });
+  };
+
+  zoomOutToClusters = (transitionDuration = 1000) => {
+    this.simulation.alpha(0).stop();
+    this.display = ZOOM_MODE_CLUSTER;
+    this.svg.on('.zoom', null);
+
+    const t = d3Transition
+      .transition()
+      .duration(transitionDuration)
+      .ease(d3Ease.easeCubic);
+
+    let count = this.node.size();
+    this.node.style('filter', 'url(#gooey)');
+
+    this.node
+      .transition(t)
+      .attr('cx', d => {
+        this.clusters[d.cluster].zx =
+          this.zoom.translation[0] +
+          this.zoom.scaleFactor * this.clusters[d.cluster].x;
+
+        return this.clusters[d.cluster].zx;
+      })
+      .attr('cy', d => {
+        this.clusters[d.cluster].zy =
+          this.zoom.translation[1] +
+          this.zoom.scaleFactor * this.clusters[d.cluster].y;
+
+        return this.clusters[d.cluster].zy;
+      })
+      .on('end', () => {
+        count -= 1;
+        if (count === 0) {
+          this.svg.select('g.nodes').remove();
+          this.node.remove();
+          this.node = this.svg
+            .append('g')
+            .attr('class', 'nodes')
+            .selectAll('circle');
+
+          this.node = this.node.data(this.clusterNodes, d => d.id);
+          this.node.exit().remove();
+
+          this.node = this.node
+            .enter()
+            .append('circle')
+            .attr('class', 'cluster-node-cluster')
+            .attr('r', d => this.clusters[d.clusterId].radius)
+            .attr('id', d => d.id)
+            .attr('cx', d => {
+              d.x = this.clusters[d.clusterId].x;
+              return this.clusters[d.clusterId].zx;
+            })
+            .attr('cy', d => {
+              d.y = this.clusters[d.clusterId].y;
+              return this.clusters[d.clusterId].zy;
+            })
+            .attr('fill', d => d.color)
+            .on('mouseover', d => {
+              if (!this.drag) {
+                this.handleClusterHover(d, true);
+              }
+            })
+            .on('mouseout', d => {
+              if (!this.drag) {
+                this.handleClusterHover(d, false);
+              }
+            })
+            .call(
+              d3Drag
+                .drag()
+                .on('start', d => {
+                  if (!d3Sel.event.active && !this.activeMagnets.length) {
+                    this.simulation.alphaTarget(0.3).restart();
+                  }
+                  this.handleClusterHover(d, true);
+                  this.drag = true;
+                  d.fx = d.x;
+                  d.fy = d.y;
+                })
+                .on('drag', d => {
+                  const mouseCoords = d3Sel.mouse(this.svg.node());
+                  d.fx =
+                    (mouseCoords[0] - this.zoom.translation[0]) /
+                    this.zoom.scaleFactor;
+                  d.fy =
+                    (mouseCoords[1] - this.zoom.translation[1]) /
+                    this.zoom.scaleFactor;
+                })
+                .on('end', d => {
+                  if (!d3Sel.event.active && !this.activeMagnets.length) {
+                    this.simulation.alphaTarget(0);
+                  }
+                  this.drag = false;
+                  this.handleClusterHover(d, false);
+                  d.fx = null;
+                  d.fy = null;
+                }),
+            );
+
+          this.node.transition(t).attr('r', d => d.radius);
+          this.createSimulation(this.clusterNodes, 10);
+          this.svg.call(this.zoomFunc);
+        }
+      });
+  };
+
   render() {
     const { canDrop, isOver, connectDropTarget } = this.props;
     const isActive = canDrop && isOver;
@@ -523,6 +781,7 @@ const dragWrapper = DropTarget('box', boxTarget, (connect, monitor) => ({
 
 ClusterLayout.propTypes = {
   hoverNode: PropTypes.func.isRequired,
+  hoverCluster: PropTypes.func.isRequired,
   focusNode: PropTypes.func.isRequired,
   queryResult: PropTypes.bool.isRequired,
   nodes: PropTypes.arrayOf(

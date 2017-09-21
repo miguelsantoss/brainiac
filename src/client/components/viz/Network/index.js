@@ -430,7 +430,7 @@ class Network extends Component {
     this.node = this.node
       .enter()
       .append('circle')
-      .attr('class', 'network-node')
+      .attr('class', d => `network-node cluster${d.cluster}`)
       .attr('r', d => d.radius)
       .attr('id', d => d.id)
       .on('mouseover', d => {
@@ -471,10 +471,18 @@ class Network extends Component {
 
     this.link = this.link.data(this.links, d => `{d.source.id}-${d.target.id}`);
     this.link.exit().remove();
-    this.link = this.link.enter()
+    this.link = this.link
+      .enter()
       .append('line')
-      .attr('class', d => `line-network ${this.nodes[d.source].id} ${this.nodes[d.target].id}`)
-      .attr('id', (d) => {
+      .attr('class', d => {
+        let classN = 'line-network';
+        const source = this.nodes[d.source];
+        const target = this.nodes[d.target];
+        classN = `${classN} ${source.id} ${target.id}`;
+        classN = `${classN} cluster${source.cluster} cluster${target.cluster}`;
+        return classN;
+      })
+      .attr('id', d => {
         if (this.nodes[d.source].links) {
           this.nodes[d.source].links.push(this.nodes[d.target]);
         } else {

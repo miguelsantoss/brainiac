@@ -122,6 +122,73 @@ class AppLayout extends Component {
     }
   };
 
+  hoverCluster = (d, state) => {
+    if (!d) return;
+    if (this.state.focusedNode && this.state.focusedNode.id === d.id) {
+      return;
+    }
+    const hoverTransition = d3Transition.transition().duration(140);
+
+    d3Select
+      .selectAll(`.cluster${d.clusterId}`)
+      .transition(hoverTransition)
+      .style('fill', () => (state ? d.color : null))
+      .attr('r', n => (state ? n.radius + 2 : n.radius));
+
+    d3Select
+      .selectAll(`.line-network.cluster${d.clusterId}`)
+      .transition(hoverTransition)
+      .style('stroke', () => (state ? d.color : null));
+
+    if (d.links) {
+      d.links.forEach(link => {
+        d3Select
+          .selectAll(`#${link.id}`)
+          .classed('secondary-hover-node-cluster', state);
+      });
+    }
+    // On Hover
+    if (state) {
+      d3Select
+        .selectAll(`circle#${d.id}`)
+        .transition(hoverTransition)
+        .attr('r', n => n.radius + 10)
+        .delay(20)
+        .transition(hoverTransition)
+        .attr('r', n => n.radius + 5);
+
+      d.radius += 5;
+
+      // Show the tooltip
+      // d3Select.select(this.tooltip)
+      //   .style('left', `${event.x + 10}px`) // eslint-disable-line no-undef
+      //   .style('top', `${event.y + 10}px`) // eslint-disable-line no-undef
+      //   .style('display', 'inline-block')
+      //   .html((d.title));
+    } else {
+      d3Select
+        .selectAll(`circle#${d.id}`)
+        .transition(hoverTransition)
+        .attr('r', n => n.defaultRadius);
+
+      d.radius = d.defaultRadius;
+
+      // Sometimes doens't undo the hover
+      setTimeout(() => {
+        d3Select
+          .selectAll(`.cluster${d.clusterId}`)
+          .style('fill', null)
+          .attr('r', n => n.radius);
+        d3Select
+          .selectAll(`.line-network.cluster${d.clusterId}`)
+          .style('stroke', null);
+      }, 200);
+
+      // Hide tooltip
+      // d3Select.select(this.tooltip).style('display', 'none');
+    }
+  };
+
   focusNode = (d, state = true, scrollToNode = true) => {
     if (!d) return;
     if (
@@ -188,6 +255,7 @@ class AppLayout extends Component {
     if (documents.nodes && documents.nodes.length > 0) {
       const vizProps = {
         hoverNode: this.hoverNode,
+        hoverCluster: this.hoverCluster,
         focusNode: this.focusNode,
         scrollToNode: this.scrollToNode,
       };
