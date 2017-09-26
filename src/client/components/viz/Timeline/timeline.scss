@@ -1,14 +1,4 @@
-$node-fill: #111111;
-$hover-fill: #ff1111;
-$node-stroke: $node-fill;
-
-$opacity-normal: 1;
-$opacity-greyed-out: 0.1;
-
-$opacity-animation-time: 0.5s;
-$fill-animation-time: 0.2s;
-$opacity-animation: opacity $opacity-animation-time ease;
-$fill-animation: fill $fill-animation-time ease;
+@import '../variables';
 
 .axis {
   path, line {
@@ -26,32 +16,79 @@ $fill-animation: fill $fill-animation-time ease;
 }
 
 .timeline-node {
-  fill: $node-fill;
-  opacity: $opacity-normal;
-  cursor: pointer;
-  cursor: hand;
-  transition: $opacity-animation, $fill-animation;
+          fill: $timeline-normal-node-fill;
+        stroke: $timeline-normal-node-stroke;
+  stroke-width: $timeline-normal-node-stroke-width;
+       opacity: $timeline-normal-node-opacity;
+    transition: $opacity-animation, $fill-animation;
+        cursor: pointer;
+        cursor: hand;
 
   &.node-greyed-out {
-    fill: $node-fill;
-    opacity: $opacity-greyed-out;
-    transition: $opacity-animation;
-  }
-
-  &.hover-node {
-    fill: $hover-fill;
-    opacity: $opacity-normal;
+          fill: $timeline-greyedOut-node-fill;
+        stroke: $timeline-greyedOut-node-stroke;
+  stroke-width: $timeline-greyedOut-node-stroke-width;
+       opacity: $timeline-greyedOut-node-opacity;
     transition: $opacity-animation, $fill-animation;
   }
 
-  &.focus-node {
-    fill: white;
-    stroke: black;
-    stroke-width: 2px;
-    transition: $fill-animation;
+  &.hover-node {
+          fill: $timeline-hover-node-fill;
+        stroke: $timeline-hover-node-stroke;
+  stroke-width: $timeline-hover-node-stroke-width;
+       opacity: $timeline-hover-node-opacity;
+    transition: $opacity-animation, $fill-animation;
+
+    &.node-greyed-out {
+       opacity: $timeline-greyedOut-node-opacity;
+    transition: $opacity-animation, $fill-animation;
+    }
   }
-  &.node-greyed-out.hover-node {
-    opacity: $opacity-greyed-out;
-    transition: $opacity-animation;
+
+  &.focus-node {
+          fill: $timeline-focus-node-fill;
+        stroke: $timeline-focus-node-stroke;
+  stroke-width: $timeline-focus-node-stroke-width;
+       opacity: $timeline-focus-node-opacity;
+    transition: $opacity-animation, $fill-animation;
+
+    &.node-greyed-out {
+       opacity: $timeline-greyedOut-node-opacity;
+    transition: $opacity-animation, $fill-animation;
+    }
+  }
+
+  &.cluster-hover {
+    transition: $opacity-animation, $fill-animation;
+    &.cluster0 {
+          fill: $cluster0;
+    }
+    &.cluster1 {
+          fill: $cluster1;
+    }
+    &.cluster2 {
+          fill: $cluster2;
+    }
+    &.cluster3 {
+          fill: $cluster3;
+    }
+    &.cluster4 {
+          fill: $cluster4;
+    }
+    &.cluster5 {
+          fill: $cluster5;
+    }
+    &.cluster6 {
+          fill: $cluster6;
+    }
+    &.cluster7 {
+          fill: $cluster7;
+    }
+    &.cluster8 {
+          fill: $cluster8;
+    }
+    &.cluster9 {
+          fill: $cluster9;
+    }
   }
 }

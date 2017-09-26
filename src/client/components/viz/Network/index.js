@@ -54,6 +54,13 @@ class Network extends Component {
     const height = document.getElementById('window-network-content').clientHeight; // eslint-disable-line no-undef prettier/prettier
     this.nodes = this.props.nodes;
     this.links = this.props.links;
+
+    this.nodes.forEach(d => {
+      const classN = `network-node cluster${d.cluster}`;
+      d.class = classN;
+      d.defaultClass = classN;
+    });
+
     this.setState({ ...this.state, width, height }, () => this.initializeD3());
   }
 
@@ -292,8 +299,14 @@ class Network extends Component {
     if (!this.state.init || compareArrays(this.state.nodes, filter)) return;
 
     node.attr('class', d => {
-      const isPresent = filter.filter(nodeE => nodeE.title === d.title).length > 0;
-      return isPresent ? 'network-node' : 'network-node node-greyed-out';
+      const isPresent =
+        filter.filter(nodeE => nodeE.title === d.title).length > 0;
+      if (!isPresent) {
+        d.class = `${d.class} node-greyed-out`;
+      } else {
+        d.class = d.defaultClass;
+      }
+      return d.class;
     });
 
     link.attr('class', d => {
@@ -314,6 +327,13 @@ class Network extends Component {
   handleNewNodes = () => {
     this.nodes = this.props.filteredNodes;
     this.links = this.props.links;
+
+    this.nodes.forEach(d => {
+      const classN = `network-node cluster${d.cluster}`;
+      d.class = classN;
+      d.defaultClass = classN;
+    });
+
     this.updateNodes();
   };
 

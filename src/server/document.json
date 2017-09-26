@@ -937,7 +937,8 @@
                 0.12648922574215757
             ],
             "title":"Anatomical and Functional Correlates of Persistent Pain in Parkinson\u2019s Disease",
-            "value":27
+            "value":27,
+            "abstract": "BACKGROUND:\nThe pathophysiology of pain in Parkinson's disease (PD) is still poorly understood, although it is conceivable that supraspinal mechanisms may be responsible for pain generation and maintenance.\nMETHODS:\nWe examined brain functional and anatomical changes associated with persistent pain in 40 PD patients, 20 with persistent pain and 20 without pain. We also examined 15 pain-free healthy participants of similar age, gender, and cognitive state as a control group. We assessed pain by the King's Parkinson's Pain Scale, the Visual Analogue Scale for pain, and the Leeds Assessment for Neuropathic Symptoms and Sign. All patients underwent structural, diffusion tensor imaging, and resting-state functional MRI. We compared clinical characteristics, whole-brain cortical thickness, subcortical volumes, diffusion tensor imaging scalar measures, and functional connectivity by network based statistics.\nRESULTS:\nThe group with PD and persistent pain showed significant thinning in the bilateral temporal pole, left-medial orbitofrontal cortex, bilateral superior and left-inferior parietal areas, pars orbicularis, and right superior frontal, posterior cingulated, and precentral cortex. There were no significant subcortical volume and white matter differences between PD subgroups. Functional MRI showed a decrease of brain activity in the left frontal inferior orbital in PD patients with persistent pain, with greater activity bilaterally in the cerebellum and in the right inferior temporal areas. Only PD patients with persistent pain showed an accumbens-hippocampus disconnection without white matter and subcortical alterations.\nCONCLUSIONS:\nWe showed that persistent pain in PD is associated with supraspinal structural and functional changes. We also highlighted the contribution of frontal, prefrontal, and insular areas in nociceptive modulation and accumbens-hippocampus disconnection. © 2016 International Parkinson and Movement Disorder Society."
         },
         {
             "authors":[
@@ -1197,7 +1198,8 @@
                 0.2965023116107509
             ],
             "title":"An algorithmic approach to structural imaging in dementia",
-            "value":11
+            "value":11,
+            "abstract": "Accurate and timely diagnosis of dementia is important to guide management and provide appropriate information and support to patients and families. Currently, with the exception of individuals with genetic mutations, postmortem examination of brain tissue remains the only definitive means of establishing diagnosis in most cases, however, structural neuroimaging, in combination with clinical assessment, has value in improving diagnostic accuracy during life. Beyond the exclusion of surgical pathology, signal change and cerebral atrophy visible on structural MRI can be used to identify diagnostically relevant imaging features, which provide support for clinical diagnosis of neurodegenerative dementias. While no structural imaging feature has perfect sensitivity and specificity for a given diagnosis, there are a number of imaging characteristics which provide positive predictive value and help to narrow the differential diagnosis. While neuroradiological expertise is invaluable in accurate scan interpretation, there is much that a non-radiologist can gain from a focused and structured approach to scan analysis. In this article we describe the characteristic MRI findings of the various dementias and provide a structured algorithm with the aim of providing clinicians with a practical guide to assessing scans."
         },
         {
             "authors":[
@@ -1679,7 +1681,8 @@
                 0.48069539612430257
             ],
             "title":"Changes of hippocampal N-acetyl aspartate and volume in Alzheimer's disease",
-            "value":28
+            "value":28,
+            "abstract": "Hippocampal atrophy detected by MRI is a prominent feature of early Alzheimer's disease (AD), but it is likely that MRI underestimates the degree of hippocampal neuron loss, because reactive gliosis attenuates atrophy. We tested the hypothesis that hippocampal N-acetyl aspartate (NAA: a neuronal marker) and volume used together provide greater discrimination between AD and normal elderly than does either measure alone. We used proton MR spectroscopic imaging (1H MRSI) and tissue segmented and volumetric MR images to measure atrophy-corrected hippocampal NAA and volumes in 12 AD patients (mild to moderate severity) and 17 control subjects of comparable age. In AD, atrophy-corrected NAA from the hippocampal region was reduced by 15.5% on the right and 16.2% on the left (both p < 0.003), and hippocampal volumes were smaller by 20.1% (p < 0.003) on the right and 21.8% (p < 0.001) on the left when compared with control subjects. The NAA reductions and volume losses made independent contributions to the discrimination of AD patients from control subjects. When used separately, neither hippocampal NAA nor volume achieved to classify correctly AD patients better than 80%. When used together, however, the two measures correctly classified 90% of AD patients and 94% of control subjects. In conclusion, hippocampal NAA measured by 1H MRSI combined with quantitative measurements of hippocampal atrophy by MRI may improve diagnosis of AD."
         },
         {
             "authors":[
@@ -2052,7 +2055,8 @@
                 0.26017936638336
             ],
             "title":"Brain perfusion alterations in depressed patients with Parkinson's disease",
-            "value":18
+            "value":18,
+            "abstract": "OBJECTIVE:\nAlthough Parkinson's disease (PD) is frequently accompanied by depression, brain perfusion deficits in PD with depression remain unclear. This study aimed to assess alterations in regional cerebral blood flow (rCBF) in depressed PD patients using 99mTc hexamethyl-propylene-amine-oxime single-photon emission computed tomography (SPECT).\nMETHODS:\nAmong 78 patients with PD, 35 patients were classified into the depressed PD group, while the rest (43 patients) was assigned to the nondepressed PD group based on the scores of the Geriatric Depressive Scale (GDS). All participants underwent brain SPECT imaging. The voxel-wise whole-brain analysis and region-of-interest (ROI) analysis of the limbic areas were conducted to compare rCBF between the depressed and nondepressed PD groups.\nRESULTS:\nThe depressed PD patients demonstrated higher GDS scores than nondepressed patients, whereas between-group differences in the PD severity and cognitive function were not significant. Perfusion in the left cuneus was increased, while that in the right superior temporal gyrus and right medial orbitofrontal cortex was reduced in the depressed PD patients as compared with nondepressed PD patients. In addition, the ROI analysis demonstrated rCBF decreases in the amygdala, anterior cingulate cortex, hippocampus, and parahippocampal gyrus in the depressed PD group. A positive correlation was found between the GDS scores and rCBF in the left cuneus cluster in the depressed PD patients.\nCONCLUSION:\nThis study identified the regional pattern of brain perfusion that distinguished depressed from nondepressed PD patients. Hyperperfusion in the occipital areas and hypoperfusion in the fronto-temporo-limbic regions may be potential imaging biomarkers for depression in PD."
         },
         {
             "authors":[
@@ -2849,7 +2853,8 @@
                 0.4125633438095086
             ],
             "title":"Applied multimodal diagnostics in a case of presenile dementia",
-            "value":29
+            "value":29,
+            "abstract": "Background\nAlzheimer’s disease (AD) is the most common cause of dementia in the elderly. The possibility of disease-modifying strategies has evoked a need for early and accurate diagnosis. To improve the accuracy of the clinical diagnosis of AD, biomarkers like cerebrospinal fluid (CSF) and neuroimaging techniques like magnetic resonance imaging (MRI) and positron emission tomography (PET) have been incorporated into the diagnostic guidelines of AD.\n\nCase presentation\nIn this case report we outline in reference to one of our patients with presenile dementia the current approaches to the diagnosis of AD. The patient was a 59-year old woman presenting with progressive memory decline. CSF-Aβ42 was normal while P-tau was slightly increased. FDG-PET indicated a pattern typical for AD, amyloid-PET showed an extensive global amyloid load, and tau-PET depicted a pronounced hippocampal tracer accumulation. The MRI scan was rated as normal at routine diagnostics, however quantitative volumetric analysis revealed significant atrophy especially of the parietal lobe. The combination of biomarkers and neuroimaging techniques was therefore suggestive of an underlying AD pathology.\n\nConclusions\nTo enable early and accurate diagnosis of AD and thereby also patient recruitment for anti-tau or anti-β-amyloid therapeutic trials, a combination of biomarkers and neuroimaging techniques seems useful."
         },
         {
             "authors":[
@@ -2979,7 +2984,8 @@
                 0.3523854576658578
             ],
             "title":"A meta-analysis of hippocampal atrophy rates in Alzheimer's disease",
-            "value":3
+            "value":3,
+            "abstract": "Hippocampal atrophy rates are useful in both diagnosing and tracking Alzheimer's disease (AD). However, cohorts and methods used to determine such rates are heterogeneous, leading to differences in reported annualised rates. We performed a meta-analysis of hippocampal atrophy rates in AD patients and matched controls from studies reported in the peer-reviewed literature. Studies reporting longitudinal volume change in hippocampi in AD subjects together with controls were systematically identified and appraised. All authors were contacted either to confirm the results or to provide missing data. Meta-analysis and meta-regression were then performed on this data. Nine studies were included from seven centres, with data from a total of 595 AD and 212 matched controls. Mean (95% CIs) annualised hippocampal atrophy rates were found to be 4.66% (95% CI 3.92, 5.40) for AD subjects and 1.41% (0.52, 2.30) for controls. The difference between AD and control subject in this rate was 3.33% (1.73, 4.94)."
         },
         {
             "authors":[

@@ -140,7 +140,7 @@ class FileUploader extends Component {
             <Segment>
               <span className="ui header">Abstract: </span>
               <br />
-              <span>abstract</span>
+              <span>{this.state.selected.abstract}</span>
               <br />
               <br />
               <span className="ui header">Document Summary: </span>

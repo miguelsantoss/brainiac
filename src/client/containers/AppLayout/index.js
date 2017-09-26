@@ -42,6 +42,7 @@ class AppLayout extends Component {
     this.state = {
       visible: true,
       magnets: false,
+      hoverNode: null,
       focusedNode: null,
       modelOpen: false,
     };
@@ -67,7 +68,7 @@ class AppLayout extends Component {
   };
 
   scrollToNode = d => {
-    const docListItem = this.fixedSidebar.docListSidebar._items.get(d.id); // eslint-disable-line no-underscore-dangle
+    const docListItem = this.fixedSidebar.docListSidebar.items.get(d.id); // eslint-disable-line no-underscore-dangle
     ReactDOM.findDOMNode(docListItem).scrollIntoViewIfNeeded(); // eslint-disable-line react/no-find-dom-node
   };
 
@@ -124,21 +125,18 @@ class AppLayout extends Component {
 
   hoverCluster = (d, state) => {
     if (!d) return;
-    if (this.state.focusedNode && this.state.focusedNode.id === d.id) {
-      return;
-    }
-    const hoverTransition = d3Transition.transition().duration(140);
 
-    d3Select
-      .selectAll(`.cluster${d.clusterId}`)
+    const hoverTransition = d3Transition.transition().duration(140);
+    const nodesFromCluster = d3Select.selectAll(`.cluster${d.clusterId}`);
+
+    nodesFromCluster.classed('cluster-hover', state);
+    nodesFromCluster
       .transition(hoverTransition)
-      .style('fill', () => (state ? d.color : null))
       .attr('r', n => (state ? n.radius + 2 : n.radius));
 
     d3Select
       .selectAll(`.line-network.cluster${d.clusterId}`)
-      .transition(hoverTransition)
-      .style('stroke', () => (state ? d.color : null));
+      .classed('cluster-line-hover', state);
 
     if (d.links) {
       d.links.forEach(link => {
@@ -193,18 +191,18 @@ class AppLayout extends Component {
     if (!d) return;
     if (
       this.state.focusedNode &&
-      this.state.focusedNode === d.id &&
+      this.state.focusedNode.id === d.id &&
       state !== false
     ) {
-      this.focusNode({ id: this.state.focusedNode }, false, false);
+      this.focusNode(this.state.focusedNode, false, false);
       return;
     }
     if (state) {
       if (this.state.focusedNode) {
-        this.focusNode({ id: this.state.focusedNode }, false, false);
+        this.focusNode(this.state.focusedNode, false, false);
       }
       d.radius += 5;
-      this.setState({ ...this.state, focusedNode: d.id });
+      this.setState({ ...this.state, focusedNode: d });
     } else {
       d.radius = d.defaultRadius;
       this.setState({ ...this.state, focusedNode: null });

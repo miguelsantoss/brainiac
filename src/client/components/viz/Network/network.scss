@@ -1,90 +1,115 @@
-$node-fill: #F3A530;
-$hover-fill: #EE4035;
-$focus-fill: white;
-$secondary-hover-fill: #56B949;
-$secondary-focus-fill: #30499B;
-$node-stroke: $node-fill;
-$opacity-normal: 1;
-$opacity-greyed-out: 0.1;
-
-$link-stroke: #999;
-$hover-stroke: #EE4035;
-$opacity-links: 0.5;
-
-// animations
-$opacity-animation-time: 0.5s;
-$fill-animation-time: 0.2s;
-$stroke-animation-time: 0.2s;
-
-$opacity-animation: opacity $opacity-animation-time ease;
-$fill-animation: fill $fill-animation-time ease;
-$stroke-animation: stroke $stroke-animation-time ease;
+@import '../variables';
 
 #window-network-content > div {
   margin: 0 !important;
-  width: 100%;
+  width:  100%;
   height: 100%;
 }
 
 .network-node {
-  fill: $node-fill;
-  opacity: $opacity-normal;
-  cursor: pointer;
-  cursor: hand;
-  transition: $opacity-animation, $fill-animation;
+                fill: $network-normal-node-fill;
+              stroke: $network-normal-node-stroke;
+        stroke-width: $network-normal-node-stroke-width;
+             opacity: $network-normal-node-opacity;
+          transition: $opacity-animation, $fill-animation;
+              cursor: pointer;
+              cursor: hand;
+  
+  &.cluster-hover {
+          transition: $opacity-animation, $fill-animation;
+    &.cluster0 {
+                fill: $cluster0;
+    }
+    &.cluster1 {
+                fill: $cluster1;
+    }
+    &.cluster2 {
+                fill: $cluster2;
+    }
+    &.cluster3 {
+                fill: $cluster3;
+    }
+    &.cluster4 {
+                fill: $cluster4;
+    }
+    &.cluster5 {
+                fill: $cluster5;
+    }
+    &.cluster6 {
+                fill: $cluster6;
+    }
+    &.cluster7 {
+                fill: $cluster7;
+    }
+    &.cluster8 {
+                fill: $cluster8;
+    }
+    &.cluster9 {
+                fill: $cluster9;
+    }
+  }
 
   &.node-greyed-out {
-    opacity: $opacity-greyed-out;
-    transition: $opacity-animation;
+                fill: $network-greyedOut-node-fill;
+              stroke: $network-greyedOut-node-stroke;
+        stroke-width: $network-greyedOut-node-stroke-width;
+             opacity: $network-greyedOut-node-opacity;
+          transition: $opacity-animation, $fill-animation;
   }
 
   &.hover-node {
-    fill: $hover-fill;
-    transition: $fill-animation;
+                fill: $network-hover-node-fill;
+              stroke: $network-hover-node-stroke;
+        stroke-width: $network-hover-node-stroke-width;
+          transition: $opacity-animation, $fill-animation;
   }
 
   &.secondary-hover-node {
-    fill: $secondary-hover-fill;
-    stroke: black;
-    stroke-width: 1px;
-    transition: $fill-animation;
+                fill: $network-hover-node-sec-fill;
+              stroke: $network-hover-node-sec-stroke;
+        stroke-width: $network-hover-node-sec-stroke-width;
+          transition: $opacity-animation, $fill-animation;
   }
 
   &.focus-node {
-    fill: $focus-fill;
-    stroke: black;
-    stroke-width: 2px;
-    transition: $fill-animation;
+                fill: $network-focus-node-fill;
+              stroke: $network-focus-node-stroke;
+        stroke-width: $network-focus-node-stroke-width;
+          transition: $opacity-animation, $fill-animation;
   }
 
   &.secondary-focus-node {
-    fill: $secondary-focus-fill;
-    stroke: black;
-    stroke-width: 1px;
-    transition: $fill-animation;
+                fill: $network-focus-node-sec-fill;
+              stroke: $network-focus-node-sec-stroke;
+        stroke-width: $network-focus-node-sec-stroke-width;
+          transition: $opacity-animation, $fill-animation;
   }
 }
 
 .line-network {
-  stroke: $link-stroke;
-  opacity: $opacity-links;
-  transition: $opacity-animation, $fill-animation;
+              stroke: $network-normal-link-stroke;
+    stroke-dasharray: $network-normal-link-stroke-dasharray;
+             opacity: $network-normal-link-opacity;
+          transition: $opacity-animation, $fill-animation;
 
   &.hover-line-network {
-    opacity: $opacity-normal;
-    stroke: $secondary-hover-fill;
-    transition: $stroke-animation, $opacity-animation;
+              stroke: $network-hover-link-sec-stroke;
+    stroke-dasharray: $network-hover-link-sec-stroke-dasharray;
+             opacity: $network-hover-link-sec-opacity;
+          transition: $stroke-animation, $opacity-animation;
   }
 
   &.line-greyed-out {
-    opacity: $opacity-greyed-out;
-    transition: $opacity-animation, $fill-animation;
+              stroke: $network-greyedOut-link-stroke;
+    stroke-dasharray: $network-greyedOut-link-stroke-dasharray;
+             opacity: $network-greyedOut-link-opacity;
+          transition: $opacity-animation, $fill-animation;
   }
 
   &.focus-line-network {
-    stroke: black;
-    opacity: $opacity-normal;
-    transition: $stroke-animation, $opacity-animation;
-    stroke-dasharray: 5;
+              stroke: $network-focus-link-sec-stroke;
+    stroke-dasharray: $network-focus-link-sec-stroke-dasharray;
+             opacity: $network-focus-link-sec-opacity;
+          transition: $stroke-animation, $opacity-animation;
   }
 }

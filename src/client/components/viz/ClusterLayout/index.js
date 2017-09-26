@@ -91,20 +91,28 @@ class ClusterLayout extends Component {
         Math.sqrt((i + 1) / this.nClusters) *
         -Math.log(Math.random()) *
         this.maxRadius;
+
+      const classN = `cluster-node cluster${d.cluster}`;
+
       d.radius = 4;
       d.defaultRadius = 4;
+      d.class = classN;
+      d.defaultClass = classN;
+
       if (!this.clusters[i] || r > this.clusters[i].radius) {
         this.clusters[i] = d;
       }
     });
 
     for (let i = 0; i <= this.nClusters; i += 1) {
+      const classN = `cluster-node-cluster cluster${i}`;
       this.clusterNodes.push({
         id: `cluster-${i}-center-${this.clusters[i].id}`,
         clusterId: i,
         radius: 8,
         defaultRadius: 8,
-        color: this.color(i / 10),
+        class: classN,
+        defaultClass: classN,
       });
     }
 
@@ -114,18 +122,18 @@ class ClusterLayout extends Component {
 
   componentWillReceiveProps(nextProps) {
     if (!this.props.focusedNode && nextProps.focusedNode) {
-      console.info('new focus node');
       this.nodes.forEach(n => {
         if (n.id === nextProps.focusedNode.id) {
           n.radius = nextProps.focusedNode.radius;
+          n.class = `${n.class} focus-node`;
         }
       });
       this.handleBiggerNode();
     } else if (this.props.focusedNode && !nextProps.focusedNode) {
-      console.info('clear focus node');
       this.nodes.forEach(n => {
         if (n.id === this.props.focusedNode.id) {
           n.radius = this.props.focusedNode.radius;
+          n.class = n.defaultClass;
         }
       });
       this.handleBiggerNode();
@@ -226,44 +234,57 @@ class ClusterLayout extends Component {
 
   filterNodes() {
     const filter = this.props.filteredNodes;
-    if (!this.state.init || compareArrays(this.state.nodes, filter)) return;
+    if (
+      !this.state.init ||
+      this.display !== ZOOM_MODE_NODE ||
+      compareArrays(this.state.nodes, filter)
+    ) {
+      return;
+    }
 
     this.node.attr('class', d => {
       const isPresent =
         filter.filter(nodeE => nodeE.title === d.title).length > 0;
-      return isPresent ? 'cluster-node' : 'cluster-node node-greyed-out';
+      if (!isPresent) {
+        d.class = `${d.class} node-greyed-out`;
+      } else {
+        d.class = d.defaultClass;
+      }
+      return d.class;
     });
   }
 
   handleBiggerNode = () => {
-    const { width, height } = this.state;
+    if (this.display === ZOOM_MODE_NODE) {
+      const { width, height } = this.state;
 
-    this.simulation = d3Force
-      .forceSimulation()
-      .force(
-        'cluster',
-        d3Cluster
-          .forceCluster()
-          .centers(d => this.clusters[d.cluster])
-          .strength(0.5),
-      )
-      .force('collide', d3Force.forceCollide(d => d.radius + this.padding))
-      .force('x', d3Force.forceX(width / 2))
-      .force('y', d3Force.forceY(height / 2))
-      .on('tick', () => {
-        this.node
-          .attr(
-            'cx',
-            d => this.zoom.translation[0] + this.zoom.scaleFactor * d.x,
-          )
-          .attr(
-            'cy',
-            d => this.zoom.translation[1] + this.zoom.scaleFactor * d.y,
-          );
-      });
+      this.simulation = d3Force
+        .forceSimulation()
+        .force(
+          'cluster',
+          d3Cluster
+            .forceCluster()
+            .centers(d => this.clusters[d.cluster])
+            .strength(0.5),
+        )
+        .force('collide', d3Force.forceCollide(d => d.radius + this.padding))
+        .force('x', d3Force.forceX(width / 2))
+        .force('y', d3Force.forceY(height / 2))
+        .on('tick', () => {
+          this.node
+            .attr(
+              'cx',
+              d => this.zoom.translation[0] + this.zoom.scaleFactor * d.x,
+            )
+            .attr(
+              'cy',
+              d => this.zoom.translation[1] + this.zoom.scaleFactor * d.y,
+            );
+        });
 
-    this.simulation.nodes(this.nodes);
-    this.simulation.alpha(1).restart();
+      this.simulation.nodes(this.nodes);
+      this.simulation.alpha(1).restart();
+    }
   };
 
   handleNewNodes = () => {
@@ -313,6 +334,7 @@ class ClusterLayout extends Component {
 
   handleNodeHover = (d, state) => {
     this.props.hoverNode(d, state);
+    // this.props.hoverCluster(this.clusterNodes[d.cluster], state, d);
   };
 
   handleClusterHover = (d, state) => {
@@ -423,33 +445,6 @@ class ClusterLayout extends Component {
       .call(this.zoomFunc)
       .on('dblclick.zoom', null);
 
-    this.defs = this.svg.append('defs');
-    this.filter = this.defs.append('filter').attr('id', 'gooey');
-    this.filter
-      .append('feGaussianBlur')
-      .attr('in', 'SourceGraphic')
-      .attr('stdDeviation', '10')
-      .attr('result', 'blur');
-
-    this.filter
-      .append('feColorMatrix')
-      .attr('in', 'blur')
-      .attr('mode', 'matrix')
-      // .attr('values', '1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7')
-      .attr('values', '1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9')
-      .attr('result', 'gooey');
-
-    this.filter
-      .append('feBlend')
-      .attr('in', 'SourceGraphic')
-      .attr('in2', 'gooey');
-
-    // this.filter
-    //   .append('feComposite')
-    //   .attr('in', 'SourceGraphic')
-    //   .attr('in2', 'gooey')
-    //   .attr('operator', 'atop');
-
     this.node = this.svg
       .append('g')
       .attr('class', 'nodes')
@@ -473,10 +468,9 @@ class ClusterLayout extends Component {
     this.node = this.node
       .enter()
       .append('circle')
-      .attr('class', 'cluster-node')
+      .attr('class', d => d.class)
       .attr('r', d => d.radius)
       .attr('id', d => d.id)
-      .attr('fill', d => this.color(d.cluster / 10))
       .on('mouseover', d => {
         if (!this.drag) {
           this.handleNodeHover(d, true);
@@ -606,46 +600,128 @@ class ClusterLayout extends Component {
       .ease(d3Ease.easeCubic);
 
     let count = this.node.size();
+    let done = false;
+
     this.node
       .transition(t)
       .attr('r', d => this.clusters[d.clusterId].radius)
       .on('end', () => {
         count -= 1;
         if (count === 0) {
-          this.svg.select('g.nodes').remove();
-          this.node.remove();
-          this.node = this.svg
-            .append('g')
-            .attr('class', 'nodes')
-            .style('filter', 'url(#gooey)')
-            .selectAll('circle');
+          this.updateNodes();
+          // this.svg.select('g.nodes').remove();
+          // this.node.remove();
+          // this.node = this.svg
+          //   .append('g')
+          //   .attr('class', 'nodes')
+          //   .selectAll('circle');
 
-          this.node = this.node.data(this.nodes, d => d.id);
-          this.node.exit().remove();
+          // this.node = this.node.data(this.nodes, d => d.id);
+          // this.node.exit().remove();
 
-          this.node = this.node
-            .enter()
-            .append('circle')
-            .attr('class', 'cluster-node')
-            .attr('r', d => d.radius)
-            .attr('id', d => d.id)
-            .attr('fill', d => this.color(d.cluster / 10))
-            .attr('cx', d => {
-              d.x = this.clusters[d.cluster].x;
-              return this.zoom.translation[0] + this.zoom.scaleFactor * d.x;
-            })
-            .attr('cy', d => {
-              d.y = this.clusters[d.cluster].y;
-              return this.zoom.translation[1] + this.zoom.scaleFactor * d.y;
-            });
+          // this.node = this.node
+          //   .enter()
+          //   .append('circle')
+          //   .attr('class', d => d.class)
+          //   .attr('r', d => d.radius)
+          //   .attr('id', d => d.id)
+          //   .attr('cx', d => {
+          //     d.x = this.clusters[d.cluster].x;
+          //     return this.zoom.translation[0] + this.zoom.scaleFactor * d.x;
+          //   })
+          //   .attr('cy', d => {
+          //     d.y = this.clusters[d.cluster].y;
+          //     return this.zoom.translation[1] + this.zoom.scaleFactor * d.y;
+          //   });
 
-          this.createSimulation(this.nodes, 0, true);
+          // this.createSimulation(this.nodes, 0, true);
           this.svg.call(this.zoomFunc);
-          setTimeout(() => {
-            this.svg.select('g.nodes').style('filter', null);
-          }, 500);
+          done = true;
         }
       });
+    setTimeout(() => {
+      if (!done) {
+        this.updateNodes();
+        this.svg.call(this.zoomFunc);
+      }
+      if (this.props.focusedNode) this.handleBiggerNode();
+    }, transitionDuration + 500);
+  };
+
+  updateClusters = (transitionDuration = 1000) => {
+    const t = d3Transition
+      .transition()
+      .duration(transitionDuration)
+      .ease(d3Ease.easeCubic);
+
+    this.svg.select('g.nodes').remove();
+    this.node.remove();
+    this.node = this.svg
+      .append('g')
+      .attr('class', 'nodes')
+      .selectAll('circle');
+
+    this.node = this.node.data(this.clusterNodes, d => d.id);
+    this.node.exit().remove();
+
+    this.node = this.node
+      .enter()
+      .append('circle')
+      .attr('class', d => d.class)
+      .attr('r', d => this.clusters[d.clusterId].radius)
+      .attr('id', d => d.id)
+      .attr('cx', d => {
+        d.x = this.clusters[d.clusterId].x;
+        return this.clusters[d.clusterId].zx;
+      })
+      .attr('cy', d => {
+        d.y = this.clusters[d.clusterId].y;
+        return this.clusters[d.clusterId].zy;
+      })
+      .on('mouseover', d => {
+        if (!this.drag) {
+          this.handleClusterHover(d, true);
+        }
+      })
+      .on('mouseout', d => {
+        if (!this.drag) {
+          this.handleClusterHover(d, false);
+        }
+      })
+      .call(
+        d3Drag
+          .drag()
+          .on('start', d => {
+            if (!d3Sel.event.active && !this.activeMagnets.length) {
+              this.simulation.alphaTarget(0.3).restart();
+            }
+            this.handleClusterHover(d, true);
+            this.drag = true;
+            d.fx = d.x;
+            d.fy = d.y;
+          })
+          .on('drag', d => {
+            const mouseCoords = d3Sel.mouse(this.svg.node());
+            d.fx =
+              (mouseCoords[0] - this.zoom.translation[0]) /
+              this.zoom.scaleFactor;
+            d.fy =
+              (mouseCoords[1] - this.zoom.translation[1]) /
+              this.zoom.scaleFactor;
+          })
+          .on('end', d => {
+            if (!d3Sel.event.active && !this.activeMagnets.length) {
+              this.simulation.alphaTarget(0);
+            }
+            this.drag = false;
+            this.handleClusterHover(d, false);
+            d.fx = null;
+            d.fy = null;
+          }),
+      );
+
+    this.node.transition(t).attr('r', d => d.radius);
+    this.createSimulation(this.clusterNodes, 10);
   };
 
   zoomOutToClusters = (transitionDuration = 1000) => {
@@ -659,7 +735,7 @@ class ClusterLayout extends Component {
       .ease(d3Ease.easeCubic);
 
     let count = this.node.size();
-    this.node.style('filter', 'url(#gooey)');
+    let done = false;
 
     this.node
       .transition(t)
@@ -680,78 +756,17 @@ class ClusterLayout extends Component {
       .on('end', () => {
         count -= 1;
         if (count === 0) {
-          this.svg.select('g.nodes').remove();
-          this.node.remove();
-          this.node = this.svg
-            .append('g')
-            .attr('class', 'nodes')
-            .selectAll('circle');
-
-          this.node = this.node.data(this.clusterNodes, d => d.id);
-          this.node.exit().remove();
-
-          this.node = this.node
-            .enter()
-            .append('circle')
-            .attr('class', 'cluster-node-cluster')
-            .attr('r', d => this.clusters[d.clusterId].radius)
-            .attr('id', d => d.id)
-            .attr('cx', d => {
-              d.x = this.clusters[d.clusterId].x;
-              return this.clusters[d.clusterId].zx;
-            })
-            .attr('cy', d => {
-              d.y = this.clusters[d.clusterId].y;
-              return this.clusters[d.clusterId].zy;
-            })
-            .attr('fill', d => d.color)
-            .on('mouseover', d => {
-              if (!this.drag) {
-                this.handleClusterHover(d, true);
-              }
-            })
-            .on('mouseout', d => {
-              if (!this.drag) {
-                this.handleClusterHover(d, false);
-              }
-            })
-            .call(
-              d3Drag
-                .drag()
-                .on('start', d => {
-                  if (!d3Sel.event.active && !this.activeMagnets.length) {
-                    this.simulation.alphaTarget(0.3).restart();
-                  }
-                  this.handleClusterHover(d, true);
-                  this.drag = true;
-                  d.fx = d.x;
-                  d.fy = d.y;
-                })
-                .on('drag', d => {
-                  const mouseCoords = d3Sel.mouse(this.svg.node());
-                  d.fx =
-                    (mouseCoords[0] - this.zoom.translation[0]) /
-                    this.zoom.scaleFactor;
-                  d.fy =
-                    (mouseCoords[1] - this.zoom.translation[1]) /
-                    this.zoom.scaleFactor;
-                })
-                .on('end', d => {
-                  if (!d3Sel.event.active && !this.activeMagnets.length) {
-                    this.simulation.alphaTarget(0);
-                  }
-                  this.drag = false;
-                  this.handleClusterHover(d, false);
-                  d.fx = null;
-                  d.fy = null;
-                }),
-            );
-
-          this.node.transition(t).attr('r', d => d.radius);
-          this.createSimulation(this.clusterNodes, 10);
+          this.updateClusters(transitionDuration);
           this.svg.call(this.zoomFunc);
+          done = true;
         }
       });
+    setTimeout(() => {
+      if (!done) {
+        this.updateClusters(transitionDuration);
+        this.svg.call(this.zoomFunc);
+      }
+    }, transitionDuration + 500);
   };
 
   render() {
@@ -814,8 +829,8 @@ ClusterLayout.propTypes = {
     id: PropTypes.string.isRequired,
     radius: PropTypes.number.isRequired,
   }),
-  wordDistances: PropTypes.object.isRequired,
-  wordDistancesWLabels: PropTypes.object.isRequired,
+  wordDistances: PropTypes.object.isRequired, // because of the JSON object, where property = word
+  wordDistancesWLabels: PropTypes.object.isRequired, // same as above
   canDrop: PropTypes.bool.isRequired,
   isOver: PropTypes.bool.isRequired,
   connectDropTarget: PropTypes.func.isRequired,
