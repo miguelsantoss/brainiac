@@ -334,7 +334,7 @@ class ClusterLayout extends Component {
 
   handleNodeHover = (d, state) => {
     this.props.hoverNode(d, state);
-    // this.props.hoverCluster(this.clusterNodes[d.cluster], state, d);
+    this.props.hoverCluster(this.clusterNodes[d.cluster], state, d);
   };
 
   handleClusterHover = (d, state) => {
@@ -635,14 +635,14 @@ class ClusterLayout extends Component {
           //   });
 
           // this.createSimulation(this.nodes, 0, true);
-          this.svg.call(this.zoomFunc);
+          this.svg.call(this.zoomFunc).on('dblclick.zoom', null);
           done = true;
         }
       });
     setTimeout(() => {
       if (!done) {
         this.updateNodes();
-        this.svg.call(this.zoomFunc);
+        this.svg.call(this.zoomFunc).on('dblclick.zoom', null);
       }
       if (this.props.focusedNode) this.handleBiggerNode();
     }, transitionDuration + 500);
@@ -757,14 +757,14 @@ class ClusterLayout extends Component {
         count -= 1;
         if (count === 0) {
           this.updateClusters(transitionDuration);
-          this.svg.call(this.zoomFunc);
+          this.svg.call(this.zoomFunc).on('dblclick.zoom', null);
           done = true;
         }
       });
     setTimeout(() => {
       if (!done) {
         this.updateClusters(transitionDuration);
-        this.svg.call(this.zoomFunc);
+        this.svg.call(this.zoomFunc).on('dblclick.zoom', null);
       }
     }, transitionDuration + 500);
   };
