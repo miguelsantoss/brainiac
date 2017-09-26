@@ -404,7 +404,8 @@ class Network extends Component {
       .attr('width', width)
       .attr('height', height)
       .attr('overflow', 'hidden')
-      .attr('id', 'network2-svg-element')
+      .attr('class', 'cluster-sel')
+      .attr('id', 'network-svg-element')
       .on('click', () => {
         // Moved to the cluster layout instead of network
         // if (d3Sel.event.detail.name) {

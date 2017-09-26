@@ -31,7 +31,7 @@ class DocumentList extends Component {
   };
 
   handleHover = (node, state) => {
-    this.props.handleHover(node, state);
+    this.props.handleHover(node, state, false, false);
   };
 
   handleChange = (e, { value }) => {
@@ -118,12 +118,6 @@ class DocumentList extends Component {
                   <b>Authors: </b>
                   {authorsToString(d.authors)}
                 </span>
-                {d.abstract && (
-                  <span>
-                    <b>Abstract: </b>
-                    {d.abstract}
-                  </span>
-                )}
               </div>
             );
             return (
@@ -131,7 +125,7 @@ class DocumentList extends Component {
                 trigger={menuItem}
                 content={popup}
                 key={d.id}
-                position="top right"
+                position="right center"
                 wide
               />
             );

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import axios from 'axios';
 import PropTypes from 'prop-types';
 import { Menu, Input, Icon, Loader, Button } from 'semantic-ui-react';
 import Box from '../test/Box';
@@ -83,6 +82,19 @@ class SidebarFixed extends Component {
     const { topicWords, magnetsActive } = this.props;
     // const getImportantWords = d => d.slice(0, 3);
     if (!magnetsActive) return null;
+
+    let icon = (
+      <Icon name="plus" link onClick={() => this.handleTopicCreate()} />
+    );
+    if (this.props.wordLoading) {
+      icon = <Loader size="mini" inverted active inline />;
+    }
+
+    let inputPlaceholder = 'Create Topic';
+    if (this.props.wordLoading) {
+      inputPlaceholder = 'Loading magnet';
+    }
+
     return (
       <Menu.Item>
         {magnetsActive ? (
@@ -92,14 +104,9 @@ class SidebarFixed extends Component {
                 transparent
                 inverted
                 fluid
-                icon={
-                  <Icon
-                    name="plus"
-                    link
-                    onClick={() => this.handleTopicCreate()}
-                  />
-                }
-                placeholder="Create Topic"
+                icon={icon}
+                disabled={this.props.wordLoading}
+                placeholder={inputPlaceholder}
                 value={this.state.topicValue}
                 onChange={this.handleTopicChange}
                 onKeyDown={this.handleTopicKeyDown}
@@ -215,6 +222,7 @@ SidebarFixed.propTypes = {
   openDocument: PropTypes.func.isRequired,
   toggleFileModal: PropTypes.func.isRequired,
   getWordDistance: PropTypes.func.isRequired,
+  wordLoading: PropTypes.bool.isRequired,
 };
 
 export default SidebarFixed;

@@ -224,6 +224,7 @@ class Timeline extends Component {
       .attr('width', width)
       .attr('height', height)
       .attr('overflow', 'hidden')
+      .attr('class', 'cluster-sel')
       .attr('id', 'timeline-svg-element');
 
     this.g = this.svg

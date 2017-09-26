@@ -72,7 +72,7 @@ class AppLayout extends Component {
     ReactDOM.findDOMNode(docListItem).scrollIntoViewIfNeeded(); // eslint-disable-line react/no-find-dom-node
   };
 
-  hoverNode = (d, state, scrollToNode = false) => {
+  hoverNode = (d, state, scrollToNode = false, displayPopup = true) => {
     if (!d) return;
     if (this.state.focusedNode && this.state.focusedNode.id === d.id) {
       return;
@@ -104,46 +104,48 @@ class AppLayout extends Component {
 
       d.radius += 5;
 
-      // Show the tooltip
-      let xOffset = event.x + 20;
-      let yOffset = event.y - 20;
-      const tooltip = d3Select.select(this.tooltip);
+      if (displayPopup) {
+        // Show the tooltip
+        let xOffset = event.x + 20;
+        let yOffset = event.y - 20;
+        const tooltip = d3Select.select(this.tooltip);
 
-      tooltip
-        .style('left', `${xOffset}px`) // eslint-disable-line no-undef
-        .style('top', `${yOffset}px`) // eslint-disable-line no-undef
-        .style('opacity', 0)
-        .style('display', 'inline-block')
-        .html(d.title);
-
-      tooltip.transition(hoverTransition).style('opacity', 1);
-
-      /* 
-        Check if it is off the screen
-        if drawing on the right leaves the screen, then change it
-        to the left of the cursor
-      */
-      const tooltipNode = ReactDOM.findDOMNode(this.tooltip);
-
-      let el = tooltipNode;
-      let top = el.offsetTop;
-      let left = el.offsetLeft;
-      const width = el.offsetWidth;
-      const height = el.offsetHeight;
-
-      while (el.offsetParent) {
-        el = el.offsetParent;
-        top += el.offsetTop;
-        left += el.offsetLeft;
-      }
-
-      if (left + width >= window.pageXOffset + window.innerWidth) {
-        xOffset = event.x - 340;
         tooltip
           .style('left', `${xOffset}px`) // eslint-disable-line no-undef
           .style('top', `${yOffset}px`) // eslint-disable-line no-undef
+          .style('opacity', 0)
           .style('display', 'inline-block')
           .html(d.title);
+
+        tooltip.transition(hoverTransition).style('opacity', 1);
+
+        /* 
+          Check if it is off the screen
+          if drawing on the right leaves the screen, then change it
+          to the left of the cursor
+        */
+        const tooltipNode = ReactDOM.findDOMNode(this.tooltip);
+
+        let el = tooltipNode;
+        let top = el.offsetTop;
+        let left = el.offsetLeft;
+        const width = el.offsetWidth;
+        const height = el.offsetHeight;
+
+        while (el.offsetParent) {
+          el = el.offsetParent;
+          top += el.offsetTop;
+          left += el.offsetLeft;
+        }
+
+        if (left + width >= window.pageXOffset + window.innerWidth) {
+          xOffset = event.x - 340;
+          tooltip
+            .style('left', `${xOffset}px`) // eslint-disable-line no-undef
+            .style('top', `${yOffset}px`) // eslint-disable-line no-undef
+            .style('display', 'inline-block')
+            .html(d.title);
+        }
       }
 
       //   return (
@@ -173,9 +175,10 @@ class AppLayout extends Component {
 
   hoverCluster = (d, state) => {
     if (!d) return;
-
     const hoverTransition = d3Transition.transition().duration(140);
-    const nodesFromCluster = d3Select.selectAll(`.cluster${d.clusterId}`);
+    const nodesFromCluster = d3Select
+      .selectAll('svg.cluster-sel')
+      .selectAll(`.cluster${d.clusterId}`);
 
     nodesFromCluster.classed('cluster-hover', state);
     nodesFromCluster
@@ -393,6 +396,7 @@ class AppLayout extends Component {
     const { db } = this.props;
     const { documents } = db;
     const wordMagnets = documents.wordMagnets;
+    const wordLoading = documents.wordLoading;
     return (
       <div>
         <SidebarFixed
@@ -407,6 +411,7 @@ class AppLayout extends Component {
           openDocument={this.openDocument}
           focusNode={this.focusNode}
           topicWords={wordMagnets}
+          wordLoading={wordLoading}
           queryDocuments={documentQuery => {
             this.props.queryPubmed(documentQuery);
             this.props.openSidebar();
