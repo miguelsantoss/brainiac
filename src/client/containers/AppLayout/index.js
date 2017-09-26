@@ -77,7 +77,7 @@ class AppLayout extends Component {
     if (this.state.focusedNode && this.state.focusedNode.id === d.id) {
       return;
     }
-    const hoverTransition = d3Transition.transition().duration(140);
+    const hoverTransition = d3Transition.transition().duration(200);
 
     d3Select.selectAll(`#${d.id}`).classed('hover-node', state);
     d3Select
@@ -105,11 +105,53 @@ class AppLayout extends Component {
       d.radius += 5;
 
       // Show the tooltip
-      // d3Select.select(this.tooltip)
-      //   .style('left', `${event.x + 10}px`) // eslint-disable-line no-undef
-      //   .style('top', `${event.y + 10}px`) // eslint-disable-line no-undef
-      //   .style('display', 'inline-block')
-      //   .html((d.title));
+      let xOffset = event.x + 20;
+      let yOffset = event.y - 20;
+      const tooltip = d3Select.select(this.tooltip);
+
+      tooltip
+        .style('left', `${xOffset}px`) // eslint-disable-line no-undef
+        .style('top', `${yOffset}px`) // eslint-disable-line no-undef
+        .style('opacity', 0)
+        .style('display', 'inline-block')
+        .html(d.title);
+
+      tooltip.transition(hoverTransition).style('opacity', 1);
+
+      /* 
+        Check if it is off the screen
+        if drawing on the right leaves the screen, then change it
+        to the left of the cursor
+      */
+      const tooltipNode = ReactDOM.findDOMNode(this.tooltip);
+
+      let el = tooltipNode;
+      let top = el.offsetTop;
+      let left = el.offsetLeft;
+      const width = el.offsetWidth;
+      const height = el.offsetHeight;
+
+      while (el.offsetParent) {
+        el = el.offsetParent;
+        top += el.offsetTop;
+        left += el.offsetLeft;
+      }
+
+      if (left + width >= window.pageXOffset + window.innerWidth) {
+        xOffset = event.x - 340;
+        tooltip
+          .style('left', `${xOffset}px`) // eslint-disable-line no-undef
+          .style('top', `${yOffset}px`) // eslint-disable-line no-undef
+          .style('display', 'inline-block')
+          .html(d.title);
+      }
+
+      //   return (
+      //     top >= window.pageYOffset &&
+      //     left >= window.pageXOffset &&
+      //     (top + height) <= (window.pageYOffset + window.innerHeight) &&
+      //     (left + width) <= (window.pageXOffset + window.innerWidth)
+      //   );
     } else {
       d3Select
         .selectAll(`circle#${d.id}`)
@@ -119,7 +161,13 @@ class AppLayout extends Component {
       d.radius = d.defaultRadius;
 
       // Hide tooltip
-      // d3Select.select(this.tooltip).style('display', 'none');
+      const tooltip = d3Select.select(this.tooltip);
+      tooltip
+        .transition(hoverTransition)
+        .style('opacity', 0)
+        .on('end', () => {
+          tooltip.style('display', 'none');
+        });
     }
   };
 
@@ -156,13 +204,6 @@ class AppLayout extends Component {
         .attr('r', n => n.radius + 5);
 
       d.radius += 5;
-
-      // Show the tooltip
-      // d3Select.select(this.tooltip)
-      //   .style('left', `${event.x + 10}px`) // eslint-disable-line no-undef
-      //   .style('top', `${event.y + 10}px`) // eslint-disable-line no-undef
-      //   .style('display', 'inline-block')
-      //   .html((d.title));
     } else {
       d3Select
         .selectAll(`circle#${d.id}`)
@@ -181,9 +222,6 @@ class AppLayout extends Component {
           .selectAll(`.line-network.cluster${d.clusterId}`)
           .style('stroke', null);
       }, 200);
-
-      // Hide tooltip
-      // d3Select.select(this.tooltip).style('display', 'none');
     }
   };
 
@@ -213,6 +251,7 @@ class AppLayout extends Component {
       .selectAll(`.line-network.${d.id}`)
       .classed('focus-line-network', state);
 
+    console.info(this.networkViz);
     if (d.links) {
       d.links.forEach(link => {
         d3Select
@@ -231,20 +270,11 @@ class AppLayout extends Component {
         .transition(hoverTransition)
         .attr('r', n => n.radius);
 
-      // Show the tooltip
-      // d3Select.select(this.tooltip)
-      //   .style('left', `${event.x + 10}px`) // eslint-disable-line no-undef
-      //   .style('top', `${event.y + 10}px`) // eslint-disable-line no-undef
-      //   .style('display', 'inline-block')
-      //   .html((d.title));
     } else {
       d3Select
         .selectAll(`circle#${d.id}`)
         .transition(hoverTransition)
         .attr('r', n => n.defaultRadius);
-
-      // Hide tooltip
-      // d3Select.select(this.tooltip).style('display', 'none');
     }
   };
 
@@ -400,6 +430,13 @@ class AppLayout extends Component {
           >
             {children}
           </SidebarPushable>
+          <div
+            style={style.tooltip}
+            ref={r => {
+              this.tooltip = r;
+            }}
+            id="tooltip"
+          />
         </div>
       </div>
     );

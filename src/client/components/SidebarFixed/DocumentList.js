@@ -131,7 +131,7 @@ class DocumentList extends Component {
                 trigger={menuItem}
                 content={popup}
                 key={d.id}
-                position="right center"
+                position="top right"
                 wide
               />
             );

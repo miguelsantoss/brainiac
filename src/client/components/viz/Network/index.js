@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import sizeMe from 'react-sizeme';
-import { DropTarget } from 'react-dnd';
 import { Icon, Label } from 'semantic-ui-react';
 
 import * as d3Force from 'd3-force';
@@ -13,13 +12,6 @@ import * as d3Timer from 'd3-timer';
 
 import compareArrays from '../../../lib/arrays';
 import './network.scss';
-
-const boxTarget = {
-  drop(props, monitor, component) {
-    // const item = monitor.getItem();
-    // component.svg.dispatch('click', { detail: item });
-  },
-};
 
 const r = [{ r: 75 }, { r: 150 }, { r: 225 }, { r: 300 }];
 
@@ -185,8 +177,14 @@ class Network extends Component {
         .attr('fill', 'none')
         .attr('stroke', 'grey')
         .attr('opacity', 0.3)
-        .attr('cx', () => this.zoom.translation[0] + this.zoom.scaleFactor * d.newfx)
-        .attr('cy', () => this.zoom.translation[1] + this.zoom.scaleFactor * d.newfy);
+        .attr(
+          'cx',
+          () => this.zoom.translation[0] + this.zoom.scaleFactor * d.newfx,
+        )
+        .attr(
+          'cy',
+          () => this.zoom.translation[1] + this.zoom.scaleFactor * d.newfy,
+        );
 
       this.orbits
         .transition(centerTransition)
@@ -194,8 +192,18 @@ class Network extends Component {
     } else {
       this.orbits
         .attr('r', element => element.r * this.zoom.scaleFactor)
-        .attr('cx', () => this.zoom.translation[0] + this.zoom.scaleFactor * this.centered.newfx)
-        .attr('cy', () => this.zoom.translation[1] + this.zoom.scaleFactor * this.centered.newfy);
+        .attr(
+          'cx',
+          () =>
+            this.zoom.translation[0] +
+            this.zoom.scaleFactor * this.centered.newfx,
+        )
+        .attr(
+          'cy',
+          () =>
+            this.zoom.translation[1] +
+            this.zoom.scaleFactor * this.centered.newfy,
+        );
     }
     this.testTransition = this.svg
       .transition(centerTransition)
@@ -254,8 +262,12 @@ class Network extends Component {
           })
           .on('drag', d => {
             const mouseCoords = d3Sel.mouse(this.svg.node());
-            d.fx = (mouseCoords[0] - this.zoom.translation[0]) / this.zoom.scaleFactor;
-            d.fy = (mouseCoords[1] - this.zoom.translation[1]) / this.zoom.scaleFactor;
+            d.fx =
+              (mouseCoords[0] - this.zoom.translation[0]) /
+              this.zoom.scaleFactor;
+            d.fy =
+              (mouseCoords[1] - this.zoom.translation[1]) /
+              this.zoom.scaleFactor;
           })
           .on('end', d => {
             if (!d3Sel.event.active) this.simulationMagnets.alphaTarget(0);
@@ -282,6 +294,7 @@ class Network extends Component {
         .selectAll('.magnet-node')
         .attr('cx', d => this.zoom.translation[0] + this.zoom.scaleFactor * d.x)
         .attr('cy', d => this.zoom.translation[1] + this.zoom.scaleFactor * d.y);
+
       this.magnetLabels
         .selectAll('.magnet-label')
         .attr('x', d => this.zoom.translation[0] + this.zoom.scaleFactor * d.x)
@@ -370,8 +383,14 @@ class Network extends Component {
         if (this.orbits) {
           this.orbits
             .attr('r', d => d.r * scaleFactor)
-            .attr('cx', () => translation[0] + scaleFactor * this.centered.newfx)
-            .attr('cy', () => translation[1] + scaleFactor * this.centered.newfy);
+            .attr(
+              'cx',
+              () => translation[0] + scaleFactor * this.centered.newfx,
+            )
+            .attr(
+              'cy',
+              () => translation[1] + scaleFactor * this.centered.newfy,
+            );
         }
         if (scaleFactor <= 0.15) {
           console.info('new');
@@ -387,10 +406,11 @@ class Network extends Component {
       .attr('overflow', 'hidden')
       .attr('id', 'network2-svg-element')
       .on('click', () => {
-        if (d3Sel.event.detail.name) {
-          const mouseCoords = d3Sel.mouse(this.svg.node()); // eslint-disable-line no-unused-vars, max-len
-          this.createMagnet(d3Sel.event.detail.name);
-        }
+        // Moved to the cluster layout instead of network
+        // if (d3Sel.event.detail.name) {
+        //   const mouseCoords = d3Sel.mouse(this.svg.node()); // eslint-disable-line no-unused-vars, max-len
+        //   this.createMagnet(d3Sel.event.detail.name);
+        // }
         // if (event.ctrlKey) {
         //   console.log('Ctrl+click has just happened!');
         //   this.state.d3Viz.node.attr('fx', null).attr('fy', null).attr('r', 5);
@@ -405,7 +425,13 @@ class Network extends Component {
 
     this.simulation = d3Force
       .forceSimulation()
-      .force('link', d3Force.forceLink().distance(linkDistanceMult).strength(0.00001))
+      .force(
+        'link',
+        d3Force
+          .forceLink()
+          .distance(linkDistanceMult)
+          .strength(0.00001),
+      )
       // .force('collide', d3Force.forceCollide((d) => d.r + 10).iterations(16))
       // .force('attract', forceAttract().target([width / 2, height / 2]).strength(1))
       .force('charge', d3Force.forceManyBody().strength(-100))
@@ -426,19 +452,28 @@ class Network extends Component {
       .attr('class', 'nodes')
       .selectAll('circle');
 
-    this.magnets = this.svg.append('g').attr('class', 'magnets');
-    this.magnetLabels = this.svg.append('g').attr('class', 'magnetLabels');
-
     this.simulation.on('tick', () => {
       this.node
         .attr('cx', d => this.zoom.translation[0] + this.zoom.scaleFactor * d.x)
         .attr('cy', d => this.zoom.translation[1] + this.zoom.scaleFactor * d.y);
 
       this.link
-        .attr('x1', d => this.zoom.translation[0] + this.zoom.scaleFactor * d.source.x)
-        .attr('y1', d => this.zoom.translation[1] + this.zoom.scaleFactor * d.source.y)
-        .attr('x2', d => this.zoom.translation[0] + this.zoom.scaleFactor * d.target.x)
-        .attr('y2', d => this.zoom.translation[1] + this.zoom.scaleFactor * d.target.y);
+        .attr(
+          'x1',
+          d => this.zoom.translation[0] + this.zoom.scaleFactor * d.source.x,
+        )
+        .attr(
+          'y1',
+          d => this.zoom.translation[1] + this.zoom.scaleFactor * d.source.y,
+        )
+        .attr(
+          'x2',
+          d => this.zoom.translation[0] + this.zoom.scaleFactor * d.target.x,
+        )
+        .attr(
+          'y2',
+          d => this.zoom.translation[1] + this.zoom.scaleFactor * d.target.y,
+        );
     });
 
     this.setState({ ...this.state, init: true }, () => this.updateNodes());
@@ -567,18 +602,12 @@ class Network extends Component {
   };
 
   render() {
-    const { canDrop, isOver, connectDropTarget } = this.props;
-    const isActive = canDrop && isOver;
-
     const iconStyle = {
       position: 'fixed',
       marginLeft: this.state.width - 77,
     };
-    const activeStyle = {};
-    activeStyle.backgroundColor = isActive ? 'darkgreen' : '';
-    activeStyle.opacity = isActive ? '0.8' : '1';
 
-    return connectDropTarget(
+    return (
       <div>
         {this.state.centered && (
           <Label
@@ -598,16 +627,10 @@ class Network extends Component {
             this.mountNetwork = element;
           }}
         />
-      </div>,
+      </div>
     );
   }
 }
-
-const dragWrapper = DropTarget('box', boxTarget, (connect, monitor) => ({
-  connectDropTarget: connect.dropTarget(),
-  isOver: monitor.isOver(),
-  canDrop: monitor.canDrop(),
-}))(Network);
 
 Network.propTypes = {
   nodes: PropTypes.arrayOf(
@@ -649,9 +672,6 @@ Network.propTypes = {
   }),
   focusNode: PropTypes.func.isRequired,
   queryResult: PropTypes.bool.isRequired,
-  canDrop: PropTypes.bool.isRequired,
-  isOver: PropTypes.bool.isRequired,
-  connectDropTarget: PropTypes.func.isRequired,
 };
 
-export default sizeMe({ monitorHeight: true })(dragWrapper);
+export default sizeMe({ monitorHeight: true })(Network);

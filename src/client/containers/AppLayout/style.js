@@ -18,4 +18,19 @@ style.menu = {
   overflowY: 'scroll',
 };
 
+style.tooltip = {
+  position: 'absolute',
+  display: 'none',
+  minWidth: '200px',
+  maxWidth: '300px',
+  width: 'auto',
+  height: 'auto',
+  background: 'none repeat scroll 0 0 #ffffff',
+  border: '1px solid #30499B',
+  borderRadius: '2px',
+  boxShadow: '1px 2px 3px rgba(0,0,0,.5)',
+  padding: '5px',
+  // textAlign: 'center',
+};
+
 export default style;
