@@ -82,6 +82,8 @@ export function documentDb(state = initialState, action) {
         d.defaultRadius = 4;
       });
       documents.filter = '';
+      documents.wordLoading = false;
+      documents.wordError = false;
       documents.nodes.sort((a, b) => {
         if (a.title < b.title) return -1;
         if (a.title > b.title) return 1;
@@ -103,7 +105,7 @@ export function documentDb(state = initialState, action) {
         ...state,
         db: {
           ...state.db,
-          documents: {},
+          documents: initialState.documents,
           errorLoading: true,
           loading: false,
         },

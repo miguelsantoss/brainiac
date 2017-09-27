@@ -395,7 +395,7 @@ def main(args):
     sim_json['wordDistancesWLabels'] = distances
     sim_json['wordMagnets'] = [word[0] for word in words]
     
-    json.dump(sim_json, codecs.open(args.save, 'w', encoding='utf-8'), separators=(',',':'), sort_keys=True, indent=4)
+    json.dump(sim_json, codecs.open(args.save, 'w', encoding='utf-8'), separators=(',',':'), sort_keys=True)
     if (args.plot):
         plt.show()
 
