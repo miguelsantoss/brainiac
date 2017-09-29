@@ -8,7 +8,9 @@ import { pdfIdGenerator, readAsync, promiseReflect } from '../utils';
 
 const indexDir = path.join(__dirname, '..');
 const docsFolder = path.join(__dirname, '../corpus/pdf/');
-const uploadFolder = path.join(__dirname, '../t/');
+const corpusFolder = path.join(__dirname, '../corpus/');
+const bakFolder = path.join(__dirname, '../bak_corpus/');
+const uploadFolder = docsFolder;
 const summariesFolder = path.join(__dirname, '../corpus/summary/');
 
 const storage = multer.diskStorage({
@@ -17,10 +19,10 @@ const storage = multer.diskStorage({
   },
   filename: (req, file, cb) => {
     let exists = false;
-    let fileName = `${pdfIdGenerator()}.pdf.new`;
+    let fileName = `${pdfIdGenerator()}.pdf`;
     exists = fs.existsSync(docsFolder + fileName);
     while (exists) {
-      fileName = `${pdfIdGenerator()}.pdf.new`;
+      fileName = `${pdfIdGenerator()}.pdf`;
       exists = fs.existsSync(docsFolder + fileName);
     }
     cb(null, fileName);
@@ -62,7 +64,7 @@ route.use('/', express.static(docsFolder));
 route.get('/:id', (req, res) => {
   const file = `${docsFolder}${req.params.id}.pdf`;
   if (fs.existsSync(file)) {
-    res.redirect(`/pdf/${req.params.id}.pdf`);
+    res.redirect(`/api/pdf/${req.params.id}.pdf`);
   } else {
     res.status(404).send('File not found');
   }
@@ -84,13 +86,32 @@ route.post('/upload', upload.single('pdf'), (req, res) => {
   let authors = JSON.parse(req.body.authors);
 
   authors = removeEmptyAuthors(authors);
-  console.info(title);
-  console.info(abstract);
-  console.info(authors);
   res.end();
 });
 
+const overwriteFromFolder = (orig, dest) => {
+  fs.readdir(dest, (err, items) => {
+    for (let i = 0; i < items.length; i += 1) {
+      fs.unlinkSync(path.join(dest, items[i]));
+    }
+    fs.readdir(orig, (err2, items2) => {
+      for (let i = 0; i < items2.length; i += 1) {
+        fs.copyFileSync(path.join(orig, items2[i]), path.join(dest, items2[i]));
+      }
+    });
+  });
+};
+
 route.post('/reset', (req, res) => {
+  // This is dumb but im lazy right now
+  const folders = ['pdf', 'txt', 'summary', 'pubmed'];
+  folders.forEach(folder => {
+    overwriteFromFolder(
+      path.join(bakFolder, `/${folder}/`),
+      path.join(corpusFolder, `/${folder}/`),
+    );
+  });
+  res.json({});
 });
 
 export default route;

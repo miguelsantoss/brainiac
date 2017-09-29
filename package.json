@@ -143,6 +143,7 @@
       }
     }
   },
+  "proxy": "http://localhost:4000",
   "scripts": {
     "start:client": "babel-node node_modules/webpack-dev-server/bin/webpack-dev-server.js --config webpack.config.js",
     "start:server": "cross-env NODE_ENV=development nodemon src/server/server.js --ignore bak_corpus/ --ignore corpus --ignore '*.py' --ignore '*.json' --exec babel-node",

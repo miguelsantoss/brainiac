@@ -33,4 +33,10 @@ style.tooltip = {
   // textAlign: 'center',
 };
 
+style.tooltip2 = style.tooltip;
+style.tooltip2.maxWidth = '500px';
+style.tooltip2.maxHeight = '50vh';
+style.tooltip2.padding = '15px';
+style.tooltip2.overflow = 'auto';
+
 export default style;

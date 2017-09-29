@@ -134,6 +134,7 @@ class SidebarFixed extends Component {
 
     const { query } = this.state;
     const { magnetsActive } = this.props;
+    const { popupStyle } = this.props;
 
     return (
       <Menu vertical fixed="left" inverted style={this.props.style}>
@@ -197,6 +198,7 @@ class SidebarFixed extends Component {
           documentList={this.props.dbDocumentList}
           handleHover={this.props.handleHover}
           sortDocumentsBy={this.props.sortDocumentsBy}
+          tooltipRef={this.props.tooltipRef}
           ref={element => {
             this.docListSidebar = element;
           }}

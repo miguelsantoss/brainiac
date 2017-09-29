@@ -142,8 +142,12 @@ class ClusterLayout extends Component {
     const height = document.getElementById('window-cluster-content').clientHeight; // eslint-disable-line no-undef, prettier/prettier
     this.handleResize(width, height, this.state.width, this.state.height);
     this.setState({ ...this.state, width, height }, () => {
-      if (!this.props.queryResult) this.filterNodes();
-      else this.handleNewNodes();
+      if (!this.props.queryResult) {
+        this.filterNodes();
+      } else if (!this.props.queryResult) {
+        this.zoomInToNodes();
+        this.handleNewNodes();
+      }
     });
   }
 
@@ -255,7 +259,8 @@ class ClusterLayout extends Component {
   }
 
   handleBiggerNode = () => {
-    if (this.display === ZOOM_MODE_NODE) {
+    if (this.display === ZOOM_MODE_NODE && this.activeMagnets.length === 0) {
+      console.info('here');
       const { width, height } = this.state;
 
       this.simulation = d3Force
@@ -349,7 +354,9 @@ class ClusterLayout extends Component {
     this.simulation
       .force('x', d3Force.forceX(newWidth / 2))
       .force('y', d3Force.forceY(newHeight / 2));
-    this.simulation.alphaTarget(0.3).restart();
+    if (this.display !== ZOOM_MODE_CLUSTER) {
+      this.simulation.alphaTarget(0.3).restart();
+    }
   };
 
   createSimulation = (nodes, padding = 0, restart = true) => {

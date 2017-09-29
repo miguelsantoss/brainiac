@@ -33,6 +33,7 @@ import Network from '../../components/viz/Network';
 import Timeline from '../../components/viz/Timeline';
 import ClusterLayout from '../../components/viz/ClusterLayout';
 import VizContainer from '../../containers/VizContainer';
+import Tooltip from './Tooltip';
 
 import style from './style';
 
@@ -107,7 +108,7 @@ class AppLayout extends Component {
       if (displayPopup) {
         // Show the tooltip
         let xOffset = event.x + 20;
-        let yOffset = event.y - 20;
+        let yOffset = event.y - 40;
         const tooltip = d3Select.select(this.tooltip);
 
         tooltip
@@ -139,7 +140,8 @@ class AppLayout extends Component {
         }
 
         if (left + width >= window.pageXOffset + window.innerWidth) {
-          xOffset = event.x - 340;
+          xOffset = event.x - 400;
+          yOffset = event.y - 70;
           tooltip
             .style('left', `${xOffset}px`) // eslint-disable-line no-undef
             .style('top', `${yOffset}px`) // eslint-disable-line no-undef
@@ -420,6 +422,7 @@ class AppLayout extends Component {
           sortDocumentsBy={this.props.sortDocumentsBy}
           filterDocuments={this.props.filterDocuments}
           getWordDistance={this.props.getWordDistance}
+          tooltipRef={this.tooltipDocList}
           ref={element => {
             this.fixedSidebar = element;
           }}
@@ -441,6 +444,18 @@ class AppLayout extends Component {
               this.tooltip = r;
             }}
             id="tooltip"
+          />
+          <div
+            style={style.tooltip2}
+            ref={r => {
+              this.tooltipDocList2 = r;
+            }}
+          />
+          <Tooltip
+            style={style.tooltip2}
+            ref={r => {
+              this.tooltipDocList = r;
+            }}
           />
         </div>
       </div>
