@@ -43,7 +43,7 @@ class Network extends Component {
 
   componentWillMount() {
     const width = document.getElementById('window-network-content').clientWidth; // eslint-disable-line no-undef
-    const height = document.getElementById('window-network-content').clientHeight; // eslint-disable-line no-undef prettier/prettier
+    const height = document.getElementById('window-network-content').clientHeight; // eslint-disable-line no-undef, prettier/prettier
     this.nodes = this.props.nodes;
     this.links = this.props.links;
 
@@ -51,6 +51,7 @@ class Network extends Component {
       const classN = `network-node cluster${d.cluster}`;
       d.class = classN;
       d.defaultClass = classN;
+      d.filtered = false;
     });
 
     this.setState({ ...this.state, width, height }, () => this.initializeD3());
@@ -75,7 +76,7 @@ class Network extends Component {
     //   this.handleBiggerNode();
     // }
     const width = document.getElementById('window-network-content').clientWidth; // eslint-disable-line no-undef
-    const height = document.getElementById('window-network-content').clientHeight; // eslint-disable-line no-undef
+    const height = document.getElementById('window-network-content').clientHeight; // eslint-disable-line no-undef, prettier/prettier
     this.handleResize(width, height, this.state.width, this.state.height);
     this.setState({ ...this.state, width, height }, () => {
       if (!this.props.queryResult) this.filterNodes();
@@ -144,8 +145,8 @@ class Network extends Component {
     for (let i = 0; i < nodes.length; i += 1) {
       const distI = nodes[i].dist;
       if (nodes[i].id !== d.id) {
-        nodes[i].newfx = d.newfx + (nodes[i].r * Math.cos(dataOrg[distI] * dataOrgI[distI] * (Math.PI / 180)));
-        nodes[i].newfy = d.newfy + (nodes[i].r * Math.sin(dataOrg[distI] * dataOrgI[distI] * (Math.PI / 180)));
+        nodes[i].newfx = d.newfx + (nodes[i].r * Math.cos(dataOrg[distI] * dataOrgI[distI] * (Math.PI / 180))); // eslint-disable-line prettier/prettier
+        nodes[i].newfy = d.newfy + (nodes[i].r * Math.sin(dataOrg[distI] * dataOrgI[distI] * (Math.PI / 180))); // eslint-disable-line prettier/prettier
         nodes[i].radius = nodes[i].defaultRadius;
         dataOrgI[distI] += 1;
       }
@@ -154,22 +155,24 @@ class Network extends Component {
     this.node
       .transition(centerTransition)
       .attr('r', e => e.radius)
-      .attr('cx', e => this.zoom.translation[0] + this.zoom.scaleFactor * e.newfx)
-      .attr('cy', e => this.zoom.translation[1] + this.zoom.scaleFactor * e.newfy)
-      .on('end', (el) => {
+      .attr('cx', e => this.zoom.translation[0] + this.zoom.scaleFactor * e.newfx) // eslint-disable-line prettier/prettier
+      .attr('cy', e => this.zoom.translation[1] + this.zoom.scaleFactor * e.newfy) // eslint-disable-line prettier/prettier
+      .on('end', el => {
         el.fx = el.newfx;
         el.fy = el.newfy;
       });
 
     this.link
       .transition(centerTransition)
-      .attr('x1', link => this.zoom.translation[0] + this.zoom.scaleFactor * link.source.newfx)
-      .attr('y1', link => this.zoom.translation[1] + this.zoom.scaleFactor * link.source.newfy)
-      .attr('x2', link => this.zoom.translation[0] + this.zoom.scaleFactor * link.target.newfx)
-      .attr('y2', link => this.zoom.translation[1] + this.zoom.scaleFactor * link.target.newfy);
+      .attr('x1', link => this.zoom.translation[0] + this.zoom.scaleFactor * link.source.newfx) // eslint-disable-line prettier/prettier
+      .attr('y1', link => this.zoom.translation[1] + this.zoom.scaleFactor * link.source.newfy) // eslint-disable-line prettier/prettier
+      .attr('x2', link => this.zoom.translation[0] + this.zoom.scaleFactor * link.target.newfx) // eslint-disable-line prettier/prettier
+      .attr('y2', link => this.zoom.translation[1] + this.zoom.scaleFactor * link.target.newfy); // eslint-disable-line prettier/prettier
 
     if (!this.orbits) {
-      this.orbits = this.svg.select('g.orbits').selectAll('circle')
+      this.orbits = this.svg
+        .select('g.orbits')
+        .selectAll('circle')
         .data(r)
         .enter()
         .append('circle')
@@ -228,10 +231,10 @@ class Network extends Component {
     const randomNumber = (min, max) =>
       Math.floor(Math.random() * (max - min + 1)) + min;
 
-    let id = `m${randomNumber(0, 9)}${randomNumber(0, 9)}${randomNumber(0, 9)}${randomNumber(0, 9)}${randomNumber(0, 9)}`;
+    let id = `m${randomNumber(0, 9)}${randomNumber(0, 9)}${randomNumber(0, 9)}${randomNumber(0, 9)}${randomNumber(0, 9)}`; // eslint-disable-line prettier/prettier
     for (let i = 0; i < this.magnetNodes.length; i += 1) {
       if (this.magnetNodes[i] === id) {
-        id = `m${randomNumber(0, 9)}${randomNumber(0, 9)}${randomNumber(0, 9)}${randomNumber(0, 9)}${randomNumber(0, 9)}`;
+        id = `m${randomNumber(0, 9)}${randomNumber(0, 9)}${randomNumber(0, 9)}${randomNumber(0, 9)}${randomNumber(0, 9)}`; // eslint-disable-line prettier/prettier
         i = 0;
       }
     }
@@ -293,7 +296,7 @@ class Network extends Component {
       this.magnets
         .selectAll('.magnet-node')
         .attr('cx', d => this.zoom.translation[0] + this.zoom.scaleFactor * d.x)
-        .attr('cy', d => this.zoom.translation[1] + this.zoom.scaleFactor * d.y);
+        .attr('cy', d => this.zoom.translation[1] + this.zoom.scaleFactor * d.y); // eslint-disable-line prettier/prettier
 
       this.magnetLabels
         .selectAll('.magnet-label')
@@ -316,8 +319,13 @@ class Network extends Component {
         filter.filter(nodeE => nodeE.title === d.title).length > 0;
       if (!isPresent) {
         d.class = `${d.class} node-greyed-out`;
+        d.filtered = true;
       } else {
         d.class = d.defaultClass;
+        d.filtered = false;
+      }
+      if (this.props.focusedNode && this.props.focusedNode.id === d.id) {
+        d.class = `${d.class} focus-node`;
       }
       return d.class;
     });
@@ -456,25 +464,13 @@ class Network extends Component {
     this.simulation.on('tick', () => {
       this.node
         .attr('cx', d => this.zoom.translation[0] + this.zoom.scaleFactor * d.x)
-        .attr('cy', d => this.zoom.translation[1] + this.zoom.scaleFactor * d.y);
+        .attr('cy', d => this.zoom.translation[1] + this.zoom.scaleFactor * d.y); // eslint-disable-line prettier/prettier
 
       this.link
-        .attr(
-          'x1',
-          d => this.zoom.translation[0] + this.zoom.scaleFactor * d.source.x,
-        )
-        .attr(
-          'y1',
-          d => this.zoom.translation[1] + this.zoom.scaleFactor * d.source.y,
-        )
-        .attr(
-          'x2',
-          d => this.zoom.translation[0] + this.zoom.scaleFactor * d.target.x,
-        )
-        .attr(
-          'y2',
-          d => this.zoom.translation[1] + this.zoom.scaleFactor * d.target.y,
-        );
+        .attr('x1', d => this.zoom.translation[0] + this.zoom.scaleFactor * d.source.x) // eslint-disable-line prettier/prettier
+        .attr('y1', d => this.zoom.translation[1] + this.zoom.scaleFactor * d.source.y) // eslint-disable-line prettier/prettier
+        .attr('x2', d => this.zoom.translation[0] + this.zoom.scaleFactor * d.target.x) // eslint-disable-line prettier/prettier
+        .attr('y2', d => this.zoom.translation[1] + this.zoom.scaleFactor * d.target.y); // eslint-disable-line prettier/prettier
     });
 
     this.setState({ ...this.state, init: true }, () => this.updateNodes());
@@ -483,10 +479,11 @@ class Network extends Component {
   updateNodes = () => {
     this.node = this.node.data(this.nodes, d => d.id);
     this.node.exit().remove();
+
     this.node = this.node
       .enter()
       .append('circle')
-      .attr('class', d => `network-node cluster${d.cluster}`)
+      .attr('class', d => d.class)
       .attr('r', d => d.radius)
       .attr('id', d => d.id)
       .on('mouseover', d => {
@@ -510,8 +507,14 @@ class Network extends Component {
           .on('drag', d => {
             if (this.centered) return;
             const mouseCoords = d3Sel.mouse(this.svg.node());
-            d.fx = (mouseCoords[0] - this.zoom.translation[0]) / this.zoom.scaleFactor;
-            d.fy = (mouseCoords[1] - this.zoom.translation[1]) / this.zoom.scaleFactor;
+
+            d.fx =
+              (mouseCoords[0] - this.zoom.translation[0]) /
+              this.zoom.scaleFactor;
+
+            d.fy =
+              (mouseCoords[1] - this.zoom.translation[1]) /
+              this.zoom.scaleFactor;
           })
           .on('end', d => {
             if (!d3Sel.event.active) this.simulation.alphaTarget(0);
@@ -668,11 +671,15 @@ Network.propTypes = {
     }),
   ).isRequired,
   hoverNode: PropTypes.func.isRequired,
-  focusedNode: PropTypes.shape({ // eslint-disable-line react/require-default-props, react/no-unused-prop-types, prettier/prettier
+  focusedNode: PropTypes.shape({
     id: PropTypes.string.isRequired,
   }),
   focusNode: PropTypes.func.isRequired,
   queryResult: PropTypes.bool.isRequired,
+};
+
+Network.defaultProps = {
+  focusedNode: null,
 };
 
 export default sizeMe({ monitorHeight: true })(Network);

@@ -85,6 +85,10 @@ route.post('/upload', upload.single('pdf'), (req, res) => {
   const abstract = JSON.parse(req.body.abstract);
   let authors = JSON.parse(req.body.authors);
 
+  fs.readFile(path.join(indexDir, 'document.json'), (err, obj) => {
+    console.info(obj);
+  });
+
   authors = removeEmptyAuthors(authors);
   res.end();
 });
@@ -103,7 +107,8 @@ const overwriteFromFolder = (orig, dest) => {
 };
 
 route.post('/reset', (req, res) => {
-  // This is dumb but im lazy right now
+  // There should be a better way to do this, with
+  // like fs-extra to delete/copy the whole folder
   const folders = ['pdf', 'txt', 'summary', 'pubmed'];
   folders.forEach(folder => {
     overwriteFromFolder(

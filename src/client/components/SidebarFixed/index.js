@@ -134,7 +134,6 @@ class SidebarFixed extends Component {
 
     const { query } = this.state;
     const { magnetsActive } = this.props;
-    const { popupStyle } = this.props;
 
     return (
       <Menu vertical fixed="left" inverted style={this.props.style}>

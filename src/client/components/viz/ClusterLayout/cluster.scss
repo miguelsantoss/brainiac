@@ -62,7 +62,6 @@
   &.focus-node {
         stroke: $clusters-focus-node-stroke;
   stroke-width: $clusters-focus-node-stroke-width;
-       opacity: $clusters-focus-node-opacity;
     transition: $opacity-animation, $fill-animation;
   }
 }

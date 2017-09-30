@@ -113,6 +113,7 @@ class ClusterLayout extends Component {
         defaultRadius: 8,
         class: classN,
         defaultClass: classN,
+        filtered: false,
       });
     }
 
@@ -161,10 +162,10 @@ class ClusterLayout extends Component {
     const randomNumber = (min, max) =>
       Math.floor(Math.random() * (max - min + 1)) + min;
 
-    let id = `m${randomNumber(0, 9)}${randomNumber(0, 9)}${randomNumber(0, 9)}${randomNumber(0, 9)}${randomNumber(0, 9)}`;
+    let id = `m${randomNumber(0, 9)}${randomNumber(0, 9)}${randomNumber(0, 9)}${randomNumber(0, 9)}${randomNumber(0, 9)}`; // eslint-disable-line prettier/prettier
     for (let i = 0; i < this.magnetNodes.length; i += 1) {
       if (this.magnetNodes[i] === id) {
-        id = `m${randomNumber(0, 9)}${randomNumber(0, 9)}${randomNumber(0, 9)}${randomNumber(0, 9)}${randomNumber(0, 9)}`;
+        id = `m${randomNumber(0, 9)}${randomNumber(0, 9)}${randomNumber(0, 9)}${randomNumber(0, 9)}${randomNumber(0, 9)}`; // eslint-disable-line prettier/prettier
         i = 0;
       }
     }
@@ -249,11 +250,18 @@ class ClusterLayout extends Component {
     this.node.attr('class', d => {
       const isPresent =
         filter.filter(nodeE => nodeE.title === d.title).length > 0;
+
       if (!isPresent) {
         d.class = `${d.class} node-greyed-out`;
+        d.filtered = true;
       } else {
         d.class = d.defaultClass;
+        d.filtered = false;
       }
+      if (this.props.focusedNode && this.props.focusedNode.id === d.id) {
+        d.class = `${d.class} focus-node`;
+      }
+
       return d.class;
     });
   }
@@ -470,6 +478,7 @@ class ClusterLayout extends Component {
       .append('g')
       .attr('class', 'nodes')
       .selectAll('circle');
+
     this.node = this.node.data(this.nodes, d => d.id);
     this.node.exit().remove();
     this.node = this.node
@@ -832,7 +841,7 @@ ClusterLayout.propTypes = {
       value: PropTypes.number,
     }),
   ).isRequired,
-  focusedNode: PropTypes.shape({ // eslint-disable-line react/require-default-props, prettier/prettier
+  focusedNode: PropTypes.shape({
     id: PropTypes.string.isRequired,
     radius: PropTypes.number.isRequired,
   }),
@@ -841,6 +850,10 @@ ClusterLayout.propTypes = {
   canDrop: PropTypes.bool.isRequired,
   isOver: PropTypes.bool.isRequired,
   connectDropTarget: PropTypes.func.isRequired,
+};
+
+ClusterLayout.defaultProps = {
+  focusedNode: null,
 };
 
 export default sizeMe({ monitorHeight: true })(dragWrapper);

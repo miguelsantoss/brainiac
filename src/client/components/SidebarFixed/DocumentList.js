@@ -53,10 +53,11 @@ class DocumentList extends Component {
     if (!this.props.tooltipRef) return;
 
     const removeChildren = tooltip => {
-      tooltip.selectAll('b').remove();
-      tooltip.selectAll('span').remove();
-      tooltip.selectAll('br').remove();
-      tooltip.selectAll('a').remove();
+      tooltip.selectAll('*').remove();
+      // tooltip.selectAll('b').remove();
+      // tooltip.selectAll('span').remove();
+      // tooltip.selectAll('br').remove();
+      // tooltip.selectAll('a').remove();
     };
 
     const tooltip = d3Select.select(this.props.tooltipRef.div);
@@ -79,6 +80,11 @@ class DocumentList extends Component {
       tooltip.append('span').text(node.title);
       tooltip.append('br');
       tooltip.append('br');
+      const a = tooltip
+        .append('a')
+        .attr('class', 'ui compact fluid button')
+        .text('Open document');
+      tooltip.append('br');
       tooltip.append('b').text('Date: ');
       tooltip.append('span').text(node.date);
       tooltip.append('br');
@@ -94,7 +100,6 @@ class DocumentList extends Component {
       tooltip.append('br');
       tooltip.append('br');
 
-      const a = tooltip.append('a').text('Open document in new tab');
       a
         .attr('href', `http://localhost:4000/api/pdf/${node.id}`)
         .attr('target', '_blank');
@@ -104,6 +109,10 @@ class DocumentList extends Component {
       if (boxTT.bottom > window.innerHeight) {
         let newTop = boxTT.top - (boxTT.bottom - window.innerHeight) - 10;
         if (newTop < 0) newTop = 0;
+        tooltip.style('top', `${newTop}px`);
+      } else {
+        let newTop = ((y + 10) - boxTT.height / 2) - 10;
+        if (newTop < 0) newTop = 10;
         tooltip.style('top', `${newTop}px`);
       }
       tooltip.transition(hoverTransition).style('opacity', 1);
@@ -140,16 +149,13 @@ class DocumentList extends Component {
   };
 
   handleSearchChange = e => {
-    this.setState({ query: e.target.value }, () => {
-      this.props.filterDocuments(this.state.query.toLowerCase());
-    });
+    this.setState({ query: e.target.value });
   };
 
   handleSearchKeyDown = e => {
     const code = keyboardKey.getCode(e);
     if (code === keyboardKey.Enter) {
       e.preventDefault();
-      this.props.filterDocuments(this.state.query.toLowerCase());
     }
   };
 
@@ -157,30 +163,33 @@ class DocumentList extends Component {
     const { documentList } = this.props;
     const item =
       documentList && documentList.filteredNodes
-        ? documentList.filteredNodes.map(d => (
-            <div
-              key={d.id}
-              onMouseEnter={() => this.handleHover(d, true)}
-              onMouseLeave={() => this.handleHover(d, false)}
-              onClick={() => {
-                this.timer = setTimeout(() => {
-                  if (!this.prevent) this.handleClick(d);
-                  this.prevent = false;
-                }, this.delay);
-              }}
-              onDoubleClick={() => {
-                clearTimeout(this.timer);
-                this.prevent = true;
-                this.handleDoubleClick(d);
-              }}
-            >
-              <Menu.Item
-                name={d.title}
-                id={d.id}
-                ref={element => this.items.set(d.id, element)}
-              />
-            </div>
-          ))
+        ? documentList.filteredNodes.map(d => {
+            if (!d.title.toLowerCase().includes(this.state.query)) return null;
+            return (
+              <div
+                key={d.id}
+                onMouseEnter={() => this.handleHover(d, true)}
+                onMouseLeave={() => this.handleHover(d, false)}
+                onClick={() => {
+                  this.timer = setTimeout(() => {
+                    if (!this.prevent) this.handleClick(d);
+                    this.prevent = false;
+                  }, this.delay);
+                }}
+                onDoubleClick={() => {
+                  clearTimeout(this.timer);
+                  this.prevent = true;
+                  this.handleDoubleClick(d);
+                }}
+              >
+                <Menu.Item
+                  name={d.title}
+                  id={d.id}
+                  ref={element => this.items.set(d.id, element)}
+                />
+              </div>
+            );
+        })
         : null;
     return item;
   };

@@ -326,10 +326,10 @@ class AppLayout extends Component {
             wordDistances={documents.wordDistances}
             wordDistancesWLabels={documents.wordDistancesWLabels}
             filteredNodes={_.cloneDeep(documents.filteredNodes)}
+            focusedNode={this.state.focusedNode}
             ref={element => {
               this.clusterViz = element;
             }}
-            focusedNode={this.state.focusedNode}
             {...vizProps}
           />
         </VizContainer>,
@@ -347,6 +347,7 @@ class AppLayout extends Component {
             filteredNodes={_.cloneDeep(documents.filteredNodes)}
             filterByDate={this.props.filterByDate}
             clearFilterByDate={this.props.clearFilterByDate}
+            focusedNode={this.state.focusedNode}
             ref={element => {
               this.timelineViz = element;
             }}

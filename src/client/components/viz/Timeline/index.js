@@ -40,15 +40,25 @@ class Timeline extends Component {
   }
 
   componentWillMount() {
-    const width = document.getElementById('window-timeline-content').clientWidth; // eslint-disable-line no-undef
-    const height = document.getElementById('window-timeline-content').clientHeight; // eslint-disable-line no-undef
+    const width = document.getElementById('window-timeline-content')
+      .clientWidth; // eslint-disable-line no-undef
+    const height = document.getElementById('window-timeline-content')
+      .clientHeight; // eslint-disable-line no-undef
     this.nodes = this.state.nodes;
+    this.nodes.forEach(d => {
+      const classN = `timeline-node cluster${d.cluster}`;
+      d.class = classN;
+      d.defaultClass = classN;
+      d.filtered = false;
+    });
     this.setState({ ...this.state, width, height }, () => this.initializeD3());
   }
 
   componentWillReceiveProps() {
-    const width = document.getElementById('window-timeline-content').clientWidth; // eslint-disable-line no-undef
-    const height = document.getElementById('window-timeline-content').clientHeight; // eslint-disable-line no-undef
+    const width = document.getElementById('window-timeline-content')
+      .clientWidth; // eslint-disable-line no-undef
+    const height = document.getElementById('window-timeline-content')
+      .clientHeight; // eslint-disable-line no-undef
     this.handleResize(width, height, this.state.width, this.state.height);
     this.setState({ ...this.state, width, height }, () => this.filterNodes());
     this.setState({ ...this.state, width, height }, () => {
@@ -115,7 +125,18 @@ class Timeline extends Component {
     nodes.attr('class', d => {
       const isPresent =
         filter.filter(nodeE => nodeE.title === d.title).length > 0;
-      return isPresent ? 'timeline-node' : 'timeline-node node-greyed-out';
+
+      if (!isPresent) {
+        d.class = `${d.class} node-greyed-out`;
+        d.filtered = true;
+      } else {
+        d.class = d.defaultClass;
+        d.filtered = false;
+      }
+      if (this.props.focusedNode && this.props.focusedNode.id === d.id) {
+        d.class = `${d.class} focus-node`;
+      }
+      return d.class;
     });
   };
 
@@ -276,12 +297,13 @@ class Timeline extends Component {
       .append('g')
       .attr('class', 'nodes')
       .selectAll('circle');
+
     this.node = this.node.data(this.nodes, d => d.id);
     this.node.exit().remove();
     this.node = this.node
       .enter()
       .append('circle')
-      .attr('class', d => `timeline-node cluster${d.cluster}`)
+      .attr('class', d => d.class)
       .attr('r', d => d.radius)
       .attr('cx', d => d.x)
       .attr('cy', d => d.y)
@@ -315,29 +337,44 @@ class Timeline extends Component {
 }
 
 Timeline.propTypes = {
-  nodes: PropTypes.arrayOf(PropTypes.shape({
-    id: PropTypes.string,
-    title: PropTypes.string,
-    authors: PropTypes.arrayOf(PropTypes.shape({
-      name: PropTypes.string,
-    })),
-    date: PropTypes.string,
-    value: PropTypes.number,
-  })).isRequired,
-  filteredNodes: PropTypes.arrayOf(PropTypes.shape({
-    id: PropTypes.string,
-    title: PropTypes.string,
-    authors: PropTypes.arrayOf(PropTypes.shape({
-      name: PropTypes.string,
-    })),
-    date: PropTypes.string,
-    value: PropTypes.number,
-  })).isRequired,
+  nodes: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string,
+      title: PropTypes.string,
+      authors: PropTypes.arrayOf(
+        PropTypes.shape({
+          name: PropTypes.string,
+        }),
+      ),
+      date: PropTypes.string,
+      value: PropTypes.number,
+    }),
+  ).isRequired,
+  filteredNodes: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string,
+      title: PropTypes.string,
+      authors: PropTypes.arrayOf(
+        PropTypes.shape({
+          name: PropTypes.string,
+        }),
+      ),
+      date: PropTypes.string,
+      value: PropTypes.number,
+    }),
+  ).isRequired,
+  focusedNode: PropTypes.shape({
+    id: PropTypes.string.isRequired,
+  }),
   hoverNode: PropTypes.func.isRequired,
   focusNode: PropTypes.func.isRequired,
   filterByDate: PropTypes.func.isRequired,
   clearFilterByDate: PropTypes.func.isRequired,
   queryResult: PropTypes.bool.isRequired,
+};
+
+Timeline.defaultProps = {
+  focusedNode: null,
 };
 
 export default sizeMe({ monitorHeight: true })(Timeline);
