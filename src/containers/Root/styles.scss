@@ -1,0 +1,48 @@
+@import '~normalize.css';
+$font-stack: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+
+body {
+  width: 100%;
+  height: 100%;
+  background: #eaeaff;
+  font: 100% $font-stack;
+}
+
+.ui.segment {
+  border: 1px solid rgba(34,36,38,.1);
+  border-radius: 0px;
+}
+
+.ui.modal {
+  border-radius: .1em;
+}
+
+.ui.button {
+  border-radius: .1em;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none !important;
+  width: 11px !important;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(48, 73, 155, 0) !important;
+  border-radius: 0px !important;
+}
+
+::-webkit-scrollbar-thumb {
+  cursor: pointer !important;
+  border-radius: 0px !important;
+  background: rgba(28, 19, 104, 1) !important;
+  -webkit-transition: none !important;
+  transition: none !important;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(28, 19, 104, 1) !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(28, 19, 104, 1) !important;
+}

@@ -1,0 +1,63 @@
+$fill-hover: #a8c7f7;
+$fill-focus: white;
+$color-hover: rgb(0, 0, 0);
+$color-focus: rgb(0, 0, 0);
+$header-color: $fill-hover;
+$text-color: #f2f2f8;
+$fill-animation-time: 0.2s;
+$fill-animation: background-color $fill-animation-time ease;
+$color-animation: color $fill-animation-time ease;
+
+// .ui.inverted.menu::-webkit-scrollbar {
+//   -webkit-appearance: none;
+//   width: 11px;
+// }
+// 
+// .ui.inverted.menu::-webkit-scrollbar-track {
+//   background: rgba(48, 73, 155, 1);
+//   border-radius: 0px;
+// }
+// 
+// .ui.inverted.menu::-webkit-scrollbar-thumb {
+//   cursor: pointer;
+//   border-radius: 0px;
+//   background: rgba(28, 19, 104, 1);
+//   -webkit-transition: none;
+//   transition: none;
+// }
+// 
+// .ui.inverted.menu::-webkit-scrollbar-thumb:window-inactive {
+//   background: rgba(28, 19, 104, 1);
+// }
+// 
+// .ui.inverted.menu::-webkit-scrollbar-thumb:hover {
+//   background: rgba(28, 19, 104, 1);
+// }
+
+.header {
+  color: $header-color !important;
+}
+
+.dropdown {
+  .header {
+    color: black !important;
+  }
+}
+
+.item {
+  color: $text-color !important;
+  transition: $fill-animation;
+  
+  &.hover-node {
+    background-color: $fill-hover !important;
+    color: $color-hover !important;
+    transition: $fill-animation, $color-animation;
+  }
+
+  &.focus-node {
+    background-color: $fill-focus !important;
+    color: $color-focus !important;
+    transition: $fill-animation, $color-animation;
+  }
+}
+

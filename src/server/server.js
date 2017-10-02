@@ -1,14 +1,12 @@
 import path from 'path';
 import express from 'express';
-import fs from 'fs';
-import cors from 'cors';
 import compression from 'compression';
 import bodyParser from 'body-parser';
 import morgan from 'morgan';
-import xml2js from 'xml2js';
-import apiRoutes from './routes';
+import routes from './routes';
+import config from '../config';
 
-const publicFolder = path.join(__dirname, '../../public');
+const publicFolder = path.join(__dirname, '../../build');
 
 const app = express();
 if (app.get('env') === 'production') {
@@ -17,18 +15,12 @@ if (app.get('env') === 'production') {
   app.use(morgan('dev'));
 }
 
-app.use(cors());
 app.use(compression());
 app.use(bodyParser.json());
-
-app.use('/api', apiRoutes);
 app.use(express.static(publicFolder));
+app.use('/api', routes);
 
-app.get('*', (req, res) => {
-  res.sendFile(path.join(publicFolder, 'index.html'));
-});
-
-const server = app.listen(4000, () => {
+const server = app.listen(config.port, () => {
   const port = server.address().port;
   console.info(`App now running on port ${port}`);
 });

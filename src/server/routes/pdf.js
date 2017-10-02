@@ -63,6 +63,7 @@ route.use('/', express.static(docsFolder));
 
 route.get('/:id', (req, res) => {
   const file = `${docsFolder}${req.params.id}.pdf`;
+  console.info(file);
   if (fs.existsSync(file)) {
     res.redirect(`/api/pdf/${req.params.id}.pdf`);
   } else {

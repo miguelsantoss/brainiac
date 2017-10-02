@@ -344,6 +344,16 @@ def main(args):
                 doc_obj = {key:value for key, value in entry.items()}
                 doc_obj['cluster'] = int(labels_pca[index])
                 doc_obj['similarity_values'] = tfidf_similarity_list[index]
+
+                ring0 = []
+                ring1 = []
+                ring2 = []
+                ring3 = []
+                ring4 = []
+
+                # for indexk, entry in enumerate(tfidf_similarity_list[index]):
+                #     if (entry >= 0 and )
+
                 doc_array.append(doc_obj)
         for indexj, entry in enumerate(tfidf_similarity_list[index]):
             if indexj > index and entry > 0.5:
@@ -352,6 +362,8 @@ def main(args):
                 link['target'] = indexj
                 link['value'] = entry
                 links.append(link)
+        
+            
     
 
     sim_json['nodes'] = doc_array
