@@ -342,17 +342,41 @@ def main(args):
             if entry['id'] == file:
                 doc_obj = {}
                 doc_obj = {key:value for key, value in entry.items()}
-                doc_obj['cluster'] = int(labels_pca[index])
+                doc_obj['cluster'] = int(labels[index])
                 doc_obj['similarity_values'] = tfidf_similarity_list[index]
 
+                similarity = {}
+                similarity_ring = {}
                 ring0 = []
                 ring1 = []
                 ring2 = []
                 ring3 = []
-                ring4 = []
+                for indexk, entry in enumerate(tfidf_similarity_matrix[index]):
+                    if (indexk == index):
+                        continue
+                    ring = 3
+                    if (entry < 0.25):
+                        ring = 3
+                        ring3.append(file_names[indexk])
+                    elif (entry > 0.25 and entry < 0.5):
+                        ring = 2
+                        ring2.append(file_names[indexk])
+                    elif (entry > 0.5 and entry < 0.75):
+                        ring = 1
+                        ring1.append(file_names[indexk])
+                    elif (entry > 0.75):
+                        ring = 0
+                        ring0.append(file_names[indexk])
+                    similarity_ring[file_names[indexk]] = ring;
+                    similarity[file_names[indexk]] = entry;
 
-                # for indexk, entry in enumerate(tfidf_similarity_list[index]):
-                #     if (entry >= 0 and )
+                doc_obj['similarity_matrix'] = similarity
+                doc_obj['similarity_ring'] = similarity_ring
+                doc_obj['rings'] = [ring0, ring1, ring2, ring3]
+                doc_obj['ring0'] = ring0
+                doc_obj['ring1'] = ring1
+                doc_obj['ring2'] = ring2
+                doc_obj['ring3'] = ring3
 
                 doc_array.append(doc_obj)
         for indexj, entry in enumerate(tfidf_similarity_list[index]):

@@ -111,34 +111,21 @@ class Network extends Component {
     d.radius = 15;
 
     const dataOrg = [[], [], [], []];
-    const dTest = [];
+    for (let i = 0; i < d.rings.length; i += 1) {
+      dataOrg[i] = d.rings[i].length;
+    }
 
     for (let i = 0; i < nodes.length; i += 1) {
       if (nodes[i].id !== d.id) {
-        if (d.similarity_values[i] >= 0.25) {
-          const daux = 3 - Math.floor(d.similarity_values[i] / 0.25);
-          const dist = daux > 0 ? daux : 0;
-          dTest.push(dist);
-          const rad = Math.random() * 2 * Math.PI;
-          nodes[i].rad = rad;
-          nodes[i].r = r[dist].r;
-          nodes[i].dist = dist;
-          dataOrg[dist].push(0);
-        } else {
-          const dist = 3;
-          const rad = Math.random() * 2 * Math.PI;
-          nodes[i].rad = rad;
-          nodes[i].r = r[dist].r;
-          nodes[i].dist = dist;
-          dataOrg[dist].push(0);
-        }
+        const dist = d.similarity_ring[nodes[i].id];
+        nodes[i].r = r[dist].r;
+        nodes[i].dist = dist;
         nodes[i].fixed = true;
       }
     }
 
     const dataOrgI = [0, 0, 0, 0];
     for (let i = 0; i < dataOrg.length; i += 1) {
-      dataOrg[i] = dataOrg[i].length;
       dataOrg[i] = 360 / dataOrg[i];
     }
 
