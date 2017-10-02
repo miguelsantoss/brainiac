@@ -33,20 +33,4 @@ style.tooltip = {
   // textAlign: 'center',
 };
 
-style.tooltip2 = {
-  position: 'absolute',
-  display: 'none',
-  minWidth: '200px',
-  maxWidth: '500px',
-  width: 'auto',
-  height: 'auto',
-  maxHeight: '50vh',
-  background: 'none repeat scroll 0 0 #ffffff',
-  border: '1px solid #1c1368',
-  borderRadius: '0px',
-  boxShadow: '1px 2px 3px rgba(0,0,0,.5)',
-  padding: '20px',
-  overflow: 'auto',
-};
-
 export default style;

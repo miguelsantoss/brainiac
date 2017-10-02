@@ -17,6 +17,8 @@ import {
   Form,
   Divider,
 } from 'semantic-ui-react';
+
+import { chunkString } from '../../lib/strings';
 import './index.css';
 
 class FileUploader extends Component {
@@ -87,6 +89,49 @@ class FileUploader extends Component {
     }
   };
 
+  authorList = authors => {
+    if (!authors.length > 1) {
+      return 'No author info.';
+    }
+    let str = authors[0].name;
+    for (let i = 1; i < authors.length; i += 1) {
+      str = `${str}; ${authors[i].name}`;
+    }
+    return str;
+  };
+
+  formatTitle = (title, id) => {
+    if (title.length < 70) return title;
+    const chunks = chunkString(title, 70);
+    return (
+      <div key={`${id}abs-fu`}>
+        {_.map(chunks, split => (
+          <div>
+            <span>{split}</span>
+            <br />
+          </div>
+        ))}
+      </div>
+    );
+  };
+
+  formatAuthors = authorList => {
+    const authors = [];
+    const abbvreviate = name => {
+      const chunks = name.split(' ');
+      if (chunks.length > 1) {
+        return `${chunks[chunks.length - 1]}, ${chunks[0][0]}`;
+      }
+      return name;
+    };
+
+    const length = authorList.length > 5 ? 5 : authorList.length;
+    for (let i = 0; i < length; i += 1) {
+      authors.push(abbvreviate(authorList[i].name));
+    }
+    return authors.join('; ');
+  };
+
   renderDocumentTable = () => (
     <Table
       // toggle selectable only when scan is not loading
@@ -110,16 +155,6 @@ class FileUploader extends Component {
 
   renderDocumentEntries = () => {
     const documents = this.props.db.documents.nodes;
-    const authorList = authors => {
-      if (!authors.length > 1) {
-        return 'No author info.';
-      }
-      let str = authors[0].name;
-      for (let i = 1; i < authors.length; i += 1) {
-        str = `${str}; ${authors[i].name}`;
-      }
-      return str;
-    };
     const entries = _.map(documents, doc => {
       const active = this.state.selected && doc.id === this.state.selected.id;
       return (
@@ -128,8 +163,8 @@ class FileUploader extends Component {
           onClick={() => this.toggleSelect(doc)}
           active={active}
         >
-          <Table.Cell>{doc.title}</Table.Cell>
-          <Table.Cell />
+          <Table.Cell> {this.formatTitle(doc.title, doc.id)} </Table.Cell>
+          <Table.Cell> {this.formatAuthors(doc.authors)} </Table.Cell>
           <Table.Cell>{doc.date.substring(0, 4)}</Table.Cell>
         </Table.Row>
       );
@@ -150,7 +185,7 @@ class FileUploader extends Component {
               <br />
               <br />
               <span className="ui header highlight">Author List:</span>
-              <span>{authorList(this.state.selected.authors)}</span>
+              <span>{this.authorList(this.state.selected.authors)}</span>
               <br />
               <br />
               <span className="ui header highlight">Publication Year:</span>

@@ -73,6 +73,7 @@ class DocumentList extends Component {
     const box = item.getBoundingClientRect();
     const x = box.right + 20;
     const y = box.y;
+    this.props.tooltipRef.y = box.y;
 
     if (state) {
       tooltip
@@ -104,8 +105,15 @@ class DocumentList extends Component {
       tooltip.append('b').text('Abstract: ');
       tooltip.append('br');
       tooltip.append('span').text(node.abstract);
+      const split = node.abstract.split('\n');
+      for (let i = 0; i < split.length; i += 1) {
+        tooltip.append('span').text(split[i]);
+        tooltip.append('br');
+      }
       tooltip.append('br');
+      tooltip.append('b').text('Summary: ');
       tooltip.append('br');
+      tooltip.append('span').text(node.summary);
 
       a
         .attr('href', `http://localhost:${config.port}/api/pdf/${node.id}.pdf`)

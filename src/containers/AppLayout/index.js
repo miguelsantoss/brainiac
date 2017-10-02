@@ -28,7 +28,7 @@ import SidebarPushable from '../../components/SidebarPushable';
 import GridLayout from '../../containers/GridLayout';
 import FileUploader from '../../components/FileUploader';
 import VizContainer from '../../containers/VizContainer';
-import Tooltip from './Tooltip';
+import Tooltip from '../../components/Tooltip';
 
 // Idioms
 import Network from '../../components/Idioms/Network';
@@ -112,11 +112,62 @@ class AppLayout extends Component {
 
   hoverNode = (d, state, scrollToNode = false, displayPopup = true) => {
     if (!d) return;
+    const hoverTransition = d3Transition.transition().duration(200);
     if (this.state.focusedNode && this.state.focusedNode.id === d.id) {
+      if (state) {
+        if (displayPopup) {
+          // Show the tooltip
+          const mouseCoords = d3Select.mouse(d3Select.select(this.view).node());
+          let xOffset = mouseCoords[0] + 36;
+          let yOffset = mouseCoords[1] + 60;
+          const tooltip = d3Select.select(this.tooltip);
+
+          tooltip
+            .style('left', `${xOffset}px`) // eslint-disable-line no-undef
+            .style('top', `${yOffset}px`) // eslint-disable-line no-undef
+            .style('opacity', 0)
+            .style('display', 'inline-block')
+            .html(`<b>Title:</b><br />${d.title}`);
+
+          tooltip.transition(hoverTransition).style('opacity', 1);
+
+          /* 
+            Check if it is off the screen
+            if drawing on the right leaves the screen, then change it
+            to the left of the cursor
+          */
+          const tooltipNode = ReactDOM.findDOMNode(this.tooltip);
+          const boxTT = tooltipNode.getBoundingClientRect();
+
+          if (boxTT.bottom > window.innerHeight) {
+            yOffset = yOffset - (boxTT.bottom - window.innerHeight) - 10;
+            tooltip.style('top', `${yOffset}px`);
+          }
+
+          if (boxTT.right > window.innerWidth - 20) {
+            if (boxTT.width < 300) {
+              xOffset -= 200;
+            } else {
+              xOffset -= 100;
+            }
+            tooltip.style('left', `${xOffset}px`);
+          } else if (boxTT.left < style.main.marginLeft + 20) {
+            xOffset = style.main.marginLeft + 20;
+            tooltip.style('left', `${xOffset}px`);
+          }
+        }
+      } else {
+        const tooltip = d3Select.select(this.tooltip);
+        tooltip
+          .transition(hoverTransition)
+          .style('opacity', 0)
+          .on('end', () => {
+            tooltip.style('display', 'none');
+          });
+      }
       return;
     }
 
-    const hoverTransition = d3Transition.transition().duration(200);
     d3Select.selectAll(`#${d.id}`).classed('hover-node', state);
     this.highlightLinks(d, state, MODE_HOVER_NODE, MODE_FOCUS_LINK);
 
@@ -265,6 +316,12 @@ class AppLayout extends Component {
           .style('stroke', null);
       }, 200);
     }
+  };
+
+  focusCluster = (d, state = true) => {
+    if (!d) return;
+    const hoverTransition = d3Transition.transition().duration(140);
+    if (state) console.info(hoverTransition);
   };
 
   focusNode = (d, state = true, scrollToNode = true) => {
@@ -472,19 +529,13 @@ class AppLayout extends Component {
           </SidebarPushable>
           <div
             style={style.tooltip}
+            className="tooltipviz"
             ref={r => {
               this.tooltip = r;
             }}
             id="tooltip"
           />
-          <div
-            style={style.tooltip2}
-            ref={r => {
-              this.tooltipDocList2 = r;
-            }}
-          />
           <Tooltip
-            style={style.tooltip2}
             ref={r => {
               this.tooltipDocList = r;
             }}
