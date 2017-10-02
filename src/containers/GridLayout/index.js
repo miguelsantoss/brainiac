@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Responsive, WidthProvider } from 'react-grid-layout';
+import _ from 'lodash';
 
 import './d3viz.scss';
 import './layout.scss';
@@ -39,7 +40,7 @@ class GridLayout extends Component {
         measureBeforeMount
       >
         {children.length
-          ? children.map(viz => {
+          ? _.map(children, viz => {
               const { gridKey, gridData } = viz.props;
               return (
                 <div key={gridKey} data-grid={gridData}>

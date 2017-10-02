@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { DragSource } from 'react-dnd';
 import { Menu } from 'semantic-ui-react';
+// import Menu from 'semantic-ui-react/dist/commonjs/collections/Menu';
 
 const style = {
   cursor: 'move',

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Menu, Input, Icon, Loader, Button } from 'semantic-ui-react';
-import Box from '../test/Box';
+import TopicMagnet from '../TopicMagnet';
 import DocumentList from './DocumentList';
 
 import keyboardKey from '../../lib/keyboardKey';
@@ -116,7 +116,7 @@ class SidebarFixed extends Component {
               //     <Box key={`${word}${topicIndex}${wordIndex}`} name={word} /> // eslint-disable-line react/no-array-index-key
               //   )),
               // )
-              topicWords.map(topic => <Box key={topic} name={topic} />)}
+              topicWords.map(topic => <TopicMagnet key={topic} name={topic} />)}
           </Menu.Menu>
         ) : null}
       </Menu.Item>

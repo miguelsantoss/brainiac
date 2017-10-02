@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import axios from 'axios';
-import _map from 'lodash/map';
-import _clone from 'lodash/cloneDeep';
+import _ from 'lodash';
+// import _map from 'lodash/map';
+// import _clone from 'lodash/cloneDeep';
 import { connect } from 'react-redux';
 import {
   Modal,
@@ -26,7 +27,7 @@ class FileUploader extends Component {
   };
 
   handleInputChange = (e, fileInfo, index, property, index2 = 0) => {
-    const filesInfo = _clone(this.state.filesInfo);
+    const filesInfo = _.clone(this.state.filesInfo);
     if (property !== 'authors') {
       filesInfo[index][property] = e.target.value;
     } else {
@@ -119,7 +120,7 @@ class FileUploader extends Component {
       }
       return str;
     };
-    const entries = _map(documents, doc => {
+    const entries = _.map(documents, doc => {
       const active = this.state.selected && doc.id === this.state.selected.id;
       return (
         <Table.Row
@@ -168,6 +169,7 @@ class FileUploader extends Component {
     return entries;
   };
 
+  /* eslint-disable jsx-a11y/label-has-for */
   renderFileUploadList = () => {
     const list = [];
     for (let i = 0; i < this.state.files.length; i += 1) {
@@ -251,7 +253,7 @@ class FileUploader extends Component {
                 primary
                 onClick={e => {
                   e.preventDefault();
-                  const filesInfo = _clone(this.state.filesInfo);
+                  const filesInfo = _.clone(this.state.filesInfo);
                   filesInfo[index].authors.push({ name: '' });
                   this.setState({
                     ...this.state,
@@ -268,6 +270,7 @@ class FileUploader extends Component {
     }
     return list;
   };
+  /* eslint-enable jsx-a11y/label-has-for */
 
   render = () => {
     const { visible, handleClose } = this.props;

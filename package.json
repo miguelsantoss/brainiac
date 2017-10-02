@@ -10,6 +10,7 @@
     "babel-eslint": "7.2.3",
     "babel-jest": "20.0.3",
     "babel-loader": "7.1.1",
+    "babel-plugin-lodash": "^3.2.11",
     "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-react-app": "^3.0.3",
@@ -75,6 +76,7 @@
     "sw-precache-webpack-plugin": "0.11.4",
     "url-loader": "0.5.9",
     "webpack": "3.5.1",
+    "webpack-bundle-analyzer": "^2.9.0",
     "webpack-dev-server": "2.8.2",
     "webpack-manifest-plugin": "1.2.1",
     "whatwg-fetch": "2.0.3"
@@ -84,6 +86,7 @@
     "start:server": "cross-env NODE_ENV=development nodemon src/server/server.js --ignore bak_corpus/ --ignore corpus --ignore '*.py' --ignore '*.json' --exec babel-node",
     "start": "concurrently --kill-others \"yarn run start:client\" \"yarn run start:server\"",
     "build": "node scripts/build.js",
+    "build-stats": "node scripts/build.js --analyze",
     "serve": "cross-env NODE_ENV=production nodemon src/server/server.js --ignore bak_corpus/ --ignore corpus --ignore '*.py' --ignore '*.json' --exec babel-node",
     "test": "node scripts/test.js --env=jsdom"
   },
@@ -121,6 +124,25 @@
     ]
   },
   "babel": {
+    "plugins": [
+      [
+        "lodash",
+        {
+          "id": [
+            "async",
+            "lodash-bound"
+          ]
+        }
+      ],
+      [
+        "lodash",
+        {
+          "id": [
+            "semantic-ui-react"
+          ]
+        }
+      ]
+    ],
     "presets": [
       [
         "env",

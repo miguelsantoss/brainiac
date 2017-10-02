@@ -26,13 +26,14 @@ import {
 import SidebarFixed from '../../components/SidebarFixed';
 import SidebarPushable from '../../components/SidebarPushable';
 import GridLayout from '../../containers/GridLayout';
-
 import FileUploader from '../../components/FileUploader';
-import Network from '../../components/viz/Network';
-import Timeline from '../../components/viz/Timeline';
-import ClusterLayout from '../../components/viz/ClusterLayout';
 import VizContainer from '../../containers/VizContainer';
 import Tooltip from './Tooltip';
+
+// Idioms
+import Network from '../../components/Idioms/Network';
+import Timeline from '../../components/Idioms/Timeline';
+import ClusterLayout from '../../components/Idioms/ClusterLayout';
 
 import style from './style';
 
