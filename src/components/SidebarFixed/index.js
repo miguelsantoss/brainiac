@@ -130,7 +130,6 @@ class SidebarFixed extends Component {
       queryLoading,
     } = this.props;
 
-    const { query } = this.state;
     const { magnetsActive } = this.props;
 
     return (
@@ -149,24 +148,7 @@ class SidebarFixed extends Component {
             ))}
         </Menu.Item>
         <Menu.Item>
-          <Input
-            transparent
-            inverted
-            fluid
-            icon={
-              <Icon
-                name="search"
-                link
-                onClick={() => this.props.queryDocuments(this.state.query)}
-              />
-            }
-            placeholder="Search Pubmed"
-            value={query}
-            onChange={this.handleSearchChange}
-            onKeyDown={this.handleSearchKeyDown}
-          />
-          <br />
-          <Button positive compact fluid onClick={this.props.toggleFileModal}>
+          <Button compact fluid onClick={this.props.toggleFileModal}>
             <Icon name="upload" />
             <span>Add files</span>
           </Button>
@@ -224,3 +206,23 @@ SidebarFixed.defaultProps = {
 };
 
 export default SidebarFixed;
+
+// Pubmed search
+// <Menu.Item>
+//   <Input
+//     transparent
+//     inverted
+//     fluid
+//     icon={
+//       <Icon
+//         name="search"
+//         link
+//         onClick={() => this.props.queryDocuments(this.state.query)}
+//       />
+//     }
+//     placeholder="Search Pubmed"
+//     value={query}
+//     onChange={this.handleSearchChange}
+//     onKeyDown={this.handleSearchKeyDown}
+//   />
+// </Menu.Item>

@@ -8,21 +8,21 @@ $fill-animation: fill $fill-animation-time ease;
 $stroke-animation: stroke $stroke-animation-time ease;
 
 // Cluster colors
-$cluster0: #e6194b; // Red
-$cluster1: #3cb44b; // Green
-$cluster2: #ffe119; // Yellow
-$cluster3: #0082c8; // Blue
-$cluster4: #f58231; // Orange
-$cluster5: #911eb4; // Purple
-$cluster6: #f032e6; // Magenta
-$cluster7: #008080; // Teal
-$cluster8: #aa6e28; // Brown
-$cluster9: #000000; // Black
+$cluster0: #7AE203; // Red
+$cluster1: #167721; // Green
+$cluster2: #FCD200; // Yellow
+$cluster3: #01679E; // Blue
+$cluster4: #EC7310; // Orange
+$cluster5: #9300C0; // Purple
+$cluster6: #FF0AA1; // Magenta
+$cluster7: #108A8A; // Teal
+$cluster8: #7C4F10; // Brown
+$cluster9: #949494; // Black
 
 // Network related styling
 // Normal State
 // Nodes
-$network-normal-node-fill: #000;
+$network-normal-node-fill: #392F8D;
 $network-normal-node-stroke: #000;
 $network-normal-node-stroke-width: 0px;
 $network-normal-node-opacity: 1;
@@ -33,17 +33,17 @@ $network-normal-link-opacity: 1;
 
 // Hover State
 // Nodes
-$network-hover-node-fill: #fff;
+$network-hover-node-fill: #008CFF;
 $network-hover-node-stroke: #000;
 $network-hover-node-stroke-width: 2px;
 $network-hover-node-opacity: 1;
 // Related nodes
-$network-hover-node-sec-fill: #f00;
+$network-hover-node-sec-fill: #D81B1B;
 $network-hover-node-sec-stroke: #000;
 $network-hover-node-sec-stroke-width: 2px;
 $network-hover-node-sec-opacity: 1;
 // Related links
-$network-hover-link-sec-stroke: #0d0;
+$network-hover-link-sec-stroke: #9E1C6C;
 $network-hover-link-sec-stroke-dasharray: none;
 $network-hover-link-sec-opacity: 1;
 
@@ -54,8 +54,8 @@ $network-focus-node-stroke: #000;
 $network-focus-node-stroke-width: 2px;
 $network-focus-node-opacity: 1;
 // Related nodes
-$network-focus-node-sec-fill: #fff;
-$network-focus-node-sec-stroke: #00d;
+$network-focus-node-sec-fill: #008CFF;
+$network-focus-node-sec-stroke: #000000;
 $network-focus-node-sec-stroke-width: 2px;
 $network-focus-node-sec-opacity: 1;
 // Related links
@@ -76,21 +76,21 @@ $network-greyedOut-link-opacity: 0.15;
 
 // Timeline
 // Normal State
-$timeline-normal-node-fill: #000;
+$timeline-normal-node-fill: #392F8D;
 $timeline-normal-node-stroke: #000;
 $timeline-normal-node-stroke-width: 0px;
 $timeline-normal-node-opacity: 1;
 
 // Hover State
-$timeline-hover-node-fill: #fff;
+$timeline-hover-node-fill: #008CFF;
 $timeline-hover-node-stroke: #000;
 $timeline-hover-node-stroke-width: 2px;
 $timeline-hover-node-opacity: 1;
 
-// Hover State
-$timeline-focus-node-fill: #f33;
+// Focus State
+$timeline-focus-node-fill: #FFFFFF;
 $timeline-focus-node-stroke: #000;
-$timeline-focus-node-stroke-width: 0px;
+$timeline-focus-node-stroke-width: 2px;
 $timeline-focus-node-opacity: 1;
 
 // Greyed Out
@@ -105,9 +105,8 @@ $clusters-normal-node-stroke-width: 0px;
 $clusters-normal-node-opacity: 1;
 
 // Hover State
-$clusters-hover-node-fill: #f33;
 $clusters-hover-node-stroke: #000;
-$clusters-hover-node-stroke-width: 0px;
+$clusters-hover-node-stroke-width: 2px;
 $clusters-hover-node-opacity: 1;
 
 // Focus State

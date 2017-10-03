@@ -41,7 +41,7 @@ const MODE_FOCUS_NODE = 'secondary-focus-node';
 const MODE_FOCUS_LINK = 'focus-line-network';
 
 const MODE_HOVER_NODE = 'secondary-hover-node';
-// const MODE_HOVER_LINK = 'hover-line-network';
+const MODE_HOVER_LINK = 'hover-line-network';
 
 // const MODE_HOVER_CLUSTER_NODE = 'secondary-hover-node-cluster';
 // const MODE_HOVER_CLUSTER_LINK = 'cluster-line-hover';
@@ -54,6 +54,7 @@ class AppLayout extends Component {
       magnets: false,
       hoverNode: null,
       focusedNode: null,
+      focusedCluster: null,
       modelOpen: false,
     };
   }
@@ -169,7 +170,7 @@ class AppLayout extends Component {
     }
 
     d3Select.selectAll(`#${d.id}`).classed('hover-node', state);
-    this.highlightLinks(d, state, MODE_HOVER_NODE, MODE_FOCUS_LINK);
+    this.highlightLinks(d, state, MODE_HOVER_NODE, MODE_HOVER_LINK);
 
     // On Hover
     if (state) {
@@ -276,16 +277,9 @@ class AppLayout extends Component {
       .attr('r', n => (state ? n.radius + 2 : n.radius));
 
     d3Select
-      .selectAll(`.line-network.cluster${d.clusterId}`)
+      .selectAll(`line.cluster${d.clusterId}`)
       .classed('cluster-line-hover', state);
 
-    if (d.links) {
-      d.links.forEach(link => {
-        d3Select
-          .selectAll(`#${link.id}`)
-          .classed('secondary-hover-node-cluster', state);
-      });
-    }
     // On Hover
     if (state) {
       d3Select
@@ -320,8 +314,24 @@ class AppLayout extends Component {
 
   focusCluster = (d, state = true) => {
     if (!d) return;
-    const hoverTransition = d3Transition.transition().duration(140);
-    if (state) console.info(hoverTransition);
+    if (
+      this.state.focusedCluster &&
+      this.state.focusedCluster.clusterId === d.clsterId &&
+      state !== false
+    ) {
+      this.focusCluster(d, false);
+      return;
+    }
+    if (state) {
+      if (this.state.focusedCluster) {
+        this.focusCluster(this.state.focusedCluster, false);
+      }
+      this.hoverCluster(d, true);
+      this.setState({ ...this.state, focusedCluster: d });
+    } else {
+      this.hoverCluster(d, false);
+      this.setState({ ...this.state, focusedCluster: null });
+    }
   };
 
   focusNode = (d, state = true, scrollToNode = true) => {
@@ -373,6 +383,7 @@ class AppLayout extends Component {
       const vizProps = {
         hoverNode: this.hoverNode,
         hoverCluster: this.hoverCluster,
+        focusCluster: this.focusCluster,
         focusNode: this.focusNode,
         scrollToNode: this.scrollToNode,
       };
@@ -536,6 +547,7 @@ class AppLayout extends Component {
             id="tooltip"
           />
           <Tooltip
+            handleHover={this.hoverNode}
             ref={r => {
               this.tooltipDocList = r;
             }}

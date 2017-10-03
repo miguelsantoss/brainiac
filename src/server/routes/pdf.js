@@ -3,6 +3,7 @@ import jsonfile from 'jsonfile';
 import fs from 'fs';
 import express from 'express';
 import multer from 'multer';
+import childProcess from 'child_process';
 
 import { pdfIdGenerator, readAsync, promiseReflect } from '../utils';
 
@@ -84,14 +85,54 @@ route.post('/upload', upload.single('pdf'), (req, res) => {
   };
   const title = JSON.parse(req.body.title);
   const abstract = JSON.parse(req.body.abstract);
+  const date = JSON.parse(req.body.date);
   let authors = JSON.parse(req.body.authors);
-
-  fs.readFile(path.join(indexDir, 'document.json'), (err, obj) => {
-    console.info(obj);
-  });
-
   authors = removeEmptyAuthors(authors);
-  res.end();
+
+  fs.readFile(path.join(indexDir, 'document.json'), (err, data) => {
+    const obj = JSON.parse(data);
+    let lastValue = 0;
+    obj.nodes.forEach(d => {
+      lastValue = d.value > lastValue ? d.value : lastValue;
+    });
+
+    const newFile = {
+      title,
+      abstract,
+      authors,
+      date,
+      id: req.file.filename.slice(0, -4),
+      value: lastValue + 1,
+    };
+    obj.nodes.push(newFile);
+
+    const objStr = JSON.stringify(obj);
+    fs.writeFile(path.join(indexDir, 'document.json'), objStr, 'utf8', () => {
+      const convert = childProcess.spawn('sh', [
+        `${indexDir}/scripts/runConvertPdfs.sh`,
+      ]);
+      convert.stdout.on('data', data2 => {
+        console.info(`stdout: ${data2}`);
+      });
+      convert.stderr.on('data', data2 => {
+        console.error(`stderr: ${data2}`);
+      });
+      convert.on('close', () => {
+        const p = childProcess.spawn('sh', [
+          `${indexDir}/scripts/runTextProcess.sh`,
+        ]);
+        p.stdout.on('data', data2 => {
+          console.info(`stdout: ${data2}`);
+        });
+        p.stderr.on('data', data2 => {
+          console.error(`stderr: ${data2}`);
+        });
+        p.on('close', () => {
+          res.end();
+        });
+      });
+    });
+  });
 });
 
 const overwriteFromFolder = (orig, dest) => {
@@ -117,6 +158,16 @@ route.post('/reset', (req, res) => {
       path.join(corpusFolder, `/${folder}/`),
     );
   });
+  fs.unlinkSync(path.join(indexDir, 'document.json'));
+  fs.copyFileSync(
+    path.join(bakFolder, 'document.json'),
+    path.join(indexDir, 'document.json'),
+  );
+  fs.unlinkSync(path.join(indexDir, 'vizdata.json'));
+  fs.copyFileSync(
+    path.join(bakFolder, 'vizdata.json'),
+    path.join(indexDir, 'vizdata.json'),
+  );
   res.json({});
 });
 

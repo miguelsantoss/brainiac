@@ -9,12 +9,13 @@ import config from '../config';
 const publicFolder = path.join(__dirname, '../../build');
 
 const app = express();
-if (app.get('env') === 'production') {
-  app.use(morgan('combined'));
-} else {
-  app.use(morgan('dev'));
-}
+// if (app.get('env') === 'production') {
+//   app.use(morgan('combined'));
+// } else {
+//   app.use(morgan('dev'));
+// }
 
+app.use(morgan('dev'));
 app.use(compression());
 app.use(bodyParser.json());
 app.use(express.static(publicFolder));

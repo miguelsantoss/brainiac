@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import PropTypes from 'prop-types';
 import * as d3Select from 'd3-selection';
 import * as d3Transition from 'd3-transition';
 
@@ -15,6 +16,7 @@ class Tooltip extends Component {
         }}
         onMouseEnter={() => {
           this.hover = true;
+          this.props.handleHover(this.node, true, false, false);
           setTimeout(() => {
             const tooltip = d3Select.select(this.div);
             const tt = ReactDOM.findDOMNode(this.div);
@@ -33,6 +35,7 @@ class Tooltip extends Component {
         }}
         onMouseLeave={() => {
           this.hover = false;
+          this.props.handleHover(this.node, false, false, false);
           const tooltip = d3Select.select(this.div);
           const hoverTransition = d3Transition.transition().duration(200);
           tooltip
@@ -47,5 +50,9 @@ class Tooltip extends Component {
     );
   }
 }
+
+Tooltip.propTypes = {
+  handleHover: PropTypes.func.isRequired,
+};
 
 export default Tooltip;

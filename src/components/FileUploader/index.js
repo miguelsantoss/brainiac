@@ -3,8 +3,6 @@ import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import axios from 'axios';
 import _ from 'lodash';
-// import _map from 'lodash/map';
-// import _clone from 'lodash/cloneDeep';
 import { connect } from 'react-redux';
 import {
   Modal,
@@ -26,6 +24,8 @@ class FileUploader extends Component {
     selected: null,
     files: [],
     filesInfo: [],
+    upload: false,
+    uploadingN: 0,
   };
 
   handleInputChange = (e, fileInfo, index, property, index2 = 0) => {
@@ -47,6 +47,7 @@ class FileUploader extends Component {
       return;
     }
 
+    this.setState({ ...this.state, upload: true, uploadingN: files.length });
     for (let i = 0; i < files.length; i += 1) {
       const data = new FormData();
       const config = {
@@ -63,10 +64,22 @@ class FileUploader extends Component {
       data.append('title', JSON.stringify(this.state.filesInfo[i].title));
       data.append('abstract', JSON.stringify(this.state.filesInfo[i].abstract));
       data.append('authors', JSON.stringify(this.state.filesInfo[i].authors));
+      data.append('date', JSON.stringify(this.state.filesInfo[i].date));
 
       axios
         .post('/api/pdf/upload', data, config)
         .then(res => {
+          this.setState(
+            {
+              ...this.state,
+              uploadingN: this.state.uploadingN - 1,
+            },
+            () => {
+              if (this.state.uploadingN === 0) {
+                location.reload();
+              }
+            },
+          );
           const output = {};
           output.className = 'container';
           output.innerHTML = res.data;
@@ -78,7 +91,7 @@ class FileUploader extends Component {
         });
     }
     this.inputUpload.value = '';
-    this.props.handleClose();
+    // this.props.handleClose();
   };
 
   toggleSelect = doc => {
@@ -105,8 +118,8 @@ class FileUploader extends Component {
     const chunks = chunkString(title, 70);
     return (
       <div key={`${id}abs-fu`}>
-        {_.map(chunks, split => (
-          <div>
+        {_.map(chunks, (split, i) => (
+          <div key={`${i}${id}`}>
             <span>{split}</span>
             <br />
           </div>
@@ -130,6 +143,26 @@ class FileUploader extends Component {
       authors.push(abbvreviate(authorList[i].name));
     }
     return authors.join('; ');
+  };
+
+  uploadState = () => {
+    if (this.state.upload) {
+      if (this.state.uploadingN > 0) {
+        return (
+          <div>
+            <Icon name="circle notched" loading />
+            <span>Uploading and processing...</span>
+          </div>
+        );
+      }
+      return (
+        <div>
+          <Icon name="checkmark" />
+          <span>Files Uploaded</span>
+        </div>
+      );
+    }
+    return null;
   };
 
   renderDocumentTable = () => (
@@ -230,6 +263,15 @@ class FileUploader extends Component {
                     i,
                     'title',
                   )}
+              />
+            </Form.Field>
+            <Form.Field>
+              <label>Date</label>
+              <input
+                placeholder="Publication Date"
+                value={this.state.filesInfo[i].date}
+                onChange={e =>
+                  this.handleInputChange(e, this.state.filesInfo[i], i, 'date')}
               />
             </Form.Field>
             {this.renderAuthorConfirmList(
@@ -370,11 +412,22 @@ class FileUploader extends Component {
           <Button onClick={() => this.handleUploadButton()}>
             <span>Upload All</span>
           </Button>
+          <Button negative onClick={() => this.props.handleClose()}>
+            <Icon name="remove" />
+            Exit
+          </Button>
+          {this.uploadState()}
           <br />
           {this.renderFileUploadList()}
           <Header>Document List:</Header>
           <Segment> {this.renderDocumentTable()} </Segment>
         </Modal.Content>
+        <Modal.Actions>
+          <Button negative onClick={() => this.props.handleClose()}>
+            <Icon name="remove" />
+            Exit
+          </Button>
+        </Modal.Actions>
       </Modal>
     );
   };

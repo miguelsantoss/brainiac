@@ -340,6 +340,7 @@ class ClusterLayout extends Component {
     this.timer = setTimeout(() => {
       if (!this.prevent) {
         this.props.focusNode(d);
+        // this.props.focusCluster(d);
       }
       this.prevent = false;
     }, this.delay);
@@ -633,6 +634,12 @@ class ClusterLayout extends Component {
         count -= 1;
         if (count === 0) {
           this.updateNodes();
+
+          if (this.activeMagnets.length) {
+            this.updateDust();
+            this.updateMagnets();
+          }
+
           // this.svg.select('g.nodes').remove();
           // this.node.remove();
           // this.node = this.svg
@@ -666,6 +673,10 @@ class ClusterLayout extends Component {
     setTimeout(() => {
       if (!done) {
         this.updateNodes();
+        if (this.activeMagnets.length) {
+          this.updateDust();
+          this.updateMagnets();
+        }
         this.svg.call(this.zoomFunc).on('dblclick.zoom', null);
       }
       if (this.props.focusedNode) this.handleBiggerNode();
@@ -822,6 +833,7 @@ ClusterLayout.propTypes = {
   hoverNode: PropTypes.func.isRequired,
   hoverCluster: PropTypes.func.isRequired,
   focusNode: PropTypes.func.isRequired,
+  focusCluster: PropTypes.func.isRequired,
   queryResult: PropTypes.bool.isRequired,
   nodes: PropTypes.arrayOf(
     PropTypes.shape({

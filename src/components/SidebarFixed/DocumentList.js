@@ -56,8 +56,10 @@ class DocumentList extends Component {
   };
 
   handleHover = (node, state) => {
-    this.props.handleHover(node, state, false, false);
-    if (!this.props.tooltipRef) return;
+    if (!this.props.tooltipRef) {
+      this.props.handleHover(node, state, false, false);
+      return;
+    }
 
     const removeChildren = tooltip => {
       tooltip.selectAll('*').remove();
@@ -76,6 +78,17 @@ class DocumentList extends Component {
     this.props.tooltipRef.y = box.y;
 
     if (state) {
+      if (this.props.tooltipRef.node) {
+        this.props.handleHover(this.props.tooltipRef.node, false, false, false);
+      }
+      this.props.tooltipRef.node = node;
+      if (this.props.tooltipRef.nodes) {
+        this.props.tooltipRef.nodes.push(node);
+      } else {
+        this.props.tooltipRef.nodes = [node];
+      }
+
+      this.props.handleHover(node, state, false, false);
       tooltip
         .style('left', `${x}px`) // eslint-disable-line no-undef
         .style('top', `${y}px`) // eslint-disable-line no-undef
@@ -144,6 +157,7 @@ class DocumentList extends Component {
               removeChildren(tooltip);
               clearTimeout(this.timer);
             });
+          this.props.handleHover(node, state, false, false);
         }
       }, this.timeoutTime);
     }

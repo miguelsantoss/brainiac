@@ -41,15 +41,16 @@ def clean_document_text(text):
   return document_text
 
 #  Start at the root path and search all files to convert
-def convert(path):
+def convert(path, save):
   for subdir, dirs, files in os.walk(path):
     for file in files:
       file_path = subdir + os.path.sep + file
-      save_path = subdir[:-3] + 'txt' + os.path.sep + file[:-3] + 'txt'
+      save_path = save + os.path.sep + file[:-3] + 'txt'
       document_text = convert_file(file_path, save_path)
 
 def main():
     path = 'corpus/pdf'
-    convert(path)
+    save_path = 'corpus/txt'
+    convert(path, save_path)
 
 if __name__ == '__main__': main()
