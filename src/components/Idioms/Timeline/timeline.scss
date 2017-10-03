@@ -1,0 +1,94 @@
+@import '../variables';
+
+.axis {
+  path, line {
+    fill: none;
+    stroke: #000;
+  }
+  text {
+    font: 10px sans-serif;
+  }
+}
+
+.voronoi {
+  fill: none;
+  pointer-events: all;
+}
+
+.timeline-node {
+          fill: $timeline-normal-node-fill;
+        stroke: $timeline-normal-node-stroke;
+  stroke-width: $timeline-normal-node-stroke-width;
+       opacity: $timeline-normal-node-opacity;
+    transition: $opacity-animation, $fill-animation;
+        cursor: pointer;
+        cursor: hand;
+
+  &.node-greyed-out {
+          fill: $timeline-greyedOut-node-fill;
+        stroke: $timeline-greyedOut-node-stroke;
+  stroke-width: $timeline-greyedOut-node-stroke-width;
+       opacity: $timeline-greyedOut-node-opacity;
+    transition: $opacity-animation, $fill-animation;
+  }
+
+  &.hover-node {
+          fill: $timeline-hover-node-fill;
+        stroke: $timeline-hover-node-stroke;
+  stroke-width: $timeline-hover-node-stroke-width;
+       opacity: $timeline-hover-node-opacity;
+    transition: $opacity-animation, $fill-animation;
+
+    &.node-greyed-out {
+       opacity: $timeline-greyedOut-node-opacity;
+    transition: $opacity-animation, $fill-animation;
+    }
+  }
+
+  &.focus-node {
+          fill: $timeline-focus-node-fill;
+        stroke: $timeline-focus-node-stroke;
+  stroke-width: $timeline-focus-node-stroke-width;
+       opacity: $timeline-focus-node-opacity;
+    transition: $opacity-animation, $fill-animation;
+
+    &.node-greyed-out {
+       opacity: $timeline-greyedOut-node-opacity;
+    transition: $opacity-animation, $fill-animation;
+    }
+  }
+
+  &.cluster-hover {
+    transition: $opacity-animation, $fill-animation;
+    &.cluster0 {
+          fill: $cluster0;
+    }
+    &.cluster1 {
+          fill: $cluster1;
+    }
+    &.cluster2 {
+          fill: $cluster2;
+    }
+    &.cluster3 {
+          fill: $cluster3;
+    }
+    &.cluster4 {
+          fill: $cluster4;
+    }
+    &.cluster5 {
+          fill: $cluster5;
+    }
+    &.cluster6 {
+          fill: $cluster6;
+    }
+    &.cluster7 {
+          fill: $cluster7;
+    }
+    &.cluster8 {
+          fill: $cluster8;
+    }
+    &.cluster9 {
+          fill: $cluster9;
+    }
+  }
+}

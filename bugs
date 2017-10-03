@@ -1,2 +1,11 @@
 network: 
   magnets
+  node centering placement (dist value wrong)
+  interface config orbitas
+
+viz:
+  referencias entre trabalhos
+  magnets juntar com aneis -- possivelmente interessante
+
+newViz:
+  error handling if promises fail

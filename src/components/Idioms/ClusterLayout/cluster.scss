@@ -1,0 +1,106 @@
+@import '../variables';
+
+.cluster-node {
+        stroke: $clusters-normal-node-stroke;
+  stroke-width: $clusters-normal-node-stroke-width;
+       opacity: $clusters-normal-node-opacity;
+    transition: $opacity-animation, $fill-animation;
+        cursor: pointer;
+        cursor: hand;
+
+  &.cluster0 {
+          fill: $cluster0;
+  }
+  &.cluster1 {
+          fill: $cluster1;
+  }
+  &.cluster2 {
+          fill: $cluster2;
+  }
+  &.cluster3 {
+          fill: $cluster3;
+  }
+  &.cluster4 {
+          fill: $cluster4;
+  }
+  &.cluster5 {
+          fill: $cluster5;
+  }
+  &.cluster6 {
+          fill: $cluster6;
+  }
+  &.cluster7 {
+          fill: $cluster7;
+  }
+  &.cluster8 {
+          fill: $cluster8;
+  }
+  &.cluster9 {
+          fill: $cluster9;
+  }
+
+  &.node-greyed-out {
+        stroke: $clusters-greyedOut-node-stroke;
+  stroke-width: $clusters-greyedOut-node-stroke-width;
+       opacity: $clusters-greyedOut-node-opacity;
+    transition: $opacity-animation, $fill-animation;
+  }
+
+  &.hover-node {
+        stroke: $clusters-hover-node-stroke;
+  stroke-width: $clusters-hover-node-stroke-width;
+       opacity: $clusters-hover-node-opacity;
+    transition: $opacity-animation, $fill-animation;
+
+    &.node-greyed-out {
+       opacity: $clusters-greyedOut-node-opacity;
+    transition: $opacity-animation, $fill-animation;
+    }
+  }
+
+  &.focus-node {
+        stroke: $clusters-focus-node-stroke;
+  stroke-width: $clusters-focus-node-stroke-width;
+    transition: $opacity-animation, $fill-animation;
+  }
+}
+
+.cluster-node-cluster {
+        stroke: $clusters-normal-node-stroke;
+  stroke-width: $clusters-normal-node-stroke-width;
+       opacity: $clusters-normal-node-opacity;
+    transition: $opacity-animation, $fill-animation;
+        cursor: pointer;
+        cursor: hand;
+
+  &.cluster0 {
+          fill: $cluster0;
+  }
+  &.cluster1 {
+          fill: $cluster1;
+  }
+  &.cluster2 {
+          fill: $cluster2;
+  }
+  &.cluster3 {
+          fill: $cluster3;
+  }
+  &.cluster4 {
+          fill: $cluster4;
+  }
+  &.cluster5 {
+          fill: $cluster5;
+  }
+  &.cluster6 {
+          fill: $cluster6;
+  }
+  &.cluster7 {
+          fill: $cluster7;
+  }
+  &.cluster8 {
+          fill: $cluster8;
+  }
+  &.cluster9 {
+          fill: $cluster9;
+  }
+}

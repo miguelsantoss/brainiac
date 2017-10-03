@@ -6,7 +6,6 @@ aahs
 aardvark
 aardvarks
 aardwolf
-ab
 abaci
 aback
 abacus
@@ -1027,7 +1026,6 @@ acuteness
 acuter
 acutes
 acutest
-ad
 adage
 adages
 adagial
@@ -6469,7 +6467,6 @@ awoken
 awol
 awols
 awry
-ax
 axe
 axed
 axel

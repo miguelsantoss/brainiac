@@ -1,131 +1,148 @@
 {
-  "name": "brainiac",
-  "version": "0.0.1",
-  "author": "",
-  "license": "MIT",
-  "engines": {
-    "node": ">=6.5",
-    "npm": ">=3.10"
-  },
-  "browserslist": [
-    ">1%",
-    "last 4 versions",
-    "Firefox ESR",
-    "not ie < 9"
-  ],
-  "homepage": "https://gitlab.com/miguelsantoss/braniac",
-  "devDependencies": {
-    "assets-webpack-plugin": "^3.5.1",
-    "autoprefixer": "^7.1.1",
-    "babel-cli": "^6.24.1",
-    "babel-core": "^6.25.0",
-    "babel-eslint": "^7.2.3",
-    "babel-loader": "^7.0.0",
-    "babel-plugin-istanbul": "^4.1.4",
-    "babel-plugin-rewire": "^1.1.0",
-    "babel-preset-env": "^1.5.2",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-react-optimize": "^1.0.1",
-    "babel-preset-stage-2": "^6.24.1",
-    "babel-register": "^6.24.1",
-    "babel-template": "^6.25.0",
-    "babel-types": "^6.25.0",
-    "browser-sync": "^2.18.12",
-    "chalk": "^1.1.3",
-    "concurrently": "^3.5.0",
-    "cross-env": "^5.0.1",
-    "css-loader": "^0.28.4",
-    "eslint": "^3.19.0",
-    "eslint-config-airbnb": "^15.0.1",
-    "eslint-import-resolver-node": "^0.3.0",
-    "eslint-loader": "^1.7.1",
-    "eslint-plugin-css-modules": "^2.7.1",
-    "eslint-plugin-import": "^2.3.0",
-    "eslint-plugin-jsx-a11y": "^5.0.3",
-    "eslint-plugin-react": "^7.0.1",
-    "extract-text-webpack-plugin": "^2.1.2",
-    "figures": "^2.0.0",
-    "file-loader": "^0.11.2",
-    "friendly-errors-webpack-plugin": "^1.6.1",
-    "html-webpack-plugin": "^2.28.0",
-    "img-loader": "^2.0.0",
-    "node-sass": "^4.5.3",
-    "nodemon": "^1.11.0",
-    "react-addons-test-utils": "^15.4.2",
-    "react-hot-loader": "^1.3.1",
-    "redux-devtools": "^3.4.0",
-    "resolve-url-loader": "^2.0.3",
-    "sass-loader": "^6.0.3",
-    "style-loader": "^0.16.1",
-    "webpack": "^2.6.1",
-    "webpack-bundle-analyzer": "^2.8.2",
-    "webpack-dev-middleware": "^1.10.2",
-    "webpack-dev-server": "^2.4.5",
-    "webpack-hot-middleware": "^2.18.0",
-    "webpack-node-externals": "^1.6.0",
-    "why-did-you-update": "^0.0.8",
-    "write-file-webpack-plugin": "^4.1.0"
-  },
+  "name": "brain",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "antd": "^2.11.0",
-    "axios": "^0.15.3",
-    "babel-polyfill": "^6.23.0",
-    "body-parser": "^1.17.2",
-    "compression": "^1.6.2",
-    "cors": "^2.8.3",
-    "d3": "^4.7.4",
-    "d3-array": "^1.2.0",
-    "d3-axis": "^1.0.8",
-    "d3-brush": "^1.0.4",
-    "d3-drag": "^1.1.0",
-    "d3-ease": "^1.0.3",
-    "d3-force": "^1.0.6",
-    "d3-force-attract": "^0.1.1",
-    "d3-force-cluster": "^0.1.2",
-    "d3-hierarchy": "^1.1.5",
-    "d3-scale": "^1.0.6",
-    "d3-selection": "^1.1.0",
-    "d3-time": "^1.0.7",
-    "d3-timer": "^1.0.6",
-    "d3-transition": "^1.1.0",
-    "d3-voronoi": "^1.1.2",
-    "d3-zoom": "^1.3.0",
-    "express": "^4.15.3",
+    "autoprefixer": "7.1.2",
+    "axios": "^0.16.2",
+    "babel-cli": "^6.26.0",
+    "babel-core": "6.25.0",
+    "babel-eslint": "7.2.3",
+    "babel-jest": "20.0.3",
+    "babel-loader": "7.1.1",
+    "babel-plugin-lodash": "^3.2.11",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-app": "^3.0.3",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-runtime": "6.26.0",
+    "body-parser": "^1.18.2",
+    "case-sensitive-paths-webpack-plugin": "2.1.1",
+    "chalk": "1.1.3",
+    "classnames": "^2.2.5",
+    "compression": "^1.7.1",
+    "concurrently": "^3.5.0",
+    "cors": "^2.8.4",
+    "cross-env": "^5.0.5",
+    "css-loader": "0.28.4",
+    "d3": "^4.10.2",
+    "dotenv": "4.0.0",
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-config-prettier": "^2.6.0",
+    "eslint-config-react-app": "^2.0.1",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-flowtype": "2.35.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-react": "^7.4.0",
+    "express": "^4.16.1",
+    "extract-text-webpack-plugin": "3.0.0",
+    "file-loader": "0.11.2",
+    "fs-extra": "3.0.1",
+    "html-webpack-plugin": "2.29.0",
+    "jest": "20.0.4",
     "lodash": "^4.17.4",
-    "morgan": "^1.8.2",
+    "morgan": "^1.9.0",
     "multer": "^1.3.0",
     "node-ncbi": "^0.5.1",
+    "node-sass": "^4.5.3",
+    "nodemon": "^1.12.1",
     "normalize.css": "^7.0.0",
-    "postcss-browser-reporter": "^0.5.0",
-    "postcss-cssnext": "^2.11.0",
-    "postcss-import": "^10.0.0",
-    "postcss-loader": "^2.0.6",
-    "postcss-reporter": "^4.0.0",
-    "prop-types": "^15.5.10",
+    "object-assign": "4.1.1",
+    "postcss-flexbugs-fixes": "3.2.0",
+    "postcss-loader": "2.0.6",
+    "prettier": "^1.7.3",
+    "promise": "8.0.1",
+    "prop-types": "^15.6.0",
     "python-shell": "^0.4.0",
-    "react": "^15.6.1",
-    "react-dnd": "^2.4.0",
-    "react-dnd-html5-backend": "^2.4.1",
-    "react-dom": "^15.6.1",
-    "react-dropzone": "^3.13.2",
-    "react-grid-layout": "^0.14.6",
-    "react-md": "^1.0.15",
-    "react-mosaic": "^0.0.17",
-    "react-pdf-js": "^1.0.35",
-    "react-redux": "^5.0.5",
-    "react-sizeme": "^2.3.2",
-    "react-sticky": "^6.0.1",
-    "redux": "^3.7.0",
+    "react": "^16.0.0",
+    "react-dev-utils": "^4.1.0",
+    "react-dnd": "^2.5.3",
+    "react-dnd-html5-backend": "^2.5.3",
+    "react-dom": "^16.0.0",
+    "react-grid-layout": "^0.15.3",
+    "react-redux": "^5.0.6",
+    "react-sizeme": "^2.3.5",
+    "redux": "^3.7.2",
     "redux-devtools-extension": "^2.13.2",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.2.0",
-    "semantic-ui-css": "^2.2.10",
-    "semantic-ui-react": "^0.68.5",
-    "simple-react-pdf": "^1.0.6",
-    "store2": "^2.5.1",
-    "whatwg-fetch": "^2.0.3"
+    "sass-loader": "^6.0.6",
+    "semantic-ui-css": "^2.2.12",
+    "semantic-ui-react": "^0.74.2",
+    "style-loader": "0.18.2",
+    "sw-precache-webpack-plugin": "0.11.4",
+    "url-loader": "0.5.9",
+    "webpack": "3.5.1",
+    "webpack-bundle-analyzer": "^2.9.0",
+    "webpack-dev-server": "2.8.2",
+    "webpack-manifest-plugin": "1.2.1",
+    "whatwg-fetch": "2.0.3"
+  },
+  "scripts": {
+    "start:client": "node scripts/start.js",
+    "start:server": "cross-env NODE_ENV=development nodemon src/server/server.js --ignore bak_corpus/ --ignore corpus --ignore '*.py' --ignore '*.json' --exec babel-node",
+    "start": "concurrently --kill-others \"yarn run start:client\" \"yarn run start:server\"",
+    "build": "node scripts/build.js",
+    "build-stats": "node scripts/build.js --analyze",
+    "serve": "cross-env NODE_ENV=production nodemon src/server/server.js --ignore bak_corpus/ --ignore corpus --ignore '*.py' --ignore '*.json' --exec babel-node",
+    "test": "node scripts/test.js --env=jsdom"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}"
+    ],
+    "setupFiles": [
+      "<rootDir>/config/polyfills.js"
+    ],
+    "testMatch": [
+      "<rootDir>/src/**/__tests__/**/*.js?(x)",
+      "<rootDir>/src/**/?(*.)(spec|test).js?(x)"
+    ],
+    "testEnvironment": "node",
+    "testURL": "http://localhost",
+    "transform": {
+      "^.+\\.(js|jsx)$": "<rootDir>/node_modules/babel-jest",
+      "^.+\\.css$": "<rootDir>/config/jest/cssTransform.js",
+      "^(?!.*\\.(js|jsx|css|json)$)": "<rootDir>/config/jest/fileTransform.js"
+    },
+    "transformIgnorePatterns": [
+      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$"
+    ],
+    "moduleNameMapper": {
+      "^react-native$": "react-native-web"
+    },
+    "moduleFileExtensions": [
+      "web.js",
+      "js",
+      "json",
+      "web.jsx",
+      "jsx",
+      "node"
+    ]
   },
   "babel": {
+    "plugins": [
+      [
+        "lodash",
+        {
+          "id": [
+            "async",
+            "lodash-bound"
+          ]
+        }
+      ],
+      [
+        "lodash",
+        {
+          "id": [
+            "semantic-ui-react"
+          ]
+        }
+      ]
+    ],
     "presets": [
       [
         "env",
@@ -136,7 +153,8 @@
         }
       ],
       "stage-2",
-      "react"
+      "react",
+      "react-app"
     ],
     "env": {
       "test": {
@@ -147,13 +165,9 @@
       }
     }
   },
-  "scripts": {
-    "start:client": "babel-node node_modules/webpack-dev-server/bin/webpack-dev-server.js --config webpack.config.js",
-    "start:server": "cross-env NODE_ENV=development nodemon src/server/server.js --exec babel-node",
-    "server": "babel-node src/server/server.js",
-    "start": "concurrently --kill-others \"yarn run start:client\" \"yarn run start:server\"",
-    "prod": "babel-node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=production webpack-dev-server --env.prod=true",
-    "build": "babel-node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=production webpack --env.prod=true",
-    "lint": "babel-node node_modules/eslint/bin/eslint.js src/client webpack2.config.js -f table || true"
-  }
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "proxy": "http://localhost:4000",
+  "devDependencies": {}
 }

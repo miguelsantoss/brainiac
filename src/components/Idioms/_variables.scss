@@ -1,0 +1,120 @@
+// animations
+$opacity-animation-time: 0.3s;
+$fill-animation-time: 0.2s;
+$stroke-animation-time: 0.2s;
+
+$opacity-animation: opacity $opacity-animation-time ease;
+$fill-animation: fill $fill-animation-time ease;
+$stroke-animation: stroke $stroke-animation-time ease;
+
+// Cluster colors
+$cluster0: #7AE203; // Red
+$cluster1: #167721; // Green
+$cluster2: #FCD200; // Yellow
+$cluster3: #01679E; // Blue
+$cluster4: #EC7310; // Orange
+$cluster5: #9300C0; // Purple
+$cluster6: #FF0AA1; // Magenta
+$cluster7: #108A8A; // Teal
+$cluster8: #7C4F10; // Brown
+$cluster9: #949494; // Black
+
+// Network related styling
+// Normal State
+// Nodes
+$network-normal-node-fill: #392F8D;
+$network-normal-node-stroke: #000;
+$network-normal-node-stroke-width: 0px;
+$network-normal-node-opacity: 1;
+// Links
+$network-normal-link-stroke: #999;
+$network-normal-link-stroke-dasharray: none;
+$network-normal-link-opacity: 1;
+
+// Hover State
+// Nodes
+$network-hover-node-fill: #008CFF;
+$network-hover-node-stroke: #000;
+$network-hover-node-stroke-width: 2px;
+$network-hover-node-opacity: 1;
+// Related nodes
+$network-hover-node-sec-fill: #D81B1B;
+$network-hover-node-sec-stroke: #000;
+$network-hover-node-sec-stroke-width: 2px;
+$network-hover-node-sec-opacity: 1;
+// Related links
+$network-hover-link-sec-stroke: #9E1C6C;
+$network-hover-link-sec-stroke-dasharray: none;
+$network-hover-link-sec-opacity: 1;
+
+// Focus State
+// Nodes
+$network-focus-node-fill: #fff;
+$network-focus-node-stroke: #000;
+$network-focus-node-stroke-width: 2px;
+$network-focus-node-opacity: 1;
+// Related nodes
+$network-focus-node-sec-fill: #008CFF;
+$network-focus-node-sec-stroke: #000000;
+$network-focus-node-sec-stroke-width: 2px;
+$network-focus-node-sec-opacity: 1;
+// Related links
+$network-focus-link-sec-stroke: #d00;
+$network-focus-link-sec-stroke-dasharray: 5;
+$network-focus-link-sec-opacity: 1;
+
+// Greyed Out
+// Nodes
+$network-greyedOut-node-fill: #000;
+$network-greyedOut-node-stroke: #000;
+$network-greyedOut-node-stroke-width: 0px;
+$network-greyedOut-node-opacity: 0.15;
+// Links
+$network-greyedOut-link-stroke: #999;
+$network-greyedOut-link-stroke-dasharray: none;
+$network-greyedOut-link-opacity: 0.15;
+
+// Timeline
+// Normal State
+$timeline-normal-node-fill: #392F8D;
+$timeline-normal-node-stroke: #000;
+$timeline-normal-node-stroke-width: 0px;
+$timeline-normal-node-opacity: 1;
+
+// Hover State
+$timeline-hover-node-fill: #008CFF;
+$timeline-hover-node-stroke: #000;
+$timeline-hover-node-stroke-width: 2px;
+$timeline-hover-node-opacity: 1;
+
+// Focus State
+$timeline-focus-node-fill: #FFFFFF;
+$timeline-focus-node-stroke: #000;
+$timeline-focus-node-stroke-width: 2px;
+$timeline-focus-node-opacity: 1;
+
+// Greyed Out
+$timeline-greyedOut-node-fill: #000;
+$timeline-greyedOut-node-stroke: #000;
+$timeline-greyedOut-node-stroke-width: 0px;
+$timeline-greyedOut-node-opacity: 0.15;
+
+// Cluster Layout
+$clusters-normal-node-stroke: #000;
+$clusters-normal-node-stroke-width: 0px;
+$clusters-normal-node-opacity: 1;
+
+// Hover State
+$clusters-hover-node-stroke: #000;
+$clusters-hover-node-stroke-width: 2px;
+$clusters-hover-node-opacity: 1;
+
+// Focus State
+$clusters-focus-node-stroke: #000;
+$clusters-focus-node-stroke-width: 2px;
+$clusters-focus-node-opacity: 1;
+
+// Greyed out
+$clusters-greyedOut-node-stroke: #000;
+$clusters-greyedOut-node-stroke-width: 0px;
+$clusters-greyedOut-node-opacity: 0.15;
