@@ -1,0 +1,620 @@
+J Mol Neurosci 
+DOI 
+Performance the Cogstate Brief Battery Is Related Amyloid
+Levels and Hippocampal Volume Very Mild Dementia
+Yen Ying Lim Victor L Villemagne Simon M Laws Robert H Pietrzak 
+David Ames Christopher Fowler Stephanie Rainey Smith Peter J Snyder 
+Pierrick Bourgeat Ralph N Martins Olivier Salvado Christopher C Rowe 
+Colin L Masters Paul Maruff behalf the AIBL Research Group
+Received June Accepted August Published online September 
+ Springer ScienceBusiness Media New York 
+Abstract In group older adults with very mild dementia 
+ aimed characterize the nature and magnitude cognitive decline measured the Cogstate Brief Battery 
+relation A levels and hippocampal volume Participants
+were characterized according their status the Clinical
+Dementia Rating CDR scale A total individuals
+who were CDR and had low cerebral A levels A 
+individuals who were A and CDR and individuals
+who were A and CDR were included this study 
+Participants completed the CogState brief battery baseline 
+and and month follow Linear mixed
+model analyses indicated that relative the A CDR 
+group the A CDR group showed increased rates 
+memory decline and hippocampal volume loss However 
+compared the A CDR group the A CDR group
+showed changes cognitive function hippocampal volume over months The results this study confirm that 
+individuals with very mild dementia who also have biomarker
+confirmation A changes cognitive function manifest
+ Yen Ying Lim
+yen limflorey edu 
+The Florey Institute Neuroscience and Mental Health The
+University Melbourne Oak Street Parkville VIC 
+Australia
+Department Nuclear Medicine and Centre for PET Austin Health 
+Heidelberg VIC Australia
+Department Medicine Austin Health The University 
+Melbourne Heidelberg VIC Australia
+Centre Excellence for Alzheimers Disease Research and Care 
+Edith Cowan University Joondalup WA Australia
+Sir James McCusker Alzheimers Disease Research Unit Hollywood
+Private Hospital Perth WA Australia
+primarily deterioration memory processing and this 
+associated with hippocampal volume loss Conversely the
+absence any cognitive decline loss hippocampal volume individuals with very mild dementia but who are A
+suggests that some other non AD disease process may underlie any static impairment cognitive function 
+Keywords Alzheimers disease Memory Hippocampal
+volume Amyloid Mild dementia
+Introduction
+There now agreement that non demented older adults 
+elevated level beta amyloid A determined from positron emission tomography PET cerebral spinal fluid
+ CSF sampling associated with cognitive decline particularly episodic memory Doraiswamy Fagan
+ Lim Such data consistent with the
+Co operative Research Centre for Mental Health Carlton Australia
+Department Psychiatry Yale University School Medicine New
+Haven CT USA
+Academic Unit for Psychiatry Old Age St Vincents Health The
+University Melbourne Kew VIC Australia
+National Ageing Research Institute Parkville VIC Australia
+Department Neurology Alpert Medical School Brown
+University Providence RI USA
+Commonwealth Scientific Industrial Research Organization
+ CSIRO Preventative Health National Research Flagship Australian
+ Health Research Centre BiaMedIA Brisbane QLD Australia
+CogState Ltd Melbourne VIC Australia
+J Mol Neurosci 
+amyloid cascade hypothesis Alzheimers disease AD 
+which proposes that AD begins with A accumulation which
+leads the expression and aggregation tau both which
+then combine cause synaptic and neuronal loss Hardy and
+Selkoe Masters and Selkoe The progressive loss
+ neurons and neuronal function manifests behaviourally 
+cognitive deterioration reduced functional activities daily
+living and ultimately dementia 
+Older adults for whom they their caregivers report 
+noticeable decline cognitive abilities are now investigated
+for early dementia If reported difficulties are corroborated 
+objective evidence cognitive impairment performance
+between and standard deviations below the mean 
+appropriate control group formal cognitive assessment 
+well there being medical situational information account for this impairment individuals can considered 
+ the early stages dementia Morris Petersen
+ This early stage dementia classified clinically 
+ the Clinical Dementia Rating CDR scale and has been
+termed Bvery mild dementia Morris Bmild
+cognitive impairment MCI Petersen It has been estimated that individuals with CDR score have approximately risk progressing CDR mild dementia 
+over years Morris and this risk increased 
+approximately individuals who also have high A
+ A Rowe Recent consensus criteria that integrate risk from biomarkers and the amyloid cascade hypothesis
+stipulate that individuals with CDR score and who are
+also A can considered being the prodromal stage 
+AD Albert Such criteria also raises the hypothesis
+that the pathological processes underlying cognitive impairment individuals who have CDR score but who have
+low levels cerebral A A may reflect neurodegenerative
+ psychiatric processes other than AD Albert 
+Dubois and Albert However the nature and magnitude
+ cognitive decline associated with known biomarkers AD
+ cerebral A and hippocampal volume individuals with
+ CDR score remain poorly defined In previous study
+ MCI observed that A was associated with moderate
+decline memory but much greater loss 
+hippocampal volume over years Lim 
+ However given the short follow interval possible that these relative estimates are unreliable and warrant
+replication over longer periods assessment 
+The aim this study was follow prospectively changes
+ cognition and hippocampal volume over months A
+and A adults with CDR score The first hypothesis
+was that baseline compared CDR A older adults and
+CDR A older adults CDR A older adults would
+show large impairments memory and working memory and
+that this would accompanied smaller hippocampal volumes The second hypothesis was that compared CDR 
+A older adults CDR A older adults would show
+faster decline memory and working memory over
+ months and that this would also accompanied increased loss hippocampal volume The third hypothesis
+was that any cognitive decline observed CDR A
+older adults would less than that observed CDR 
+A older adults 
+Methods
+Participants
+Participants were recruited from among individuals enrolled 
+the Australian Imaging Biomarkers and Lifestyle AIBL 
+Flagship Study Ageing The process recruitment and classification the AIBL cohort has been described detail previously Ellis Rowe Briefly individuals
+who volunteered were excluded from the AIBL study they
+had any the following schizophrenia depression Geriatric
+Depression Score GDS greater Parkinsons disease 
+cancer other than basal cell skin carcinoma within the last
+ years symptomatic stroke uncontrolled diabetes current
+regular alcohol use exceeding two standard drinks per day for
+women four per day for men 
+All participants enrolled AIBL underwent thorough
+medical and neuropsychological evaluation each assessment and this information was used classify the clinical
+disease stage The neuropsychological test battery used 
+measure cognition the AIBL study has been described 
+detail previously Ellis A clinical review panel
+chaired DA reviewed all available medical psychiatric and
+neuropsychological information confirm the cognitive
+health individuals enrolled the CN group In this clinical
+review panel participants cognitive and functional status was
+rated using the CDR scale For this study individuals classified CDR were considered have very mild dementia MCI while those with CDR were classified 
+cognitively normal CN Morris The CDR rating 
+participants was made without reference A imaging and
+magnetic resonance imaging MRI data The study was approved and complied with the regulations the institutional research and ethics committees Austin Health St 
+Vincents Health Hollywood Private Hospital and Edith
+Cowan University Ellis All participants provided
+written informed consent prior participating the study 
+Measures
+Amyloid Imaging
+A imaging with positron emission tomography PET was
+conducted using either C Pittsburgh Compound B PiB 
+F florbetapir F flutemetamol PET methodology has
+J Mol Neurosci 
+been described detail previously Clark Rowe
+ Vandenberghe A min acquisition
+was started min after injection PiB and min acquisitions were performed min after injection florbetapir and
+ min after injection flutemetamol Clark Rowe
+ Vandenberghe For PiB and
+flutemetamol PET standardized uptake value SUV data were
+summed and normalized the cerebellar cortex SUV resulting
+ region cerebellar ratio termed SUV ratio SUVr For
+florbetapir SUVr was generated using the whole cerebellum 
+the reference region In accord with previous studies SUVr was
+classified dichotomously either low high For PiB and
+flutemetamol SUVr threshold was used For
+florbetapir SUVr threshold was employed 
+Hippocampal volume HV was normalized for head size using
+total intracranial volume sum grey matter white matter and
+cerebral spinal fluid volumes Dore 
+Cognitive Assessments
+All participants were assessed with standard clinical rating
+scales and comprehensive neuropsychological battery from
+the AIBL study All these measures have been described 
+detail elsewhere and were administered according standard
+protocols trained research assistants Ellis Lim
+ In addition the tests used inform the rating
+ the CDR premorbid intelligence was estimated using the
+Wechsler Test Adult Reading WTAR and levels depressive and anxiety symptoms were assessed using the
+Hospital Anxiety and Depression Scale HADS Cognition
+was measured using the Cogstate brief battery CBB Lim
+ This has been described detail previously but
+briefly This battery consists four computerized tests the
+Detection DET task simple reaction time test shown 
+measure psychomotor function the Identification IDN task
+ choice reaction time test shown measure visual attention the One Card Learning OCL task continuous visual
+recognition learning task that assesses visual learning within 
+pattern separation model and the One Back OBK task 
+task working memory and attention Lim 
+From these four tests two composite scores were computed 
+The Attention Psychomotor Function composite was computed standardizing the speed performance the Detection
+Table Demographic and
+clinical characteristics
+Sex N female
+Age
+Premorbid IQ
+GDS
+CDR sum boxes
+MMSE
+and Identification tests and averaging these scores Maruff
+ The Learning Working Memory composite was
+computed standardizing the accuracy performance 
+the One Card Learning and One Back tests Maruff 
+ Performance the CBB tests was not used determine participants clinical status 
+Data Analysis
+To characterize the nature and magnitude cognitive impairment the CDR groups series analyses covariance
+ ANCOVA were used compare the cognitive composite
+scores and HV between the A CDR A CDR and
+A CDR groups baseline In these analyses the cognitive composite score HV was entered the dependent
+variable and age premorbid intelligence and GDS scores were
+added covariates 
+To characterize the nature magnitude change cognition over time series linear mixed effects models
+ LMM using unstructured covariance matrix and maximum likelihood estimation were conducted examine the
+relation between group A CDR A CDR A
+CDR and time baseline and month
+assessments each cognitive composite score and HV For
+each LMM the cognitive composite score HV was treated
+ the dependent variable Group time and the interaction
+between group and time were also specified fixed factors 
+and participant was specified random factor Age 
+premorbid intelligence and depressive symptoms the first
+assessment were specified covariates Group mean slopes
+were computed for each cognitive composite score reflect
+estimates the rate cognitive change over time and estimates slope the A CDR and A CDR groups
+were compared that the A CDR group Differences
+ slopes were expressed using Cohens 
+Results
+Demographic and Clinical Characteristics
+Statistically significant differences between groups were observed for age premorbid intelligence and depressive
+CDR A 
+CDR A 
+CDR A 
+J Mol Neurosci 
+Table 
+Effect A cognitive function and hippocampal volume baseline and group mean SD each A group
+Group
+CDR A
+N
+CDR A
+CDR A
+Psychomotor attention composite
+Learning working memory composite
+Hippocampal volume
+All models have been adjusted for age premorbid IQ and GDS scores baseline
+symptoms baseline Table The A CDR group also
+had significantly higher number APOE carriers when
+compared the A CDR and A CDR groups 
+Effect A Cognitive Function and Hippocampal
+Volume Baseline
+At the baseline assessment there was significant effect 
+group membership both cognitive composites and for hippocampal volume Table Mean and standard deviation for
+each cognitive composite and for hippocampal volume for each
+group are summarized Table Compared the A CDR
+ group the A CDR group showed statistically significant impairment moderate magnitude both the
+Psychomotor Attention composite and the Learning Working
+Memory composite Fig Compared the A CDR 
+group the A CDR group also showed statistically significant impairment moderate magnitude both the
+Psychomotor Attention composite and the Learning Working
+Memory composite Fig The A CDR group also
+performed significantly worser than the A CDR group
+ the Learning Working Memory composite Fig despite
+there being statistically significant difference their hippocampal volumes baseline CI 
+Effect A Cognitive Function and Hippocampal
+Volume over Months
+Significant group time interactions were observed only for
+the Cogstate Learning Working Memory composite and hippocampal volume Table Table also provides summary
+ the group mean slopes for each cognitive composite and for
+hippocampal volume for each A group When compared 
+the A CDR group the A CDR group showed 
+significantly increased rate decline the Learning 
+Working Memory composite Fig and hippocampal volume Fig and the magnitude these differences were
+moderate large Fig The A CDR group did not
+differ significantly from the A CDR group their rate 
+change the Psychomotor Attention composite Fig 
+Fig Compared the A CDR group the A CDR
+ group did not differ their rate change any cognitive
+composite nor did they differ the rate change hippocampal volume Fig 
+Magnitude abnormality baseline CDR A 
+Fig Magnitude impairment
+ each cognitive composite 
+baseline for each A group error
+bars represent confidence
+intervals 
+ Table In the overall CDR group association with
+HV was observed for the Learning Working Memory composite for the Psychomotor Attention composite 
+CDR ACDR A
+Cogstate Psychomotor Attention
+Composite
+Cogstate Learning Working Memory
+Composite
+Hippocampal Volume
+Discussion
+All models have been adjusted for baseline age premorbid IQ and GDS scores and scan timepoint
+Learning working memory composite
+Hippocampal volume
+N
+CDR A
+Group time
+Time
+P
+Group
+Psychomotor attention composite
+Table 
+Effect A cognitive function and hippocampal volume over months and group mean SD slope each A group
+CDR A
+J Mol Neurosci 
+CDR A
+The first hypothesis that baseline compared CDR A
+older adults and CDR A older adults CDR A
+older adults would show large impairment learning and
+working memory and that this would accompanied 
+smaller hippocampal volume was supported Older adults
+who had met criteria for very mild dementia MCI based
+ their AIBL assessment showed impairment learning and
+working memory magnitude that was convention large
+ which accompanied smaller hippocampal volume large magnitude Fig In contrast this same
+group showed only subtle impairment attention
+and psychomotor function Interestingly the pattern impairment older adults who had CDR score but who
+were A was qualitatively opposite this with moderate
+and statistically significant impairment attention and psychomotor function and only small and non significant impairment learning and working memory Fig This difference persisted despite this group meeting the AIBL consensus clinical criteria for MCI based medical and neuropsychological workup Ellis Similarly differences
+ hippocampal volume were observed between CDR 
+Aolder adults and CDR A older adults Fig 
+Thus baseline the A CDR group showed the cognitive profile characteristic early AD with impairments 
+memory and lower HV In contrast the A CDR group
+showed qualitatively different cognitive profile and evidence hippocampal volume loss when compared the
+CDR A group Fig 
+The second hypothesis that compared CDR A older
+adults CDR A older adults would show increased cognitive decline learning and working memory over
+ months and that this would also accompanied increased loss HV support In the A CDR group 
+performance measures learning and working memory
+deteriorated substantially across the years however the
+A CDR group there was deterioration memory
+function all Fig The difference the rate which
+learning and working memory performance over time worsened the A CDR group compared the A CDR 
+group was convention moderate Further this
+decline learning and working memory was accompanied 
+ substantial loss HV over the same time Fig 
+Hippocampal volume the A CDR group continued
+ deteriorate over the months while individuals the
+A CDR group showed very subtle and non significant
+loss HVover the same period The magnitude the difference between these two groups the rate which HV deteriorated over time was very large In contrast the
+decline observed learning and working memory and 
+hippocampal volume decline was observed for the measure psychomotor function and attention the A CDR
+J Mol Neurosci 
+Change hippocampal volume
+Change Learning Working Memory Composite
+Change Psychomotor Attention Composite
+Fig Rate change over
+ months the cogstate
+psychomotor attention
+composite cogstate learning 
+working memory composite and 
+hippocampal volume for each A
+group
+CDR ACDR ACDR A
+Baseline mth mth mth mth
+ group Fig This suggests strongly that the A
+CDR group the memory decline observed was not 
+indirect result any impairment attentional function 
+The third hypothesis that any cognitive decline observed 
+CDR A older adults would less than that observed 
+CDR A older adults was supported Although the CDR
+ A group showed impairment attention and psychomotor function their baseline assessment this group showed
+ further decline these functions over the subsequent
+ months Fig Similarly there was decline learning and working memory over the same period Fig 
+Instead there was some indication that over months the
+A CDR group showed some improvement learning
+Baseline mth mth mth mth
+Baseline mth mth mth mth
+and working memory In fact the month assessment 
+performance the Learning Working Memory composite
+was better than that the A CDR group Fig 
+Finally the A CDR group also showed further reduction HV over time Fig Consequently differences
+between the CDR A and CDR A groups the rate
+ change cognitive function over months and the rate
+ HV loss over the same time were small and not statistically
+significant Fig The absence any progressive loss 
+cognitive function HV suggests that the cognitive impairment that accorded with the blinded clinical diagnosis MCI
+ the AIBL clinical review panel was not the consequence 
+ neurodegenerative disease process One hypothesis that
+Magnitude decline over months CDR A 
+Fig Magnitude decline over
+ months each cognitive
+composite and hippocampal
+volume for each A group error
+bars represent confidence
+intervals 
+CDR ACDR A
+Cogstate Psychomotor Attention
+Composite
+Cogstate Learning Working Memory
+Composite
+Hippocampal Volume
+the cognitive deficit the CDR Agroup may reflect 
+static injury disruption that has occurred the past 
+Alternatively the cognitive impairment observed the CDR
+ A group may reflect some neurodegenerative disease
+process that much slower than that related A Dubois
+and Albert If this the case then likely that
+individuals will gradually accumulate A level that would
+ considered abnormal PiB PET SUVR and once
+that threshold has reached cognitive decline and faster loss 
+HV will become evident 
+When considered together the results the current study
+show that individuals with very mild dementia there 
+substantial loss higher cognitive functions such memory
+and working memory This loss cognition accompanied
+ loss brain volume which the current study was
+determined from the hippocampus It important note that
+while individuals the current study were classified having very mild dementia their average score the MMSE was
+ indicating that despite being symptomatic the severity 
+clinical symptoms was very mild Despite this the rate loss
+ memory and working memory functions were substantial 
+The results presented here are consistent with and extend 
+those reported over months Lim suggesting
+that even with shorter assessment intervals the estimates 
+memory decline and hippocampal volume loss remained reliable When taken together these data also show that very mild
+dementia suitable disease stage for interventions designed
+ halt slow disease progression prior the development 
+dementia Golde The data reflecting the loss 
+higher cognitive function and loss HV the CDR A
+older adults can considered reflect the nature disease
+progression untreated very mild dementia and therefore
+could utilized statistical models aimed determining
+sample sizes for clinical trials licenced novel drugs for
+AD 
+When interpreting the results this study there are several
+important caveats note First participants enrolled the
+AIBL study were not recruited through epidemiological sampling methods and participants with memory complaints were
+recruited primarily through memory clinics and referrals from
+their primary care physicians As such will important for
+the estimates cognitive decline reported here replicated and extended more population based samples such 
+the Mayo Clinic Study Ageing Roberts 
+Second were unable investigate the effect APOE
+ carriage A related cognitive decline this population
+ older adults This was primarily due the low number 
+APOE carriers the CDR A group The
+observation that the number APOE carriers was low 
+the CDR A group consistent with clinical studies that
+have shown that APOE associated with increased A
+levels Morris Rowe However 
+number recent studies have now shown that APOE can
+J Mol Neurosci 
+increase the rate memory decline and the rate clinical
+disease classification A cognitively normal older adults
+ Lim Mormino Petersen 
+ will important for future studies with larger samples 
+older adults with MCI very mild dementia determine
+whether this exacerbation memory decline A cognitively normal older adults similarly extends individuals who
+have evidence some cognitive impairment 
+These caveats notwithstanding the results this study 
+along with those from previous studies confirm that individuals who have been classified clinically being the very
+early stages AD and who have biomarker confirmation 
+A changes cognitive function manifest primarily deterioration memory processing Braak and Braak 
+Knopman Further the gradual loss hippocampal volume observed this study also consistent with neurobiological studies showing the predilection early AD
+pathological processes for medial temporal lobe structures
+ Dickerson and Sperling Dore Jack 
+ Finally this study provides additional evidence that the
+combination AD biomarkers and sensitive cognitive assessments are important the identification individuals the
+very early stage AD who may appropriate targets 
+clinical trials anti amyloid therapies seeking modify 
+alter the course cognitive deterioration AD 
+Acknowledgments Alzheimers Australia Victoria and Western
+Australia assisted with promotion the study and the screening 
+telephone calls from volunteers The AIBL team wishes thank the
+clinicians who referred patients with MCI AD the study Associate
+Professor Brian Chambers Professor Edmond Chiu Dr Roger Clarnette 
+Associate Professor David Darby Dr Mary Davison Dr John Drago Dr 
+Peter Drysdale Dr Jacqueline Gilbert Dr Kwang Lim Professor Nicola
+Lautenschlager Dr Dina LoGiudice Dr Peter McCardle Dr Steve
+McFarlane Dr Alastair Mander Dr John Merory Professor Daniel
+OConnor Dr Ron Scholes Dr Mathew Samuel Dr Darshan Trivedi
+and Associate Professor Michael Woodward We thank all those who
+participated the study for their commitment and dedication helping
+advance research into the early detection and causation AD 
+Funding Funding for the study was provided part the study partners Commonwealth Scientific Industrial and research Organization
+ CSIRO Edith Cowan University ECU Mental Health Research institute MHRI National Ageing Research Institute NARI and Austin
+Health CogState Ltd The study also received support from the
+National Health and Medical Research Council NHMRC and the
+Dementia Collaborative Research Centres program well
+ funding from the Science and Industry Endowment Fund SIEF and
+the Cooperative Research Centre CRC for Mental Health Australian
+Government Initiative YYL currently funded the National Health 
+Medical Research Council Australian Research Council NHMRCARC Dementia Research Development Fellowship 
+Compliance with Ethical Standards
+Conflict interest YYL SML CF SRS and OS report disclosures 
+CLM advisor Prana Biotechnology Ltd and consultant Eli
+Lilly PM full time employee Cogstate Ltd RHP and PJS are
+scientific consultants Cogstate Ltd DA has served scientific
+J Mol Neurosci 
+advisory boards for Novartis Eli Lilly Janssen and Pfizer Inc RNM 
+consultant Alzhyme C C R has served scientific advisory boards
+for Bayer Pharma Elan Corporation GE Healthcare and AstraZeneca 
+has received speaker honoraria from Bayer Pharma and GE Healthcare
+and has received research support from Bayer Pharma GE Healthcare 
+Piramal Lifesciences and Avid Radiopharmaceuticals VLV served 
+consultant for Bayer Pharma and received research support from NEDO
+grant from Japan 
+References
+Albert MS DeKosky ST Dickson D Dubois B Feldman HH Fox NC 
+Gamst A Holtzman DM Jagust WJ Petersen RC Snyder PJ 
+Carrillo MC Thies B Phelps CH The diagnosis mild
+cognitive impairment due Alzheimers disease recommendations
+from the National Institute Aging and Alzheimers Association
+workgroup Alzheimers Dement 
+Braak H Braak E Neuropathological staging Alzheimerrelated changes Neuropathologica 
+Clark CM Schneider JA Bedell BJ Beach TG Bilker WB Mintun MA 
+Pontecorvo MJ Hefti F Carpenter AP Flitter ML Krautkramer MJ 
+Kung HF Coleman RE Doraiswamy PM Fleisher AS Sabbagh
+MN Sadowsky CH Reiman EP Zehntner SP Skovronsky DM 
+Group A AS Use florbetapirPET for imaging betaamyloid pathology J Am Med Assoc 
+Dickerson BC Sperling RA Functional abnormalities the medial temporal lobe memory system mild cognitive impairment and
+Alzheimers disease insights from functional MRI studies 
+Neuropsychologia 
+Doraiswamy PM Sperling RA Johnson K Reiman EM Wong TZ 
+Sabbagh MN Sadowsky CH Fleisher AS Carpenter A Joshi
+AD Lu M Grundman M Mintun MA Skovronsky DM 
+Pontecorvo MJ Group A AS Florbetapir F amyloid
+PET and month cognitive decline prospective multicenter
+study Mol Psychiatry 
+Dore V Villemagne VL Bourgeat P Fripp J Acosta O Chetelat G Zhou
+L Martins R Ellis KA Masters CL Ames D Salvado O Rowe CC
+ Cross sectional and longitudinal analysis the relationship
+between A deposition cortical thickness and memory cognitively unimpaired individuals and Alzheimers disease JAMA 
+Neurology 
+Dubois B Albert ML Amnestic MCI prodromal Alzheimers
+disease? Lancet Neurol 
+Ellis KA Bush AI Darby D De Fazio D Foster J Hudson P 
+Lautenschlager NT Lenzo N Martins RN Maruff P Masters C 
+Milner A Pike K Rowe C Savage G Szoeke C Taddei K 
+Villemagne V Woodward M Ames D Group TAR The
+Australian imaging biomarkers and lifestyle AIBL study aging 
+methodology and baseline characteristics individuals recruited for longitudinal study Alzheimers disease Int
+Psychogeriatr 
+Fagan AM Roe CM Xiong CJ Mintun MA Morris JC Holtzman DM
+ Cerebrospinal fluid tau ratio prediction 
+cognitive decline nondemented older adults Arch Neurol 
+Golde TE Schneider LS Koo EH Anti A therapeutics 
+Alzheimers disease the need for paradigm shift Neuron 
+Hardy J Selkoe DJ The amyloid hypothesis Alzheimers disease progress and problems the road therapeutics Science
+Jack CR Lowe VJ Weigand SD Wiste HJ Senjem ML Knopman DS 
+Shiung MM Gunter JL Boeve BF Kemp BJ Weiner MW Petersen
+RC Initiative T A D N Serial PIB and MRI normal 
+mild cognitive impairment and Alzheimers disease implications
+for sequence pathological events Alzheimers disease Brain
+Knopman DS Parisi JE Salviati A Floriach Robert M Boeve BF Ivnik
+RJ Smith GE Dickson DW Johnson KA Petersen LE McDonald
+WC Braak H Petersen RC Neuropathology cognitively
+normal elderly J Neuropathol Exp Neurol 
+Lim YY Ellis KA Harrington K Ames D Martins RN Masters CL 
+Rowe C Savage G Szoeke C Darby D Maruff P AIBL RG
+ Use the CogState brief battery the assessment 
+Alzheimers disease related cognitive impairment the Australian
+imaging biomarker and lifestyle AIBL study J Clin Exp
+Neuropsychol 
+Lim YY Ellis KA Pietrzak RH Ames D Darby D Harrington K 
+Martins RN Masters CL Rowe C Savage G Szoeke C 
+Villemagne VL Maruff P AIBL RG Stronger effect 
+amyloid load than APOE genotype cognitive decline healthy
+older adults Neurology 
+Lim Y Y Maruff P Pietrzak R H Ames D Ellis K A Harrington 
+K Lautenschlager N T Szoeke C Martins R N Masters C L 
+Villemagne V L Rowe C C AIBL R G Effect amyloid
+ memory and non memory decline from preclinical clinical
+Alzheimers disease Brain doi doi brain 
+Lim YY Pietrzak RH Bourgeat P Ames D Ellis KA Rembach A 
+Harrington K Salvado O Martins RN Snyder PJ Masters CL 
+Rowe CC Villemagne VL Maruff P Relationships between
+performance the Cogstate brief battery neurodegeneration and
+A accumulation cognitively normal older adults and adults with
+MCI Arch Clin Neuropsychol 
+Lim YY Villemagne VL Pietrzak RH Ames D Ellis KA Harrington K 
+Snyder PJ Martins RN Masters CL Rowe CC Maruff P 
+APOE moderates amyloid related memory decline preclinical
+Alzheimers disease Neurobiol Aging javascript 
+void 
+Maruff P Lim YY Darby D Ellis KA Pietrzak RH Snyder PJ Bush AI 
+Szoeke C Schembri A Ames D Masters CL AIBL RG 
+Clinical utility the Cogstate brief battery identifying cognitive
+impairment mild cognitive impairment and Alzheimers disease 
+BMC Pharmacol Toxicol 
+Masters CL Selkoe DJ Biochemistry amyloid protein and
+amyloid deposits Alzheimer disease In Selkoe DJ Mandelkow
+E Holtzman DM eds Biology Alzheimer disease Cold Spring
+Harbor Laboratory Press New York 
+Mormino EC Betensky RA Hedden T Schultz AP Ward A Huijbers W 
+Rentz DM Johnson KA Sperling RA Amyloid and APOE
+ interact influence short term decline preclinical Alzheimers
+disease Neurology 
+Morris JC The clinical dementia rating CDR current version and
+scoring rules Neurology 
+Morris JC Storandt M Miller JP McKeel DW Price JL Rubin EH Berg
+L Mild cognitive impairment represents early stage
+Alzheimer disease Arch Neurol 
+Morris JC Roe CM Xiong CJ Fagan AM Goate AM Holtzman DM 
+Mintun MA APOE predicts Ab but not tau Alzheimers pathology cognitively normal aging Ann Neurol 
+Petersen RC Mild cognitive impairment diagnostic entity J
+Intern Med 
+Petersen RC Wiste HJ Weigand SD Rocca WA Roberts RO Mielke
+MM Lowe VJ Knopman DS Pankratz VS Machulda MM Geda
+YE Jack CRJ Association elevated amyloid levels with
+cognition and biomarkers cognitively normal people from the
+community JAMA Neurology 
+Roberts RO Geda YE Knopman DS Cha RH Pankratz VS Boeve BF 
+Ivnik RJ Tangalos EG Petersen RC Rocca WA The Mayo
+Clinic study aging design and sampling participation baseline
+measures and sample characteristics Neuroepidemiology 
+Rowe CC Ellis KA Rimajova M Bourgeat P Pike KE Jones G Fripp J 
+Tochon Danguy H Morandeau L OKeefe G Price R Raniga P 
+Robins P Acosta O Lenzo N Szoeke C Salvado O Head R 
+Martins RM C L Ames D Villemagne V Amyloid imaging results from the Australian imaging biomarkers and lifestyle
+ AIBL study aging Neurobiol Aging 
+Rowe CC Bourgeat P Ellis KA Brown B Lim YY Mulligan R Jones
+G Maruff P Woodward M Price R Robins P Tochon Danguy H 
+J Mol Neurosci 
+OKeefe G Pike KE Szoeke C Salvado O Macaulay SL OMeara
+T Head R Cobiac L Martins R Masters CL Ames D Villemagne
+VL AIBL RG Predicting Alzheimer disease with amyloid
+imaging results from the Australian imaging biomarkers and lifestyle study ageing Ann Neurol 
+Vandenberghe R Van Laere K Ivanoiu A Salmon E Bastin C Triau E 
+Hasselbalch S Law I Andersen A Korner A Minthon L Garraux
+G Nelissen N Bormans G Buckley C Owenius R Thurfjell L 
+Farrar G Brooks DJ F flutemetamol amyloid imaging 
+Alzheimer disease and mild cognitive impairment phase trial 
+Ann Neurol 

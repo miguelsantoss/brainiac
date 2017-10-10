@@ -1,0 +1,719 @@
+Review
+TRENDS Biotechnology
+Vol No September 
+Magnetoresistive based biosensors
+and biochips
+Daniel L Hugo A and Paulo P 
+Institute Engineering Systems and Computers Microsystems and Nanotechnologies INESC MN Rua Alves Redol 
+Lisbon Portugal
+Department Physics Instituto Superior Tecnico IST Avenida Rovisco Pais Lisbon Portugal
+Over the past five years magnetoelectronics has
+emerged promising new platform technology for
+biosensor and biochip development The techniques
+are based the detection the magnetic fringe field
+ magnetically labeled biomolecule interacting with
+ complementary biomolecule bound magneticfield sensor Magnetoresistive based sensors conventionally used read heads hard disk drives have
+been used combination with biologically functionalized magnetic labels demonstrate the detection 
+molecular recognition Real world bio applications are
+now being investigated enabling tailored device
+design based sensor and label characteristics This
+detection platform provides robust inexpensive sensing technique with high sensitivity and considerable
+scope for quantitative signal data enabling magnetoresistive biochips meet specific diagnostic needs that
+are not met existing technologies 
+Despite the success fluorescence based microarrays 
+biomedical research the investigation novel biochip
+platforms continues driven the huge market
+potential for bio detection systems offering unique advantages reduced cost The technical challenges that still
+face fluorescence based DNA microarray systems include
+ lack quantitative analysis the difficulty encountered
+ comparing data collected from different microarray
+platforms and the often prohibitively high cost associated equipment such array scanners The detection
+platform suffers from high background fluorescence from
+microarray substrates and would also benefit from the use
+ more stable biological labels fluorescent labels are
+photo sensitive and hence samples bleach when exposed
+ light Since the late magnetoelectronics has
+emerged one several new platform technologies for
+biosensor and biochip development This technology 
+based the detection biologically functionalized
+micrometer nanometer sized magnetic labels using
+high sensitivity microfabricated magnetic field sensors 
+Although its infancy this technology offers highsensitivity detection the level single molecular
+interaction principle stable labeling system low
+magnetic background and cheap device components 
+Corresponding author Daniel L Graham dgrahaminesc 
+Available online July 
+Magnetic field biosensor detection schemes
+In the simplest most direct case the biomolecule 
+detected target analyte magnetically labeled
+ immobilized magnetic label and passed over 
+array specifically patterned complementary noncomplementary probe molecules which are immobilized
+over chip magnetic field sensors The sensors detect the
+presence the magnetic labels via change sensor
+resistance fixed sense current The unbound target
+biomolecules are then washed away and residual sensor
+signals are obtained sensor sites where complementary
+magnetically labeled target and surface bound probe
+molecules have successfully interacted An
+alternative method based secondary detection step 
+performed after the interrogation the probe array with
+the target molecules In this method the target molecules
+are labeled with small biochemical label such biotin 
+Biotinylated target molecules bound complementary
+surface bound probe molecules are then detected 
+Magnetic label
+functionalised with
+biomolecule A 
+Sensor bound
+biomolecule B 
+Protective
+ passivation layer
+Electrical
+contact
+Substrate
+Magnetic field sensor
+TRENDS Biotechnology
+ Simplified cross sectional scheme for magnetically labeled biomolecule
+detection biosensor development The interaction magnetic label functionalised with biomolecule A with magnetoresistive sensor bound biomolecule
+B The magnetic fringe field resulting from the magnetic moment the label
+within chip applied magnetic field changes the resistance the sensor 
+resulting voltage signal DV sensing current I If this signal remains after
+the appropriate washing the sensor surface this indicates the detection molecular recognition between biomolecules A and B 
+www sciencedirect com see front matter Published Elsevier Ltd doi tibtech 
+Review
+TRENDS Biotechnology
+introducing magnetic labels functionalized with streptavidin the complementary molecule biotin This
+approach has been used successfully the detection 
+DNA DNA hybridization chip illustrated the
+scheme shown 
+Basis magnetoresistive biosensing
+A biosensor can defined compact analytical device
+ unit incorporating biological biologically derived
+sensitive element integrated associated with physiochemical transducer The biosensor research field 
+now vast following resurgence interest these
+devices the one the contributing factors being
+the continued development microfabrication technologies Magnetic field sensors such superconducting
+quantum interference devices SQUIDS and induction
+coils have previously been used biodiagnostics but
+their application was limited large size low sensitivity
+and high power consumption This has been overcome 
+the use magnetoresistive MR materials A change 
+the resistivity material due magnetic field 
+known magnetoresistive effect This was first reported
+ Thomson but was not until the late twentieth
+century that advances solid state technology such 
+the fabrication extremely thin and soft MR ferromagnetic films allowed the widespread technological application the principles involved The
+discovery antiferromagnetic interlayer exchange coupling and the giant magnetoresistive GMR effect 
+the opened several applications for highsensitivity magnetic nanostructures including magnetic
+recording media read heads and magnetic random access
+memory MRAM The anisotropic magnetoresistive effect
+Hybridisation 
+complementary
+target DNA
+Biotinylated
+target DNA
+Probe
+DNA
+Step 
+Streptavidin functionalised
+magnetic labels
+Step 
+Fringe field sensor
+signal V from
+bound labels
+Vol No September 
+ AMR originates from the change material resistance 
+which occurs when the magnetisation changes from
+parallel with respect the direction current flow 
+transverse This effect present ferromagnetic alloys
+ NiFe NiFeCo and forms the basis single thin film
+sensors such the planar Hall sensor and the AMR
+ring sensor The GMR effect based the spindependent interfacial and bulk scattering asymmetry that
+ found for spin and spin down conduction electrons
+crossing
+ferromagnetic nonmagnetic ferromagnetic
+multilayer structures where the parallel antiparallel
+alignment the ferromagnetic layers can engineered 
+An applied magnetic field used change the relative
+orientation the magnetisations the two magnetic
+layers When they are aligned the electrical resistance 
+the structure low When the magnetisations are
+antiparallel aligned the resistance high This the
+basis GMR sensors and also spin valves which
+are used most computers read heads measuring the
+fringe magnetic field created magnetized regions the
+track bits 
+Detecting magnetic labels
+The labels used are non remanent paramagnetic beads 
+The magnetic material within the label exists small
+particles usually iron oxide having small random
+moments The detection system relies the alignment
+ these moments within the label produce measureable fringe field A magnetic field thus applied the chip
+using coil horseshoe electromagnet The electromagnet used induce overall moment the labels and
+also center the sensors that bias the sensors within
+the linear regime their magnetoresistive magnetic
+field response curve MR curve The direction the
+applied field which for present sensor geometries 
+either perpendicular the chip surface parallel the
+surface plane and right angle the sensor length
+ dependent the sensor used although some sensors 
+for example spin valves can used either way 
+The measurement schemes for spin valve Hall
+cross sensor are depicted and 
+respectively 
+TRENDS Biotechnology
+ Simplified cross sectional scheme for the use magnetically labeled
+streptavidin detect the location pre hybridised biotinylated DNA chip A
+post hybridization magnetoresistive DNA chip detection strategy Step probe
+DNA immobilised over chip magnetoresistive sensors are hybridized with biotinylated target DNA Step magnetically labeled streptavidin used detect the
+hybridized DNA binding the biotinylated hybridized target DNA The magnetic fringe field the labels detected the sensors 
+www sciencedirect com
+TRENDS Biotechnology
+ SEM images magnetic microspheres Scanning Electron Microscope
+ SEM images magnetic microspheres showing uniform size and shape 
+ Micromerw M image courtesy Micromod and Dynabeads image courtesy Dynal Biotech 
+Review
+TRENDS Biotechnology
+Magnetic labels
+Magnetic labels carriers also referred microspheres microbeads and nanoparticles have found
+wide ranging scientific and clinical application biotechnological and biomedical research most notably 
+the areas bioseparations molecular biology and drug
+delivery The most important characteristics 
+magnetic labels that are used biosensor biochip
+devices are size and shape chemical and magnetic composition surface properties stability and ease chemical
+functionalisation for the immobilisation biomolecules 
+The biochemical functionalisation the magnetic label
+used depends the intended application the device the
+size and magnetisation the label depends the size and
+sensitivity the sensors incorporated and the necessity
+ prevent the blockage fouling the microfluidic
+components the device during analysis The size the
+label used can vary from few microns diameter few
+nanometers size will used here simple means
+ classification 
+Magnetic microspheres
+The larger labels diameter have been the most
+widely studied preliminary detection experiments using
+different types MR sensor They are easily observed and 
+hence enumerable using non specialized light microscopy
+techniques They may also manufactured uniform
+size and shape using preparative methodologies such 
+cone filling Micromerw M Micromod http www 
+micromod core shell techniques Dynabeadsw
+ Dynal http www dynal Furthermore despite
+the fact they have lower percentage magnetic composition comparison magnetic nanoparticles 
+their increased volume results higher magnetic
+moment per label applied magnetic field allowing
+distinct detection signals the single label level 
+Their uniform size and shape also allows for
+quantitative signal data with linearity between the signal
+and the number labels detected for defined sensing
+area The disadvantages micron sized labels are the
+high mass the label relation the biomolecules
+tethering the label the sensor surface and the large
+diameter the label hindering high density label binding
+across the sensor surface 
+Magnetic nanoparticles
+Smaller nanometer sized labels with high magnetic
+ iron oxide content offer solution these
+problems the smaller size allows for increased density 
+label binding across the sensor surface Unfortunately 
+present most commercially available magnetic nanoparticle product samples contain particles with heterogeneous
+size for example and shape non spherical 
+thus hindering quantification In addition their high
+resultant magnetisation and anisotropy for their volume
+ applied magnetic field may lead rapid clustering
+ single particles aggregating form groups Permanent
+clustering labels which cannot remedied using 
+discriminatory magnetic force applied the chip 
+ chip washing cycles can lead exaggerated positive
+signals because non biologically bound labels may remain
+www sciencedirect com
+Vol No September 
+attached biologically bound labels Finally despite their
+higher magnetic percentage composition magnetic nanoparticles detectable labels acquire smaller magnetic
+moment than magnetic microsphere equivalent
+applied field and emu respectively 
+ Oe Consequently smaller labels require
+progressively more sensitive sensors and measurement
+systems The majority labels that have been used date
+have been iron oxide magnetite maghemite based 
+although transition metal containing nanoparticles for
+example NiFe CoFe offering higher magnetisation are
+now being studied 
+Progress magnetoresistive biosensing
+Magnetoresistive based devices such large
+GMR sensors and spin valves have been used 
+detect variety commercially available magnetic
+microbeads and magnetic nanoparticles basis for biochip development 
+The detection molecular recognition the interaction
+ complementary affinity linked biomolecules has
+been shown using two types streptavidin functionalised magnetic labels micrometer and nanometer
+sized and sensor bound biotin and the biotin 
+streptavidin binding couple has been used means
+ detect hybridised DNA chip 
+Recent developments include going improvements 
+device design and demonstrations the reliability these
+techniques real world biological applications The types
+ MR sensors that are presently under investigation
+include large GMR sensors and spin valves 
+anisotropic magnetoresistive ring AMR sensors and
+Hall crosses Promising candidates for future work
+include planar Hall effect sensors and magnetic
+tunnel junctions Other magnetic field sensors used
+ biodiagnostic devices include inductive coils 
+and SQUIDS 
+Magnetoresistive detection signals
+The MR sensors that are used detect magnetic labels
+differ size geometry structure and functionality 
+resulting different levels sensitivity dynamic range
+and signal noise ratios for the detection magnetic label
+ the same size and magnetisation An initial attempt 
+compare and contrast the different types sensor used
+has been performed although this has been hampered
+ the different developmental measurement systems
+employed under different experimental conditions The
+sensor signal obtained change voltage depends the
+inherent magnetic sensitivity the sensor used and
+certain physical parameters such the label sensor size
+ratio the magnetic moment the label the distance
+between the label and the sensing layer the sense current 
+and whether not signal amplification techniques are
+used The moment the label which depends the
+magnetic composition and content related the applied
+magnetic field The moment increases with increase
+ applied field with linear response until the field
+becomes saturating and the moment longer increases
+ Consequently reported sensor signals for single
+micron sized magnetic labels vary from nV mV 
+Review
+TRENDS Biotechnology
+Z
+Vol No September 
+Magnetic
+microbead
+Y
+Fringe field 
+magnetic label
+X
+I
+I
+V
+Metallic multilayered structure
+ spin valve sensor
+In plane applied field
+ Y direction 
+Magnetic
+microbead
+Z
+Fringe field 
+magnetic label
+Y
+X
+I
+I
+V
+Hall cross sensor
+Perpendicular applied
+field Z direction 
+TRENDS Biotechnology
+ Magnetic label signal measurement for spin valve and Hall cross sensors Signal measurement principle for two types magnetoresistive sensor with different
+structure and geometry Multilayered metallic spin valve sensor based the GMR effect the label fringe field detected with sensor that biased using plane
+applied magnetic field Single layer Hall cross sensor based the AMR effect the label fringe field detected with sensor that biased using applied magnetic
+field perpendicular the sensor surface adapted from courtesy P A Besse and printed with the kind permission the American Institute Physics 
+Table Magnetoresistive sensors and magnetic labels used date magnetoresistive detection platforms
+Sensor Type
+Size 
+Label size
+Sensitivity
+Range
+Molecular Recognition?
+Refs
+Spin valve
+ Co 
+ NiFe 
+Yes
+No
+No
+Yes
+No
+No
+No
+No
+No
+No
+Yes
+Yes
+Yes
+Spin valve
+AMR ring
+Hall sensor
+GMR spiral
+GMR strip
+GMR serpentine
+www sciencedirect com
+Review
+TRENDS Biotechnology
+depending the sensor and the system set Table 
+Sensor sensitivity and dynamic range can expressed
+magnetically biologically The magnetic sensitivity can
+ considered the minimum magnetic moment that can
+ detected the smallest magnetic label particular
+magnetic composition In biological terms the sensitivity
+can considered the smallest number detectable
+biomolecular interactions Table and Box the lowest
+target biomolecule concentration that required produce binding signal The dynamic range can also 
+expressed both ways but most simply expressed 
+the range the number labels that can detected 
+single sensor the range target biomolecule concentrations that can quantitatively distinguished 
+single sensor In brief date appears that small spin
+valves offer the highest sensitivity with good signal noise ratios large GMR sensors
+ serpentine spiral geometry offer
+increased dynamic range planar Hall sensors offer ease 
+fabrication and AMR rings provide the ideal geometry for
+single microsphere detection 
+Magnetoresistive biochips
+The biochip consists arrangement single 
+multiple biosensing elements series sensing
+zones designed and fabricated chip facilitate
+multi probe multi analyte based detection The first
+aspect chip design the layout The chip dimensions
+ usually scale are defined and the available chip
+surface used efficiently possible such way 
+maximize the active sensing area within each sensing
+zone incorporate appropriate reference sensors and yet
+avoid electrical magnetic thermal crosstalk between
+sensors chip structures A differential sensor set 
+uses reference sensor Wheatstone bridge architecture enable thermal and electrical mains drift
+compensation between biologically active sensor and
+ biologically inactive sensor The design first
+generation biochip based spin valve sensors 
+shown This chip was fabricated with 
+pairs sensors used for both single and differential
+sensor measurements These structures were fabricated silicon wafers using microelectronic processing
+techniques under cleanroom conditions The structures
+are defined using laser lithography and sensor materials
+were deposited sputtering The integrity
+ the chip structures was then assessed via microscopic inspection and electrical resistance measurements 
+Vol No September 
+Box The basis theoretical calculation DNA
+molecules detected per magnetic label
+The number DNA molecules attached magnetic microsphere
+ diameter and radius surface via biotin streptavidin
+linkage interacting with sensor surface was calculated the basis
+ arc area the sphere contact with the sensor The arc area 
+estimated according the length the DNA molecules interacting
+with the sensor bound DNA molecules and the calculation the
+number DNA DNA interactions based several given
+assumptions 
+Basis for calculation
+ Surface area label 
+ Surface area arc contact with sensor prh based height
+Assumptions
+Label spherical
+Label has uniform size and shape
+Uniform distribution streptavidin molecules
+ target DNA molecules bound per streptavidin molecule
+ for mer oligonucleotide DNA probe molecule 
+ for oligo target DNA overlap for crosslinkers 
+Label
+rlabel
+darc
+DNA
+Sensor
+TRENDS Biotechnology
+A protective passivation layer was deposited over the
+chip structures prevent corrosion the chip surface 
+fluids applied during the chemical and biological reactions 
+This material substrate should also provide ease 
+surface functionality for the immobilisation biomolecules and ideally should show low non specific adherence
+ magnetic labels polymers proteins and nucleic acids 
+Sputtered silicon dioxide A thick was used 
+combination with aqueous phase biochemistry without
+problems Only the electrical contacts the outer
+edges the chip remain free the passivation material 
+Table Theoretical calculation data for DNA DNA molecular interactions detected per magnetic label
+Magnetic label
+No strep 
+No DNA
+saarc 
+No DNAarc
+Micromerw M
+Latex M
+Nanomagw D
+Nanomagw D
+Nanomagw D spio
+Nanomagw D spio
+Theoretical calculation the number probe target DNA interactions detected using magnetically labeled target DNA binding mer oligonucleotide sensor bound
+probe Estimation the DNA DNA interactions between the arc spherical magnetic label interacting with the sensor surface assuming that one biotinylated DNA target
+molecule bound each label bound streptavidin molecule within the arc The type label diameter radius surface area the label number streptavidin
+molecules per label No strep potential number target DNA molecules No DNA surface area the arc saarc and the potential number target DNA molecules within
+the arc interacting with the sensor bound probe molecules DNA arc Calculations are based the assumptions listed Box 
+www sciencedirect com
+Review
+TRENDS Biotechnology
+Contact
+pads
+Numbered
+sensor pairs
+Spin valve sensor
+ exposure PR
+mask over one sensor
+Exposed sensor for biotinstreptavidin binding
+PR covered reference 
+sensor
+TRENDS Biotechnology
+ A magnetoresistive based biochip designed with pairs spin valve
+sensors used for single differential signal measurements The chip
+has the sensor pairs fabricated the central area covered with photoresist PR 
+mask the sensor connections running contact pads arranged around the outer
+edges the chip Each sensor pair has one input line and two separate output
+lines One sensor each pair exposed chip biochemistry active
+sensor via exposure the photoresist A single spin valve with
+contacts within exposure the PR mask Adapted from and
+ printed with the kind permission Elsevier 
+Vol No September 
+zones there are often very high numbers SNPs other
+mutations associated with common diseases Thus many
+probes are required This provides greater technical
+challenge MR chip development because large
+number sensors per chip requires efficient multiplexing 
+Further challenges addressed include the treatment
+ real samples cell tissue before the detection step This
+requires careful consideration the appropriate labeling
+methodology and the correct approach used 
+the detection 
+The biotin streptavidin binding model was used 
+several groups using different MR sensors demonstrate
+the basic proof principle the MR chip This
+model was chosen because streptavidin has four binding
+sites for biotin and the two exhibit very high binding
+affinity and high binding strength furthermore 
+biotin can also used biochemical label for nucleic
+acids and proteins thus enabling the use streptavidin
+functionalised magnetic labels detect biotinylated
+target molecules discussed This approach might also
+help prevent steric hinderance the biological interaction magnetically labeled target molecules with 
+sensor bound molecule Post hybridisation detection 
+DNA MR chips has been demonstrated but
+this also requires time consuming conventional chip
+hybridisation step More recently have used magnetic
+The wafer diced into individual chips and each one 
+mounted chip carrier for easy connection hardware 
+The contacts are wire bonded the pads which are then
+protected silicon gel microfluidics are used control
+fluid flow across the chip The microelectronic fabrication techniques for other sensors and chips can vary 
+described the references Table 
+www sciencedirect com
+Assay Background 
+Electrical Background V
+Sensor signal V 
+Biological considerations
+The MR sensing technique versatile that can
+potentially used detect and analyse magnetically
+labeled nucleic acids proteins whole cells microorganisms DNA chips and protein chips for immunoassay are
+perhaps the most obvious areas immediate application 
+The choice DNA chip developed depends largely the
+nature the sensor signals obtained Gene expression
+profiling measuring variation gene expression 
+requires chip that dedicated the comparison 
+upregulated downregulated genes sample 
+relation control gene This requires strictly quantitative analysis that discernable and reproducible
+differences the sensor signals obtained different
+DNA probe sites the chip In this case sensor units with
+ broader dynamic range the range the number 
+magnetic labels detected per sensor would advantageous DNA chips for the detection DNA mutation
+sites most importantly the detection single nucleotide
+polymorphisms SNPs may require only qualitative
+ yes signals but require the ability discern
+between very small differences the sequence two DNA
+strands Such chip would preferably have many sensing
+ nM ALF DNA
+ V 
+ fM ALF DNA
+ V 
+ min Hybridization
+TRENDS Biotechnology
+ The bead array counter BARC III biochip and typical DNA detection data 
+The BARC III chip based serpentine GMR elements and two reference
+elements The chip layout with insert showing one circular serpentine sensor area designed give high percentage sensing area beneath one DNA probe
+spot approximately Voltage signals obtained for two different
+DNA concentrations expressed voltage change and percentage sensor bead
+coverage using streptavidin functionalised Dynabeads Dynal 
+detect probe DNA that pre hybridised with biotinylated target DNA and 
+combined from courtesy C R Tamanaha and printed with the kind
+permission Kluwer Academic Publishers 
+Review
+TRENDS Biotechnology
+Vol No September 
+MR biochips have strong potential applications high
+sensitivity protein based micro assays and anticipate
+publication this area the near future 
+V V
+Binding signal
+Time 
+V V
+No binding
+signal
+Prototype devices and specific applications
+Two generations prototype bead array counters BARC 
+II and III have used large GMR sensors strip and
+serpentine and bead capture technique 
+The BARC III chip employs sensor element array
+arrangement illustrated designed enable
+quantitative binding signals with respect the percentage label coverage These prototypes which
+are the most advanced date with respect final device 
+have been tailored toward the DNA chip application more
+specifically toward the detection biological warfare
+agents such Bacillus anthracis Yersinia pestis Brucella
+suis Francisella tularensis Vibrio cholerae Clostridium
+botulium Campylobacter jejuni and Vaccinia virus In
+parallel first generation MR biochips based small
+spin valve sensors are presently being
+applied the development diagnostic biochips for cystic
+fibrosis CF complex genetic disease presents
+the spin valve MR data for post hybridisation detection 
+ CF related DNA target sequence using appropriate
+probe versus non specific non complementary target In
+addition both spin valves and large GMR sensors are
+currently being used the development MR based
+micro immunoassays 
+Time 
+TRENDS Biotechnology
+ Real time magnetoresistive detection cystic fibrosis related DNA target Post hybridisation detection wild type DNA sequence which the most
+common CF related mutation occurs A mer oligonucleotide probe was
+immobilised over spin valve sensors and hybridised with biotinylated complementary target DNA and biotinylated non complimentary DNA 
+Hybridised DNA was then detected via the introduction streptavidinfunctionalised magnetic nanoparticles toward sensor saturation followed 
+washing the sensors The resulting hybridisation signal mV for
+sensor bound probe hybridised complementary target DNA corresponds 
+ nanoparticles sensor coverage with labels Sensor bound probe
+hybridised with non complimentary target DNA gave hybridisation signal Target DNA concentration nM chip biotinylated hybridised DNA and streptavidin functionalised nanoparticle binding performed mM
+phosphate buffer pH 
+field generating current lines combination with spin
+valve sensors for the rapid and simultaneous detection 
+hybridisation chip using magnetically labeled target
+DNA This achieved using the magnetic fields that are
+generated tapered current lines rapidly focus
+magnetically labeled target DNA sensor sites In this
+case DNA hybridisation and detection can performed
+using MR biochip minutes using very low target
+DNA concentrations principle small numbers DNA
+molecules Table 
+Protein chips offer unique challenges mostly associated
+with the complex secondary and tertiary structure 
+proteins resulting higher degree precision required
+for successful recognition Despite this believe that
+www sciencedirect com
+Summary
+The MR based detection single micron sized magnetic
+labels has been shown clearly and supported theoretical
+magnetic modelling Single magnetic nanoparticle
+ detection anticipated the near future 
+paving the way for simpler single molecule detection
+applications In terms DNA chips the MR approach
+offers stable labeling system with low cost components 
+what will ultimately provide compact user friendly detection devices At this stage their development MR biochips
+ not compete with DNA microarrays terms the
+number chip slide DNA probe elements Besides
+low cost the most immediate advantage MR biochips may
+lie combination with magnetic field generating chip
+structures which can used rapidly focus
+magnetically labeled biomolecules sensor sites and 
+hence vastly reduce the time hybridisation other
+molecular recognition processes The use electric fields for
+this purpose has already been commercialized Nanogen
+ NanoChipe http www nanogen com although this
+biochip platform also employs costly fluorescence based
+detection At present MR biochips represent young but
+rapidly expanding research area promising high sensitivity 
+high quality quantitative molecular recognition detection
+data for variety biological applications 
+References
+ Blohm D H and Guiseppi Elie A New developments 
+microarray technology Curr Opin Biotechnol 
+ Prinz G A Device physics magnetoelectronics Science 
+ Turner A P Tech Sight Biochemistry Biosensors sense and
+sensitivity Science 
+Review
+TRENDS Biotechnology
+ Harsanyi G Sensors Biomedical Applications CRC Press
+ Eggins B R Chemical Sensors and Biosensors John Wiley 
+Sons
+ Hierlemann A Microfabrication techniques for chemical 
+biosensors Proc IEEE 
+ Grunberg P Layered magnetic structures evidence for
+antiferromagnetic coupling Fe layers across Cr interlayers Phys 
+Rev Lett 
+ Baibich M N Giant magnetoresistance Fe Cr
+magnetic superlattices Phys Rev Lett 
+ Besse P A Detection single magnetic microbead
+using miniaturized silicon Hall sensor Appl Phys Lett 
+ Miller M M Detection micron sized magnetic sphere
+using ring shaped anisotropic magnetoresistance based sensor 
+model for magnetoresistance based biosensor Appl Phys Lett 
+ Hardman U Magnetic Thin Film and Multilayer Systems 
+Physics Analysis and Industrial Applications Springer Series 
+Material Science
+ Freitas P P Spin valve sensors Sens Actuat A 
+ Graham D L Single magnetic microsphere placement
+and detection chip using current line designs with integrated spin
+valve sensors biotechnological applications J Appl Phys 
+ Li G Detection single micron sized magnetic bead and
+magnetic nanoparticles using spin valve sensors for biological
+applications J Appl Phys 
+ Hafeli U eds Scientific and Clinical Applications 
+Magnetic Carriers Plenum Press
+ Lee G U Implementation force differentiation the
+immunoassay Anal Biochem 
+ Baselt D R A biosensor based magnetoresistance
+technology Biosens Bioelectron 
+ Lagae L On chip manipulation and magnetization
+assessment magnetic bead ensembles integrated spin valve
+sensors J Appl Phys 
+ Schotter J A biochip based magnetoresistive sensors 
+IEEE Trans Magn 
+ Ferreira H A Biodetection using magnetically labeled
+biomolecules and arrays spin valve sensors J Appl Phys 
+Vol No September 
+ Graham D L High sensitivity detection molecular
+recognition using magnetically labeled biomolecules and magnetoresistive sensors Biosens Bioelectron 
+ Miller M M A DNA array sensor utilizing magnetic
+microbeads and magnetoelectronic detection J Magn Mater 
+ Tamanaha C R Magnetic method for DNA detection
+ arrayed solid state device In Micro Total Analysis Systems
+ Ramsey J M and van den Berg A eds Kluwer Academic Publishers 
+ Montaigne F Development magnetoresistive sensors
+based planar Hall effect for applications microcompass Sens 
+Actuat 
+ Gallagher W J Microstructured magnetic tunnel
+junctions J Appl Phys 
+ Richardson J A novel measuring system for the
+determination paramagnetic particle labels for use magnetoimmunoassays Biosens Bioelectron 
+ Richardson J The use coated paramagnetic particles 
+ physical label magnetic immunoassay Biosens Bioelectron 
+ Katsura S Development new detection method for
+DNA molecules Supercond Sci Tech 
+ Lee S Magnetic gradiometer based high transition
+temperature quantum interference device for improved sensitivity 
+biosensor Appl Phys Lett 
+ Rife J C Design and performance GMR sensors the
+detection magnetic microbeads biosensors Sens Actuat 
+ Nguyen N T and Wereley S eds Fundamentals and
+Applications Microfluidics Artech House
+ Perez Luna V H Molecular recognition between
+genetically engineered streptavidin and surface bound biotin J Am 
+Chem Soc 
+ Edelstein R L The BARC biosensor applied the
+detection biological warfare agents Biosens Bioelectron 
+ Tondra M Model for detection immobilised superparamagnetic nanosphere assay labels using giant magnetoreistive
+sensors J Vac Sci Technol A 
+ Lee C S Microelectromagnets for the control magnetic
+nanoparticles Appl Phys Lett 
+Endeavour
+Coming soon the quarterly magazine for
+the history and philosophy science 
+The future electricity G J N Gooday
+The First Personal Computer J November
+Sherlock Holmes the Scientist L Snyder
+Locate Endeavour ScienceDirect http www sciencedirect com 
+www sciencedirect com

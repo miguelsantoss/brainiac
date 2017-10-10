@@ -11,6 +11,7 @@ const indexDir = path.join(__dirname, '..');
 const docsFolder = path.join(__dirname, '../corpus/pdf/');
 const corpusFolder = path.join(__dirname, '../corpus/');
 const bakFolder = path.join(__dirname, '../bak_corpus/');
+const bakFolder2 = path.join(__dirname, '../bak_corpus_case_studies/');
 const uploadFolder = docsFolder;
 const summariesFolder = path.join(__dirname, '../corpus/summary/');
 
@@ -148,7 +149,7 @@ const overwriteFromFolder = (orig, dest) => {
   });
 };
 
-route.post('/reset', (req, res) => {
+route.post('/reset-test', (req, res) => {
   // There should be a better way to do this, with
   // like fs-extra to delete/copy the whole folder
   const folders = ['pdf', 'txt', 'summary', 'pubmed'];
@@ -166,6 +167,29 @@ route.post('/reset', (req, res) => {
   fs.unlinkSync(path.join(indexDir, 'vizdata.json'));
   fs.copyFileSync(
     path.join(bakFolder, 'vizdata.json'),
+    path.join(indexDir, 'vizdata.json'),
+  );
+  res.json({});
+});
+
+route.post('/reset-case-studies', (req, res) => {
+  // There should be a better way to do this, with
+  // like fs-extra to delete/copy the whole folder
+  const folders = ['pdf', 'txt', 'summary', 'pubmed'];
+  folders.forEach(folder => {
+    overwriteFromFolder(
+      path.join(bakFolder2, `/${folder}/`),
+      path.join(corpusFolder, `/${folder}/`),
+    );
+  });
+  fs.unlinkSync(path.join(indexDir, 'document.json'));
+  fs.copyFileSync(
+    path.join(bakFolder2, 'document.json'),
+    path.join(indexDir, 'document.json'),
+  );
+  fs.unlinkSync(path.join(indexDir, 'vizdata.json'));
+  fs.copyFileSync(
+    path.join(bakFolder2, 'vizdata.json'),
     path.join(indexDir, 'vizdata.json'),
   );
   res.json({});

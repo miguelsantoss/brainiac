@@ -833,7 +833,7 @@ ClusterLayout.propTypes = {
   hoverNode: PropTypes.func.isRequired,
   hoverCluster: PropTypes.func.isRequired,
   focusNode: PropTypes.func.isRequired,
-  focusCluster: PropTypes.func.isRequired,
+  // focusCluster: PropTypes.func.isRequired,
   queryResult: PropTypes.bool.isRequired,
   nodes: PropTypes.arrayOf(
     PropTypes.shape({

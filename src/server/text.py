@@ -100,13 +100,13 @@ def documentAnalysis(path):
             if(file_path[-3:] == 'txt'):
                 doc_id = file[:-4]
                 file_names.append(doc_id)
-                
+
                 #  Open file and read content into docText, removing newlines
                 #  and lowercasing characters
                 print('Loading file: ', file_path)
                 with open(file_path, 'r') as docFile:
                   docText = docFile.read().replace('\n', ' ').lower()
-                
+
                 #  Remove pontuation from the text
                 docText = docText.translate(str.maketrans('', '', string.punctuation))
                 tokens = tokenize(docText)
@@ -132,7 +132,7 @@ def main(args):
     spacy_dict = {}
     for key, value in token_dictionary.items():
         spacy_dict[key] = nlp(value)
-    
+
     matrix_n = len(spacy_dict)
     spacy_similarity_matrix = []
 
@@ -191,7 +191,7 @@ def main(args):
     # Fit the NMF model
     print('Fitting the NMF model with tf-idf features, ', 'n_topics: %d' % n_topics)
     nmf = NMF(n_components=n_topics, random_state=1, alpha=.1, l1_ratio=.5).fit(tfidf_matrix)
-    
+
     print('\nTopics in NMF model:')
     tfidf_feature_names = tfidf_vectorizer.get_feature_names()
     print_top_words(nmf, tfidf_feature_names, n_top_words)
@@ -336,7 +336,7 @@ def main(args):
 
     with open(args.info, 'r') as docJson:
         documentData = json.load(docJson)['nodes']
-    
+
     for index, file in enumerate(file_names):
         for indexj, entry in enumerate(documentData):
             if entry['id'] == file:
@@ -386,9 +386,6 @@ def main(args):
                 link['target'] = indexj
                 link['value'] = entry
                 links.append(link)
-        
-            
-    
 
     sim_json['nodes'] = doc_array
     sim_json['links'] = links
@@ -409,7 +406,7 @@ def main(args):
     word_distances = {}
     for word in default_words:
         word_distances[word] = cosine_similarity(tfidf_vectorizer.transform([word]), tfidf_matrix).tolist()[0]
-    
+
     distances = {}
     for word in default_words:
         index = 0
@@ -418,7 +415,7 @@ def main(args):
             w_aux[file] = word_distances[word][index]
             index += 1
         distances[word] = w_aux
-    
+
     # Get top words
     word_distance_sum = {}
     for key, val in word_distances.items():
@@ -430,7 +427,7 @@ def main(args):
     sim_json['wordDistances'] = {key:value for key, value in word_distances.items()}
     sim_json['wordDistancesWLabels'] = distances
     sim_json['wordMagnets'] = [word[0] for word in words]
-    
+
     json.dump(sim_json, codecs.open(args.save, 'w', encoding='utf-8'), separators=(',',':'), sort_keys=True)
     if (args.plot):
         plt.show()

@@ -1,0 +1,963 @@
+Prediction AD with MRI based hippocampal volume mild
+cognitive impairment
+C R Jack Jr R C Petersen Y C Xu 
+Neurology 
+DOI WNL 
+This information current July 
+The online version this article along with updated information and services located
+ the World Wide Web 
+http www neurology org content full html
+Neurology the official journal the American Academy Neurology Published continuously
+since now weekly with issues per year Copyright AAN Enterprises Inc All
+rights reserved Print ISSN Online ISSN X 
+Prediction AD with MRI based
+hippocampal volume mild
+cognitive impairment
+C R Jack Jr MD R C Petersen PhD MD Y C Xu MD PhD P C OBrien PhD G E Smith PhD 
+R J Ivnik PhD B F Boeve MD S C Waring PhD E G Tangalos MD and E Kokmen MD
+Article abstractObjective To test the hypothesis that MRI based measurements hippocampal volume are related 
+the risk future conversion Alzheimers disease AD older patients with mild cognitive impairment MCI 
+Background Patients who develop AD pass through transitional state which can characterized MCI In some
+patients however MCI more benign condition which may not progress AD may slowly Patients Eighty
+consecutive patients who met criteria for the diagnosis MCI were recruited from the Mayo Clinic Alzheimers Disease
+Center Alzheimers Disease Patient Registry Methods At entry into the study each patient received MRI examination
+ the head from which the volumes both hippocampi were measured Patients were followed longitudinally with
+approximately annual clinical cognitive assessments The primary endpoint was the crossover individual MCI patients
+ the clinical diagnosis AD during longitudinal clinical follow Results During the period longitudinal observation which averaged months the MCI patients became demented Hippocampal atrophy baseline was
+associated with crossover from MCI AD relative risk RR When hippocampal volume was entered into
+bivariate models using age postmenopausal estrogen replacement standard neuropsychological tests apolipoprotein E
+ APOE genotype history ischemic heart disease and hypertensionthe RRs were not substantially different from that
+found univariately and the associations between hippocampal volume and crossover remained significant Conclusion In
+older patients with MCI hippocampal atrophy determined premorbid MRI based volume measurements predictive 
+subsequent conversion AD 
+NEUROLOGY 
+For patients who develop AD the transition from 
+normal cognitive state clinically recognizable AD
+occurs gradually over years It presumed that the
+pathologic substrate the cognitive decline that
+characterizes AD follows similar slowly progressive
+course with gradual accumulation degenerative
+pathology AD ongoing for years perhaps even decades before manifestation unequivocal clinical
+symptoms Memory impairment usually the initial
+manifestation dementia AD That the transition
+from normal cognition AD gradual however 
+presents clinicians with common and difficult diagnostic problem Does evidence mild memory impairment older individual represent the
+earliest manifestation AD more benign forgetfulness that may not progress dementia? Clinical
+criteria for the classification patients with mild
+cognitive impairment MCI have been established 
+The rate which MCI patients convert AD 
+substantially greater than that the general older
+population and MCI patients are the subject 
+several more recent treatment trials 
+Structural and functional imaging findings are diagnostic markers AD Most imaging studies how 
+ever have been cross sectional nature and have
+been designed demonstrate differences between
+older controls and patients who were already demented Prior studies addressing prediction future
+dementia have been done with relatively few patients with familial AD with the oldest old 
+using subjective image assessment We addressed
+this issue conducting imaging studies and then
+longitudinally following individuals who were 
+increased risk AD because the diagnosis MCI 
+The imaging measurement evaluated was MRI based
+volume measurements the hippocampi We chose
+this measurement because medial temporal lobe limbic structures particularly the hippocampus play 
+central role memory function and are the site 
+the earliest neurofibrillary pathology 
+memory impairment the hallmark early 
+and MRI detects subtle medial temporal lobe damage AD In this study tested the hypothesis that premorbid MRI based hippocampal volume
+measurements patients with MCI were related 
+the risk subsequent conversion AD We also
+determined whether the predictive power hippocampal volume measurements was independent 
+From the Departments Diagnostic Radiology Drs Jack and Xu Neurology Drs Petersen Boeve and Kokmen Health Sciences Research P C OBrien and
+S C Waring Psychiatry and Psychology G E Smith and R J Ivnik and Internal Medicine Dr Tangalos Mayo Clinic and Foundation Rochester MN 
+Supported NIH NIA AG The DANA Foundation and The Alzheimers Association 
+Received October Accepted final form January 
+Address correspondence and reprint requests Dr Clifford R Jack Jr Mayo Clinic Diagnostic Radiology First Street SW Rochester MN 
+Copyright the American Academy Neurology 
+ Neuroanatomic boundaries 
+The column images the left are
+cropped oblique coronal MR images
+through the temporal lobes yearold woman The upper image 
+through the body the hippocampus
+and lower image through the head 
+the hippocampus This mild cognitive
+impairment MCI patient remained
+stable over months clinical followup At baseline her hippocampal W
+score was On the right are
+matched imaging sections yearold woman who was initially categorized having MCI but became demented after months follow Her hippocampal W score was entry
+into the study The hippocampi the patient who became demented right are visibly atrophic relative the stable patient left despite the fact that the crossover patient was years younger The anatomic outlines the left hippocampus
+are indicated 
+other potential predictor variablesage apolipoprotein E APOE genotype estrogen replacement performance selected measures cognitive
+performance hypertension and ischemic heart disease 
+Patients and methods Recruitment and evaluation 
+subjects Eighty consecutive MCI patients were recruited
+from the Mayo Clinic AD Center and AD Patient Registry
+ ADC ADPR which are prospective longitudinal studies
+ aging and dementia Informed consent was obtained
+for participation the studies which were approved 
+the Mayo Institutional Review Board Study participants
+were assigned diagnostic group categories during ADC 
+ADPR consensus committee meetings consisting geriatrician neurologists neuropsychologists psychometrists 
+and nurses who had seen the patient Relevant diagnostic
+categories were those MCI and AD Criteria for the
+diagnosis MCI were the memory complaint documented the patient collateral source 
+normal general cognitive function determined measurements general intellectual function and screening
+instruments normal activities daily living documented history and record independent 
+dementia ruled out Diagnostic and Statistical Manual
+ Mental Disorders revised DSM III R criteria and met National Institute Neurological and
+Communicative Disorders and StrokeAlzheimers Disease
+and Related Disorders Association NINCDS ADRDA criteria for objective memory impairment defined 
+performance standard deviations below age and
+education matched controls indices memory age through years and Clinical Dementia Rating score 
+Ascertainment endpoint The primary endpoint 
+dependent variable this study was the crossover individual MCI patients the AD category during longitudinal follow Patients were enrolled throughout the study
+period All study patients underwent clinical neuropsychological reevaluations approximately month intervals 
+Twenty six patients had single serial follow assessment had two follow assessments and had three
+ more follow assessments MCI patients who remained unchanged cognitively were characterized NEUROLOGY April 
+ble and the mean follow time for these patients was
+ months Patients who became demented all 
+whom received the diagnosis probable AD that time 
+were designated crossover patients the mean follow 
+time from enrollment crossover for these patients was
+ months The diagnosis dementia was made
+according DSM III R criteria The diagnosis probable AD was made according NINCDS ADRDA criteria 
+An MRI examination the brain was performed within
+ months the initial clinical assessment all patients 
+These MRI studies were used the diagnostic process
+only exclude treatable causes cognitive impairment 
+The hippocampal volume data were unknown the consensus committee throughout the study 
+MRI methods All imaging studies were conducted 
+ T Signa General Electric Medical Systems Milwaukee WI using standardized imaging protocol Measurements intracranial volume were derived from 
+ weighted sagittal sequence with contiguous
+sections Volume measurements the hippocampi were
+derived from weighted three dimensional D volumetric spoiled gradient recalled echo sequence with 
+contiguous partitions slice thickness 
+ field view views and flip angle 
+All image processing steps every patient were performed the same research associate who was blinded 
+all clinical information age sex clinical course insure
+that the volumetric data were unbiased Validation studies
+have shown the intra rater test retest coefficient variation hippocampal volumetric measurements 
+with this method The D image data set each patient
+was realigned into orientation perpendicular the
+principal axis the left hippocampal formation The imaging data were then interpolated plane the equivalent
+ matrix and magnified The voxel size 
+the fully processed image data was The borders the hippocampi were manually traced the work
+station screen for each image slice sequentially from posterior anterior Typically imaging slices were
+measured for each hippocampus In plane hippocampal anatomic boundaries were defined include the 
+sectors the hippocampus proper the dentate gyrus and
+the subiculum figure The posterior boundary the
+hippocampus was determined the oblique coronal ana 
+tomic section which the crura the fornices were defined full profile 
+Intracranial volume was determined tracing the
+margin the inner table the skull contiguous images
+from the sagittal sequence 
+Apolipoprotein E genotyping DNA was extracted from
+peripheral leukocytes and amplified PCR PCR products were digested with HhaI and the fragments were
+separated electrophoresis polyacrylamide nondenaturing gel The gel was then treated with ethidium
+bromide for minutes and DNA fragments were viewed
+ ultraviolet illumination 
+Assessment clinical variables The presence absence hypertension and ischemic cardiac disease was
+assessed review medical records Patients were recorded being positive for hypertension hypertension 
+its treatment was identified any point time the
+medical record Patients were considered have ischemic
+heart disease any the following were identified angina
+pectorus myocardial infarction coronary bypass surgery 
+ coronary angioplasty The time menopause and the
+presence absence estrogen replacement therapy were
+also extracted from the medical records 
+Statistical methods The hippocampal volume measurements each patient were normalized for interpatient
+variation head size dividing hippocampal volume 
+the total intracranial volume that particular patient We
+previously determined age and sex specific normal percentiles for normalized hippocampal volume group 
+cognitively normal older controls using the MRI volumetric
+method described Age and sex specific normal percentiles for each the MCI patients were determined
+using this normal value database Each percentile was
+then converted W score The W score the value from
+ standard normal distribution corresponding the observed percentile For example for standard normal distribution the and percentiles are given 
+ and respectively Thus patient with 
+hippocampal volume adjusted for age and sex the fifth
+percentile the normal value database would receive W
+score Similarly patient the percentile
+would receive W score When this method assigning W scores applied the normal older control patient
+database the resulting W scores precisely follow standard normal distribution W scores other study populations including our MCI cohort can then compared
+directly this standard distribution providing framework for comparing hippocampal volume measurements
+among individual patients appropriately corrected for age 
+sex and head size 
+In addition hippocampal volume other predictor variables for crossover AD that were evaluated included
+age APOE genotype Mini Mental State Examination
+ MMSE Dementia Rating Scale DRS Wechsler Memory ScaleRevisedLogical Memory II SubtestParagraph
+Retention score WMS R LMRII Auditory Verbal Learning TestPercent Delayed Retention score AVLT the
+total free recall and delayed recall indices from the Free
+and Cued Selective Reminding Test FCSRT and the
+Controlled Oral Work Association Test total final score
+ COWAT Estrogen replacement hypertension and ischemic heart disease were also modeled potential predictor variables In the APOE risk analysis patients
+were stratified into those with genotypes known increase the risk AD and those who were 
+noncarriers Six patients who were were
+excluded from the APOE risk analysis because the association between AD and unclear 
+Although direct comparison the W scores patients who did and those who did not crossover seems
+natural the length follow varied among patients 
+Direct comparisons between patients who crossed over versus those who did not were therefore analytically inappropriate To accommodate variable follow periods 
+life table methods were used evaluate patient characteristics relating crossover rather than discriminate function analyses logistic regression Each predictor variable
+was evaluated univariately Because sample size limitations extensive multivariate modeling was not feasible 
+The possibility confounding between hippocampal W
+score and other variables was assessed fitting bivariate
+models evaluating hippocampal W score with each the
+other predictor variables individually APOE status estrogen replacement hypertension and ischemic heart disease
+were entered dichotomous variables all analyses All
+tests were two sided Estimates relative risk RR were
+obtained using usual semiparametric Cox regression testing methods A nonparametric version Cox regression
+testing was used for hypothesis testing for quantitative
+variables For these same reasons confidence intervals are
+not reported for estimates risk 
+Tests hypotheses for quantitative risk factors using
+Cox regression testing are sensitive departures from
+normality this case more accurate probability statements are obtained using logit rank tests Because some
+ the data were skewed with the degree skew varying
+among successive risk sets the logit rank test was used
+both univariately and bivariately hypothesis testing 
+The logit rank tests were implemented computationally 
+treating the logit rank scores for each the quantitative
+variables each risk set time dependent covariates 
+ Cox regression model 
+Kaplan Meier survival curves showing the probability
+ crossover for patients stratified hippocampal W
+scores into three groups W W W 
+were used for display purposes only illustrate the association between hippocampal volume and crossover AD 
+The W score W was selected priori This natural
+cut point indicating values patients that are equal 
+greater than the mean value among controls The cutoff
+point W was selected post hoc optimally display
+the gradient the RR crossover associated with hippocampal atrophy A W score corresponds approximately the percentile more precisely the 
+percentile among controls These W score cut points were
+used for display purposes only figure table All statistical analyses tables and were performed using hippocampal W score continuous variable 
+Results Of the patients who were classified having MCI entry into the study died during the
+follow period these after they had converted AD 
+The mean hippocampal W score these MCI patients
+was corresponding the percentile 
+volumes among controls after correction for age sex and
+head size Of the entire group MCI patients had
+hippocampal W scores entry into the study indicatApril NEUROLOGY 
+than those without such history although neither 
+these associations were significant 
+Separate bivariate analyses were performed with hippocampal volume together with each the other predictor
+variables see table Hippocampal volume was significant all models The RR ratios hippocampal volume 
+all bivariate models were similar those observed univariately suggesting the independence hippocampal volume risk factor for crossover relative each the
+other predictor variables evaluated 
+ Hippocampal W score and crossover KaplanMeier curves patients whose hippocampal W score 
+baseline was W and
+ing hippocampal volumes that were above the mean
+value expected for age and sex matched controls Thirteen
+had hippocampal W scores Fifty four had W scores
+between and Patients the three W score groups
+were similar most demographic clinical and cognitive
+testing variables see table During the period observation the MCI patients converted AD Of the
+ MCI patients with hippocampal W scores baseline converted AD with W scores between 
+and crossed over and with W scores 
+crossed over see figure 
+Only hippocampal volume DRS FCSRT free recall and
+age were statistically significant predictor variables univariate analyses the risk crossover see table The
+interpretation hippocampal W score result that for
+each one unit increase the hippocampal W score 
+less atrophy the RR for crossover declined The
+risk crossover declined with advancing decade age 
+Carriers the APOE allele were more likely 
+cross over than noncarriers Patients with better scores 
+the cognitive tests were less likely cross over The one
+exception was that the COWAT with RR and 
+nonsignificant value The association between estrogen
+replacement and crossover was not significant 
+Patients with history hypertension were more likely 
+cross over than those without and patients with history
+ cardiac ischemic disease were less likely cross over
+Discussion Based life table analysis estimate that MCI patients with hippocampal W
+scores baseline will convert AD within 
+years compared with those with hippocampal
+W scores between and and those with
+W scores There considerable controversy
+whether all MCI patients will eventually progress 
+AD whether MCI represents relatively stable
+condition some Our results indicate only that the
+rate conversion greater MCI patients with
+smaller hippocampi and not address the lifetime
+risk conversion 
+Old age established risk factor for AD and 
+ cross sectional prevalence study older age would
+ expected associated with greater prevalence AD This not the case study such 
+ours because the rate which individuals with MCI
+progress AD does not necessarily accelerate with
+age The MCI patients this cohort shared 
+similar cognitive and demographic profile study
+entry see table It possible that because AD 
+clinically heterogeneous disorder patients with incipient AD who were younger may have had more
+rapidly progressing form than those who were
+older 
+This work focused the prediction crossover
+using hippocampal volume measurements The intent was not conduct exhaustive assessment 
+possible neuropsychological testing instruments 
+predictors crossover but test the hypothesis that
+the predictive power imaging studies independent other potential predictor variables such 
+standardized neuropsychological tests The MMSE
+and DRS are measures general cognitive function 
+Table Characterization patients with mild cognitive impairment
+Hippocampal
+W score
+Age 
+mean 
+SD
+Male sex 
+MMSE 
+mean 
+SD
+DRS 
+Education 
+mean SD mean SD
+APOE 
+Follow Crossover 
+mean SD
+AD 
+Between and 
+Total
+ Age time MRI study time patient entered into the study 
+ Mini Mental State Examination MMSE score when patient entered the study Maximum score 
+ Dementia Rating Scale DRS score when patient entered the study Maximum score 
+ Number patients each group who were carriers APOE genotypes known confer increased risk AD and 
+Patients with were not included 
+ Follow from time entry into study conversion AD those patients who crossed over 
+ NEUROLOGY April 
+Table Risk crossover Bivariate analyses
+Table Risk crossover Univariate analyses
+Variable
+Relative risk
+ Value
+Hippocampal W score
+Age decades 
+APOE 
+Hippocampal W score
+Mini Mental State Examination
+APOE 
+Hippocampal W score
+Mini Mental State Examination
+Dementia Rating Scale
+WMS R
+Variables
+Relative risk
+ Value
+Hippocampal W score
+Age decades 
+AVLT
+FCSRT Free Recall
+Hippocampal W score
+FCSRT Delayed Recall
+Dementia Rating Scale
+COWAT
+Hippocampal W score
+Hypertension
+WMS R
+Ischemic heart disease
+Estrogen replacement
+WMS R Wechsler Memory ScaleRevisedLogical Memory II
+SubtestDelayed Paragraph Recall AVLT Auditory Verbal
+Learning TestPercent Delayed Retention FCSRT Free and
+Cued Selective Reminding Test COWAT Controlled Oral Word
+Association Test 
+whereas the AVLT WMS R LMII and FCSRT indices are tests memory The COWAT test 
+verbal fluency measuring attention and language
+skills In bivariate analyses paired with hippocampal W score the associations with risk crossover
+were statistically significant for the DRS and FCSRT
+free recall 
+Other studies have found association between
+postmenopausal estrogen replacement and decreased
+risk developing AD No significant association
+between crossover and estrogen replacement was observed the women this MCI group however 
+The nonsignificant value observed for
+hippocampal W score predictor crossover
+when paired with estrogen bivariately see table 
+may simply the result reduced statistical power
+when men were excluded from the analysis 
+Polymorphisms the APOE gene are significant
+risk factor for developing late onset AD The allele confers both increased risk developing AD
+and also lowers the mean age onset dosedependent fashion whereas the allele protective A trend was present our data indicating that
+the genotypes conferred increased
+RR see table crossover relative MCI patient with the genotypes APOE genotype
+does not influence the rate clinical progression 
+patients with established AD We suspect however 
+that the follow period were extended increase
+the number crossover events APOE would
+emerge significant risk factor for crossover In
+ earlier study analyzing the risk crossover 
+function several known risk factors including age 
+family history variety cognitive testing instruments and APOE genotype APOE emerged 
+Hippocampal W score
+AVLT
+Hippocampal W score
+FCSRT Free Recall
+Hippocampal W score
+FCSRT Delayed Recall
+Hippocampal W score
+COWAT
+Hippocampal W score
+Hypertension
+Hippocampal W score
+Ischemic heart disease
+Hippocampal W score
+Estrogen replacement
+WMS R Wechsler Memory ScaleRevisedLogical Memory II
+SubtestDelayed paragraph recall AVLT Auditory Verbal
+Learning TestPercent Delayed Retention FCSRT Free and
+Cued Selective Reminding Test COWAT Controlled Oral Word
+Association Test 
+the most powerful predictor however imaging variables were not considered that study 
+Unlike genetic markers which are present 
+birth imaging studies can only identify progression
+ the disease itself This true for both structural
+imaging measures and functional measures such 
+PET because imaging studies become abnormal only
+when the disease process itself has produced deviation from normal cerebral function anatomy 
+Ideally the imaging findings should represent markers incipient disease Our data suggest that MRIbased volume measurements the hippocampi
+fulfill this criteria 
+Our results generally agree with those several
+studies Fox studied patients their 
+and who were members family with amyloid precursor protein Val Gla pedigree Hippocampal volume declined more rapidly those who
+April NEUROLOGY 
+declined cognitively than those who remained stable Leon used visual assessment the
+size the perihippocampal CSF spaces CT and
+found individuals with atrophy were more likely 
+progress dementia As part study the
+oldest old Kaye found that the temporal lobes
+but not hippocampi were smaller those who declined cognitively than those who remained stable 
+The unique aspect our study was the combined use
+ all the following features rigorous quantitative MRI based measurement fairly large longitudinal cohort MCI patients who are 
+risk for typical sporadic AD and patients whose
+age was fairly typical for onset AD rather than 
+the extremes the age spectrum 
+There are several limitations this study that
+cannot fully addressed this time The criterion
+used determine the endpoint was the clinical diagnosis AD At our center the clinical diagnosis 
+probable AD accurate compared with the
+pathologic diagnosis definite AD Thus absolute
+determination the endpoint this study can only
+ ascertained the future autopsy Despite the
+small sample size significant relation between
+premorbid hippocampal volume and crossover AD
+was demonstrated which illustrates both the
+strength the association and the clinical potential
+ the technique Moreover this association was not
+altered when evaluated the context series 
+bivariate analyses which included many known risk
+factors for AD Additional studies with larger sample
+sizes are needed however more accurately delineate the rate which risk crossover increases
+with increasing hippocampal atrophy and the possibility that the relation may nonlinear and the role
+ interactions with other predictor variables 
+References
+McKhann G Drachman D Folstein M Katzman R Price D 
+Stadlan EM Clinical diagnosis Alzheimers disease report
+ the NINCDS ADRDA work group under the auspices 
+Department Health and Human Services Task Force 
+Alzheimers disease Neurology 
+Petersen RC smith GE Ivnik RJ Tangalos EG Apolipoprotein E status predictor the development Alzheimers disease memory impaired individuals JAMA 
+Smith GE Petersen RC Parisi JE Definition course 
+and outcome mild cognitive impairment Aging Neuropsychol Cogn 
+Flicker C Ferris SH Reisberg B Mild cognitive impairment
+ the elderly predictors dementia Neurology 
+Masur D Sliwinski M Lipton R Neuropsychological
+prediction dementia and the absence dementia healthy
+elderly persons Neurology 
+Linn R Wolf P Bachman D The preclinical phase 
+probable Alzheimers disease Arch Neurol 
+Jacobs D Sano M Dooneief G Neuropsychological detection and characterization preclinical Alzheimers disease 
+Neurology 
+Bowen J Teri L Kukull W Progression dementia 
+patients with isolated memory loss Lancet 
+DeCarli C Kaye JA Horwitz B Rapoport SI Critical analysis
+ the use computer assisted transverse axial tomography
+ study human brain aging and dementia the Alzheimer
+type Neurology 
+ NEUROLOGY April 
+Fox MC Warrington EK Freeborough PA Presymptomatic
+hippocampal atrophy Alzheimers disease A longitudinal
+MRI study Brain 
+Kaye JA Swihart T Howieson D Dame A Volume loss the
+hippocampus and temporal lobe healthy elderly persons
+destined develop dementia Neurology 
+ Leon MJ Golomb J George AE The radiologic prediction Alzheimer disease the atrophic hippocampal formation AJNR Am J Neuroradiol 
+Braak H Braak E Neuropathological staging Alzheimerrelated changes Acta Neuropathol 
+Arriagada PV Growdon JH Hedley Whyte ET Hyman BT 
+Neurofibrillary tangles but senile plaques parallel duration
+and severity Alzheimers disease Neurology 
+Welsh KA Buters N Hughes J Detection abnormal
+memory decline cases alzheimers disease using CERAD
+neuropsychological measures Arch Neurol 
+Jack CR Jr Petersen RC OBrien PC MR based hippocampal volumetry the diagnosis Alzheimers disease 
+Neurology 
+Convit A Leon MH Tarshis C De Santi S Hippocampal volume losses minimally impaired elderly Lancet
+Laakso MP Soininen H Partanen K Volumes hippocampus amygdala and frontal lobes the MRI based diagnosis early Alzheimers disease correlation with memory
+functions J Neural Transm 
+ Leon MJ George AE Golomb J Frequency hippocampal formation atrophy normal aging and Alzheimers
+disease Neurobiol Aging 
+Petersen RC Kokmen E Tangalos EG Mayo Clinic
+Alzheimers Disease Patient Registry Aging 
+Weintraub S Baratz R Mesulam MM Daily living activities
+ the assessment dementia In Corkin S Growdon JH 
+Usdin E Wurtman RJ eds Alzheimers disease report 
+progress research New York Raven Press 
+American Psychological Association Diagnostic and statistical
+manual mental disorders revised Washington DC 
+American Psychological Association 
+Ivnik RJ Malec JF Smith GE Mayos older Americans
+normative studies WAIS R WMS R and AVLT norms for
+ages through Clin Neuropsychol 
+Morris JC The Clinical Dementia Rating CDR current version and scoring rules Neurology 
+Jack CR Jr Petersen RC Xu YC Medial temporal
+atrophy MRI normal aging and very mild Alzheimers
+disease Neurology 
+Jack CR Jr Bentley M Twomey CK Zinsmeister AR MRbased volume measurements the hippocampal formation
+and anterior temporal lobe validation studies Radiology
+Tsai MS Tangalos EG Petersen RC Apolipoprotein E 
+risk factor for Alzheimers disease Am J Hum Genet 
+Folstein MF Folstein SE McHugh PR Mini Mental State A
+practical method for grading the cognitive state patients for
+the clinician J Psychiatr Res 
+Mattis S Mental status examination for organic mental syndromes the elderly patient In Bellak KT Geriatric
+psychiatry New York Grune Stratton 
+Wechsler D Wechsler Memory Scalerevised New York Psychological Corporation 
+Rey A Lexamen clinique psychologie Paris Presse Universitaires France 
+Grober E Buschke H Crystal H Screening for dementia 
+memory testing Neurology 
+DeCarli C Murphy DGM Tranh M The effect white
+matter hyperintensity volume brain structure cognitive
+performance and cerebral metabolism glucose 
+healthy adults Neurology 
+Corder EH Saunders AM Strittmatter WJ Gene dose apolipoprotein E type allele and the risk Alzheimers disease
+ late onset families Science 
+OBrien PC A non parametric test for association with censored data Biometrics 
+Hebert LE Scherr PA Beckett LA Age specific incidence Alzheimers disease community population 
+JAMA 
+ Jacobs D Sano M Marder KEA Age onset Alzheimers
+disease relation pattern cognitive dysfunction and rate
+ decline Neurology 
+Tierney MC Szalai JP Snow WG Prediction probable
+Alzheimers disease memory impaired patients prospective longitudinal study Neurology 
+Benton AL Hamsher K Varney NR Contributions 
+neuropsychological assessment New York Oxford University
+Press 
+Paganini Hill A Henderson VW Estrogen deficiency and risk
+ Alzheimers disease women Am J Epidemiol 
+Tang M X Jacobs D Stern Y Effect estrogen during
+menopause risk and age onset Alzheimers disease 
+Lancet 
+Growdon J Locasio J Corkin S Apolipoprotein E genotype does not influence rates cognitive decline Alzheimers disease Neurology 
+Small GW Mazziotta JC Collins MT Apolipoprotein E
+type allele and cerebral glucose metabolism relatives 
+risk for familial Alzheimer disease JAMA 
+Reiman EM Caselli RJ Yun LS Preclinical evidence 
+Alzheimers disease persons homozygous for the allele
+for apolipoprotein E N Engl J Med 
+Neuropsychological correlates apathy
+and depression patients with dementia
+G Kuzis PhD L Sabe PhD C Tiberti PhD F Dorrego PhD and S E Starkstein MD PhD
+Article abstractObjective To investigate the association between apathy and depression and specific cognitive deficits
+ AD Background Apathy and depression are frequent behavioral disorders patients with AD However the neuropsychological correlates these disorders have rarely been examined Methods A comprehensive neuropsychological and
+psychiatric evaluation was carried out patients with AD with apathy and depression patients with AD with
+apathy only patients with AD with depression only and patients with AD with neither apathy nor depression
+ control group Results Patients with apathy had significantly lower scores tests verbal memory naming set
+shifting and verbal fluency compared with patients without apathy The association depression and apathy produced
+significantly more severe deficits compared with apathy only test abstract thinking Finally depression the
+absence apathy was not associated with more severe cognitive impairments compared with the AD control group Conclusions Apathy but not depression associated with significantly more severe frontal lobe related cognitive deficits AD 
+NEUROLOGY 
+Apathy and depression are among the most prevalent behavioral disorders patients with AD In 
+recent study that included consecutive patients
+with AD found that had clinically significant apathy Our study also demonstrated several
+significant correlates apathy AD such more
+severe impairments activities daily living more
+severe extrapyramidal signs and significantly
+higher frequency both major depression and dysthymia compared with nonapathetic patients with
+AD Although also demonstrated significant association between apathy and memory deficits the
+study was limited because included only small
+sample patients with AD with apathy only 
+Thus for the current study examined separate consecutive series patients with probable
+AD who were assessed with comprehensive neuropsychological battery that included tests verbal
+and visual memory abstract reasoning auditory
+attention set shifting verbal fluency visuospatial
+reasoning verbal comprehension naming construc 
+tional praxis and manual dexterity To examine the
+influence apathy and depression cognitive functions our study had design and included
+patients with AD with depression but apathy 
+apathy but depression both apathy and depression and neither apathy nor depression 
+Patients and methods Patients A consecutive series
+ patients who attended the dementia clinic our
+institute complaining memory problems were screened
+for participation the study After neurologic and neuropsychological evaluation patients met the State California AD Diagnostic and Treatment Centers criteria for
+vascular dementia and additional people had normal
+assessment Both groups were excluded from further evaluations Thus the final sample our study included 
+patients who met National Institute Neurological and
+Communicative Disorders and StrokeAlzheimers Disease
+and Related Disorders Association criteria for probable
+AD and patients with memory deficits the neuropsychological evaluation but deficits other cognitive
+domains this group had Clinical Dementia Rating CDR
+From the Departments Neuropsychiatry Drs Kuzis Sabe Tiberti Dorrego and Starkstein and Clinical Neurology Dr Starkstein Raul Carrea
+Institute Neurological Research Buenos Aires Argentina 
+Supported part grants from the Raul Carrea Institute Neurological Research FLENI and the Fundacion Perez Companc 
+Received August Accepted final form January 
+Address correspondence and reprint requests Dr Gabriela Kuzis Raul Carrea Institute Neurological Research FLENI Montaneses Buenos
+Aires Argentina 
+Copyright the American Academy Neurology 
+ which classified questionable dementia We
+decided include patients with CDR because most
+ these patients were reported progress into stages 
+definite dementia Moreover the inclusion patients
+with mild cognitive impairment may protect against floor
+effect lack between group differences due poor
+performance across all cognitive tasks 
+Psychiatric examination After informed consent 
+psychiatrist blinded the neuropsychological findings carried out structured psychiatric evaluation using the following instruments 
+Structured clinical interview for Diagnostic and Statistical Manual Mental DisordersIV DSM IV The
+structured clinical interview for DSM IV semistructured diagnostic interview assessing signs and symptoms
+necessary for the major Axis I DSM IV diagnoses The
+interviews were carried out with the patients and least
+one first degree relative who knew them well Based the
+structured clinical interview for DSM IV responses DSM IV
+diagnoses major depression dysthymia were made 
+Hamilton Depression Scale The Hamilton Depression
+Scale HAM D item interviewer rated scale for
+rating the severity symptoms depression TheHAM D
+was administered the caregiver 
+Overt Aggression Scale The Overt Aggression Scale
+ OAS measures specific aspects aggressive behavior
+based observable criteria Aggressive behaviors are divided into four categories verbal aggression physical aggression against objects physical aggression against self 
+and physical aggression against other people 
+Dementia Psychosis Scale This item scale
+that quantifies the severity and types delusions demented patients the time the psychiatric evaluation 
+This scale was rated psychiatrist with the patient and
+ least one close relative caretaker We have demonstrated the validity and reliability this scale AD 
+Apathy Scale This scale includes items that are
+scored the patients relative caretaker Each question has four possible answers scored from Thus 
+the Apathy Scale scores range from points and
+higher scores indicate more severe apathy We have demonstrated the reliability and validity the Apathy Scale
+ AD 
+All instruments included the psychiatric assessment
+ except for the Apathy Scale which was developed one
+ the authors S E S were translated from English into
+Spanish and back translated certified translator with
+the help bilingual neuropsychiatrist S E S 
+Neuropsychological examination Each patient was assessed neuropsychologist blinded psychiatric findings using the following test battery 
+Mini Mental State Examination The item MiniMental State Examination MMSE has been found 
+reliable and valid assessing general cognitive functions
+and serves cognitive screening instrument patients
+with dementia 
+Buschke Selective Reminding Test This test measures verbal learning and memory during multiple trial
+list learning task The patient listens list words 
+and recalls many words possible Each subsequent
+learning trial involves the presentation only those words
+that were not recalled the immediately preceding trial 
+ NEUROLOGY April 
+The outcome measure was the total number words
+recalled 
+Benton Visual Retention Test This test assesses visual perception and nonverbal memory Patients are exposed geometric designs for seconds and are
+immediately presented with card containing the correct
+design among three foils The patient asked select the
+previously presented design There are trials and the
+number correct responses the outcome measure 
+Similarities This subtest the Wechsler Adult Intelligence Scale provides measure abstract reasoning 
+Patients were instructed state the similarity between
+two words Responses were scored according the standardized criteria indicated the manual 
+Digit Span This subtest the Wechsler Memory
+Scale examines auditory attention and includes two parts 
+Both consist seven pairs number sequences that the
+examiner presents the rate one per second In the
+first part Digits Forward the patient asked simply 
+repeat string numbers from two eight numbers 
+length exactly given In the second part Digits
+Backwards the patient asked recite the string 
+numbers from two eight numbers length reversed
+order 
+Wisconsin Card Sorting Test This test measures the
+ability develop and apply new concepts and subsequently shift sets which requires the subjects suppress
+ previously correct learned response and learn new
+one Assessment the overall proficiency the test was
+judged the number categories achieved maximum
+ six 
+Controlled Oral Word Association Test This test examines access semantic information under time constraint Patients were instructed name many words
+beginning with the letter F they could minute 
+Peoples names and proper nouns were not permitted The
+letters A and S were then presented successively with
+ minute allowed for each letter The score was the combined number appropriate words produced minutes 
+Ravens Progressive Matrices This test measures
+visuospatial reasoning Patients are presented with spatial pattern problem with one part removed and four pictured inserts potential matches which only one
+contains the correct pattern The patient has select the
+correct piece match the original spatial patterns The
+patterns become increasingly complex over trials The performance score the number correctly identified 
+Token Test This test measures verbal comprehension
+ receptive language and response commands series
+ increasing complexity 
+Boston Naming Test This test measures the ability 
+retrieve the name line drawings common objects 
+varying familiarity The ability access semantic information assessed and the number correctly named
+objects the outcome measure 
+Block Design This test part the Wechsler Adult
+Intelligence Scale examines the presence constructional executive and perceptual abilities Patients are
+presented with red and white blocks and are asked 
+construct replicas printed designs Accuracy production the outcome measure Time completion was not
+considered the final score 
+Purdue Pegboard Test This test assesses manipula 
+Table Demographic and psychiatric findings
+Control group
+No patients
+Age mean 
+Gender female
+Depression group
+Apathy group
+Depressionapathy group
+Education mean 
+Mini Mental State Examination mean scores
+Hamilton Depression Scale mean 
+Apathy Scale mean
+Overt Aggression Scale
+Dementia Psychosis Scale
+Probable AD 
+Clinical Dementia Rating 
+SDs are parentheses 
+ F 
+ F 
+tive dexterity The apparatus consists board containing two parallel rows holes each and metal pegs 
+Patients are asked take the pegs with the dominant
+ right hand and place them quickly possible 
+the right column holes during second period The
+same procedure repeated with the nondominant hand 
+and the score the number pins inserted the time
+period for each hand 
+Statistical analysis Statistical analysis was carried
+out using means and SDs analysis variance ANOVA 
+and post hoc tests Frequency distributions were calculated using chi square tests and Yates correction for
+expected cell sizes less than All values are twotailed 
+Results Demographic and psychiatric findings Our
+sample was divided into groups with apathy depression
+based the following diagnostic scheme patients meeting
+the DSM IV criteria either major depression dysthymia were included the depressed group whereas patients scoring more than SD the mean apathy scale
+score for age comparable normal control group cutoff
+score points reported previous 
+were considered apathetic Four groups were thus construed apathy without depression apathy only group 
+ depression without apathy depression only
+group with dysthymia and with major depression both depression and apathy with
+dysthymia and with major depression and neither
+apathy nor depression control group No significant between group differences were found for age sex 
+years education MMSE scores and scores agitation
+and delusions table 
+Neuropsychological findings A multivariate analysis
+ covariance for the neuropsychological variables showed
+ significant overall effect Wilks lambda 
+ On individual comparisons patients with apathy
+only had significantly lower scores than patients without
+apathy with without depression the following tests 
+Buschke Total Recall F apathy
+only versus depression only apathy only versus
+control group and the Boston Naming Test
+ F apathy only versus depression
+only apathy only versus control group 
+and significantly lower scores than patients with depression only the Buschke Delayed Recall F 
+ Patients with apathy with without depression had significantly lower scores than patients without
+apathy with without depression the Wisconsin Card
+Sorting Test F and verbal fluency
+ F and significantly lower scores
+than the control group the Purdue Pegboard Test
+ F Finally patients with apathy
+and depression had significantly lower scores than the
+other three groups the Ravens Progressive Matrices
+ F No significant differences 
+any neuropsychological test were found between patients
+with depression only and the control group table 
+Discussion This study examined neuropsychological correlates apathy AD and there were several important findings First patients with AD with
+apathy had significantly lower scores tests verbal memory naming set shifting and verbal fluency
+than patients with AD without apathy Second the
+copresentation both depression and apathy did not
+result cognitive deficits greater than those for apathy alone except test abstract thinking 
+where patients with both apathy and depression had
+significantly lower scores than patients with apathy
+only Finally depression the absence apathy
+was not associated with more severe cognitive impairments when depressed patients with AD are
+compared with patients with AD with neither apathy
+nor depression 
+Before offering further commentary several limitations our study should pointed out First 
+did not divide our sample depressed patients with
+AD into those with major and dysthymic depression 
+and whether specific type depression was associated with more severe cognitive impairments could
+April NEUROLOGY 
+Table Neuropsychological findings
+Buschke Total Recall 
+Buschke Delayed Recall
+Boston Naming Test 
+Wisconsin Card Sorting Test categ 
+Verbal Fluency
+Control
+group
+Depression
+group
+Apathy
+group
+Depressionapathy
+group
+Ravens Progressive Matrices
+Purdue Pegboard Test
+Block Design
+Similarities
+Benton Visual Retention Test
+Digits Forward
+Digits Backward
+Token Test
+SDs are parentheses 
+ Apathy only control and depression groups 
+ Apathy only depression only 
+ Apathy groups apathy groups 
+ Depressionapathy other three groups 
+ Apathy groups control group 
+not examined However recent study 
+could not find significant differences cognitive
+function between patients with AD with major depression dysthymia depression Second our
+study included patients with questionable dementia
+ patients with memory deficits cognitive testing who did not meet the full criteria for probable
+AD and whether all these patients will eventually
+meet the full criteria for AD unknown However 
+several studies demonstrated that most patients
+with questionable dementia progress the phase
+ overt dementia Moreover our study the proportion patients with questionable dementia was
+similar all four groups and the inclusion patients with mild cognitive impairments may have
+protected from lack significant between group differences due floor effect Another limitation 
+that not have neuropathologic confirmation 
+our clinical diagnoses Thus whether our patients
+with apathy had dementia with Lewy bodies which
+was found significantly associated with more
+severe frontal dysfunction than classic AD cannot
+ ruled out Finally measured the severity 
+depression with the HAM D which may potentially
+include apathy related items However mean
+HAM D scores for AD apathy only and AD control
+groups were similar suggesting that HAM D scores
+were not influenced the severity apathy 
+In study that examined the neuropsychological
+correlates apathy patients with PD found
+that apathy with without depression was associated with significantly more severe deficits tasks
+ verbal fluency and verbal memory Similar our
+ NEUROLOGY April 
+current findings patients with both apathy and depression did not show more severe cognitive deficits
+than patients with apathy only We suggested that
+apathy PD may akin the concept bradyphrenia which was defined slowing
+ cognitive processing associated with impairment
+ concentration In preliminary study the cognitive correlates apathy smaller sample patients with AD apathy was significantly associated
+with more severe memory deficits The current
+study assessed larger sample patients with AD 
+and not only replicated the association between apathy and memory deficits but showed that patients
+with AD with apathy with without depression 
+also had significantly more severe deficits tasks 
+naming verbal fluency and set shifting thus demonstrating profile cognitive deficits similar 
+those found previously patients with PD with
+apathy However apathy AD may also correlate
+with overall cognitive disability and future studies
+should examine the specificity the current findings 
+Verbal fluency set shifting and abstract thinking
+have all been considered cognitive abilities related 
+frontal lobe functioning Apathy has been attributed disruption corticosubcortical circuits involving the basal ganglia and the frontal lobes 
+ suggested that lesions the dorsolateral frontal cortex anterior cingulate globus pallidus may produce both apathy and deficits 
+frontal loberelated tasks such verbal fluency
+and set shifting Several recent findings validate this
+hypothesis first demonstrated that patients with
+stroke with apathetic behavior had significantly
+higher frequency lesions involving the globus pallidus compared with patients with stroke without
+apathy Second both AD and PD apathy was
+significantly associated with relatively more severe
+deficits frontal loberelated tasks Third 
+found that apathy AD was significantly associated
+with more severe extrapyramidal signs compared
+with patients with AD without apathy which further
+suggests disruption basal ganglia structures 
+patients with AD with apathy 
+Acknowledgment
+The authors thank Fred Bylsma PhD for his valuable suggestions 
+References
+Migliorelli R Teson A Sabe L Petracchi M Leiguarda R 
+Starkstein SE Prevalence and correlates dysthymia and
+major depression Alzheimers disease Am Psychiatry 
+Starkstein SE Migliorelli R Manes F The prevalence
+and clinical correlates apathy and irritability Alzheimers
+disease Eur J Neurol 
+Chui HC Victoroff JL Margolin D Jagust W Shankle R 
+Katzman R Criteria for the diagnosis ischemic vasculardementia proposed the State California Alzheimers Disease Diagnostic and Treatment Centers Neurology 
+McKhann G Drachman D Folstein MF Clinical diagnosis Alzheimers disease report the NINCDS ADRDA
+Work Group under the auspices Department Health and
+Human Services Task Force Alzheimers Disease Neurology 
+Hughes CP A new clinical scale for the staging dementia 
+Br J Psychiatry 
+Morris JC Mckeel DW Jr Storandt M Very mild Alzheimer disease informant based clinical psychometric and
+pathological distinction from normal aging Neurology 
+Spitzer RL Williams JB Gibbon M First MB The structured
+clinical interview for DSM III R SCID I history rationale 
+and description Arch Gen Psychiatry 
+Hamilton MA A rating scale for depression J Neurol Neurosurg Psychiatry 
+Yudofsky SC Silver JM Hales RE Treatment aggressive
+disorders In Shatzberg AF Nemeroff CB eds Textbook 
+psychopharmacology Washington DC American Psychiatric
+Press 
+Migliorelli R Petracca G Teson A Sabe L Leiguarda R 
+Starkstein SE Neuropsychiatric and neuropsychological correlates delusion Alzheimers disease Psychol Med 
+Starkstein SE Fedoroff JP Price TR Leiguarda R Robinson
+RG Apathy following cerebrovascular lesions Stroke 
+Starkstein SE Robinson RG Neuropsychiatric aspects 
+stroke In Coffey CE Cummings JL eds Textbook geriatric neuropsychiatry Washington DC American Psychiatric
+Press 
+Folstein MF Folstein SE McHugh PR Mini Mental State 
+practical method for grading the cognitive state patients for
+the clinician J Psychiatr Res 
+Buschke H Fuld PA Evaluating storage retention and retrieval disordered memory and learning Neurology 
+Benton AL The Revised Visual Retention Test New
+York The Psychological Corporation 
+Wechsler D Wechsler Adult Intelligence Scale manual New
+York The Psychological Corporation 
+Wechsler D A standardized memory scale for clinical use 
+J Psychol 
+Nelson HE A modified card sorting test sensitive frontal
+lobe defects Cortex 
+Benton AL Differential behavioral effects frontal lobe disease Neuropsychology 
+Raven JC Court JH Raven J Manual for Ravens Progressive
+Matrices and Vocabulary Scales London H K Lewis Co 
+De Renzi E Faglioni P Development shortened version 
+the Token Test Cortex 
+Kaplan EF Goodglass H Weintraub S The Boston Naming
+Test Philadelphia Lea Febiger 
+Tiffin J Asher EJ The Purdue Pegboard norms and studies
+ reliability and validity J Appl Psychol 
+McKeith IG Fairbairn AF Bothwell RA An evaluation
+ the predictive validity and inter rater reliability clinical
+diagnostic criteria for senile dementia Lewy body type 
+Neurology 
+Starkstein SE Mayberg HS Preziosi TJ Andrezejewski P 
+Leiguarda R Robinson RG Reliability validity and clinical
+correlates apathy Parkinsons disease J Neuropsychiatry
+Clin Neurosci 
+Rogers D Depression neurologic disease In Starkstein S 
+Robinson R eds Depression neurological illness Baltimore Johns Hopkins University Press 
+Cummings JL Frontalsubcortical circuits and human behavior Arch Neurol 
+Merello M Sabe L Teson A Extrapyramidalism 
+Alzheimers disease prevalence psychiatric and neuropsychological correlates J Neurol Neurosurg Psychiatry 
+April NEUROLOGY 
+Prediction AD with MRI based hippocampal volume mild cognitive
+impairment
+C R Jack Jr R C Petersen Y C Xu 
+Neurology 
+DOI WNL 
+This information current July 
+Updated Information 
+Services
+including high resolution figures can found 
+http www neurology org content full html
+References
+This article cites articles which can accessed free 
+http www neurology org content full html 
+Citations
+This article has been cited HighWire hosted articles 
+http www neurology org content full html related 
+rls
+Permissions Licensing
+Information about reproducing this article parts figures 
+tables its entirety can found online 
+http www neurology org misc about xhtml permissions
+Reprints
+Information about ordering reprints can found online 
+http www neurology org misc addir xhtml reprintsus

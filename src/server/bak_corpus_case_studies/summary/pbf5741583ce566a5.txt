@@ -1,0 +1,19 @@
+To correct for individual differences in brain size, entorhinal and hippocampal volumes were normalized by dividing with intracranial volume derived from sagittal slices.
+
+Because there were no significant differences in EC or HF volumes based on the presence or absence of cognitive deficits on formal testing, the group of ND patients was considered as a whole in all subsequent analyses.
+
+Scatterplot of total entorhinal and hippocampal volume shown for two groups at a time, including regression line derived from logistic regression models using both volumes.
+
+Entorhinal volume did not contribute any additional ability to classify patients with AD. Again, the volume of each area of interest predicted group membership significantly when examined alone, but more subjects could be classified accurately using hippocampal volume.
+
+Further, in logistic regressions using total hippocampal and entorhinal volume as predictors, only EC volume was a significant predictor of the likelihood of conversion.
+
+The results described above showed that both patient groups differed from controls in entorhinal volume, but not from each other.
+
+In contrast, the two patient groups differed from controls in hippocampal volume, as well as from each other, with the AD cases showing the greatest atrophy.
+
+Taken together, these findings suggest that degeneration of the EC and HF occurs before the onset of obvious dementia and that HF atrophy is associated with the progression from mild subjective or objective cognitive impairment to AD. Although the ND group showed significant atrophy in both structures, logistic regression models demonstrated that entorhinal volume was better than hippocampal volume in differentiating these patients from controls, suggesting that the EC becomes pathologically involved before the HF. On the other hand, the extent of hippocampal atrophy was better at differentiating patients with very mild AD from ND cases; atrophy of both structures played an equivalent role in differentiating patients with very mild AD from controls.
+
+The lack of a significant difference between the two patient groups in entorhinal volume and the fact that the ND cases could best be differentiated from controls by EC volume further suggest that MRI-based entorhinal atrophy may provide an in vivo marker of incipient AD. This suggestion is strongly supported by the fact that converters to AD among the ND participants could be best differentiated from non-converters on the basis of entorhinal volume.
+
+Only a few groups have focused their investigations on patients with very mild AD. The literature is less clear cut with respect to alterations in hippocampal volume in patients with isolated memory complaints or mild cognitive impairment compared to controls.

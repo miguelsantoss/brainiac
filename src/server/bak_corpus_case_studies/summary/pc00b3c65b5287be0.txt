@@ -1,0 +1,19 @@
+To evaluate the precision of ZIC-HILIC, we quantiﬁed glucosyl- and galactosylceramides in seven different regions of the mouse brain and discovered that GlcCer and GalCer concentrations are inversely related.
+
+GalCer is a component of myelin and plays a critical role in myelin-related functions , whereas GlcCer is involved in axonal growth [6,7]. On the other hand, PtdGlc, a novel glycerol-type glucosylated lipid, is a minor component of lipid rafts.
+
+In non-neural tissues, GlcCer exhibits structural complexity, and each GlcCer species has distinctive functions, as in ceramide species.
+
+More recently, a HILIC-based method using ultraperformance LC and supercritical ﬂuid chromatography has been demonstrated to discriminate sufﬁciently between GlcCer and GalCer in brain tissue samples [23,24].
+
+While these approaches have been used to quantify both GlcCer and GalCer, they suffer from substantial variability among different samples [21-24]. Consequently, an alternative method with improved resolution of complex GlcCer would be highly desirable.
+
+The successful discrimination of complex epidermal GlcCer mixtures based on their ceramide moieties via a two-column setup conﬁrmed the suitability of our ZIC-HILIC method for characterizing the carbohydrate and ceramide moieties of GlcCer simultaneously.
+
+Total lipids were extracted from lyophilized tissues added with GlcCer containing 5 pmol/mg of lyophilized tissue, according to the method of Bligh and Dyer.
+
+The major fatty acid present in GlcCer from P5 mouse brain was stearic acid, whereas the predominant fatty acid in GalCer from adult mouse brain was a nervonic acid residue.
+
+Filled bars in A and B indicate GlcCer and GalCer with non-hydroxy fatty acid, and striped bars in B indicate GalCer with ␣OHFA. The content and variability for each compound are shown in Table S2. GalCer species, which is the predominant constituent in adult mouse brain.
+
+The m/z value at 812 in S1 and at 810 in S2 corresponded to GlcCer and GlcCer, respectively.

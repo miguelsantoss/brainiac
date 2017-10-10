@@ -1,0 +1,967 @@
+Brain Imaging and Behavior
+DOI 
+ORIGINAL RESEARCH
+BSmall World architecture brain connectivity
+and hippocampal volume Alzheimers disease study via
+graph theory from EEG data
+Fabrizio Vecchio Francesca Miraglia Francesca Piludu Giuseppe Granata 
+Roberto Romanello Massimo Caulo Valeria Onofrj Placido Bramanti 
+Cesare Colosimo Paolo Maria Rossini 
+ Springer ScienceBusiness Media New York 
+Abstract Brain imaging plays important role the study
+ Alzheimers disease AD where atrophy has been found 
+occur the hippocampal formation during the very early disease stages and progress parallel with the diseases evolution The aim the present study was evaluate possible
+correlation between BSmall World characteristics the brain
+connectivity architectureas extracted from EEG recordingsand hippocampal volume AD patients A dataset 
+ subjects including AD MMSE and healthy
+Nold MMSE individuals was evaluated Weighted and
+undirected networks were built the eLORETA solutions 
+the cortical sources activities moving from EEG recordings 
+The evaluation the hippocampal volume was carried out 
+Highlights
+ Functional connectivity and optimal network structure essential for
+information processing the brain 
+ Progressive structural changes the brain Alzheimer Patients are
+associated with changes connectivity and networks architecture 
+ Aim the present study was correlate the network properties from
+EEG signals with hippocampal atrophy cognitive decline patients
+ Alzheimer graph analysis tools 
+ Fabrizio Vecchio
+fabrizio vecchio fabrizio vecchiosanraffaele 
+Brain Connectivity Laboratory IRCCS San Raffaele Pisana Via Val
+Cannuta Rome Italy
+IRCCS Centro Neurolesi Bonino Pulejo Messina Italy
+Department Radiologic Sciences Catholic University Policlinic
+A Gemelli Rome Italy
+Department Neuorscience Imaging and Clinical Sciences 
+University Chieti Chieti Italy
+Department Geriatrics Neuroscience Orthopedics Institute 
+Neurology Catholic University Policlinic A Gemelli Rome Italy
+ subgroup AD patients who received high resolution
+ weighted sequence and underwent processing for surfacebased cortex reconstruction and volumetric segmentation
+using the Freesurfer image analysis software Results showed
+that quantitatively more correlation was observed the right
+hemisphere but the same trend was seen both hemispheres 
+Alpha band connectivity was negatively correlated while
+slow delta and fast frequency beta gamma bands positively correlated with hippocampal volume Namely the larger the
+hippocampal volume the lower the alpha and the higher the
+delta beta and gamma Small World characteristics connectivity Accordingly the Small World connectivity pattern
+could represent functional counterpart structural hippocampal atrophying and related network disconnection 
+Keywords Graph theory Alzheimer Functional
+connectivity EEG Hippocampus eLORETA MRI
+Introduction
+Brain imaging has played variety roles the study 
+Alzheimers disease AD over the past four decades Initially 
+computed tomography CT and then magnetic resonance imaging MRI were used diagnostically rule out other causes
+ dementia such vascular non Alzheimer neurodegeneration well reversible dementias More recently variety imaging modalitiesincluding structural and functional MRI and positron emission tomography PET studies
+ cerebral metabolism and amyloid plaque tracers via specific
+radioligandshave shown characteristic changes the brains
+ AD patients Changes also appear the prodromal and
+presymptomatic stages making easier rule out the
+AD pathophysiological process 
+Brain Imaging and Behavior
+Increasing evidence from structural and functional MRI
+studies suggests that Alzheimers disease and mild cognitive
+impairment may target specific brain networks deToledoMorrell Structural imaging can detect the time
+course brain atrophying patients with Alzheimers disease and may serve surrogate marker for pathological
+changes people suspected having AD 
+In broad terms structural MRI AD can utilized 
+assess atrophy volumes and changes tissue characteristics These cause signal alterations certain sequences
+such white matter hyperintensitieson the weighted
+MRI result gliotic lesions secondary vascular damage A number MR sequences that are sensitive microstructural change magnetization transfer diffusion 
+have shown alterations AD Volumetric MRI becoming
+ increasingly important tool the early detection and care
+ people suspected having mild cognitive impairment 
+Alzheimers disease Scheltens 
+MRIbased measures atrophy are regarded valid
+markers diseases state and progression for several reasons Marizzoni Progressive atrophy considered counterpart concomitant neurodegeneration and disease evolution cognitive decline Moreover the topography
+ brain tissue loss correlates with cognitive deficits both
+cross sectionally and longitudinally Patients with
+Alzheimers disease may express typical pathologic changes
+ cortical gray matter characterized the accumulation 
+amyloid beta plaques the formation neurofibrillary tangles 
+and neuronal and synaptic loss Delacourte All
+these changes lead cerebral atrophy specific brain regions
+and networks The pattern neuronal synaptic depauperation
+differs across various forms dementia reflecting selective
+vulnerability and regional disease expression and becoming increasingly clear thatby the time typical AD
+patient receives diagnosisregions within his her brain
+have already been atrophying for several years well before
+symptom onset This partially contrasted the neural 
+synaptic reserve and plasticity see for review DAmelio
+and Rossini In patients with Alzheimers disease atrophy has been found occur the hippocampal formation and
+entorhinal cortex has been demonstrated several volumetric MRI studies Apostolova Du 
+Killiany Wolz Zimny 
+Actually the vast majority structural brain imaging studies
+have been based histopathological evidence that the entorhinal cortex and hippocampus are among the first sites impacted the disease during its pre symptomatic stages including Mild Cognitive Impairment MCI 
+Among the different MRI markers AD Modrego 
+the rate whole brain and hippocampal atrophy assessed
+ high resolution weighted MRI well established and
+validated and increasingly being used outcome measure clinical trials experimenting with potentially disease 
+modifying therapies Recently three dimensional gradientecho sequences have allowed for the calculation volumes
+and the registration images during the follow phase
+and have been used clinical practice Whitwell 
+Despite their convoluted structure the boundaries the hippocampal formation and adjacent CSF spaces are easier for
+human operators automated algorithms recognize than
+the amygdala entorhinal cortex parahippocampal gyrus 
+This because the anatomical boundaries the hippocampus
+are distinct high resolution weighted MRI scans around
+most the surface the structure 
+Unlike weighted imaging relaxometry allows for
+the quantitative measurement signal changes weighted images However the ability weighted imaging differentiate MCI from AD and Nold limited because
+various confounding pathologiessuch brain edema demyelination and axonal lossmay also result changes
+similar those seen Alzheimers disease Early reports
+used serial manual detection the anatomical boundaries 
+the hippocampus and entorhinal cortex Pitkanen 
+Hippocampal volume measured vivo MRI correlates
+with the Braak stage and neuronal counts Bobinski 
+ Gosche Jack Patients with
+MCI have smaller entorhinal cortex and hippocampus than
+healthy age matched subjects However patients with AD
+may experience prominent volume reduction the entorhinal cortex and hippocampus During the mild AD stage hippocampal volume already reduced relative 
+controls van der Flier and the amnestic variant
+ MCI the volume reduced Barnes 
+Shi Furthermore new Alzheimers disease
+criteria allow for earlier diagnosis the disease including biomarkers derived from cerebrospinal fluid hippocampal volume analysis Dubois Dubois 
+Altogether structural MRIs can help support clinical diagnosis but unfortunately such techniques are not sufficient 
+establish definitive diagnosis often the overlap between
+atrophy associated with Bhealthy aging and AD too great 
+Characteristics neural firing synchronization the oscillating rhythms resting eyes closed electroencephalographic EEG recordings have been repeatedly demonstrated
+ become abnormal during the pre clinical and clinical AD
+stages Vecchio Vecchio Moreover 
+ was demonstrated that network analysis the EEG recordings could improve the discrimination AD and that
+this analysis could correlate with the structural brain data revealed DTI Vecchio Vecchio 
+Network connectivity properties were usually quantified 
+the framework graph formalism means Clustering
+Coefficient C and Path Length L Miraglia 
+Stam Stam Vecchio 
+which also deal with the Bsmall world properties networks
+ AD In Stam changes C increases L
+Brain Imaging and Behavior
+were reported AD A decrease C and L for the AD
+condition was found Stam which was
+interpreted loss resting state connectivity and tendency more random networks Regarding this kind functional network analysis Watts and Strogatz introduced the
+concept small world networks allowing for optimal
+balance between local specialization C and global integration L Watts and Strogatz This approach combined
+with graph theory concepts promising way characterize
+brain functional organization Bassett and Bullmore 
+correlates with behavioral and clinical well structural 
+findings It also allows researchers evaluate whether the
+functional connectivity patterns between brain areas reproduce the organization more less strongly connected networks based the time varying strength synchronization
+ the oscillatory neuronal firings brain regions representing
+the networks nodes Vecchio Vecchio 
+ Vecchio 
+Within this theoretical frame our working hypothesis was
+that hippocampal atrophy and the functional network the
+cortical sources resting EEG rhythms could inter related 
+Consequently the aim this study was determine whether
+the BSmall World connectivity characteristic the ratio
+between Clustering and Path Length namely the evaluation
+ this optimal balance between local specialization and global
+integration the resting state brain networks correlated with
+hippocampal atrophy subjects affected Alzheimers
+Disease 
+Subjects and methods
+Participants
+A dataset EEG recordings was analyzed The patient
+group included AD MMSE while the control
+group included healthy subjects Nold MMSE The
+mean age was about years across the two groups Part 
+the present dataset healthy subjects was previously used for
+other studies Miraglia Vecchio 
+Demographic data are reported Table 
+All subjects were right handed according the
+Handedness Questionnaire Informed consent was obtained
+from each subject and the study was approved the local
+ethical committee Experimental procedures conformed the
+Declaration Helsinski and national guidelines 
+Table 
+Nold
+AD
+Demographic data the partecipants
+Age years 
+Gender
+Education years 
+MMSE
+ F
+ F
+Inclusion and exclusion criteria
+All subjects took part battery neuropsychological tests
+that assessed their attention memory executive function 
+visuo construction abilities and language Memory was
+assessed means the immediate and delayed recall 
+the Rey Auditory Verbal Learning Test Carlesimo 
+ the delayed recall Rey figures Rey the delayed recall three word list Chandler the
+delayed recall story and short term memory performance assessed via digit span for both forward and backward
+tasks Monaco Pathological performances 
+memory tasks were set below the percentile the normal
+population 
+Each subject was also examined expert neurologists and
+submitted list diagnostic tests including the MRI 
+SPECT Single Photon emission Tomography MMSE
+ Mini Mental State Evaluation clinical dementia rating
+ Hughes geriatric dementia score GDS 
+ Yesavage Hachinski Ischemic Score HIS 
+ Rosen and Instrumental Activities Daily
+Living scale IADL Lawton and Brody confirm
+the diagnosis and exclude other causes dementia such 
+frontotemporal dementia vascular dementia extrapyramidal
+syndromes reversible dementias and Lewy body dementia 
+When required lumbar puncture was carried out measure
+A Beta and Tau protein contents 
+AD was diagnosed according the National Institute 
+Aging Alzheimers Association workgroups McKhann 
+ and DSM IV TR criteria Exclusion criteria for AD
+included any evidence frontotemporal dementia behavioural variants frontotemporal dementia iii vascular
+dementia extra pyramidal syndromes reversible dementias including the pseudodementia depression and
+ Lewy body dementia 
+Clinical diagnosis was corroborated the presence 
+significant reduction hippocampal volume increased width
+ the temporal horn and increase the choroidal fissure
+ between and the likeart scale MRI Roman 
+Data recordings and preprocessing
+The EEG recording was performed rest with closed eyes
+and task conditions for least min while the subject
+was seated and relaxed sound attenuated and dimly lit
+room bed Electroencephalographic signals were measured from electrodes 
+ Fz Cz and Pz positioned
+according the International system linked ears reference The monitoring the eye movements was obtained
+from two different channels vertical and horizontal EOGs 
+Skin electrode impedances were lowered below K 
+Brain Imaging and Behavior
+Data were analyzed with Matlab software Math
+Works Natick MA using scripts based the EEGLAB
+ toolbox Swartz Center for Computational
+Neurosciences La Jolla CA www sccn ucsd edu eeglab 
+The EEG recordings were band pass filtered from 
+ Hz using finite impulse response FIR filter and the
+sampling rate frequency was set Hz To eliminate
+interference caused ocular muscular cardiac and other
+types artifacts imported data were fragmented duration epochs and used for two processes The data were
+reviewed and the epochs with aberrant waveforms with
+evident epileptiform activity were manually discarded 
+expert EEGer Second artifact detection rejection was completed through independent component analysis ICA using
+the Infomax ICA algorithm implemented the EEGLAB 
+ICA blind source decomposition algorithm that enables
+the separation statistically independent sources from multichannel data It effectively separates ocular movements and
+blink artifacts from EEG data Iriarte Jung 
+ The components were then visually inspected and 
+artifact contamination was found they were manually
+rejected 
+Functional connectivity analysis
+EEG functional connectivity analysis has been performed using
+low resolution electromagnetic tomography software compute the cortical three dimensional distribution the current
+density Miraglia Vecchio free
+academic software publically available http www uzh 
+keyinst NewLORETA htm The eLORETA
+algorithm linear inverse solution for EEG signals 
+Because has localization error points sources under
+ideal noise free conditions Pascual Marqui 
+The eLORETA method discrete three dimensionally
+ D distributed linear weighted minimum norm inverse solution The particular weights used endow the tomography
+with the property exact localization test point sources 
+yielding images current density with exact localization 
+albeit with low spatial resolution neighboring neuronal
+sources will highly correlated The description the
+method and the proof its exact zero error localization property are described Pascual Marqui It also important
+ emphasize that eLORETA has localization bias even 
+the presence structured noise It should further emphasized that the localization properties any linear D inverse
+solution tomography can always determined localization errors test point sources If such tomography has
+zero localization error such point sources located anywhere
+ the brain thenexcept the case low spatial resolutionthe tomography will correctly localize any arbitrary D
+distribution This due the principles linearity and
+superposition 
+The previously developed related tomography LORETA
+ Pascual Marqui has received considerable validation from studies combining LORETA with other more
+established localization methods such fMRI Mulert 
+ Vitacco structural MRI Worrell 
+ and PET Dierks Pizzagalli 
+Zumsteg Further LORETA validation has been
+based accepting ground truth the localization findings
+obtained from invasive implanted depth electrodes 
+Pertinently there are several studies epilepsy Volpe 
+ Zumsteg and cognitive ERPs
+ Pizzagalli Furthermore sLORETA PascualMarqui has recently been validated several simultaneous EEG fMRI studies Mobascher Olbrich
+ and EEG localization study for epilepsy
+ Rullmann All these results validate the accuracy
+measure the eLORETA method which also supported 
+several EEG fMRI studies Mobascher Olbrich 
+ and EEG localization study for epilepsy
+ Rullmann due its improved localization properties Others Greenblatt Sekihara 
+showed that the method has high degree accuracy and
+ localization bias the absence measurement noise 
+however the presence measurement noise they found
+that sLORETA has localization bias Furthermore several
+recent studies from independent groups Aoki 
+Barry Canuet Ikeda 
+Ramyead Vecchio Vecchio 
+ Vecchio Vecchio supported
+correct source localization using eLORETA along with electrode EEG recording with standard montage 
+For the current implementation eLORETA computations were made for realistic head model Fuchs 
+ using the template Mazziotta 
+with the three dimensional solution space restricted cortical gray matter determined the probabilistic
+Talairach atlas Lancaster The standard electrode positions the scalp were taken from
+Jurcak The intracerebral volume was partitioned
+ voxels spatial resolution Thus 
+eLORETA images represented the electric activity each
+voxel the neuroanatomic Montreal Neurological Institute
+ MNI space the exact magnitude the estimated current density Anatomical labelssuch Brodmann
+areasare also reported using MNI space corrected 
+Talairach space Brett 
+To obtain topographic view the whole brain brain
+connectivity was computed with sLORETA eLORETA software regions positioning the center the available 
+Brodmann Areas BAs 
+ the left and
+right hemispheres 
+Brain Imaging and Behavior
+Regions Interest ROIs are needed estimate the electric neuronal activity used analyze brain functional connectivity No general rules for constructing the ROIs are available 
+The signal each cortical ROI consisted the average electric neuronal activities all voxels belonging that ROI 
+computed with eLORETA 
+For each hemisphere among the eLORETA current density
+time series the ROIs intracortical Lagged Linear
+Coherence extracted using sphere with radius
+ Pascual Marqui was computed between all possible
+pairs the ROIs for each the five independent EEG frequency bands delta Hz theta Hz alpha 
+ Hz alpha Hz beta Hz beta 
+ Hz and gamma Hz for each subject 
+The well known definition for the complex valued coherence between time series and the frequency band 
+rxyw 
+ReCovx iImCovx 
+Varx Vary
+which based the cross spectrum given the covariance
+andvariances the signals where the imaginary unit
+Beginning with the definition the complex valued coherence between time series and the frequency band 
+which based the cross spectrum given the covariance
+and variances the signalsthe lagged linear coherence 
+the frequency band reported acordance with the following equation Pascual Marqui 
+xyw 
+ImCovx 
+Varx VaryReCovx 
+Where Var and Cov are variances and covariances the
+signals 
+It was developed measure true physiological connectivity not affected volume conduction and low spatial
+resolution Pascual Marqui The values lagged linear
+connectivity computing between all pairs ROIs for each
+frequency band were used weights the networks built
+ the graph analysis 
+A weighted network was built based the connectivity
+between ROIs The nodes the network are ROIs and the
+edges the network are weighed the lagged linear coherence values 
+Graph analysis
+A network mathematical representation real world
+complex system It defined collection nodes
+ vertices and links edges between pairs nodes Nodes 
+large scale brain networks usually represent brain regions 
+while links represent anatomical functional effective
+connections Friston depending the dataset 
+Anatomical connections typically correspond white matter
+fiber tracts between pairs grey matter brain regions cortical
+areas subcortical relays Functional connections correspond magnitudes temporal correlations activity and
+may occur between pairs anatomically unconnected
+regions 
+A weighted graph mathematical representation set
+ elements vertices that may linked through connections
+ variable weights edges 
+In the present study weighted and undirected networks
+were built The vertices the networks are the estimated
+cortical sources the BAs and the edges are weighted 
+the Lagged Linear value within each pair vertices The
+software instrument used here for the graph analysis was the
+Brain Connectivity Toolbox BCT http www brainconnectivity toolbox net adapted with our own Matlab
+scripts 
+The clustering C around vertex quantified the
+number triangles which vertex participates normalized
+ the maximum possible number such triangles This
+quantity normalized between and and characterizes
+the tendency the nearest neighbors node interconnected As triangles are one type subgraph the definition 
+C may used yield the weighted Clustering coefficient Cw
+ replacing the number triangles with the sum triangle
+intensities Onnela 
+The mean clustering coefficient computed for all nodes
+ the graph and then averaged It represents the tendency 
+ networks elements form local clusters 
+Weighted Characteristic Path length Lw defined 
+Onnela represents the shortest weighted path
+length between and map inverse from weight
+ length and giwj the shortest weighted path between 
+and To obtain individual normalized relative measures the
+values the characteristic path length and the clustering
+coefficient were divided the mean values obtained the
+average themselves the bands each subject 
+The Small world property was evaluated the ratio between relative Clustering and Path Length measure for each
+subject 
+Structural MRI acquisition parameters and image
+processing
+All subjects received diagnostic MRI study T GE
+Health Care and Siemens MRI scanners ascertain brain
+pathology Small vessel disease was identified MRI 
+silent lacunar infarcts small hypointense CSF isointenseregions weighted MRI white matter
+hyperintensities that appear punctuate diffuse regions
+ hyperintense signal and FLAIR MRI micro bleeds
+ the gradient echo MRI 
+Brain Imaging and Behavior
+Sixty out the patients with Alzheimers disease also
+received also morphometric MRI study that had include
+one high quality and high resolution weighted sequence 
+According standardized ADNI protocol Jack 
+ options for this high quality D weighted sequence
+were magnetization prepared rapid gradient echo MPRAGE with the following parameters repetition time
+ TR minimum full TE inversion time TI 
+ flip angle and voxel size with 
+slice thickness with gaps 
+The quality the structural high resolution structural brain
+MRI scans were rated two experienced neuroimaging researchers FP and MC according three point rating scale 
+ motion artifacts excellent quality few motion
+artifacts fair quality and moderate severe motion artifacts poor quality Only datasets with scores were considered sufficient quality for research purposes The
+criteria used define quality were signal noise ratio 
+tissue contrast and artifacts including motion artifacts
+ ghosting and smearing edge artifacts ghosting chemical shifts and ringing distortions and aliasing wraparound artifacts 
+The neuroradiologists were blinded all clinical data and
+diagnostic categories The raw D MRI data gleaned from
+sixty patients underwent processing for surface based cortex
+reconstruction and volumetric segmentation using the
+Freesurfer image analysis software version which 
+documented and freely available for download online http 
+surfer nmr mgh harvard edu and can installed OSX
+Mavericks 
+All subjects were affine registered the Talairach atlas
+ Fox Image intensity variations due magnetic
+fields homogeneities were normalized Then skull stripping algorithm was applied and the non brain tissue was removed using hybrid watershed surface deformation procedure Fox Hereafter cutting planes were used 
+separate the hemispheres cerebellum and brain stem 
+Next estimate the gray white boundary was constructed classifying all white matter voxels MRI volume The surface the white matter voxels was refined 
+obtain better accuracy the gray white boundary and was
+then subsequently deformed outward find the pial surface 
+according Fischl and Dale Jack The surface
+deformation was based local adaptive estimation the
+MRI values the different surfaces minimizing 
+constrained energy function Cortical and subcortical labeling
+was performed utilizing transformation that maps the individual subjects into probabilistic atlas 
+Image outputs from each stage the Freesurfer processing
+were visually inspected and necessary edited the imaging analysts FP and MC refine the segmentation and correct software delineation errors For subsequent analyses
+among patients and control subjects hippocampal
+measurements were normalized the hemispherical grey
+matter cortex 
+Statistical evaluation
+The eLORETA statistical evaluation was made with graph
+analysis pattern extracted through sLORETA eLORETA from
+the brain network including ROIs the left and ROIs
+ the right hemisphere The normality the data was tested
+using the Kolmogorov Smirnov test and the hypothesis 
+Gaussianity could not rejected In order confirm the
+goodness the data statistical ANOVA design was addressed for the Small World among the factors Side left
+and right hemisphere Group AD Nold and Band delta 
+theta alpha alpha beta beta gamma Furthermore 
+statistical test was also administered for the normalized hippocampal volume the two hemispheres 
+Finally for each hemisphere Pearsons linear correlations
+were tested between the Small world coefficient each frequency band and the normalized hippocampal volume the
+Alzheimer sub group Bonferroni corrected obtain 
+Results
+ illustrates the connectivity patterns the eLORETA
+connectivity maps for the two groups subjects the explored frequencies The maps illustrated only the connections
+ among the ROIs mentioned left and right BAs that
+resulted higher than arbitrary threshold for each frequency
+band The arbitrary threshold was selected through visual inspection order show the differences among groups No
+statistical analysis was evaluated regarding the functional connection the groups the aim the present study was 
+test the variation graph pattern and not single connections 
+Visual inspection shows that AD subjects present higher
+number connections the lower frequency bands than
+Nold Moreover alpha bands present focal localization 
+the posterior areas that decreases the number tracts AD
+with respect the Nold group 
+ANOVA findings suggests that Small World characteristics
+statistically interacted F between
+the factors Group AD Nold and Band delta theta alpha 
+alpha beta beta gamma Fig Duncan planned posthoc testing showed that line with previous evidence
+ Miraglia Vecchio Nold presented
+higher Small World values than AD the delta theta and
+beta bands while the opposite was found the
+alpha bands for which Nold presented lower values with respect AD 
+Structural MRI analysis normalized hippocampal volume showed significant statistical test between the two
+hemispheres 
+Brain Imaging and Behavior
+Fig Small World trends the
+two groups subjects
+Correlation analysis the AD group was performed
+among the weighted Small World coefficients all seven
+bands and the normalized hippocampal volume All significant comparisons are reported Table In summary left
+hemisphere Small World coefficients positively correlate with
+the normalized volume the left hippocampus the beta 
+band and negatively the alpha band In the right hemisphere Small World coefficients positively correlate with the
+normalized volume the right hippocampus the delta beta
+ and gamma bands and negatively the alpha bands 
+ reports the scatterplots these two correlations 
+Discussion
+The human brain consists complex network inhibitory
+and excitatory circuits linking functionally specialized areas 
+ continuous time varying interplaywithin temporal frame
+ millisecondsto acquire share and integrate information 
+ constant state dynamic fluctuations also governed 
+number variables including attention emotions motivation 
+arousal which finally influence network performance 
+Functional brain abnormalities are invariably reflected 
+changes connectivity and networks architecture 
+White matter axonal fibers provide anatomical basis
+for signal transfer and communication these connections are
+not random but are organized Bsmall world network
+architecture characterized high degree local clustering
+Fig Small World trends the
+two groups subjects
+ segregation and the presence long distance connections
+ integration A well designed anatomical network could combine the occurrence functionally specialized segregated 
+modules with robust number intermodular integrating 
+links Such design commonly termed Small World and
+indeed appears ubiquitous facet anatomical connectivity It commonly thought that such organization reflects optimal balance functional integration and segregation Sporns and Honey Many studies investigated
+the topological changes brain networks with different modalities including structural MRI diffusion tensor imaging 
+MRI EEG MEG and fMRI recently reviewed Jovicich
+ Xie and He Therefore Alzheimers disease
+brain functional topography can represented progressive derangement network organization hub regions and
+long range connections causing small world architecture alterations Vecchio 
+Within this frame the present study demonstrated that resting state Small World characteristics several EEG frequency bands correlate with hippocampal volume It concluded
+that such Small World pattern might represent functional
+counterpart structural brain modifications AD In fact 
+the aim the present study was evaluate possible correlation between Small World characteristics brain connectivity and hippocampal volume Results show that quantitatively more correlations were observed the right hemisphere but with the some trend both hemispheres In particular alpha bands were negatively correlated while low and
+Brain Imaging and Behavior
+Table Correlation analysis performed among the weighted Small
+World coefficient all seven bands and the normalized hippocampal
+volume All significant comparisons are reported
+Left
+Delta
+Right
+Theta
+Alpha 
+Alpha 
+Beta 
+Beta 
+Gamma
+high frequency bands delta beta gamma were positively
+correlated with the hippocampal volume Specifically the
+larger the hippocampal formation the lower alpha and the
+higher the delta beta and gamma Small World architecture 
+In line with previous evidence clear that reduction 
+the hippocampal volume leads less Small World variability
+ the different EEG frequency bands It was already demonstrated Vecchio and has been hereby replicatedthat significant small worldness difference distinguish
+normal elderly subjects from AD patients for instance 
+hereby confirmed that normal aging presents higher specialization Small World band characteristics with higher values
+ lower frequencies and lower values alpha bands Here 
+correlation analysis has shown that the reduction hippocampal volume combined loss the Small World specialization the EEG frequency bands In other words the Small
+World could present less spread values The present
+results provide preliminary view these relationships and
+should taken into account also for other kinds dementia
+ mild cognitive impairment order understand the effect
+ hippocampal volume absence overt dementia 
+Of note regarding the possibility bias due the common feeding effect described previous literature Blinowska
+and Kaminski Kaminski the methods used
+ the present work tried avoid the bias more connections
+ specific brain regions explained common feeding from
+electrodes generating multitude false connections
+between electrodes Blinowska and Kaminski 
+well known thatfor instancethe sources the resting
+state eyes closed EEG are located the posterior regions 
+the brain with smaller contributions frontal areas therefore
+implementing weighted graph for the proposed analyses and
+avoiding aggregation connection spotted brain regions
+while considering all the possible connections with weight 
+Furthermore general limitation the present study 
+the low number EEG channels should considered It was
+also reported that many studies used the same number electrodes but replication the present study with large number electrode derivations should provided Meanwhile 
+findings with standard number EEG recording channelsas used routine clinical activityare encouraging
+for large scale future clinical applications 
+Some points need discussed more specifically The
+first the functional relationships between hippocampal volume and cortical sources regarding the network delta and
+alpha rhythms Cholinergic basal forebrain neurons medial
+septum heavily project the hippocampus and the amygdala 
+which are connected the cortical mantle abundant noncholinergic projections Selden These cholinergic
+pathways would drive cortico cortical and thalamocortical
+loops converge cortical pyramidal neurons that generate
+low band Hz alpha EEG oscillations representing
+the dominant rhythms the human brain waking rest
+ Klimesch Steriade and Llinas Klimesch
+ Ricceri Rossini To support
+this view has been reported that the cholinergic basal forebrain was more structurally impaired AD patients Teipel
+ especially non responders cholinergic therapy Tanaka Finally alpha and delta rhythms
+were found abnormally modulated AD patients 
+function disease severity and opposite ways see Vecchio
+ In particular posterior cortical alpha rhythms
+were correlated with hippocampal volume Babiloni 
+ The complex interaction the aforementioned factors
+accounts for the present finding correlations between normalized hippocampal volume and the organization the cortical delta and alpha source networks revealed Small
+World characteristics 
+A second main observation that hippocampal atrophy
+was not significantly correlated cortical source networks
+ EEG theta rhythms It has been revealed that theta rhythms
+functionally connect the hippocampal amygdala systems and
+the cortex Buzsaki and Draguhn Selden 
+Moreover cholinergic projection into the hippocampus regulates the hippocampal theta rhythms Andersen 
+Kimura Accordingly can speculated that hippocampal volume would not affect interactions between the basal forebrain pathways projecting the hippocampus 
+amygdala and those directly projecting the cerebral cortex
+ mainly modulated alpha rhythms Thus the theta rhythms
+that modulate the cortical networks are mainly maintained
+with respect the hippocampal volume least the considered level atrophy 
+Finally the correlation the high frequency bands beta
+and gamma builds upon previous evidence similar correlation between gamma Small World reduction and memory
+decline revealed specific memory tests Vecchio 
+ Despite general acceptance the idea that memory 
+not localized one specific neural structure there overwhelming evidence that the medial temporal lobe MTL 
+and particularly the hippocampal relays play central role
+ memory performance via interactions with distributed
+Brain Imaging and Behavior
+Fig Scatterplots Small World correlation with hippocampal volume
+Brain Imaging and Behavior
+cortical regions Pohlack Rienstra Scoville
+and Milner Here moving from the idea that any
+normal sized structure will support normal function and
+vice versa Van possible speculate that the atrophy the hippocampus could lead memory impairment
+through the modulation high frequency Small World
+characteristics 
+Conclusions
+Understanding the role EEG oscillations play the network
+dynamics AD patients important for comprehending
+mechanisms cognitive decline and could serve model
+for understanding large scale brain network dynamics and their
+relation other cognitive phenomena structural modulations The hippocampal atrophy comes along with the background histo pathophysiological alterations AD All these
+signs neurodegeneration are mirrored the small world
+disorganization and lead the cognitive impairment that has
+been clinically assessed This study opens interesting avenues
+into future researches investigating eventual modifications 
+brain connectivity the evolution neurodegenerative processes beginning the very early pre clinical stages 
+Acknowledgments Dr Francesca Miraglia participated this study 
+the framework her Ph D program the Doctoral School 
+Neuroscience Department Neuroscience Catholic University 
+Rome Italy This work was supported the Italian Ministry Health
+for Institutional Research Ricerca corrente and the Italian Ministry 
+Instruction University and Research MIUR BApproccio integrato clinico
+ sperimentale allo studio dellinvecchiamento cerebrale delle malattie
+neurodegenerative basi molecolari epidemiologia genetica neuroimaging multimodale farmacogenetica Merit and BFunctional connectivity and neuroplasticity physiological and pathological aging Prot 
+F ConnAge PRIN project 
+Compliance with ethical standards
+Funding This work was supported the Italian Ministry Health for
+Institutional Research Ricerca corrente and the Italian Ministry 
+Instruction University and Research MIUR BApproccio integrato clinico
+ sperimentale allo studio dellinvecchiamento cerebrale delle malattie
+neurodegenerative basi molecolari epidemiologia genetica neuroimaging multimodale farmacogenetica Merit and BFunctional connectivity and neuroplasticity physiological and pathological aging Prot 
+F ConnAge PRIN project 
+Conflict interest All authors declare that they have conflict 
+interest 
+Ethical approval All procedures performed studies involving human participants were accordance with the ethical standards the
+institutional and national research committee and with the 
+Helsinki declaration and its later amendments comparable ethical
+standards 
+Informed consent Informed consent was obtained from all individual
+participants included the study 
+References
+Andersen P Morris R Amaral D Bliss T OKeefe J The
+hippocampus book Oxford University Press Oxford 
+Aoki Y Ishii R Pascual Marqui R D Canuet L Ikeda S Hata M 
+ Detection EEG resting state independent networks
+ eLORETA ICA method Frontiers Human Neuroscience 
+Apostolova L G Green A E Babakchanian S Hwang K S Chou 
+Y Y Toga A W Hippocampal atrophy and ventricular enlargement normal aging mild cognitive impairment MCI 
+and Alzheimer Disease Alzheimer Disease and Associated
+Disorders 
+Babiloni C Vecchio F Mirabella G Buttiglione M Sebastiano F 
+Picardi A Hippocampal amygdala and neocortical
+synchronization theta rhythms related immediate recall
+during rey auditory verbal learning test Human Brain Mapping 
+Barnes J Boyes R G Lewis E B Schott J M Frost C Scahill R 
+I Automatic calculation hippocampal atrophy rates
+using hippocampal template and the boundary shift integral 
+Neurobiology Aging 
+Barry R J De Blasio F M Borchard J P Sequential processing the equiprobable auditory Go NoGo task children 
+adults Clinical Neurophysiology 
+Bassett D S Bullmore E Small world brain networks The
+Neuroscientist 
+Blinowska K J Kaminski M Functional brain networks 
+random Bsmall world deterministic? PloS One 
+Bobinski M Leon M J Wegiel J Desanti S Convit A Saint
+Louis L A The histological validation post
+mortem magnetic resonance imaging determined hippocampal volume Alzheimers disease Neuroscience 
+Brett M Johnsrude I S Owen A M The problem 
+functional localization the human brain Nature Reviews 
+Neuroscience 
+Buzsaki G Draguhn A Neuronal oscillations cortical networks Science 
+Canuet L Ishii R Pascual Marqui R D Iwase M Kurimoto R 
+Aoki Y Resting state EEG source localization and
+functional connectivity schizophrenia like psychosis epilepsy 
+PloS One 
+Carlesimo G A Caltagirone C Gainotti G The Mental
+Deterioration Battery normative data diagnostic reliability and
+qualitative analyses cognitive impairment The Group for the
+Standardization the Mental Deterioration Battery European
+Neurology 
+Chandler M J Lacritz L H Cicerello A R Chapman S B Honig 
+L S Weiner M F Three word recall normal aging 
+Journal Clinical and Experimental Neuropsychology 
+DAmelio M Rossini P M Brain excitability and connectivity neuronal assemblies Alzheimers disease from animal
+models human findings Progress Neurobiology 
+Delacourte A David J P Sergeant N Buee L Wattez A 
+Vermersch P The biochemical pathway neurofibrillary degeneration aging and Alzheimers disease Neurology 
+deToledo Morrell L Stoub T R Bulgakova M Wilson R S 
+Bennett D A Leurgans S MRI derived entorhinal
+volume good predictor conversion from MCI AD 
+Neurobiology Aging 
+Dierks T Jelic V Pascual Marqui R D Wahlund L Julin P 
+Linden D E Spatial pattern cerebral glucose metabolism PET correlates with localization intracerebral EEG 
+Brain Imaging and Behavior
+generators Alzheimers disease Clinical Neurophysiology 
+Du A T Schuff N Amend D Laakso M P Hsu Y Y Jagust W J 
+ Magnetic resonance imaging the entorhinal cortex
+and hippocampus mild cognitive impairment and Alzheimers
+disease Journal Neurology Neurosurgery and Psychiatry 
+Dubois B Feldman H H Jacova C Cummings J L DeKosky S T 
+Barberger Gateau P Revising the definition 
+Alzheimers disease new lexicon Lancet Neurology 
+Dubois B Feldman H H Jacova C Hampel H Molinuevo J L 
+Blennow K Advancing research diagnostic criteria
+for Alzheimers disease the criteria Lancet Neurology 
+Fox N C Warrington E K Freeborough P A Hartikainen P 
+Kennedy A M Stevens J M Presymptomatic hippocampal atrophy Alzheimers disease A longitudinal MRI
+study Brain Pt 
+Fox N C Crum W R Scahill R I Stevens J M Janssen J C 
+Rossor M N Imaging onset and progression 
+Alzheimers disease with voxel compression mapping serial
+magnetic resonance images Lancet 
+Friston K J Functional and effective connectivity neuroimaging A synthesis Human Brain Mapping 
+Fuchs M Kastner J Wagner M Hawes S Ebersole J S 
+A standardized boundary element method volume conductor model 
+Clinical Neurophysiology 
+Gosche K M Mortimer J A Smith C D Markesbery W R 
+Snowdon D A Hippocampal volume index 
+Alzheimer neuropathology findings from the Nun Study 
+Neurology 
+Greenblatt R E Ossadtchi A Pflieger M E Local Linear
+Estimators for the Bioelectromagnetic Inverse Problem IEEE
+Transactions Signal Processing 
+Hughes C P Berg L Danziger W L Coben L A Martin R L 
+ A new clinical scale for the staging dementia The British
+Journal Psychiatry 
+Ikeda S Mizuno Matsumoto Y Canuet L Ishii R Aoki Y Hata 
+M Emotion regulation neuroticism emotional information processing related psychosomatic state evaluated 
+electroencephalography and exact low resolution brain electromagnetic tomography Neuropsychobiology 
+Iriarte J Urrestarazu E Valencia M Alegre M Malanda A Viteri 
+C Independent component analysis tool eliminate artifacts EEG quantitative study Journal Clinical
+Neurophysiology 
+Jack Jr C R Petersen R C Xu Y C OBrien P C Smith G E 
+Ivnik R J Prediction AD with MRI based hippocampal volume mild cognitive impairment Neurology 
+Jack Jr C R Dickson D W Parisi J E Xu Y C Cha R H 
+OBrien P C Antemortem MRI findings correlate
+with hippocampal neuropathology typical aging and dementia 
+Neurology 
+Jack Jr C R Bernstein M A Fox N C Thompson P Alexander G 
+Harvey D The Alzheimers Disease Neuroimaging
+Initiative ADNI MRI methods Journal Magnetic Resonance
+Imaging 
+Jovicich J Minati L Marizzoni M Marchitelli R Sala Llonch R 
+Bartres Faz D Longitudinal reproducibility defaultmode network connectivity healthy elderly participants A
+multicentric resting state fMRI study NeuroImage 
+Jung T P Makeig S Humphries C Lee T W McKeown M J 
+Iragui V Removing electroencephalographic artifacts
+ blind source separation Psychophysiology 
+Jurcak V Tsuzuki D Dan I and systems
+revisited their validity relative head surface based positioning
+systems NeuroImage 
+Kaminski M Blinowska K Szclenberger W Topographic
+analysis coherence and propagation EEG activity during sleep
+and wakefulness Electroencephalography and Clinical
+Neurophysiology 
+Killiany R J Hyman B T Gomez Isla T Moss M B Kikinis R 
+Jolesz F MRI measures entorhinal cortex hippocampus preclinical AD Neurology 
+Kimura F Cholinergic modulation cortical function hypothetical role shifting the dynamics cortical network 
+Neuroscience Research 
+Klimesch W Memory processes brain oscillations and EEG
+synchronization International Journal Psychophysiology 
+Klimesch W EEG alpha rhythms and memory processes 
+International Journal Psychophysiology 
+Klimesch W Doppelmayr M Russegger H Pachinger T 
+Schwaiger J Induced alpha band power changes the
+human EEG and attention Neuroscience Letters 
+Lancaster J L Woldorff M G Parsons L M Liotti M Freitas C S 
+Rainey L Automated Talairach atlas labels for functional brain mapping Human Brain Mapping 
+Lawton M P Brody E M Assessment older people selfmaintaining and instrumental activities daily living 
+Gerontologist 
+Marizzoni M Antelmi L Bosch B Bartres Faz D Muller B W 
+Wiltfang J Longitudinal reproducibility automatically segmented hippocampal subfields multisite European T
+study healthy elderly Human Brain Mapping 
+Mazziotta J Toga A Evans A Fox P Lancaster J Zilles K 
+ A probabilistic atlas and reference system for the human
+brain International Consortium for Brain Mapping ICBM 
+Philosophical Transactions the Royal Society London Series
+B Biological Sciences 
+McKhann G M Knopman D S Chertkow H Hyman B T Jack Jr 
+C R Kawas C H The diagnosis dementia due 
+Alzheimers disease recommendations from the National Institute
+ Aging Alzheimers Association workgroups diagnostic
+guidelines for Alzheimers disease Alzheimers Dement 
+Miraglia F Vecchio F Bramanti P Rossini P EEG characteristics Beyes open Beyes closed conditions small world
+network architecture healthy aging and age related brain degeneration Clinical Neurophysiology 
+Miraglia F Vecchio F Bramanti P Rossini P Smallworldness characteristics and its gender relation specific hemispheric networks Neuroscience 
+Mobascher A Brinkmeyer J Warbrick T Musso F Wittsack H J 
+Stoermer R Fluctuations electrodermal activity
+reveal variations single trial brain responses painful laser stimulia fMRI EEG study NeuroImage 
+Modrego P J Predictors conversion dementia probable
+Alzheimer type patients with mild cognitive impairment Current
+Alzheimer Research 
+Monaco M Costa A Caltagirone C Carlesimo G A 
+Forward and backward span for verbal and visuo spatial data standardization and normative data from Italian adult population 
+Neurological Sciences 
+Mulert C Jager L Schmitt R Bussfeld P Pogarell O Moller H J 
+ Integration fMRI and simultaneous EEG towards 
+comprehensive understanding localization and time course 
+brain activity target detection NeuroImage 
+Olbrich S Mulert C Karch S Trenner M Leicht G Pogarell O 
+ EEG vigilance and BOLD effect during simultaneous
+EEG fMRI measurement NeuroImage 
+Brain Imaging and Behavior
+Onnela J P Saramaki J Kertesz J Kaski K Intensity and
+coherence motifs weighted complex networks Physical Review 
+E Statistical Nonlinear and Soft Matter Physics 
+Pascual Marqui R D Standardized low resolution brain electromagnetic tomography sLORETA technical details Methods and
+Findings Experimental and Clinical Pharmacology Suppl D 
+Pascual Marqui RD Instantaneous and lagged measurements 
+linear and nonlinear dependence between groups multivariate
+time series frequency decomposition arXiv preprint arXiv 
+Pascual Marqui RD Theory the EEG Inverse Problem In 
+ Artech House B editor Quantitative EEG Analysis 
+Methods and Clinical Applications 
+Pascual Marqui R D Michel C M Lehmann D Low resolution electromagnetic tomography new method for localizing electrical activity the brain International Journal Psychophysiology 
+Pitkanen A Laakso M Kalviainen R Partanen K Vainio P 
+Lehtovirta M Severity hippocampal atrophy correlates with the prolongation MRI relaxation time temporal
+lobe epilepsy but not Alzheimers disease Neurology 
+Pizzagalli D A Pascual Marqui R D Nitschke J B Oakes T R 
+Larson C L Abercrombie H C Anterior cingulate
+activity predictor degree treatment response major
+depression evidence from brain electrical tomography analysis 
+The American Journal Psychiatry 
+Pizzagalli D A Oakes T R Fox A S Chung M K Larson C L 
+Abercrombie H C Functional but not structural
+subgenual prefrontal cortex abnormalities melancholia 
+Molecular Psychiatry 
+Pohlack S T Meyer P Cacciaglia R Liebscher C Ridder S Flor 
+H Bigger better Hippocampal volume and declarative
+memory performance healthy young men Brain Structure 
+Function 
+Ramyead A Kometer M Studerus E Koranyi S Ittig S 
+Gschwandtner U Aberrant current source density
+and lagged phase synchronization neural oscillations markers
+for emerging psychosis Schizophrenia Bulletin 
+Rey A Reattivo Della Figura Complessa Manuale 
+Organizzazioni Speciali Firenze 
+Ricceri L Minghetti L Moles A Popoli P Confaloni A De S R 
+ Cognitive and neurological deficits induced early
+and prolonged basal forebrain cholinergic hypofunction rats 
+Experimental Neurology 
+Rienstra C M Amyloid structures from Alzheimers disease
+patients Structure 
+Roman G C Tatemichi T K Erkinjuntti T Cummings J L 
+Masdeu J C Garcia J H Vascular dementia diagnostic criteria for research studies Report the NINDS AIREN
+international workshop Neurology 
+Rosen W G Terry R D Fuld P A Katzman R Peck A 
+Pathological verification ischemic score differentiation dementias Annals Neurology 
+Rossini P M Desiato M T Lavaroni F Caramia M D 
+Brain excitability and electroencephalographic activation noninvasive evaluation healthy humans via transcranial magnetic
+stimulation Brain Research 
+Rullmann M Anwander A Dannhauer M Warfield S K Duffy F 
+H Wolters C H EEG source analysis epileptiform
+activity using anisotropic hexahedra finite element head
+model NeuroImage 
+Scheltens P Fox N Barkhof F De C C Structural magnetic resonance imaging the practical assessment dementia 
+beyond exclusion Lancet Neurology 
+Scoville W B Milner B Loss recent memory after bilateral
+hippocampal lesions Journal Neurology Neurosurgery and
+Psychiatry 
+Sekihara K Sahani M Nagarajan S S Localization bias
+and spatial resolution adaptive and non adaptive spatial filters for
+MEG source reconstruction NeuroImage 
+Selden N R Gitelman D R Salamon Murayama N Parrish T B 
+Mesulam M M Trajectories cholinergic pathways within the cerebral hemispheres the human brain Brain Pt 
+Shi F Liu B Zhou Y Yu C Jiang T Hippocampal
+volume and asymmetry mild cognitive impairment and
+Alzhei isease Met analyses MRI studies 
+Hippocampus 
+Sporns O Honey C J Small worlds inside big brains 
+Proceedings the National Academy Sciences the United
+States America 
+Stam C J Jones B F Nolte G Breakspear M Scheltens P 
+ Small world networks and functional connectivity 
+Alzheimers disease Cerebral Cortex 
+Stam C J Haan W Daffertshofer A BF J Manshanden I van
+Walsum AM C Graph theoretical analysis 
+magnetoencephalographic functional connectivity Alzheimers
+disease Brain 
+Steriade M Llinas R R The functional states the thalamus
+and the associated neuronal interplay Physiological Reviews 
+Tanaka Y Hanyu H Sakurai H Takasaki M Abe K 
+Atrophy the substantia innominata magnetic resonance imaging predicts response donepezil treatment Alzheimers disease
+patients Dementia and Geriatric Cognitive Disorders 
+Teipel S J Flatz W H Heinsen H Bokde A L Schoenberg S O 
+Stockel S Measurement basal forebrain atrophy 
+Alzheimers disease using MRI Brain 
+Van P C Relationship between hippocampal volume and memory ability healthy individuals across the lifespan review and
+meta analysis Neuropsychologia 
+van der Flier W M van Straaten E C Barkhof F Ferro J M 
+Pantoni L Basile A M Medial temporal lobe atrophy and white matter hyperintensities are associated with mild cognitive deficits non disabled elderly people the LADIS study 
+Journal Neurology Neurosurgery and Psychiatry 
+Vecchio F Babiloni C Lizio R Fallani F V Blinowska K 
+Verrienti G Resting state cortical EEG rhythms 
+Alzheimers disease toward EEG markers for clinical applications 
+ review Supplements Clinical Neurophysiology 
+Vecchio F Miraglia F Bramanti P Rossini P M Human
+brain networks physiological aging graph theoretical analysis
+ cortical connectivity from EEG data Journal Alzheimers
+Disease 
+Vecchio F Miraglia F Marra C Quaranta D Vita M G Bramanti 
+P Human brain networks cognitive decline 
+graph theoretical analysis cortical connectivity from EEG data 
+Journal Alzheimers Disease 
+Vecchio F Miraglia F Valeriani L Scarpellini MG Bramanti P 
+Mecarelli O Rossini PM Cortical brain connectivity
+and type natriuretic peptide patients with congestive heart failure Clinical EEG and Neuroscience 
+Vecchio F Miraglia F Curcio G Altavilla R Scrascia F 
+Giambattistelli F Cortical brain connectivity evaluated graph theory dementia correlation study between functional and structural data Journal Alzheimers Disease 
+Vecchio F Miraglia F Valeriani L Scarpellini M G Bramanti P 
+Mecarelli O Cortical brain connectivity and type
+Brain Imaging and Behavior
+natriuretic peptide patients with congestive heart failure Clinical
+EEG and Neuroscience 
+Vecchio F Miraglia F Quaranta D Granata G Romanello R 
+Marra C Bramanti P Rossini PM Cortical connectivity
+and memory performance cognitive decline study via graph
+theory from EEG data Neuroscience 
+Vitacco D Brandeis D Pascual Marqui R Martin E 
+Correspondence event related potential tomography and functional magnetic resonance imaging during language processing 
+Human Brain Mapping 
+Volpe U Mucci A Bucci P Merlotti E Galderisi S Maj M 
+ The cortical generators and LORETA study 
+Brain Research Bulletin 
+Watts D J Strogatz S H Collective dynamics smallworld networks Nature 
+Whitwell J L Crum W R Watt H C Fox N C 
+Normalization cerebral volumes use intracranial volume 
+implications for longitudinal quantitative MR imaging AJNR 
+American Journal Neuroradiology 
+Wolz R Julkunen V Koikkalainen J Niskanen E Zhang D P 
+Rueckert D Multi method analysis MRI images
+ early diagnostics Alzheimers disease PloS One 
+Worrell G A Lagerlund T D Sharbrough F W Brinkmann B H 
+Busacker N E Cicora K M Localization the
+epileptic focus low resolution electromagnetic tomography 
+patients with lesion demonstrated MRI Brain Topography 
+Xie T He Y Mapping the Alzheimers brain with
+connectomics Frontiers Psychology 
+Yesavage J A Brink T L Rose T L Lum O Huang V Adey M 
+ Development and validation geriatric depression
+screening scale preliminary report Journal Psychiatric
+Research 
+Zimny A Szewczyk P Trypka E Wojtynska R Noga L Leszek J 
+ Multimodal imaging diagnosis Alzheimers disease and amnestic mild cognitive impairment value magnetic
+resonance spectroscopy perfusion and diffusion tensor imaging 
+the posterior cingulate region Journal Alzheimers Disease 
+Zumsteg D Wennberg R A Treyer V Buck A Wieser H G 
+ O PET and electromagnetic tomography
+ LORETA during partial status epilepticus Neurology 
+Zumsteg D Friedman A Wieser H G Wennberg R A 
+ Propagation interictal discharges temporal lobe
+epilepsy correlation spatiotemporal mapping with intracranial
+foramen ovale electrode recordings Clinical Neurophysiology 
+Zumsteg D Lozano A M Wennberg R A Depth electrode recorded cerebral responses with deep brain stimulation the
+anterior thalamus for epilepsy Clinical Neurophysiology 
+Zumsteg D Lozano A M Wieser H G Wennberg R A 
+Cortical activation with deep brain stimulation the anterior thalamus for epilepsy Clinical Neurophysiology 

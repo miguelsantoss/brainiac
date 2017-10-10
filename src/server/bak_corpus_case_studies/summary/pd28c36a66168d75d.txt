@@ -1,0 +1,19 @@
+Our meta-analysis included SNPs either genotyped or successfully imputed in at least 40% of the Alzheimer's disease cases and 40% of the control samples across all data sets.
+
+The genomic control inflation factor for the meta-analysis was 1.087 for the full set of SNPs and 1.082 after excluding SNPs within the APOE locus and within 500 kb of SNPs associated with Alzheimer's disease at a prespecified level of genome-wide significance in stage 1.
+
+In stage 2, we selected for genotyping all stage 1 SNPs with a P value less than 1 10−3, excluding SNPs flanking APOE. From the initial set of SNPs, 14,445 could be genotyped using Illumina iSelect technology.
+
+More detailed results for the seven newly ated SNPs within each of these two genes are not in LD; There was no significant heterogeneity across studies at any of the loci, a recombination peak exists between the two loci; and except at DSG2. To identify conditional analysis in the stage 2 data confirmed the indepotential causative genes, we also examined all SNPs with association pendence of the PTK2B association.
+
+The region defined by all the SNPs associated with Alzheimer's disease risk in our data is large and contains about ten genes.
+
+After the exclusion of SNPs showing logistic regression coefficient |β| > 5 or P value equal to 0 or 1, the maximum number of SNPs in any data set was 8,131,643.
+
+During the Illumina production process, 2,287 SNPs failed oligonucleotide synthesis, leading to a final number of 14,445 SNPs for which genotyping was attempted.
+
+Genotyping failure led to the further exclusion of an additional 1,999 SNPs as a result of the SNPs having no intensity signal, not being polymorphic, only being found in a heterozygous state or having mismatched alleles compared to 1000 Genomes Project data.
+
+After SNP quality control, 11,632 SNPs were considered to be of high genotyping quality in at least 1 country and were analyzed in stage 2.
+
+Of note, of the 7,086 SNPs that we were unable to successfully genotype, only 471 were not tagged by another successfully genotyped variant and associated with a P value at least 10 times higher than that of the missing SNP. Because the vast majority of the untagged SNPs exhibited stage 1 P values between 1 10−3 and 1 10−4, the likelihood of missing a true association was considered to be low.

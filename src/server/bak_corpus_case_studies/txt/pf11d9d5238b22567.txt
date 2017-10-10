@@ -1,0 +1,464 @@
+Biodetection using magnetically labeled biomolecules and arrays spin valve sensors
+ invited 
+H A Ferreira D L Graham P P Freitas and J M S Cabral
+Citation Journal Applied Physics doi 
+View online http doi org 
+View Table Contents http scitation aip org content aip journal jap ?ver pdfcov
+Published the AIP Publishing
+Articles you may interested 
+Detection magnetic particles portable electronic platform using spin valve and magnetic tunnel
+junction sensors
+J Appl Phys 
+Effect spin valve sensor magnetostatic fields nanobead detection for biochip applications
+J Appl Phys 
+Detection single micron sized magnetic bead and magnetic nanoparticles using spin valve sensors for
+biological applications
+J Appl Phys 
+Single magnetic microsphere placement and detection chip using current line designs with integrated spin
+valve sensors Biotechnological applications
+J Appl Phys 
+On chip manipulation and magnetization assessment magnetic bead ensembles integrated spin valve
+sensors
+J Appl Phys 
+This article copyrighted indicated the article Reuse AIP content subject the terms http scitation aip org termsconditions Downloaded IP 
+ On Sun May 
+JOURNAL OF APPLIED PHYSICS
+VOLUME NUMBER 
+ MAY 
+Biodetection using magnetically labeled biomolecules and arrays
+ spin valve sensors invited
+H A Ferreiraa 
+Instituto Engenharia Sistemas Computadores INESC and Physics Department Instituto Superior
+Tecnico IST Lisbon Portugal
+D L Graham
+Instituto Engenharia Sistemas Computadores INESC and Centre for Biological and Chemical
+Engineering IST Lisbon Portugal
+P P Freitas
+Instituto Engenharia Sistemas Computadores INESC and Physics Department Instituto Superior
+Tecnico IST Lisbon Portugal
+J M S Cabral
+Centre for Biological and Chemical Engineering IST Lisbon Portugal
+Presented November 
+On chip spin valve sensors were used detect the binding 
+streptavidin functionalized superparamagnetic labels sensor surface bound biotin Both
+micron sized and nanometer sized labels were studied The detection biomolecular recognition
+was demonstrated using Micromer M and Nanomag D labels with signals ranging
+from V mV mA sense current Oe plane magnetizing fields For smaller
+labels detection biomolecular recognition was not achieved The capability detecting single
+labels was demonstrated for label moments down emu labels corresponding 
+signals V Although theoretical calculations suggest that the minimum measurable
+moment the order emu due noise limitations the present setup this limit 
+ the order emu corresponding single label On chip tapered aluminum
+current line structures were used for placement magnetic labels sensor sites 
+American Institute Physics DOI 
+I INTRODUCTION
+The idea using chip magnetic field sensors and
+magnetic labels for detecting biomolecular recognition such
+ the hybridization two complementary strands deoxyribonucleic acid DNA antibodyantigen interaction 
+general ligandreceptor binding dates back and
+was first published Since then this area has developed rapidly generating considerable interest with recent
+contributions from number groups The first device
+based this approach the Bead Array Counter BARC
+biosensor incorporated giant magnetoresistance
+GMR sensor strips and used magnetic labels
+Dynabeads and has been applied the detection
+ biological warfare agents A similar design based 
+ diameter GMR spiral sensors has also been proposed
+recently In our group work has been focused the use 
+smaller more sensitive spin valve sensors for
+the detection single Micromer M 
+and larger numbers Nanomag D superparamagnetic particles The same system was then used detect the binding streptavidin functionalized labels 
+Author whom correspondence should addressed electronic mail 
+hferreirainesc 
+sensor bound biotin As alternative spin valve and
+GMR sensors Hall effect based sensors have also been used
+recently detect single magnetic labels
+Dynabeads 
+The immediate advantages the use micrometersized labels include our demonstrated ability detect single
+labels and the visual verification label position using visible light microscopy However the potential disadvantages
+ using such large label biomolecule size ratio include
+conformational alterations the biomolecule and hindrance
+ biomolecular interaction In addition the use large labels might prevent other labeled biomolecules from interacting with substrate bound biomolecules the proximity This
+can avoided one two ways First use biotinylated
+target biomolecules which streptavidin functionalized microspheres are bound after hybridization the case 
+DNA Alternatively smaller nanometer sized labels can
+ used For these reasons the use smaller magnetic labels
+such Nanomag D and sized particles Nanomag D spio has been pursued and will discussed this work A major problem encountered during the
+use many nanometer sized magnetic labels their tendency cluster forming larger magnetic bodies indiscernible label numbers 
+ American Institute Physics
+This article copyrighted indicated the article Reuse AIP content subject the terms http scitation aip org termsconditions Downloaded IP 
+ On Sun May 
+Ferreira 
+J Appl Phys Vol No Parts May 
+FIG Schematic the spin valve sensor showing the configuration the
+magnetic moments the sense free and pinned layers 
+II EXPERIMENTAL METHODS
+A Spin valve sensors
+Spin valve sensors used have dimensions 
+the spin valve stripe and the distance between
+leads The spin valves were deposited magnetron
+sputtering onto Si wafers and have the structure Ta 
+ NiFe CoFe Cu CoFe MnIr 
+Ta TiWN The configuration the magnetic
+moments the sense free and pinned layers shown 
+Fig As deposited the spin valve coupon sample has 
+magnetoresistance ratio MR and square resistance The resistance the sensor 
+then Aluminum leads thick are used leading
+ the wire bonding pads After processing the average MR
+ratio the sensor element The reduction 
+MR ratio due the lead contact resistance total lead plus
+sensor average resistance The average sensitivity Oe corresponding mV Oe The
+intrinsic sensitivity the spin valve sensors can found
+from the ratio between the total resistance and the intrinsic
+resistance the sensor Oe 
+ Oe The spin valve sensors and leads were passivated with thick sputtered layer for protection
+against the various fluids used during experimentation 
+B Tapered current lines
+In addition detection one our goals was control
+the movement and placement magnetically labeled biomolecules To address this matter chip tapered current
+line structures were designed and integrated with spin valve
+sensors Each sensor had two adjacent Al current lines 
+ apart the sensor site with widths tapered from 
+ the contact pads sensor sites This provided
+ structure with increased current density the desired locations adjacent the sensor sites resulting higher local
+magnetic fields capable attracting the labels the sensor
+area Using this technique labels could moved and
+from the sensor surface and across either few 
+ Figs and In this way labels
+were focused rapidly sensor sites using currents 
+ mA considerably increasing the assay detection
+time 
+Other workers have also reported the chip manipulation magnetic particles using current line structures either
+ conjunction with microfluidics for particle for
+concentrating particles particular regions using microcoils
+FIG Design including spin valve sensor and adjacent tapered current lines for controlled placement and movement the labels Current
+flows through the bottom current line attracting particles the thinner region the line 
+ current line matrixes Other current line architectures
+have been designed for single particle handling but their
+integration with detection system such this remains
+unique 
+C Chip design
+Different chip designs were developed for the detection
+ both the controlled placement and detection magnetic
+labels In the first stages the work chip
+featured six sensors each having two associated
+current lines for moving the labels Fig First results 
+particle detection were obtained with this chip using single
+spin valve sensors A second chip was designed exclusively
+for the detection labels Fig This chip was also 
+ with pairs sensors each pair having one sensor covered with photoresist PR and the other
+sensor exposed sensing area for the purpose
+ immobilizing biotin the exposed area over the
+sensor The two sensors each pair one used for binding
+detection exposed and the other used reference PR covered were apart with common input contact and
+two independent output contacts enabling both single and
+differential sensor measurements For differential measurements load resistor was connected series
+with each sensor the pair maintain constant sense
+current through each sensor Approximately chips were
+fabricated per Si wafer The wafer was cut with dicing
+saw and each chip was then mounted pin side brazed
+chip carrier The contacts were made via wire bonding and
+were protected with silicon gel Elastosil 
+This article copyrighted indicated the article Reuse AIP content subject the terms http scitation aip org termsconditions Downloaded IP 
+ On Sun May 
+Ferreira 
+J Appl Phys Vol No Parts May 
+TABLE I Properties the superparamagnetic labels used The moment per
+particle given for Oe magnetizing field and the magnetic susceptibility per particle determined for applied field range Oe 
+FIG Design for differential measurements one signal sensor with
+ hole photoresist and reference sensor covered with
+photoresist Enlargement showing the biotinylated 
+surface top the signal sensor 
+Particle type
+Size
+Iron oxide
+content 
+Moment 
+particle
+emu
+ particle
+emu Oe
+Micromer M
+Nanomag D
+Nanomag D spio
+Nanomag D spio
+For H Oe 
+treated
+with
+aqueous
+solution
+ aminopropyltriethoxysilane for min room temperature then washed with water followed mM phosphate
+buffer pH and finally mM phosphate buffer pH 
+ containing mM NaCl The surface was then treated
+with solution sulfo NHS LC biotin Pierce
+ the same phosphate buffered saline After min room
+temperature the cross linker was washed away with phosphate buffer and the streptavidin functionalized labels introduced In real time signal data experiments the sensors saturated with labels were only left for min before unbound
+labels were washed away 
+F Magnetic labels
+D Experimental setup
+The chip carrier was mounted small breadboard
+housed within aluminum noise reduction box 
+ fitted with small hole the top surface corresponding the position the chip The box could then
+placed beneath optical microscope that the micronsized labels could observed during each experiment Coaxial cables were used make the electrical connections 
+the associated hardware namely power sources and general
+purpose interface bus GPIB controlled multimeters A
+small diameter planar electromagnet with 
+circular core was positioned over the top surface the chip
+box order apply plane magnetic field Oe 
+the sense direction the sensors transverse the length 
+the sensors This field was used induce moment within
+the superparamagnetic labels 
+The experiments were performed using small volumes
+ fluid water pH buffer with mA
+sense current per sensor mA through the tapered
+current lines when used and plane applied field 
+ Oe The voltage drop across the sensor was measured
+directly using GPIB controlled multimeters and the acquired
+data fed computer Control experiments were performed
+using fluid samples without magnetic beads present assess
+potential background signals arising from the addition 
+fluid the chip application current the current lines
+and other environmental changes 
+The magnetic labels used these systems are superparamagnetic usually composed iron oxide magnetite dispersed polymer matrix These labels can prepared
+with various surface functionalizations for binding different types biomolecules Proteins antibodies nucleic
+acids In our work Micromer M microspheres 
+ Nanomag D and and Nanomag D spio
+particles obtained from Micromod GmbH Germany were
+used Table I The smaller particles are irregularly shaped
+and have tendency cluster whilst the microspheres are
+very uniform size and shape allowing for quantification 
+number labels detected The magnetic moment per particle
+and the magnetic susceptibility per particle were determined
+ vibrating sample magnetometer measurements liquid
+samples known particle concentrations These measure 
+E Sensor surface functionalization
+FIG Magnetic moment the mass iron oxide for the magnetic labels
+studied Circle enclosed data correspond data acquired previously for 
+The surface over the exposed sensors was
+ Micromod M labels and for developmental sample 
+biotinylated using standard procedure The surface was
+Nanomag D labels measured Ref 
+This article copyrighted indicated the article Reuse AIP content subject the terms http scitation aip org termsconditions Downloaded IP 
+ On Sun May 
+Ferreira 
+J Appl Phys Vol No Parts May 
+FIG Real time data for saturation signals various micron sized magnetic labels Magnabind 
+Sera Mag Estapor 
+and Micromer M mA sense current 
+Oe applied field 
+FIG Real time data for saturation signals Nanomag D magnetic labels and represent the introduction 
+solution particles mA sense current Oe applied
+field 
+B Detection nanometer sized magnetic labels
+ments were made low field range Oe Using the
+data from the supplier particle density and assuming 
+spherical shape linear relation log log scale between
+the iron oxide content and the magnetic moment per particle
+was observed Fig 
+As means comparison other micron sized particles
+were also studied Estapor from Indicia 
+Magnabind from Pierce and Sera Mag from Seradyn The Magnabind beads were found have magnetic moment per particle emu Oe and 
+magnetic
+susceptibility
+per
+particle
+ emu Oe the Oe range Moment measurements for the other label products were not possible the
+necessary physical data were not available from the supplier 
+III RESULTS AND DISCUSSION
+A Detection micron sized magnetic labels
+In our initial detection single detection 
+ Micromer M microspheres was achieved 
+V with corresponding saturation signals mV Linearity between label number and signal was observed 
+ labels over the sensor For greater numbers labels
+ the signal variation was much reduced the labels
+were further from the sensor surface contributing only with
+small fringe signals More recently the corresponding saturation signals for other commercially available micron sized
+magnetic labels was studied Fig Saturation signals 
+ mV for the Micromer M were confirmed while
+for Magnabind higher saturation signal mV was
+obtained This may due the higher magnetic moment
+per label Oe emu compared 
+ emu for the Micromer M and the difference 
+label size Magnabind labels vary size between 
+ and may pack more efficiently over the sensor This may
+also explain why the sized labels Sera Mag and
+Estapor also gave higher saturation signals However when
+examined using light microscopy the Micromer M labels
+seem far the most uniform size and shape and can 
+clearly quantifiable the single label level For this reason 
+Micromer M labels were chosen for further work 
+Our present studies include the determination detection signals for smaller magnetic labels shows saturation signals for Nanomag D particles functionalized with streptavidin At high particle concentrations 
+ particles the signals were approximately mV 
+This may consequence high iron oxide content
+ compared with Micromer M labels resulting relatively high magnetic moment per particle
+volume The magnetic moment per particle was determined
+ emu Oe Table I Comparing label size
+with sensor surface area one layer labels may
+consist individual labels while the same area can
+only accommodate three labels 
+The detection smaller labels and 
+Nanomag D spio shown Fig comparison with the
+saturation signal for Magnabind labels In this instance 
+very high label concentrations particles only
+give small saturation signals the order V 
+respectively This would appear consequence their
+small moment per label Table I In order produce total
+moment emu equivalent one label
+about labels would required having moment per label emu labels
+having moment per label emu In practice only
+FIG Real time data for saturation signal Magnabind
+ particles 
+Nanomag D spio particles and 
+ Nanomag D spio particles 
+magnetic labels mA sense current Oe applied field 
+This article copyrighted indicated the article Reuse AIP content subject the terms http scitation aip org termsconditions Downloaded IP 
+ On Sun May 
+Ferreira 
+J Appl Phys Vol No Parts May 
+FIG Real time data for binding detection Nanomag D
+streptavidin functionalized magnetic labels biotinylated surface 
+ Addition particles mA sense current Oe applied field 
+ labels labels can accumulate per layer over the sensor surface In addition the field
+contribution from each layer labels decreases with increasing distance from the sensor 
+C Detection biomolecular recognition
+The detection biomolecular recognition between biotin and streptavidin using Micromer M was
+previously demonstrated Since then the detection biomolecular recognition using labels using the same binding protocol was achieved shows the detection signal profile for the addition labels functionalized
+with streptavidin biotinylated sensor surface The sensor
+was first saturated with labels and then repeatedly washed
+with phosphate buffer A residual signal mV was obtained contrast the same experiment performed with 
+untreated sensor where the signal was observed return 
+the base line immediately upon washing the sensor Fig 
+ As yet the detection biotinstreptavidin binding using
+smaller labels was not achieved Using the moment per label can calculated that streptavidinfunctionalized labels would not give sufficient residual binding signal with the present setup One layer 
+ labels covering the sensor surface gives 
+total moment emu with maximum signal 
+ V which presently within our experimental sensor
+plus electronics noise level 
+D Detection limits
+A theoretical study was performed the detection limits the system used This took into consideration the sensor characteristics and the experimental setup conditions 
+The intrinsic noise the spin valve sensor has two main
+components The Johnson thermal noise and the magnetic noise Since the measurements were performed low
+frequencies Hz the noise preponderant For 
+single domain spin valve sensor within the linear regime 
+the transfer curve the minimum detectable H min was
+calculated using Eq 
+FIG Schematic the detection magnetic labels using spin valve
+sensors 
+ H min 
+R
+S
+H
+Nc 
+where R the resistance value the spin valve sensor
+ S the intrinsic sensitivity the sensor 
+ Oe H the Hooges constant the spin valve
+linear regime N the number charge carriers the
+noisy volume assuming one carrier per atom the spinvalve sensor and the experimental frequency bandwidth Hz 
+The value for H min was found the order 
+mOe corresponding output change V for 
+sense current mA Using simple magnetic model 
+where the magnetic label placed the center the 
+ spin valve sensor and applying Oe plane
+magnetizing field along the easy axis the sensor perpendicular the length the sensor the dipole field was calculated the plane the sensor The distance between the
+sensor and the label represented the radius the particle plus the thickness the passivation layer 
+ A schematic for this model shown Fig The
+space between the label and passivation layer occupied 
+the biomolecules used immobilize the label the surface
+biotinylated cross linker plus streptavidin and the distance
+between the sensor surface and the sensing layer were both
+considered negligible The average the field component
+along the sensing direction the sensor easy axis direction
+was used the determination the overall resistance
+change the sensor although the total resistance change 
+smaller due current redistribution within the sensor Using the magnetic moments the labels shown Table I the
+expected sensor signals were calculated For spin valve
+sensor with the characteristics described and with bias current mA the expected signals for one 
+Micromod M label Fig and for one 
+Nanomag D particle were the order V and 
+V respectively It was seen that the output signal largely
+influenced the sensitivity the sensor and also its
+resistance This may explain the variation found the individual signals recorded for single labels 
+V using different spin valve sensors Increased signals
+can also result from using thinner passivation layer Using
+This article copyrighted indicated the article Reuse AIP content subject the terms http scitation aip org termsconditions Downloaded IP 
+ On Sun May 
+Ferreira 
+J Appl Phys Vol No Parts May 
+FIG Component the magnetic field along the sensing direction the
+sensor for Micromer M magnetic label calculated the plane 
+the sensor An external applied field H applied the sensing direction the
+sensor used induce moment the superparamagnetic label 
+the same reasoning was found that superparamagnetic
+label with moment emu would generate signal the intrinsic noise level the sensor mOe average
+field V change Consequently and labels
+with moments and emu would not 
+detected the single label level Although the theoretical
+noise voltage change limit was calculated V the
+experimental noise was shown the order 
+V This limits the measurable moments the order 
+ emu which corresponds the detection single
+ label Until now detection single labels
+was not yet possible due label clustering This effect may
+ overcome some extent via polymer encapsulation 
+At present the measured noise level can reduced 
+other detection methods such lock techniques are used 
+Also the detection limit can improved the sensor 
+tailored the magnetic label size 
+IV CONCLUSIONS
+Magnetic label detection signals and signal noise ratios depend the type sensor used sensor dimensions 
+label size and moment experimental conditions and amplification techniques Various sensors have been investigated 
+large GMR sensors spin valves 
+ and Hall sensors each offering particular advantage The use large GMR sensors
+allows for the detection large numbers magnetic labels 
+which may advantageous for bioassays based increased number biological interactions DNA screening Spin valves offer increased sensitivity the single label
+detection level which may exploitable the detection 
+single biomolecular interactions and may lead magnetic
+random access memorylike bioassays capable screening
+thousands different analytes Finally Hall sensors based
+ standard complementary metaloxidesemiconductor
+technology offer easy integration with chip electron 
+ics In conclusion the type sensor used device may 
+tailored toward the chosen biological application 
+Most the work date has focused the detection 
+micron sized labels which may reflect the sensitivity the
+systems used While the initial use micron sized labels
+was essential for optical verification label position over
+the sensor their use certain bioassays may reduce sensitivity due masking neighboring biomolecules the
+large label In the course investigating smaller labels 
+have demonstrated the detection nanometer sized labels
+between and Present calculations based our
+present setup indicate that single labels can detected and are now developing sub micron sized sensors
+for the detection even smaller labels Further developments for this promising field are foreseen with applications
+ranging from genomic research drug development diagnostics 
+ACKNOWLEDGMENTS
+The authors would like thank the INESC engineers F 
+Silva J Bernardo J Faustino and V Soares for their technical assistance Two the authors H A F and D L G 
+thank FCT for their doctoral SFRH BD and postdoctoral SFRH BPD grants respectively The
+Portuguese POCTI Biochip project Contract No 
+and EU CF Chip project Contract No supported this work 
+R Shieh and D E Ackley US Patent No May 
+D R Baselt G U Lee M Natesan S W Metzger P E Sheehan and R 
+J Colton Biosens Bioelectron 
+R L Edelstein C R Tamanaha P E Sheehan M M Miller D R 
+Baselt L J Whitman and R J Colton Biosens Bioelectron 
+M M Miller P E Sheehan R L Edelstein C R Tamanaha L Zhong 
+S Bounnak L J Whitman and R J Colton J Magn Magn Mater 
+J Schotter P Kamp A Becker A Puehler D Brinkmann W Schepper 
+H Brueckl and G Reiss IEEE Trans Magn 
+D L Graham H Ferreira J Bernardo P P Freitas and J M S Cabral 
+J Appl Phys 
+L Lagae R Wirix Speetjens J Das D Graham H Ferreira P P Freitas 
+G Borghs and J De Boeck J Appl Phys 
+D L Graham H A Ferreira P P Freitas and J M S Cabral Biosens 
+Bioelectron published 
+P Besse G Boero M Demierre V Pott and R Popovic Appl Phys 
+Lett 
+M Tondra M Granger R Fuerst M Porter C Nordman J Taylor and
+S Akou IEEE Trans Magn 
+C S Lee H Lee and R M Westervelt Appl Phys Lett 
+T Deng G M Whitesides M Radhakrishan G Zabow and M Prentiss 
+Appl Phys Lett 
+B Raquet Spin Electronics Springer Berlin 
+M Tondra M Porter and R Lipert J Vac Sci Technol A 
+This article copyrighted indicated the article Reuse AIP content subject the terms http scitation aip org termsconditions Downloaded IP 
+ On Sun May 

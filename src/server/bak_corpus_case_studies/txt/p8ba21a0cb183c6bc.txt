@@ -1,0 +1,521 @@
+Cell Transplantation Vol 
+Printed the USA All rights reserved 
+Copyright Cognizant LLC 
+DOI http doi org 
+E ISSN 
+www cognizantcommunication com
+Transient Microneedle Insertion Into Hippocampus Triggers Neurogenesis
+and Decreases Amyloid Burden Mouse Model Alzheimers Disease
+Shijie Song Xiaoyung Kong Vasyl Sava Chuanhai Cao Sandra Acosta 
+Cesar Borlongan and Juan Sanchez Ramos 
+ James Haley VA Medical Center Tampa FL USA
+Department Neurology Morsani College Medicine University South Florida Tampa FL USA
+Department Neurosurgery Morsani College Medicine University South Florida Tampa FL USA
+Byrd Alzheimers Institute University South Florida Tampa FL USA
+Targeted microlesions the hippocampus have been reported enhance neurogenesis the subgranular zone
+ SGZ The potential therapeutic impact transient insertion microneedle was investigated mouse
+model Alzheimers disease AD We tested the hypothesis that transient microinjury the brain elicits
+cellular responses that mediate beneficial regenerative processes Brief stereotaxic insertion and removal 
+microneedle into the right hippocampus month old APP mouse brains resulted stimulation 
+hippocampal neurogenesis and reduction amyloid plaque number the region This treatment
+also resulted trend toward improved performance the radial arm water maze RAWM Further studies
+ fundamental cellular mechanisms the brains response microinjury will useful for investigation 
+potential neuroprotective and deleterious effects targeted microlesions and deep brain stimulation AD 
+Key words Neurogenesis Transgenic APP mice Microneedle stimulation Alzheimers Disease AD 
+Amyloid Ab 
+INTRODUCTION
+Alzheimers disease AD irreversible progressive brain disorder that slowly diminishes memory and
+thinking skills and eventually results the inability 
+carry out simplest tasks The underlying neuropathology
+ believed begin least decade before memory and
+other cognitive problems During this prodromal
+stage individuals appear symptom free but significant changes are taking place the brain Abnormal
+deposits proteins accumulate extracellular amyloid
+plaques and tau tangles within neurons throughout the
+brain The neurons become dysfunctional lose synaptic
+connections with other neurons and ultimately undergo
+cell death The damage initially appears take place 
+the hippocampus important node the neural network
+that forms memories As more neurons die additional
+parts the brain are affected and brain atrophy occurs 
+By the final stage Alzheimers damage widespread 
+and brain tissue has shrunk significantly 
+Microneedle stimulation acupuncture has been used
+ relieve pain China for millennia Many diseases 
+the central nervous system CNS could not treated
+ this method because inaccessibility the brain 
+ microneedle In the last decade deep brain stimulation
+ DBS through chronically implanted metal electrodes
+into specific brain regions has become common therapeutic choice for refractory movement disorders such 
+Parkinsons disease PD tremors and dystonia reviewed
+ More recently DBS has been applied psychiatric
+and behavioral disorders including depression obsessive
+compulsive disorder OCD addiction and most recently 
+for disorders Long term implantation fine metal electrode even without chronic electrical stimulation may produce unwanted effects such
+ mild severe inflammatory responses microhemorrhages and Neuropathological examination
+ brain tissue from patients with DBS revealed activated
+astrocytes and microglia regardless the underlying
+Received November final acceptance May Online prepub date February 
+Address correspondence Juan Sanchez Ramos Ph D M D Department Neurology Morsani College Medicine University South
+Florida Laurel Drive FOB Tampa FL USA Tel Fax E mail jsramoshealth usf edu 
+Shijie Song M D Department Neurology Morsani College Medicine University South Florida Laurel Drive FOB Tampa FL
+ USA E mail ssonghealth usf edu
+ Electrical stimulation not required see
+signs neuroinflammation inflammatory changes have
+been observed around recording electrodes used for char
+acterizing epileptogenic tissue and around cerebral spinal
+fluid CSF shunt Earlier studies stab
+injuries which foreign object usually metal was
+inserted into rodent brain and immediately removed 
+had pointed the importance chemokine expression mediating microgliosis and The
+acute and subacute reactions transient implantation 
+ metal microneedle the hippocampus were recently
+The needle insertion triggered robust cellular
+response characterized proliferation microglia and
+astrocytes and resulted stimulation neurogenesis 
+the subgranular zone SGZ the hippocampus 
+The primary objective the present study was 
+determine whether brief microneedle stimulation would
+increase hippocampal neurogenesis transgenic mouse
+model AD Tg APP and improve performance 
+ hippocampal dependent learning task such radial arm
+water maze RAWM A secondary objective was determine the needle insertion might activate cellular mechanisms improve clearance the amyloid Ab deposits
+ transgenic mouse model AD Tg APP 
+MATERIALS AND METHODS
+All procedures described here were reviewed and
+approved the institutional animal care and use committee IACUC the University South Florida and
+the James A Haley VA Research Service 
+Animals
+BL male mice weeks old were
+purchased from Harlan Laboratories Indianapolis IN 
+USA Transgenic Tg green fluorescent protein GFP 
+male mice BL Tg ACTB EGFP Osb J 
+ and Tg APP male mice were purchased from Jackson Laboratory Bar Harbor ME USA 
+and were aged months before euthanasia 
+Bone Marrow Harvest and Generation Chimeric
+Mice That Harbor GFP Expressing GFP Bone
+Marrow Cells
+The procedure for bone marrow harvesting from Tg
+GFP mice has been previously published SanchezRamos and Briefly bone marrow cells
+were collected from femurs and tibias adult male Tg
+GFP mice flushing the bone shaft with phosphatebuffered saline PBS bovine serum albumin
+ BSA mM ethylenediaminietetraacetic acid EDTA 
+ all from Sigma Aldrich St Louis MO USA 
+To generate chimeric mice Tg APP mice aged
+ months were lethally irradiated with gray Gy total
+body irradiation delivered two fractions Gy 
+SONG ET AL 
+ interval dose rate Gy min 
+Gammacell Exactor Best Theratronics Ltd Kanata 
+ON Canada Following irradiation the mice were
+transplanted with bone marrow derived mononuclear cells BM MNCs from Tg GFP mice infused
+via tail vein Bone marrow derived cells the rescued
+mice were readily tracked virtue their green fluorescence Examination blood smears from tail clippings
+for the presence green monocytes confirmed successful engraftment An average the irradiated mice had successful engraftment and exhibited GFP
+mononuclear cells their peripheral 
+Stereotaxic Insertion and Removal Microneedle
+Animals were anesthetized with ketamine 
+intraperitoneally IP Putney Inc Portland ME USA and
+xylazine IP Bayer Animal Health Shawnee
+Mission KS USA and placed into stereotactic frame 
+Using the bregma the reference point trephine hole
+was then drilled into the skull and the needle was gently
+inserted into the hippocampus anteriorposterior AP 
+ mediallateral ML dorsalventral
+ DV and slowly removed The total time for insertion and removal the microneedle was Mice also
+received deoxyuridine BrdU Sigma Aldrich 
+ IP injections twice per day for days 
+label nascent cells starting the day transient insertion
+ the needle 
+RAWM Test
+The RAWM task designed test spatial learning
+and memory and was originally developed test animals
+ability navigate specific location place learning 
+however can easily adapted test spatial working
+memory This task hippocampal dependent and highly
+sensitive hippocampal functional integrity although
+other brain structures such the prefrontal cortex and
+basal forebrain are important The RAWM was administered baseline before stereotaxic surgery and weeks
+after microneedle insertion and removal For baseline
+performance mice were tested for consecutive days 
+the RAWM task and then the Tg mice were divided into
+two groups one received transient insertion micro
+needle the dorsum the hippocampus and the other
+mice underwent sham surgery penetration calvarium Four weeks after microneedle stimulation sham
+surgery all mice were retested the RAWM for consecutive days For RAWM testing aluminum insert was
+introduced into pool order divide the pool
+into six equally spaced swim arms length 
+width radiating from central circular swim area 
+diameter The insert extended above the surface 
+the water allowing the mice easily view surrounding
+visual cues which were generously placed outside the
+MICRONEEDLE STIMULATES HIPPOCAMPAL NEUROGENESIS
+pool Visual spatial cues consisted large brightly colored
+two dimensional D and D objects including beach
+ball poster and inflatable pool toys During testing the
+pool water was maintained C In one the arms 
+ transparent submerged escape platform was placed
+ below the water near the wall end Each mouse was
+given five min trials per day The last the four consecutive acquisition trials trial and min delayed
+retention trial are indices working memory On any
+given day the escape platform location was placed the
+end one the six arms with the platform moved 
+ different arm semirandom fashion for each day 
+testing In contrast the stationary platform the Morris
+water maze moving the escape platform forced the animal
+ learn new platform location daily thereby evaluating
+working memory On each day different start arms for each
+ the five daily trials were selected from the remaining
+five swim arms semirandom sequence that involved
+all five arms For any given trial the mouse was placed
+into that trials start arm facing the center swim area and
+given find the platform When the mouse made 
+incorrect choice was gently pulled back that trials
+start arm and error was recorded An error was also
+recorded the mouse failed make choice 
+which case was returned that trails start arm the
+animal entered the platform containing arm but failed 
+locate the platform A stay was given once the mouse
+had found the platform If the mouse did not find the platform within trial was guided the experimenter
+ the platform allowed stay for and was assigned
+ latency Both errors incorrect arm choices and
+escape latency were recorded for each daily trial 
+protein GFAP and ionized calcium binding adapter
+ respectively protein that 
+specifically expressed macrophages microglia and 
+upregulated during the activation these cells Antibodies
+ doublecortin DCX were used label newborn neurons the dentate gyrus DG the hippocampus Brain
+sections were preincubated PBS containing normal serum goat donkey Vector Laboratories Inc 
+Burlingame CA USA and Triton Sigma
+Labs Inc Santa Fe NM USA for min The sections
+were then transferred solution containing primary antibodies normal serum Triton PBS and
+incubated overnight C The specific antibodies used 
+each experiment were follows rabbit Wako
+Chemicals USA Inc Richmond VA USA rabbit
+anti GFAP BioGenex Laboratories Inc San Ramon CA 
+USA PBS rabbit anti DCX Abcam Burlingame 
+CA USA containing normal serum without Triton After incubation with primary antibody 
+the sections were washed and incubated for with Alexa
+Fluor goat anti rabbit immunoglobulin G IgG diluted
+ PBS Invitrogen Grand Island NY USA room
+temperature The sections were then rinsed PBS three
+times and covered with cover glass Green fluorescence
+signals from the labeled cells were visualized with fluorescence microscopy using appropriate filters 
+Tissue Preparation and Sectioning
+Six mice from each group nontransgenic NT controls month old Tg APP mice treated with micro
+needle and month old Tg APP mice that had
+sham surgery underwent histological analyses determine the extent neurogenesis the hippocampus and
+Ab reduction After completion the RAWM weeks
+after needle stimulation mice were anesthetized with
+ chloral hydrate Sigma Aldrich and transcardiac
+perfusion the brain with saline and 
+ paraformaldehyde PFA Sigma Aldrich was done 
+The brain was removed and fixed for the same
+solution After fixing the brains were immersed overnight sucrose PFA PBS Sigma Aldrich 
+Thirty micrometer thick frozen sections through the hippocampus were prepared and stored vials containing 
+cryopreservation solution 
+Immunohistochemistry
+Selective immunostaining astrocytes and microglia
+was performed with antibodies glial fibrillary acidic
+Quantitative Image Analysis Amyloid Burden
+Images were acquired magnification 
+ digitized tagged image format files TIFF retain
+maximum resolution using Olympus microscope with attached digital camera system 
+Olympus Tokyo Japan Images six thick
+sections apart from each mouse were captured
+from serially sectioned hippocampi both the left and
+right sides Using ImageJ software National Institutes
+ Health NIH Bethesda MD USA the red channel
+ for the amyloid stain was selected and converted into 
+monochrome signal Then threshold optical density was
+obtained that discriminated staining from background 
+The thresholded signal was quantified percent the
+visual field for each image Data were reported the percentage labeled area captured positive pixels divided
+ the full area captured total pixels The fluorescence
+signals from each mouse hippocampus separate analyses for each side were averaged and used calculate
+the mean signal the visual field for each group
+ mice 
+As surrogate index neurogenesis the expression
+ DCX marker immature was measured
+ the DG hippocampi using the approach described
+above Bias was eliminated using blinded examiner
+who analyzed the region interest ROI represented 
+the sampling six sections per mouse DG the right
+side and six sections the left side Each analysis was
+done single examiner blinded sample identities 
+In addition semiautomatically measuring DCX signal described above for the amyloid measurements 
+ unbiased estimate the number DCX cells 
+the DG was performed coded sections previously
+ Briefly double labeled cells BrdU cells
+that coexpressed DCX were counted every sixth section each section separated using modification the optical dissector method cells the upper
+and lower planes were not counted avoid counting partial cells Resulting numbers were tallied and multiplied
+ tissue thickness and the number intervening sections 
+Data Analysis
+A summary RAWM data was prepared determining the mean error score for trials and The
+RAWM data were analyzed using both two way repeatedmeasures analysis variance ANOVA and one way
+ANOVAs Tests comparing treatment groups against
+NT controls trial were run followed correction
+for multiple comparisons Sidaks multiple comparisons
+test Analysis histological data comparing the lesioned
+side the unlesioned side utilized unpaired tests with
+equal variances GraphPad Prism version for Mac
+OS GraphPad Software La Jolla CA USA 
+RESULTS
+The RAWM was administered baseline before
+stereotaxic surgery and weeks after brief stereotaxic
+insertion and removal microneedle that targeted dorsal hippocampi the right side the brain The microlesioned Tg APP mice exhibited reduction 
+errors compared the nonlesioned Tg APP mice
+ the delayed memory retention trial trial Fig C 
+Two way ANOVA the data showed that trial number 
+but not treatment lesion lesion contributed significantly total variation One way analysis trial 
+data followed tests with correction for multiple comparisons showed that both lesioned and nonlesioned Tg
+animals were significantly different than the NT lesioned
+mice Although the data suggested improved performance the lesioned Tg mice compared the nonlesioned Tg mice Fig C these results did not reach
+statistical significance 
+Seven weeks after the surgery and after the last RAWM
+test the animals were euthanized and amyloid burden was
+determined Fig Simple insertion and removal the
+needle triggered repair response which the Ab signal
+was reduced over period weeks greater than 
+ the region In addition the GFP cells around
+and within amyloid plaques were increased greater than
+twofold Fig D These mice had been transplanted with
+SONG ET AL 
+GFP bone marrow months age Hence the GFP
+cells that decorate the Ab plaques are derived from circulating GFP blood cells Many GFP cells coexpress 
+indicating these cells have differentiated into microglia
+ data not shown The recruitment GFP bone marrow
+cells the site the lesion and their differentiation into
+ microglia have been reported earlier microlesion study normal Moreover the microlesion
+resulted increased hippocampal astrocytosis GFAP
+signal data not shown reported the earlier study 
+In addition decreased amyloid burden the microlesion promoted hippocampal neurogenesis Fig The
+DCX signal marker immature neurons the SGZ 
+was significantly increased the microneedle stimulation the right dorsal hippocampus compared the
+untreated side Estimates numbers newborn neurons
+ numbers DCX cells that were labeled birth with
+BrdU confirmed significant increase double labeled
+DCX BrdU cells triggered the focal microlesion 
+Tg AD mice 
+DISCUSSION
+Focal microlesions the hippocampus produced 
+transient insertion and removal microneedle 
+transgenic mouse model AD was effective decreasing amyloid burden and increasing neurogenesis Similar
+results reduction amyloid burden and promotion
+ hippocampal neurogenesis Tg AD mice have been
+observed following course granulocyte colonystimulating factor G CSF treatment the same transgenic mouse model Following course G CSF
+treatment both young and old Tg APP mice the
+therapeutic effect amyloid reduction was associated
+with improved performance the RAWM similar the
+effects microlesioning the hippocampus reported
+here More recently microlesions the hippocampus
+ young BL J mice were reported promote hippocampal neurogenesis and increase total microgliosis
+and In that microlesion study significant proportion the microglia were derived
+from circulating monocytes A cascade cytokine and
+chemokine release appeared play role recruitment
+ monocytes into the brain where they differentiated into
+In the present study there was attempt 
+characterize the phenotype the GFP cells However 
+ the basis our earlier work likely that GFP
+cells decorating the amyloid plaques were recruited the
+site the lesion where they differentiated into microglia
+expressing It assumed that increased macrophage
+activity the newly recruited microglia promotes clearance plaques Interventions that decrease the amyloid
+burden have been demonstrated improve performance
+ the RAWM other studies using the same Tg APP 
+ mouse model 
+ Transient microneedle insertion into the right hippocampus improved spatial memory impairment Tg APP mice total mice mice each experimental
+group and nontransgenic NT mice Data are plotted mean number errors the axis and trials the axis A Number errors plotted against trial number
+before the microlesion BASELINE and consecutive performances days exhibited weeks after the lesions B The overall performance mean scores the three groups
+ animals and Two way analysis variance ANOVA revealed that trial number but not treatment contributed significantly total variation Reversal training
+data analysis was performed trial C Mean number errors plotted against treatment trial One way ANOVA followed tests with multiple comparisons revealed
+that all means trial differed from the NT control The lesioned Tg mice exhibited reduction errors than nonlesioned Tg mice but the difference did
+not reach statistical significance 
+MICRONEEDLE STIMULATES HIPPOCAMPAL NEUROGENESIS
+SONG ET AL 
+ Effect microlesioning amyloid burden hippocampi Seven weeks after transient insertion the micro
+needle animals were euthanized and sections through the hippocampus were processed for amyloid Ab immunoreactivity
+and determination Ab burden A Left Untreated hippocampi Tg APP mice Abundant Ab plaques are seen the hippocampus especially the region Right Reduction Ab plaques scale bars B Left Increased magnification the
+plaques the lesioned side scale bars Middle GFP signal the same section Right Merged image the hippocampal
+section Ab GFP C Left Increased magnification the plaques the unlesioned control side scale bars Middle 
+GFP signal the same section Right Merged image the hippocampal section Ab GFP D Summary data mean amyloid
+burden per experimental cohort with mice each group Graph the right shows significant amyloid burden reduction
+ hippocampus Graph the left shows increase GFP signal indicating recruitment GFP cells from the peripheral
+circulation these chimeric Tg mice 
+In light the observations that microlesions the hippocampus stimulated neurogenesis normal young mice 
+ was interesting observe similar cellular response
+ neurogenesis would still occur old Tg AD mice 
+Unexpectedly the unilateral focal microlesion also resulted
+ decreased amyloid burden and positive impact
+ spatial memory The Tg AD mice that were lesioned
+performed better than Tg AD mice that underwent sham
+surgery The lesioned group Tg AD mice committed
+ less errors than nonlesioned Tg AD mice when tested
+after the reversal training but this improvement did not
+reach statistical significance The number animals per
+MICRONEEDLE STIMULATES HIPPOCAMPAL NEUROGENESIS
+ Sterile acupuncture needle maximum shaft diameter was transiently inserted stereotaxically into the dorsal hippocampi month old chimeric Tg APP mice NT mice that had received bone marrow derived mononuclear cell BM MNC 
+transplantation with GFP bone marrow cells age months Mice were injected with deoxyuridine BrdU 
+IP twice day for days label newly formed cells followed microneedle insertion Animals were euthanatized after completion RAWM weeks after placement the focal microlesion A DCX cells the subgranular zone SGZ Left Control side
+ lesion placement Right Increased expression DCX cells the SGZ the lesioned side Scale bars B Same sections higher magnification scale bars C The bar graphs indicate significantly higher expression GFP signal the
+microlesioned hippocampus compared the unlesioned control side The graph the right shows the number newborn neurons
+ double labeled DCX BrdU cells the SGZ the hippocampus was increased the side the lesion 
+group was only six and likely that larger sample size
+might have revealed statistically significant improvement
+ performance the RAWM 
+Clinical Significance
+DBS through chronically implanted metal electrodes
+into specific brain regions becoming common therapeutic choice for refractory movement disorders such 
+PD tremors and dystonia More recently DBS has been
+applied psychiatric and behavioral disorders including
+depression OCD addiction and most recently for disorders The potential deleterious
+effects short term long term electrode implantation
+are well recognized Examination brain tissue from
+patients with DBS has revealed activated astrocytes and
+microglia regardless the underlying disease Electrical
+stimulation not required see signs neuroinflammation inflammatory changes have been observed around
+recording electrodes used for characterizing epileptogenic tissue and around CSF shunt catheters 
+SONG ET AL 
+The increasing number neurosurgical interventions
+ treat cognitive and psychiatric conditions calls for 
+closer look mechanisms responsible for therapeutic
+benefits attempted the present study Stimulation 
+the entorhinal cortex has been reported promote adult
+neurogenesis and facilitate spatial memory 
+Memory enhancement was reported result DBS
+ the entorhinal area patients who were undergoing 
+workup for epilepsy This approach was applied
+ phase study patients with The investigators
+hypothesized that fornix hypothalamus DBS could modulate neurophysiological activity these pathological circuits and possibly produce clinical benefits Continuous
+DBS for months drove neural activity the memory
+circuit including the entorhinal and hippocampal areas 
+Evaluation the AD Assessment Scale cognitive subscale and the Mini Mental State Examination suggested
+possible improvements and slowing the rate 
+cognitive decline and months some 
+There were serious adverse 
+The findings presented here along with the previous
+reports beneficial effects DBS AD patients provide strong impetus for further investigations fundamental cellular mechanisms the brains response
+ microinjury animal models As the cellular and
+humoral mechanisms microlesioning are better understood will possible develop novel surgical and
+pharmacological targets for intervention and treatment 
+neurocognitive disorders 
+ACKNOWLEDGMENTS This study supported VA Merit
+Grant S Song The contents this research article not represent the views the Department Veterans Affairs the US
+Government S S V S and J S R have submitted patent application the use microstimulation trigger neurogenesis 
+REFERENCES
+Sperling RA Aisen PS Beckett LA Bennett DA Craft S 
+Fagan AM Iwatsubo T Jack CR Jr Kaye J Montine TJ 
+Park DC Reiman EM Rowe CC Siemers E Stern Y Yaffe
+K Carrillo MC Thies B Morrison Bogorad M Wagster
+MV Phelps CH Toward defining the preclinical stages 
+Alzheimers disease Recommendations from the National
+Institute Aging Alzheimers Association workgroups 
+diagnostic guidelines for Alzheimers disease Alzheimers
+Dement 
+Bronstein JM Tagliati M Alterman RL Lozano AM 
+Volkmann J Stefani A Horak FB Okun MS Foote KD 
+Krack P Pahwa R Henderson JM Hariz MI Bakay RA 
+Rezai A Marks WJ Jr Moro E Vitek JL Weaver FM Gross
+RE DeLong MR Deep brain stimulation for Parkinson disease An expert consensus and review key issues Arch
+Neurol 
+Flora ED Perera CL Cameron AL Maddern GJ Deep
+brain stimulation for essential tremor A systematic review 
+Mov Disord 
+Krack P Vercueil L Review the functional surgical treatment dystonia Eur J Neurol 
+ Koning PP Figee M van den Munckhof P Schuurman
+PR Denys D Current status deep brain stimulation for
+obsessive compulsive disorder A clinical review different targets Curr Psychiatry Rep 
+Conca A Di Pauli J Hinterhuber H Kapfhammer HP 
+Deep brain stimulation A review current research 
+Neuropsychiatr 
+Luigjes J van den Brink W Feenstra M van den Munckhof
+P Schuurman PR Schippers R Mazaheri A De Vries TJ 
+Denys D Deep brain stimulation addiction A review
+ potential brain targets Mol Psychiatry 
+Marangell LB Martinez M Jurdi RA Zboyan H 
+Neurostimulation therapies depression A review new
+modalities Acta Psychiatr Scand 
+Sen AN Campbell PG Yadla S Jallo J Sharan AD Deep
+brain stimulation the management disorders consciousness A review physiology previous reports and
+ethical considerations Neurosurg Focus 
+Shah SA Schiff ND Central thalamic deep brain stimulation for cognitive neuromodulationa review proposed
+mechanisms and investigational studies Eur J Neurosci 
+Stephan CL Kepes JJ SantaCruz K Wilkinson SB Fegley
+B Osorio I Spectrum clinical and histopathologic
+responses intracranial electrodes From multifocal aseptic meningitis multifocal hypersensitivity type meningovasculitis Epilepsia 
+Burbaud P Vital A Rougier A Bouillot S Guehl D Cuny
+E Ferrer X Lagueny A Bioulac B Minimal tissue damage
+after stimulation the motor thalamus case choreaacanthocytosis Neurology 
+Chou KL Forman MS Trojanowski JQ Hurtig HI Baltuch
+GH Subthalamic nucleus deep brain stimulation 
+patient with levodopa responsive multiple system atrophy 
+Case report J Neurosurg 
+Henderson JM Vagal nerve stimulation versus deep brain
+stimulation for treatment resistant depression Show 
+the data Clin Neurosurg 
+Nielsen MS Bjarkam CR Sorensen JC Bojsen Moller
+M Sunde NA Ostergaard K Chronic subthalamic highfrequency deep brain stimulation Parkinsons diseasea
+histopathological study Eur J Neurol 
+Vedam Mai V van Battum EY Kamphuis W Feenstra
+MG Denys D Reynolds BA Okun MS Hol EM Deep
+brain stimulation and the role astrocytes Mol Psychiatry
+Vedam Mai V Yachnis A Ullman M Javedan SP Okun
+MS Postmortem observation collagenous lead tip region
+fibrosis rare complication DBS Mov Disord 
+Del Bigio MR Biological reactions cerebrospinal
+fluid shunt devices A review the cellular pathology 
+Neurosurgery Discussion 
+Glabinski AR Balasingam V Tani M Kunkel SL Strieter
+RM Yong VW Ransohoff RM Chemokine monocyte
+chemoattractant expressed astrocytes after
+mechanical injury the brain J Immunol 
+Ghirnikar RS Lee YL He TR Eng LF Chemokine
+expression rat stab wound brain injury J Neurosci Res 
+Fujita T Yoshimine T Maruno M Hayakawa T Cellular
+dynamics macrophages and microglial cells reaction 
+MICRONEEDLE STIMULATES HIPPOCAMPAL NEUROGENESIS
+stab wounds rat cerebral cortex Acta Neurochir Wien 
+Kaur C Ling EA Wong WC Origin and fate neural
+macrophages stab wound the brain the young rat 
+J Anat 
+Song S Song S Cao C Lin X Li K Sava V SanchezRamos J Hippocampal neurogenesis and the brain repair
+response brief stereotaxic insertion microneedle 
+Stem Cells Int 
+Sanchez Ramos J Song S Cardozo Pelaez F Hazzi C 
+Stedeford T Willing A Freeman TB Saporta S Janssen
+W Patel N Cooper DR Sanberg PR Adult bone marrow
+stromal cells differentiate into neural cells vitro Exp
+Neurol 
+Song S Sanchez Ramos J Preparation neural progenitors
+from bone marrow and umbilical cord blood In Zigova T 
+Sanberg PR Sanchez Ramos J editors Protocols for neural stem cell methods Vol Methods molecular biology Totowa NJ Human Press 
+Furuya T Tanaka R Urabe T Hayakawa J Migita M 
+Shimada T Mizuno Y Mochizuki H Establishment 
+modified chimeric mice using GFP bone marrow 
+model for neurological disorders Neuroreport 
+Sanchez Ramos J Song S Sava V Catlow B Lin X Mori
+T Cao C Arendash GW Granulocyte colony stimulating factor decreases brain amyloid burden and reverses
+cognitive impairment Alzheimers mice Neuroscience
+von Bohlen und Halbach O Immunohistological markers
+for staging neurogenesis adult hippocampus Cell Tissue
+Res 
+Shors TJ Miesegaes G Beylin A Zhao M Rydel T Gould
+E Neurogenesis the adult involved the formation 
+trace memories Nature 
+Catlow BJ Song S Paredes DA Kirstein CL SanchezRamos J Effects psilocybin hippocampal neurogenesis and extinction trace fear conditioning Exp Brain
+Res 
+Boyd TD Bennett SP Mori T Governatori N Runfeldt M 
+Norden M Padmanabhan J Neame P Wefes I SanchezRamos J Arendash GW Potter H GM CSF upregulated
+ rheumatoid arthritis reverses cognitive impairment and
+amyloidosis Alzheimer mice J Alzheimers Dis 
+Stone SS Teixeira CM Devito LM Zaslavsky K Josselyn
+SA Lozano AM Frankland PW Stimulation entorhinal
+cortex promotes adult neurogenesis and facilitates spatial
+memory J Neurosci 
+Suthana N Haneef Z Stern J Mukamel R Behnke E 
+Knowlton B Fried I Memory enhancement and deep brain
+stimulation the entorhinal area N Engl J Med 
+Laxton AW Tang Wai DF McAndrews MP Zumsteg D 
+Wennberg R Keren R Wherrett J Naglie G Hamani C 
+Smith GS Lozano AM A phase I trial deep brain stimulation memory circuits Alzheimers disease Ann
+Neurol 

@@ -1,0 +1,453 @@
+Temporal lobe atrophy MRI 
+Parkinson disease with dementia
+A comparison with Alzheimer disease and dementia
+with Lewy bodies
+C W C Tam MRCPsych E J Burton PhD I G McKeith MD D J Burn MD and J T OBrien DM
+AbstractObjective To investigate the extent medial temporal lobe atrophy MTA MRI Parkinson disease PD 
+with and without dementia compared with Alzheimer disease AD and dementia with Lewy bodies DLB and 
+determine whether MTA correlates with cognitive impairment PD and PD dementia PDD Methods Coronal weighted MRI scans were acquired from control subjects and patients with PD PDD DLB 
+ and AD diagnosed according standardized clinical diagnostic criteria Cognitive function was assessed
+using the Cambridge Cognitive Examination CAMCOG and MTA was rated visually using standardized Scheltens 
+scale Results More severe MTA was seen PDD DLB and AD control subjects 
+PD subjects had greater hippocampal atrophy than control subjects but less than subjects with DLB and AD 
+though not with PDD MTA correlated with CAMCOG score and memory scores the DLB group and with age control 
+PDD and AD groups There were correlations between MTA and cognitive impairment PD PDD and AD PDD and
+DLB had similar profile cognitive impairment and MTA Conclusions Medial temporal lobe atrophy MTA was seen
+ cognitively intact older subjects with Parkinson disease PD and was not more pronounced Parkinson disease
+dementia PDD Alzheimer disease AD and lesser extent dementia with Lewy bodies DLB showed more
+pronounced MTA Results suggest early hippocampal involvement PD and that when dementia develops PD 
+anatomic structures apart from the hippocampus are predominantly implicated Greater hippocampal involvement AD
+ PDD and DLB consistent with clinical cognitive and pathologic differences between the disorders 
+NEUROLOGY 
+A prospective incidence study reported that more
+than three quarters older cohort with Parkinson disease PD developed dementia PDD during
+ year follow Early intervention patients
+with PD who are risk for dementia important
+for future disease modifying therapies Structural
+neuroimaging has the potential play important
+role 
+Atrophy the medial temporal lobe MTA 
+well recognized feature Alzheimer disease AD 
+and can discriminate patients with AD from agematched control subjects However hippocampal
+atrophy may not specific AD and has been
+reported vascular dementia Studies have shown
+medial temporal lobe structures MRI relatively preserved dementia with Lewy bodies
+ DLB AD There have been few studies PDD 
+and inconsistencies have emerged One study reported hippocampal atrophy PDD even
+greater than AD whereas others have found hippocampal atrophy nondemented PD that correlated with impaired episodic memory 
+Studies using more sensitive serial MRI methods
+have shown significantly greater annual brain volume loss nondemented PD patients control subjects We have previously used voxel based
+morphometry demonstrate atrophy the frontal
+lobe PD that extends temporal occipital and
+parietal lobes PDD 
+We sought compare the extent MTA assessed
+visually from MRI scans subjects with PD with
+and without dementia and those with DLB and AD
+and control subjects and examine the relationship
+between MTA and cognitive and noncognitive symptoms We hypothesized that MTA would less common PDD and DLB than AD and that MTA
+would more frequent PD than control subjects 
+Methods Subjects The sample consisted subjects 
+with PD with PDD with DLB with AD and healthy
+elderly control subjects Subjects underwent MRI scans part 
+ baseline assessment prospective longitudinal study dementia Patients were recruited from hospital and communitydwelling populations under the care old age psychiatrists 
+geriatricians and neurologists Control subjects were recruited
+from friends and spouses patients caregivers The Newcastle
+and North Tyneside Ethics Committee approved the study All
+subjects gave written informed consent participate 
+From the Department Psychiatry Dr Tam Tai Po Hospital Hong Kong and Institute for Ageing and Health Drs Burton McKeith and OBrien 
+University Newcastle upon Tyne and Department Neurology Dr Burn Regional Neurosciences Centre Newcastle General Hospital UK 
+Supported program grant from the Medical Research Council UK 
+Received July Accepted final form November 
+Address correspondence and reprint requests Dr J T OBrien Wolfson Research Centre Newcastle General Hospital Newcastle BE UK mail 
+ obrienncl 
+Copyright AAN Enterprises Inc 
+Assessment and diagnosis Subjects underwent detailed physical neurologic and neuropsychiatric examinations which included clinical history and mental state and physical examination
+and for demented subjects standardized blood screen with thyroid function tests vitamin folate and syphilis serology 
+Standardized schedules administered included the Mini Mental
+State Examination MMSE Cambridge Cognitive Examination
+ CAMCOG and Neuropsychiatric Inventory Diagnosis was
+made consensus between experienced clinicians using the National Institute Neurologic and Communicative Disorders and
+Stoke Alzheimers Disease and Related Disorders Association criteria for AD the consensus criteria for DLB and PDD and the
+UK Parkinsons Disease Society Brain Bank criteria for PD 
+Twenty seven patients with AD met criteria for probable AD and
+ for possible AD DLB patients fulfilled probable and fulfilled possible DLB criteria whereas all PD and PDD patients met
+the clinical diagnostic criteria for PD The distinction between
+DLB and PDD was made the basis the duration the
+parkinsonism recommended the consensus diagnostic criteria for DLB Patients whose dementia developed either before 
+within months the onset parkinsonism were classified 
+DLB Those whose dementia developed months later after
+the onset PD were classified PDD 
+Exclusion criteria for normal subjects were evidence dementia either from history mental state examination score 
+ the CAMCOG any other major psychiatric neurologic 
+physical disorder including drug and alcohol abuse 
+MRI procedure All scans were performed T GE
+Signa scanner General Electric Milwaukee WI Whole brain weighed three dimensional fast spin echo spoiled gradient echo data
+sets were acquired the coronal plane repetition time milliseconds echo time milliseconds inversion time milliseconds matrix slice thickness flip angle 
+field view plane resolution yielding contiguous slices through the head Standard head positioning was used throughout 
+MTA rating A widely used standardized scale Scheltens
+Scale was used rate left and right MTA from hard copies 
+ weighted coronal images This scale rates atrophy absent minimal mild moderate and severe based 
+the width the surrounding CSF spaces temporal horn and
+choroid fissure and the height the hippocampal formation
+ which includes the hippocampus proper subiculum and parahippocampal and dentate gyri An example the different severities
+ MTA shown figure For the purpose analysis left and
+right scores were summed give overall combined MTA score 
+ranging from All scans were rated the same trained
+rater blinded clinical diagnosis Interrater reliability was assessed between the trained rater and experienced rater 
+measuring subjects Intrarater reliability was assessed measuring subjects two occasions 
+Statistical analysis The statistical package SPSS for Windows version Chicago IL was used for data analysis Differences between groups continuous variables were assessed
+using analysis variance with post hoc Tukey tests determine
+group differences For nonparametric data KruskalWallis analysis variance was used followed post hoc MannWhitney U
+test Pearson statistic appropriate Correlations between
+MTA scores age and cognitive function were examined using the
+Spearman rank order correlation coefficient All statistical tests
+were two tailed and were regarded significant 
+Interrater reliability for visual ratings scans was assessed using weighted that controls for chance agreement between raters 
+Results Reliability Interrater reliability was regarded
+ satisfactory Weighted values for visual ratings 
+atrophy were follows right MTA and left MTA
+ Intrarater reliability was excellent with weighed 
+values for visual ratings atrophy follows right MTA
+ and left MTA 
+Demographic and cognitive characteristics The demographic and clinical characteristics all groups are summarized table Groups were matched for sex and
+broadly matched for age although the AD group was older
+than the PDD group Educational level did not
+NEUROLOGY 
+March 
+ Example coronal images medial temporal
+lobe atrophy scores showing increasing atrophy 
+loss height the hippocampus and widening the
+temporal horn 
+differ between PD and all dementia groups 
+ The three dementia groups had similar duration
+ cognitive symptoms and severity cognitive impairment measured MMSE and
+total CAMCOG scores Unified
+Parkinsons Disease Rating Scale scores were higher 
+subjects with PD PDD and DLB than control subjects and
+those with AD with AD patients having higher
+scores than control subjects 
+At the time MRI scan patients with PD 
+ with PDD and with DLB were receiving
+levodopa Those patients taking cholinesterase inhibitors
+included seven with PDD eight with AD and
+eight with DLB All patients underwent assessments
+and MRI scans while receiving their medication 
+Neuropsychological characteristics different dementia
+groups Table summarizes the neuropsychological char 
+Table Demographic and neuropsychological data subjects studied with MRI
+Sex M F
+Control 
+PD 
+PDD 
+DLB 
+AD 
+Differences between groups
+NS
+Age 
+AD PDD 
+MMSE max 
+Control PD PDD AD DLB 
+CAMCOG max 
+Control PD PDD AD DLB 
+CAMCOG memory 
+max 
+Control PD PDD DLB AD 
+UPDRS III max 
+DLB PDD PD control and AD 
+AD control 
+Duration cognitive
+symptoms 
+NA
+NA
+NS
+Age onset 
+cognitive
+impairment 
+NA
+NA
+AD DLB PDD 
+Values are mean SD 
+ One way analysis variance and Tukey post hoc tests 
+ KruskalWallis and post hoc MannWhitney test 
+PD Parkinson disease PDD Parkinson disease dementia DLB dementia with Lewy bodies AD Alzheimer disease MMSE 
+Mini Mental State Examination CAMCOG Cambridge Cognitive Examination UPDRS Unified Parkinsons Disease Rating Scale 
+acteristics different diagnostic groups All dementia
+groups had lower scores than the control and PD groups 
+all CAMCOG subscales The PD group had
+lower scores than the control group language expression
+ perception and executive function
+ subscales The AD group had lower scores than
+the PDD and DLB groups memory PDD 
+DLB and orientation PDD subscales PDD and DLB groups had lower scores than the AD
+group attention PDD DLB 
+praxis PDD DLB and executive
+function PDD subscales There were differences between the PDD and DLB groups any the
+cognitive assessments memory orientation 
+Differences MTA Table summarizes the combined
+scores MTA each group MTA was greater the left
+ all groups except the AD group However the asymmetry was not significant control PD 
+PDD There were differences the combined
+MTA scores different diagnostic groups 
+ MTA the control group was less than that 
+PD PDD AD and DLB groups for PD and 
+ for PDD for AD and DLB The AD group
+had more MTA PD PDD and DLB groups 
+DLB had more MTA PD Differences MTA
+between PD and PDD between PDD and
+DLB were not significant MTA showed pattern control PD PDD DLB AD tables and 
+There some overlap between groups combined MTA
+rating figure Ratings were unusual control
+subjects only cases whereas ratings were unusual AD cases 
+Correlation MTA ratings with age and cognitive impairment Age was associated with combined MTA score
+ the control PDD 
+ and AD groups but not PD
+ In normal control subjects language
+comprehension and total scores CAMCOG inversely correlated with combined MTA rating 
+ In subjects with DLB language
+expression orientation 
+ memory remote recent 
+ total MMSE
+ and total CAMCOG 
+ scores inversely correlated with combined MTA
+ratings There were correlations between MTA rating
+and cognitive impairment PD PDD and AD groups 
+There were correlations between frequency severity
+ neuropsychiatric symptoms and MTA ratings any
+dementia groups 
+Discussion Our data confirm previous reports
+that patients with PD without dementia have more
+MTA than age matched control subjects This implies that older PD subjects have progressive MTA
+before the onset dementia In our study PD subjects had more impairment language expression
+ including verbal fluency and executive function
+than the control subjects These findings are consistent with reports from community based studies 
+early PD showing cognitive impairments 
+newly diagnosed and nondemented PD cases with 
+profile and associated imaging changes indicative 
+frontostriatal dysfunction Mild cognitive impairments this type PD patient conjunction
+with concomitant hippocampal atrophy might provide presymptomatic marker for dementia risk 
+Previously reported risk factors for developing deMarch 
+NEUROLOGY 
+Table Comparison medial temporal lobe atrophy between
+subjects with PD and different dementia subjects
+Table CAMCOG total and subscale scores
+Control PD PDD DLB AD
+Abstract thinking 
+Differences between
+dementia groups
+NS
+Attention 
+AD PDD AD DLB 
+Calculation 
+NS
+NS
+NS
+Language comprehension 
+Language expression 
+Memory recent 
+Memory learning 
+Memory remote 
+Orientation 
+Perception 
+Combined
+hippocampal
+atrophy
+PD
+PDD
+PD
+DLB
+PDD
+DLB
+PD
+AD
+PDD
+AD
+DLB
+AD
+Post hoc MannWhitney U test 
+PDD AD DLB AD
+PDD AD DLB AD
+PDD AD
+PDD AD
+NS
+AD PDD AD DLB
+Praxis 
+Executive function
+AD PDD 
+Memory total
+PDD AD DLB AD
+Values are medians Values parentheses represent maximum scores for each test 
+CAMCOG Cambridge Cognitive Examination PD Parkinson disease PDD Parkinson disease dementia DLB dementia with Lewy bodies AD Alzheimer disease 
+mentia PD include older age older age onset 
+PD male sex longer duration symptoms decreased verbal fluency and axial motor impairment 
+Prospective study needed further clarify these
+associations 
+MTA PDD was less severe than AD more
+closely resembling that seen DLB These findings
+are agreement with previous and studies and consistent with previous observations using voxel based morphometry gray matter
+loss temporal lobes the same sample Differences MTA between the demented groups could
+not explained different durations cognitive
+symptoms severity global cognitive impairment 
+All three demented groups had more extensive MTA
+than age matched control subjects Previous studies
+have also reported increased atrophy temporal
+lobe structures both PDD and DLB and neuropathologic studies find the region the
+hippocampus mainly affected DLB whereas
+PD Parkinson disease PDD Parkinson disease dementia 
+DLB dementia with Lewy bodies AD Alzheimer disease 
+AD characterized involvement hippocampus and entorhinal cortex 
+The profiles cognitive impairment PDD 
+DLB and AD groups were consistent with previous
+studies AD subjects had more memory impairment
+and less impairment attention visuospatial and
+executive function PDD and DLB subjects Only
+the DLB group had correlations between memory 
+global cognitive function and MTA Recent studies
+have found memory and MMSE score correlated with
+hippocampal volume DLB AD and also PD and
+PDD The absence correlation could due the
+relatively simple visual scale which global rating including hippocampus parahippocampal gyrus 
+and ventricles which may not match onto cognitive
+task such way single measurement 
+hippocampus Also possible were floor effects AD
+subjects the MTA rating most AD cases scored
+ out the combined score 
+The major strength this study the recruitment large number community based elderly
+patients with late life dementia with comparable
+age sex education and duration dementia MR
+images were acquired using standardized protocol 
+and atrophy was assessed blind diagnosis using
+ established scale with satisfactory reliability A
+potential criticism this study the reliance 
+clinical rather than pathologic diagnoses However 
+clinical diagnoses were made after detailed assessment and accordance with standardized criteria 
+ center with proven track record high accuracy
+ judged autopsy confirmation 
+Table Medial temporal lobe atrophy MRI
+Medial temporal
+lobe atrophy
+Control
+PD
+PDD
+DLB
+AD
+Right
+Left
+Values are means SD 
+ Control PD PDD DLB AD post hoc MannWhitney U test 
+PD Parkinson disease PDD Parkinson disease dementia DLB dementia with Lewy bodies AD Alzheimer disease 
+NEUROLOGY 
+March 
+ Scatterplot combined medial temporal lobe
+atrophy MTA score diagnostic group PD Parkinson
+disease PDD Parkinson disease dementia AD Alzheimer disease DLB dementia with Lewy bodies 
+Acknowledgment
+The authors thank Elise Rowan and the Lewy Body Team for help
+with recruitment clinical assessment and database 
+References
+Aarsland D Andersen K Larsen JP Lolk A Kragh Sorensen P Prevalence and characteristics dementia Parkinsons disease An eightyear prospective study Arch Neurol 
+Jack CR Jr Petersen RC OBrien PC Tangalos EG MR based hippocampal volumetry the diagnosis Alzheimers disease Neurology
+Scheltens P Leys D Barkhof F Atrophy medial temporal lobes
+ MRI probable Alzheimers disease and normal aging diagnostic
+value and neuropsychological correlates J Neurol Neurosurg Psychiatry 
+Jack CR Jr Petersen RC Xu YC Medial temporal atrophy 
+MRI normal aging and very mild Alzheimers disease Neurology
+Barber R Ballard C McKeith IG Gholkar A OBrien JT MRI volumetric study dementia with Lewy bodies comparison with AD and
+vascular dementia Neurology 
+Barber R Gholkar A Scheltens P Ballard C McKeith IG OBrien JT 
+Medial temporal lobe atrophy MRI dementia with Lewy bodies 
+Neurology 
+Barber R McKeith IG Ballard C Gholkar A OBrien JT A comparison
+ medial and lateral temporal lobe atrophy dementia with Lewy
+bodies and Alzheimers disease magnetic resonance imaging volumetric
+study Dement Geriatr Cogn Disord 
+Burton EJ Karas GK Paling SM Patterns cerebral atrophy 
+dementia with Lewy bodies using voxel based morphometry Neuroimage 
+Laakso MP Partanen K Riekkinen P Hippocampal volumes 
+Alzheimers disease Parkinsons disease with and without dementia 
+and vascular dementia MRI study Neurology 
+Camicioli R Moore MM Kinney A Corbridge E Glassberg K Kaye JA 
+Parkinsons disease associated with hippocampal atrophy Mov Disord 
+Riekkinen P Jr Kejonen K Laakso MP Soininen H Partanen K Riekkinen M Hippocampal atrophy related impaired memory but not
+frontal functions non demented Parkinsons disease patients Neuroreport 
+Double KL Halliday GM McRitchie DA Reid WG Hely MA Morris
+JG Regional brain atrophy idiopathic Parkinsons disease and diffuse Lewy body disease Dementia 
+Hu MT White SJ Chaudhuri KR Correlating rates cerebral
+atrophy Parkinsons disease with measures cognitive decline 
+J Neural Transm 
+Burton EJ McKeith IG Burn DJ Williams ED OBrien JT Cerebral
+atrophy Parkinsons disease with and without dementia comparison with Alzheimers disease dementia with Lewy bodies and controls 
+Brain 
+Folstein MF Folstein SE McHugh PR Mini Mental State A practical
+method for grading the cognitive state patients for the clinician 
+J Psychiatr Res 
+Roth M Tym E Mountjoy CQ CAMDEX standardized instrument for the diagnosis mental disorder the elderly with special
+reference the early detection dementia Br J Psychiatry 
+Cummings JL Mega M Gray K Rosenberg Thompson S Carusi DA 
+Gornbein J The Neuropsychiatric Inventory comprehensive assessment psychopathology dementia Neurology 
+McKhann G Drachman D Folstein M Katzman R Price D Stadlan
+EM Clinical diagnosis Alzheimers disease report the NINCDSADRDA Work Group under the auspices Department Health and
+Human Services Task Force Alzheimers Disease Neurology 
+McKeith IG Galasko D Kosaka K Consensus guidelines for the
+clinical and pathologic diagnosis dementia with Lewy bodies DLB 
+report the Consortium DLB International Workshop Neurology
+Gibb WR Lees AJ The relevance the Lewy body the pathogenesis
+ idiopathic Parkinsons disease J Neurol Neurosurg Psychiatry 
+Lewis SJ Dove A Robbins TW Barker RA Owen AM Cognitive impairments early Parkinsons disease are accompanied reductions
+ activity frontostriatal neural circuitry J Neurosci 
+Foltynie T Brayne CE Robbins TW Barker RA The cognitive ability 
+ incident cohort Parkinsons patients the UK The CamPaIGN
+study Brain 
+Lippa CF Johnson R Smith TW The medial temporal lobe dementia
+with Lewy bodies comparative study with Alzheimers disease Ann
+Neurol 
+Dickson DW Ruan D Crystal H Hippocampal degeneration
+differentiates diffuse Lewy body disease from Alzheimers disease light
+and electron microscopic immunocytochemistry neurites specific DLBD Neurology 
+Noe E Marder K Bell KL Jacobs DM Manly JJ Stern Y Comparison
+ dementia with Lewy bodies Alzheimers disease and Parkinsons
+disease with dementia Mov Disord 
+Petersen RC Jack CR Jr Xu Y C Memory and MRI based hippocampal volumes aging and AD Neurology 
+McKeith IG Ballard CG Perry RH Prospective validation 
+consensus criteria for the diagnosis dementia with Lewy bodies 
+Neurology 
+March 
+NEUROLOGY 
+Temporal lobe atrophy MRI Parkinson disease with dementia A comparison
+with Alzheimer disease and dementia with Lewy bodies
+C W C Tam E J Burton I G McKeith 
+Neurology 
+DOI WNL 
+This information current March 
+Updated Information 
+Services
+including high resolution figures can found 
+http www neurology org content full html
+References
+This article cites articles which you can access for free 
+http www neurology org content full html 
+Citations
+This article has been cited HighWire hosted articles 
+http www neurology org content full html otherarticles
+Subspecialty Collections
+This article along with others similar topics appears the
+following collection 
+MRI
+http www neurology org cgi collection mri
+Parkinsons disease with dementia
+http www neurology org cgi collection parkinsons disease with 
+mentia
+Parkinsons disease Parkinsonism
+http www neurology org cgi collection parkinsons disease parkinso
+nism
+Volumetric MRI
+http www neurology org cgi collection volumetric mri
+Permissions Licensing
+Information about reproducing this article parts figures tables 
+its entirety can found online 
+http www neurology org misc about xhtml permissions
+Reprints
+Information about ordering reprints can found online 
+http www neurology org misc addir xhtml reprintsus
+Neurology the official journal the American Academy Neurology Published continuously since
+ now weekly with issues per year Copyright All rights reserved Print ISSN 
+Online ISSN X 

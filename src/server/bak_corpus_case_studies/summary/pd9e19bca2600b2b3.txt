@@ -1,0 +1,19 @@
+We computed individual subject expression values for ADRP and PDCP in 89 patients with PD and correlated summary scores for cognitive functioning with network expression.
+
+Differences in ADRP expression between patients and controls in each testing sample were assessed with Student t tests, and differences in ADRP expression across the PD subgroups were assessed with 1-way analysis of variance, followed by post-hoc Dunnett tests for multiple comparisons.
+
+Summary scores for each of the 3 cognitive domains correlated with ADRP expression in the combined AD cohorts: the worse the summary score, the more elevated the expression of ADRP. There was no such correlation between neuropsychological summary scores and PDCP expression.
+
+Cognitive impairment in patients with PD correlates with expression of PDCP but not ADRP. As expected,18 the PD cohort showed PDCP expression that increased as cognitive impairment Neurology 87 November 1, 2016 2016 American Academy of Neurology.
+
+ADRP levels were similarly elevated in all patients with PD, including the cognitively intact PD-MCI(2) group, which showed modest elevations in both PDCP and ADRP expression relative to healthy controls; the level of pattern expression in these participants was similar for the 2 topographies.
+
+B According to the atlas of Schmahmann et al.31 p 5 0.01, 2 3 4 RMANOVA) such that stepwise increases in PDCP expression corresponded with more severe cognitive dysfunction but without corresponding differences in ADRP. PDCP and ADRP expression values did not correlate in the PD subgroups with dementia or without dementia.
+
+If ADRP expression is present in patients with PD but does not correlate with cognitive deficits, what does it represent? Given the aforementioned overlap in the parietal association cortex between ADRP and PDRP topographies, we computed expression values for a modified ADRP topography, called ADRP', which was defined by masking the overlapping regions in each brain before forward application of the native ADRP pattern.
+
+Figure 3 Parkinson disease cognition-related pattern expression, but not Alzheimer disease-related pattern expression, is associated with cognitive impairment in PD Mean PDCP and ADRP expression values are displayed for patients with PD with no evidence of mild cognitive impairment , single-domain MCI , multiple-domain MCI , and PD with dementia; values for normal controls are provided for reference.
+
+Although ADRP expression in these patients was elevated relative to control values at all 3 time points, the expression of ADRP' did not reach significance at any time point.
+
+ADRP expression in these patients was elevated relative to control values at all time points; PDCP expression, in contrast, reached abnormal levels only at the final time point.

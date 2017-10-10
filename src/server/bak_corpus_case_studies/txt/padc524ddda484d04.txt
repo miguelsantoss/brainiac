@@ -1,0 +1,557 @@
+Movement Disorders
+Vol No 
+ Movement Disorder Society
+Parkinsons Disease Is Associated with Hippocampal Atrophy
+Richard Camicioli MD M Milar Moore BS Anthony Kinney BS Elizabeth Corbridge BA 
+Kathryn Glassberg BA and Jeffrey A Kaye 
+Department Neurology Oregon Health and Science University Portland Oregon USA
+Portland Veterans Affairs Medical Center Portland Oregon USA
+Department Medicine Neurology University Alberta Edmonton Alberta Canada
+Abstract Patients with Parkinsons disease PD may have
+hippocampal atrophy compared with controls We compared
+hippocampal and extra hippocampal volumes between PD 
+PDD patients with PD who have mild cognitive impairment 
+dementia Alzheimers disease AD and controls using volumetric magnetic resonance imaging MRI Participants 
+patients with PD with PDD with AD and control
+subjects had informant interview neurological examination and psychometric testing Established reliable methods
+were used measure the hippocampus parahippocampal gyrus temporal frontal and parieto occipital lobes Correction
+for intracranial volume was carried out before comparison 
+There was age difference between groups mean age 
+years On the Clinical Dementia Rating scale CDR cognitive
+impairment was mild CDR the majority PDD and
+AD patients Hippocampal P volumes were smaller
+ the patient groups Effect sizes compared with the control
+group were PD PDD and AD The other
+volumes did not differ signicantly Among PD and PDD
+patients recognition memory P and
+Mini Mental State Examination scores P 
+correlated with left but not right hippocampal volume In
+conclusion hippocampal volume showed pattern Control 
+PD PDD AD suggesting progressive hippocampal volume loss PD Volumetric MRI imaging might provide 
+early marker for dementia PD Movement Disorder
+Society
+Key words Parkinsons disease dementia Alzheimers disease MRI hippocampus atrophy
+Patients with Parkinsons disease PD the most common neurodegenerative movement disorder are high
+risk for the development dementia Incidence rates for
+dementia range from per year The prevalence dementia PD ranges from Thus 
+PD with dementia may represent the second most common cause dementia after Alzheimers disease AD 
+Dementia PD associated with high risk nursing
+home and death Early intervention PD
+patients who are risk for dementia would ideal but
+accurate diagnosis and prediction necessary 
+Prediction dementia imperfect Incidence studies
+have identied risk factors which include older age 
+male gender longer duration symptoms specic aspects cognitive dysfunction decreased verbal
+uency and axial motor impairment which responds
+poorly dopaminergic treatment A structural functional neuroimaging marker might complement other
+clinical and neuropsychological predictors 
+Two previous studies demonstrated that hippocampal atrophy evident PD with without dementia Similar ndings are observed dementia with
+Lewy bodies DLB where diffuse Lewy bodies and 
+ many cases the pathologic features AD cooccur These changes overlap with those seen 
+PD with dementia PDD but DLB distinguished overlapping onset dementia and parkinsonism within months along with hallucinations
+and uctuations Except for uctuations none the
+core features are distinctive for DLB Visual hallucinations for example are common PD especially 
+ Correspondence Richard Camicioli MD FRCPC Department
+ Medicine University Alberta Glenrose Rehabilitation Hospital 
+Room Avenue Edmonton Alberta Canada G
+ E mail rcamicioualberta 
+Received March Revised December Accepted 
+December 
+PD AND HIPPOCAMPAL ATROPHY
+patients with coexistent dementia highlighting the
+clinical overlap DLB and PDD 
+We sought conrm that hippocampal atrophy was
+evident independent sample patients with PD
+with very mild cognitive impairment dementia compared with healthy elderly and non demented PD using
+whole brain volumetric imaging Specically examined hippocampal and extrahippocampal regions discern the pattern atrophy differed between PD and
+AD Based previous work hypothesized that hippocampal atrophy would present early stage 
+older patients with PD but would lesser severity
+than that seen AD Furthermore predicted that the
+pattern atrophy would differ between PDD and AD 
+SUBJECTS AND METHODS
+Subjects
+Subjects were recruited from the Parkinson Center 
+Oregon Movement Disorders Clinic the Oregon Aging
+and Alzheimer Disease Clinic and the Oregon Brain
+Aging Study Parkinsons disease was dened the
+presence two signs among resting tremor rigidity and
+bradykinesia consistent with the UK Brain Bank criteria Parkinsons disease with dementia patients required diagnosis PD have preceded the diagnosis
+ dementia cognitive impairment least one year 
+This information was collected history obtained from
+ informant and was used operationally exclude
+DLB cases where dementia and parkinsonism occurred
+within one year 
+Dementia was dened according DSM IV criteria 
+Cognitive impairment was staged using the Clinical Dementia Rating Scale CDR which has been used previously staging dementia PD A rating termed
+questionable very mild dementia indicates persistent
+memory impairment mild cognitive functional
+change representing change from previous level 
+function and was the minimal criterion for cognitive impairment Some patients this stage may not meet strict
+criteria for dementia that functional decline was not
+required for the present study Nevertheless all cognitively
+impaired and demented PD patients were referred 
+PDD Higher stages the CDR represent more severe
+dementia mild dementia moderate dementia severe dementia Those with AD met criteria for probable AD
+according the NINCDS ADRDA 
+Methods used for the Oregon Brain Aging Study 
+longitudinal study healthy aging have been described
+previously All patients and controls underwent interview with informant that was used provide
+information diagnose dementia and obtain CDR
+staging Cognitive testing was used supportive evidence for cognitive impairment All non demented PD
+patients and controls had persistent cognitive functional complaints cognitive problems reported the
+patient the informant 
+BehavioralCognitive Assessment
+Twenty PD patients had cognitive and motor assessments Three additional PD patients were recruited and
+assessed but the scans could not analyzed for technical reasons Their data was not included this report 
+Baseline cognitive abilities were characterized the
+Wide Range Achievement TestReading version 
+ The Mini Mental State Examination
+ MMSE was carried out with all subjects Depression
+was assessed the PD patients and controls using the
+Geriatric Depression Scale GDS Behavioral problems were documented using the Neuropsychiatric Inventory NPI Cognitive assessments carried out for
+the PD patients included the CERAD word list recall and
+recognition test 
+Controls and patients with AD were assessed described previously and were age gender and dementia
+severity CDR matched the PD subject from pool 
+available MRI scans Cognitive tests reported represent
+those administered subjects all groups 
+Motor Assessment
+Standard clinical assessments were used rate
+tremor bradykinesia rigidity gait and balance The
+Unied Parkinsons Disease Rating Scale UPDRS was
+used rate PD patients who entered the study This was
+only available for the PD patients None the control
+subjects and AD patients exhibited parkinsonism
+clinically 
+MR Imaging
+MRI scans were obtained Tesla GE scanner 
+with the following image parameters multi echo multiplanar coronal slices FOV 
+matrix NEX TR msec TE and 
+msec described previously Image analysis was carried out semiautomated recursive segmentation using
+the program REGION and manual tracing using NIH
+Image Macintosh computers Total pixel counts
+for each region were summed for each slice and multiplied the slice thickness convert areas volumes 
+Hippocampal and parahippocampal volumes were measured manually tracing the hippocampal areas 
+serial slices located between the red nucleus and the
+superior colliculus described previously Intracranial
+ suparatentorial volume was dened non bone pixels
+Movement Disorders Vol No 
+R CAMICIOLI ET AL 
+TABLE Demographic and baseline clinical features
+Age 
+Gender M F 
+Duration 
+Education 
+GDS
+MMSE
+CDR
+Controls
+PD
+PDD
+AD
+P
+NA
+All 
+All 
+NA
+Values are expressed mean SD unless otherwise indicated 
+P compared controls bP compared controls and PD cP compared PD dP 
+ compared PDD 
+GDS Geriatric Depression Scale MMSE Mini Mental State Examination CDR Clinical Dementia Rating
+scale 
+beginning with the rst slice which the frontal poles
+were present and ending the occipital poles excluding
+brainstem and cerebellar structures Intracranial volumes
+were determined recursive segmentation using REGION In this semiautomated program representative
+pixels tissue types interest bone brain and
+cerebrospinal uid are sampled each slice using
+predetermined sampling guidelines The recursive segmentation completed automatically applying discriminant function identify all non bone pixels contiguous the intracranial sample points Any manual
+tracing required correct the automated segmentation 
+carried out according strict atlas based rules Subsequent segmentation allows measurement brain and
+cerebrospinal uid similar manner These analysis
+techniques have been shown previously reliable 
+hippocampal volume intraclass correlation ICC 
+ parahippocampal volume ICC temporal
+lobe volume ICC frontal lobe volume ICC 
+ parieto occipital lobe volume ICC and
+intracranial volume ICC The sum the right
+and left hemisphere volumes was examined because 
+did not hypothesize that hippocampal degeneration
+would lateralized 
+Statistical Analysis
+Groups were compared using tests tests analysis variance ANOVA for direct comparisons and
+multivariate analysis variance MANOVA for simultaneous examination all brain regions and cognitive
+function ANOVA and Fishers PLSD test were used for
+post hoc comparisons Total amount levodopa Ldopa equivalents were calculated for the patient groups
+according the formula Total equivalents regular
+L dopa dose L dopa continuous release dose 
+ pramipexole dose ropinirole dose 
+ pergolide dose bromocriptine dose 
+Movement Disorders Vol No 
+ regular L dopa dose continuous release L dopa
+dose taking tolcapone entecapone Untransformed raw data are presented the
+tables Although there was signicant group difference intracranial volume ICV groups were compared after dividing the volume the intracranial volume described previously To assure that the disease
+group differences were not related the statistically
+insignicant increased number males the cognitively intact PD group analyses were repeated after
+excluding that group Right and left hemisphere volumes
+were combined for all between group comparisons because did not hypothesize that one side would 
+more likely associated with cognitive impairment 
+moreover right and left hippocampal volumes did not
+differ from each other P Correlation
+between memory and MMSE scores and left and right
+hippocampal volumes were examined among the patients
+with PD determine cognitive function might 
+associated specically with focal hippocampal atrophy
+and test the hypothesis that verbal memory would 
+associated with left and not right hippocampal atrophy 
+Post hoc ANCOVA comparing directly the AD and PDD
+was carried out after adjusting for MMSE determine
+ dementia severity might account for any trend 
+parahippocampal volumes observed Effect sizes were
+calculated for each the patient groups subtracting
+the mean brain volume the disease group from the
+mean volume the control group and then dividing 
+the overall standard deviation A P value was
+used for the threshold for statistical signicance 
+RESULTS
+Data regarding the baseline characteristics the subjects are presented Table Groups were matched for
+age and education Although there were more men the
+PD without cognitive impairment there was statisti 
+PD AND HIPPOCAMPAL ATROPHY
+TABLE Cognitive measures and behavioral problems
+WRECALL
+WRECOG
+NPI
+Controls
+PD
+PDD
+AD
+P 
+ND
+ND
+Values are expressed mean SD unless otherwise noted 
+Scores were not available for all subjects The NPI was not completed for the controls and AD
+patients ND 
+ P value refers the comparison between the PD groups 
+P compared controls bP compared controls cP compared PD 
+P compared PDD 
+cally signicant difference gender distribution between groups P Years since onset
+ symptoms differed between patient groups F 
+ P PDD patients had longer duration 
+symptoms than both the AD P and the
+non demented PD patients P No subjects had
+clinical depression and the GDS did not differ between
+groups F P By denition only
+the cognitively impaired groups were rated according
+ the CDR for PDD CDR CDR 
+ CDR for AD CDR 
+CDR CDR Non impaired PD and
+controls had CDR As expected the CDR score
+differed signicantly between groups F 
+P the demented groups differed from the
+others but not from each other P There was 
+difference between PD groups total L dopa equivalent
+use PD day and PDD day 
+ P 
+Results available cognitive tests are shown Table
+A MANOVA that included the cognitive variables
+ Education MMSE score word list recall 
+and word list recognition was signicant Wilkss 
+ F P Post hoc tests revealed
+that education level did not differ between groups
+ F P Premorbid cognitive ability 
+measured the differed between the groups
+ F P The two PD groups did not
+differ from each other P but had lower
+ scores than the AD patients P for
+both and controls P for both MMSE scores
+differed between groups F P 
+Patients with PDD P and AD P were
+more impaired than the controls whereas AD patients
+ P were more impaired than the non impaired
+PD patients There was statistically signicant difference between non impaired PD and the PDD patients
+ P the non impaired PD patients and controls
+ P and the AD and the PDD patients P 
+Groups differed the CERAD word list recall task
+ F P PD groups did not
+differ P from each other but both groups
+performed signicantly worse than controls PD P 
+ PDD P The AD patients had poorer
+recall compared with the control P and PD
+subjects PD P PDD P Differences were also observed the recognition format
+ F P the PDD P and
+AD P both performed worse than the
+controls did but did not differ from each other P 
+ The AD patients performed worse than did the
+cognitively intact PD patients P who did
+not differ from the controls P Only AD
+patients were available for these comparisons 
+Groups did not differ signicantly the NPI F 
+ P but few non PD subjects were available for comparison 
+Raw MRI volumes and effect sizes are shown Table
+The overall MANOVA examining the corrected brain
+volumes hippocampal parahippocampal temporal 
+frontal and parieto occipital dependent variables was
+signicant Wilkss F P 
+ Corrected hippocampal volumes differed between groups F P PD P 
+ PDD P and AD P were
+smaller than the controls although these groups did not
+differ from each other Differences adjusted parahippocampal volumes were borderline signicance
+ F P see Fig Between group
+differences corrected temporal F P 
+ frontal F P parieto occipital
+lobe F P total brain volumes
+ F P were not signicant Results
+ the overall MANOVA remained similar after excluding the non impaired PD group that included more
+males Wilkss F P 
+After adjusting for MMSE there was signicant
+Movement Disorders Vol No 
+R CAMICIOLI ET AL 
+TABLE Raw brain volumes group
+Region
+Controls
+PD
+PDD
+AD
+P 
+Hippocampus
+Parahippocampus
+Temporal lobe
+Frontal lobe
+Parieto occipital
+Total brain
+Intracranial
+Values are expressed mean SD absolute effect size Volumes 
+ P values refer comparisons using volumes divided intracranial volume except for the comparison intracranial volumes
+where raw volumes were compared 
+P compared controls 
+difference between the AD and PDD groups with respect
+ parahippocampal volumes F P 
+Recognition memory P and
+MMSE scores P correlated with left
+hippocampal volume right hippocampal correlations
+were all insignicant P 
+DISCUSSION
+Our data conrm that PD patients with without
+cognitive impairment have more hippocampal atrophy
+than healthy age matched control subjects with volumes
+similar that patients with mild AD Differences 
+parahippocampal volumes were borderline signicance and trends observed were related dementia
+severity Differences temporal and frontal lobe volume
+and parieto occipital lobes were not signicant this
+sample Thus hippocampal atrophy evident older
+PD patients before the onset dementia Effect sizes
+observed were modest for all comparisons with trend
+FIG Box plot showing hippocampal hip and parahippocampal
+ para volumes cubic millimeters Parkinsons disease subjects without PD and with cognitive impairment PDD showed smaller hippocampal volumes Parahippocampal volumes did not differ between
+groups after adjustment for MMSE scores 
+Movement Disorders Vol No 
+for hippocampal atrophy AD PDD PD compared
+with controls 
+We have extended previous research examining 
+mild spectrum disease using quantitative whole brain
+neuroimaging Previous pathological and imagingbased volumetric that have examined more
+advanced patients with PD are consistent with our study 
+Hippocampal atrophy also occurs DLB which overlaps pathologically with PDD where hippocampal volume intermediate between that observed controls
+and those with AD with sparing the parahippocampal gyrus 
+Our study was limited small sample size and 
+the fact that the non demented PD group was predominantly male Nevertheless the difference gender distribution between groups was not signicant statistically
+and the other patient groups including the PDD group 
+were well matched A larger intracranial volume men
+would bias against our nding decreased hippocampal volume PD compared with controls arguing that
+this nding valid A greater number men the
+cognitively intact PD group would bias toward nding
+larger volumes that group however have adjusted
+for intracranial capacity using accepted methods and the
+overall MANOVA remained signicant after excluding
+that group Although had small sample size our
+current subjects were independent those reported 
+our pilot study that showed similar ndings and therefore are conrmatory Based our pilot study 
+included number PD patients similar those 
+Laakso and associates 
+In DLB the rate brain atrophy does not differ from
+that AD vascular dementia In comparison with
+controls and patients with progressive supranuclear
+palsy patients with PD average years younger than
+those our study did not show hippocampal atrophy 
+raising the possibility that atrophy accelerated PD 
+A recent study demonstrated that cognitive decline was
+PD AND HIPPOCAMPAL ATROPHY
+correlated with global brain atrophy PD A previous
+volumetric study patients with PD suggested that
+hippocampal atrophy might correlated with episodic
+memory consistent with our nding relationship
+between cognitive function and left hippocampal volume Given the high risk dementia people with
+PD and the nding that atrophy precedes the onset 
+dementia our study raises the possibility that focal atrophy might provide presymptomatic marker for dementia risk Nevertheless given that atrophy both cognitively impaired and unimpaired subjects was similar 
+additional changes must invoked explain dementia
+ PD 
+One interpretation the trend larger parahippocampal volumes PDD that the PDD subjects were
+ milder stage disease Given that after adjustment
+for MMSE there was clearly signicant difference 
+parahippocampal volumes between the AD and PDD
+groups likely that dementia severity accounts for
+this nding On the other hand the PDD and AD groups
+did not differ the distribution CDR levels the
+MMSE both which reect global cognitive function 
+Although sparing parahippocampal and temporal lobe
+structures also has been noted DLB compared with
+AD imaging studies recent pathological study
+found that parahippocampal involvement with Lewy
+body and neuritic pathology was associated with dementia patients with PD and DLB consistent with involvement these regions PDD Involvement the
+subiculum was shown recently for DLB but not PD 
+suggesting that the pattern atrophy might differ 
+these two entities 
+Our data examining cortical regions including parieto occipital lobe volumes are consistent with recent
+study that showed specic sparing occipital volume 
+DLB compared with AD and controls In our study 
+ many the previous imaging studies there was
+considerable overlap between patient groups with respect
+ each the brain volumes examined see Fig 
+Given our small sample size did not carry out subgroup analyses examine the possibility clinical
+heterogeneity 
+In summary have shown that hippocampal atrophy
+may distinguish PD from healthy controls Hippocampal
+changes resemble those seen patients with mild AD
+and may correlate with cognitive function Prospective
+studies will determine this provides presymptomatic
+marker for dementia PD and the evolution atrophy PD resembles that seen other neurodegenerative disorders Ongoing research using higher resolution
+MRI scans will allow further more precise denition 
+the pattern brain atrophy especially the medial
+temporal lobes Pathological correlation with atrophy 
+MRI will required determine PDD distinct
+from DLB 
+Acknowledgments We thank the patients and their families
+who volunteered for this study The study was supported the
+Alzheimer Research Alliance R C the Medical Research
+Foundation Oregon R C and J K and the Department
+ Veterans Affairs and the National Institutes Health
+ and We acknowledge the contributions and support D Calhoun J Carter S Johnson J 
+Hammerstad and J Nutt who assisted with the recruitment 
+patients We thank the staff the Oregon Brain Aging Study 
+the Oregon Alzheimer Disease Center and the Parkinsons
+Center Oregon and thank K DesRocher who conducted
+some the image analyses S Foster assisted with data entry 
+Dr W Johnston provided helpful comments 
+REFERENCES
+Hughes TA Ross HF Musa S Bhattacherjee S Nathan RN 
+Mindham RH Spokes EG A year study the incidence and
+factors predicting dementia Parkinsons disease Neurology
+Aarsland D Andersen K Larsen JP Lolk A Nielsen H KraghSorensen P Risk dementia Parkinsons disease community based prospective study Neurology 
+Aarsland D Larsen JP Tandberg E Laake K Predictors nursing
+home placement Parkinsons disease population based prospective study J Am Geriatr Soc 
+Louis ED Marder K Cote L Tang M Mayeux R Mortality from
+Parkinson disease Arch Neurol 
+Jacobs DM Marder K Cote LJ Sano M Stern Y Mayeux R 
+Neuropsychological characteristics preclinical dementia Parkinsons disease Neurology 
+Mahieux F Fenelon G Flahault A Manifacier MJ Michelet D 
+Boller F Neuropsychological prediction dementia Parkinsons disease J Neurol Neurosurg Psychiatry 
+Levy G Tang MX Cote LJ Louis ED Alfaro B Mejia H Stern
+Y Marder K Motor impairment PD relationship incident
+dementia and age Neurology 
+Camicioli R Moore MM Kerr D Kaye J Dementia Parkinsons
+disease associated with hippocampal atrophy Neurology 
+Laakso MP Partanen K Riekkinen P Hippocampal volumes
+ Alzheimers disease Parkinsons disease with and without dementia and vascular dementia MRI study Neurology 
+Hashimoto M Kitagaki H Imamura T Medial temporal and
+whole brain atrophy dementia with Lewy bodies volumetric
+MRI study Neurology 
+Barber R Gholkar A Scheltens P Ballard C McKeith IG OBrien
+JT Medial temporal lobe atrophy MRI dementia with Lewy
+bodies Neurology 
+Barber R Ballard C McKeith IG Gholkar A OBrien JT MRI
+volumetric study dementia with Lewy bodies comparison
+with AD and vascular dementia Neurology 
+Hurtig HI Trojanowski JQ Galvin J Alpha synuclein cortical Lewy bodies correlate with dementia Parkinsons disease 
+Neurology 
+Harding AJ Halliday GM Cortical Lewy body pathology the
+diagnosis dementia Acta Neuropathol Berl 
+McKeith IG Galasko D Kosaka K Consensus guidelines for
+the clinical and pathologic diagnosis dementia with Lewy bodies
+ DLB report the consortium DLB international workshop 
+Neurology 
+Movement Disorders Vol No 
+R CAMICIOLI ET AL 
+Barnes J David AS Visual hallucinations Parkinsons disease 
+ review and phenomenological survey J Neurol Neurosurg Psychiatry 
+Holroyd S Currie L Wooten GF Prospective study hallucinations and delusions Parkinsons disease J Neurol Neurosurg
+Psychiatry 
+Goetz CG Leurgans S Pappert EJ Raman R Stemer AB Prospective longitudinal assessment hallucinations Parkinsons
+disease Neurology 
+McNeal MG Zareparsi S Camicioli R Predictors healthy
+brain aging J Gerontol A Biol Sci Med Sci 
+Hughes AJ Daniel SE Kilford L Lees AJ Accuracy clinical
+diagnosis idiopathic Parkinsons disease clinico pathological
+study cases J Neurol Neurosurg Psychiatry 
+American Psychiatric Association Diagnostic and statistical manual mental disorders Fourth Ed Washington DC American
+Psychiatric Association 
+Morris JC The Clinical Dementia Rating CDR Current version
+and scoring rules Neurology 
+Goldman WP Baty JD Buckles VD Sahrmann S Morris JC 
+Cognitive and motor functioning Parkinson disease subjects
+with and without questionable dementia Arch Neurol 
+McKhann G Drachman D Folstein M Katzman R Price D 
+Stadlan EM Clinical diagnosis Alzheimers disease report 
+the NINCDS ADRDA work group under the auspices the Department Health and Human Services Task Force Alzheimers disease Neurology 
+Howieson DB Holm LA Kaye JA Oken BS Howieson J Neurologic function the optimally healthy oldest old neuropsychological evaluation Neurology 
+Jastak S Wilkinson GS Wide Range Achievement Test Revised 
+Wilmington DE Jastak Assessment Systems 
+Folstein MF Folstein SE McHugh PR Mini Mental State 
+practical method for grading the cognitive performance patients
+for the clinician J Psychiatr Res 
+Yesavage J Brink T Rose R Lum O Development and validation
+ geriatric depression screening scale preliminary report 
+J Psychiatr Res 
+Cummings JL Mega M Gray K Rosenberg Thompson S Carusi
+DA Gornbein J The Neuropsychiatric Inventory comprehensive
+assessment psychopathology dementia Neurology 
+Welsh K Butters N Mohs RC The Consortium Establish
+ Registry for Alzheimers Disease CERAD Part V A normative
+study the neuropsychological battery Neurology 
+Gancher ST Scales for the assessment movement disorders In 
+Herndon RM editor Handbook neurologic rating scales New
+York NY Demos Vermande 
+Kaye J Swihart T Howieson D Region specic volume loss
+ the hippocampus and temporal lobe healthy elderly destined
+ develop dementia Neurology 
+Movement Disorders Vol No 
+Mueller EA Moore MM Kerr DCR Brain volume preserved
+ healthy elderly through the eleventh decade Neurology 
+Hobson DE Lang AE Martin WR Razmy A Rivest J Fleming J 
+Excessive daytime sleepiness and sudden onset sleep Parkinson
+disease survey the Canadian Movement Disorders Group 
+JAMA 
+Jack CR Jr Petersen RC OBrien PC Tangalos EG MR based
+hippocampal volumetry the diagnosis Alzheimers disease 
+Neurology 
+Mann DM Snowden JS The topographic distribution brain
+atrophy cortical Lewy body disease comparison with Alzheimers disease Acta Neuropathol Berl 
+Double KL Halliday GM McRitchie DA Reid WG Hely MA 
+Morris JG Regional brain atrophy idiopathic Parkinsons disease and diffuse Lewy body disease Dementia 
+Cordato NJ Halliday GM Harding AJ Hely MA Morris JG 
+Regional brain atrophy progressive supranuclear palsy and
+Lewy body disease Ann Neurol 
+Churchyard A Lees AJ The relationship between dementia and
+direct involvement the hippocampus and amygdala Parkinsons disease Neurology 
+Lippa CF Johnson R Smith TW The medial temporal lobe 
+dementia with Lewy Bodies comparative study with Alzheimers disease Ann Neurol 
+OBrien JT Paling S Barber R Progressive brain atrophy 
+serial MRI dementia with Lewy bodies AD and vascular
+dementia Neurology 
+Cordato NJ Pantelis C Halliday GM Frontal atrophy correlates with behavioural changes progressive supranuclear palsy 
+Brain 
+Hu MTH White SJ Chaudhuri KR Morris RG Bydder GM 
+Brooks DJ Correlating rates cerebral atrophy Parkinsons
+disease with measures cognitive decline J Neural Transm
+Riekkinen Jr P Kejonen K Laakso MP Soitinen H Partanen K 
+Riekkinen M Hippocampal atrophy related impaired memory but not frontal functions non demented Parkinsons disease
+patients Neuroreport 
+Harvey GT Hughes J McKeith IG Briel R Magnetic
+resonance imaging differences between dementia with Lewy bodies and Alzheimers disease pilot study Psychol Med 
+Barber R McKeith IG Ballard C Gholkar A Os Brien JT A
+comparison medial and lateral temporal lobe atrophy dementia with Lewy bodies and Alzheimers disease magnetic resonance
+imaging volumetric study Dement Geriatr Cogn Disord 
+Harding AJ Lakay B Halliday GM Selective hippocampal neuronal loss dementia with Lewy bodies Ann Neurol 
+Middelkoop HA van Der Flier WM Burton EJ Dementia
+with Lewy bodies and AD are not associated with occipital lobe
+atrophy Neurology 

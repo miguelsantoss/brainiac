@@ -1,0 +1,769 @@
+Changes hippocampal N acetyl
+aspartate and volume 
+Alzheimers disease
+A proton MR spectroscopic imaging and MRI study
+N Schuff PhD D Amend PhD F Ezekiel BA S K Steinman BSc J Tanabe MD D Norman MD 
+W Jagust MD J H Kramer MD J A Mastrianni MD G Fein PhD and M W Weiner MD
+Article abstract Hippocampal atrophy detected MRI prominent feature early Alzheimers disease AD but 
+ likely that MRI underestimates the degree hippocampal neuron loss because reactive gliosis attenuates atrophy We
+tested the hypothesis hippocampal N acetyl aspartate NAA neuronal marker and volume used together providcb
+greater discrimination between AD and normal elderly does either measure alone We used proton MR spectroscopic
+imaging H MRSI and tissue segmented and volumetric MR images measure atrophy corrected hippocampal NAA alld
+volumes patients mild moderate severity and control subjects comparable age In AD atrophy corrected
+NAA from the hippocampal region was reduced the right and the left both and
+hippocampal volumes were smaller right and the left when compared
+with control subjects The NAA reductions and volume losses made independent contributions discrimination AD
+patients from control subjects When used separately neither hippocampal NAA nor volume achieved classify correctly
+AD patients better than When used together however the two measures correctly classified AD patients iind
+ control subjects In conclusion hippocampal NAA measured H MRSI combined with quantitative measurements hippocampal atrophy MRI may improve diagnosis AD 
+NEUHOI OGY 
+Neuropathologic studies brains from patients with
+Alzheimers disease AD demonstrate neuritic
+plaques and neurofibrillary lesions accompanied 
+neuron loss and gliosis Neuron loss results atrophy the cerebral cortex and other neuroncontaining structures including the hippocampal
+formation Hippocampal atrophy AD has been associated with impairment declarative memory
+functions that are characteristic symptoms AD 
+Previous studies AD patients using MRI found
+atrophy the hippocampus Although initial
+MRI study hippocampal atrophy reported complete separation AD patients from healthy elderly other studies larger numbers subjects
+showed some overlap between these groups gOne
+possible reason for this overlap that the degree
+neurons are replaced glial cells tissue atrophy 
+AD attenuated 
+Proton magnetic resonance spectroscopy H MRS 
+and H MRS imaging H MRSI detect important
+cerebral metabolites vivo including the amino
+acid N acetyl aspartate NAA which specifically
+located neurons and absent glia In the presence reactive gliosis NAA measured H MRSI
+may more sensitive marker neuron loss than
+atrophy measured MRI and other ? have
+documented decrease NAA various brain regions AD patients Furthermore MacKay 
+who found reduced NAA the supraventricular cortex AD patients showed that these NAA reductions were some degree independent from MRI
+changes and demonstrated that when N A measures were combined with measurements ventricular volumes AD patients and control subjects could
+ better classified than with either measure alone 
+Finally recent using multislice H MRSI
+demonstrated regional pattern NAA reductions
+ AD involving the frontal temporal and parietal
+cortices which consistent with the known distribution AD pathology 
+Initially technical considerations complicated H
+MRSI measurements from the hippocampal region 
+But welx and
+have used H MRSI study
+changes hippocampal NAA the side the sei 
+Iririii tlic hlngnctic Resonance LJnit tDrs Schuff Amend Tanahe and Weiner and S K Steinmanl and Psychiatry Research Ec and F Ezcklrll 
+I rpiirtmenl
+Velcvxns Affairs Medical enter S Francisco the Departments Radiolo IDrs Schuff Tanahe Nornian Pcin Wciner and XI 
+Stc iirmanI Psychiatry Drs Kramer Fein and Weiner and Neurology Drs Mastrianni and Weincr University California San Francisco the Centw fiw
+Funrtionnl Imaging Dr Jagust Lawrence Berkeley Laboratory and Department Ncuroloky IDr Jagustl University California Davis CA 
+Supported N I H grant tM W W NTH grant W J and NIWNlA grant tM W W Addilional support ISrckniiwlc tlg 
+frcirii thcu I W A Medical Rcsrarch Service M W W R DVA Research Career Scientific Award IG F and nIndividual Research Scrvicc Award N I I 
+A I A 
+Reccived chwary Accepted final fnrm July 
+Atltlrcss corrcslmiclcnce and reprint requests Dr Norbert huff DVA Medical Center MR Unit Clenient Strecbt hI Sail Francisco A 
+Copyright the Aniericnn Academy Neurology
+zure focus with temporal lobe epilepsy 
+Block recently decreased NAA 
+increased choline Cho the hippocampus AD
+patients However results obtained and unclear what extent 
+metabolite changes simply artifact MRSI
+partial volume effects including variations the
+tissue composition MRSI voxels Therefore the
+goals this test hypothesis
+that NAA measured H MRSI lower the
+hippocampus AD patients compared control
+subjects that NAA reductions are artifact partial volume effects 
+ confirm previous reports that hippocampal volu MRI smaller AD 
+than control subjects and test the hypothesis that hippocampal NAA and volume contribute
+ information regarding AD pathology
+that used together provide greater discrimination between AD and control subjects than either
+ alone 
+Methods Patients and control subjects Twelve patients mean age ? SD ? years range 
+years eight women and four men with the diagnosis 
+AD nine probable and three possible according the
+NINCDWADRDA and with mild moderate
+level dementia severity Mini Mental State Examination
+MMSEILH
+scores and cognitively normal subjects
+ similar age and sex distribution were studied The diagnosis possible AD for three patients was based the
+observation that the time the evaluation two these
+patients had thyroid problems and another suspected neurosyphilis All subjects were recruited from the University
+ California UC San Francisco and the UC Davis Alzheimer Centers were examined neurologist and had the
+standard battery blood and neuropsychological tests 
+the Centers The control subjects had evaluation
+similar that the AD patients and were judged 
+cognitively normal and functioning None the patients 
+control subjects had evidence stroke cortical subcortical infarctions other major abnormalities MRI 
+which were read neuroradiologist D N The protocol
+was approved the Committee Human Research 
+UC San Francisco and all subjects their legal guardians
+gave written informed consent before participating the
+study The hour long combined MRIAIRSI examination
+was completed AD patients and all control subjects 
+Two other patients requested taken out the magnet before MRIAIRSI was completed One these patients
+finished MRI for segmentation and voluming while the
+other had MRI for segmentation only MRSI from one 
+the control subjects was not considered for analysis because poor spectral quality whereas MRI from this subject was satisfactory 
+MRIIMRSI examinations All studies were performed
+ T Magnetom VISION system Siemens Inc Iselin 
+NJ equipped with standard quadrature head coil To
+minimize motion the subjects head vacuum molded
+head holder Wac Pac Olympic Medical Seattle WA was
+employed restrict head movements The MRI protocol
+consisted sagittal weighted localizer scans oblique
+axial double spin echo DSE scans angulated parallel 
+ NEUROLOGY December 
+the optic nerve seen the sagittal plane and volumetric three dimensional Dl magnetization prepared
+rapid gradient echo MP RAGE acquisition angulated perpendicular the DSE image planes yielding weighted
+coronal images estimated orthogonal the long axis
+ the hippocampus The measurement parameters DSE
+were TRITE RE resolution and contiguous thick slices covering
+the entire brain from the inferior cerebellum the vertex 
+The measurement parameters D MP RAGE were TR 
+TIRE flip angle deg 
+resolution and thick partitions 
+H MRSI data sets were acquired using spin echo
+two dimensional MRSI sequence T W E 
+with preselection region interest PRESS volume 
+requiring total acquisition time about minutes The
+PRESS volume was angulated parallel the long axis 
+the hippocampi seen from the sagittal scout images and
+positioned the axial plane cover both hippocampi 
+their entire length and adjacent sections the midbrain
+and the temporal lobes The MRSI field view was 
+ and was sampled using circular space scheme
+equivalent maximum X phase encoding
+steps resulting nominal voxel resolution mL 
+The spectral sweep width was Hz shows
+axial weighted MR images from year old AD patient figure A and year old control subject figure
+B the position the hippocampus and the corresponding NAA images restricted the sensitive area the
+PRESS volume Also shown are representative H MR
+spectra selected from the hippocampal body the AD patient and control subject location and approximate size 
+the MRSI voxel indicated circle the corresponding MRI The three prominent resonances the H MR
+spectrum are from NAA and Cho and creatine Crk
+containing compounds 
+MRI segmentation and voluming Tissue segmentation the whole brain and voluming the hippocampus
+was performed using software developed house GF 
+The semiautomated segmentation software uses both weighted MP RAGE and weighted spin echo images 
+The first pass segmentation procedure automatically removes the skull and meninges from the images coregisters
+the D weighted images each the two interleaves
+ the spin echo images using Woods algorithm performs
+D inhomogeneity correction using digital filter and
+performs segmentation the whole brain using K Means
+For
+cluster analysis via the SAS FASTCLUS cedure 
+the cluster analysis seeds for each tissue category 
+gray matter GM white matter WMJ and CSF are first
+defined based regions around the peaks the pixel
+intensity histogram These regions represent conservative
+estimates the appropriate tissue category If desired the
+initial process followed manual editing the data 
+separate cortical from subcortical GM ventricular CSF
+from sulcal CSF and reclassify pixels incorrectly classified GM into category WM signal hyperintensity 
+The number pixels for each tissue category expressed
+ percentage total intracranial volume TIV which
+equals the total number pixels 
+Quantitative estimates the volumes the right and
+left hippocampus were obtained using coronal weighted
+MP RAGE images resliced perpendicular the long axis
+Cho
+NAA
+Cr
+PPm
+PPm
+ the hippocampus Boundaries the hippocampus were
+drawn following specifically the guidelines Watson 
+aI lhThe areas all regions interest were then automatically calculated and the total volume derived multiplying value slice thickness All volume
+measurements were performed the same rater D A 
+who was blinded the subjects diagnosis To evaluate
+reliability volume measurements data from arbitrarily selected subjects were independently volumed 
+second time another experienced operator The correlation coefficient between these two measurements was
+ To adjust for interindividual variations head
+size each subjects hippocampal volume H P was normalized hislher intracranial volume index TZVITIV 
+where TIV represents the mean total intracranial volume
+ the control group and TZV each subjects total intracranial volume computed from the segmented images 
+This procedure maintains the dimension the normalized
+hippocampal volumes contrast normalization 
+ZITIV and justified long the mean TIV values 
+the study groups are not significantly different In this
+population patients and control subjects had comparable
+TIV values difference ANOVA although
+others found modest correlation between reduced TIV
+sizcs and deficits some cognitive functions 
+M R S I ysi After acquisition H MRSI data
+were zero filled rectangular matrix X X 
+points fourier transformed phase and baselinecorrected using software developed house Four Hertz
+gaussian line broadening was used spectral direction and mild gaussian apodization was applied along the
+spatial directions reduce Gibbs ringing effects resulting
+ effective volume the MRSI voxels approximately
+I G mI Voxels were selected from the head body and tail
+ right and left hippocampus and the resonances from
+NAA Cr and Cho were curve fitted using NMRl software
+ New Research Methods Inc Syracuse NYI To estimate
+conccntrations milliinoles per liter mM integral values
+ the metabolite resonances were referenced values
+ Axial M R images aii
+SO year old Alzheimers disease AD 
+patient A year old coutrol
+subject B the position the hippocampus and the corresponding
+N acetyl aspartate N A A irntrges
+from this region restricted the
+sensitive area the preselected region interest PRESS volunic 
+Contours the M R I CLTY supu iiiiposed the NAA image hetter
+anatomic reference Note thal M R I
+and NAA images have differmt field
+ views Also shown are representative proton M R spectra selected 
+the hippocampal body locution cated circle iti the MRIi RediicBtiorz NAA the AD patieirt ioith
+respect the control subject beconics
+apparent when the NAA peak interisity each spectrum compared
+with creatine CR Cho oline 
+obtained from head sized phantom including corrections
+for coil loading receiver gain and metabolite TI and 
+relaxation rates using T and values from reviously
+reported H MRS study healthy elderly It was nssumed metabolite relaxation rates were the same for
+AD patients and normal elderly and for GM and WM 
+To obtain atrophy corrected metabolite intensities and
+ verify metabolic changes were not artifact 
+partial voluming all MRSI data this study were analyzed for variations voxel compositions terms GM 
+WM and CSF using software developed house F E 
+G F This computation used the tissue segmented images
+coregistered with the MRSI data estimate the coniposition MRSI voxels and was performed with consideration
+ the MRSI point spread function chemical shift displacement effects and signal sensitivity across the PRESS volume which was determined experimentally headsized phantom Assuming metabolites are observed
+ CSF composition each MRSI voxel can characterized two parameters tissue content GM 
+W M and gray matter index G M G M W M Then 
+atrophy corrected metabolite intensities NAA were
+computed according 
+NAA
+NAA
+X
+Ip
+with NAA being the uncorrected intensity and the
+covariate for the statistical analysis determine the extent which the tissue composition contributed metabolite differences 
+Typically MRSI spectra obtained from the hippocampal
+body exhibited better spectral resolution than spectra
+from the hippocampal head which often were degraded
+from poor B field homogeneities this region and thermore contained more GM than voxels from the tail 
+reflecting the brain anatomy this region We oncludcd
+that MR spectra from the hippocampal body would best 
+suited measure metabolic changes the hippocampus
+December NI IJKOI O IY 
+Table Clinical characteristics with Alzheimers
+disease AD and control subjects
+AD
+Characteristic
+Control
+No subjects
+Mean age 
+Age range 
+Womedmen
+MMSE 
+MMSE score range
+NIA
+Mean duration symptoms 
+ Mean value
+MMSE
+ SD 
+Mini Mental State Examination NIA
+not applicable 
+and therefore used these spectra exclusively for further
+analysis 
+Statistical anal ysis Repeated measures ANOVA
+AS SAS Institute Inc Cary was used test group
+differences hippocampal volumes and gross atrophy
+measures ANCOVA BMDP Statistical Solutions Inc 
+Cork Ireland with tissue composition the covariate
+was used test group and side differences metabolite concentrations the right and left hippocampus 
+To determine the extent that hippocampal NAA and volume were independent each other NAA was used the
+independent variable and volume covariate and vice
+versa determine group membership ANCOVA Results are expressed mean SE unless otherwise indicated The level significance for differences 
+Results Demographics The demographic data are
+summarized table Patients and elderly control subjects were comparable age ANOVA and had 
+similar gender distribution and women the
+patient and control groups respectively The AD patients
+had mean MMSE score SD with range
+from and average duration symptoms 
+ ? SD years Elderly control subjects had MMSE
+scores least better 
+M R spectroscopic imaging Table lists the results 
+atrophy corrected NAA Cr and Cho and the ratios 
+NAA Cr and NAA Cho from the left and right hippocampus AD patients and control subjects Also listed
+are percent total voxel content and revealing
+significant differences the composition MRSI voxels
+between the two groups After correcting for atrophy 
+NAA from the right and left hippocampus AD was reduced and respectively compared with control subjects Variations tissue
+composition did not contribute significantly the differences Furthermore both N M C and N M C 
+were significantly reduced and respectively AD patients compared with elderly control subjects providing additional evidence that reductions NAA
+ AD cannot entirely attributed atrophy The con 
+Table Atrophy corrected metabolite concentrations N acet aspartate NAA clioline Cho and creatine Cr NAAICr and
+NAAICho ratios fiom the right lefl hippocampus Alzheiniers disease ilD patients and control subjects
+Variables
+AD
+Control
+Difference I
+ Value
+NAA mM 
+Right
+Left
+Right
+Left
+Cho M 
+NS
+Cr mM 
+Right
+L
+Left
+ I 
+Right
+Left
+Right
+Left
+NS
+N M Cr
+NMCho
+Tissue content Q 
+Right
+Left
+Right
+Left
+Gray matter index 
+ Also listed are tissue content percent
+ the MR spectroscopic imaging MRSI voxel volume and gray matter index the
+MRSI voxels positioned the right and left hippocampus characterizing MRSI partial volume effects 
+ NEUROLOGY December 
+Table Normalized hippocampal volumes HP volume and volumes cortical subcortical gra mattcr GMI niu 
+ WM 
+siilcal znd ventricular CSF percent the total intracranial volume TIV Alzheimers disease AD 
+patient 
+ control subjects and mean T I V AD patients cind control Subjects
+AD
+Control
+Difference
+Right
+Left
+Variables
+HP volume 
+Ventricular CSF J
+Sulcal CSF J
+WM 
+GM 
+ ortical
+Subcortical GM 
+NS
+TIV 
+NS
+not significant
+centrations hippocampal Cr and Cho were not significantly different between AD patients and control subjects 
+In both groups NAA Cr and Cho concentrations were not
+significantly higher the left than right hippocampus reveals that MRSI voxels from AD patients
+contained average less tissue than control subjects 
+reflecting the increased atrophy AD patients Accordingly the difference hippocampal NAA between 
+groups without atrophy correction which reflects both
+NAA and volume changes was about larger than with
+correction atrophy This emphasizes the importance 
+correcting MRS and MRSI data for partial volume effects 
+MRI volutning and segmentation Table lists the normalized hippocampal volumes AD patients and elderly
+control subjects well percent volumes cortical and
+subcortical GM WM and ventricular and sulcal CSF As
+expected AD patients had smaller hippocampi both
+sides than control subjects the right 
+ the left and the right hippocampus
+than the left but this difference
+was slightly larger 
+Hippocampal NAA
+Y
+Hippocampal Volume
+O 
+Ventricular CSF Volume
+FE
+was not statistically significant In AD patients
+ ventricular and sulcal CSF volumes were cnlargcd 
+ and respectively
+when compared with controls and cortical GM and WM
+were reduced and 
+respectively In contrast subcortical GM and total intracranial volume were not significantly
+different between AD patients and control subjects 
+Cornbinations M R S I and MRI measures 
+depicts the distributions hippocampal NAA hippocampal volume and percent ventricular size AD patients
+and control subjects separated gender It can seen
+that measure alone achieves complete separation 
+AD patients and control subjects To explore whether hippocampal NAA and volume provide complementary information that may aid group classification tested 
+what extent these two measures independent each
+other After controlling for group differences hippocanipnl volumes ANCOVA significant differences hippocampal NAA between the groups were still present 
+E
+ gE
+Y
+AD
+Control
+AD
+Control
+ AD
+Control
+ Distribution atrophy corrected hippocampal N acetyl aspartate NAA normalized hippocampal uoli nie arid
+perccntuge ventricular volume from Alzheimerb disease AD 
+patients and control subjects 
+N M and U O arr
+tneati the right arid left hippocampus Values from male and female subjects are displayed separmtt oliirnns
+for each study group with the left column showing the values from the males The group mean values are indicated 
+bar 
+December NEUIZOLOGY 
+ respectively Entering addition percent ventricular CSF did not improve the classification AD patients
+and decreased that control subjects 
+E
+O
+Y
+I
+I
+I
+I
+I
+Hippocampal Volume 
+ Atrophy corrected hippocampal N acetyl aspartate NAA function normalized hippocampal uolume from each the Alzheimers disease patients 
+and control subjects 
+with complete MRUMR spectroscopic imaging examination N A A and volume are
+mean values the right and left hippocampus 
+ Similarly after controlling for group differences
+ hippocampal NAA volume losses AD remained significant Taken together these results reveal that
+hippocampal NAA and volume each provide independent
+information relevant the discrimination AD patients
+from control subjects Neither NAA nor volume nor the
+combination both NAA volume could distinguish
+possible from probable AD ANOVA This
+suggests that the MRI and MRSI differences between AD
+patients and control subjects were not skewed including
+the patients with possible AD Finally tested whether
+the discrimination between AD patients and control subjects the hippocampal NAA X volume index remains
+significant after adjusting for variations age and dementia severity measured MMSE using ANCOVA We
+found that neither age nor MMSE 
+contributed significantly the difference the NAA 
+volume index between the groups suggesting that the index large extent independent from the patients age
+and dementia severity 
+ shows the distribution atrophy corrected
+hippocampal NAA right and left averaged from each AD
+patient and control subject function hisher hippocampal volume right and left averaged To determine
+the classification power hippocampal NAA and volume
+when combined performed stepwise linear discriminant analysis with hippocampal NAA being the first variable entered Alone hippocampal NAA correctly classified
+ the AD patients and the
+control subjects When hippocampal volume was entered 
+the two measures combined increased classification AD
+patients and control subjects and 
+ NEUROLOGY December 
+Discussion The major findings this study were
+ atrophy corrected NAA concentrations were significantly lower the hippocampus AD patients
+compared with control subjects comparable age 
+ MRI measured hippocampal volume was also
+lower AD patients compared with control subjects 
+ reductions atrophy corrected hippocampal
+NAA were not artifact partial volume effects 
+and reductions hippocampal NAA and volume
+losses provided independent information regarding
+the discrimination AD from control subjects and
+when used together classified AD better than either
+measure alone In conclusion these findings suggest
+that measurement hippocampal NAA H MRSI 
+when employed conjunction with MRI may provide improved discrimination between AD patients
+and control subjects and ultimately may useful 
+detect AD the early stages the disease 
+The first major finding this study was that NAA
+was reduced the hippocampus AD patients compared with control subjects comparable age This
+result consistent with previous H MRSI study
+ the hippocampus AD that measured
+reduced hippocampal NAAlCho and NAAlCr suggesting diminished NAA levels However the
+present experiment quantitatively measured absolute NAA hippocampus and furthermore combined NAA and volume measurements improve
+discrimination between AD patients and normal elderly There considerable body evidence concerning reduced NAA the brain AD patients 
+Kwo On Yuen performing vitro NMR measurements AD brain tissue post mortem demonstrated reduced NAA consistent with neuron loss 
+Since then there have been several reports including
+those from this 
+indicating
+reduced
+NAAlCr andfor NAAlCho AD and few quantitative H MRS measurements documenting unambiguously lower NAA A D Reports reduced
+metabolite ratios have inferred that the reductions 
+NAAlCr and N M C cannot simply attributed 
+volume loss because simple atrophy would result 
+reductions both NAA well Cho and Cr Most
+previous single volume H MRS and H MRSI studies AD have been performed supraventricular
+brain regions involving frontal parietal and occipital cortex and white matter These studies did not
+include hippocampus even though major site
+ AD pathology including neuron loss specifically 
+This probably because technical problems including difficulties obtaining sufficient homogeneity 
+the local static magnetic field and contamination
+from lipid resonances have complicated acquisition 
+spectra from medial temporal lobe and hippocampal
+regions Our previous experience obtaining H MRSI
+spectra from the hippocampal regions patients
+with temporal lobe indicated H
+MRSI the hippocampus was feasible 
+The second major finding this report that
+hippocampal volumes were reduced AD patients
+compared with control subjects comparable age 
+This finding similar several previous MRI reports which have shown volume reductions AD
+patients when compared with normal
+elderly In contrast the initial MRI studies hippocampal atrophy which reported complete separation between AD patients and control subjects 
+the present results are similar those 
+which found considerable overlap One possible explanation for this overlap that neuron loss the
+hippocampus AD patients accompanied reactive gliosis which attenuates tissue atrophy resulting underestimation volume loss MRI
+and consequently the failure discriminate between AD patients and normal elderly 
+The third major finding this study that reductions hippocampal NAA corrected for atrophy are
+not artifact differences tissue composition 
+the MRSI voxels between groups In earlier study
+MacKay from this laboratory using combined analysis coregistered MRI and H MRSI
+data demonstrated that NAA differences measured
+ supraventricular regions AD patients and control subjects existed independent variations the
+tissue characteristic MRSI voxels The current results demonstrate that this observation can extended the hippocampus The current analysis
+was made possible the development semiautomated segmentation and voluming software with accurate coregistration the MRI and H MRSI data 
+There have been few attempt measure quantitatively metabolic changes H MRSI with consideration partial volume effects Aside from the
+previous report MacKay there have been
+ attempts determine statistically the extent 
+which metabolic changes AD are independent
+from variations the tissue characteristic MRSI
+voxels 
+The most important finding this study that
+hippocampal NAA and volume provide independent
+information regarding the discrimination between
+AD patients and normal elderly This result led 
+attempt use both measures improve discrimination between AD patients and control subjects depicts the distribution hippocampal NAA 
+ function hippocampal volume from each subject
+and demonstrates that the combination the two
+measures provided better correct classification AD
+patients and control subjects this study population
+than either measure alone However this result does
+not imply clinical applications for the diagnosis 
+AD Further studies larger population especially with unselected subjects are necessary assess the diagnostic value the NAA X volume index
+ comparison with that available with current clinical methods In strict sense this can achieved
+only with longitudinal studies that culminate the
+pathologic confirmation AD each patient also shows overlap between patients and
+control subjects for both hippocampal NAA and volume measures There are several explanations for
+this finding Increasing neurofibrillary tangle and neuronal with age are commonly
+found hippocampal regions nondemented elderly individuals which could explain the low NAA
+levels and small hippocampi some control subjects 
+Another explanation for the overlap includes the possibility that the control group may have included
+individuals with preclinical AD Finally the lack 
+complete separation between AD patients and control subjects could also interpreted the sense 
+ neurobiological continuum between norm aging
+and dementia view supported findings several recent Nevertheless 
+the finding 
+this study that hippocampal NAA and volume provide independent information regarding the discrimination between AD patients and control subjects
+supports our hypothesis that H MRSI conibination with MRI may helpful providing improved
+diagnosis and early detection AD 
+There are several limitations this study First 
+the AD patients have not yet been followed autopsy not absolutely certain that the patients
+have AD Second data from elderly patients with
+dementias due causes other than AD such 
+vascular dementia were not included Therefore 
+ not clear whether the reduction hippocampal
+NAA found AD specific for this condition However previous H MRSI studies AD and vascular dementia found metabolic abnormalities WM
+regions vascular dementia but not AD HI raising the possibility that H MRSI may useful 
+distinguish between these two forms dementia 
+Third the major technical limitation this study
+was that the spatial resolution H MRSI coarse 
+and nonhippocampal structures were probably included within the MRSI voxel especially other structures the limbic lobe However these structures
+are also involved with AD Furthermore this 
+MRSI study was restricted the hippocampal region and did not obtain MR spectra from other areas
+ the brain including the frontal parietal and temporal cortices which are also affected AD Greater
+brain coverage can accomplished using multislice H MRSI instead volume preselection methods applied this study Recently Tedeschi 
+ employed multislice H MRSI measure metabolite ratios from large sections frontal parietal 
+and temporal lobes and thalamus AD but not
+from mesial temporal lobe and hippocampus This
+laboratory has also developed version multislice
+H that should useful for the assessment
+ AD 
+Fourth increased levels myoinositol inversely
+correlated with NAA changes have been rcbported 
+AD using single H MRS relatively short spinecho times TE The current study was
+performed TE and does not permit the
+December NINJKOLOGY 
+detection resonances from myoinositol which exhibits values the order less 
+Development multislice H MRSI with short spinecho times accommodate simultaneous measurements NAA myoinositol and other metabolites
+are currently under development Finally did not
+attempt measure metabolite relaxation times T 
+and because the prohibitively long duration 
+the data acquisition Instead used and 
+values for NAA Cr and Cho documented previous report MRS healthy elderly and applied
+these values obtain approximations for metabolite concentrations AD patients and control subjects This analysis limited that ignores the
+possibility T and alterations with regions
+and disease To our knowledge there evidence abnormal T values AD Christiansen 
+ using single volume MRS reported prolonged
+ times for NAA frontal WM AD subjects
+compared with control subjects If for NAA was
+also prolonged the hippocampus the current measurements would have overestimated NAA AD 
+and thus underestimated the differences with control
+subjects 
+In conclusion this report demonstrates reductions
+ volume corrected NAA measure neuronal
+density the hippocampus patients with AD
+compared with control subjects comparable age 
+These NAA reductions are statistically independent
+from hippocampal volume losses and NAA taken together with volume provides better discrimination
+between AD patients and control subjects than either measure alone These findings suggest 
+measurement NAA H MRSI provides complementary information about loss damage neurons AD not available from measurements
+ atrophy MRI Ultimately H MRSI together
+with MRI may helpful providing improved diagnosis and early detection AD 
+We are grateful Dr Robert Knowlton for his valuable help 
+volume measurements Dr Kate Skinner for referrals Alzheimers patients and Ms Patricia Gill for recruiting control subjects We thank Dr Morton Lieberman Director University
+ California San Francisco Alzheimer Center for his collaboration
+throughout this work 
+Squire LR Zola Morgan S The medial temporal lobe memory
+system Science 
+Seab JP J WJ Wong ST Roos MS Reed Budinger
+TF Quantitative NMR measurements hippocampal atrophy
+ Alzheimers disease Magn Reson Med 
+Kesslak J P Nalcioglu Cotman CW Quantification magnetic resonance scans for hippocampal and parahippocampal
+atrophy Alzheimers disease Neurology 
+Jack CR Petersen CR OBrien PC Tangalos EG MR based
+hippocampal volumetry the diagnosis Alzheimers disease Neurology 
+Lehericy S Baulac M Chiras J Amygdalohippocanipal
+MR volume measurements early stages Alzheimer
+disease Am Soc Neuroradiol 
+Urenjak J Williams SR Gadian DG Noble M Specific expression N acetylaspartate neurons 
+NEUROI O Y 
+astrocyte progenitors immature oligodendrocytes vitro 
+I Neurochem 
+Meyerhoff DJ MacKay S Constans J M Axonal injury
+and membrane alterations Alzheimers disease suggested
+ vivo proton magnetic resonance spectroscopic imaging 
+Ann Neurol 
+MacKay S Meyerhoff DJ Constans J M Norman D Fein G 
+Weiner MW Regonal gray and white matter metabolite differences subjects with AD with subcortical ischemic vascular dementia elderly controls with H magnetic resonance
+spectroscopic imaging Arch Neurol 
+Longo R Giorgini A Magnaldi S Pascazio L Ricci C Alzheimers disease histologically proven studied MRI and MRS 
+two cases Magn Reson Imaging 
+Shiino A Matsuda M Morikawa S Inubushi T Akiguchi I 
+Handa J Proton magnetic resonance spectroscopy with dementia Surg Neurol 
+Moats RA E T Shonk TK Ross BD Abnormal cerebral
+metabolite concentrations patients with probable Alzheinier disease Magn Reson Med 
+Shonk TK Moats RA Gifford P Probable Alzheimer
+disease diagnosis with proton MR spectroscopy Radiology
+Christiansen P Schlosser A Henriksen Reduced Nacetylaspartate content the frontal brain 
+patients with probable Alzheimers disease Magn Reson Imaging 
+Parnetti L Lowenthal DT Presciutti H MRS MRIbased hippocampal volumetry Tc HMPAO SPECT 
+normal aging age associated memory impairment probable Alzheimers disease J Am Geriatr Sac 
+Kattapong VJ Brooks WM Wesley MH Kodituwakku PW 
+Rosenberg GA Proton magnetic resonance spectroscopy 
+vascular and Alzheimer type dementia Arch Neurol 
+MacKay S Ezekiel F Di Sclafani V Alzheimer disease
+and subcortical ischemic vascular dementia evaluation 
+combining MR imaging segmentation MR spectroscopic imaging Radiology 
+Tedeschi G Bertolino A Lundborn N Cortical and subcortical chemical pathology Alzheimers disease assessed
+ multislice proton magnetic resonance spectroscopic imaging Neurology 
+Ende G Laxer KD Knowlton RC Proton MRSI reveals
+bilateral hippocampal metabolite changes temporal lobe
+epilepsy Radiology 
+Cendes F Andermann F Preul MC Arnold DL Lateralization temporal lobe epilepsy based regional metabolite
+abnormalities proton magnetic resonance spectroscopic images Ann Neurol 
+Ng TC Comair YG Xue M Temporal lobe epilepsypresurgical localization with proton chemical shift imaging 
+Radiology 
+Block W TrPaber F Kuhl CK H MR spectroscopic
+imaging patients with clinically diagnosed Alzheimers disease Fortschr Rontgenstr 
+McKhann G Drachman D Folstein M Katzman R Price D 
+Stadlan EM Clinical diagnosis Alzheimers disease report
+ the NINCDS ADRDA Work Group under auspices 
+Department Health Human Services Task Force 
+Alzheimers Disease Neurology 
+Folstein MF Folstein SE McHugh PR Mini mental state 
+practical method for grading cognitive state patients for the
+clinician J Psychiatr Res 
+Maudsley AA Matson GB Hugg JW Weiner MW Reduced
+phase encoding spectroscopic imaging Magn Reson Med
+Woods RP Cherry SR Mazziotta J C Rapid automated algorithm for aligning and reslicing P E T images J Comput Assist
+Toniogr 
+Jernigan TL Press GA Hesselink J R Methods for measuring
+brain morphologic features magnetic resonance images 
+validation and normal aging Arch Neurol 
+SAS SAS SAT users guide Release Cary 
+NC SAS Institute 
+Watson C Andermann F GIoor P Anatomic basis 
+atnygdaloid and hippocampal volume measurement magnetic resonance imaging Neurology 
+ Mori E Hirono N Yamashita H Premorbid brain size 
+ determinant reserve capacity against intellactual decline
+ Alzheimers disease Am J Psychiatry 
+Maudsley AA Lin E Weiner MW Spectroscopic imaging display and analysis Magn Reson Imaging 
+Kwo On Yuen PF Newmark RD Budinger TF ICaye JA Ball
+MJ Jagust WJ Brain N acetyl L aspartic acid Alzheimers
+diseasc proton magnetic resonance spectroscopy study 
+Brain Res 
+West MJ Coleman PD Flood DG Tronscoso JC Differences
+ the pattern hippocampal neuronal loss normal ageing
+and Alzheimers disease Lancet 
+ Canning DR McKeon RJ DeWitt DA Beta amyloid 
+Alzheimers disease induces reactive gliosis that inhibits axonal outgrowth Exp Neurol 
+Doyle TJ Bedell BJ Narayana PA Relative concentrations 
+MR visible neurochemicals gray and white matter the
+human brain Magn Reson Med 
+ Hetherington HP Pan JW Mason GF Quantitative H
+spectroscopic imaging human brain T image
+segmentation Magn Reson Med 
+Price JL The relationship between tangle and plaque formation during healthy aging and mild dementia Neurobiol Aging 
+West MJ Regionally specific loss neurons the aging
+human hippocampus Neurobiol Aging 
+Brayne C Calloway P Normal aging impaired cognitive function and senile dementia the Alzheimers typc continuum? Lancet 
+Duyn J H Gillen J Sobering G van Zijl PC Moonen C T 
+Multisection proton MR spectroscopic imaging the brain
+Radiology 
+Haupt CJ Schuff N Weiner MW Maudsley AA Lipid rcinoval H spectroscopic imaging data extrapolation 
+Magn Reson Med 
+Miller BL Moats RA Shonk T Ernst T Woolley S Ross BD 
+Alzheimer disease depiction increased cerehral myoinositol with proton MR spectroscopy Radiology 
+An alphabetical WORLD
+A new version old test
+Norman A Leopold DO and Andrew J Borson PhD
+Article abstract The Mini Mental State Examination MMSE standardized test used neurologists screen
+patients for impaired cognition Despite its ease use one major limitation MMSE possible ceiling etfect 
+lower sensitivity patients with advanced education Patients undergoing diagnostic neuropsychologicd testing
+also completed one subtest the MMSE the spelling world I addition its forward and backward spelling patients
+were asked reorder these letters alphabetical sequence Our preliminary data indicate that our modified WORLD test
+ rapid and simple test identify patients with cognitive impairment When measured against the diagnosis 
+dementia determined neuropsychological testing modified WORLD test has sensitivity specificity 
+ and positive predictability value Other variables examined include patient age sex education and cutoff
+scores the Mattis Dementia Rating Scale 
+NELJKOI OGY 
+The Mini Mental State Examination MMSE 
+standard tool used neurologists clinical practice
+ rapidly detect cognitive impairment This test 
+series tasks that assess orientation immediate
+and short term recall attention and calculation language and visual construction The MMSE examines
+attention asking patients subtract serial 
+spell world backwards Both tasks have high diagnostic sensitivity but low specificity The WORLD
+subtest often favored because emphasizes
+mathematical skills 
+The major limitation the WORLD test possible ceiling effect lower sensitivity patients
+with advanced education Improved sensitivity and
+specificity can achieved using more sophisticated neuropsychological tests Wisconsin Card
+Sorting test but their methodologic scoring complexities render them impractical bedside screening procedures To improve the accuracy bedside
+cognitive testing modified the standard WORLD
+test asking patients reorder the letters 
+world alphabetical sequence We present the results pilot study determine the validity this
+simple and rapid test potential marker cognitive dysfunction 
+Methods Consecutive physician referred patients undergoing neuropsychological evaluation for possible
+dementia depression completed series standitid
+tests administered one author A J B These tests included the Mattis Dementia Rating Scale DRS Boston
+Naming Test BNT Complex Ideation Test CI dRecipro 
+From the Department Medicine Division Neurology Crnzer Chester Medical Center Upland PA
+Iresrnted part annual meeting the American Academy Neurology Boston MA April 
+liecrivcd May Accepted final form July 
+Addrcss correspondence and reprint requests Dr Normtin A Leopold Parkinson Disease and Movenwnt Disorder Center Lewis Housc Crcizrr licsii 
+Mcdical Center Upland PA 
+Copyright the American Acatltmy 
+Changes hippocampal N acetyl aspartate and volume Alzheimers disease A
+proton MR spectroscopic imaging and MRI study
+N Schuff D Amend F Ezekiel 
+Neurology 
+DOI WNL 
+This information current December 
+Updated Information 
+Services
+including high resolution figures can found 
+http www neurology org content full html
+References
+This article cites articles which you can access for free 
+http www neurology org content full html 
+Citations
+This article has been cited HighWire hosted articles 
+http www neurology org content full html otherarticle
+Permissions Licensing
+Information about reproducing this article parts figures tables 
+ its entirety can found online 
+http www neurology org misc about xhtml permissions
+Reprints
+Information about ordering reprints can found online 
+http www neurology org misc addir xhtml reprintsus
+Neurology the official journal the American Academy Neurology Published continuously since
+ now weekly with issues per year Copyright All rights reserved Print ISSN 
+Online ISSN X 

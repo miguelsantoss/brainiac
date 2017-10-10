@@ -1,0 +1,678 @@
+Neurobiology Aging 
+Contents lists available ScienceDirect
+Neurobiology Aging
+journal homepage www elsevier com locate neuaging
+Atrophy hippocampal subelds and adjacent extrahippocampal
+structures dementia with Lewy bodies and Alzheimers disease
+Stefano Delli Pizzi Raffaella Franciotti Giovanna Bubbico Astrid Thomas 
+Marco Onofrj Laura Bonanni 
+Department Neuroscience Imaging and Clinical Sciences G dAnnunzio University Chieti Italy
+Aging Research Centre Ce S I G dAnnunzio University Chieti Italy
+Institute for Advanced Biomedical Technologies ITAB G dAnnunzio University Chieti Italy
+Article history 
+Received October 
+Received revised form January 
+Accepted January 
+Available online January 
+The hippocampus and adjacent extrahippocampal structures are organized distinct and specialized
+regions which process heterogeneous functions including memory and visuospatial functions Specic
+alterations the different hippocampal subelds and adjacent extrahippocampal structures could
+differently contribute the pathophysiology Alzheimers disease AD and dementia with Lewy
+bodies DLB Based visual symptoms which characterize DLB patients the hippocampal subelds and
+the adjacent extrahippocampal structures which are mainly involved the visual functions could 
+impaired DLB and preserved AD To test this hypothesis performed structural magnetic resonance imaging DLB AD and age matched healthy controls FreeSurfers pipelines were used
+ perform parcellation hippocampus and adjacent extrahippocampal structures and assess the
+structural changes within each region The cornu ammonis and subiculum were bilaterally damaged 
+AD and preserved DLB The perirhinal cortex and parahippocampus were damaged DLB but not 
+AD Our ndings demonstrate that the hippocampal subelds and adjacent extrahippocampal structures
+were differently altered AD and DLB Particularly DLB patients showed more focused alteration the
+extrahippocampal structures linked visual functions 
+ Elsevier Inc All rights reserved 
+Keywords 
+Dementia with Lewy bodies
+Alzheimers disease
+Hippocampal subelds
+Entorhinal cortex
+Perirhinal cortex
+Parahippocampus
+Introduction
+Alzheimers disease AD and dementia with Lewy bodies DLB 
+represent the most common forms neurodegenerative dementia elderly Vann Jones and OBrien Although AD and
+DLB are characterized clinical overlap especially the early
+stage DLB patients show greater attentional and visuoperceptual
+impairment Calderon Collerton and less
+prominent memory loss Calderon Ferman 
+ compared with AD patients Particularly visual hallucinations 
+together with uctuating cognition and extrapyramidal signs 
+represent the core clinical feature DLB McKeith 
+The hippocampus heterogeneous brain structure consisting
+ distinct and specialized regions which process different functions
+including information consolidation from the episodic memory
+ the long term memory spatial navigation local spatial
+ Corresponding author Department Neuroscience Imaging and Clinical
+Sciences G dAnnunzio University Chieti Pescara Via dei Vestini Chieti 
+Italy Tel fax 
+E mail address bonanniunich L Bonanni 
+ see front matter Elsevier Inc All rights reserved 
+http doi org neurobiolaging 
+representation and visual perception and identication Bird
+and Burgess Strange 
+Although the hippocampal atrophy has been consistently
+reported AD and DLB Barber Chow 
+Firbank Hashimoto Mak 
+Sabattoli the adjacent extrahippocampal structures
+including entorhinal perirhinal and parahippocampal structures
+have been poorly investigated 
+In the present study hypothesize that specic alterations 
+the hippocampal subelds and adjacent extrahippocampal structures could differently contribute the pathophysiology AD and
+DLB Specically based visual symptoms present DLB patients 
+ expect that the extrahippocampal structures which are mainly
+involved the visual functions could impaired DLB and
+preserved AD To verify this hypothesis studied the possible
+alterations the hippocampal and extrahippocampal structures 
+DLB and AD patients using automated data analysis approaches
+ Fischl and Dale Van Leemput which allow 
+ parcellate the hippocampal subelds and the extrahippocampal
+structures different regions and determine their physical
+measures 
+S Delli Pizzi Neurobiology Aging 
+Material and methods
+ MR data acquisition
+ Study sample
+MR measurements were performed with Philips Achieva T
+scanner Philips Medical System Best the Netherlands equipped
+with channel receiver coil Three dimensional Weighted
+Turbo Field Echo repetition time echo time slice
+thickness eld view sequence
+was performed all participants 
+This research was approved the local Ethics Committee and
+was performed according the Declaration Helsinki and
+subsequent revisions All subjects their caregivers where
+appropriate provided written informed consent Nineteen DLB and
+ AD patients were recruited from our Memory Clinic and Movement Disorder Clinic Nineteen age matched volunteers were
+recruited from our nondemented case register cohorts All subjects
+were right handed Probable AD diagnosis was made agreement
+with the National Institute Neurological and Communicative
+Diseases and Stroke Alzheimers Disease and Related Disorders
+Association criteria Dubois McKhann Probable
+DLB diagnosis was carried out agreement with the consensus
+guidelines McKeith As part their clinical work 
+all patients underwent Computerized Tomography magnetic
+resonance imaging MRI and dopaminergic presynaptic ligand
+ioupane SPECT DAT scan within months before the inclusion 
+the project Furthermore all patients were assessed with electroencephalography EEG recordings abnormalities characterized
+ parietooccipital dominant frequency alterations have previously
+been observed reliably differentiate probable DLB from AD
+ Bonanni 
+ Clinical investigation
+ MRI morphometry
+Structural weighted images were processed using FreeSurfer processing stream http ftp nmr mgh harvard edu version
+ Fischl and Dale By using recon all command line 
+performed the automated reconstruction and labeling cortical
+and subcortical regions classied using the Desikan Killiany
+Atlas the high resolution anatomical weighted images 
+each subject The recon all command line followed hipposubelds option was used subdivide the hippocampi mbria 
+ssure cornus ammonis CA presubiculum and subiculum CA
+was further divided and dentate gyrus DG 
+The total hippocampal volumes and the estimated total intracranial
+volume eTIV were calculated using table command line The mean thickness the entorhinal and parahippocampal structures was extracted using table
+command line The mri label command line was used 
+compute the perirhinal thickness Representative images the
+hippocampal subelds and extrahippocampal structures were
+shown the Fig 
+All participants underwent clinical and neuropsychological
+assessment Mini Mental State Examination MMSE Folstein 
+ Clinical Dementia Rating CDR Morris and Dementia
+Rating Jurica were used assess the
+cognitive deterioration Neuropsychiatric Inventory NPI was used
+ determine the frequency and severity any neuropsychiatric
+features Cummings Particularly the NPI 
+hallucinations investigated the occurrence well severity 
+frequency visual hallucinations Frontal Assessment Battery
+ FAB Dubois and Clinician Assessment Fluctuations
+ Walker were included investigate respectively the
+severity frontal dysfunction and the presence and severity
+ cognitive uctuations Unied Parkinsons Disease Rating
+Scaledmotor section III Fahn and Elton assessed the
+presence and severity extrapyramidal signs The presence
+and absence rapid eye movement sleep behavior disorder
+ RBD was determined according minimal International Classication Sleep Disorders criteria and conrmed 
+polysomnography 
+One way ANOVA and Bonferroni post hoc test was performed 
+demographic and clinical data The test was carried out for sex 
+For MRI data differences among groups were tested using analysis
+ covariance controlling for age education and eTIV and adjusting
+for multiple comparisons Bonferroni correction In case 
+signicant mean interactions among groups pairwise Bonferroni
+post hoc was applied Because the volumes the total hippocampi
+and hippocampal subelds and the thickness the extrahippocampal structures were obtained from different processing
+pipelines and measures separate statistical analyses were performed Within each patient group linear regression was performed assess the relationship between MRI outcomes and
+the demographic and primary clinical outcomes independent
+variables age scores the FAB MMSE NPI hallucination item 
+Unied Parkinsons Disease Rating Scale 
+ Neuropsychological evaluation the healthy elderly
+Results
+Age matched healthy subjects were further evaluated ascertain the brain normal functioning Specically Activities Daily
+Living Scale Katz and Instrumental Activities Daily Life
+Scale Lawton and Brody were used for daily functions
+assessment Attention skills sustained attention divided attention 
+task coordination and set shifting were evaluated using the Trail
+Making Test A and B Robertson Rossini and Karl 
+Attentional matrices were used evaluate speed and attention
+ Abbate Short term and long term verbal memory
+ Babcock Story Recall Test Horner were assessed 
+well auditory working memory Baddeley and Wilson 
+Visuospatial memory and ability were also investigated Shin 
+ Finally the forward and backward Digit Span test was used
+ evaluate auditory working memory Wechsler 
+ Demographic and clinical features
+ Statistical analysis
+Demographic features and neuropsychological test scores were
+summarized Table 
+No differences terms age sex and educational level were
+observed among groups 
+No differences global test cognition MMSE CDR 
+and the severity frontal dysfunction FAB score were found
+between AD and DLB patients Seventeen DLB patients had RBD All
+DLB patients had visual hallucinations and cognitive uctuations 
+None the AD patients had visual hallucinations cognitive
+uctuations All DLB patients showed abnormal quantitative EEG
+pattern prole consistent with DLB diagnosis Bonanni 
+ It was represented slow dominant frequency the
+S Delli Pizzi Neurobiology Aging 
+Table 
+Demographic and clinical features
+Fig Representative subdivision A the hippocampal subelds and B adjacent
+extrahippocampal structures The mask each region was overlapped structural
+image Color classication dark red dark blue DG black brown 
+subiculum dark green presubiculum yellow mbria fuchsia ssure blue sky 
+entorhinal cortex green perirhinal cortex red parahippocampus white 
+Abbreviations R right L left For interpretation the references color this
+gure legend the reader referred the Web version this article 
+Characteristics
+DLB
+AD
+Controls
+Number subjects 
+patients
+Agea 
+Male gender 
+percentage 
+Disease duration 
+Education level 
+CDRa 
+MMSEa 
+DRSa 
+FABa 
+CAF
+UPDRS III
+NPI hallucinations
+Values are expressed mean standard deviation SD 
+Key AD Alzheimers disease ANOVA analysis variance CAF Clinician Assessment Fluctuations CDR Clinical Dementia Rating DLB dementia with Lewy
+bodies DRS Dementia Rating Scale FAB Frontal Assessment Battery MMSE Mini
+Mental State Examination NPI Neuropsychiatric Inventory UPDRS III Unied
+Parkinsons Disease Rating Scaledmotor section III 
+The values were calculated using the one way ANOVA Bonferroni post hoc
+test was also performed when F test was signicant 
+Main interaction among groups 
+The values were calculated using test 
+The values were calculated using the independent samples test 
+Main interaction among groups 
+The values were calculated using the independent samples test 
+Main interaction among groups post hoc controls
+versus AD controls versus DLB and AD versus DLB 
+Main interaction among groups post hoc controls
+versus AD controls versus DLB and AD versus DLB 
+Main interaction among groups post hoc controls
+versus AD controls versus DLB and AD versus DLB 
+the forms dementia The volumes bilaterally and left
+ DG and subiculum were signicantly reduced AD 
+compared DLB patients and controls The right DG 
+subiculum and presubiculum were altered both forms 
+dementia compared controls 
+theta and prealpha band posterior leads and dominant
+frequency variability Hz None the AD patients controls
+showed DLB specic EEG characteristics Bonanni All
+DLB patients had dopamine transporter hypocaptation the
+caudate nuclei bilateral patients SPECT DAT scan None 
+the AD patients control subjects showed SPECT DAT scan
+abnormalities 
+Patients were treated with L Dopa all DLB patients rivastigmine donepezil all AD and DLB patients with same daily
+dosages quetiapine DLB and AD clozapine DLB risperidone AD and clonazepam DLB patients who presented with
+RBD 
+Table summarizes the statistical results for each extrahippocampal structure When compared controls specic sites 
+atrophy the right extrahippocampal structures were found the
+ forms dementia Specically the thickness the right entorhinal cortex was reduced both AD and DLB patients The thickness the perirhinal cortex and the parahippocampus was reduced
+ the right hemisphere DLB patients but not the AD patients 
+the comparison with controls No signicant difference was found
+between AD patients and DLB patients 
+ Total hippocampal volumetry
+ Correlation analysis
+Table summarizes the statistical results for the right and left
+hippocampi No differences were found among groups for eTIV As
+compared controls the total hippocampal volumes were reduced
+bilaterally AD patients and the right hemisphere DLB
+patients Comparing the forms dementia the left total hippocampal volume was signicantly reduced AD patients 
+Although signicant correlations were found between
+imaging and clinical outcomes trend toward correlation was
+found between cortical thinning perirhinal and parahippocampal
+regions and NPI visual hallucinations item 
+ Extrahippocampal structures thickness
+Discussion
+ Hippocampal subelds volumetry
+Table summarizes the statistical results for each hippocampal
+subeld The volumetric analysis showed specic sites atrophy 
+In this study found different patterns atrophy within the
+hippocampal subelds and the adjacent extrahippocampal structures DLB and AD patients Fig 
+S Delli Pizzi Neurobiology Aging 
+Table 
+Volume for right and left total hippocampi
+Region
+DLB
+AD
+Controls
+ANCOVA
+Bonferroni pairwise post hoc
+DLB controls
+AD controls
+DLB AD
+R tHIP
+L tHIP
+eITV
+NA
+NA
+NA
+Values are expressed mean standard deviation SD 
+Bold characters indicate signicant results 
+Key AD Alzheimers disease ANCOVA analysis covariance CA cormu ammonis DG dentate gysus DLB dementia with Lewy bodies eITV estimated total intracranial
+volume L left tHIP total hippocampus NA not applicable R right 
+ANCOVA followed Bonferroni correction was carried out test the differences among groups adjusted signicance threshold structures groups 
+When the ANCOVA was signicant pairwise Bonferroni post hoc was applied 
+Specically the CA DG and subiculum were overall more
+atrophic AD patients Neuropathological studies have reported
+that AD and its prodromal stages are associated with neuronal loss
+ the and the subiculum regions Corder Kerchner
+ Thompson Furthermore was observed
+that the alteration hippocampal structures begins anteriorly 
+the and subiculum regions and subsequently propagate the
+ and subelds Apostolova Devanand 
+ Wang These pathological ndings have
+been conrmed structural imaging studies reporting bilateral
+atrophy and subiculum AD compared healthy
+controls Chow Firbank Mak 
+Mueller Sabattoli The DG plays crucial
+role associative memory and its damage could linked disturbances memory and learning observed the early stages 
+AD Ohm We observed CA and subiculum preservation 
+DLB patients Although the alteration DLB debated Chow
+ Sabattoli recent studies have reported
+ preservation DLB agreement with our ndings Firbank
+ Mak Neuropathological studies did not
+ signicant differences between controls and DLB the hippocampal formation Harding Furthermore 
+compared AD patients DLB patients showed preservation the
+cell viability the and subiculum and selective loss lower
+presubiculum pyramidal neurons Harding 
+As compared controls our study the perirhinal cortex was
+reduced DLB but not AD patients Anatomically the perirhinal
+cortex located between the ventral medial surface the
+temporal lobe surrounding the amygdala and anterior hippocampus and the ventral visual pathway Suzuki and Naya 
+Consistently with its prominent interconnections with unimodal
+and polymodal cortical association areas the perirhinal cortex
+contributes wide range functions including visual functions
+ Suzuki and Naya The perirhinal cortex ablation has been
+shown impair visual object identication Buckley and Gaffan 
+ Furthermore recent studies suggested that the perirhinal
+cortex contributes perceptual processing Devlin and Price 
+and that necessary for the disambiguation perceptually and
+semantically confusable objects Kivisaari 
+The parahippocampus was damaged DLB patients but not 
+AD patients The parahippocampal gyrus posterior perirhinal
+cortex and has been associated with many cognitive processes 
+including visuospatial processing Burgess Recent
+studies have demonstrated that the parahippocampal cortex 
+site for integration and processing contextual associations
+ Aminoff and that the direct electrical stimulation the
+parahippocampal place area causes topographic visual hallucinations Mgevand 
+The perirhinal and parahippocampal cortices are reciprocally
+connected Suzuki and Naya Furthermore both regions
+show functional and structural connections with dorsal visual and
+default mode networks Andrews Hanna Baldassano
+ Chadick and Gazzaley Suzuki and Naya 
+which are strongly involved the pathophysiology visual hallucinations DLB patients Delli Pizzi Franciotti 
+ Shine Taylor Different models
+Table 
+Volume for right and left hippocampal subelds
+Regions
+DLB
+ DG
+R mbria
+R ssure
+R PSUB
+R SUB
+ DG
+L mbria
+L ssure
+L PSUB
+L SUB
+AD
+Controls
+ANCOVAa
+Bonferroni pairwise post hoc
+DLB Controls
+AD Controls
+DLB AD
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+Values are expressed mean standard deviation SD 
+Bold characters indicate signicant results 
+Key AD Alzheimers disease ANCOVA analysis covariance CA cormu ammonis DG dentate gysus DLB dementia with Lewy bodies L left NA not applicable PSUB 
+presubiculum SUB subiculum R right 
+ANCOVA followed Bonferroni correction was carried out test the differences among groups adjusted signicance threshold structures groups 
+When the ANCOVA was signicant pairwise Bonferroni post hoc was applied 
+S Delli Pizzi Neurobiology Aging 
+Table 
+Thickness for left and right extrahippocampal structures
+Regions
+DLB
+R EC
+R PER
+R PAR
+L EC
+L PER
+L PAR
+AD
+Controls
+ANCOVAa
+Bonferroni pairwise post hoc
+DLB controls
+AD controls
+DLB AD
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+Values are expressed mean standard deviation SD 
+Bold characters indicate signicant results 
+Key AD Alzheimers disease ANCOVA analysis covariance EC entorhinal cortex DLB dementia with Lewy bodies L left NA not applicable PAR parahippocampus PER 
+perirhinal cortex R right 
+ANCOVA followed Bonferroni correction was carried out test the differences among groups adjusted signicance threshold structures groups 
+When the ANCOVA was signicant pairwise Bonferroni post hoc was applied 
+have recently proposed that complex visual hallucinations could
+involve also subcortical regions outside the primary visual areas 
+including thalamus amygdala and hippocampus Amad 
+ Delli Pizzi Ford Heitz 
+ Selimbeyoglu and Parvizi Shine In the
+present study did not observe signicant relationship between the frequency and the severity visual hallucinations and
+the extrahippocampal atrophy However are aware that the
+current assessment limited lacking specic battery for
+investigating the visuoperceptual and attentional functions Thus 
+further studies combining neuroimaging outcomes and specic
+neuropsychometric tests visual functions are request better
+clarify the role the extrahippocampal regions the pathophysiology the visual dysfuntion DLB 
+As compared controls the entorhinal cortex was affected 
+both AD and DLB patients The entorhinal cortex located between
+subiculum and perirhinal cortex It plays critical role the
+episodic memory particularly the storage and retrieval new
+declarative memories Di Paola Sasaki 
+Squire Entorhinal atrophy has been linked mild
+memory loss and has been described primary site 
+dysfunction AD Mueller Whitwell 
+deToledo Morrell Less clear the contribution the
+entorhinal cortex DLB As compared AD entorhinal
+preservation has been found Firbank whereas
+comparable atrophy has been found Kenny Interestingly the entorhinal cortex plays central role the visual
+recognition memory Meunier Hence the damage 
+the entorhinal cortex could linked impaired visual recognition
+memory which has been found DLB patients compared 
+controls and PD patients Mondon 
+Of note observed that extrahippocampal thinning DLB
+patients was predominant the right hemisphere This nding 
+ accordance with previous studies from our group showing
+prominent structural and functional alterations the right hemisphere DLB patients Delli Pizzi 
+Franciotti and with the dominant role right hemisphere visuospatial attention Thiebaut Schotten 
+In conclusion our ndings demonstrate that the hippocampal
+subelds and the extrahippocampal structures are differently
+impaired DLB and AD Particularly DLB patients showed 
+more focused alteration the structures linked visuoperceptual
+and attentional functions We retain that these ndings could 
+important starting point conrm the extrahippocampal
+involvement the etiology visual dysfunction DLB 
+As limitation the study must recognize that the small
+sample size across the groups would require the replication the
+study larger cohorts from different centers 
+Disclosure statement
+The authors have conicts interest disclose 
+Acknowledgements
+This study was supported Italian Ministry Health Ministero della Salute Grant number 
+References
+Fig Schematic representation the gray matter GM atrophy the hippocampal
+subelds and adjacent extrahippocampal structures Color classication blue GM
+atrophy was found DLB but not the AD the comparison with controls yellow 
+GM atrophy was found both forms dementia compared controls orange 
+the GM atrophy was found both forms dementia but the GM reduction greater
+ AD compared DLB red GM atrophy was found AD compared DLB and
+controls The symbol indicates GM reduction Abbreviations AD Alzheimers
+disease DLB dementia with Lewy bodies PAR parahippocampus PER perirhinal
+cortex DG dentate gysus For interpretation the references color this gure
+legend the reader referred the Web version this article 
+Abbate C Luzzatti C Vergani C Test delle matrici velocit accuratezza
+della ricerca visiva nel corso dellinvecchiamento G Gerontol 
+Amad A Cachia A Gorwood P Pins D Delmaire C Rolland B Mondino M 
+Thomas P Jardri R The multimodal connectivity the hippocampal
+complex auditory and visual hallucinations Mol Psychiatry 
+Aminoff E M Kveraga K Bar M The role the parahippocampal cortex 
+cognition Trends Cogn Sci 
+Andrews Hanna J R Reidler J S Huang C Buckner R L Evidence for
+the default networks role spontaneous cognition J Neurophysiol 
+Apostolova L G Dutton R A Dinov I D Hayashi K M Toga A W Cummings J L 
+Thompson P M Conversion mild cognitive impairment Alzheimer
+disease predicted hippocampal atrophy maps Arch Neurol 
+Baddeley A Wilson B A Prose recall and amnesia implications for the
+structure working memory Neuropsychologia 
+S Delli Pizzi Neurobiology Aging 
+Baldassano C Beck D M Fei Fei L Differential connectivity within the
+parahippocampal place area Neuroimage 
+Barber R Ballard C McKeith I G Gholkar A OBrien J T MRI volumetric
+study dementia with Lewy bodies comparison with AD and vascular dementia Neurology 
+Bird C M Burgess N The hippocampus supports recognition memory for
+familiar words but not unfamiliar faces Curr Biol 
+Bonanni L Thomas A Tiraboschi P Perfetti B Varanese S Onofrj M EEG
+comparisons early Alzheimers disease dementia with Lewy bodies and
+Parkinsons disease with dementia patients with year follow Brain 
+Buckley M J Gaffan D Perirhinal cortex ablation impairs congural learning
+and paired associate learning equally Neuropsychologia 
+Burgess N Maguire E A OKeefe J The human hippocampus and spatial
+and episodic memory Neuron 
+Calderon J Perry R J Erzinclioglu S W Berrios G E Dening T R Hodges J R 
+Perception attention and working memory are disproportionately
+impaired dementia with Lewy bodies compared with Alzheimers disease 
+J Neurol Neurosurg Psychiatry 
+Chadick J Z Gazzaley A Differential coupling visual cortex with default 
+frontal parietal network based goals Nat Neurosci 
+Chow N Aarsland D Honarpisheh H Berrios G E Dening T R Hodges J R 
+Comparing hippocampal atrophy Alzheimers dementia and dementia with
+lewy bodies Dement Geriatr Cogn Disord 
+Collerton D Burn D McKeith I OBrien J Systematic review and metaanalysis show that dementia with Lewy bodies visualperceptual and
+attentional executive dementia Dement Geriatr Cogn Disord 
+Corder E H Woodbury M A Volkmann I Madsen D K Bogdanovic N 
+Winblad B Density proles Alzheimer disease regional brain
+pathology for the Huddinge brain bank pattern recognition emulates and
+expands upon Braak staging Exp Gerontol 
+Cummings J L Mega M Gray K Rosenberg Thompson S Carusi D A 
+Gornbein J The neuropsychiatric inventory comprehensive assessment
+ psychopathology dementia Neurology 
+Declaration helsinki Recommendation guiding physicians biomedical research
+involving human subjects JAMA 
+Delli Pizzi S Franciotti R Tartaro A Caulo M Thomas A Onofrj M Bonanni L 
+ Structural alteration the dorsal visual network DLB patients with
+visual hallucinations cortical thickness MRI study PLoS One 
+Delli Pizzi S Maruotti V Taylor J P Franciotti R Caulo M Tartaro A Thomas A 
+Onofrj M Bonanni L Relevance subcortical visual pathways
+disruption visual symptoms dementia with Lewy bodies Cortex 
+Delli Pizzi S Franciotti R Taylor J P Thomas A Tartaro A Onofrj M Bonanni L 
+ Thalamic involvement uctuating cognition dementia with lewy
+bodies magnetic resonance evidences Cereb Cortex 
+Delli Pizzi S Franciotti R Taylor J P Esposito R Tartaro A Thomas A Onofrj M 
+Bonanni L Structural connectivity differently altered dementia
+with Lewy body and Alzheimers disease Front Aging Neurosci 
+Devanand D P Bansal R Liu J Hao X Pradhaban G Peterson B S MRI
+hippocampal and entorhinal cortex mapping predicting conversion Alzheimers disease Neuroimage 
+deToledo Morrell L Stoub T R Bulgakova M Wilson R S Bennett D A 
+Leurgans S Wuu J Turner D A MRI derived entorhinal volume 
+good predictor conversion from MCI AD Neurobiol Aging 
+Devlin J T Price C J Perirhinal contributions human visual perception 
+Curr Biol 
+Di Paola M Macaluso E Carlesimo G A Tomaiuolo F Worsley K J Fadda L 
+Caltagirone C Episodic memory impairment patients with Alzheimers
+disease correlated with entorhinal cortex atrophy A voxel based morphometry study J Neurol 
+Dubois B Feldman H H Jacova C Dekosky S T Barberger Gateau P 
+Cummings J Delacourte A Galasko D Gauthier S Jicha G Meguro K 
+Obrien J Pasquier F Robert P Rossor M Salloway S Stern Y Visser P J 
+Scheltens P Research criteria for the diagnosis Alzheimers disease 
+revising the NINCDS ADRDA criteria Lancet Neurol 
+Dubois B Slachevsky A Litvan I Pillon B The FAB frontal assessment
+battery bedside Neurology 
+Fahn S Elton R L Members the Unied Parkinsons disease rating scale
+development committee Unied Parkinsons disease rating scale In Fahn S 
+Marsden C D Calne D B Goldstein M Eds Recent development Parkinsons disease Vol Macmillan Healthcare Information Florham Park New
+Jersey 
+Ferman T J Smith G E Boeve B F Graff Radford N R Lucas J A Knopman D S 
+Petersen R C Ivnik R J Wszolek Z Uitti R Dickson D W Neuropsychological differentiation dementia with Lewy bodies from normal aging and
+Alzheimers disease Clin Neuropsychol 
+Firbank M J Blamire A M Teodorczuk A Teper E Burton E J Mitra D 
+OBrien J T High resolution imaging the medial temporal lobe 
+Alzheimers disease and dementia with Lewy bodies J Alzheimers Dis 
+Fischl B Dale A M Measuring the thickness the human cerebral cortex
+from magnetic resonance images Proc Natl Acad Sci U S A 
+Folstein M F Folstein S E McHugh P R Mini mental state A practical
+method for grading the cognitive state patients for the clinician J Psychiatr 
+Res 
+Ford J M Palzes V A Roach B J Potkin S G van Erp T G Turner J A 
+Mueller B A Calhoun V D Voyvodic J Belger A Bustillo J Vaidya J G 
+Preda A McEwen S C Functional Imaging Biomedical Informatics Research
+Network Mathalon D H Visual hallucinations are associated with
+hyperconnectivity between the amygdala and visual cortex people with 
+diagnosis schizophrenia Schizophr Bull 
+Franciotti R Delli Pizzi S Perfetti B Tartaro A Bonanni L Thomas A Weis L 
+Biundo R Antonini A Onofrj M Default mode network links visual
+hallucinations comparison between Parkinsons disease and multiple system
+atrophy Mov Disord 
+Franciotti R Falasca N W Bonanni L Anzellotti F Maruotti V Comani S 
+Thomas A Tartaro A Taylor J P Onofrj M Default network not
+hypoactive dementia with uctuating cognition Alzheimer disease 
+dementia with Lewy bodies comparison Neurobiol Aging 
+Harding A J Lakay B Halliday G M Selective hippocampal neuron loss 
+dementia with Lewy bodies Ann Neurol 
+Hashimoto M Kitagaki H Imamura T Hirono N Shimomura T Kazui H 
+Tanimukai S Hanihara T Mori E Medial temporal and total brain
+atrophy dementia with Lewy bodies volumetric MRI study Neurology
+Heitz C Noblet V Cretin B Philippi N Kremer L Stacketh M Hubele F 
+Armspach J P Namer I Blanc F Neural correlates visual hallucinations dementia with Lewy bodies Alzheimers Res Ther 
+Horner M D Teichner G Kortte K B Harvey R T Construct validity the
+Babcock Story recall test Appl Neuropsychol 
+Jurica P J Leitten C L Mattis S Dementia Rating Scale Psychological Assessment Resources Odessa FI 
+Katz T F A D L Activities daily living JAMA 
+Kenny E R Burton E J OBrien J T A volumetric magnetic resonance imaging study entorhinal cortex volume dementia with lewy bodies A
+comparison with Alzheimers disease and Parkinsons disease with and without
+dementia Dement Geriatr Cogn Disord 
+Kerchner G A Deutsch G K Zeineh M Dougherty R F Saranathan M Rutt B K 
+Hippocampal apical neuropil atrophy and memory performance 
+Alzheimers disease Neuroimage 
+Kivisaari S L Tyler L K Monsch A U Taylor K I Medial perirhinal cortex
+disambiguates confusable objects Brain 
+Lawton M P Brody E M Assessment older people self maintaining and
+instrumental activities daily living Nurs Res 
+Mak E Li S Williams G B Watson R Firbank M Blamire A OBrien J 
+Differential atrophy hippocampal subelds comparative study dementia
+with Lewy bodies and Alzheimer disease Am J Geriatr Psychiatry In press 
+McKhann G M Knopman D S Chertkow H Hyman B T Jack Jr C R 
+Kawas C H Klunk W E Koroshetz W J Manly J J Mayeux R Mohs R C 
+Morris J C Rossor M N Scheltens P Carrillo M C Thies B Weintraub S 
+Phelps C H The diagnosis dementia due Alzheimers disease 
+recommendations from the National Institute Aging Alzheimers Association workgroups diagnostic guidelines for Alzheimers disease Alzheimers
+Dement 
+McKeith I G Dickson D W Lowe J Emre M OBrien J T Feldman H 
+Cummings J Duda J E Lippa C Perry E K Aarsland D Arai H Ballard C G 
+Boeve B Burn D J Costa D Del Ser T Dubois B Galasko D Gauthier S 
+Goetz C G Gomez Tortosa E Halliday G Hansen L A Hardy J Iwatsubo T 
+Kalaria R N Kaufer D Kenny R A Korczyn A Kosaka K Lee V M Lees A 
+Litvan I Londos E Lopez O L Minoshima S Mizuno Y Molina J A 
+Mukaetova Ladinska E B Pasquier F Perry R H Schulz J B Trojanowski J Q 
+Yamada M Consortium DLB Diagnosis and management dementia
+with Lewy bodies third report the DLB Consortium Neurology 
+Mgevand P Groppe D M Goldnger M S Hwang S T Kingsley P B 
+Davidesco I Mehta A D Seeing scenes topographic visual hallucinations evoked direct electrical stimulation the parahippocampal place area 
+J Neurosci 
+Meunier M Bachevalier J Mishkin M Murray E A Effects visual
+recognition combined and separate ablations the entorhinal and perirhinal
+cortex rhesus monkeys J Neurosci 
+Morris J C The Clinical Dementia Rating CDR current version and scoring
+rules Neurology Morris JC 
+Mondon K Gochard A Marqu A Armand A Beauchamp D Prunier C 
+Jacobi D Toffol B Autret A Camus V Hommet C Visual recognition memory differentiates dementia with Lewy bodies and Parkinsons disease dementia J Neurol Neurosurg Psychiatry 
+Mueller S G Chao L L Berman B Weiner M W Evidence for functional
+specialization hippocampal subelds detected MR subeld volumetry 
+high resolution images T Neuroimage 
+Ohm T G The dentate gyrus Alzheimers disease Prog Brain Res 
+Robertson I H Ward T Ridgeway V Nimmo Smith I The structure 
+normal human attention the Test Everyday Attention J Int Neuropsychol 
+Soc 
+Rossini E D Karl M A The Trail Making Test A and B technical note 
+structural nonequivalence Perceptual Mot skills 
+Sabattoli F Boccardi M Galluzzi S Treves A Thompson P M Frisoni G B 
+Hippocampal shape differences dementia with Lewy bodies Neuroimage 
+S Delli Pizzi Neurobiology Aging 
+Sasaki T Leutgeb S Leutgeb J K Spatial and memory circuits the medial
+entorhinal cortex Curr Opin Neurobiol 
+Selimbeyoglu A Parvizi J Electrical stimulation the human brain 
+perceptual and behavioral phenomena reported the old and new literature 
+Front Hum Neurosci 
+Shin M S Park S Y Park S R Seol S H Kwon J S Clinical and empirical
+applications the Rey Osterrieth complex gure test Nat Protoc 
+Shine J M OCallaghan C Halliday G M Lewis S J Tricks the mind visual
+hallucinations disorders attention Prog Neurobiol 
+Squire L R Stark C E Clark R E The medial temporal lobe Annu Rev 
+Neurosci 
+Strange B A Witter M P Lein E S Moser E I Functional organization the
+hippocampal longitudinal axis Nat Rev Neurosci 
+Suzuki W A Naya Y The perirhinal cortex Annu Rev Neurosci 
+Taylor J P Firbank M J He J Barnett N Pearce S Livingstone A Vuong Q 
+McKeith I G OBrien J T Visual cortex dementia with Lewy bodies 
+magnetic resonance imaging study Br J Psychiatry 
+Thiebaut Schotten M DellAcqua F Forkel S J Simmons A Vergani F 
+Murphy D G Catani M A lateralized brain network for visuospatial
+attention Nat Neurosci Erratum Nat Neurosci 
+Thompson P M Hayashi K M Zubicaray G Janke A L Rose S E Semple J 
+Herman D Hong M S Dittmer S S Doddrell D M Toga A W Dynamics gray matter loss Alzheimers disease J Neurosci 
+Van Leemput K Bakkour A Benner T Wiggins G Wald L L Augustinack J 
+Dickerson B C Golland P Fischl B Automated segmentation 
+hippocampal subelds from ultra high resolution vivo MRI Hippocampus 
+Vann Jones S A OBrien J T The prevalence and incidence dementia with
+Lewy bodies systematic review population and clinical studies Psychol 
+Med 
+Walker M P Ayre G A Cummings J L Wesnes K McKeith I G OBrien J T 
+Ballard C G The clinician assessment uctuation and the one day
+uctuation assessment scale Two methods assess uctuating confusion 
+dementia Br J Psychiatry 
+Wang L Miller J P Gado M H McKeel D W Rothermich M Miller M I 
+Morris J C Csernansky J G Abnormalities hippocampal surface
+structure very mild dementia the Alzheimer type Neuroimage 
+Wang L Khan A Csernansky J G Fischl B Miller M I Morris J C Beg M F 
+Fully automated multi stage hippocampus mapping very mild Alzheimer
+disease Hippocampus 
+Wechsler D The Measurement Adult Intelligence Williams and Witkins 
+Baltimore MD 
+Whitwell J L Przybelski S A Weigand S D Knopman D S Boeve B F 
+Petersen R C Jack Jr C R D maps from multiple MRI illustrate changing
+atrophy patterns subjects progress from mild cognitive impairment Alzheimers disease Brain 
