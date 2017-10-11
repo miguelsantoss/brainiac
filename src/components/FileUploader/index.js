@@ -266,7 +266,7 @@ class FileUploader extends Component {
               />
             </Form.Field>
             <Form.Field>
-              <label>Date</label>
+              <label>Date (YYYY/MM/DD format)</label>
               <input
                 placeholder="Publication Date"
                 value={this.state.filesInfo[i].date}

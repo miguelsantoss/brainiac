@@ -160,7 +160,7 @@ class SidebarFixed extends Component {
             name={magnetsActive ? 'toggle on' : 'toggle off'}
             size="large"
             disabled={!magnetsActive}
-            link={magnetsActive}
+            link
             onClick={() => this.props.changeMagnetVizState()}
           />
         </Menu.Item>
