@@ -83,13 +83,13 @@ class SidebarFixed extends Component {
     if (!magnetsActive) return null;
 
     let icon = (
-      <Icon name="plus" link onClick={() => this.handleTopicCreate()} />
+      <Icon name="plus" link={this.state.topicValue !== ''} onClick={() => this.handleTopicCreate()} />
     );
     if (this.props.wordLoading) {
       icon = <Loader size="mini" inverted active inline />;
     }
 
-    let inputPlaceholder = 'Create Topic';
+    let inputPlaceholder = 'Insert topic name...';
     if (this.props.wordLoading) {
       inputPlaceholder = 'Loading magnet';
     }

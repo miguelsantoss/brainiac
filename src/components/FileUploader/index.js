@@ -294,6 +294,10 @@ class FileUploader extends Component {
               />
             </Form.Field>
           </Form>
+          <br />
+          <Button fluid onClick={() => this.handleUploadButton()}>
+              Upload file
+          </Button>
         </Segment>,
       );
     }
@@ -409,9 +413,6 @@ class FileUploader extends Component {
             <Icon name="upload" />
             <span>Choose a file&hellip;</span>
           </label>
-          <Button onClick={() => this.handleUploadButton()}>
-            <span>Upload All</span>
-          </Button>
           <Button negative onClick={() => this.props.handleClose()}>
             <Icon name="remove" />
             Exit
