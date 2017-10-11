@@ -1,0 +1,481 @@
+ORIGINAL CONTRIBUTION
+Conversion Mild Cognitive Impairment
+ Alzheimer Disease Predicted
+ Hippocampal Atrophy Maps
+Liana G Apostolova MD Rebecca A Dutton BS Ivo D Dinov PhD Kiralee M Hayashi BS 
+Arthur W Toga PhD Jeffrey L Cummings MD Paul M Thompson PhD
+Background While most patients with mild cognitive
+impairment MCI transition Alzheimer disease AD 
+others develop non AD dementia remain the MCI state 
+ improve 
+Objective To test the following hypotheses smaller hip 
+pocampal volumes predict conversion MCI AD 
+whereas larger hippocampal volumes predict cognitive
+stability and improvement and patients with MCI who
+convert AD have greater atrophy the hippocampal subfield and subiculum 
+Design Prospective longitudinal cohort study 
+Setting University CaliforniaLos Angeles Alzhei 
+mers Disease Research Center 
+Patients We followed MCI subjects clinically and
+neuropsychologically for years 
+AD MCI remained stable MCI and 
+improved MCI Patients with MCI had smaller
+left and smaller right mean hippocampal volumes
+compared with MCI patients Radial atrophy maps
+showed greater atrophy the subregion MCI 
+Patients with MCI had significantly smaller hippocampi than MCI patients left right Volumetric analyses showed trend for greater hippocampal
+atrophy MCI relative MCI patients 
+volume loss After permutation tests corrected for multiple comparison the atrophy maps showed significant
+difference the right Subicular differences were seen
+between MCI and MCI patients and MCI and
+MCI patients Multiple linear regression analysis confirmed the group effect highly significant and independent age hemisphere and Mini Mental State
+Examination scores baseline 
+Main Outcome Measure Baseline regional hippocampal atrophy was analyzed with region interest and
+ dimensional hippocampal mapping techniques 
+Conclusions Smaller hippocampi and specifically 
+and subicular involvement are associated with increased risk for conversion from MCI AD Patients with
+MCI tend have larger hippocampal volumes and relative preservation both the subiculum and 
+Results During the year study patients developed
+Arch Neurol 
+Author Affiliations Laboratory
+ Neuro Imaging
+ Drs Apostolova Dinov Toga 
+and Thompson and Mss Dutton
+and Hayashi Department 
+Neurology Drs Apostolova 
+Toga Cummings and
+Thompson and Department 
+Psychiatry and Biobehavioral
+Sciences Dr Cummings The
+David Geffen School 
+Medicine UCLA and
+Department Statistics
+ Dr Dinov University 
+CaliforniaLos Angeles 
+M
+ILD COGNITIVE IMPAIR 
+ment MCI intermediate cognitive
+state between normal
+aging and dementia 
+Patients with amnestic MCI have memory
+decline while still enjoying functional lifestyles Most patients with amnestic MCI
+transition Alzheimer disease AD dementia with Lewy bodies vascular dementia but some remain stable and others
+improve Reversible MCI may due depression adverse effects medication hormonal changes nonneurological conditions severe enough affect cognition Any
+improvement our ability predict the
+outcome MCI would invaluable for
+counseling patients making therapeutic decisions and planning clinical trials 
+ REPRINTED ARCH NEUROL VOL MAY 
+Most amnestic MCI patients have AD
+pathology In AD the pathology typically appears first the entorhinal cortex followed the hippocampus and later
+the neocortex Hippocampal atrophy correlates strongly with Braak and Braak
+pathological and cognitive decline and predates conversion MCI
+ the oldest old years 
+The MCI outcomes correlate with annualized hippocampal atrophy rates The
+annual atrophy rates for those who remain stable MCI and for those
+who develop AD MCI The latter strikingly similar the 
+observed AD Some researchers have
+found association between smaller hippocampi and the observed annual conversion rate from MCI AD whereas oth 
+WWW ARCHNEUROL COM
+ American Medical Association All rights reserved 
+Downloaded From http jamanetwork com pdfaccess ashx?url data journals neur 
+Hippocampal Tracing 
+Contiguous Coronal Slices
+ D Parametric Mesh Modeling
+ the Hippocampal Contour
+ropsychological examinations We used the following inclusion
+criteria age years cognitive complaint memory decline least SD below the age and education adjusted neuropsychological norms least memory test California Verbal Learning Test second edition Wechsler Memory Scale third
+edition logical memory and visual reproduction subtests and ReyOsterrieth Complex Figure delayed recall test intact activities
+ daily living evidence concurrent medical condition 
+sufficient severity have impact cognition history 
+drug alcohol abuse and concurrent psychiatric other neurological illness Patients underwent evaluation for depression with
+the Geriatric Depression Scale Those who were clinically depressed Geriatric Depression Scale score who had conditions precluding safe performance magnetic resonance imaging who had baseline images acquired more than months
+from the date neuropsychological evaluation were excluded 
+CLINICAL OUTCOME MEASURES
+Splitting the Hippocampal
+Meshes Into Top and Bottom
+Half and Computation the
+Medial Core
+Color Coded Representation 
+the Radial Distance From the
+Medial Core Each Surface Point
+Three primary outcomes were defined conversion AD MCI 
+according the Diagnostic and Statistical Manual Mental Disorders forth and the National Institute Neurological and Communicative Disorders and StrokeAlzheimers Disease and Related Disorders Association criteria cognitive
+improvement where patients longer met criteria for MCI MCIi and cognitive stability where they remained the MCI category during the years follow MCI Diagnosis was
+determined consensus decision among neurologists psychiatrists and neuropsychologists who reviewed all available clinical and neuropsychological information 
+IMAGING DATA ACQUISITION AND ANALYSIS
+Group Averaging 
+Hippocampal Data
+ Schematic the radial atrophy mapping method D indicates
+ dimensional 
+ers have not Variable conversion rates MCI sample
+heterogeneity and variability hippocampal volume may
+partly explain these conflicting results 
+We analyzed hippocampal atrophy MCI with region interest technique and new hippocampal dimensional D radial atrophy mapping assessing for subregional structural deformations The
+technique has proved sensitive and reliable several neurodegenerative developmental and disorders well normal brain and temporal lobe epilepsy 
+METHODS
+PATIENTS
+All subjects were prospectively recruited the University CaliforniaLos Angeles Alzheimers Disease Research Center according the restrictions and policies the universitys institutional review board We prospectively followed amnestic MCI
+subjects prospectively for years with detailed clinical and neu 
+ REPRINTED ARCH NEUROL VOL MAY 
+Imaging data were collected T Signa magnetic resonance imaging scanner GE Medical Systems Milwaukee Wis 
+with the following protocol D spoiled gradient coronal acquisition perpendicular the long axis the hippocampus repetition time milliseconds echo time milliseconds field 
+view matrix and slice thickness 
+Magnetic resonance images were scaled match the International Consortium for Brain Mapping average brain imaging template using parameter linear transformation Image
+nonuniformities due magnetic field inhomogeneities were eliminated Hippocampi were traced contiguous coronal slices following detailed well established protocol with high intrarater
+and interrater reliability When boundaries were ambiguous 
+standard neuroanatomical atlas was consulted Tracings included the hippocampus proper dentate gyrus and subiculum 
+All traces were made blinded fashion with respect the subjects age sex and cognitive outcome Region interest volumetric data were extracted and analyzed statistically 
+The hippocampal contours were split into top and bottom
+components and transformed into D parametric surface mesh
+models with normalized spatial frequency the surface points
+within and across brain slices This step ensures precise comparison anatomy between subjects and groups each hippocampal surface point For each outcome group performed group averaging hippocampal representations and
+recorded the variation between corresponding surface points 
+A medial core central line threading down the long axis the
+hippocampus was computed for each hippocampus Hippocampal radial distance measures the distance from the medial core each point the hippocampal surface model were
+estimated These values were used generate individual distance maps that were combined across subjects produce group
+average distance maps for comparing surface morphology between the groups summarizes these methods The
+WWW ARCHNEUROL COM
+ American Medical Association All rights reserved 
+Downloaded From http jamanetwork com pdfaccess ashx?url data journals neur 
+Table Demographic Data
+MMSE Score Mean SD 
+Patient Groups
+MCI 
+MCI 
+MCI 
+Age Mean 
+Sex No M F
+Education Mean 
+Baseline
+ Follow 
+Abbreviations MCI mild cognitive impairment MCI MCI that converted Alzheimer disease MCI MCI that improved MCI MCI that remained stable 
+MMSE Mini Mental State Examination 
+ P for group comparison MCI MCI patients and P for MCI MCI tailed tests pooled variances 
+Table Hippocampal ROI Volume Differences Between Groups
+Patient Group
+Comparison
+MCI MCI 
+Left
+Right
+MCI MCI 
+Left
+Right
+MCI MCI 
+Left
+Right
+Difference 
+Volumetric Difference 
+Mean SE 
+Confidence
+Interval
+ Statistic
+P Value
+Tukey Test 
+P Value
+ Test 
+Abbreviations MCI mild cognitive impairment MCI MCI that converted Alzheimer disease MCI MCI that improved MCI MCI that remained stable 
+ROI region interest 
+ Indicates sample test with pooled variance Statistically significant P values are indicated boldface type 
+Indicates Tukey test adjusting for multiple comparisons Statistically significant values are indicated boldface type 
+California Verbal Learning Test delayed recall scores were used
+ covariates generate D maps cognitive correlations with
+atrophy 
+STATISTICAL ANALYSES
+The region interest volumetric data were globally assessed
+for group effects using analysis variance Each group pair
+was first compared using the sample test with pooled variances followed Tukey test correcting for multiple comparisons Multiple linear regression analyses were performed
+controlling for group age and Mini Mental State Examination
+score baseline The radial atrophy significance maps were
+subjected permutation based statistics using threshold 
+P ensure that the overall pattern effects the
+surface based maps could not have been observed chance
+alone 
+RESULTS
+PRIMARY OUTCOME
+Of the MCI patients converted AD MCI 
+remained stable MCI and improved MCI 
+Demographic data are shown Table The follow Mini Mental State Examination score after years
+was significantly lower MCI relative MCI patients The change Mini Mental State Examination
+score over the year follow interval did not show 
+ REPRINTED ARCH NEUROL VOL MAY 
+significant correlation with hippocampal volumes assessed baseline left side P right side 
+ P These results did not change after stratification MCI subgroup 
+REGION OF INTEREST VOLUMETRIC ANALYSES
+We found significant group effect for the hippocampal
+volumes our MCI cohort using analysis variance left
+side F P right side F 
+P A multiple linear regression model with hippocampal volume the dependent variable and age 
+group and Mini Mental State Examination score baseline the predictor variables was significant bilaterally
+ left side F P right side F P Of
+these predictors only group membership was significantly associated with hippocampal volume left side 
+ P right side P 
+Two sample test statistics with pooled variance
+showed significant differences between MCI and MCI 
+patients the left hippocampal volume and trend for
+significance the right Significant bilateral differences were found between MCI and MCI patients After correction for multiple comparisons the MCI 
+MCI volume differences remained significant whereas
+the MCI MCI differences showed trend for significance Table 
+WWW ARCHNEUROL COM
+ American Medical Association All rights reserved 
+Downloaded From http jamanetwork com pdfaccess ashx?url data journals neur 
+Top
+A
+Bottom
+Right
+Left
+Right
+Left
+B
+C
+D
+P Value
+ Hippocampal maps A Schematic representation the hippocampal subfields mapped onto the hippocampal surface blue and 
+green and subiculum red Definitions are based and West and Gundersen B D Statistical maps compare hippocampal radial atrophy between
+patients with mild cognitive impairment MCI that converted Alzheimer disease MCI and those with stable MCI MCI B between MCI patients and
+patients with MCI that improved MCI C and between MCI and MCI patients D 
+RADIAL ATROPHY MAP
+To better understand the anatomical distribution radial
+atrophy consulted well established and
+demarcated the main hippocampal subfields the hippocampal surface A Statistical maps comparing the individual groups are shown B D We
+ REPRINTED ARCH NEUROL VOL MAY 
+subjected the maps stringent multiple comparisons using permutation testing threshold P The MCI 
+and MCI patients differed the extent involvement
+ the hippocampal subregion The MCI patients
+had significantly greater atrophy the subicular region 
+the left and the region the right hippocampus relative MCI patients The MCI patients showed signifiWWW ARCHNEUROL COM
+ American Medical Association All rights reserved 
+Downloaded From http jamanetwork com pdfaccess ashx?url data journals neur 
+Table Statistical Results From the D Radial Atrophy Maps Corrected for Multiple Comparisons 
+Left Hippocampus P Values
+Patient Group
+Comparison
+MCI MCI 
+MCI MCI 
+MCI MCI 
+Right Hippocampus P Values
+Dorsal Surface
+Ventral Surface
+Both Combined
+Dorsal Surface
+Ventral Surface
+Both Combined
+Abbreviations D dimensional MCI mild cognitive impairment MCI MCI that converted Alzheimer disease MCI MCI that improved MCI MCI
+that remained stable NS not significant 
+ P values were determined permutation testing with threshold P Statistically significant values are indicated boldface type 
+Top
+Right
+Bottom
+Left
+Right
+Left
+Correlation Coefficient
+ Statistical maps showing the correlation between the delayed recall score the California Verbal Learning Test and regional hippocampal atrophy 
+cantly greater and subicular involvement relative 
+MCI patients bilaterally The and subfields
+showed significant group differences Table 
+COGNITIVE CORRELATIONS
+ depicts D statistical maps correlating the 
+layed recall score the California Verbal Learning Test
+with hippocampal radial atrophy The strongest correlations were seen observed for the lateral and ventral hippocampal surfaces and subiculum 
+COMMENT
+MCI showed distinct pattern hippocampal atrophy from MCI and MCI The magnetic resonance
+imaging preconversion difference baseline atrophy
+ the lateral edge the hippocampal formation possibly corresponding the subfield The baseline magnetic resonance imaging preconversion difference atrophy the lateral edge the hippocampal formation 
+possibly corresponding the subfield As expected the and subfields did not show differences between the groups although larger sample may
+ needed detect subtle differences The hippocampal subfield particularly susceptible neuronal
+loss early AD One recent study demonstrated preferential CAI and subicular atrophy and relative sparing
+ REPRINTED ARCH NEUROL VOL MAY 
+ and subfields the earliest pathologic AD stages Braak states I III 
+Using computational anatomy approach similar 
+ours Wang and Csernansky compared hippocampal volume and shape between subjects with
+mild AD Clinical Dementia Rating Scale score 
+and age matched control subjects Their hippocampal
+deformation maps accurately distinguished subjects
+with AD from healthy controls The AD group had
+lateral edge atrophy regions corresponding the
+ hippocampal subfield baseline with spread 
+the hippocampal head follow Further extending
+their work found greater involvement MCI
+patients who later developed AD We found strong correlations between greater atrophy and verbal memory
+performance 
+Some studies find that proportion MCI subjects
+revert back normal cognition when followed longitudinally To our knowledge ours the first imaging
+study that includes the whole spectrum clinical outcomes cognitive worsening improvement and stability Patients with reversible MCI seem have and
+subicular sparing and larger hippocampal volumes baseline The precise etiology for the amnestic syndrome 
+our MCI patients remains obscure excluded patients with depression any other illness that could contribute cognitive decline Future studies focusing 
+MCI will help clarify its etiology 
+WWW ARCHNEUROL COM
+ American Medical Association All rights reserved 
+Downloaded From http jamanetwork com pdfaccess ashx?url data journals neur 
+Our study has several limitations Despite the small
+sample size were able demonstrate significant morphological differences between the groups A larger MCI
+patient sample will better define hippocampal regions that
+correlate best with cognitive outcomes and determine the
+specificity and sensitivity our methods predicting cognitive outcome patients with newly diagnosed MCI Without direct pathological validation the interpretation the
+subregional involvement remains arbitrary The subregional boundaries used are similar those proposed
+ other research groups Nevertheless what interpret subicular involvement may reflect changes
+ another hippocampal subregion Our study focused 
+amnestic MCI Our findings cannot generalized all
+MCI patients especially those with the nonamnestic subtype A large prospective study that follows patients with
+all MCI subtypes over time needed address the etiological clinical and prognostic questions that remain unanswered 
+Accepted for Publication January 
+Correspondence Liana G Apostolova MD Reed Neurological Research Center Suite Westwood Blvd 
+Box Los Angeles CA lapostolova
+mednet ucla edu 
+Author Contributions Study concept and design Apostolova Dutton Dinov and Cummings Acquisition data 
+Apostolova Analysis and interpretation data Apostolova 
+Dutton Dinov Hayashi Toga Cummings and Thompson Drafting the manuscript Apostolova and Dinov Critical revision the manuscript for important intellectual content Apostolova Dutton Dinov Hayashi Toga Cummings 
+and Thompson Statistical analysis Apostolova and Dinov 
+Obtained funding Apostolova Dinov Toga and Thompson Administrative technical and material support Apostolova Study supervision Cummings and Thompson 
+Funding Support This study was supported grant NIA
+ sponsored jointly the National Institute Aging NIA American Federation for Aging Research The John A Hartford Foundation The Atlantic Philanthropies The Starr Foundation and anonymous
+donor Drs Apostolova and Dinov The study was also supported the Kassel Parkinsons Disease Foundation Dr
+Apostolova and grants from the NIA Drs Apostolova Cummings and Thompson from the National Institute Biomedical Imaging and BioEngineering Dr Thompson from the NLM Dr
+Thompson from the National Center for Research Resources NCRR Dr Thompson 
+from the National Institutes Health NIH and National
+Institute Mental Health Drs Toga Thompson and
+Dinov from the NIH and NCRR Drs Toga 
+Thompson and Dinov from the NIH Drs
+Toga Dinov and Thompson and DUE from the
+National Science Foundation Dr Dinov 
+REFERENCES
+Petersen RC Smith GE Waring SC Ivnik RJ Tangalos EG Kokmen E Mild cognitive impairment Arch Neurol 
+Petersen RC Doody R Kurz A Current concepts mild cognitive impairment 
+Arch Neurol 
+ REPRINTED ARCH NEUROL VOL MAY 
+Wahlund LO Pihlstrand E Jonhagen ME Mild cognitive impairment experience from memory clinic Acta Neurol Scand Suppl 
+Gauthier S Touchon J Mild cognitive impairment not clinical entity and should
+not treated Arch Neurol discussion 
+Petersen RC Morris JC Mild cognitive impairment clinical entity and treatment target Arch Neurol 
+Price JL Morris JC Tangles and plaques nondemented aging and preclinical Alzheimers disease Ann Neurol 
+Haroutunian V Perl DP Purohit DP Regional distribution neuritic plaques
+ the nondemented elderly and subjects with very mild Alzheimer disease Arch
+Neurol 
+Jack CR Jr Dickson DW Parisi JE Antemortem MRI findings correlate with
+hippocampal neuropathology typical aging and dementia Neurology 
+Silbert LC Quinn JF Moore MM Changes premorbid brain volume predict Alzheimers disease pathology Neurology 
+Petersen RC Jack CR Jr Xu YC Memory and MRI based hippocampal volumes aging and AD Neurology 
+Chetelat G Desgranges B Sayette V Dissociating atrophy and hypometabolism impact episodic memory mild cognitive impairment Brain 
+Kaye JA Swihart T Howieson D Volume loss the hippocampus and temporal lobe healthy elderly persons destined develop dementia Neurology 
+Jack CR Jr Petersen RC Xu Y Rates hippocampal atrophy correlate
+with change clinical status aging and AD Neurology 
+Jack CR Jr Petersen RC Xu Y Rate medial temporal lobe atrophy 
+typical aging and Alzheimers disease Neurology 
+Jack CR Jr Petersen RC Xu YC Prediction AD with MRI based
+hippocampal volume mild cognitive impairment Neurology 
+Jack CR Jr Shiung MM Gunter JL Comparison different MRI brain atrophy rate measures with clinical disease progression AD Neurology 
+De Toledo Morrell L Goncharova I Dickerson B Wilson RS Bennett DA From
+healthy aging early Alzheimers disease vivo detection entorhinal cortex
+atrophy Ann N Y Acad Sci 
+Dickerson BC Goncharova I Sullivan MP MRI derived entorhinal and hippocampal atrophy incipient and very mild Alzheimers disease Neurobiol Aging 
+Killiany RJ Hyman BT Gomez Isla T MRI measures entorhinal cortex
+ hippocampus preclinical AD Neurology 
+Convit A Asis J Leon MJ Tarshish CY De Santi S Rusinek H Atrophy 
+the medial occipitotemporal inferior and middle temporal gyri nondemented elderly predict decline Alzheimers disease Neurobiol Aging 
+Thompson PM Hayashi KM De Zubicaray GI Mapping hippocampal and
+ventricular change Alzheimer disease Neuroimage 
+Thompson PM Hayashi KM Zubicaray G Dynamics gray matter loss
+ Alzheimers disease J Neurosci 
+Ballmaier M OBrien JT Burton EJ Comparing gray matter loss profiles
+between dementia with Lewy bodies and Alzheimers disease using cortical
+pattern matching Neuroimage 
+Sowell ER Thompson PM Peterson BS Mapping cortical gray matter asymmetry patterns adolescents with heavy prenatal alcohol exposure Neuroimage 
+Sowell ER Thompson PM Welcome SE Henkenius AL Toga AW Peterson BS 
+Cortical abnormalities children and adolescents with attention deficit hyperactivity disorder Lancet 
+Ballmaier M Sowell ER Thompson PM Mapping brain size and cortical
+gray matter changes elderly depression Biol Psychiatry 
+Narr KL Thompson PM Szeszko P Regional specificity hippocampal
+volume reductions first episode schizophrenia Neuroimage 
+Sowell ER Peterson BS Thompson PM Welcome SE Henkenius AL Toga AW 
+Mapping cortical change across the human life span Nat Neurosci 
+Lin JJ Salamon N Dutton RA Three dimensional preoperative maps 
+hippocampal atrophy predict surgical outcomes temporal lobe epilepsy 
+Neurology 
+American Psychiatric Association Diagnostic and Statistical Manual Mental
+Disorders Washington DC American Psychiatric Association 
+Collins DL Neelin P Peters TM Evans AC Automatic D intersubject registration MR volumetric data standardized Talairach space J Comput Assist
+Tomogr 
+Shattuck DW Sandor Leahy SR Schaper KA Rottenberg DA Leahy RM Magnetic resonance image tissue classification using partial volume model 
+Neuroimage 
+Narr KL Thompson PM Sharma T Three dimensional mapping temporolimbic regions and the lateral ventricles schizophrenia gender effects Biol
+Psychiatry 
+Duvernoy H The Human Hippocampus An Atlas Applied Anatomy Munich 
+Germany JF Bergmann Verlag 
+West MJ Gundersen HJ Unbiased stereological estimation the number neurons the human hippocampus J Comp Neurol 
+WWW ARCHNEUROL COM
+ American Medical Association All rights reserved 
+Downloaded From http jamanetwork com pdfaccess ashx?url data journals neur 
+ Huesgen CT Burger PC Crain BJ Johnson GA In vitro MR microscopy the
+hippocampus Alzheimers disease Neurology 
+Arnold SE Hyman BT Flory J Damasio AR Van Hoesen GW The topographical and
+neuroanatomical distribution neurofibrillary tangles and neuritic plaques the cerebral cortex patients with Alzheimers disease Cereb Cortex 
+Bobinski M Wegiel J Wisniewski HM Atrophy hippocampal formation
+subdivisions correlates with stage and duration Alzheimer disease Dementia 
+Schonheit B Zarski R Ohm TG Spatial and temporal relationships between plaques
+and tangles Alzheimer pathology Neurobiol Aging 
+Wang L Swank JS Glick IE Changes hippocampal volume and shape
+across time distinguish dementia the Alzheimer type from healthy aging 
+Neuroimage 
+Csernansky JG Wang L Joshi S Early DAT distinguished from aging highdimensional mapping the hippocampus Neurology 
+Csernansky JG Wang L Miller JP Galvin JE Morris JC Neuroanatomical predictors response donepezil therapy patients with dementia Arch Neurol 
+Csernansky JG Wang L Swank J Preclinical detection Alzheimers disease 
+Neuroimage 
+Announcement
+Trial Registration Required In concert with the International Committee Medical Journal Editors ICMJE 
+Archives Neurology will require condition consideration for publication registration all trials public trials registry such http ClinicalTrials gov Trials
+must registered before the onset patient enrollment This policy applies any clinical trial starting enrollment after July For trials that began
+enrollment before this date registration will required September before considering the
+trial for publication The trial registration number should
+ supplied the time submission 
+For details about this new policy and for information
+ how the ICMJE defines clinical trial see the editorial DeAngelis the January issue Archives 
+Dermatology Also see the Instructions
+ Authors our Web site www archneurol com 
+ REPRINTED ARCH NEUROL VOL MAY 
+WWW ARCHNEUROL COM
+ American Medical Association All rights reserved 
+Downloaded From http jamanetwork com pdfaccess ashx?url data journals neur 
+Correction
+Error Text and Figures In the Original Contribution Apostolova titled Conversion Mild Cognitive Impairment Alzheimer Disease Predicted Hippocampal Atrophy Maps published the May issue the Archives 
+ errors occurred the text and Figures and pages and respectively In the
+Methods subsection entitled Imaging Data Acquisition and Analysis the first sentence should have read follows 
+Imaging data were collected T Signa magnetic resonance imaging scanner GE Medical Systems Milwaukee Wis 
+ continued 
+Top
+A
+Bottom
+Right
+Left
+Right
+Left
+B
+C
+D
+P Value
+ Hippocampal maps A Schematic representation the hippocampal subfields mapped onto the hippocampal surface blue and
+ green and subiculum red Definitions are based and West and Gundersen B D Statistical maps compare hippocampal radial
+atrophy between patients with mild cognitive impairment MCI that converted Alzheimer disease MCI and those with stable MCI MCI B 
+between MCI patients and patients with MCI that improved MCI C and between MCI and MCI patients D 
+ REPRINTED ARCH NEUROL VOL NO SEP 
+WWW ARCHNEUROL COM
+ American Medical Association All rights reserved 
+Downloaded From http jamanetwork com pdfaccess ashx?url data journals neur 
+Correction
+ cont 
+with the following protocol D spoiled gradient coronal acquisition perpendicular the anterior posterior commissure
+line repetition time milliseconds echo time milliseconds field view matrix and slice thickness In the hippocampal maps for both the right and left sides the top and bottom maps panels B
+through D were flipped horizontally In the statistical maps for both the right and left sides the top and bottom
+maps were also flipped horizontally The correct figures are printed here with their legends 
+Top
+Right
+Bottom
+Left
+Right
+Left
+Correlation Coefficient
+ Statistical maps showing the correlation between the delayed recall score the California Verbal Learning Test and regional hippocampal
+atrophy 
+ REPRINTED ARCH NEUROL VOL NO SEP 
+WWW ARCHNEUROL COM
+ American Medical Association All rights reserved 
+Downloaded From http jamanetwork com pdfaccess ashx?url data journals neur 

@@ -1,0 +1,1480 @@
+doi brain 
+BRAIN Page 
+Selective impairment hippocampus and
+posterior hub areas Alzheimers disease 
+ MEG based multiplex network study
+Meichen Yu Marjolein M A Engels Arjan Hillebrand Elisabeth C W van Straaten 
+Alida A Gouw Charlotte Teunissen Wiesje M van der Flier Philip and
+Cornelis J 
+These authors contributed equally this work 
+Although frequency specic network analyses have shown that functional brain networks are altered patients with Alzheimers
+disease the relationships between these frequency specic network alterations remain largely unknown Multiplex network analysis
+ novel network approach study complex systems consisting subsystems with different types connectivity patterns In this
+study used magnetoencephalography integrate frequency band specic brain networks multiplex framework 
+Previous structural and functional brain network studies have consistently shown that hub brain areas are selectively disrupted
+ Alzheimers disease Accordingly hypothesized that hub regions the multiplex brain networks are selectively targeted 
+patients with Alzheimers disease comparison healthy control subjects Eyes closed resting state magnetoencephalography
+recordings from patients with Alzheimers disease years females and controls years females 
+were projected onto atlas based regions interest using beamforming Subsequently source space time series for both cortical
+and subcortical regions were reconstructed frequency bands delta theta alpha alpha and beta band Multiplex
+brain networks were constructed integrating frequency specic magnetoencephalography networks Functional connections
+between all pairs regions interests were quantied using phase based coupling metric the phase lag index Several multiplex
+hub and heterogeneity metrics were computed capture both overall importance each brain area and heterogeneity the
+connectivity patterns across frequency specic layers Different nodal centrality metrics showed consistently that several hub
+regions particularly left hippocampus posterior parts the default mode network and occipital regions were vulnerable 
+patients with Alzheimers disease compared control subjects Of note these detected vulnerable hubs Alzheimers disease
+were absent each individual frequency specic network thus showing the value integrating the networks The connectivity
+patterns these vulnerable hub regions the patients were heterogeneously distributed across layers Perturbed cognitive function
+and abnormal cerebrospinal uid levels correlated positively with the vulnerability the hub regions patients with
+Alzheimers disease Our analysis therefore demonstrates that the magnetoencephalography based multiplex brain networks contain important information that cannot revealed frequency specic brain networks Furthermore this indicates that functional networks obtained different frequency bands not act independent entities Overall our multiplex network study
+provides effective framework integrate the frequency specic networks with different frequency patterns and reveal neuropathological mechanism hub disruption Alzheimers disease 
+ Department Clinical Neurophysiology and MEG Center Neuroscience Campus Amsterdam VU University Medical Center 
+Amsterdam The Netherlands
+ Alzheimer Center and Department Neurology Neuroscience Campus Amsterdam VU University Medical Center Amsterdam 
+The Netherlands
+ Nutricia Advanced Medical Nutrition Nutricia Research Utrecht The Netherlands
+Received June Revised December Accepted January 
+ The Author Published Oxford University Press behalf the Guarantors Brain All rights reserved 
+For Permissions please email journals permissionsoup com
+ BRAIN Page 
+M Yu 
+ Neurochemistry lab and Biobank Department Clinical Chemistry Neuroscience Campus Amsterdam VU University Medical
+Center Amsterdam The Netherlands
+ Department Epidemiology and Biostatistics Neuroscience Campus Amsterdam VU University Medical Center Amsterdam 
+The Netherlands
+Correspondence Meichen Yu 
+Department Clinical Neurophysiology and MEG Center 
+VU University Medical Center 
+De Boelelaan 
+ HV 
+Amsterdam 
+The Netherlands
+E mail yuvumc 
+Keywords Alzheimers disease hubs heterogeneity magnetoencephalography multiplex network
+Abbreviations DMN default mode network MMSE Mini Mental State Examination PLI phase lag index
+Introduction
+Alzheimers disease progressive neurodegenerative disorder Clinically Alzheimers disease characterized 
+early memory disturbances due neurodegeneration 
+the entorhinal cortex and hippocampus which gradually
+spreads the temporal and parietal cortices and eventually
+entire cortex well disturbances other cognitive
+domains van der Flier and Scheltens Querfurth and
+LaFerla Ballard Scheltens 
+Alzheimers disease dened neuropathologically the
+accumulation tau containing extracellular neurobrillary
+tangles and intracellular amyloid containing plaques
+ Blennow Scholl The pathology
+ these tangles and plaques causes cell loss and synaptic
+disruptions specic cortical areas which suggests that
+Alzheimers disease can described disconnection
+syndrome Buckner Arendt 
+Takahashi Dubois These microscopic alterations eventually can lead macroscopic disruptions and between distant brain areas Scheltens
+Electrophysiological and neuroimaging studies have revealed large scale disruptions structural and functional
+connections Alzheimers disease Sperling Buckner
+ Greicius Pievani However 
+pathology Alzheimers disease goes beyond disconnection and also affects network organization Recent structural and functional network studies have reported that
+Alzheimers disease associated with loss smallworld features Stam He 
+ Haan Seeley Buldu 
+Vecchio decreased nodal centrality higher
+order association areas Supekar Buckner
+ Haan Canuet 
+Dai and abnormal community structure 
+Haan Yu for reviews see 
+Tijms Stam Fornito One
+ the most consistent ndings selective vulnerability 
+cortical hub areas Alzheimers disease Stam 
+Lo Haan Crossley 
+ Dai Hubs are highly connected
+nodes which occupy central positions the overall organization network van den Heuvel and Sporns 
+Albert and colleagues demonstrated that scale free
+networks are robust random attack deleting randomly
+selected nodes but vulnerable lose structure and function 
+ targeted attack hub nodes deleting nodes order 
+decreasing degree Recent brain network studies also
+found that cortical hub areas are selectively vulnerable 
+many brain disorders such Alzheimers disease Buckner
+ Stam schizophrenia van den
+Heuvel and coma Achard Of
+note hubs the posterior regions the default mode
+network DMN consistently show high amyloid deposition Alzheimers disease Buckner mild
+cognitive impairment Drzezga Canuet 
+ and even older healthy subjects Sperling 
+ Drzezga 
+Magnetoencephalography MEG directly measures oscillatory neuronal activity the macroscopic scale with
+higher temporal resolution than functional MRI and
+higher spatial resolution than routine electroencephalography EEG Barkley Baumgartner LarsonPrior Jensen These properties
+make MEG useful technique map functional brain
+networks Engel Lopes Silva van
+Diessen Conventionally MEG connectivity
+and network analyses have been performed different frequency bands separately because different MEG rhythms
+are believed reveal underlying biophysical properties 
+different local and global neural networks and are also
+likely involved different cognitive processes
+ Wang Siegel Moreover functional
+brain networks have been shown frequency dependent Bullmore and Sporns Hillebrand 
+Stam For example recent MEG resting state
+study healthy subjects located hubs medial temporal
+Impaired multiplex hub regions Alzheimers disease
+lobe the Hz band lateral parietal areas the 
+ Hz band and sensorimotor areas for higher frequencies Hz Hipp In Alzheimers disease 
+MEG network studies have shown inconsistent results regarding hubs different frequency bands In earlier sensorlevel MEG studies found that cortical hubs over the left
+temporal region are disrupted the theta band patients
+with Alzheimers disease compared healthy control subjects Haan whereas patients with
+Alzheimers disease showed higher functional connectivity
+over centro parietal regions the theta band and over
+occipito parietal regions the beta and gamma band
+ Stam There could several reasons for
+these diverging results one them being that the frequency specic functional networks should not analysed
+ isolation therefore requiring unifying framework that
+integrates the frequency specic networks and allows for
+the investigation the topology across the different frequency bands 
+Taking advantage recent developments the eld 
+multiplex network theory Kurant and Thiran 
+Buldyrev Kivela Boccaletti
+ the relationships between frequency specic
+networks MEG can investigated Brookes 
+ Tewarie In most real world complex
+systems set elementary entities interact with each other
+ multiple types relationships For instance social
+network the network nodes which are individuals create
+friendships network links because they are teammates 
+colleagues because they are living together student
+house Therefore this social network can considered 
+ multilayer network where each type relationship
+ teammate colleague housemate between individuals
+consists each network layer The efciency information transfer between the individuals depends the overall
+structure the multilayer network not just the structure 
+each specic layer Information about game might for
+example spread faster through the team because some
+team members also talk about dinner work 
+and not only during training session Therefore improve our understanding complex systems consisting 
+multiple subsystems and layers connectivity important take the multilayer features into consideration In 
+multilayer network each layer consists intraconnected
+sets nodes and nodes different layers are interconnected interlayer links A multiplex network the simplest case multilayer network which each layer
+shares the same set nodes and the layers are interconnected only the links between the same set nodes
+across layers Boccaletti Multiplex network
+theory has been applied different real world multiplex
+networks such air transportation systems Cardillo
+ social systems Battiston interconnected hyperlink networks De Domenico 
+and massive multiplayer online games Szell 
+The topological properties such systems are generally not
+present single layer subnetworks but emerge due the
+BRAIN Page 
+multilayer character the systems Cardillo 
+Battiston Moreover network percolation studies have demonstrated that the structural and dynamical
+properties multiplex networks are radically different
+from those single layer networks Havlin 
+For instance has been demonstrated that single layer
+scale free networks are more robust under random attacks
+than targeted attacks important hubs Albert 
+ However the case interdependent networks 
+hub nodes are particularly vulnerable when random cascading failure occurs Buldyrev Moreover 
+even when the hubs are protected the multiplex scale free
+networks are still vulnerable random attacks Huang
+ Previous frequency specic brain network studies have shown that hub regions Alzheimers disease are
+more vulnerable under targeted attack than random attack
+ Stam Crossley but unknown
+whether hub regions are also disrupted multiplex networks Alzheimers disease Therefore important 
+study the hub properties Alzheimers disease the
+framework multiplex networks In our study the frequency specic MEG based networks can naturally
+modelled multiplex networks where each frequency specic network corresponds layer and layers are interconnected the links between the same set brain
+regions across layers 
+Here used eyes closed resting state MEG recordings
+from patients with Alzheimers disease and control subjects
+ reconstruct the multiplex networks We focused the
+investigation the overall hub properties and the participation single hub areas hub heterogeneity the structure each layer each frequency specic MEG network 
+and particular how these measures differed between the
+groups We hypothesized that the hub regions that play
+ central role the multiplex brain networks healthy
+controls are selectively different patients with
+Alzheimers disease the heterogeneity these vulnerable hub regions different between patients with
+Alzheimers disease and healthy control subjects and iii 
+hub vulnerability associated with perturbed cognitive
+function and changes protein biomarkers CSF amyloid
+and tau patients with Alzheimers disease 
+Materials and methods
+A schematic overview the applied methods provided 
+Fig which shows the processing steps including beamforming for source reconstruction ltering the source space MEG
+data into frequency bands construction the multiplex
+network and the graphic representation the multiplex network measures 
+Participants
+The MEG recordings the subjects have been analysed our
+previous study Engels The current study concentrates completely different research topic multiplex
+ BRAIN Page 
+M Yu 
+ Schematic overview the applied methods Sensor space channels MEG data were recorded A and projected onto the
+AAL atlas using beamforming B resulting reconstructed time series neuronal activation C These time series were then filtered into
+five frequency bands delta Hz theta Hz alpha Hz alpha Hz beta Hz D For each frequency band 
+adjacency matrix was constructed containing the all all connections between the filtered time series The connections were estimated using
+the PLI which measure functional connectivity that relatively insensitive the effects field spread signal leakage The frequencyspecific adjacency matrices formed the layers multiplex network E The topology the multiplex network was estimated using various
+measures overlapping weighted degree overlapping weighted clustering coefficient overlapping weighted local efficiency overlapping weighted
+betweenness centrality and multiplex weighted participation coefficient example which given F for the overlapping weighted degree 
+To simply illustrate the computation overlapping weighted degree example for two layer multiplex network consisting only two layers 
+shown F In our study for all the multiplex network metrics constructed multiplex networks consisting five frequency specific layers 
+shown E AC modified with permission from Olde Dubbelink 
+network analysis Twenty seven patients with probable
+Alzheimers disease age years females were
+included from the Amsterdam Dementia Cohort the
+Alzheimer Center the VU University Medical Center
+ van der Flier All patients fullled the National
+Institute Aging Alzheimers Association NIA AA 
+criteria for probable Alzheimers disease with high likelihood
+ Alzheimers disease pathophysiology based the
+Impaired multiplex hub regions Alzheimers disease
+combination positive biomarker reecting amyloid beta
+ deposition either CSF PET scanning 
+and positive biomarker for neuronal injury tau phosphorylated tau CSF These biomarkers were assessed according standard diagnostic workup for dementia
+screening which included informant based history the
+patient available physical neurological and cognitive
+examinations laboratory tests structural brain imaging and
+EEG Diagnoses were made multidisciplinary consensus
+meeting Patients gave written informed consent for use 
+their clinical data for research purposes van der Flier 
+ Exclusion criteria for participation were active psychiatric neurological disorder Mini Mental State
+Examination MMSE score below age above 
+years In addition included non demented control subjects age females that had responded 
+advertisement national newspaper The matching the
+controls and patients was done during the inclusion phase 
+the study The patients were included rst and during the
+inclusion the controls made sure that age and gender
+were not signicantly different between the groups After 
+telephone interview exclude neurological psychiatric disorders subjects underwent neuropsychological testing MRI 
+the brain and MEG recording All MEG recordings were
+obtained one several hours before more than week
+after the MRI scan avoid interference due for example 
+magnetized dental elements To avoid interference with the
+resting state condition neuropsychological testing the control subjects was conducted after the MEG recording In total 
+ subjects were invited whom one was excluded meningioma was detected the MRI four volunteers were
+excluded due poor performance during neuropsychological
+testing The local Ethics Committee approved the study and all
+participants gave written informed consent before
+participation 
+CSF biomarkers
+CSF samples were obtained lumbar puncture using gauge needle and collected polypropylene tubes
+ Sarstedt according consensus protocols Teunissen 
+ A small amount the CSF was used for routine analysis including leucocyte count erythrocyte count glucose concentration and total protein concentration Within the
+remaining CSF samples were centrifuged for min
+ C transferred new polypropylene tubes and stored 
+ C until routine biomarker analysis within months 
+ total tau and tau were measured with com
+mercially available ELISAs INNOTEST amyloid 
+INNOTEST hTAU Ag and INNOTEST Phosphotau P 
+respectively Fujirebio routine basis described before
+ Mulder Intra assay coefcients variation
+CVs mean standard deviation SD were for
+ for tau and for tau 
+calculated from averaging CVs duplicates from runs
+randomly selected over years Inter assay CVs mean were
+ for for tau and for tau 
+analysed samples high and low pool one normal
+and one Alzheimers disease prole over nine different kit lots
+used during the whole study period 
+BRAIN Page 
+MEG recording
+Several weeks after diagnostic work MEG recordings were
+made magnetically shielded room VacuumSchmelze 
+using channel whole head system Elekta Neuromag
+Oy For each subject the recording protocol consisted 
+least min range eyes closed resting state condition followed min eyes open and again least min
+eyes closed range In this protocol ensure that
+the subjects stayed awake during recording asked them 
+open their eyes for min after min To avoid potential confounders due eye blinks during the eyes open condition and
+because EEG parameters during the eyes closed condition are
+more stable over sessions Corsi Cabrera only
+analysed the second min eyes closed data segment van
+Diessen The recordings were sampled 
+ Hz with online anti aliasing lter Hz and
+high pass lter Hz Ofine spatial lter the temporal
+extension Signal Space Separation tSSS Taulu and Simola 
+ Taulu and Hari implemented MaxFilter
+software Elekta Neuromag Oy version was applied
+with sliding window Channels containing excessive
+artefacts were discarded after visual inspection the data 
+one the authors M E before estimation the SSS coefcients The number excluded channels varied between one
+and After tuning for acquisition conditions our site 
+the tSSS lter was used remove noise signals that SSS failed
+ discard typically from noise sources near the head using 
+subspace correlation limit Medvedosky 
+Hillebrand Tewarie Typical artefacts
+were due eye movements swallowing dental prosthetics 
+ drowsiness although the subjects were instructed stay
+awake and reduce eye movements during the MEG recording 
+The head position relative the MEG sensors was recorded
+continuously using the signals from four head localization
+coils The head localization coil positions were digitized 
+well the outline the participants scalp points 
+using D digitizer Fastrak This scalp surface was used
+for registration with the patients MRI scan 
+Structural scans
+Structural MRI scans were made all participants except for
+one patient This patient had MRI insufcient quality
+and therefore used CT scan for structural information 
+the scalp outline The outline the scalp the structural
+scans was extracted using segmentation SEGLAB Elekta
+Neuromag Oy version Co registration the MEG
+data with the structural scans was achieved using surface
+matching resulting estimated registration accuracy
+ Whalen Visual inspection the coregistration between the MEG and the MRI CT scalp surfaces
+was performed for all patients The sphere that best tted the
+scalp surface was used volume conductor model for the
+beamformer analysis see below 
+Source reconstruction using
+beamforming
+To obtain source localized activity applied atlas based
+beamforming approach Hillebrand Sensor
+ BRAIN Page 
+signals were projected anatomical framework such that
+source reconstructed neuronal activity for cortical and 
+subcortical regions interest identied means automated anatomical labeling AAL Tzourio Mazoyer 
+ were obtained Each region interest contains many
+voxels and due different region interest shapes the
+number voxels different for every region interest To
+obtain single time series for region interest selected
+the centroid voxel representative for specic region 
+interest Hillebrand For each centroid broad
+band Hz beamformer weights were computed using
+the data covariance matrix and the forward solution lead
+eld dipolar source the voxel location van Veen
+ Robinson and Vrba Hillebrand 
+ A time window average range 
+ was used compute the data covariance matrix 
+Singular value truncation was used when inverting the data
+covariance matrix deal with the rank deciency the
+data after SSS components Then the time series for
+each centroid virtual electrode was reconstructed 
+projecting the broad band data through the normalized beamformer weights van Veen Robinson and Vrba 
+ Hillebrand Cheyne For each
+subject care was taken select artefact free source projected epochs samples one the authors
+ M E A second researcher independently evaluated the selected epochs I N Epochs without consensus were replaced
+ new epochs Epochs were converted ASCII format and
+imported into house C S developed software package
+ BrainWave version http home kpn 
+brainwave html The MEG data were digitally ltered off line
+with band pass lter Hz using discrete Fast
+Fourier transform following which the relative power averaged over the selected epochs was estimated for the following
+frequency bands delta Hz theta Hz lower alpha
+ Hz upper alpha Hz beta Hz All real
+and imaginary components the Fourier transform outside
+the pass band were set following which inverse
+Fourier transform was used obtain the ltered time series
+for the different frequency bands 
+M Yu 
+instantaneous phase difference between pair wise signals can
+ determined using the analytical signal obtained from the
+Hilbert transform Rosenblum Both modelling
+ Stam Porz and experimental
+ Hillebrand studies have shown that the PLI 
+relatively insensitive the effects eld spread primary 
+signal leakage for secondary leakage see Statistical analysis
+section and computed 
+PLI jhsignsin 
+Here denotes the mean value sign stands for the signum
+function and indicates the absolute value The PLI values
+range between consistent coupling coupling with
+zero lag modulus and perfect non zero delay phase
+locking 
+For each epoch and for each the frequency bands 
+square weighted adjacency matrix was constructed
+from the PLI value between all pair wise combinations the
+ regions interest 
+The multiplex networks were reconstructed integrating
+the frequency specic PLI weighted networks where each
+layer shared the same set nodes AAL regions interest but the links each layer were formed the PLIweighted functional connections within each frequency band 
+The layers were interconnected only the links between the
+same set nodes across layers this study the cross frequency couplings between different brain regions were not
+considered Jensen and Colgin Brookes 
+Tewarie 
+The MEG multiplex network for each epoch consisted
+ N N nodes and M M weighted layers 
+ M For each layer the corresponding adjacency
+matrix A 
+ where PLI see Equation 
+node and node are connected through PLI weighted link
+ layer The layer multiplex network specied the
+vector the adjacency matrices A fA AM Battiston
+Multiplex network topology
+Functional connectivity analysis and
+multiplex network construction
+The assessment MEG functional connectivity could inuenced primary and secondary leakage Schoffelen and
+Gross Brookes Palva and Palva 
+In MEG single source produces signal multiple recording
+sites known eld spread primary signal leakage 
+source space which can give rise spurious estimates functional connectivity Schoffelen and Gross Moreover 
+this leakage may also result spurious estimates connectivity inherited connectivity secondary leakage between
+areas surrounding two genuinely connected brain regions
+ Palva and Palva 
+As measure functional connectivity between all pairwise combinations regions interest the phase lag index
+ PLI was used compute the asymmetry the distribution
+ phase differences corresponds time samples
+ Nk between any two time series Stam The
+Multiplex centrality metrics
+We rst investigated the hub properties the multiplex networks Hub properties can characterized using different
+centrality metrics capturing different aspects centrality 
+We considered four different centrality metrics weighted
+degree node strength weighted clustering coefcient 
+weighted local efciency weighted betweenness centrality 
+The weighted centrality metrics were computed using the
+Brain Connectivity Toolbox BCT Rubinov and Sporns 
+We generalized the considered centrality metrics the
+framework multiplex networks The weighted degree 
+X 
+node layer 
+ The weighted degree 
+node multiplex network can also represented 
+vector 
+M
+ N 
+Impaired multiplex hub regions Alzheimers disease
+For node the overlapping weighted degree 
+X 
+BRAIN Page 
+The detailed description weighted clustering coefcient 
+weighted local efciency weighted betweenness centrality
+ and corresponding overlapping formations can found 
+the Supplementary material Note that all the multiplex centrality metrics overlapping weighted degree overlapping
+weighted clustering coefcient overlapping weighted local efciency overlapping weighted betweenness centrality were
+rst computed for each node each layer separately and
+then summed across frequency specic delta theta 
+alpha alpha and beta layers The multiplex centrality
+metrics were computed for each node AAL region for
+each epoch and for each subject The link weights different
+layers may have different magnitudes which may cause biases
+for the estimation multiplex centrality metrics and for the
+comparison between multiplex networks Stam 
+To minimize the potential biases caused the different magnitudes link weights the link weights within each layer were
+rst ranked increasing order and then assigned natural
+numbers starting from All the multiplex centrality metrics
+were computed based the ranked link weights 
+Hub disruption multiplex networks
+To compare the nodal centrality hub properties between the
+Alzheimers disease and healthy control groups computed
+the hub disruption index Achard For given
+nodal centrality measure for instance the overlapping
+weighted degree rst computed the mean overlapping
+weighted degree averaged over epochs and subjects 
+multiplex networks the healthy control group Next 
+subtracted the mean overlapping weighted degree the
+healthy group ohcontroli from the overlapping weighted degree
+ the corresponding node one epoch for one patient with
+Alzheimers disease diseasei which was then plotted
+against ohcontroli This was repeated for each node The hub
+disruption index for the epoch the patient with
+Alzheimers disease the linear regression coefcient leastsquares rst order polynomial the regression line tted
+ the resulting scatter plot Supplementary Fig The same
+procedure was also performed for each epoch each subject
+ the healthy control group The hub disruption index was
+therefore estimated for all the epochs the subjects both
+groups The signicance between group difference the
+hub disruption index was estimated using permutation testing
+ for details see the Statistical analysis section We assumed
+that the nodal centrality for healthy subject similar the
+average the healthy controls and that Alzheimers disease
+the largest hubs are most disrupted In this case the
+regression line for the controls would horizontal 
+whereas the regression line for the patients with Alzheimers
+disease would have negative slope Supplementary Fig 
+In this study the values the multiplex centrality metrics
+and corresponding hub disruption indices were used quantify the vulnerability hub regions patients with
+Alzheimers disease 
+Heterogeneity multiplex networks
+For multiplex network two nodes and may have for
+example exactly the same overlapping weighted degree
+ yet have different weighted degree distributions
+across different layers and therefore play different roles 
+the multiplex network To characterize the heterogeneity 
+the connectivity patterns the layer MEG multiplex networks rst performed conventional statistical analyses
+ Fig such the computation the mean and standard
+deviations the weighted degrees for each region across 
+frequency specic layers and the pair wise correlations the
+ weighted degree sequences Then will demonstrate that
+the multiplex participation coefcient Battiston 
+another multiplex network measure can also used reveal
+this heterogeneity across layers the framework multiplex network Fig 
+The denition the multiplex participation coefcient 
+based the denition the participation coefcient 
+single layer network which quanties the participation 
+node different communities Guimera and Nunes Amaral 
+ In this adaptation the MEG multiplex networks the
+multiplex participation coefcient quanties the participation
+ each brain region the different frequency specic
+layers For node the multiplex participation coefcient 
+dened 
+M
+X
+M 
+Pi 
+M
+The Pi ranges between the weighted degree node concentrates one layer only and node has the same
+weighted degree each the M layers In general the
+larger the value Pi the more homogenous the weighted
+degree distribution node across the M layers 
+Importantly most nodes the multiplex network have relatively high Pi value that most nodes are homogenously
+distributed across layers then the multiplexity the constructed network more prominent The overall participation
+coefcient the whole multiplex network X
+ dened the
+P Here 
+mean value Pi over all nodes P 
+dened nodes with relatively high multiplex participation coefcient connectors between different layers the multiplex
+networks inversely nodes with relatively low multiplex participation coefcient were dened peripheral nodes that
+mainly interact with the nodes within their own layers 
+In this study concentrated the degree based multiplex
+participation coefcient To classify the role each node 
+the layer multiplex networks considered the overlapping weighted degree and multiplex participation coefcient
+Pi the same time that the Spearmans rank correlation
+between the overlapping weighted degree and multiplex participation coefcient was computed Positive correlations
+would indicate that hub nodes would also tend act connectors across frequency bands and that non hub nodes
+would tend peripheral nodes Group level comparisons
+were performed permutation testing for details see the
+Statistical analysis section To directly compare the nodal
+heterogeneity between patients with Alzheimers disease and
+controls the hub disruption index based the multiplex participation coefcient was also computed 
+Functional connectivity analysis and multiplex network analyses were performed with BrainWave software BrainWave
+version http home kpn brainwave 
+html and MATLAB MathWorks Natick Massachusetts 
+ BRAIN Page 
+U S A Version respectively The nodal centrality
+metrics were visualized with BrainNet Viewer version 
+Xia http www nitrc org projects bnv 
+Statistical analysis
+Statistical analyses group characteristics were performed
+with IBM SPSS Statistics Differences between groups 
+age MMSE and education were tested using unpaired
+Students tests while gender differences between groups
+were tested using chi square test 
+Permutation tests were used compare multiplex network
+metrics between patients with Alzheimers disease and control
+subjects Both group and subject level comparisons were performed the permutation tests reduce potential biases that
+either approach may have see Supplementary material for details The P values for all pair wise comparisons were corrected false discovery rate FDR Benjamini and
+Hochberg As exploratory post hoc analyses 
+Spearmans correlations between the nodal centrality metrics
+ overlapping weighted degree overlapping weighted clustering coefcient overlapping weighted local efciency and
+overlapping weighted betweenness centrality and MMSE
+scores for regions which showed signicantly different nodal
+centrality values between the two groups left superior occipital
+gyrus SOG L left middle occipital gyrus MOG L 
+ left inferior occipital gyrus IOG L right
+superior parietal gyrus SPG R left superior parietal
+gyrus SPG L right inferior parietal but supramarginal
+and angular gyri IPL R right precuneus PCUN R 
+ right cuneaus CUN R left hippocampus
+ HIP L right superior frontal gyrus dorsolateral
+ SFGdor R total correlations for regions variables comparisons were computed Moreover the correlations between the four hub disruption indices and MMSE 
+and three CSF biomarkers tau and tau were
+computed comparisons The correlation analyses
+were performed using IBM SPSS Statistics For the correlation analyses the correction for multiple testing was not performed A signicance level was used for all the
+statistical analyses 
+In our study tested the observed group differences 
+multiplex network measures could explained differences
+ secondary leakage Palva and Palva To this end 
+compared permutation test with FDR correction the mean
+absolute correlations between beamformer weights for each
+region interest between the two groups Brookes 
+ Hillebrand Supplementary material 
+Results
+Demographics
+Subject characteristics cognitive scores and CSF biomarkers are presented Table Age and gender did
+not differ between the two groups The mean MMSE
+score was lower patients with Alzheimers disease compared the healthy controls CSF data were only available
+for patients with Alzheimers disease but were all the
+M Yu 
+Table Subject characteristics cognitive scores and
+CSF biomarkers
+Gender F M 
+Mean age SD 
+Mean MMSE score SD 
+CSF range 
+CSF tau range 
+CSF tau range 
+Alzheimers
+disease
+Healthy
+control
+F females M males number subjects not available tau phosphorylated threonine SD standard deviation 
+Independent Student tests chi square tests were used when applicable Age and
+MMSE score are presented mean and standard deviation CSF biomarkers are presented median interquartile range CSF biomarkers are only available for patients with Alzheimers disease P 
+range typical Alzheimers disease prole and are presented the median and interquartile range 
+Multiplex centrality metrics
+The mean overlapping weighted degree values are presented
+ Fig A and B for Alzheimers disease and control subjects respectively The controls showed anterior posterior increase for all the given nodal centrality metrics
+ Fig B and Supplementary Fig Compared with controls the overlapping weighted degree was signicantly
+lower Alzheimers disease the left hippocampus 
+right precuneus two right parietal regions superior parietal cortex and inferior parietal cortex and three left occipital regions superior middle and inferior occipital
+cortex Fig A and C and Supplementary Fig Most
+ these regions had relatively high overlapping weighted
+degree the control subjects particular the right precuneus highest and right inferior parietal cortex third
+highest which consists posterior components default
+mode network Fig B The selectively disrupted hub
+brain areas patients with Alzheimers disease were consistently found across regional centrality measures
+ Supplementary Fig The results were also consistent
+ using the rank number the link weights within each
+layer instead the original PLI values Supplementary Fig 
+ The above signicant group differences obtained for the
+multiplex brain networks could not revealed individually considering each the frequency specic networks For the delta and alpha band networks the
+weighted degrees between the two groups were different
+ only two parietal and one temporal non hub brain regions respectively Fig signicant differences were
+found the other frequency bands 
+In summary multiplex hub areas including the medial
+temporal lobe posterior DMN and occipital cortex were
+selectively disrupted patients with Alzheimers disease 
+Impaired multiplex hub regions Alzheimers disease
+BRAIN Page 
+ whole brain level Moreover the abnormal topologies 
+the multiplex networks patients with Alzheimers disease
+results from the shift centrality status from the medial
+temporal lobe hippocampus and posterior regions parietal and occipital areas prefrontal regions 
+Heterogeneity multiplex networks
+ Vulnerability hub regions patients with
+Alzheimers disease The mean overlapping weighted degree for
+each region interest displayed colour coded map the
+parcellated template brain patients with Alzheimers disease
+ A and healthy controls B C Cortical surface representation 
+the regions that demonstrated significant between group difference
+ overlapping weighted degree permutation tests with FDR correction See Supplementary Fig for corresponding results for
+other nodal centrality metrics overlapping weighted local efficiency 
+overlapping weighted clustering coefficient overlapping weighted
+betweenness centrality PCUN R right precuneus HIP L left
+hippocampus IPL R right inferior parietal but supramarginal and
+angular gyri SPG R right superior parietal gyrus MOG L left
+middle occipital gyrus SOG L left superior occipital gyrus 
+IOG L left inferior occipital gyrus A full list labels abbreviations used for the different brain areas can found 
+Supplementary Table 
+Hub disruption multiplex networks
+The abnormal patterns nodal centrality Alzheimers
+disease were conrmed computing the hub disruption
+index for each metric For the overlapping weighted
+degree patients with Alzheimers disease showed negative
+hub disruption index compared with the
+controls P Supplementary Table
+ other words the regions with relatively high overlapping weighted degrees for instance the right precuneus
+and right inferior parietal cortex controls showed the
+greatest reduction patients with Alzheimers disease 
+whereas the regions with relatively low overlapping
+weighted degrees prefrontal regions controls
+showed the greatest enhancement patients with
+Alzheimers disease Fig Moreover the results were
+also consistent for the other nodal hub metrics
+ Supplementary Table These results demonstrate that
+multiplex brain networks Alzheimers disease were not
+only disrupted selectively specic brain areas but also 
+As can seen Fig A the weighted degrees were highest the alpha band single layer network but lowest 
+the beta band single layer network both Alzheimers disease and control groups For the majority brain regions 
+the standard deviations the weighted degrees across the
+ layers were lower for patients with Alzheimers disease
+than for the controls indicating that for most brain regions
+the weighted degrees were less heterogeneously distributed
+across the frequency bands patients with Alzheimers
+disease than control subjects Fig B In Fig C 
+ranked the weighted degrees within each frequency specic
+network for the two groups respectively By visual inspection both groups the weighted degree sequences
+appeared weakly anti correlated with the regions which
+are hubs one layer often having low weighted degree
+ other layers To quantify the correlations the weighted
+degree sequences computed the Spearmans rank correlations between pairs layers both groups Fig D 
+We found that both groups the weighted degrees sequences pairs layers were only weakly correlated 
+patients with Alzheimers disease the delta and alpha 
+layers were anti correlated controls the theta and
+alpha layers were correlated which was even weaker 
+patients with Alzheimers disease the alpha and alpha 
+layers were anti correlated controls but were correlated
+ patients with Alzheimers disease These results suggest
+the existence nodal heterogeneity weighted degree distributions across layers MEG based multiplex networks 
+indicating that brain regions play different roles different
+frequency specic networks 
+To quantify and compare the heterogeneity the multiplex brain networks Alzheimers disease patients and
+control subjects further considered the overlapping
+weighted degree and multiplex participation coefcient 
+the same time mapping the D Pi plane for both
+groups Fig A In patients with Alzheimers disease the
+Pi was negatively correlated with Spearmans
+ P indicating that the weighted degrees hub regions patients with Alzheimers disease
+are less homogeneously distributed across layers than those
+ non hub regions In contrast for the control subjects the
+weighted degree distributions the hub regions were more
+homogeneously distributed across layers than those nonhub regions Spearmans P These
+correlation coefcients differed P indicating
+that the hub regions the multiplex brain networks 
+patients with Alzheimers disease were less heterogeneously
+distributed across layers than those controls 
+ BRAIN Page 
+M Yu 
+ Vulnerability hub regions frequency specific brain networks patients with Alzheimers disease Cortical surface
+representation the regions that showed significant between group difference weighted degree between Alzheimers disease and healthy
+controls for the delta band layer right precuneus PCUN R and superior parietal gyrus SPG R A and alpha band layer inferior temporal
+gyrus ITG L B permutation tests with FDR correction 
+ Hub disruption functional networks patients with Alzheimers disease The difference between groups mean
+overlapping weighted degree each node Alzheimers disease healthy control plotted against the mean overlapping weighted degree each
+node the healthy control healthycontrol group The hub brain areas have high mean overlapping weighted degree the healthy group and 
+abnormal reduction overlapping weighted degree the Alzheimers disease group right precuneus PCUN R left hippocampus HIP L 
+right inferior parietal but supramarginal and angular gyri IPL R and right superior parietal gyrus SPG R whereas regions that are non hubs have
+ low local efficiency controls and abnormal increase overlapping weighted degree Alzheimers disease prefrontal regions right
+superior frontal gyrus medial SFGmed R right superior frontal gyrus dorsolateral SFGdor R left anterior cingulate and paracingulate gyri
+ ACG L and right anterior cingulate and paracingulate gyri ACG R These results indicate that the hub properties patients with Alzheimers
+disease were disrupted parietal and hippocampus regions but enhanced the prefrontal regions Note that Fig aims show how hub
+disruption index able reveal the disruption hub areas patients with Alzheimers disease The boxes arrows and corresponding text were
+used label the corresponding regions In this study performed the permutation tests compare the hub disruption indices between
+patients with Alzheimers disease and controls for details see the Statistical analysis section and Supplementary Fig 
+Impaired multiplex hub regions Alzheimers disease
+BRAIN Page 
+ Heterogeneity multiplex networks patients with Alzheimers disease and healthy controls Mean A and standard
+deviation B the weighted degrees for each region for five single layer frequency specific networks patients with Alzheimers disease and
+healthy controls C Ranked weighted degrees each region for five single layer frequency specific networks patients with Alzheimers disease
+and healthy controls D Weighted degree correlations between pairs layers patients with Alzheimers disease and healthy controls Note
+that emphasize the correlations between different layers set all the self correlations equal The correspondent AAL labels the
+Arabic numerals AAL regions the axis AC can found Supplementary Table 
+The hub regions patients with Alzheimers disease
+included the vulnerable regions detected the nodal centrality metrics here overlapping weighted degree which
+revealed different nodal heterogeneity Alzheimers disease and healthy control groups Fig C and labelled
+regions interest Fig A Notably some vulnerable
+hub regions played different roles Alzheimers disease
+compared controls the vulnerable posterior DMN regions including the right precuneus and inferior parietal
+regions were peripheral hub regions controls but were
+non hub connectors patients with Alzheimers disease 
+However other vulnerable hub regions showed similar
+nodal heterogeneity the two groups the left hippocampus and superior parietal regions were connectors both
+groups the three occipital regions superior mid and inferior occipital regions were peripheral nodes both groups 
+These results indicate that although the hub regions controls not only consistently lost their nodal efciency patients with Alzheimers disease but also showed differences
+ nodal heterogeneity across layers the two groups The
+difference nodal heterogeneity between the two groups
+was further conrmed performing the subject level hub
+disruption analysis the multiplex participation coefcient
+ patients with Alzheimers disease showed more negative hub disruption index comparison
+with that controls P Fig B
+and Supplementary Table In summary the multiplex
+participation coefcient quantied the relationships
+ BRAIN Page 
+M Yu 
+ The heterogeneity the multiplex networks patients with Alzheimers disease and healthy controls A D Pi 
+parameter space the mean multiplex network patients with Alzheimers disease and healthy controls B Hub disruption the multiplex
+participation coefficient patients with Alzheimers disease permutation test with FDR correction Note that only the significantly vulnerable
+hub regions identified Fig C were labelled Note that A the vertical dashed lines indicate the mean Pi values the solid lines indicate the
+regression lines fitted the scatter plots the red and blue colours indicate patients with Alzheimers disease and healthy controls respectively 
+PCUN R right precuneus HIP L left hippocampus IPL R right inferior parietal but supramarginal and angular gyri SPG R right superior
+parietal gyrus MOG L left middle occipital gyrus SOG L left superior occipital gyrus IOG L left inferior occipital gyrus 
+between the single layer frequency specic MEG networks and demonstrated that the vulnerable hub regions
+ patients with Alzheimers disease lost their functional
+roles played across layers compared the same regions
+ healthy control subjects 
+Correlation between multiplex
+centrality metrics and MMSE CSF
+biomarkers
+The multiplex centrality metrics the right precuneus
+ and left hippocampus and the hub disruption
+index patients with Alzheimers disease were signicantly positively correlated with the MMSE scores
+ Fig AD indicating that cognitive function related
+ the vulnerability the hub regions patients with
+Alzheimers disease No signicant correlations were
+found between the MMSE scores and the multiplex centrality metrics the occipital hubs 
+In patients with Alzheimers disease the hub disruption
+index local efciency correlated positively with the level
+ CSF Spearmans P 
+ Fig F indicating that the vulnerability hub areas 
+patients with Alzheimers disease was associated with lower
+Impaired multiplex hub regions Alzheimers disease
+BRAIN Page 
+ Perturbed cognitive function and abnormal CSF levels correlated positively with the vulnerability the
+hub regions For the patients with Alzheimers disease only uncorrected P values the correlations between MMSE scores and multiplex nodal
+centrality metrics vulnerable regions AD and between MMSE scores and the hub disruption index for multiplex overlapping weighted
+degree E The correlations between CSF and the hub disruption index for multiplex overlapping weighted local efficiency F 
+levels CSF No signicant correlations were
+found between the hub disruption index and the levels 
+CSF tau and tau 
+Discussion
+We analysed MEG based resting state multiplex networks
+ patients with Alzheimers disease and controls No evident differences between the two groups were found when
+comparing the topologies frequency specic networks individually In contrast comparison with controls multiplex networks patients with Alzheimers disease were
+characterized loss nodal centrality hub regions
+such the left hippocampus posterior default model network and occipital regions well different nodal heterogeneity these vulnerable regions across layers In
+patients with Alzheimers disease the damage highly
+central hub areas correlated positively more abnormal
+levels CSF and perturbed cognitive function measured MMSE scores 
+Our multiplex network analysis the rst MEG sourcespace network study reporting the selectively vulnerable
+hubs involving the hippocampus posterior DMN and occipital regions patients with Alzheimers disease Except
+for the occipital regions the vulnerability the hippocampus and posterior DMN patients with Alzheimers
+disease has consistently been reported previous structural
+ DTI and MRI and functional PET and functional MRI 
+neuroimaging studies Greicius Supekar 
+ Buckner Lo Crossley 
+ However these specic disrupted hub regions have
+not been found previous frequency specic MEG studies
+ Stam Haan Canuet 
+ In addition the multiplex centrality metrics were
+able identify the prominent hubs located the posterior
+midline precuneus and hippocampus the controls 
+which were usually absent frequency specic electrophysiological studies Brookes Hipp 
+ Baker Therefore integrating frequency specic MEG functional networks into framework multiplex networks provides more information 
+support the theoretical prediction that hub regions are
+particularly vulnerable Alzheimers disease than only
+considering individual frequency specic networks 
+Hubs multiplex networks are
+selectively vulnerable Alzheimers
+disease
+In the present study found that MEG based restingstate multiplex networks Alzheimers disease were preferentially disrupted hub regions including regions 
+ BRAIN Page 
+medial temporal lobe left hippocampus posterior default
+mode network and occipital regions The disruption 
+these specic hub regions Alzheimers disease was consistently demonstrated different multiplex nodal centrality measures overlapping weighted degree overlapping
+weighted clustering coefcient overlapping weighted local
+efciency Moreover the disruption hub areas patients
+with Alzheimers disease was further conrmed computing the hub disruption index Previous EEG network studies have consistently shown that posterior brain regions
+are disrupted patients with Alzheimers disease Engels
+ Yu Our previous sensor space
+MEG network study found that the theta band nodal centrality over the left temporal lobe was disrupted Haan
+ In addition functional MRI network studies
+have also identied selectively vulnerable hub regions 
+Alzheimers disease involving the DMN Buckner 
+ Dai and hippocampus Supekar 
+ Recently functional MRI study found that the
+cascading network failure patients with Alzheimers disease begins the posterior DMN without evidence 
+amyloid plaques PET and then progresses other
+hub regions Jones which highlights the important role posterior components DMN 
+Alzheimers disease Stam Performing meta analysis MRI studies Crossley and colleagues reported that patients with Alzheimers disease the hubs
+ medial temporal and parietal regions had more MRI
+lesions than non hub regions further supporting our ndings Furthermore our MEG study one the rst network studies report the disruption specic occipital
+hub regions patients with Alzheimers disease 
+Computational network models have also demonstrated
+that high cost hub regions tend more vulnerable 
+Alzheimers disease Stam Haan 
+ Raj An extensive simulation study
+showed that abnormal network organization patients
+with Alzheimers disease including decreased functional
+connectivity selectively disrupted hub regions and morerandom network topologies could explained activity dependent degeneration Haan 
+Specically the assumption that excessive local neuronal
+activity causes synaptic damage provides possible explanation for these network changes including the hub
+vulnerability patients with Alzheimers disease 
+Our MEG based multiplex study conrmed the hub vulnerability patients with Alzheimers disease However 
+aforementioned modelling studies are within the framework single layer networks As mentioned the
+Introduction section hub nodes multilayer networks
+become particularly vulnerable when random cascading
+failures occurs Buldyrev even when
+hubs are protected Huang Therefore there
+ strong need for establishing multiplex network models
+ support our ndings hub vulnerability multilayer
+networks 
+M Yu 
+The vulnerable brain regions 
+Alzheimers disease played different
+roles across layers
+The nodal centrality metrics evaluated the importance 
+each node for the overall efciency the multiplex networks By computing the multiplex participation coefcient were able quantify the participation each
+node the topology each layer 
+We reported that patients with Alzheimers disease the
+vulnerable hub regions detected the nodal centrality
+metrics had different nodal heterogeneity across layers 
+comparison with controls Figs B and C Among these
+vulnerable regions the posterior DMN regions shifted from
+peripheral hubs controls connector non hubs patients with Alzheimers disease indicating that the posterior
+DMN regions played different functional roles across layers
+ the two groups In this study each layer corresponded 
+each frequency specic MEG network The heterogeneous
+connectivity patterns posterior DMN regions across different layers controls were disrupted patients with
+Alzheimers disease indicating that posterior DMN regions
+ patients with Alzheimers disease were not equally disrupted across layers In contrast other vulnerable regions
+such left hippocampus superior parietal cortex and occipital regions showed similar nodal heterogeneity the
+Alzheimers disease and healthy control groups indicating
+that these vulnerable regions were uniformly disrupted 
+all frequency specic MEG networks patients with
+Alzheimers disease Furthermore the multiplex participation coefcients showed that the left hippocampus and superior parietal cortex were equally participating each
+layer the two groups however the three occipital regions had different connectivity patterns different frequency bands both groups In patients with
+Alzheimers disease the different connectivity patterns 
+the vulnerable hub brain regions across layers indicate
+that hubs played different roles different frequency
+bands Therefore the essence take all the frequency specic networks into account simultaneously 
+Alzheimers disease network analysis Our multiplex network study provides effective framework integrate
+the frequency specic networks 
+Vulnerability hub areas patients
+with Alzheimers disease related 
+cognitive performance
+Higher network efciency structural and functional
+brain networks has been shown correlate positively
+with better cognitive performance Li van
+den Heuvel The cognitive dysfunction 
+neurological diseases has been considered related 
+the disruption the optimal balance between local segregation and global integration neural information processing brain networks Bullmore and Sporns 
+Impaired multiplex hub regions Alzheimers disease
+Stam Petersen and Sporns Previous brain
+network studies have consistently shown that Alzheimers
+disease can regarded cost driven network disorder 
+hub regions tend metabolically more expensive than
+non hubs Bullmore and Sporns Therefore the deteriorated cognitive performance and behavioural symptoms
+ Alzheimers disease could due the selective damage
+ the biologically high cost hub regions Buckner 
+ Stam Haan Crossley
+In this study the observed positive correlations between
+the multiplex nodal centrality posterior DMN hippocampus and the MMSE scores patients with Alzheimers
+disease indicate that the vulnerability the hub areas
+has clinical relevance Fig We reported that several
+components the posterior DMN right precuneus and
+inferior parietal cortices well the hippocampus 
+were vulnerable patients with Alzheimers disease This
+ line with previous ndings healthy controls and
+patients with Alzheimers disease The DMN known 
+play role many different cognitive functions Fox and
+Raichle Raichle It has consistently been
+demonstrated that the DMN early Alzheimers disease
+shows abnormal connectivity pattern which correlates
+strongly with abnormal cognitive functioning Greicius
+ Buckner Zhou 
+ Menon The precuneus plays particularly
+prominent structural and functional role healthy
+brains and involved cognitive processes such episodic memory and self referential processing Cavanna and
+Trimble Fransson and Marrelec Hagmann
+ Gong The inferior parietal
+lobule involved attention and action processing has
+also shown decreased functional connectivity and metabolism the early course Alzheimers disease Fogassi
+ Singh Curry and Husain Wang 
+ Therefore the disruption the nodal efciency 
+precuneus and inferior parietal cortex may also account for
+the abnormal cognitive performances patients with
+Alzheimers disease Lehmann Similarly the
+hippocampus acts convergence zone the large scale
+functional connectome Misic The prominent
+role hippocampus memory processing might explain
+why the disruption its hub property could lead the
+early memory disturbances patients with Alzheimers disease Allen Eichenbaum Battaglia
+Relationship between hub
+vulnerability Alzheimers disease
+and CSF 
+CSF biomarkers CSF tau and tau have
+been established biomarkers for Alzheimers disease
+ Blennow In particular the level CSF decreased patients with Alzheimers disease
+BRAIN Page 
+compared with healthy controls while levels CSF 
+tau are increased Mulder Duits 
+Scheltens Therefore reasonable assume
+that there might some relationship between the levels 
+CSF biomarkers and the abnormal brain network organization Alzheimers disease In the present study patients
+with Alzheimers disease the level CSF was
+positively associated with the disruption hub areas the
+multiplex brain networks quantied the hub disruption index Fig The negative hub disruption indices 
+patients with Alzheimers disease indicated that areas that
+were hubs controls were disrupted patients with
+Alzheimers disease Fig and that this related lower
+levels CSF Fig providing link with
+underlying pathophysiology Our study the rst MEG
+network study report the positive association between
+abnormal levels CSF and hub disruption
+ the multiplex brain networks To date only few studies
+have explored the impact CSF functional
+connectivity patients with Alzheimers disease One MEG
+resting state functional connectivity study has reported that
+MCI patients with abnormal CSF show
+decreased functional connectivity the medial temporal
+regions and posterior DMN regions specic frequency
+bands Canuet In resting state functional
+MRI study decreased CSF was also shown
+ associated with reduced functional connectivity between posterior cingulate and medial temporal regions
+ Wang Moreover previous PET amyloid
+imaging study has demonstrated that deposition patients with Alzheimers disease preferentially
+located cortical hub areas Buckner The
+low level CSF indicates the increased deposition the brain Therefore our observations
+provide possible link between hub vulnerability and
+amyloid pathology CSFs and brain regions patients
+with Alzheimers disease On the other hand the current
+study cannot provide the evidence correlations between
+the levels CSF tau and multiplex network measures 
+which could due the limited size our patient
+sample Future studies could use larger group patients
+with Alzheimers disease investigate the potential correlations between the levels CSF tau and multiplex network measures 
+Frequency specific analysis 
+multiplex network analysis?
+Neuronal activity measured MEG recordings shows
+rich temporal structure wide range frequencies 
+which are considered involved different cognitive
+processes Wang As consequence MEG data have
+conventionally been analysed different frequency bands
+ Siegel Stam and van Straaten Stam 
+ BRAIN Page 
+Previous MEG studies both patients with Alzheimers
+disease and healthy control subjects have shown that the
+functional connectivity pattern network topologies and the
+direction information large scale functional networks are frequency specic Bassett 
+Stam Brookes Hipp 
+ Lopes Silva Hillebrand Yu
+ Here integrated frequency band specic MEG networks multiplex network framework 
+Our MEG multiplex network study provides powerful
+framework not only detect the vulnerable hub areas 
+but also reect the heterogeneous connectivity patterns 
+the vulnerable hubs patients with Alzheimers disease 
+Noticeably these ndings could not revealed frequency specic analysis Fig Thus the multiplex network measures not only enhanced the sensitivity 
+differentiation between patients with Alzheimers disease
+and controls compared with frequency specic analyses 
+but also revealed the interrelationship between functional
+networks different frequency bands Alzheimers
+disease 
+Nonetheless not intend doubt ignore the
+frequency specic properties MEG networks In fact 
+the nodal heterogeneity MEG multiplex networks conrmed the underlying diverse topologies frequency band
+specic networks Figs B and C and demonstrated that
+frequency specic networks not act independent entities but interact with each other The coordination and
+cooperation frequency specic networks are possibly 
+reection the observations that different frequencies 
+play different roles cognitive and behavioural processes 
+but that optimal cognition also requires integration these
+different processes Disruption the integrated framework
+ multiplex networks such Alzheimers disease can
+therefore lead abnormal cognitive and behavioural
+symptoms which indeed what observed Fig 
+Strengths limitations and future
+direction
+Our current study has number strong points multiplex network analysis could largely reduce the potential
+bias multiple comparisons frequency specic network
+analysis using PLI measure functional connectivity reduces the bias due eld spread and signal leakage Stam Hillebrand Porz 
+ and showed that the observed group differences
+ multiplex network measures were not driven secondary leakage Supplementary material iii MEG network
+analysis source space using standard atlas aids the
+multimodal comparisons between our multiplex network
+analysis and previous structural DTI and functional
+network analyses functional MRI explored
+the overall nodal efciency the multiplex networks
+using different centrality metrics the key ndings were consistent for all the centrality metrics avoid the
+M Yu 
+potential biases from the differences the magnitudes 
+link weights between layers reanalysed our data rst
+ranking the link weights within each layer We found
+that the key ndings were consistent Supplementary Figs
+ and across approaches and performing both
+group and subject level permutation tests for the comparisons multiplex measures reduced potential biases
+ differences statistical power and sensitivity outliers that either approach may have 
+There are also several limitations that should mentioned Our results may have been inuenced methodological choices such the manual selection artefact free
+epochs However the selected epochs were checked for
+quality and signs drowsiness experienced independent researcher Furthermore the modest sample size
+might limitation All patients with Alzheimers disease
+included this paper had pathological biomarkers suggestive for Alzheimers disease obtained either CSF 
+amyloid PET scanning but the amyloid status the
+healthy control groups was unknown Therefore 
+cannot exclude that several healthy controls actually had
+amyloid pathology and neuronal damage well To
+reduce the risk excluded four control subjects with abnormal results cognitive testing Furthermore our
+study one the rst exploratory studies regarding the
+relationships between MMSE scores and multiplex network
+metrics and between CSF biomarkers and the hub disruption indices did not correct for multiple testing the
+post hoc correlation analyses Instead reported the
+exact P values for the readers interpretation 
+In healthy brains the pattern functional networks 
+partially determined the underlying structural networks
+ Honey Ponten Misic 
+ Stam However the essential relationship between structural and functional networks 
+Alzheimers disease largely unknown In this MEG
+study found that hub regions hippocampus and posterior DMN were selectively vulnerable patients with
+Alzheimers disease which consistent with the ndings
+ previous studies using other neuroimaging modalities
+ Crossley The multiplex framework allows
+for the integration multimodal neuroimaging data 
+such functional MEG PET and functional MRI and
+structural networks DTI and MRI Sporns In that
+case the interaction between the functional and structural
+networks can studied under the unied framework 
+multiplex network not only for patients with Alzheimers
+disease but also for healthy controls and for other brain
+disorders Furthermore this study constructed multiplex networks integrating frequency specic MEG
+weighted networks without considering the cross frequency
+couplings between different brain regions and applied the
+multiplex network measures developed Battiston 
+ characterize the topological structure the
+multiplex networks However one recent multilayer MEG
+connectivity study Brookes constructed 
+super adjacency matrix consisting both within frequency
+Impaired multiplex hub regions Alzheimers disease
+and cross frequency couplings However multiplex network measures were computed the study Brookes
+ One recent multilayer functional MRI network study De Domenico applied multilayer centrality measure De Domenico 
+extending the PageRank centrality multilayer functional
+MRI networks and found the multilayer hubs characterized the centrality measure improved the differentiation
+between healthy controls and patients with schizophrenia 
+To date there generally accepted optimal approach 
+characterize the topological structure the multilayer networks consisting cross layer links cross frequency couplings functional brain networks between same 
+different nodes Boccaletti In future studies 
+ important develop and apply multilayer network
+measures which are appropriate for functional brain studies Moreover Fig shows that the patients with
+Alzheimers disease and healthy controls were clearly differentiated the D Pi plane Therefore combining
+machine learning approaches such random forest support vector machine with the performed multiplex network
+analyses could easily distinguish the two clinical groups 
+which interest for future study Zanin 
+Conclusion
+In the present study used multiplex network framework investigate the interaction between the MEG frequency specic functional networks patients with
+Alzheimers disease and healthy control subjects Using
+multiplex network metrics functional networks patients
+with Alzheimers disease were characterized more heterogeneous compared those healthy controls We
+demonstrated that the hub regions particular the
+hippocampus posterior DMN regions and occipital areas 
+were preferentially affected and that the hub vulnerability
+ these regions correlated positively with the cognitive deterioration and the abnormal accumulation levels amyloid plaques cerebrospinal uid which may augment
+the underlying neuropathological cascade Alzheimers
+disease 
+Acknowledgements
+The authors would like thank Prejaas Tewarie for pointing out the relevance applying the concept multiplex
+network and related measures presented the paper 
+Battiston for MEG network analysis We
+thank Ida Nissen for performing quality checks the selected epochs We also thank Peter Jan Ris Ndedi Sijsma 
+Karin Plugge Marlous van den Hoek and Nico Akeman
+for data acquisition We thank all patients and controls for
+their participation 
+BRAIN Page 
+Funding
+Research the VUmc Alzheimer Center part the
+neurodegeneration research program the Neuroscience
+Campus Amsterdam The VUmc Alzheimer Center supported Alzheimer Nederland and Stichting VUmc funds 
+Meichen Yu supported the China Scholarship Council
+ CSC Marjolein Engels supported Alzheimer
+Nederland 
+Supplementary material
+Supplementary material available Brain online 
+References
+Achard S Delon Martin C Vertes PE Renard F Schenck M 
+Schneider F Hubs brain functional networks are radically
+reorganized comatose patients Proc Natl Acad Sci USA 
+Albert R Jeong H Barabasi AL Error and attack tolerance complex networks Nature 
+Allen G Barnard H McColl R Hester AL Fields JA Weiner MF 
+ Reduced hippocampal functional connectivity Alzheimer
+disease Arch Neurol 
+Arendt T Synaptic degeneration Alzheimers disease Acta
+Neuropathol 
+Baker AP Brookes MJ Rezek IA Smith SM Behrens T Probert Smith
+PJ Fast transient networks spontaneous human brain activity Elife 
+Ballard C Gauthier S Corbett A Brayne C Aarsland D Jones E 
+Alzheimers disease Lancet 
+Barkley GL Controversies neurophysiology MEG superior 
+EEG localization interictal epileptiform activity Pro Clin
+Neurophysiol 
+Bassett DS Meyer Lindenberg A Achard S Duke T Bullmore E 
+Adaptive reconguration fractal small world human brain functional networks Proc Natl Acad Sci USA 
+Bassett DS Bullmore ET Meyer Lindenberg A Apud JA Weinberger
+DR Coppola R Cognitive tness cost efcient brain functional
+networks Proc Natl Acad Sci USA 
+Battaglia FP Benchenane K Sirota A Pennartz CM Wiener SI The
+hippocampus hub brain network communication for memory 
+Trends Cogn Sci 
+Battiston F Nicosia V Latora V Structural measures for multiplex
+networks Phys Rev E 
+Baumgartner C Controversies neurophysiology MEG superior 
+EEG localization interictal epileptiform activity Con Clin
+Neurophysiol 
+Benjamini Y Hochberg Y Controling the false discovery rate practical and powerful approach multiple testing J Roy Stat Soc B
+Met 
+Boccaletti S Bianconi G Criado R del Genio CI Gomez Gardenes J 
+Romance M The structure and dynamics multilayer networks Phys Rep 
+Blennow K Vanmechelen E Hampel H CSF total tau and
+phosphorylated tau protein biomarkers for Alzheimers disease 
+Mol Neurobiol 
+Brookes MJ Hale JR Zumer JM Stevenson CM Francis ST Barnes
+GR Measuring functional connectivity using MEG methodology and comparison with fcMRI Neuroimage 
+ BRAIN Page 
+Brookes MJ Woolrich M Luckhoo H Price D Hale JR Stephenson
+MC Investigating the electrophysiological basis resting state
+networks using magnetoencephalography Proc Natl Acad Sci USA
+Brookes MJ Tewarie PK Hunt BA Robson SE Gascoyne LE Liddle
+EB A multi layer network approach MEG connectivity
+analysis Neuroimage 
+Buckner RL Snyder AZ Shannon BJ LaRossa G Sachs R Fotenos
+AF Molecular structural and functional characterization 
+Alzheimers disease evidence for relationship between default activity amyloid and memory J Neurosci 
+Buckner RL Andrews Hanna JR Schacter DL The brains default
+network anatomy function and relevance disease Ann N Y
+Acad Sci 
+Buckner RL Sepulcre J Talukdar T Krienen FM Liu H Hedden T 
+ Cortical hubs revealed intrinsic functional connectivity 
+mapping assessment stability and relation Alzheimers disease 
+J Neurosci 
+Buldu JM Bajo R Maestu F Castellanos N Leyva I Gil P 
+Reorganization functional networks mild cognitive impairment 
+PLoS One 
+Buldyrev SV Parshani R Paul G Stanley HE Havlin S Catastrophic
+cascade failures interdependent networks Nature 
+Bullmore ET Sporns O Complex brain networks graph theoretical
+analysis structural and functional systems Nat Rev Neurosci
+Bullmore ET Sporns O The economy brain network organization 
+Nat Rev Neurosci 
+Canuet L Pusil S Lopez ME Bajo R Pineda Pardo JA Network
+disruption and cerebrospinal uid amyloid beta and phospho tau
+levels mild cognitive impairment J Neurosci 
+Cardillo A Gomez Gardenes J Zanin M Romance M Papo D del
+Pozo F Emergence network features from multiplexity Sci
+Rep 
+Cavanna AE Trimble MR The precuneus review its functional
+anatomy and behavioural correlates Brain Pt 
+Cheyne D Bostan AC Gaetz W Pang EW Event related beamforming robust method for presurgical functional mapping using
+MEG Clin Neurophysiol 
+Corsi Cabrera M Galindo Vilchis L del Ro Portilla Y Arce C 
+Ramos Loyo J Within subject reliability and inter session stability
+ EEG power and coherent activity women evaluated monthly
+over nine months Clin Neurophysiol 
+Crossley NA Mechelli A Scott J Carletti F Fox PT McGuire P 
+The hubs the human connectome are generally implicated the
+anatomy brain disorders Brain Pt 
+Dai Z Yan C Li K Wang Z Wang J Cao M Identifying and
+mapping connectivity patterns brain network hubs Alzheimers
+disease Cereb Cortex 
+De Domenico M Sole Ribalta A Omodei E Gomez S Arenas A 
+Ranking interconnected multilayer networks reveals versatile
+nodes Nat Commun 
+De Domenico M Sasai S Arenas A Mapping multiplex hubs 
+human functional brain networks Front Neurosci 
+ Haan W Pijnenburg YA Strijers RL Van der Made Y Van der
+Flier WM Scheltens P Functional neural network analysis 
+frontotemporal dementia and Alzheimers disease using EEG and
+graph theory BMC Neurosci 
+ Haan W van der Flier WM Wang H Van Mieghem PF Scheltens
+P Stam CJ Disruption functional brain networks 
+Alzheimers disease what can learn from graph spectral analysis
+ resting state magnetoencephalography? Brain Connect 
+ Haan W van der Flier WM Koene T Smits LL Scheltens P Stam
+CJ Disrupted modular brain dynamics reect cognitive dysfunction
+ Alzheimers disease Neuroimage 
+M Yu 
+ Haan W Mott K van Straaten ECW Scheltens P Stam CJ 
+Activity dependent degeneration explains hub vulnerability 
+Alzheimers disease PLoS Comput Biol 
+Drzezga A Becker JA Van Dijk KR Sreenivasan A Talukdar T 
+Sullivan C Neuronal dysfunction and disconnection cortical
+hubs non demented subjects with elevated amyloid burden Brain
+ Pt 
+Dubois B Hampel H Feldman HH Scheltens P Aisen P Andrieu S 
+ Preclinical Alzheimers disease denition natural history and
+diagnostic criteria Alzheimers Dement 
+Duits FH Teunissen CE Bouwman FH Visser PJ Mattsson N 
+Zetterberg H The cerebrospinal uid Alzheimer prole 
+easily said but what does mean? Alzheimers Dement 
+Eichenbaum H Yonelinas AP Ranganath C The medial temporal
+lobe and recognition memory Annu Rev Neurosci 
+Engel AK Gerloff C Hillgetag CC Nolte G Intrinsic coupling modes 
+multiscale interactions ongoing brain activity Nat Rev Neurosci
+Engels MM Stam CJ van der Flier WM Scheltens P Waal H van
+Straaten EC Declining functional connectivity and changing hub
+locations Alzheimers disease EEG study BMC Neurol
+Engels MM Hillebrand A van der Flier WM Stam CJ Scheltens P 
+van Straaten EC Slowing hippocampal activity correlates with
+cognitive decline early onset Alzheimers disease An MEG study
+with virtual electrodes Front Hum Neurosci 
+Fogassi L Ferrari PF Gesierich B Rozzi S Chersi F Rizzolatti G 
+Parietal lobe from action organization intention understanding 
+Science 
+Fornito A Zalesky A Breakspear M The connectomics brain disorders Nat Rev Neurosci 
+Fox MD Raichle ME Spontaneous uctuations brain activity
+observed with functional magnetic resonance imaging Nat Rev
+Neurosci 
+Fransson P Marrelec G The precuneus posterior cingulate cortex
+plays pivotal role the default mode network evidence from 
+partial correlation network analysis Neuroimage 
+Gong G He Y Concha L Lebel C Gross DW Evans AC 
+Mapping anatomical connectivity patterns human cerebral
+cortex using vivo diffusion tensor imaging tractography Cereb
+Cortex 
+Greicius MD Srivastava G Reiss AL Menon V Default mode network activity distinguishes Alzheimers disease from healthy aging 
+evidence from functional MRI Proc Natl Acad Sci USA 
+Greicius M Resting state functional connectivity neuropsychiatric
+disorders Curr Opin Neurol 
+Guimera R Nunes Amaral LA Functional cartography complex
+metabolic networks Nature 
+Hagmann P Cammoun L Gigandet X Meuli R Honey CJ Wedeen
+VJ Mapping the structural core human cerebral cortex 
+PLoS Biol 
+Havlin S Stanley HE Bashan A Gao J Kenett DY Percolation 
+interdependent network networks Chaos Soliton Fract 
+He Y Chen Z Evans A Structural insights into aberrant topological
+patterns large scale cortical networks Alzheimers disease 
+J Neurosci 
+Hillebrand A Singh KD Holliday IE Furlong PL Barnes GR A new
+approach neuroimaging with magnetoencephalography Human
+Brain Mapping 
+Hillebrand A Barnes GR Bosboom JL Berendse HW Stam CJ 
+Frequency dependent functional connectivity within resting state networks atlas based MEG beamformer solution Neuroimage
+Impaired multiplex hub regions Alzheimers disease
+Hillebrand A Fazio P Munck JC van Dijk BW Feasibility 
+clinical magnetoencephalography MEG functional mapping the
+presence dental artefacts Clin Neurophysiol 
+Hillebrand A Tewarie P van Dellen E Yu M Carbo EW Douw L 
+ Direction information large scale resting state networks frequency dependent Proc Natl Acad Sci USA 
+Hipp JF Engel AK Siegel M Oscillatory synchronization largescale cortical networks predicts perception Neuron 
+Hipp JF Hawellek DJ Corbetta M Siegel M Engel AK Large scale
+cortical correlation structure spontaneous oscillatory activity Nat
+Neurosci 
+Honey CJ Kotter R Breakspear M Sporns O Network structure 
+cerebral cortex shapes functional connectivity multiple time
+scales Proc Natl Acad Sci USA 
+Honey CJ Sporns O Cammoun L Gigandet X Thiran JP Meuli R 
+ Predicting human resting state functional connectivity from
+structural connectivity Proc Natl Acad Sci USA 
+Huang X Gao J Buldyrev SV Havlin S Stanley HE Robustness 
+interdependent networks under targeted attack Phys Rev E 
+ R 
+Jensen O Colgin LL Cross frequency coupling between neuronal oscillations Trends Cogn Sci 
+Jensen O Spaak E Zumer JM Human brain oscillations from
+physiological mechanisms analysis and cognition In Supek S 
+Aine CJ editors Magnetoencephalography from signals dynamic
+cortical networks Berlin Springer 
+Jones DT Knopman DS Gunter JL Graff Radford J Vemuri P Boeve
+BF Cascading network failure across the Alzheimers disease
+spectrum Brain 
+Kivela M Arenas A Barthelemy M Gleeson JP Moreno Y Porter
+MA Multilayer networks J Complex Netw 
+Kurant M Thiran P Layered complex networks Phys Rev Lett 
+Larson Prior LJ Oostenveld R Della Penna S Michalareas G Prior F 
+Babajani Feremi A Adding dynamics the Human
+Connectome Project with MEG Neuroimage 
+Lehmann M Madison CM Ghosh PM Seeley WW Mormino E 
+Greicius MD Intrinsic connectivity networks healthy subjects explain clinical variability Alzheimers disease Proc Natl
+Acad Sci USA 
+Li Y Liu Y Li J Qin W Li K Yu C Brain anatomical network
+and intelligence PLoS Comput Biol 
+Lo CY Wang PN Chou KH Wang J He Y Lin CP Diffusion tensor
+tractography reveals abnormal topological organization structural
+cortical networks Alzheimers disease J Neurosci 
+Lopes Silva F EEG and MEG relevance neuroscience Neuron
+Medvedovsky M Taulu S Bikmullina R Ahonen A Paetau R Fine
+tuning the correlation limit spatio temporal signal space separation for magnetoencephalography J Neurosci Methods 
+Menon V Large scale brain networks and psychopathology unifying triple network model Trends Cogn Sci 
+Misic B Goni J Betzel RF Sporns O McIntosh AR A network convergence zone the hippocampus PLOS Comput Biol 
+Misic B Betzel RF Nematzadeh A Goni J Griffa A Hagmann P 
+ Cooperative and competitive spreading dynamics the
+human connectome Neuron 
+Mulder C Verwey NA van der Flier WM Bouwman FH Kok A van
+Elk EJ Amyloid beta total tau and phosphorylated tau
+ cerebrospinal uid biomarkers for the diagnosis Alzheimer
+disease Clin Chem 
+Olde Dubbelink KT Hillebrand A Stoffers D Deijen JB Twisk JW 
+Stam CJ Disrupted brain network topology Parkinsons
+BRAIN Page 
+disease longitudinal magnetoencephalography study Brain
+ Pt 
+Palva S Palva JM Discovering oscillatory interaction networks with
+M EEG challenges and breakthroughs Trends Cogn Sci 
+Pievani M Haan W Wu T Seeley WW Frisoni GB Functional
+network disruption the degenerative dementias Lancet Neurol
+Petersen SE Sporns O Brain networks and cognitive architectures 
+Neuron 
+Ponten SC Daffertshofer A Hillebrand A Stam CJ The relationship
+between structural and functional connectivity graph theoretical
+analysis EEG neural mass model Neuroimage 
+Porz S Kiel M Lehnertz K Can spurious indications for phase synchronization due superimposed signals avoided? Chaos 
+Querfurth HW LaFerla FM Alzheimers disease N Engl J Med 
+Raichle ME The brains default mode network Annu Rev Neurosci
+Raj A Kuceyeski A Weiner M A network diffusion model disease
+progression dementia Neuron 
+Rosenblum MG Pikovsky AS Kurths J Phase synchronization 
+chaotic oscillators Phys Rev Lett 
+Robinson SE Vrba J Functional neuroimaging Synthetic Aperture
+Magnetometry SAM In Yoshimoto T Kotani M Kuriki S Karibe
+H Nakasato N editors Recent advances biomagnetism Sendai 
+Tohoku University Press 
+Rubinov M Sporns O Complex network measures brain connectivity uses and interpretations Neuroimage 
+Scheltens P Blennow K Breteler MM Strooper B Frisoni GB 
+Salloway S Alzheimers disease Lancet 
+Schoffelen JM Gross J Source connectivity analysis with MEG and
+EEG Hum Brain Mapp 
+Scholl M Lockhart SN Schonhaut DR ONeil JP Janabi M 
+Ossenkoppele R PET imaging Tau deposition the
+aging human brain Neuron 
+Seeley WW Crawford RK Zhou J Miller BL Greicius MD 
+Neurodegenerative diseases target large scale human brain networks 
+Neuron 
+Siegel M Donner TH Engel AK Spectral ngerprints large scale
+neuronal interactions Nat Rev Neurosci 
+Singh Curry V Husain M The functional role the inferior parietal
+lobe the dorsal and ventral stream dichotomy Neuropsychologia
+Sperling R Functional MRI studies associative encoding normal
+aging mild cognitive impairment and Alzheimers disease Ann N Y
+Acad Sci 
+Sperling RA Laviolette PS OKeefe K OBrien J Rentz DM 
+Pihlajamaki M Amyloid deposition associated with impaired default network function older persons without dementia 
+Neuron 
+Sporns O Contributions and challenges for network models cognitive neuroscience Nature Neurosci 
+Stam CJ Jones BF Manshanden I van Cappellen van Walsum AM 
+Montez T Verbunt JP Magnetoencephalographic evaluation
+ resting state functional connectivity Alzheimers disease 
+Neuroimage 
+Stam CJ van Straaten ECW The organization physiological brain
+networks Clin Neurophysiol 
+Stam CJ Modern network science neurological disorders Nat Rev
+Neurosci 
+Stam CJ Jones BF Nolte G Breakspear M Scheltens P Small world
+networks and functional connectivity Alzheimers disease Cereb
+Cortex 
+Stam CJ Nolte G Daffertshofer A Phase lag index assessment 
+functional connectivity from multi channel EEG and MEG with
+ BRAIN Page 
+diminished bias from common sources Hum Brain Mapp 
+Stam CJ Haan W Daffertshofer A Jones BF Manshanden I Van
+Cappellen van Walsum AM Graph theoretical analysis 
+magnetoencephalographic functional connectivity Alzheimers disease Brain 
+Stam CJ Dementia and EEG In Schomer DL Lopes Silva FH 
+editors Niedermeyers electroencephalography basic principles clinical applications and related elds Philadelphia Lippincott
+Williams Wilkins 
+Stam CJ Tewarie P Van Dellen E van Straaten EC Hillebrand A 
+Van Mieghem P The trees and the forest characterization complex brain networks with minimum spanning trees Int J
+Psychophysiol 
+Stam CJ van Straaten EC Van Dellen E Tewarie P Gong G 
+Hillebrand A The relation between structural and functional
+connectivity patterns complex brain networks Int J Psychophysiol
+Supekar K Menon V Rubin D Musen M Greicius MD Network
+analysis intrinsic functional brain connectivity Alzheimers disease PLoS Comput Biol 
+Szell M Lambiotte R Thurner S Multirelational organization 
+large scale social networks online world Proc Natl Acad Sci
+USA 
+Takahashi RH Capetillo Zarate E Lin MT Milner TA Gouras GK 
+Cooccurrence Alzheimers disease amyliod and tau pathologies
+ synapses Neurobiol Aging 
+Taulu S Simola J Spatiotemporal signal space separation method for
+rejecting nearby interference MEG measurements Phys Med Biol
+Taulu S Hari R Removal magnetoencephalographic artifacts with
+temporal signal space separation demonstration with single trial
+auditory evoked responses Hum Brain Mapp 
+Teunissen CE Petzold A Bennett JL Berven FS Brundin L 
+Comabella M A consensus protocol for the standardization
+ cerebrospinal uid collection and biobanking Neurology 
+Tewarie P Hillebrand A Schoonheim MM van Dijk BW Geurts JJ 
+Barkhof F Functional brain network analysis using minimum
+spanning trees Multiple Sclerosis MEG source space study 
+Neuroimage 
+Tewarie P Hillebrand A van Dijk BW Stam CJ ONeill GC Van
+Mieghem P Integrating cross frequency and within band functional networks resting state MEG multi layer network approach Neuroimage 
+Tijms BM Wink AM Haan W van der Flier WM Stam CJ 
+Scheltens P Alzheimers disease connecting ndings from
+graph theoretical studies brain networks Neurobiol Aging
+Tzourio Mazoyer N Landeau B Papathanassiou D Crivello F Etard
+O Delcroix N Automated anatomical labeling activations
+ SPM using macroscopic anatomical parcellation the MNI
+MRI single subject brain Neuroimage 
+M Yu 
+van Diessen E Numan T van Dellen E van der Kooi AW Boersma
+M Hofman D Opportunities and methodological challenges
+ EEG and MEG resting state functional brain network research 
+Clin Neurophysiol 
+van den Heuvel MP Stam CJ Kahn RS Hulshoff Pol HE Efciency
+ functional brain networks and intellectual performance J
+Neurosci 
+van den Heuvel MP Sporns O Network hubs the human brain 
+Trends Cogn Sci 
+van den Heuvel MP Mandl RC Stam CJ Kahn RS Hulshoff Pol HE 
+Aberrant frontal and temporal complex network structure schizophrenia graph theoretical analysis J Neurosci 
+van der Flier WM Scheltens P Epidemiology and risk factors 
+dementia J Neurol Neurosurg Psychiatr 
+van der Flier WM Pijnenburg YA Prins N Lemstra AW Bouwman
+FH Teunissen CE Optimizing patient care and research the
+Amsterdam Dementia Cohort J Alzheimers Dis 
+van Veen BD van Drongelen W Yuchtman M Suzuki A Localization
+ brain electrical activity via linearly constrained minimum variance
+spatial ltering IEEE Trans Biomed Eng 
+Vecchio F Miraglia F Marra C Quaranta D Vita MG Bramanti P 
+ Human brain networks cognitive decline graph theoretical analysis cortical connectivity from EEG data J Alzheimers
+Dis 
+Wang L Brier MR Snyder AZ Thomas JB Fagan AM Xiong C 
+ Cerebrospinal uid phosphorylated and resting state functional connectivity JAMA Neurol 
+Wang XJ Neurophysiological and computational principles cortical
+rhythms cognition Physiol Rev 
+Wang Z Xia M Dai Z Liang X Song H He Y Differentially
+disrupted functional connectivity the subregions the inferior
+parietal lobule Alzheimers disease Brain Struct Funct 
+Whalen C Maclin EL Fabiani M Gratton G Validation method
+for coregistering scalp recording locations with D structural MR
+images Hum Brain Mapp 
+Xia M Wang J He Y BrainNet viewer network visualization tool
+for human brain connectomics PLoS One 
+Yu M Hillebrand A Tewarie P Meier J van Dijk B Van Mieghem P 
+ Hierarchical clustering minimum spanning trees Chaos
+Yu M Gouw AA Hillebrand A Tijms BM Stam CJ van Straaten EC 
+ Different functional connectivity and network topology behavioral variant frontotemporal dementia and Alzheimers disease EEG study Neurobiol Aging 
+Zanin M Papo D Sousa PA Menasalvas E Nicchi A Kubik E 
+Combining complex networks and data mining why and how Phys
+Rep 
+Zhou J Greicius MD Gennatas ED Growdon ME Jang JY 
+Rabinovici GD Divergent network connectivity changes 
+behavioural variant frontotemporal dementia and Alzheimers disease Brain 

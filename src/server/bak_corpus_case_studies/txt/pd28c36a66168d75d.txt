@@ -1,0 +1,850 @@
+letters
+ Nature America Inc All rights reserved 
+Meta analysis individuals identifies new
+susceptibility loci for Alzheimers disease
+Eleven susceptibility loci for late onset Alzheimers disease
+ LOAD were identified previous studies however large
+portion the genetic risk for this disease remains unexplained 
+We conducted large two stage meta analysis genomewide association studies GWAS individuals European
+ancestry In stage used genotyped and imputed data
+ SNPs perform meta analysis previously
+published GWAS data sets consisting Alzheimers
+disease cases and controls In stage SNPs
+were genotyped and tested for association independent
+set Alzheimers disease cases and controls 
+In addition the APOE locus encoding apolipoprotein E 
+ loci reached genome wide significance P the
+combined stage and stage analysis which are newly
+associated with Alzheimers disease 
+Alzheimers disease devastating neurological disorder primarily
+affecting the elderly The disease manifests with progressive deterioration cognitive functions leading loss autonomy The APOE
+gene encoding apolipoprotein E major genetic risk factor for
+Alzheimers Previous GWAS individuals European
+ancestry identified nine other genomic regions associated with
+ Recently rare susceptibility variant was The search for additional genetic risk factors requires largescale meta analysis GWAS increase statistical power Under the
+banner I GAP International Genomics Alzheimers Project 
+conducted meta analysis GWAS samples European ancestry
+totaling cases and controls stage followed 
+genotyping SNPs showing moderate evidence association
+ P stage independent sample that included 
+cases and controls stage 
+In the stage meta analysis used data from four consortia the
+Alzheimers Disease Genetic Consortium ADGC the Cohorts for
+Heart and Aging Research Genomic Epidemiology CHARGE 
+Consortium the European Alzheimers Disease Initiative EADI and
+the Genetic and Environmental Risk Alzheimers Disease GERAD 
+Consortium Table Online Methods Supplementary Table and
+Supplementary Note We used European population reference EUR 
+haplotype data from the Genomes Project interim release
+based sequence data freeze from August and phased haplotypes from December impute genotypes for 
+SNPs per data set We excluded SNPs that did not pass quality control
+ each study Supplementary Table and Supplementary Note 
+Our meta analysis included SNPs either genotyped successfully
+imputed least the Alzheimers disease cases and 
+ the control samples across all data sets SNPs Online
+Methods In each data set genotype dosages were analyzed 
+described the Supplementary Note Supplementary Table We
+performed meta analysis the results after applying genomic control
+correction each study The genomic control inflation factor for the
+meta analysis was for the full set SNPs and after excluding SNPs within the APOE locus chr and
+within SNPs associated with Alzheimers disease prespecified level genome wide significance P stage 
+ see Supplementary Fig for quantile quantile plots 
+In addition the APOE locus genomic regions had associations that reached the genome wide significance level Fig Nine
+had been previously identified GWAS genetic susceptibility
+ and five B 
+ and represent newly associated loci Table 
+ had previously been identified Alzheimers disease gene
+through candidate gene approaches and GWAS combining ADGC
+and Asian Genes attributed signal were those closest
+ the most significantly associated SNP However are aware that
+these are potentially not the causative genes Detailed results for each
+region are given Supplementary Figures 
+In stage selected for genotyping all stage SNPs with 
+P value less than excluding SNPs flanking APOE chr 
+ see URLs for database access 
+From the initial set SNPs could genotyped using Illumina
+iSelect technology After quality control procedures Online Methods 
+ considered SNPs for association analysis The stage sample
+included cases and controls European ancestry originating from Austria Belgium Finland Germany Greece Hungary 
+Italy Spain Sweden the UK and the United States Table and
+Supplementary Note We observed SNPs showing the same
+risk allele and direction association stages and that were
+significantly associated with Alzheimers disease risk stage after
+ strict Bonferroni correction for multiple testing P 
+Of these SNPs had been associated genome wide signi
+ficance with Alzheimers disease risk stage Additionally analyses stage SNPs were associated with Alzheimers disease 
+ nominal level significance P having the same risk allele
+and direction association stage 
+The results from stages and and from the combined stage 
+and stage data sets which represent secondary discovery effort 
+A full list authors and affiliations appears the end the paper 
+Received March accepted September published online October doi 
+Nature Genetics
+ADVANCE ONLINE PUBLICATION
+letters
+carry rare variant encoding His 
+associated with three fourfold increased
+risk developing Alzheimers 
+Percent
+Mean
+Percent
+Mean
+This region also reached genome wide signi
+Consortium
+N
+women
+AAO 
+N
+women
+AAE 
+ficance study cerebral spinal fluid
+ADGC
+levels phosphorylated tau biomarker for
+CHARGE
+Alzheimers 
+EADI
+Beyond the already known GWAS defined
+GERAD
+genes CLU 
+N
+AP E and
+Percent
+Mean
+Percent
+Mean
+PICALM the most significant new assoCountry
+N
+women
+AAO 
+N
+women
+AAE 
+ciation was the region
+Austria
+ encoding major histocompatibility complex 
+Belgium
+class II DR and DR respectively This
+Finland
+region associated with immunocompetence
+Germany
+and histocompatibility and interestingly with
+Greece
+risk both multiple sclerosis and Parkinson
+Hungary
+ Owing the complex genetic
+Italy
+organization the human leukocyte antigen
+Spain
+ HLA region chromosome were
+Sweden
+unable define which gene are responsible
+UK
+for this signal Supplementary Fig 
+United States
+The second strongest signal was within the
+N
+ gene encoding sortilin related receptor 
+AAO age onset AAE age examination 
+L DLR class Our data clearly demonstrated
+that this gene was associated genome wide
+significance European samples 
+are shown Table With the exception and noteworthy associated with increased risk both autosomal
+nominally replicated all loci that surpassed the genome wide signifi dominant and sporadic forms Alzheimers and represents
+cance level stage Inability replicate not surprising the first LOAD gene that directly connects aberrant trafficking and
+evidence association for this locus was based data for single metabolism the amyloid precursor protein APP 
+SNP and was not supported data from surrounding SNPs linkThe third locus B encoding protein tyrosine kinase 
+age disequilibrium LD Supplementary Fig Moreover only approximately away from CLU but believe the two
+seven new loci reached the genome wide significance level the signals are independent because the two most strongly associcombined analysis Table More detailed results for the seven newly ated SNPs within each these two genes are not LD D 
+identified LOAD loci are provided Supplementary Figures and computed using Genomes Project data 
+There was significant heterogeneity across studies any the loci recombination peak exists between the two loci Fig and
+except Table and Supplementary Figs To identify iii conditional analysis the stage data confirmed the indepotential causative genes also examined all SNPs with association pendence the B association Supplementary Fig and
+P that were within the top SNP each locus Supplementary Table The protein encoded B may
+identify cis expression quantitative trait locus cis eQTL associations intermediate between neuropeptide activated receptors 
+ Online Methods and Supplementary Table 
+neurotransmitters that increase calcium flux and the downstream
+The results from the combined stage 
+and stage data sets also identified loci
+APOE
+with suggestive evidence association
+ P Supplementary Table 
+Among these detected signal for
+ P which located
+approximately away from the end
+ and away from the end
+PICALM
+CLU
+ was recently reported 
+Table Description the consortium data sets used for stage and stage 
+Controls
+B
+D
+AP
+C
+ Manhattan plot stage for genomewide association with Alzheimers disease
+ cases and controls 
+The threshold for genome wide significance
+ P indicated the red line 
+Genes previously identified GWAS are shown
+ black and newly associated genes are shown
+ red Red diamonds represent SNPs with the
+smallest P values the overall analysis 
+ P 
+ Nature America Inc All rights reserved 
+Stage 
+Stage 
+Alzheimers disease cases
+Chromosome
+aDVANCE ONLINE PUBLICATION
+Nature Genetics
+letters
+Table Summary stage stage and overall meta analyses for SNPs reaching genome wide significance after stages and 
+Stage 
+SNPa
+Chr 
+Major minor
+alleles
+MAFd
+Known GWAS defined associated genes
+G A
+C T
+ AP
+A G
+G A
+ CLU
+T C
+ A
+A G
+ PICALM
+G A
+G A
+C A
+ Nature America Inc All rights reserved 
+Positionb
+Closest
+genec
+Stage 
+Overall
+OR
+ CI 
+Meta
+P value
+OR
+ CI 
+Meta
+P value
+OR
+ CI 
+Meta
+P value
+New loci reaching genome wide significance the discovery analysis
+A C
+ B
+T C
+T C
+ G T
+C T
+New loci reaching genome wide significance the combined discovery and replication analysis
+ D
+C T
+ C
+A G
+A G
+T C
+T C
+T C
+T C
+I 
+P valuef
+Chr chromosome 
+aSNPs
+showing the best level association after meta analysis stages and bBuild assembly cGenes located the top SNP dAverage the discovery sample 
+with respect the minor allele fCochrans Q test gNot replicated stage 
+eCalculated
+signals regulating neuronal activity such mitogen activated protein
+kinase MAPK B involved the induction 
+long term potentiation the hippocampal cornu ammonis 
+region central process the formation We cannot 
+however exclude the possibility that there are multiple signals the
+B CLU region that are functionally connected single gene 
+For instance two SNPs associated with genome wide significance 
+the B CLU region are eQTLs for the gene that has been
+implicated Alzheimers Supplementary Table 
+The fourth locus was encoding solute carrier family 
+ sodium potassium calcium exchanger member The 
+gene encodes protein involved iris development and hair and
+Nature Genetics
+ADVANCE ONLINE PUBLICATION
+skin color variation humans addition being associated with
+the risk developing also expressed
+ the brain and may involved neural Of note 
+ the vicinity the most strongly associated SNP another gene
+called encoding Ras and Rab interactor and its gene product
+directly interacts with the gene protein that may 
+connected tau mediated 
+In addition these four loci reaching genome wide significance
+ stage seven new loci reached genome wide significance the
+combined analysis 
+The strongest association one these new loci was intronic
+ the gene encoding zinc finger CW type with PWWP
+letters
+ P 
+Recombination rate cM Mb 
+ B
+CLU
+PBK
+Position chr Mb 
+ Nature America Inc All rights reserved 
+ Regional plot for the B CLU locus cases and
+ controls 
+domain whose corresponding protein modulates epigenetic However the region defined all the SNPs associated with
+Alzheimers disease risk our data large and contains about ten
+genes Supplementary Fig Another interesting possible candidate gene the region disruption the
+corresponding gene mice affects brain size neurite elongation and 
+more generally neuronal Our data not resolve
+which gene this region may causal 
+A second locus was within the gene encoding CUGBP Elavlike family member whose gene product member the protein family that regulates pre mRNA alternative As with the
+ locus the region interest large and contains about ten
+genes Supplementary Fig Among these genes MADD encoding MAP kinaseactivating death domain the reduced expression 
+which may affect long term neuronal viability Alzheimers 
+A discrete signal was observed adjacent encoding NME 
+ family member which responsible for primary ciliary
+dyskinesia type ref 
+The gene encoding fermitin family member 
+expressed the brain Its corresponding protein localizes cell
+matrix adhesion structures activates integrins involved the
+orchestration actin assembly and cell shape modulation and 
+ important mediator angiogenesis An association between
+the Drosophila melanogaster ortholog and
+tau mediated toxicity was recently 
+We identified fifth signal chromosome encoding Cas scaffolding protein family member Little known about
+the function the encoded protein However the Drosophila CASS
+family ortholog CAS binds CMS the Drosophila ortholog
+ AP CMS known Alzheimers disease susceptibility gene
+ Table that involved actin 
+Another locus was identified D encoding inositol
+ phosphatase kDa chromosome D
+ expressed low levels the brain but the encoded protein has
+been shown interact with AP whose corresponding gene one
+ the Alzheimers disease genes previously identified and
+ modulate along with metabolism 
+We identified seventh signal adjacent C encoding myocyte
+enhancer factor Mutations this locus are associated with severe
+mental retardation stereotypic movements epilepsy and cerebral The C protein limits excessive synapse formation
+during activity dependent refinement synaptic connectivity and thus
+may facilitate hippocampal dependent learning and 
+In summary our Alzheimers disease GWAS meta analysis has
+identified new susceptibility loci addition the already known
+ APOE CLU AP E
+and PICALM genes However were not able replicate association our stage analysis P We did not detect any
+biases terms imputation our discovery data sets genotyping
+ our replication data sets data not shown suggesting potential
+statistical fluctuation across our populations explanation for
+the lack replication However recent data suggest that genetically
+determined decreased expression might reduce Alzheimers
+disease risk and interfere with amyloid peptide dysfunction thought central late onset forms Alzheimers Further investigations independent case control studies will
+thus required confirm refute the association with
+Alzheimers disease 
+The newly associated loci reinforce the importance some previously suspected pathways such APP and and
+tau and pathology Several candidate genes 
+these loci are involved pathways already shown enriched
+for association signal Alzheimers disease such 
+immune response and inflammation D
+and C which also supported the described association
+ Alzheimers disease with ref and refs cell
+migration B and lipid transport and endocytosis 
+Our results also suggest the existence new pathways underlying
+Alzheimers disease These pathways could include hippocampal synaptic function C and B cytoskeletal function and axonal
+transport and regulation gene expression
+and post translational modification proteins and microglial and
+myeloid cell function D 
+Examining the genetic effect attributable all the associated
+loci demonstrated that the most strongly associated SNPs 
+each locus other than APOE had population attributable fractions
+ PAFs preventive fractions between the stage 
+sample Supplementary Table Strong efforts sequencing
+and post GWAS analyses will now required fully characterize the candidate genes and functional variants responsible for the
+association these GWAS identified loci with Alzheimers disease
+risk and understand their exact roles the pathophysiology 
+Alzheimers 
+URLs Database access http www pasteur lille recherche 
+Igap zip http mathgen stats impute 
+impute html MaCH http www sph umich edu csg abecasis 
+MACH ProbABEL http www genabel org packages ProbABEL 
+SMARTPCA http www hsph harvard edu alkes price software 
+GWAMA http www well gwama LocusZoom http 
+csg sph umich edu locuszoom PLINK http pngu mgh harvard 
+edu purcell plink SNPTEST https mathgen stats 
+genetics software snptest snptest html Aberrant http www well 
+ software Metal http www sph umich edu csg abecasis 
+metal R http www project org R meta http cran project 
+org web packages rmeta index html eQTL analyses accessed 
+February http eqtl uchicago edu cgi bin gbrowse eqtl 
+Methods
+Methods and any associated references are available the online
+version the paper 
+Note Any Supplementary Information and Source Data files are available the
+online version the paper 
+aDVANCE ONLINE PUBLICATION
+Nature Genetics
+letters
+ Nature America Inc All rights reserved 
+Acknowledgments
+This work was made possible the generous participation the control subjects 
+the patients and their families iSelect chips were funded the French National
+Foundation Alzheimers Disease and Related Disorders Data management
+involved the Centre National Gnotypage and was supported the Institut
+Pasteur Lille INSERM FRC Fondation pour Recherche sur Cerveau and
+Rotary This work has been developed and supported the LABEX Laboratory
+ Excellence Program Investment for the Future DISTALZ grant Development
+ Innovative Strategies for Transdisciplinary Approach Alzheimers Disease 
+The French National Foundation Alzheimers Disease and Related Disorders
+and the Alzheimers Association Chicago Illinois grant supported person
+meetings and communication for IGAP and the Alzheimers Association
+ Chicago Illinois grant provided some funds each consortium for analyses 
+GERAD was supported the Wellcome Trust the MRC Alzheimers Research
+UK ARUK and the Welsh government ADGC and CHARGE were supported
+ the US National Institutes Health National Institute Aging NIH NIA 
+including grants and additional US National
+Institutes Health grant numbers are listed the Supplementary Note 
+CHARGE was also supported Erasmus Medical Center and Erasmus University 
+Complete acknowledgments are detailed the Supplementary Note 
+AUTHOR CONTRIBUTIONS
+Study concept and design J C L C A I V D Harold A C N A L D J C B 
+A V S M A I H Schmidt A L F V G O L L D W T D Blacker T H M 
+T B H J I R W A K M Boada R Schmidt R M A H B M P J L H P A H 
+M L M A P V L J L L A F C M D V M S Seshadri J W G D S and P A 
+Acquisition data J C L C A I V D Harold C Bellenguez R Sims G J 
+B G B G R N J V C C Thomas D Z Y K A G H Schmidt M L D M T B 
+S H C P H V G C Baldwin C C C Berr O L L P L D J D E L Letenneur 
+G E K S A M G N F M J H M I K E B L A J M C D S T S Love E R 
+P S G H L Y M M C D Beekly F Z O V S G Y W G M J O K M F P V J 
+M C O L B C D A B T B H R F A G B T J M J I R K M T M F W A K 
+J F P M A N K R J S K K E B M R M Boada L S W J F D C Tzourio 
+M M N B M P L J J L H M L L J L L A F A H C M D S Seshadri 
+J W G D S and P A Sample contribution A Ruiz F Pasquier A Ramirez 
+O H J D B D Campion P K C C Baldwin T B C C D Craig V D J A J 
+S Lovestone F J M D C R K S A M G N F M G K Brown M I K L K 
+P B G B M R G A J M D W E R J G P S G H J C A L A Bayer M T 
+P Boss G S P Proitsi J C S Sorbi F S G N C F J H M C D N P Bosco 
+R C C Brayne D G M Mancuso F M S Moebus P M M D Z W M 
+H Hampel A P M Bullido F Panza P C B N M Mayhaus L Lannfelt 
+H Hakonarson S P M M C M I V A S G Y E C C Razquin P Pastor I M 
+O C H Soininen S Mead D A B L F C H P Passmore T J M K Bettens 
+A Brice D Hannequin K R M R M H D R C G and C V B Data analysis 
+C A I V D Harold A C N R Sims C Bellenguez G J A L D J C B G W B 
+B G B G R T A T W N J A V S V C M A I D Z Y K B N V C F L A G 
+B K C Reitz J R G O V W A K K L L K L H N E R M L S W B M P M L 
+V M and J W Statistical analysis and interpretation J C L C A I V D Harold 
+A C N C Bellenguez G J A L D J C B G W B T A T W A V S V C M A I 
+B N V Y K C F L B K C Reitz A L F N A J R G R F A G B W A K K L L 
+E R M L S W B M P L J J L H P A H M A P V L J L L A F C M D V M 
+S Seshadri J W G D S and P A Drafting the manuscript J C L C A I V 
+D Harold A C N C Bellenguez A L D J C B A V S R M B M P J L H 
+M A P V L J L L A F C M D C V B S Seshadri J W G D S and P A 
+COMPETING FINANCIAL INTERESTS
+The authors declare competing financial interests 
+Reprints and permissions information available online http www nature com 
+reprints index html 
+Corder E H Gene dose apolipoprotein E type allele and the risk 
+Alzheimers disease late onset families Science 
+Genin E APOE and Alzheimer disease major gene with semi dominant
+inheritance Mol Psychiatry 
+Lambert J C Genome wide association study identifies variants CLU and
+ associated with Alzheimers disease Nat Genet 
+Harold D Genome wide association study identifies variants CLU and
+PICALM associated with Alzheimers disease Nat Genet 
+Seshadri S Genome wide analysis genetic loci associated with Alzheimer
+disease J Am Med Assoc 
+Hollingworth P Common variants A E 
+ and AP are associated with Alzheimers disease Nat Genet 
+Nature Genetics
+ADVANCE ONLINE PUBLICATION
+Naj A C Common variants E AP and are
+associated with late onset Alzheimers disease Nat Genet 
+Guerreiro R variants Alzheimers disease N Engl J Med 
+Jonsson T Variant associated with the risk Alzheimers disease 
+N Engl J Med 
+Miyashita A genetically associated with late onset Alzheimers
+disease Japanese Koreans and Caucasians PLoS ONE 
+Cruchaga C GWAS cerebrospinal fluid tau levels identifies risk variants
+for Alzheimers disease Neuron 
+Sawcer S Genetic risk and primary role for cell mediated immune
+mechanisms multiple sclerosis Nature 
+Nalls M A Imputation sequence variants for identification genetic risks
+for Parkinsons disease meta analysis genome wide association studies Lancet
+Rogaeva E The neuronal sortilin related receptor genetically
+associated with Alzheimer disease Nat Genet 
+Pottier C High frequency potentially pathogenic mutations autosomal
+dominant early onset Alzheimer disease Mol Psychiatry 
+Pandey P Activation mitogen activated protein kinase related
+adhesion focal tyrosine kinasedependent mechanism J Biol Chem 
+Huang Y CAK kinase signaling link for induction long term
+potentiation hippocampus Neuron 
+Williamson R hyperphosphorylation characteristic Alzheimers
+disease and not feature common other neurodegenerative diseases J Alzheimers
+Dis 
+Sulem P Genetic determinants hair eye and skin pigmentation 
+Europeans Nat Genet 
+Adeyemo A A genome wide association study hypertension and blood
+pressure African Americans PLoS Genet 
+Larsson M GWAS findings for human iris patterns associations with variants
+ genes that influence normal neuronal pattern development Am J Hum Genet 
+Kajiho H novel GEF interacting with amphiphysin II involved
+ the early endocytic pathway J Cell Sci 
+Chapuis J Increased expression mediates Alzheimer genetic risk
+ modulating tau pathology Mol Psychiatry doi February
+He F Structural insight into the zinc finger CW domain histone
+modification reader Structure 
+Yokoyama K NYAP phosphoprotein family that links K 
+signalling neurons EMBO J 
+Gallo J M Spickett C The role CELF proteins neurological disorders 
+RNA Biol 
+Del Villar K Miller C A Down regulation DENN MADD TNF receptor binding
+protein correlates with neuronal cell death Alzheimers disease brain and
+hippocampal neurons Proc Natl Acad Sci USA 
+Duriez B A common variant combination with nonsense mutation 
+member the thioredoxin family causes primary ciliary dyskinesia Proc Natl 
+Acad Sci USA 
+Pluskota E The integrin coactivator plays critical role 
+angiogenesis mice and zebrafish Blood 
+Shulman J M Functional screening Drosophila identifies Alzheimers
+disease susceptibility genes and implicates Tau mediated mechanisms Hum Mol 
+Genet doi hmg October 
+Kirsch K H Georgescu M M Ishimaru S Hanafusa H CMS adapter
+molecule involved cytoskeletal rearrangements Proc Natl Acad Sci USA 
+Bao M AP complex positively regulates plasmacytoid dendritic
+cell receptor signaling inhibiting the ubiquitin ligase Cbl J Immunol 
+Brauer H Leukemia associated mutations inhibit its enzymatic
+activity interaction with the GM CSF receptor and and its ability inactivate
+K AKT signaling Cell Signal 
+Le Meur N C haploinsufficiency caused either microdeletion the 
+region mutation responsible for severe mental retardation with stereotypic movements 
+epilepsy and cerebral malformations J Med Genet 
+Akhtar M W In vivo analysis transcription factors synapse
+regulation and neuronal survival PLoS ONE 
+Griciuc A Alzheimers disease risk gene inhibits microglial uptake 
+amyloid Neuron 
+Lambert J C Amouyel P Genetics Alzheimers disease new evidences for
+ old hypothesis? Curr Opin Genet Dev 
+Lambert J C Implication the immune system Alzheimers disease evidence
+from genome wide pathway analysis J Alzheimers Dis 
+Jones L Genetic evidence implicates the immune system and cholesterol
+metabolism the aetiology Alzheimers disease PLoS ONE 
+Brouwers N Alzheimer risk associated with copy number variation the
+complement receptor increasing binding sites Mol Psychiatry 
+Bettens K Sleegers K Van Broeckhoven C Genetic insights Alzheimers
+disease Lancet Neurol 
+ Nature America Inc All rights reserved 
+letters
+Jean Charles Carla A Denise Adam C 
+Rebecca Cline Gyungah Anita L Joshua C 
+Gary W Benjamin Giancarlo Tricia A Nicola 
+Albert V Vincent Charlene M Arfan Diana 
+Badri N Yoichiro Chiao Feng Amy Helena Brian 
+Melanie L Agustin Marie Thrse Seung Hoan Christiane 
+Florence Paul Alfredo Olivier Annette L 
+Joseph D Dominique Paul K Clinton Tim 
+Vilmundur Carlos David Najaf Claudine Oscar L 
+Philip L De Vincent Janet A Denis Simon 
+Luc Francisco J Mor David C Gudny Kristel 
+Alison M Nathalie Fi Matthew J Michael Kristelle 
+M Ilyas Lina Pascale Bernadette Eric B 
+Robert Amanda J Carole Stephen David Seth 
+Ekaterina John Peter St Jordi Alberto 
+Anthony Debby W Lei Magda Paola Boss Gianfranco 
+Petroula John Sandro Florentino Nick C 
+John Maria Candida Deniz Paolo Robert Carol 
+Daniela Michelangelo Fiona European Alzheimers Disease Initiative
+ EADI Genetic and Environmental Risk Alzheimers Disease GERAD Alzheimers Disease Genetic
+Consortium ADGC Cohorts for Heart and Aging Research Genomic Epidemiology CHARGE 
+Susanne Patrizia Maria Del Wolfgang Harald 
+Alberto Maria Francesco Paolo Benedetta 
+John R Manuel Lars Hakon Sabrina 
+Minerva M Martin Duane Victoria Fanggeng 
+Otto Steven G Eliecer Kara L Wei 
+Cristina Pau Ignacio Michael J Kelley M 
+Palmi V Onofre Michael C O Laura B 
+Hilkka Deborah Simon Thomas H Mosley David A 
+Tamara B Laura Clive Renee F A G Peter 
+Thomas J Karolien Jerome I Alexis Kevin 
+Tatiana M Walter A Didier John F Michael A 
+Karen Kathryn L John S K Eric Matthias 
+Merc Mikko Eden R Reinhold Dan 
+Li San Jean Franois Richard Christophe Albert 
+Markus M N Caroline Bruce M Lesley Jonathan L 
+Peter A Mark Margaret A Lenore J 
+Lindsay A Cornelia M van Christine Van Valentina 
+Sudha Julie Gerard D Philippe 
+INSERM 
+ Lille France Universit Lille Lille France Institut Pasteur Lille Lille France Department Neurology Erasmus MC University Medical
+Center Rotterdam The Netherlands Department Epidemiology Erasmus MC University Medical Center Rotterdam The Netherlands Institute Psychological
+Medicine and Clinical Neurosciences Medical Research Council MRC Centre for Neuropsychiatric Genetics Genomics Cardiff University Cardiff UK 
+Department Biostatistics and Epidemiology Perelman School Medicine University Pennsylvania Philadelphia Pennsylvania USA Center for Clinical
+Epidemiology and Biostatistics Perelman School Medicine University Pennsylvania Philadelphia Pennsylvania USA Department Medicine Biomedical
+Genetics Boston University School Public Health Boston Massachusetts USA Department Ophthalmology Boston University School Medicine Boston 
+Massachusetts USA Department Biostatistics Boston University School Public Health Boston Massachusetts USA Cardiovascular Health Research Unit 
+Department Medicine University Washington Seattle Washington USA John P Hussman Institute for Human Genomics University Miami Miami 
+Florida USA Dr John T Macdonald Foundation Department Human Genetics University Miami Miami Florida USA Functional Genomics Center
+Zurich Eidgenssische Technische Hochschule ETH University Zurich Zurich Switzerland Department Molecular Physiology and Biophysics Vanderbilt
+University Nashville Tennessee USA Faculty Medicine University Iceland Reykjavik Iceland Icelandic Heart Association Kopavogur Iceland 
+Department Radiology Erasmus MC University Medical Center Rotterdam The Netherlands Netherlands Consortium for Healthy Aging Leiden 
+The Netherlands Centre National Gnotypage Institut Gnomique Commissariat lEnergie Atomique Evry France Fondation Jean Dausset Centre dEtude
+ Polymorphisme Humain CEPH Paris France Department Pathology and Laboratory Medicine University Pennsylvania Perelman School Medicine 
+Philadelphia Pennsylvania USA Institute for Molecular Biology and Biochemistry Medical University Graz Graz Austria Memory Clinic Fundaci
+Alzheimer Centre Educacional ACE Institut Catal Neurocincies Aplicades Barcelona Spain Taub Institute Alzheimers Disease and the Aging Brain 
+aDVANCE ONLINE PUBLICATION
+Nature Genetics
+ Nature America Inc All rights reserved 
+letters
+Department Neurology Columbia University New York New York USA Gertrude H Sergievsky Center Department Neurology Columbia University New York 
+New York USA Centre National Reference pour les Malades Alzheimer Jeunes CNR MAJ Centre Hospitalier Rgional Universitaire Lille Lille France 
+Department Psychiatry and Psychotherapy University Bonn Bonn Germany Institute Human Genetics University Bonn Bonn Germany University
+Paris Descartes Sorbonne Paris V Broca Hospital Geriatrics Department Paris France Department Epidemiology University Washington Seattle 
+Washington USA Department Global Health University Washington Seattle Washington USA Department Neuroscience Mount Sinai School 
+Medicine New York New York USA Department Psychiatry Mount Sinai School Medicine New York New York USA Department Genetics and Genomic
+Sciences Mount Sinai School Medicine New York New York USA CNR MAJ INSERM Rouen University Hospital Rouen France Department 
+Medicine University Washington Seattle Washington USA German Center for Neurodegenerative Diseases DZNE Bonn Germany Institute for Medical
+Biometry Informatics and Epidemiology University Bonn Bonn Germany Department Psychiatry Washington University School Medicine St Louis 
+Missouri USA Hope Center Program Protein Aggregation and Neurodegeneration Washington University School Medicine St Louis Missouri USA Ageing
+Group Centre for Public Health School Medicine Dentistry and Biomedical Sciences Queens University Belfast UK INSERM Faculty Medicine 
+Hpital La Colombire Montpellier France Departments Neurology University Pittsburgh School Medicine Pittsburgh Pennsylvania USA Program 
+Translational NeuroPsychiatric Genomics Institute for the Neurosciences Department Neurology Psychiatry Brigham and Womens Hospital and Harvard Medical
+School Boston Massachusetts USA Program Medical and Population Genetics Broad Institute Boston Massachusetts USA Rush Institute for Healthy
+Aging Department Internal Medicine Rush University Medical Center Chicago Illinois USA Institute Psychiatry Kings College London Denmark Hill 
+London UK INSERM Victor Segalen University Bordeaux France Departamento Genmica Estructural Neocodex Seville Spain Cambridge
+Institute for Medical Research University Cambridge Cambridge UK Neurodegenerative Brain Diseases Group Department Molecular Genetics VIB 
+Antwerp Belgium Laboratory Neurogenetics Institute Born Bunge University Antwerp Antwerp Belgium Neurogenomics Division Translational Genomics
+Research Institute Phoenix Arizona USA Mercers Institute for Research Aging St James Hospital and Trinity College Dublin Ireland Institute Genetics 
+Queens Medical Centre University Nottingham Nottingham UK Department Human Genetics University Pittsburgh Pittsburgh Pennsylvania USA 
+Alzheimers Disease Research Center University Pittsburgh Pittsburgh Pennsylvania USA Aging Research Center Department Neurobiology Care Sciences
+and Society Karolinska Institutet and Stockholm University Stockholm Sweden Group Health Research Institute Group Health Seattle Washington USA 
+Department Medicine and Partners Center for Personalized Genetic Medicine Division Genetics Brigham and Womens Hospital and Harvard Medical School 
+Boston Massachusetts USA Department Psychiatry and Behavioral Sciences Miller School Medicine University Miami Miami Florida USA University
+ Bristol Institute Clinical Neurosciences School Clinical Sciences Frenchay Hospital Bristol UK Tanz Centre for Research Neurodegenerative Disease 
+University Toronto Toronto Ontario Canada Institute Primary Care and Public Health Cardiff University Neuadd Meirionnydd University Hospital Wales 
+Heath Park Cardiff UK Department Clinical Neurosciences University Cambridge Cambridge UK Neurology Department Biomedical Research Institute
+Sant Pau IIB Sant Pau Sant Pau Hospital Universitat Autnoma Barcelona Barcelona Spain Center for Networker Biomedical Research Neurodegenerative
+Diseases CIBERNED Barcelona Spain Geriatric Research Education and Clinical Center GRECC Veteran Administration Puget Sound Health Care System
+ VAPSHCS Seattle Washington USA Department Neurological Sciences Rush University Medical Center Chicago Illinois USA Department Neurology 
+Aristotle University Thessaloniki Thessaloniki Greece Clinical and Behavioral Neurology Fondazione Santa Lucia Rome Italy MRC Prion Unit Department 
+Neurodegenerative Disease University College London Institute Neurology London UK NEUROFARBA Department Neuroscience Psychology Drug Research
+and Child Health University Florence Florence Italy Centro Ricerca Trasferimento Alta Formazione DENOTHE University Florence Florence Italy 
+Department Immunology Hospital Universitario Dr Negrin Las Palmas Gran Canaria Spain Dementia Research Centre Department Neurodegenerative
+Disease University College London Institute Neurology London UK Department Molecular Neuroscience Institute Neurology London UK Reta Lilla
+Weston Laboratories Institute Neurology London UK Istituto Ricovero Cura Carattere Scientifico IRCCS Associazione Oasi Maria Santissima Srl Troina 
+Italy Oxford Healthy Aging Project OHAP Clinical Trial Service Unit University Oxford Oxford UK Institute Public Health University Cambridge 
+Cambridge UK University Milan Fondazione C Granda IRCCS Ospedale Policlinico Milan Italy Neurological Clinic University Pisa Pisa Italy MRC
+Biostatistics Unit Cambridge UK Full lists members and affiliations appear the Supplementary Note Urban Epidemiology Institute for Medical
+Informatics Biometry and Epidemiology University Hospital Essen University Duisburg Essen Essen Germany Section Gerontology and Geriatrics Department
+ Clinical and Experimental Medicine University Perugia Perugia Italy Section Neuroscience and Clinical Pharmacology Department Biomedical
+Sciences University Cagliari Cagliari Italy Department Psychiatry University Frankfurt Frankfurt Main Germany Department Psychiatry 
+Ludwig Maximilians University Munich Germany Gerontology and Geriatrics Research Laboratory IRCCS Casa Sollievo della Sofferenza San Giovanni Rotondo 
+Italy Centro Biologa Molecular Severo Ochoa Consejo Superior Investigaciones CientficasUniversidad Autnoma Madrid Madrid Spain Centro 
+Investigacin Biomdica Red sobre Enfermedades Neurodegenerativas CIBERNED Madrid Spain Instituto Investigacin Sanitaria Hospital Paz IdIPaz 
+Madrid Spain Departement Geriatrics Center for Aging Brain University Bari Bari Italy Department Neuroscience University Parma Parma Italy 
+Center for Cognitive Disorders Azienda Unita Sanitaria Local AUSL Parma Italy Department Psychiatry Saarland University Hospital Homburg Germany 
+Department Public Health Geriatrics Uppsala University Uppsala Sweden Center for Applied Genomics Childrens Hospital Philadelphia Philadelphia 
+Pennsylvania USA Department Neuroscience Mayo Clinic Jacksonville Florida USA National Alzheimers Coordinating Center University Washington 
+Seattle Washington USA Genetica Molecular Hospital Universitario Central Asturias Oviedo Spain Neurogenetics Laboratory Division Neurosciences 
+Center for Applied Medical Research University Navarra School Medicine Pamplona Spain CIBERNED Instituto Salud Carlos III Madrid Spain 
+Neurology Service Marqus Valdecilla University Hospital University Cantabria and Instituto Formacin Investigacin Marqus Valdecilla IFIMAV 
+Santander Spain CIBERNED Marqus Valdecilla University Hospital University Cantabria and IFIMAV Santander Spain Department Medical and
+Molecular Genetics Indiana University Indianapolis Indiana USA Geriatric Department Landspitali University Hospital Reykjavik Iceland Institute 
+Clinical MedicineNeurology University Eastern Finland Kuopio Finland Department Neurology Kuopio University Hospital Kuopio Finland Department
+ Epidemiology Harvard School Public Health Boston Massachusetts USA Department Psychiatry Massachusetts General Hospital Harvard Medical
+School Boston Massachusetts USA Department Medicine Geriatrics University Mississippi Medical Center Jackson Mississippi USA Rush
+Alzheimers Disease Center Rush University Medical Center Chicago Illinois USA Department Geriatric Medicine Karolinska University Hospital Huddinge 
+Stockholm Sweden Division Clinical Neurosciences School Medicine University Southampton Southampton UK Department Pathology University
+ Washington Seattle Washington USA Medical Genetics Institute Cedars Sinai Medical Center Los Angeles California USA INSERM UMRS CNRS
+UMR Universit Pierre Marie Curie Centre Recherche lInstitut Cerveau Molle Epinire CRICM Hpital Salptrire Paris France 
+Assistance Publique des Hpitaux Paris AP HP Hpital PitiSalptrire Paris France Laboratory Neurogenetics Intramural Research Program 
+National Institute Aging Bethesda Maryland USA Faculty Medicine Imperial College St Marys Hospital London UK Department Biology Brigham
+Young University Provo Utah USA Human Genome Sequencing Center Baylor College Medicine Houston Texas USA Human Genetics Center University
+ Texas Health Science Center Houston Houston Texas USA Division Epidemiology University Texas Health Sciences Center Houston Houston Texas 
+USA Hospital Universitari Vall dHebronInstitut Recerca Universitat Autnoma Barcelona VHIR UAB Barcelona Spain Department Neurology 
+Medical University Graz Graz Austria Department Psychiatry University Halle Halle Germany Centre Mmoire Ressources Recherche 
+Bordeaux Centre Hospitalier Universitaire CHU Bordeaux Bordeaux France INSERM Victor Segalen University Bordeaux France Institute 
+Human Genetics Department Genomics Life and Brain Center University Bonn Bonn Germany Department Neurobiology Karolinska Institutet Care
+Sciences and Society Karolinska InstituteAlzheimers Disease Research Center KIADRC Stockholm Sweden Department Health Service University 
+Washington Seattle Washington USA Vanderbilt Center for Human Genetics Research Vanderbilt University Nashville Tennessee USA McGill University
+and Gnome Qubec Innovation Centre Montreal Quebec Canada Laboratory Epidemiology and Population Sciences Intramural Research Program 
+National Institute Aging Bethesda Maryland USA Department Epidemiology Boston University School Public Health Boston Massachusetts USA 
+Department Neurology Boston University School Medicine Boston Massachusetts USA Center for Medical Systems Biology Leiden The Netherlands 
+Centre Hospitalier Rgional Universitaire Lille Lille France These authors contributed equally this work These authors jointly directed this work 
+Correspondence should addressed P A philippe amouyelpasteur lille J W williamsjcardiff 
+Nature Genetics
+ADVANCE ONLINE PUBLICATION
+ONLINE METHODS
+ Nature America Inc All rights reserved 
+All case control studies are described Table the Supplementary Note
+ see full description the I GAP data sets and Supplementary Tables 
+and Written informed consent was obtained from study participants for
+those with substantial cognitive impairment from caregiver legal guardian
+ other proxy and the study protocols for all populations were reviewed and
+approved the appropriate institutional review boards 
+Imputation and SNP selection for stage analysis After quality control
+criteria were finalized for each individual and each sample collection SNPs
+with call rates were excluded Supplementary Note 
+ ref MaCH software Supplementary Table was used
+ impute the genotypes all participants with haplotypes derived from samples European ancestry the Genome Project interim release
+based the sequence data freeze from August and phased haplotypes
+from December In each data set SNPs with info score quality
+estimates less than indicated MaCH respectively
+ with these two quality estimates described equivalent were excluded
+from analyses Similarly SNPs with MAF were also excluded After
+these procedures maximum SNPs were retained that were
+present least data set 
+In each case control data set the association LOAD with genotype dosage was analyzed logistic regression model including covariates for age 
+sex and principal components adjust for possible population stratification
+ Supplementary Table For the three CHARGE cohorts with incident
+Alzheimers disease data Cox proportional hazards models were used The four
+consortia used different but analogous software for these analyses PLINK 
+ R Supplementary Table Three these tools
+were applied the EADI data set for quality control and very similar results
+were observed After the exclusion SNPs showing logistic regression coefficient P value equal the maximum number SNPs any
+data set was Each consortium uploaded summarized results for each
+SNP internal I GAP website for access members each consortium 
+SNPs genotyped imputed least Alzheimers disease cases and
+ control samples were included the meta analysis This threshold
+represented the best compromise between maximizing the total number 
+SNPs and maximizing the number samples which the given SNP was
+present Indeed analyzing all SNPs available least one study could have
+greatly increased the risk false positives On the other hand studying SNPs
+only present all studies could have led the removal SNPs potential
+interest even those SNPs could have reached adequate statistical power 
+ more limited number data sets false negatives This approach allowed
+ increase homogeneity between studies for some SNPs excluding poor
+quality data present only limited number data sets small size This last
+selection step led final number SNPs stage analysis 
+iSelect microarray design and stage SNP quality control SNPs associated with Alzheimers disease risk and exhibiting P value stage 
+analysis were selected for replication A list SNPs was submitted 
+ devoted Illumina website develop iSelect microarray A total 
+SNPs exhibiting Illumina score superior equal were selected for
+microarray production During the Illumina production process SNPs
+failed oligonucleotide synthesis leading final number SNPs
+for which genotyping was attempted Genotyping failure led the further
+exclusion additional SNPs result the SNPs having 
+intensity signal not being polymorphic iii only
+being found heterozygous state having mismatched alleles
+compared Genomes Project data Finally several quality control measures were applied the remaining SNPs detect potential
+biases genotyping We first tested for discrepancies allelic frequency
+between the Genomes Project EUR reference panel and stage data 
+Allele frequencies for stage data were estimated controls see
+Stage sample quality control and after exclusion Finnish individuals 
+The allelic test was performed with PLINK and P values were computed
+ performing permutations avoid assumption HardyWeinberg equilibrium In total SNPs showed highly significant
+difference terms allele frequency between the Genomes Project
+Nature Genetics
+EUR reference panel and stage data P Supplementary Fig 
+and were excluded from the analysis 
+Other SNP quality control steps were performed separately data for each
+country A SNP was considered low genotyping quality country data
+set had missing genotype data for more than the individuals 
+the P value for the Hardy Weinberg test controls was lower than 
+ the P value for the test for differences missingness between cases and
+controls was lower than see Supplementary Table for differences
+ missingness assessed for suggestive and significant hits across European
+populations These quality control steps led the removal SNPs with
+low genotyping quality data from all countries 
+After SNP quality control SNPs were considered high genotyping quality least country and were analyzed stage For imputed
+data sets SNPs were considered low imputation quality their info
+score was 
+Of note the SNPs that were unable successfully genotype 
+only were not tagged another successfully genotyped variant 
+and associated with P value least times higher than that the missing SNP Because the vast majority the untagged SNPs exhibited stage 
+P values between and the likelihood missing true
+association was considered low 
+Stage sample quality control The iSelect microarray contained SNPs 
+ which were devoted stage These supplementary SNPs included
+various genetic data that allowed further refine our quality control processes On the basis data for all these SNPs excluded individuals who
+had more than missing genotypes showed discrepancy between reported
+sex and sex estimated the basis genetic data genetic sex showed
+evidence non European ancestry Duplicated and related individuals were
+identified Supplementary Table Briefly discrepancies sex were examined using genetic sex estimated PLINK SNPs chromosome X 
+We also removed individuals from single plate for whom abnormal
+number discrepancies sex were observed suggesting that sample mixing
+had occurred Using panel ancestry informative markers AIMs 
+performed principal component analysis PCA HapMap data with the
+function SMARTPCA from EIGENSOFT software For each country 
+individuals were projected onto the first two PCA axes define their genetic
+ancestry Individuals with evidence non European ancestry were then identified applying Bayesian clustering approach their coordinates 
+the first two axes Identity descent IBD was computed for all pairs 
+individuals using PLINK and individuals pair with IBD greater than 
+were considered duplicates If clinical data for duplicated individuals
+were discordant both individuals were excluded Otherwise the individual
+with the greater proportion missing genotype was excluded Similarly IBD
+was computed for all pairs individuals data from each country separately 
+using autosomal SNPs with MAF and selected minimize LD 
+Individuals pairs with IBD greater than were considered related
+and were iteratively removed obtain sample unrelated individuals
+within each country data set 
+Finally individuals with missing clinical data and controls less than
+ years age were excluded from the analysis After sample quality
+control Supplementary Table individuals cases and 
+controls were available for analysis stage 
+Statistical analysis For the stage meta analysis undertook fixed effects
+inverse variance weighted meta analysis with the standard errors the
+ coefficient scaled the square roots study specific genomic inflation
+factors estimated before combining the summary statistics across data sets 
+Each consortium performed independent stage meta analysis after downloading the data files available the I GAP website Two software packages were used for meta analysis and Very similar
+results were generated independently the software used and expected 
+perfect matching was observed between the analyses undertaken each 
+the consortia 
+For stage association tests were performed for each country for all highquality genotyped SNPs under additive model using logistic regression
+ implemented PLINK Analysis was adjusted for age sex and principal
+doi 
+ Nature America Inc All rights reserved 
+ omponents when necessary Using SMARTPCA PCA was performed 
+individuals from each country separately Difference PCA coordinates
+between cases and controls were tested for the first four principal components 
+and analysis was further adjusted principal components the P value this
+test was lower than PCA for Bonn stage samples was based GWAS
+data For imputed data sets association tests were performed using likelihood
+score tests for missing data implemented SNPTEST Genotyped and
+imputed German samples were analyzed separately and results were then
+combined fixed effects meta analysis using the inverse variance approach
+ implemented METAL Using this approach fixed effects meta analysis
+was then performed combine stage results from the different countries 
+We also performed the analysis separately for each center stage and combined the results fixed effects meta analysis Results were similar those
+obtained when analysis was performed country data not shown 
+We finally generated fixed effects inverse varianceweighted meta analyses
+ combining summary statistics across ADGC CHARGE EADI GERAD
+and stage data country At this point performed Cochrans Q test for
+heterogeneity and generated estimates with METAL evaluate the possible
+effect study heterogeneity the results 
+A graphic representation the association signal the stage data was
+generated with LocusZoom for all the loci interest reaching 
+genome wide significant level after combined stage and stage analyses 
+PAF was calculated using the Levin 
+Annotation I GAP top SNPs for eQTLs To gain further biological insights 
+ explored reported associations between SNPs the top I GAP loci and
+gene expression We first selected all SNPs that reached genome wide signi
+ficance P value the combined stage and stage analysis
+and were located window upstream downstream the top
+doi 
+SNP each locus Table We then searched for published data gene
+expression associated with each these SNPs the eQTL database from the
+Pritchard laboratory see URLs For each reported eQTL gene and each type
+ eQTL association defined this database then counted the number
+ reported eQTL SNPs and selected the one with the lowest P value 
+Howie B N Donnelly P Marchini J A flexible and accurate genotype imputation
+method for the next generation genome wide association studies PLoS Genet 
+Li Y Willer C J Ding J Scheet P Abecasis G R MaCH using sequence
+and genotype data estimate haplotypes and unobserved genotypes Genet 
+Epidemiol 
+Purcell S PLINK toolset for whole genome association and populationbased linkage analysis Am J Hum Genet 
+Marchini J Howie B Myers S McVean G Donnelly P A new multipoint
+method for genome wide association studies via imputation genotypes 
+Nat Genet 
+Aulchenko Y S Struchalin M V van Duijn C M ProbABEL package for genomewide association analysis imputed data BMC Bioinformatics 
+Patterson N Price A L Reich D Population structure and eigenanalysis 
+PLoS Genet 
+Bellenguez C A robust clustering algorithm for identifying problematic
+samples genome wide association studies Bioinformatics 
+Willer C J Li Y Abecasis G R METAL fast and efficient meta analysis 
+genomewide association scans Bioinformatics 
+Mgi R Morris A P GWAMA software for genome wide association metaanalysis BMC Bioinformatics 
+Pruim R J LocusZoom regional visualization genome wide association
+scan results Bioinformatics 
+Levin M L The occurrence lung cancer man Acta Unio Int Contra Cancrum
+Nature Genetics

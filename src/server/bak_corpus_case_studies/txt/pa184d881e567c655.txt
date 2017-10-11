@@ -1,0 +1,530 @@
+Mol Neurobiol
+DOI 
+Prevention Hippocampal Neuronal Damage and Cognitive
+Function Deficits Vascular Dementia Dextromethorphan
+Xiaofeng Xu Bin Zhang Kaili Lu Jiangshan Deng Fei Zhao Bing qiao Zhao 
+Yuwu Zhao 
+Received October Accepted January 
+ Springer ScienceBusiness Media New York 
+Abstract Dextromethorphan DM non competitive antagonist NMDA receptors and widely used component 
+cough medicine Recently its indication has been extended
+experimentally wide range disorders including
+inflammation mediated central nervous system disorders such
+ Parkinson disease PD and multiple sclerosis MS In this
+study investigate whether DM treatment has protective
+effects the hippocampal neuron damage induced bilateral occlusion the common carotid arteries two vessel occlusion VO animal model vascular dementia VaD 
+SpragueDawley SD weeks age rats were subjected
+ the VO and DM was injected intraperitoneally once per
+day for days Neuron death glial activation and cognitive
+function were assessed days after VO 
+ and treatment provided protection against neuronal death and glial activation 
+the hippocampal subfield and reduced cognitive impairment induced VO rats The study also demonstrates
+that activation the pathway and upregulation 
+superoxide dismutase SOD play important roles these
+effects These results suggest that DM effective treating
+VaD and protecting against oxidative stress which strongly
+implicated the pathogenesis VaD Therefore the present
+ Yuwu Zhao
+ com
+Department Neurology Shanghai Jiao Tong University Affiliated
+Sixth Peoples Hospital No Yishan Road Xuhui District 
+Shanghai China
+State Key Laboratory Medical Neurobiology Fudan University 
+ Yixueyuan Road Shanghai China
+study suggests that DM treatment may represent new and
+promising protective strategy for treating VaD 
+Keywords Vascular dementia Dextromethorphan 
+Microglial activation Oxidative stress
+Introduction
+Following Alzheimers disease vascular dementia VaD 
+the second most common type dementia VaD caused
+ range cardiovascular cerebrovascular conditions
+that may lead ischemic hypoperfusive hemorrhagic
+brain lesions that are characterized loss cognitive functions Considerable evidence indicates chronic cerebral
+hypoperfusion CCH contributes the development and progression dementia through pathways inflammation and
+oxidative stress blood vessels and results damage 
+learning and memory functions 
+Oxidative stress believed play important role the
+pathogenesis different neurodegenerative diseases agerelated patients such those with Parkinsons disease PD 
+ Huntingtons disease and amyotrophic lateral sclerosis
+ An increasing number studies have shown that oxidative
+stress strongly implicated the pathogenesis VaD and
+particularly nicotinamide adenine dinucleotide phosphate
+ NADPH oxidase mediated oxidative stress plays 
+important role neuronal cell death and cognitive dysfunction 
+VaD Several studies have confirmed
+that antioxidant therapy such the use vitamins pioglitazone aliskiren and curcumin may play role the prevention
+and treatment AD and VaD However antioxidant
+therapies have not achieved the intended results New and effective intervention strategies for preventing VO induced neuron
+death and cognitive impairment need further investigated 
+Mol Neurobiol
+Dextromethorphan DM known component cough
+medicine that widely used clinics At doses ranging from
+ DM inhibits voltage gated channels stimulates receptors and works non competitive antagonist N methyl D aspartate NMDA receptors For these
+properties DM has been confirmed exert neuroprotection 
+models cerebral ischemia spinal cord injury and epilepsy
+ Recently accumulating evidence has demonstrated that
+DM other morphinans could inhibit the production reactive
+oxygen species ROS activated microglia macrophages 
+exert neuroprotective effect age related diseases such 
+atherosclerosis hypertension PD and MS 
+Furthermore DM has been used clinically for decades with 
+proven safety record and small molecule that can administered orally suggesting that DM ideal for long term treatment Based these properties DM the current study was
+conducted test the hypothesis that DM may improve cognitive
+function VO animals inhibiting oxidative stress The results this study may provide novel alternative strategy 
+ameliorate the cognitive dysfunction VaD patients 
+In this study explored the neuroprotective effects and
+mechanisms using the VO rat model We found that DM
+treatment could significantly ameliorate neuron degeneration
+ the hippocampal region and improve cognitive function The pathway and upregulation SOD were
+involved the protection and mitigation levels oxidative
+stress induced CCH 
+Materials and Methods
+Animals and Treatment
+This animal experiment was conducted under the supervision
+ Shanghai Jiao Tong University Animal Ethics Committee 
+Healthy adult male SpragueDawley SD rats aged weeks
+were housed with lightdark cycle room temperature
+ C and with free access food and water 
+The primary antibody mouse anti glial fibrillary acidic protein GFAP mouse anti myelin basic protein MBP and DM
+were purchased from Sigma St Louis MO USA The rabbit
+anti heme oxygenase isoform was obtained from
+Stressgen Victoria BC Canada and the rabbit anti actin
+was from Bioss Beijing China SOD and were obtained from Santa Cruz Biotechnology Santa Cruz CA US 
+Rabbit anti NeuN rabbit rabbit rabbit
+anti TNF and rabbit anti nuclear factor related factor 
+ were obtained from Abclonal Technology Cambridge 
+MA USA Mouse nonenal HNE and
+mouse anti dephosphorylated neurofilament protein detected
+using the antibody were from Abcam Cambridge 
+MA US and Dako Carpinteria CA US respectively Goat
+ was obtained from Millipore Billerica MA US 
+The secondary antibody Alexa Fluor donkey anti mouse
+ anti rabbit IgG H L and Alexa Fluor donkey antirabbit and anti goat IgG H L were obtained from Invitrogen
+ Carlsbad CA USA All other chemicals and reagents were 
+the highest grade available from local commercial sources 
+After administration chloral hydrate Kg for
+anesthesia the common carotid artery was isolated from the
+adjacent vagus nerve and double ligated with silk sutures
+ perform the two vessel occlusion VO Sham operated rats
+were subjected the same procedure except for the carotid
+ligation Animals were randomly divided into the following
+groups group sham group with occlusion group control group with VO procedure group VO group with
+ administration and group VO group with 
+administration DM was dissolved sterile saline and administered intraperitoneal injection Adult SD rats received VO
+and were administered saline min after
+surgery and every day until the rats were euthanized 
+Morris Water Maze
+The Morris water maze MWM was used test the alterations assess cognitive and behavioral performance between the different groups On day after VO the rats
+began the day MWM test The pool was diameter
+and filled with water and latex liquid C depth 
+ During the acquisition training the translucent acrylic
+platform diameter was located the center the
+northeast quadrant and submerged below the water
+surface The rats were subjected four trials per day for five
+consecutive days In each the four trials the rats were gently
+released into the water facing the tank wall four different
+starting positions equally spaced around the perimeter the
+pool The rats were given maximum find the
+hidden platform Upon reaching the platform the rats were
+allowed stay for If the rat failed find the
+platform within the training was terminated and maximum score was assigned The rat was then guided 
+the hidden platform hand and allowed stay the platform for The latency escape onto the hidden platform
+was recorded the performance spatial learning To assess
+spatial memory probe trial was performed after the last
+training trial In this trial the platform was removed from the
+tank and the rats were allowed swim freely for the
+pool before they were removed from the water The pool was
+located the center room containing prominent spatial
+cues and had recessed video camera mounted the ceiling
+ monitor swim paths The video signal was relayed 
+computer running specialized data acquisition software
+ Watermaze Actimetrics Wilmette IL USA that records
+the path taken the animal On day after UCCAO the
+rats were euthanized and brain tissues were removed for immunohistochemical staining and western blots 
+Mol Neurobiol
+Immunofluorescence Staining
+SD rats were anesthetized with chloral hydrate 
+Kg and then perfused transcardially with heparin 
+saline followed paraformaldehyde mol L phosphate buffer saline PFA PBS pH The brains were removed and post fixed PFA solution for and then
+cryoprotected and sucrose C respectively 
+Each brain block containing the striatum was cut into
+ thick coronal sections freezing microtome The
+sections were incubated with bovine serum albumin and
+ Triton PBS for and then incubated overnight C with primary antibodies specific neurons
+ NeuN GFAP SOD
+ and PBS Alexa Fluor goat
+anti mouse IgG H L and Alexa Fluor goat
+anti rabbit anti mouse IgG H L were used secondary
+antibodies Invitrogen USA visualize the staining 
+Negative control tests were run without primary secondary
+antibodies Images were acquired with laser confocal microscope Leica Microsystems Wetzlar Germany The images were processed with NIH ImageJ software and NeuN 
+ and positive cells were counted manually 
+ magnification Total cell counts were averaged from 
+least six sections each hippocampal region per animal 
+The data for GFAP and SOD are presented the
+percentage the average positive stained area the individual sections 
+Western Blotting
+Hippocampal and striatal tissues dissected from the whole
+brain were lysed with lysis buffer containing mmol L
+TrisHCl mmol L NaCl Nonidet sodium
+ L E D TA L
+phenylmethylsulfonyl fluoride PMSF and protease inhibitors pepstatin aprotinin leupeptin The
+lysate was centrifuged for min and the supernatant was used for analysis Protein concentrations were determined the Bradford assay kit Bio Rad Laboratories 
+USA Nuclear extracts were prepared with commercial kit
+according the manufacturers instructions Active Motif 
+Carlsbad CA A total protein was separated using
+ SDS polyacrylamide gels and transferred onto PVDF
+membranes After being blocked with milk for 
+membranes were incubated with the primary antibodies
+against 
+ and MBP overnight
+and then incubated with anti mouse rabbit secondary antibody conjugated horseradish peroxidase dilution 
+ for actin was detected anti actin
+monoclonal antibody using similar procedure 
+ensure equal samples protein Crossreactivity was
+visualized using ECL western blotting detection reagents
+and then analyzed through scanning densitometry UVP
+image system 
+Statistical Analysis
+Statistical analysis was performed using SPSS version 
+software for Windows SPSS Inc Chicago IL USA The
+results are presented the mean SEM One way analysis 
+variance ANOVA followed the StudentNewmanKeuls
+test was used compare differences between mean values for
+data involving more than two groups A probability value 
+P was taken indicate statistical significance The behavioral data were analyzed two way repeated measures
+analysis variance ANOVA 
+Results
+Neuronal Loss and Glial Cell Activation VO Operated
+Rats Is Attenuated Treatment After VO Brain
+Injury the Region the Hippocampus
+Hippocampal neuronal death was determined NeuN immunostaining tissue sections from the hippocampus obtained
+ days after VO operation As depicted Fig the
+number NeuN positive cells was significantly reduced 
+ the region the VO operated rats compared
+with sham operated rats P Fig and the loss 
+NeuN positive cells was mitigated treatment The
+number GFAP positive astrocytes and positive microglia Fig the hippocampal region rats were
+decreased after treatment The protein extracted from
+total hippocampal tissue was subjected western blot analysis using anti GFAP and antibodies 
+ GFAP and immunostaining the hippocampal
+ region indicated that expression was increased GFAP and were decreased the treated rats compared with the VO operated rats Fig 
+ Treatment Protects White Matter the Striatum
+and Optic Tract Area
+Immunostaining for neurofilament protein and
+western blots for MBP were used identify axonal and myelin injury the striatum respectively There were many neuronal fibers that intensely expressed the fiber fascicles the internal capsule the striatum the VOoperated rats Fig and decrease MBP was also
+observed western blots Fig However treatment could ameliorate the damage Chronic cerebral hypoperfusion caused large increase microglial activation sham 
+P the optic tract Fig Following 
+Mol Neurobiol
+Fig Hippocampal neuronal loss and glial activation VO operated
+rats are attenuated treatment after VO brain injury the
+hippocampal subfield Representative photographs tissue
+sections stained with NeuN red antibody GFAP green antibody and
+ red antibody from rat hippocampal area taken from the sham
+group Sham and VO operated group with without DM
+ VO Scale bars NeuN positive cell
+counts VO operated rats treated with were significantly
+restored the hippocampal area P compared with
+Sham P compared with VO P compared with DM 
+ GFAP positive astrocytes and positive microglia were
+reduced treatment P compared with Sham 
+P compared with VO P compared with 
+ treatment significantly reduced neuron loss and glial activation
+induced VO assessed western blots the hippocampus The data
+are presented the ratio GFAP and actin protein
+levels Each bar represents the mean SEM four independent experiments P compared with Sham P compared with VO 
+P compared with 
+treatment the number positive microglia the optic
+tract was significantly decreased compared with the
+VO operated rats P Fig 
+injury VaD The antioxidant enzymes play important roles
+ cellular self defense Once produced they are effective for
+long periods time they operate catalytically without being consumed Among these enzymes heme 
+ catalyzes the breakdown toxic heme and generates
+multiple neuroprotective molecules such biliverdin and carbon monoxide the one which recognized dynamic sensors cellular oxidative stress and likely arbiters tissue
+redox homeostasis the major transcription factor responsible for the upregulation therefore the levels 
+ Plays Critical Role DM Mediated
+Neuroprotection Against VO Rats
+ and are essential mediated neuroprotection against neuronal injury induced VO We investigated
+the cytoprotective mechanisms against the neuronal
+Mol Neurobiol
+Fig treatment protects
+white matter the striatum and
+optic tract area 
+Representative
+immunofluorescent staining for
+dephosphorylated neurofilament
+protein the striatum
+and the optic tract area 
+ days after DM treatment 
+ treatment attenuated the
+white matter impairment the
+striatum with lower intensity 
+ P 
+compared with Sham P 
+compared with VO P 
+compared with The
+microglial activation the optic
+tract area was significantly reduced the treatment
+ P compared with
+Sham P compared with
+VO P compared with
+ MBP the striatum 
+protected treatment 
+assessed western blots The
+data are presented the ratio 
+ actin protein levels 
+Each bar represents the mean
+ SEM four independent
+experiments P 
+compared with Sham P 
+compared with VO P 
+compared with 
+ and were assessed this study As shown 
+Fig the level was significantly increased 
+ treated rats To verify that mediates the rise 
+ this model the levels the cytoplasm and
+nucleus were assessed Western blots showed that there was 
+significant increase the nucleus and significant
+decrease the cytoplasm Fig verifying that
+the nuclear translocation mediates the rise 
+this model Furthermore assessed the level 
+marker proapoptotic protein the hippocampal area 
+The data show that positive cells were identified 
+the VO operated group whereas few positive
+cells were observed the sham operated rats However the
+number positive cells was reduced the
+ treated VO group compared with the VO operated
+rats P Fig Together these results are consistent with the hypothesis that and are essential for
+ mediated neuroprotection VaD 
+ Treatment Decreases Oxidative Stress
+ the Hippocampal Area
+Given the crucial role oxidative stress the pathogenesis 
+VaD biomarkers oxidative stress including endogenous
+antioxidant enzymes and lipid oxidation were assessed As
+shown Fig the activity endogenous antioxidant
+enzymes such SOD was increased Fig P 
+and HNE measure protein oxidation Fig 
+P and the inflammation mediator level TNF 
+ Fig P was significantly decreased the hippocampus after the treatment compared with the VOoperated rats Recently was reported that ROS produced
+ novel molecular source ROS induced hippocampal neurodegeneration damaged nuclear DNA and
+caused cognitive impairment chronic cerebral hypoperfused
+rats Therefore the level was assessed As shown 
+Fig treatment reduced the level the
+Mol Neurobiol
+Fig upregulation plays role DM mediated neuroprotection
+against VO rats The level the nucleus was increased 
+and the level the cytoplasm was decreased with the 
+treatment The results suggest that treatment mediates nuclear
+translocation The expression was significantly increased
+ the hippocampus Representative photographs tissue sections
+stained with red antibody taken from the hippocampus 
+area different groups cell counts were decreased
+with treatment P compared with Sham 
+P compared with VO P compared with 
+hippocampus compared with the VO operated rat These data indicate that treatment could decrease oxidative
+stress the hippocampal area 
+measures two way ANOVA P Fig In the probe
+trial the time spent the target quadrant was different between the groups The analysis showed that the percentage 
+time and distance spent the target quadrant was significantly
+decreased VO operated rats P compared with
+sham operated rats Fig and was increased treated rats P compared with VO operated rats
+ Fig The difference platform site crossings was even
+more significant the probe trial test Fig 
+ Reduces Chronic Cerebral Hypoperfusion Induced
+Morris Water Maze MWM Performance Deficits Rats
+To evaluate the effect DM the recovery cognitive
+function after VO spatial memory was evaluated 
+assessing learning and memory retention using the Morris
+water maze MWM test To determine whether the group
+differences observed escape latencies were due differences swimming especially between the sham operated
+group and the VO group swimming speeds were calculated
+for each group No differences swimming speed were observed among the four groups repeated measures one way
+analysis variance ANOVA Fig In the acquisition
+trials the sham operated animals gradually learned the location the hidden platform which was evidenced shorter
+latencies throughout the test period CCH induced VO
+resulted significant impairment spatial learning compared with sham operated controls repeated measures twoway ANOVA P Fig treated VO animals
+exhibited shorter mean session latencies locating the platform compared with the VO and group repeated 
+Discussion
+In the present study demonstrated the following DM
+treatment could prevent neuronal death the hippocampal
+ region white matter lesions and glial cell activation 
+especially microglial activation caused VO induced
+VaD DM treatment could increase upregulation
+ activating the hippocampus protect the neuron
+ the area least part and DM treatment could
+significantly decrease the level oxidative stress increasing levels SOD the hippocampus resulting improvement cognitive function 
+Increasing evidence indicates that inflammatory related
+microglia and astrocyte are considered involved the
+Mol Neurobiol
+Fig treatment decreases oxidative stress the hippocampal
+ area Representative photographs tissue sections stained with
+SOD red antibody taken from the hippocampus area different
+groups treatment increased the level SOD P 
+compared with Sham P compared with VO P 
+compared with treatment decreased the expression 
+ HNE the hippocampus The data are presented the ratio HNE
+ actin protein levels Each bar represents the mean SEM four
+independent experiments P compared with Sham P 
+compared with VO P compared with 
+treatment inhibits expression the hippocampus The data
+are presented the ratio actin protein levels 
+treatment inhibits expression TNF the hippocampus The data are
+presented the ratio TNF actin protein levels Each bar
+represents the mean SEM four independent experiments P 
+compared with Sham P compared with VO P 
+compared with 
+cognitive impairment CCH In the brain microglia are 
+robust source oxidative stress where extracellular ROS 
+generated from several enzymes including iNOS NADPH
+oxidase and myeloperoxidase These enzymes are
+responsible for inflammatory processes mediated oxidative
+stress It reported that DM exerts protective effect PD
+through the inhibition microglial cell production NO 
+secretion cytokines such TNF and release superoxide free radicals doses and exert protective
+effects MS dose Based these researches 
+two different doses DM treatment were
+used the study In the study treatment alleviated
+microglial activation accompanied oxidative stress the
+hippocampus Fig and the effect was even more
+significant the optic tract area Fig which more
+sensitive CCH These data suggest that DM treatment could
+inhibit the microglia activation exert antioxidant effect 
+Accumulating evidence indicates that DM treatment could
+target the expression and activity NADPH present microglia exert neuroprotective effects atherosclerosis hypertension PD and MS However our results
+show that expression does not change the hippocampus VO induced VaD data not shown These results are consistent with the previous report that rather than plays key role the pathophysiology 
+CCH induced cognitive decline and brain injury Based
+ the vital role VaD assessed the level 
+ the hippocampus and the results show that DM
+treatment significantly decreased the level 
+ Fig The result further supports the hypothesis that DM
+treatment has therapeutic potential for VO induced brain
+damage 
+We know that high degree oxidative stress could trigger endogenous protective antioxidant systems such SOD
+Mol Neurobiol
+Fig reduces chronic cerebral hypoperfusion induced Morris
+water maze MWM performance deficits rats Spatial memory
+evaluation using swimming speed time latency time target
+quadrant distance target quadrant and platform site crossings
+ the probe trial test group P compared with Sham 
+P compared with VO P compared with 
+Sham and VO rats treated with vehicle and treated with
+DM and respectively 
+for days Representative swim paths from the probe phase
+and which are important defenses against oxidative
+stress In this study DM treatment increased the level 
+SOD VO induced VaD The result agreement with the
+results previous reports that DM increased SOD reduced
+thiobarbituric acid reactive substances the hippocampal and
+striatal regions monosodium glutamate induced neurodegeneration rats and improved neuroprotection 
+Among the antioxidant enzymes particularly noteworthy not only because degrades toxic heme but also because produces multiple neuroprotective molecules including the antioxidant biliverdin and carbon monoxide 
+Recent studies have also demonstrated that brain derived neurotrophic factor BDNF and glial cell line derived neurotrophic factor GDNF expression was upregulated following
+the upregulation dopaminergic neurons 
+In our study found that DM treatment enhanced the
+nuclear translocation upregulate the activation 
+These results suggest that DM exerts its protective
+effect activating the pathway 
+In summary our study provides novel insight that DM
+could protect neurons against the damage induced VaD 
+The present study the first demonstration the mechanistic
+involvement these neuroprotective effects Thus this research provides promising therapeutic strategy for the treatment VaD 
+Acknowledgments This research project was supported grants from
+National Natural Science Foundation China 
+Compliance with Ethical Standards
+Conflict Interest The authors declare that they have competing
+interests 
+Mol Neurobiol
+References
+Aggarwal NT Decarli C Vascular dementia emerging
+trends Semin Neurol 
+Erkinjuntti T Roman G Gauthier S Feldman H Rockwood K
+ Emerging therapies for vascular dementia and vascular cognitive impairment Stroke 
+Jellinger KA Morphologic diagnosis Bvascular
+dementia critical update J Neurol Sci 
+Roman GC Vascular dementia distinguishing characteristics treatment and prevention J Am Geriatr Soc 
+ Torre JC Vascular risk factor detection and control may
+prevent Alzheimers disease Ageing Res Rev 
+Lin MS Chiu MJ Wu YW Neurocognitive improvement after carotid artery stenting patients with chronic internal
+carotid artery occlusion and cerebral ischemia Stroke J Cereb Circ
+Yan MH Wang X Zhu X Mitochondrial defects and oxidative stress Alzheimer disease and Parkinson disease Free Radic
+Biol Med 
+Ayala Pena S Role oxidative DNA damage mitochondrial dysfunction and Huntingtons disease pathogenesis Free
+Radic Biol Med 
+Faes L Callewaert G Mitochondrial dysfunction familial
+amyotrophic lateral sclerosis J Bioenerg Biomembr 
+Aliev G Smith MA Obrenovich ME Torre JC Perry G
+ Role vascular hypoperfusion induced oxidative stress
+and mitochondria failure the pathogenesis Azheimer disease 
+Neurotox Res 
+Choi DH Lee KH Kim JH NADPH oxidase novel
+molecular source ROS hippocampal neuronal death vascular dementia Antioxid Redox Signal 
+Liu H Zhang J Cerebral hypoperfusion and cognitive impairment the pathogenic role vascular oxidative stress Int J
+Neurosci 
+Bennett S Grant MM Aldred S Oxidative stress vascular
+dementia and Alzheimers disease common pathology J
+Alzheimers Dis JAD 
+Gackowski D Rozalski R Siomek A Dziaman T Nicpon K 
+Klimarczyk M Araszkiewicz A Olinski R Oxidative stress
+and oxidative DNA damage characteristic for mixed Alzheimer
+disease vascular dementia J Neurol Sci 
+Casado A Encarnacion Lopez Fernandez M Concepcion Casado
+M La Torre R Lipid peroxidation and antioxidant enzyme activities vascular and Alzheimer dementias Neurochem
+Res 
+Chaves M Toral A Bisonni A Treatment with vitamin
+D and slowing progression severe stage Alzheimers disease Vertex 
+Masaki KH Losonczy KG Izmirlian G Foley DJ Ross GW 
+Petrovitch H Havlik R White LR Association vitamin
+E and C supplement use with cognitive function and dementia 
+elderly men Neurology 
+Yang FB Protective effects curcumin vascular endothelial injuries induced radiation Zhonghua lao dong wei sheng
+zhi bing zhi Zhonghua laodong weisheng zhiyebing zazhi 
+Chin J Ind Hyg Occup Dis 
+Zhang C Browne A Child D Tanzi RE Curcumin decreases amyloid beta peptide levels attenuating the maturation
+ amyloid beta precursor protein J Biol Chem 
+Werling LL Lauterbach EC Calef U Dextromethorphan 
+ potential neuroprotective agent with unique mechanisms action Neurologist 
+Britton P Lu XC Laskosky MS Tortella FC 
+Dextromethorphan protects against cerebral injury following transient but not permanent focal ischemia rats Life Sci 
+Kim HC Pennypacker KR Bing G Bronstein D McMillian MK 
+Hong JS The effects dextromethorphan kainic acidinduced seizures the rat Neurotoxicology 
+Topsakal C Erol FS Ozveren MF Yilmaz N Ilhan N 
+Effects methylprednisolone and dextromethorphan lipid peroxidation experimental model spinal cord injury Neurosurg
+Rev 
+Zhang W Wang T Qin L Neuroprotective effect 
+dextromethorphan the MPTP Parkinsons disease model role
+ NADPH oxidase FASEB J Off Pub Fed Am Soc Exp Biol 
+Chechneva OV Mayrhofer F Daugherty DJ Pleasure DE Hong
+JS Deng W Low dose dextromethorphan attenuates moderate experimental autoimmune encephalomyelitis inhibiting
+ and reducing peripheral immune cells infiltration the spinal cord Neurobiol Dis 
+Liu SL Li YH Shi GY Dextromethorphan reduces
+oxidative stress and inhibits atherosclerosis and neointima formation mice Cardiovasc Res 
+Liu Y Qin L Li G Zhang W An L Liu B Hong JS 
+Dextromethorphan protects dopaminergic neurons against
+inflammation mediated degeneration through inhibition 
+microglial activation J Pharmacol Exp Ther 
+Wu TC Chao CY Lin SJ Chen JW Low dose dextromethorphan NADPH oxidase inhibitor reduces blood pressure and
+enhances vascular protection experimental hypertension PLoS
+ONE 
+Lee JH Park SY Shin YW Hong KW Kim CD Sung SM Kim
+KY Lee WS Neuroprotection cilostazol phosphodiesterase type inhibitor against apoptotic white matter changes rat
+after chronic cerebral hypoperfusion Brain Res 
+Fukai T Ushio Fukai M Superoxide dismutases role 
+redox signaling vascular function and diseases Antioxid Redox
+Signal 
+Ramanathan M Sivakumar S Anandvijayakumar PR 
+Saravanababu C Pandian PR Neuroprotective evaluation
+ standardized extract Centella asciatica monosodium glutamate treated rats Indian J Exp Biol 
+Imuta N Hori O Kitao Y Tabata Y Yoshimoto T Matsuyama T 
+Ogawa S Hypoxia mediated induction heme oxygenase
+type I and carbon monoxide release from astrocytes protects nearby
+cerebral neurons from hypoxia mediated apoptosis Antioxid
+Redox Signal 
+Hung SY Liou HC Kang KH Wu RM Wen CC Fu WM 
+Overexpression heme protects dopaminergic neurons against phenylpyridinium induced neurotoxicity 
+Mol Pharmacol 
+Hung SY Liou HC Fu WM The mechanism heme
+ action involved the enhancement neurotrophic
+factor expression Neuropharmacology 
+Motterlini R Foresti R Heme target for
+drug discovery Antioxid Redox Signal 

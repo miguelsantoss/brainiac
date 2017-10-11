@@ -1,0 +1,19 @@
+Examining clusters, we found a signiﬁcant cluster of decreased grey matter density in the left uncus.
+
+Examining the dementia by time interaction, a signiﬁcant cluster of accelerated atrophy in PDD compared to PDND was found on the right insula with a peak FWE p-corrected threshold of p b 0.05.
+
+Using a cluster level threshold at FWE p-corrected b0.05, signiﬁcant clusters were identiﬁed in the right insula, and right and left hippocampus as well as low in the brain stem, indicating accelerated atrophy in these areas for PDD patients.
+
+Signiﬁcant cluster of atrophy at baseline in PDD compared to PDND. The glass brain depiction from SPM is shown in.
+
+Among the earlier longitudinal studies one showed an increased rate of atrophy in PDD with no difference in the rate of atrophy between cognitively intact PD patients and controls contrasting with another study that found atrophy in both PD and PDD using VBM. PD patients with hallucinations, who are at risk for dementia, have been shown to have focal atrophy.
+
+Signiﬁcant cluster of atrophy of atrophy at 36 months in PDD compared to PDND. The glass brain representation is shown in.
+
+Signiﬁcant cluster of accelerated atrophy in PDD compared to PDND. The glass brain representation is shown in.
+
+Journal of the Neurological Sciences 373 88-94 Table 3 Signiﬁcant clusters of accelerated GM atrophy in PDD compared to PDND. cluster size 1852 2807 1379 1113 FWE-corrected cluster p-value b0.001 0.001 0.005 0.03 Talairach Coordinates x y z 32 5 14 −33 −29 −35 −89 −27 19 −43 24 −5 mixed; while we eliminated patients with obvious cerebrovascular disease, Alzheimer pathology likely contribute to cognitive decline and brain atrophy.
+
+Signiﬁcant clusters of accelerated atrophy in PDD compared to PDND. The glass brain depiction is shown in.
+
+We identiﬁed a cluster in the brainstem that showed atrophy consistent with a previous study, potentially consistent with pathological progression as hypothesized by Braak et al.

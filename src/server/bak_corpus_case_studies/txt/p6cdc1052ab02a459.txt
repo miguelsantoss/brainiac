@@ -1,0 +1,604 @@
+ORIGINAL RESEARCH
+MR Elastography Detection Early
+Viscoelastic Response the Murine
+Hippocampus Amyloid Accumulation
+and Neuronal Cell Loss Due 
+Alzheimers Disease
+Tonia Munder MD Anna Pfeffer DVM Stefanie Schreyer MS Jing Guo PhD 
+Juergen Braun PhD Ingolf Sack PhD Barbara Steiner MD and
+Charlotte Klein 
+Purpose To investigate vivo viscoelastic parameters related early histopathological changes the hippocampus
+and the cortex early preclinical Alzheimers disease AD stages 
+Materials and Methods Magnetic resonance elastography MRE was applied female mice established
+transgenic mouse model AD three different stages early disease progression To investigate the potential therapeutic effects physical cognitive and social stimulation brain viscoelasticity and histopathological characteristics 
+MRE was also applied after exposing young mice environmentally enriched cage conditions ENR for 
+ weeks which corresponds adolescent young adult and adult age the time analysis 
+Results Viscosity the hippocampus mice lower than controls CTR P and does not increase
+with age CTR mice adolescent young adult P adult P young adult adult P 
+ Hippocampal cell numbers decrease with disease progression mice P Elasticity the hippocampus also reduced mice P but increases P with disease progression ENR 
+mice transiently increased hippocampal cell numbers P but not viscosity P 
+Conclusion MRE detects alterations viscoelasticity the hippocampus related early histopathological changes 
+the mouse model AD 
+Level Evidence 
+J MAGN RESON IMAGING 
+M
+agnetic resonance elastography MRE noninvasive tool measure viscoelastic properties biological tissues vivo In the brain viscoelasticity 
+determined the different cell types their density mobility
+ well their interaction with the extracellular matrix 
+These variables differ distinct brain regions the healthy
+brain and even more significantly under pathological conditions which may reflected the biomechanical
+properties the tissue and hence represented viscoelastic
+parameters Therefore specific changes brain viscoelasticity can considered potential biomarker for diagnosis and prognosis neuropathological diseases 
+Human MRE studies have shown that brain viscoelasticity reduced with physiological and under pathological conditions such Alzheimers disease AD 
+multiple sclerosis normal pressure hydrocephalus 
+View this article online wileyonlinelibrary com DOI jmri 
+Received Jan Accepted for publication Apr 
+ Address reprint requests B S Charit
+eplatz Berlin Germany E mail barbara steinercharite 
+ University Medicine Berlin Berlin Germany Department Radiology Charit
+ University Medicine Berlin 
+From the Department Neurology Charit
+ University Medicine Berlin Berlin Germany
+Berlin Germany and Institute for Medical Informatics Charit
+The last two authors contributed equally this work 
+This article includes Supplementary Material available via the Internet http www interscience wiley com jpages xxxx xxxx suppmat 
+C International Society for Magnetic Resonance Medicine
+V
+Journal Magnetic Resonance Imaging
+frontotemporal dementia glioblastoma and progressive
+supranuclear palsy However the underlying neural substrate causing such alterations the viscoelastic parameters
+ brain tissue not fully understood The first steps
+towards correlation between viscoelastic changes and the
+histopathology have been made using animal models neuropathological diseases Studies murine stroke 
+and model Parkinsons have shown 
+strong correlation between neuronal density and brain viscoelasticity disease related brain regions In particular MRE
+was sensitive detect local cellular changes due adult
+neurogenesis relatively small brain region the
+hippocampus 
+A progressive loss neuronal cells limbic and associated cortical areas hallmark neurodegenerative diseases such AD and associated with cognitive decline
+and memory loss Growing patient numbers due the
+aging society have caused rising socioeconomic costs AD
+ histopathologically characterized extracellular neuritic
+amyloid plaques aggregations protein 
+ amino acids that first accumulates inside the
+cells and then externalized into the extracellular matrix 
+well intracellular neurofibrillary tangles which consist 
+self assembled hyperphosphorylated tau proteins Clinical symptoms usually begin when the limbic regions are
+affected mostly hippocampus and later cortex that project
+ medial temporal lobe structures This causes interrupted episodic memory function resulting learning and
+memory deficits Diminished recall accuracy impaired
+problem solving and cognition emerge when neocortical
+regions are affected By the time treatment starts the
+disease has already progressed due late diagnosis Histopathologically intra and extracellular amyloid depositions
+and neuronal cell loss can already found long before any
+symptoms occur In addition adult hippocampal neurogenesis has been experimentally shown impaired 
+the early stages AD Such histopathological changes
+cannot detected early enough with conventional neuroimaging methods leading delayed diagnosis and hence
+ineffective treatment At present AD can only diagnosed
+ combination multiple modalities including MRI 
+F fluorodeoxyglucose positron emission tomography
+ PET cerebrospinal fluid biomarkers clinical memory
+tests and Amyloid PET After diagnosis medication 
+increase levels glutamatergic and cholinergic neurotransmitters regular physical exercise well the involvement daily life problem solving are known decelerate
+disease progression In animal studies this physical and
+cognitive stimulation induced large environmentally
+enriched cages ENR with changing interior arrangements
+and larger animal groups This enforces constant adaptation
+ new surroundings and consequently improves cognition
+and social interaction Histologically ENR known 
+enhance adult neurogenesis the hippocampus and 
+neuroprotective AD Furthermore the correlation 
+MRI brain scans humans presenting AD pathology with
+high education and cognitive stimulation showed that more
+challenging surroundings led increased hippocampal
+volume 
+So far AD still cannot cured but its progression
+can slowed down even more when the disease 
+detected early stage Therefore reliable preclinical
+diagnosis when intracellular amyloid depositions disturb
+cell homeostasis and the first changes hippocampal neurogenesis can found essential for treating AD
+patients more effectively MRE has the potential become
+such preclinical diagnostic tool noninvasive contrast taking cerebrospinal fluid for determining AD biomarkers and provides high sensitivity and resolution
+power detect local structural changes cellular
+level Therefore using MRE screening method for
+patients risk the early stages cognitive impairments
+ interesting prospect 
+In the present study aimed correlate early histopathological changes the hippocampus and the cortex 
+brain areas primarily affected early AD stages with alterations viscoelastic parameters This contributes the establishment MRE clinical tool for early diagnosis and
+prognosis neurodegenerative diseases Therefore MRE was
+applied female mice established and wellstudied transgenic mouse model AD three different
+stages early disease progression To also investigate the
+potential therapeutic effects physical and cognitive stimulation brain viscoelasticity and histopathological characteristics MRE was also applied after exposing young mice
+ two different cage conditions standard STD enriched
+ ENR for weeks 
+MATERIALS AND METHODS
+Animals
+The animal experiments were approved the local Animal Ethics
+Committee and carried out accordance with the European Communities Council Directive September EU 
+For the experiments female week old transgenic
+ mice with BL J background further referred 
+ Forschungseinrichtung 
+ experimentelle Medizin FEM 
+Berlin Germany expressing human cDNA with the
+Swedish double mutation under the murine 
+and female week old BL J Charles River Sulzfeld Germany mice controls further referred CTR were used 
+The genotype was confirmed polymerase chain reaction PCR 
+following ear punches primers APP forward GAA TTC
+CGA CAT GAC TCA GG APP reverse GTT CTG CTG
+CTG CAT CTT CGA CA Animals were kept temperature and humidity controlled colony room and maintained 
+light dark cycle with libitum access food and
+water 
+Volume No 
+Munder MRE Alzheimers Mice
+FIGURE The experimental procedure for the MRE measurements durations weeks adolescent young adult and
+adult the final age under standard STD environmentally enriched ENR cage conditions and brain tissue perfusion for histological analyses 
+Group Design and Experimental Procedure
+Within each the and CTR group the mice were randomly cast into two different environmental modalities STD cages
+ under conventional laboratory conditions Makrolon
+cages and larger cages 
+ for ENR Those ENR cages were equipped with
+tubes cardboard boxes and plastic houses which were newly
+assembled weekly for physical and cognitive enrichment In addition more mice were housed the ENR than STD cages 
+ also ensure social enrichment The mice remained 
+their cages for either weeks also referring adolescent young adult and adult age respectively the time analysis until MRE measurement To obtain baseline data the
+viscous and elastic properties hippocampal and cortical tissue 
+MRE was performed mice aged weeks both the 
+and CTR group before they were placed into their assigned cages 
+In summary mice both genotypes and CTR were
+housed two different cage conditions STD and ENR for three
+different durations weeks resulting different
+experimental groups animals which were submitted
+ MRE The experimental procedure including the group design
+ shown Fig 
+MRE
+MRE was performed T MRI scanner Bruker Pharma Scan 
+Ettlingen Germany running ParaVision Software using diameter H RF quadrature mouse volume coil described
+before The mechanical vibration was generated air cooled
+electromagnetic Lorentz coil triggered the MRI scanner and
+transferred the animal through carbon fiber piston which was
+connected the bite bar transducer The transducer was gimbaled
+through rubber bearing and retaining bracket the temperaturecontrolled mouse bed A plastic disk held the entire setup 
+the center the magnet bore 
+The timing the vibration was defined and recorded 
+fast low angle shot FLASH sequence especially made for MRE
+measurement The imaging sequence was altered for MRE sinusoidal motion sensitizing gradient MSG the through plane
+direction with strength mT frequency Hz 
+and periods To compensate for the static phase contributions 
+Month 
+phase difference images were calculated from two images with
+opposite MSG polarity Frequency amplitude and the number 
+sinusoidal oscillation cycles were controlled waveform generator connected via audio amplifier the driving coil The main
+polarization the vibration was transverse the principal axis 
+the magnet field and the amplitudes were the order tens 
+micrometers Further imaging parameters were matrix 
+ field view FoV msec echo time TE 
+ msec repetition time TR time steps over vibration
+period Four axial slices with thickness were acquired
+and the acquisition time was minutes 
+Complex wave images Fig B corresponding the harmonic drive frequency were extracted temporal Fourier transformation the unwrapped phase difference images and filtered for
+suppressing noise and compression wave components A DHelmholtz inversion was performed yielding the complex shear
+modulus G The regions interest ROIs the hippocampus and
+cortex were manually selected outlining the anatomical structure from weighted MRI images Fig A The tabulated
+spatially averaged G values are represented the real part the
+complex shear modulus G Re G known the storage
+modulus that represents tissue elasticity Fig C and the imaginary part Im G which the loss modulus and represents
+viscosity Fig D 
+Tissue Processing
+Mice were killed the day after the MRE measurements Animals
+were deeply anesthetized with ketamine xylazine ketamine
+hydrochloride WDT Rompun Provet Lyssach Switzerland 
+intraperitoneal injection until they were unresponsive toe and
+tail stock pinches They were then transcardially perfused with M
+phosphate buffered saline PBS and paraformaldehyde PFA 
+Brains were extracted and postfixed PFA C overnight and
+then transferred into sucrose for dehydration for hours 
+Brains were frozen methylbutane cooled with liquid nitrogen
+and then cut into thick coronal sections using cryostat
+ Leica CM UV Wetzlar Germany Brain sections were collected from bregma and stored well
+plates containing cryoprotectant solution glycerol ethylene glycol and M PBS C until further use 
+Journal Magnetic Resonance Imaging
+FIGURE Representations the MRI image A shear waves B storage C and loss modulus D maps the mouse
+brain overlaid the anatomic image Regions interest cortex blue line and hippocampus green line were marked 
+ MRI 
+Immunohistochemistry and Histology
+AMYLOID STAINING Immunohistochemistry for the detection 
+intracellular amyloid deposits the cortex and hippocampus was performed Briefly free floating section series were treated with
+ deactivate endogenous tissue peroxidases After 
+minutes background blocking with donkey serum enriched PBS
+ sections were incubated with the primary antipurified 
+antibody mouse BioLegend San Diego CA overnight 
+C The next day after washing with PBS and blocking with 
+sections were incubated with biotinylated secondary antibody 
+for hours room temperature RT ABC reagent Vectastain ABC
+Elite Kit Vector Laboratories Burlingame CA was applied for hour 
+Ultimately sections were incubated with diaminobenzidine DAB 
+peroxidase Sigma Germany solution containing and
+ nickel chloride for least minutes RT Sections were
+mounted microscope slides and coverslipped for later quantification 
+To determine the total cell number the cortex
+and hippocampus brain sections were stained with the fluorochrome
+ phenylindole DAPI which binds the DNA 
+thereby labeling cell nuclei Free floating section series were
+DAPI STAINING 
+rinsed and incubated with PBS diluted DAPI Thermo Scientific Waltham MA for minutes washed again and afterwards
+mounted microscope slides and coverslipped for later quantification 
+Tissue sections were washed with PBS
+and then mounted slides First they were incubated for 
+minutes matured hemalaun Subsequently they were put under
+running tap water for minutes followed exposure solution
+ saturated alcoholic sodium chloride solution NaCl 
+ethanol aqueous NaOH per mL for minutes Then
+they were put solution solution with alkaline Congo red 
+Sigma Aldrich for minutes Here the alkaline was added just
+before use Afterwards they were washed dehydrated and mounted
+with coverglass for later quantification 
+CONGO RED STAINING 
+Quantification Plaque Load and Cell Numbers
+A Leica DMRE microscope equipped with StereoInvestigator MicroBrightfield Colchester VT software was
+used quantify positive and DAPI positive
+ stained cells cells were counted separately two
+brain areas the cortex and the hippocampus both the right and
+STEREOLOGY 
+Volume No 
+Munder MRE Alzheimers Mice
+the left hemisphere five mice each cage and duration
+group There was Ab immunoreactivity detected the CTR
+group The cells were traced with magnification objective 
+areas based the mouse brain atlas between bregma and 
+ cells were counted every twelfth section with 
+ magnification objective oil The software randomly
+arranged counting frames with sampling
+grid over the ROIs and Optical Dissector
+height starting below the top surface The total
+number cells per selected brain region was automatically calculated based the settings described before from the manually
+counted cell numbers the counting frames 
+The same probe parameters were used for the quantification 
+ cell nuclei the hippocampus and cortex mice both genotypes cage conditions and all three durations except that every sixth section was included The cell nuclei the hippocampus five
+mice per group and three mice per group for the cortex were counted 
+Extracellular plaques visualized with Congo
+red were counted manually with magnification light microscope Zeiss Axioskop Germany the same areas described above 
+LIGHT MICROSCOPY 
+Statistical Analysis
+Data were analyzed applying three way analysis variance
+ ANOVA with factors genotype CTR cage STD 
+ENR and duration week weeks weeks adolescent
+ young adult adult respectively To analyze the histological data 
+the Ab staining the mouse group two way ANOVA with
+factors and was performed In case any interaction the factors 
+pairwise comparisons were done using the Bonferroni post hoc test The
+relation between MRE parameters and histology disease progression
+was analyzed using Pearson correlation P was considered significant and trends P are reported descriptive Graphical and statistical analyses were accomplished using GraphPad Prism San
+Diego CA and IBM SPSS statistics Armonk NY 
+RESULTS
+Baseline MRE Hippocampus and Cortex Show
+Regional Differences Elasticity Hippocampus
+Has Higher Elasticity Than Cortex
+Mean values the hippocampal region the CTR group
+were kPa and kPa and the
+ mice kPa and kPa for
+ elasticity and viscosity respectively In the cortex 
+mean values the CTR group were kPa and
+ kPa and the mice 
+kPa and kPa for elasticity and viscosity respectively The hippocampus both genotypes has generally
+higher values elasticity than the cortex which suggests 
+stiffer hippocampal tissue with baseline differences
+between and CTR mice 
+Hippocampus
+VISCOSITY IN THE HIPPOCAMPUS OF IS REDUCED
+AND CELL NUMBERS DECREASE WITH AGE The viscous
+properties the hippocampus Fig B mice are
+Month 
+lower than CTR mice F P A
+significant genotype duration interaction F 
+ P indicates that the viscosity hippocampal tissue adult mice reduced compared 
+CTR mice the same age P It also indicates
+that hippocampal viscosity adult mice the CTR group
+ higher than adolescent P and young adult
+mice P Such age dependent rise viscosity
+cannot observed the hippocampus mice 
+A significant genotype cage interaction F 
+ P indicates that the number cells
+ the hippocampus Fig D lower than 
+CTR mice STD P The duration further influences cell numbers F P indicating decrease with age weeks P A
+significant genotype duration interaction F 
+ P revealed that cell numbers are lower 
+adolescent and adult but not young adult compared
+ age matched CTR CTR P adolescent and P adult A representative overview image
+ the DAPI staining and close image hippocampal
+ cells are shown Fig D E respectively 
+The correlation viscous values with cell
+numbers yielded significant correlation only 
+mice under ENR cage conditions P 
+ Supplemental Fig A indicating that higher cell numbers relate enhanced viscosity hippocampal tissue 
+HIPPOCAMPAL ELASTICITY IS REDUCED IN ADOLESCENT MICE BUT INCREASES WITH AGE Elastic 
+Elasticity the hippocampus Fig A increases with
+the duration F P indicating 
+age dependent effect week weeks P A
+significant genotype duration interaction F 
+ P revealed that hippocampal elasticity
+increases from adolescent young adult P and
+ adult mice P the group although
+the elastic values adolescent mice were lower than
+ adolescent CTR mice P Elasticity does not
+increase age dependently CTR mice adolescent 
+young adult P adolescent adult P 
+young adult adult P 
+The quantification cells the hippocampus
+ mice Fig C shows trend towards effect 
+duration the amount hippocampal cells containing
+accumulated amyloid F P 
+indicating decrease from young adult adult mice P 
+ Representative overview images Ab negative
+brain slice CTR mouse and brain slice 
+ mouse are shown Fig A B A representative
+close image cells the hippocampus representing intracellular amyloid deposits shown Fig C 
+The correlation elastic values with the number 
+ cells yielded significant correlation only 
+Journal Magnetic Resonance Imaging
+FIGURE Variations MRE parameters A B the hippocampus and CTR mice under standard STD enriched environment ENR cage conditions different durations weeks adolescent young adult adult age and respective
+numbers cells C only mice and total cell numbers D Data are expressed mean SEM genotype duration interaction genotype and cage condition interaction genotype and duration P 
+ P ggg ddd gcgcgc gdgdgd P 
+mice under ENR cage conditions P 
+ Fig B indicating that increased amounts cells accumulating Ab are related enhanced elasticity hippocampal tissue 
+CELL NUMBERS BUT NOT HIPPOCAMPAL VISCOSITY IN
+ MICE ARE INCREASED BY ENR A significant
+genotype cage interaction F P 
+indicates that viscosity the hippocampus Fig B the
+CTR group increased after exposure ENR P 
+ This not the case mice STD ENR 
+P 
+In contrast significant genotype cage interaction
+ the cell numbers Fig D the hippocampus
+ F P reveals that mice
+more cells can found ENR than STD P 
+This leads very similar cell levels and CTR
+mice ENR P CTR mice ENR however 
+have fewer cells than STD P A trend towards
+ genotype cage duration interaction F 
+ P indicates that compared STD ENR
+ mice increased the hippocampal cell numbers 
+week P only transiently weeks P 
+ weeks P 
+No specific effect ENR exposure hippocampal
+elasticity found either CTR mice F 
+ P 
+Cortex
+CORTICAL VISCOSITY IS NOT AFFECTED IN 
+MICE BUT CELL DENSITY DECREASES WITH AGE Vis 
+Viscosity the cortex Fig B not different between
+CTR and mice F P 
+However the duration influences the number cortical
+ cells Fig D F P 
+indicating that decreases with age adolescent youngadult and adult P and P respectively 
+Fig D shows representative overview image the DAPI
+staining the cortex 
+Volume No 
+Munder MRE Alzheimers Mice
+FIGURE Variations MRE parameters A B the cortex and CTR mice under standard STD enriched environment ENR cage conditions different durations weeks adolescent young adult adult age and respective
+numbers cells C only mice and total cell numbers D Data are expressed mean SEM duration P P 
+ENR had effect cortical viscosity either CTR
+ mice F P 
+No significant correlation was found between cortical viscosity and cell numbers either genotype A summary
+ the results given Supplementary Tables and 
+No significant correlation was found between cortical
+elasticity and cells either genotype A summary 
+the results given Supplementary Tables and 
+CORTICAL ELASTICITY INCREASES WITH AGE In the
+In AD histopathological changes such intra and extracellular amyloid depositions and neuronal cell loss can found
+long before any symptoms occur To date detection 
+these changes preclinical stage the disease difficult 
+due limitations the presently available diagnostic modalities An early diagnosis however essential for treating AD
+patients more effectively In the present study show that
+early histopathological changes brain areas primarily affected
+ AD can detected using MRE capturing alterations 
+the biomechanical properties the respective brain tissue 
+We found that viscosity the hippocampus 
+mice lower than CTR mice In healthy animals the
+viscous properties increase with age This might related
+ the increased number mobile and unbound components due brain modifications occurring within the time
+cortex slight duration effect the elastic properties Fig 
+A can observed F P indicating trend towards increase from young adult adult
+mice P 
+An influence duration also seen the amount 
+ cells the cortex mice F 
+P indicating increase from adolescent 
+young adult mice P A B shows representative overview images Ab negative brain slice 
+CTR mouse and brain slice 
+mouse respectively 
+No specific effect ENR exposure cortical elasticity can observed either CTR mice F 
+ P 
+Month 
+DISCUSSION
+Journal Magnetic Resonance Imaging
+FIGURE Representative microscope images brain slices stained for intracellular amyloid depositions using the antibody AC and for cell nuclei using DAPI D E showing Ab negative brain slice including the hippocampus and cortex CTR
+mouse A brain slice mouse B close view hippocampal cells C DAPI stained brain slice including
+the hippocampus and cortex mouse D and close view DAPI stained hippocampal cell nuclei E 
+frame studied here For instance the brain deteriorates
+due aging neuronal disintegration may result larger
+number tissue elements which are able move 
+incoherent way and thereby effectively absorb strain energy 
+Such rise viscosity does not occur mice indicating disturbed masked normal modification process
+ the brain least the hippocampus which probably
+elicited the progressive loss neurons In addition elastic values the hippocampus adolescent mice are
+lower than their healthy age matched counterparts This
+also points towards very early pathological changes the
+cellular level 
+Furthermore elastic and viscous properties the hippocampus mice are affected differently AD
+during disease progression The reduced hippocampal viscosity mice particular adult animals compared
+ their healthy age matched counterparts probably due
+ the diminished neuronal functionality during AD In
+support this hypothesis Schwarb linked the
+mechanical properties human brain tissue with functional
+performance which not only depends structural but also
+functional integrity the cellular network However such
+early dysfunction the neurons and the network they build
+needs histologically studied more detail the
+ mouse model In contrast the rise elasticity
+observed mice the present study may linked
+ the slight but nonsignificant increased amount hippocampal neurons showing intracellular accumulation amyloid and the subsequent appearance extracellular
+amyloid plaques due the externalization intracellular
+amyloid Supported the significant positive correlation
+ elastic values the amount cells mice
+under ENR hypothesize that the elastic properties the
+hippocampus are increasing because more and more neurons
+accumulate amyloid before externalized into the
+extracellular matrix where could also affect the mechanical integrity cells filling the interstitial space close
+contact with the cells Moreover intracellular accumulation
+ amyloid has been shown induce neuronal cell
+death We speculate that neurons that undergo apoptosis
+exhibit different biomechanical characteristics than healthy 
+fully functional neurons 
+In the cortex similar but clearer increase accumulating amyloid within the neurons mice over
+time can found before externalized leading the
+appearance extracellular amyloid plaques The appearance amyloid plaques the old this point 
+ months old accordance with other studies showing that extracellular plaque formation the mouse
+model starts around months age However other
+Volume No 
+Munder MRE Alzheimers Mice
+than the hippocampus the slight but nonsignificant
+increase cortical elasticity with age independent the
+genotype Therefore amyloid accumulation the cortex
+ mice cannot explicitly associated with the elasticity the cortex 
+In previous study has been shown that distinct
+brain areas the mouse differ their biomechanical properties The basic viscosity the midbrain was higher than
+ the hippocampus which attributed the higher proportion white matter the midbrain that has been
+shown stiffer than gray matter the frequency range
+ MRE Here found that baseline elasticity the
+hippocampus higher than that the cortex Although the
+reason for these mechanical differences remains elusive 
+may reflect their different anatomical structure The hippocampus has several very densely packed cellular layers with
+axonal connections between whereas the cortex displays
+rather loosely packed cellular layers 
+In the present study also investigated the potential
+therapeutic effects physical cognitive and social stimulation brain viscoelasticity and histopathological characteristics exposing mice ENR for different durations We
+found that ENR was transiently effective mice 
+increase the number cells the hippocampus thereby
+keeping higher level than mice under STD cage
+conditions However similar mice living STD reduction over time due disease progression can also observed
+ ENR The higher cell numbers might due the neuroprotective effects ENR and due enhanced neurogenesis the dentate gyrus the hippocampus Those
+mechanisms seem transiently counteract the progressive
+cell loss until the process cell loss becomes too severe 
+effectively compensated any longer Such restorative effect 
+not seen the viscous elastic properties the hippocampus not even transiently In CTR mice however ENR
+increases hippocampal viscosity indicating that has 
+influential effect tissue mechanics As the cell numbers 
+CTR contrast mice are not changed ENR 
+the affected component the tissue network accounting for
+the altered viscosity might different character than
+just cellular Moreover this component can probably not 
+influenced ENR any more any influence masked 
+ mice due the disease condition 
+The present study limited mice 
+model for AD and female mice Further thorough studies
+are required estimate brain viscoelasticity the early disease stages other animal models AD and male subjects In addition larger number mice per group should
+ aimed affirm the tendencies seen here 
+To summarize found that the elastic and viscous
+properties hippocampal tissue are lower mice
+ early disease stages compared age matched CTR mice 
+For viscosity this difference becomes more pronounced with
+Month 
+disease progression Furthermore despite initial increase
+ hippocampal cell numbers ENR exposure ENR
+fails stop the progression neuronal loss and decrease 
+viscosity the long term indicating that therapeutically not suitable prevent halt the changes tissue
+mechanical properties AD 
+In conclusion our findings support previous work that
+MRE sensitive detect specific alterations viscoelasticity which occur the cellular scale brain tissue associated
+with early histopathological changes due neurodegenerative
+processes To our knowledge this MRE study the first 
+provide evidence disease based difference hippocampal
+viscosity preceding the AD characteristic extracellular Ab
+pathology Our study thereby contributes the establishment
+ MRE clinical tool for early diagnosis and prognosis 
+neurodegenerative diseases 
+ACKNOWLEDGMENT
+Contract grant sponsor Deutsche Forschungsgemeinschaft 
+contract grant number STE 
+We thank Alexander Haake and Ingo Przesdzing for excellent technical support 
+REFERENCES
+Muthupillai R Ehman RL Magnetic resonance elastography Nat Med
+Riek K Klatt D Nuzha H Wide range dynamic magnetic resonance elastography J Biomech 
+Lu Y B Franze K Seifert G Viscoelastic properties individual
+glial cells and neurons the CNS Proc Natl Acad Sci U S A 
+Lu Y B Iandiev I Hollborn M Reactive glial cells increased stiffness correlates with increased intermediate filament expression 
+FASEB J 
+Sack I Streitberger KJ Krefting D Paul F Braun J The influence 
+physiological aging and atrophy brain viscoelastic properties 
+humans PLoS One 
+Streitberger KJ Wiener E Hoffmann J In vivo viscoelastic properties the brain normal pressure hydrocephalus NMR Biomed
+Murphy MC Huston J Jack CR Decreased brain stiffness Alzheimers disease determined magnetic resonance elastography 
+J Magn Reson Imaging 
+Wuerfel J Paul F Beierbach B MR elastography reveals degradation tissue integrity multiple sclerosis Neuroimage 
+Huston J Murphy MC Boeve BF Magnetic resonance elastography frontotemporal dementia J Magn Reson Imaging 
+Streitberger K J Reiss Zimmermann M Freimann FB High resolution mechanical imaging glioblastoma multifrequency magnetic resonance elastography PLoS One 
+Lipp A Trbojevic R Paul F Cerebral magnetic resonance elastography supranuclear palsy and idiopathic Parkinsons disease 
+NeuroImage Clin 
+Freimann FB Muller S Streitberger KJ MR elastography 
+murine stroke model reveals correlation macroscopic viscoelastic
+Journal Magnetic Resonance Imaging
+properties the brain with neuronal density NMR Biomed 
+Klein C Hain EG Braun J Enhanced adult neurogenesis
+increases brain stiffness In vivo magnetic resonance elastography 
+mouse model dopamine depletion PLoS One 
+Hain EG Klein C Munder T Dopaminergic neurodegeneration
+ the mouse associated with decrease viscoelasticity substantia nigra tissue PLoS One 
+Schreiber S Vogel J Schwimmer HD Marks SM Schreiber F Jagust
+W Impact lifestyle dimensions brain pathology and cognition 
+Neurobiol Aging 
+Beauquis J Pava P Pomilio C Environmental enrichment prevents astroglial pathological changes the hippocampus APP
+transgenic mice model Alzheimers disease Exp Neurol 
+Hu Y S Xu P Pigino G Brady ST Larson J Lazarov O Complex
+environment experience rescues impaired neurogenesis enhances
+synaptic plasticity and attenuates neuropathology familial Alzheimers disease linked APPswe mice FASEB J 
+Schr
+oder J Pantel J Neuroimaging hippocampal atrophy 
+early recognition Alzheimers disease critical appraisal after
+two decades research Psychiatry Res Neuroimaging 
+Posnansky O Guo J Hirsch S Papazoglou S Braun J Sack I Fractal network dimension and viscoelastic powerlaw behavior I A
+modeling approach based coarse graining procedure combined with shear oscillatory rheometry Phys Med Biol 
+Nelson PT Alafuzoff I Bigio EH Correlation Alzheimer disease neuropathologic changes with cognitive status review the
+literature J Neuropathol Exp Neurol 
+Alzheimers Association Alzheimers disease facts and figures 
+Alzheimers Dement 
+Hardy J Selkoe DJ The amyloid hypothesis Alzheimers disease 
+progress and problems the road therapeutics Science 
+Selkoe DJ Alzheimers disease genes proteins and therapy Physiol
+Rev 
+Buckner RL Snyder AZ Shannon BJ Molecular structural and
+functional characterization Alzheimers disease evidence for relationship between default activity amyloid and memory J Neurosci
+Braun J Guo J L
+utzkendorf R High resolution mechanical imaging the human brain three dimensional multifrequency magnetic
+resonance elastography T Neuroimage 
+Braak H Braak E Neuropathological stageing Alzheimer related
+changes Acta Neuropathol 
+Braak H Braak E Bohl J Staging Alzheimer related cortical
+destruction Eur Neurol 
+Sturchler Pierrat C Staufenbiel M Pathogenic mechanisms Alzheimers disease analyzed the transgenic mouse model Ann
+N Y Acad Sci 
+Reiman EM Caselli RJ Yun LS Preclinical evidence Alzheimers disease persons homozygous for the allele for apolipoprotein E N Engl J Med 
+Palop JJ Chin J Roberson ED Aberrant excitatory neuronal
+activity and compensatory remodeling inhibitory hippocampal
+circuits mouse models Alzheimers disease Neuron 
+Demars M Hu Y S Gadadhar A Lazarov O Impaired neurogenesis 
+ early event the etiology familial Alzheimers disease transgenic mice J Neurosci Res 
+Jang SS Chung HJ Emerging link between Alzheimers disease and
+homeostatic synaptic plasticity Neural Plast 
+Epub ahead print 
+Haughey NJ Nath A Chan SL Borchard AC Rao MS Mattson MP 
+Disruption neurogenesis amyloid beta peptide and perturbed
+neural progenitor cell homeostasis models Alzheimers disease 
+J Neurochem 
+Schwarb H Johnson CL McGarry MDJ Cohen NJ Medial temporal
+lobe viscoelasticity and relational memory performance Neuroimage
+Anand K Sabbagh M Amyloid imaging poised for integration into
+medical practice Neurotherapeutics 
+Kienlen Campard P Intracellular amyloid beta but not extracellular soluble amyloid beta peptides induces neuronal apoptosis 
+J Biol Chem 
+Health Quality Ontario The appropriate use neuroimaging the
+diagnostic work dementia evidence based analysis Ont
+Health Technol Assess Ser 
+Kruse SA Rose GH Glaser KJ Magnetic resonance elastography the brain Neuroimage 
+Roberson ED Mucke L years and counting prospects for defeating Alzheimers disease Science 
+McCracken PJ Manduca A Felmlee J Ehman RL Mechanical
+transient based magnetic resonance elastography Magn Reson Med
+Volume No 

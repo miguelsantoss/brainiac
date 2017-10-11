@@ -1,0 +1,506 @@
+Clinical Imaging 
+Contents lists available ScienceDirect
+Clinical Imaging
+journal homepage www elsevier com locate clinimag
+Original Article
+Apparent diusion coecient the analysis prostate cancer 
+determination optimal value pair dierentiate normal from
+malignant tissue
+MARK
+Nuno Adubeiroa Maria Lusa Nogueirac Rita G Nunesd Hugo Alexandre Ferreirae 
+Eduardo Ribeirof Jos Maria Ferreira La Fuenteh 
+Institute Biomedical Sciences Abel Salazar ICBAS University Porto Rua Jorge Viterbo Ferreira Porto Portugal
+Department Radiology School Health Porto Polytechnic Institute Porto ESS IPP Rua Dr Antnio Bernardino Almeida Porto Portugal
+Department Radiology School Health Porto Polytechnic Institute Porto ESS IPP Rua Dr Antnio Bernardino Almeida Porto Portugal
+Institute for Systems and Robotics and Department Bioengineering LARSyS Instituto Superior Tcnico Universidade Lisboa Av Rovisco Pais Lisboa 
+Portugal
+Institute Biophysics and Biomedical Engineering IBEB Faculty Sciences University Lisbon Campo Grande Lisboa Portugal
+Department Radiology MRI Unit Centro Hospitalar Porto Largo Prof Abel Salazar Porto Portugal
+Department Radiology School Health Porto ESS Rua Dr Antnio Bernardino Almeida Porto Portugal
+Institute Biomedical Sciences Abel Salazar ICBAS University Porto Rua Jorge Viterbo Ferreira Porto Portugal 
+Department Urology Center Hospitalar Porto CHP Largo Prof Abel Salazar Porto Portugal
+A R T I C L E I N F O
+A B S T R A C T
+Keywords 
+ADC
+B value
+Diusion weighted imaging
+Prostate cancer
+Purpose Determining optimal value pair for dierentiation between normal and prostate cancer PCa tissues 
+Methods Forty three patients with diagnosis PCa symptoms were included Apparent diusion coecient
+ ADC was estimated using minimum and maximum values and 
+ and respectively Diagnostic performances were evaluated when Area under thecurve AUC 
+Results the values pair surpassed this AUC threshold The pair provided the
+highest AUC with ADC cuto sensitivity specicity and accuracy
+Conclusions The best value pair was 
+Introduction
+Diagnosing prostate disease complex task and typically requires
+ combination clinical biochemical and imaging biomarkers 
+Specically the diagnosis prostate cancer PCa based clinical
+symptoms digital rectal examination prostate specic antigen PSA 
+levels transrectal ultrasonography TRUS and tissue sample biopsy
+guided TRUS from which histopathological tissues are graded using
+the Gleason Score GS Despite advances these techniques the accuracy the tests remains limited missing some PCa cases 
+Multi parametric magnetic resonance imaging MP MRI can aid 
+the detection and characterization PCa combining anatomical 
+functional and molecular imaging providing improved support for
+decision making regarding clinical treatment This MP MRI approach includes the use diusion weighted imaging DWI for
+studying the prostate DWI provides qualitative and quantitative microstructural information non invasive manner making use 
+water diusion probe prostatic tissue DWI measures the motion
+ water molecules within tissues which inuenced the presence
+ intra and extracellular compartments well intravascular spaces 
+The apparent diusion coecient ADC measure water mobility
+and can estimated from the signal intensity SI decay between two
+ more images exhibiting dierent levels diusion contrast quantied the value Previous studies reported reduced ADC values 
+PCa compared benign and healthy tissue In order for ADC
+quantication become more widespread the clinic essential 
+standardize prostate DWI protocols Several parameters inuence both
+the acquisition time and the measured ADC values impacting the accuracy the technique these include the repetition time TR the echo
+time TE and the number and the choice values 
+Corresponding author School Health Porto Polytechnic Institute Porto ESS IPP Rua Dr Antnio Bernardino Almeida Porto Portugal Institute 
+Biomedical Sciences Abel Salazar ICBAS University Porto Rua Jorge Viterbo Ferreira Porto Portugal 
+E mail address ncaeu ipp N Adubeiro 
+http doi org clinimag 
+Received June Received revised form September Accepted September 
+ Elsevier Inc All rights reserved 
+Clinical Imaging 
+N Adubeiro 
+directions generate scan trace images with values 
+ and slice thickness
+ TR TE matrix eld view
+ NEX scan time min 
+To minimize scanning time while maintaining the best possible
+diagnostic performance the determination optimal pair values desirable Choosing the maximum and minimum values for
+adequate ADC estimation thus becomes critical Recent recommendations state that the minimum value should range between and
+ reduce the impact micro perfusion capillaries 
+the ADC estimate while the maximum value should chosen within
+the interval However has been acknowledged
+that visual evaluation DWI acquired with values higher than
+ can advantageous due improved lesion conspicuity
+ Several studies have already explored pairs values with
+maximum values beyond this limit for ADC quantication
+ However there still consensus regarding the optimal value pair T A study Wang T compared
+diagnostic performance for dierent maximum values but selected 
+xed minimum value which not agreement with
+current guidelines 
+At T Peng compared seven value pairs ranging from
+ obtaining ADC cut 
+with the highest sensitivity and specicity for the bvalue pair However since the signal noise ratio
+ SNR the images dependent the eld strength the role 
+higher values for ADC quantication needs reevaluated T 
+The purpose this study was therefore evaluate the optimal pair
+ values for ADC estimation T resulting the best performance for dierentiating healthy tissue from PCa 
+ Data analysis
+Prostate images were evaluated radiologist with years 
+experience who localized and described the lesions combining information from morphologic and dynamic images 
+Taking into account the clinical imaging report two radiology researchers with training DWI both with over years experience 
+localized the lesions the DW images and images were
+evaluated avoid areas post biopsy hemorrhage and ADC maps
+were generated rule out shine through eects The slice that
+better depicted the lesion corresponding its highest dimension was
+chosen accounting for the prostate sector identied the prostatectomy TRUS biopsy report 
+Regions interest ROI were drawn around the lesion encompassing the hyperintense region and copied the
+other diusion images Regarding healthy glandular tissue ROI were
+drawn images with xed size the peripheral
+zone PZ and the central gland CG and copied the DW images 
+These images were then visualized ensure that the ROI fell
+within the intended anatomical structure and did not exhibit hyperintense signal Furthermore avoid MRI occult lesions the histology reports were taken into account when delineating
+the ROI Mean signal intensities SI for each DW image were recorded
+for both regions healthy tissue and lesions 
+ADC maps were generated for each value combination using the
+software Osirix Dicom Viewer version with the equation 
+Methods
+ Subjects and lesions
+This prospective study was approved the Hospital Ethics
+Committee reference number DEFI CES and all
+patients gave written informed consent 
+One hundred consecutive male patients referred our institution
+from October January with previous diagnosis 
+symptoms suggestive PCa and clinical indication perform pelvic
+MRI were enrolled the study Exclusion criteria were prior surgery hormonal radiation therapy before MP MRI MPMRI analysis without detected lesions absence positive
+histological PCa results obtained months from MRI examination
+ and diusion images with artifacts The nal
+number patients was reduced average age age range 
+ years old The pathologic conrmation PCa was made 
+TRUS biopsy prostatectomy 
+ADC 
+where the SI corresponding the higher value and 
+corresponded the lower value 
+The ADC was estimated using dierent combinations minimum bvalues and maximum values 
+ and resulting thirty 
+studied value combinations 
+ and forth The value combination 
+was ruled out 
+ Statistical analysis and clinical validation
+A descriptive analysis was performed for normal tissue and PCa For
+each value combination mean ADC values and standard deviations
+ SD were computed for healthy tissue and malignant lesions 
+For all the value combinations the area under the curve AUC 
+was estimated receiver operating characteristics ROC analysis The
+best pairs values were identied the combinations that showed
+AUC The pairs values that did not fulll this criterion were
+excluded For the best value pairs ADC cut and diagnostic performance were calculated considering Youden statistics and the
+minimum distance between the ROC curve and the ideal point coordinates AUC comparison for obtained ROC curves was done
+according Delong using MedCalc software version Medcalc
+Software Ostend Belgium 
+The Mann Whitney test was used evaluate dierences between
+PCa and normal tissue both globally and region lesion localization for the best value combinations 
+Overall dierences mean ADC values between the best value
+pairs were assessed using the Friedman nonparametric repeated measures analysis variance test 
+The Statistical Package for the Social Sciences SPSS software
+version was used for analysis and value was considered
+statistically signicant 
+ MR equipment and image acquisition protocol
+Prostate MP MRI was done using T MR scanner Achieva TX
+with Multi Transmit technology Philips Healthcare Netherlands 
+equipped with channel phased array coil The MRI protocol included weighted turbo spin echo TSE sequence the axial
+and coronal planes TR TE thickness matrix 
+ number excitations NEX scan time min sagittal TSE sequence TR TE thickness 
+matrix NEX scan time min axial TSE sequence TR TE thickness matrix 
+NEX scan time min axial TSE sequence TR TE 
+ thickness matrix NEX scan time
+ min with spectral pre saturation with inversion recovery SPIR 
+dynamic axial contrast enhanced fast eld echo with
+fat saturation TR TE thickness matrix 
+ NEX scan time min DWI was acquired before the
+dynamic sequence with single shot spin echo echo planar imaging
+ SS SE EPI sequence with SPIR for fat suppression and parallel imaging Sensitizing diusion gradients were applied the and 
+Clinical Imaging 
+N Adubeiro 
+Fig A years old patient with PCa the left PZ the
+prostate image shows hipointense signal area 
+the left PZ DW image with value 
+DW image with value showing hyperintense signal area corresponding the tumor The
+corresponding ADC map estimated from 
+ shows hypointense area conrming the presence 
+the lesion Mean ADC the lesion was 
+Results
+ when higher minimum value was used 
+Also maximum values seemed inuence the range ADC
+values When maximum values increased the range absolute mean
+ADC values tended decrease for all tissue types 
+ Subject and lesion characterization
+The nal sample included patients diagnosed with PCa 
+Median interquartile range PSA values were dL The
+median interquartile range area the lesions was 
+Thirty lesions were localized the PZ the CG and involved
+both regions Of the lesions had GS GS GS
+ GS and GS In the CG portion lesions were
+classied GS GS and GS In the PZ lesions
+were classied GS GS GS GS 
+and GS Three lesions localized between the dierent zones
+were classied GS For lesions histological results were
+performed prostatectomy the CG the PZ and both
+areas For the other lesions histology was obtained from TRUS
+biopsy 
+Fig illustrates case years old patient with PCa and includes dierent types images Fig DWI with value 
+ Fig value Fig and the corresponding ADC map Fig 
+ Diagnostic performance and mean ADC values
+For all the value combinations AUC ranged from
+ For the best value combinations having
+AUC the ADC cut and diagnostic performance lesion
+discrimination are presented Table 
+The AUC ranged from separate PCa from normal
+tissue The comparison between ROC curves showed signicant
+dierences AUC between the best value pairs In any
+case from the best combinations the value pair 
+showed the highest AUC Using ADC cut 
+ sensitivity specicity and accuracy were 
+ and respectively Fig presents the ADC distribution for
+normal including peripheral zone and central gland and malignant
+tissue for the value combination and corresponding
+ADC cut value used separate PCa from normal tissue 
+A detailed analysis ADC values for normal tissue region and
+PCa lesion localization for the best value pair combinations 
+shown Table For all value combinations mean ADC values
+showed signicant dierences between normal tissue and PCa globally
+ the PZ region and the CG region
+According the performed Friedman test mean ADC values for
+PCa and normal tissue were signicantly dierent between the best 
+ ADC values tissue type
+Mean ADC ranges for all prostate tissues the dierent localizations are summarized Table considering the value pairs studied 
+For the combinations that included minimum value 
+absolute ranges mean ADC were higher for all the tissues compared
+Clinical Imaging 
+N Adubeiro 
+Table 
+Summary mean ADC ranges for normal and PCa tissues for the value combinations studied globally and prostate region 
+ value pairs 
+ADC PCa
+All studied combinations
+bmin 
+bmin 
+bmax 
+bmin bmax 
+bmin bmax 
+bmax 
+bmin bmax 
+bmin bmax 
+ADC Healthy tissue
+Global
+PZ
+CG
+Global
+PZ
+CG
+bmin lowest value the pair bmax highest value the pair ADC apparent diusion coecient CG central gland PZ peripheral zone 
+For example bmin bmax includes all the combinations for which bmin higher than and bmax lower equal 
+value pairs showing that the used values inuence
+mean ADC results 
+Table 
+Best value pair combinations with AUC respective ADC cut and diagnostic
+performance The value combination with highest AUC highlighted bold 
+Best value
+combinations
+AUC
+ADC cut 
+Discussion
+Diagnostic performance 
+Sensitivity
+Specicity
+Accuracy
+The choice values included the DWI sequence central
+research issue since impacts the estimated ADC values 
+Prostate studies focusing specically investigating the best value
+pair for ADC quantication T are still scarce Previous studies reported mean ADC values ranging from
+ PCa and for
+normal tissue In our study globally mean ADC values for
+PCa ranged from and between and
+ for normal tissue Compared the previously
+mentioned studies our mean ADC ranges were similar for both PCa and
+normal tissue although the observed ranges were slightly wider for
+both tissue types Dierent factors could explain the dierence the
+mean ADC ranges between studies namely variations the physiological characteristics the studied tissue types and localization the
+lesions PCa GS classication dierences DWI protocols including
+the choice values and the methodology used image analysis 
+Our results demonstrate that PCa and normal tissue ADC values vary
+substantially with value combinations agreement with other studies Previous ADC quantication studies used maximum values from
+ combined with reporting ADC PCa
+between and and 
+ healthy tissue In our study for similar combinations maximum values between and combined
+with the range ADC values for PCa was equivalent
+ However for both areas normal
+glandular tissue PZ and CG the range and mean ADC values were
+lower than those previously reported 
+For maximum values between and combined
+with previous studies reported ADC values ranging from
+ for PCa and for
+healthy tissue Comparable ADC ranges were found our
+study for similar value combinations 
+Other research groups used minimum values higher than 
+ and maximum values within reporting PCa
+and normal tissue ADC ranging and
+ respectively When testing similar value
+combinations our results were similar for PCa ranging
+ However healthy tissue lower maximum ADC value was obtained 
+Overall our results conrm that the estimated ADC inuenced 
+the used values Using minimum value higher than leads
+ lower ADC values This was expected since including 
+increases the contribution micro perfusion eects This eect causes
+ADC Apparent diusion coecient AUC Area under the curve 
+Fig Box plots for ADC values for healthy and malignant tissue for the
+combination The horizontal line represents the corresponding
+ADC cut value for dierentiating between normal and malignant tissues 
+Clinical Imaging 
+N Adubeiro 
+Table 
+ADC values for PCa and normal tissue globally and region for the value combinations with AUC and corresponding values 
+ values 
+PCa ADC 
+Healthy tissue ADC 
+ value
+Global PZ CG
+Global
+PZ
+CG
+Global
+PZ
+CG
+Mean SD
+Mean SD
+Mean SD
+Mean SD
+Mean SD
+Mean SD
+ADC apparent diusion coecient AUC area under the curve SD standard deviation PZ peripheral zone CG Central Gland 
+ value dierences mean ADC values between PCa and healthy tissue globally and region 
+ and dierent value combinations achieving
+AUC between The best AUC was achieved for
+the value pair and for the value pair 
+ AUC sensitivity and specicity were and 
+respectively In their study AUC comparison also showed dierences between the best value combinations Comparing our results theirs for similar value pair higher AUC
+ was obtained In addition our study higher AUC 
+ sensitivity and specicity 
+were achieved when the value pair was used for ADC
+estimation The dierences found between studies could due 
+higher SNR available T and the use channel phasedarray coil According Shah the endorectal coils normally used
+ T can achieve the same clinical accuracy pelvic phase array
+coil T although ADC values can dier Nevertheless pelvic
+phase array coils are greatly advantageous regarding patient comfort 
+Also the ROI delineation methodology likely inuence ADC
+estimates Some authors use images for lesion demarcation others
+the DW images with higher values 
+Our methodology for ROI demarcation was dierent from that used 
+Peng they used images and copied the ROI the DW
+images whereas drew the ROI and propagated
+them the other DW images Since included only the most restricted lesion area likely represent the most malignant part the
+tumor this likely explain the lower ADC values obtained However other factors could have contributed the ADC dierences found
+between studies namely variations glandular and stromal structure 
+dierences DWI protocols and patient population 
+In our study the prostate anatomy was divided into PZ and CG The
+term CG used the literature represent the aggregation the
+transitional zone and the central zone Since prostate MRI the separation between these zones dicult the term CG can adopted 
+avoid erroneous identication lesion localization 
+Our study has some limitations Firstly lesion ROI may not have
+accurately reected histological tumor outline Also have consider that mean ADC values PCa may have been overestimated Some
+patients underwent MRI after TRUS biopsy which could have altered
+the ADC values due the presence residual hemorrhagic components Although did not control the time between biopsy and MRI 
+during image analysis were alert avoid areas hemorrhage 
+ and images Kim reported that the inuence blood
+ ADC measurements could ignored We used the mono 
+substantial signal attenuation low values which explain higher ADC
+values when including very low values Maximum values also
+inuence the ADC estimates previous studies also showed that increasing the maximum value leads lower ADC values At
+higher values the signal loss due micro perfusion eects completed and only diusion eects remain returning lower ADC values 
+Moreover high values normal prostate tissue signal suppressed 
+increasing lesion conspicuity the most malignant part the tumor 
+representing the region highest restriction highlighted and lower
+ADC values are measured Higher values are nevertheless associated
+with decreased SNR which could lead underestimated ADC values
+and lower diagnostic performances Despite this loss SNR our
+study the value pair with highest diagnostic performance was 
+ even though there were signicant dierences when
+comparing the AUC between the best value pairs The combined
+use T equipment and channel receiver coil increase the
+achievable SNR This type coil not often available the clinical
+setting where channel coils are more frequently used
+ SNR also inuenced the used TE and
+guidelines recommend TE lower than used our study
+ TE 
+Another important issue under investigation the number bvalues used for ADC quantication Multiple values can used 
+perform ADC measurements impacting its accuracy and precision
+ Using higher number values increases the condence
+associated the estimated ADC compared when only two values
+are used Nevertheless the larger the number values included 
+DWI sequence the longer its acquisition time In our study chose 
+evaluate only value pairs identify the smallest set values that
+would enable accurate ADC quantication within the shortest possible
+acquisition time for wider applicability the clinical practice 
+The diagnostic performance prostate DWI relies the established ADC cut Our results were consistent with previous studies
+ showing ADC values lower malignant lesions than normal
+tissue and AUC ranging from for all value pairs 
+The value pair showed the highest AUC 
+for ADC cut sensitivity specicity and
+accuracy were and respectively Mean ADC values were global PZ 
+ CG for normal tissue and global 
+ PZ and CG for PCa 
+In similar study T Peng used values 
+Clinical Imaging 
+N Adubeiro 
+exponential model since widely implemented but several papers
+highlight the importance employing exponential kurtosis other
+more complex models for studying PCa Furthermore our
+sample was small especially the number included malignant CG
+lesions making the ADC values potentially less representative Furthermore had exclude patients from the study since lesions were detected the MP MRI analysis However well known
+that MP MRI does not have negative predictive value especially lesions classied with GS and smaller than 
+In any case only those patients were diagnosed with PCa within
+ months scanning The relatively large slice thickness could
+have limited detectability partial volume eects could also potentially
+explain why only one lesion was detected per patient while PCa typically multifocal 
+To our knowledge this the rst paper that performed ADC analysis
+ PCa T using large combination value pairs with bvalues higher than and several minimum values
+higher than 
+Conclusion 
+Although several value pairs presented statistically comparable
+AUC the value combination with highest AUC was 
+ with sensitivity specicity and accuracy and
+ respectively Future prostate cancer studies should validate this
+combination investigating ADC correlation with the GS 
+Conicts interest
+None 
+Acknowledgments
+We thank Professor Sandra Alves Department Biostatistics 
+School Health Porto Polytechnic Institute Porto ESS IPP Rua
+Dr Antnio Bernardino Almeida Porto Portugal for
+the assistance statistical analysis 
+References
+ Mocikova I Babela J Balaz V Prostate cancer the role magnetic resonance
+imaging Biomed Pap Med Fac Univ Palacky Olomouc Czech Repub
+ Pentyala S Whyard T Pentyala S Muller J Pfail J Parmar S Prostate cancer
+markers update Biomed Rep 
+ Bjurlin MA Meng X Le Nobin J Wysock JS Lepor H Rosenkrantz AB 
+Optimization prostate biopsy the role magnetic resonance imaging targeted
+biopsy detection localization and risk assessment J Urol 
+ Aydn H Kzlgz V Tekin BO Overview current multiparametric magnetic resonance imaging approach the diagnosis and staging prostate cancer 
+Kaohsiung J Med Sci 
+ Rais Bahrami S Turkbey B Grant KB Pinto PA Choyke PL Role multiparametric
+magnetic resonance imaging the diagnosis prostate cancer Curr Urol Rep
+ Basser PJ Inferring microstructural features and the physiological NMR Biomed
+ Metens T Miranda D Absil J Matos C What the optimal value diusionweighted MR imaging depict prostate cancer T? Eur Radiol
+ Tamada T Kanomata N Sone T Jo Y Miyaji Y Higashi H High value
+ diusion weighted magnetic resonance imaging prostate cancer
+ tesla comparison with for tumor conspicuity and discrimination
+ aggressiveness PLoS One 
+ Wu LM Xu JR Gu HY Hua J Chen J Zhang W Usefulness diusion 
+weighted magnetic resonance imaging the diagnosis prostate cancer Acad
+Radiol 
+Peng Y Jiang Y Antic T Sethi I Schmid Tannwald C Eggener S Apparent
+diusion coecient for prostate cancer imaging impact values Am J
+Roentgenol 
+Wang X Qian Y Liu B Cao L Fan Y Zhang JJ High value diusionweighted MRI for the detection prostate cancer T Clin Radiol
+Weinreb JC Barentsz JO Choyke PL Cornud F Haider MA Macura KJ PIRADS prostate imaging reporting and data system version Eur Urol
+Manenti G Nezzo M Chegai F Vasili E Bonanno E Simonetti G DWI prostate
+cancer optimal value clinical practice Prostate Cancer 
+Thoeny HC Keyzer F Extracranial applications diusion weighted magnetic
+resonance imaging Eur Radiol 
+Delong ER Delong DM Clarke pearson DL Carolina N Comparing the areas under
+two more correlated receiver operating characteristic curves nonparametric
+approach Biometrics 
+De Rooij M Hamoen EHJ Ftterer JJ Barentsz JO Rovers MM Accuracy 
+multiparametric MRI for prostate cancer detection meta analysis AJR Am J
+Roentgenol 
+Kim TH Jeong JY Lee SW Kim CK Park BK Sung HH Diusion weighted
+magnetic resonance imaging for prediction insignicant prostate cancer potential candidates for active surveillance Eur Radiol 
+Koo JH Kim CK Choi D Park BK Kwon GY Kim B Diusion weighted magnetic
+resonance imaging for the evaluation prostate cancer optimal B value T 
+Korean J Radiol 
+Carbone SF Pirtoli L Ricci V Carfagno T Tini P La Penna A Diusionweighted magnetic resonance diagnosis local recurrences prostate cancer after
+radical prostatectomy preliminary evaluation twenty seven cases Biomed Res
+Int 
+Caivano R Rabasco P Lotumolo A Cirillo P DAntuono F Zandolino A 
+Comparison between Gleason score and apparent diusion coecient obtained
+from diusion weighted imaging prostate cancer patients Cancer Invest
+Korn N Kurhanewicz J Banerjee S Starobinets O Saritas E Noworolski S 
+Reduced FOV excitation decreases susceptibility artifact diusion weighted MRI
+with endorectal coil for prostate cancer detection Magn Reson Imaging
+Thrmer G Otto J Reiss Zimmermann M Seiwerts M Moche M Garnov N 
+Diagnostic value ADC patients with prostate cancer inuence the choice 
+ values Eur Radiol 
+Rosenkrantz AB Triolo MJ Melamed J Rusinek H Taneja SS Deng F M Wholelesion apparent diusion coecient metrics marker percentage Gleason 
+component within Gleason prostate cancer radical prostatectomy J Magn
+Reson Imaging 
+Boesen L Chabanova E Lgager V Balslev I Thomsen HS Apparent diusion
+coecient ratio correlates signicantly with prostate cancer gleason score nal
+pathology J Magn Reson Imaging 
+Tamada T Sone T Jo Y Yamamoto A Ito K Diusion weighted MRI and its role 
+prostate cancer NMR Biomed 
+Jie C Rongbo L Ping T The value diusion weighted imaging the detection 
+prostate cancer meta analysis Eur Radiol 
+Barentsz JO Richenberg J Clements R Choyke P Verma S Villeirs G ESUR
+prostate MR guidelines Eur Radiol 
+Shah ZK Elias SN Abaza R Zynger DL DeRenne LA Knopp MV Performance
+comparison T endorectal coil MRI with T nonendorectal coil MRI 
+patients with prostate cancer Acad Radiol 
+Jafar MM Parsai A Miquel ME Diusion weighted magnetic resonance imaging 
+cancer reported apparent diusion coecients vitro and vivo reproducibility World J Radiol 
+Kim CK Park BK Lee HM Kwon GY Value diusion weighted imaging for the
+prediction prostate cancer location T using phased array coil preliminary
+results Invest Radiol 
+Jambor I Merisaari H Aronen HJ Jrvinen J Saunavaara J Kauko T 
+Optimization value distribution for biexponential diusion weighted MR
+imaging normal prostate J Magn Reson Imaging 
+Jambor I Merisaari H Taimen P Bostrm P Minn H Pesola M Evaluation 
+dierent mathematical models for diusion weighted imaging normal prostate
+and prostate cancer using high values repeatability study Magn Reson Med
+Dianat SS Carter HB Macura KJ Performance multiparametric magnetic resonance imaging the evaluation and management clinically low risk prostate
+cancer Urol Oncol 

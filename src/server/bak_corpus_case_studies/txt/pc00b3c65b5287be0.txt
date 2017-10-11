@@ -1,0 +1,548 @@
+Journal Chromatography B 
+Contents lists available ScienceDirect
+Journal Chromatography B
+journal homepage www elsevier com locate chromb
+Separation and analysis mono glucosylated lipids brain and skin
+ hydrophilic interaction chromatography based carbohydrate
+and lipid moiety
+Kazuki Nakajima Hisako Akiyama Kaori Tanaka Ayako Kohyama Koganeya 
+Peter Greimel Yoshio Hirabayashi Ph D 
+Molecular Membrane Neuroscience RIKEN Brain Science Institute RIKEN Hirosawa Wako Saitama Japan
+Lipid Biology Laboratory RIKEN Hirosawa Wako Saitama Japan
+Article history 
+Received April 
+Received revised form July 
+Accepted July 
+Available online July 
+Keywords 
+Hydrophilic interaction chromatography
+Zwitterionic phase
+Mass spectrometry
+Glucosylceramide
+Phopsphatidylglucoside
+Glucosylated lipid
+Lipid isomer
+Mono glycosylated sphingolipids and glycerophospholipids play important roles diverse biological
+processes and are linked variety pathologies such Parkinson disease The precise identication the carbohydrate head group these lipids complicated their isobaric nature and 
+substantial differences concentration different biological samples To overcome these obstacles 
+developed zwitterionic ZIC hydrophilic interaction chromatography HILIC electrospray ionization
+tandem mass spectrometry method ZIC HILIC preferentially retains inositol followed glucose and
+galactose featuring lipids Comparison with unmodied silica gel HILIC stationary phase revealed different retention specicity To evaluate the precision ZIC HILIC quantied glucosyl GlcCer and
+galactosylceramides GalCer seven different regions the mouse brain and discovered that GlcCer
+and GalCer concentrations are inversely related The highest GalCer lowest GlcCer content was found
+ the medulla oblongata and hippocampus whereas the highest GlcCer lowest GalCer content was
+found other regions With neutral loss scan ZIC HILIC resolved glucosylceramide species featuring
+non hydroxylated fatty acid hydroxylated fatty acid and trihydroxy sphingoid bases mouse epidermis
+samples This demonstrates that our ZIC HILIC based approach valuable tool for characterizing the
+structural diversity mono glucosylated lipids biological material and for quantifying these important
+lipids 
+ Elsevier B V All rights reserved 
+Introduction
+Mono glucosylated lipids such glucosylceramide GlcCer 
+phosphatidylglucoside PtdGlc and cholesterylglucoside ChlGlc 
+play important roles various biological processes For
+example GlcCer key intermediate the synthesis most
+Abbreviations ChlGlc cholesterylglucoside CV coefcients variation 
+ESIMS MS electrospray ionization tandem mass spectrometry GalCer galactosylceramide GlcCer glucosylceramide HexCer hexosylceramide HILIC hydrophilic
+interaction chromatography HPTLC high performance thin layer chromatography LC liquid chromatography MRM multiple reaction monitoring non OHFA 
+non hydroxy fatty acid OHFA alpha hydroxy fatty acid OHFA omega hydroxy
+fatty acid HFA hydroxy fatty acid PtdGal phosphatidylgalactoside PtdGlc 
+phosphatidylglucoside PtdIns phosphatidylinositol RSD relative standard deviation TLC thin layer chromatography ZIC zwitterionic ZIC HILIC zwitterionic
+hydrophilic interaction chromatography 
+ Corresponding author 
+E mail address hirabayariken Y Hirabayashi 
+http doi org jchromb 
+ Elsevier B V All rights reserved 
+glycosphingolipids and also acts glucose donor ChlGlc
+biosynthesis In brain tissue the glucose head group GlcCer
+ predominantly replaced its epimer galactose giving rise
+ galactosylceramide GalCer GlcCer and GalCer are integral 
+neural function performing different roles the brain GalCer 
+ component myelin and plays critical role myelin related
+functions whereas GlcCer involved axonal growth On
+the other hand PtdGlc novel glycerol type glucosylated lipid 
+ minor component lipid rafts Recently PtdGlc was found 
+serve important guidance cue for spinal cord sensory axons
+after undergoes hydrolysis phospholipases lyso PtdGlc
+ However phosphatidylinositol PtdIns the isobaric isomer 
+PtdGlc abundantly present brain 
+In non neural tissues GlcCer exhibits structural complexity and each GlcCer species has distinctive functions 
+ceramide species In skin acylated hydroxylated GlcCer are
+involved epidermal cell differentiation Consequently 
+highly reproducible analytical method capable isometric based
+K Nakajima J Chromatogr B 
+separation via the carbohydrate and ceramide moiety highly
+desired order gain better understanding the biological
+functions mono glycosylated lipids 
+Liquid chromatography LC electrospray ionization tandem
+mass spectrometry ESIMS MS powerful tool for lipidomic
+analyses Further improvement achieved via two dimensional
+LC setup featuring combination two different chromatographic
+methods This setup enhances identication minor lipid species
+ qualitative analysis well reproducibility quantitative
+analysis Reversed phase chromatography used widely 
+separate lipid samples primarily based the length and degree
+ saturation their respective alkyl chains Unfortunately subtle
+alterations the head group such substituting glucose for galactose cannot resolved By contrast hydrophilic interaction
+chromatography HILIC type normal phase chromatography able resolve lipids based their head groups 
+HILIC separation based the analyte partitioning between
+acetonitrile rich mobile phase and water rich layer absorbed 
+the hydrophilic stationary phase More hydrophilic analytes are
+retained the column their partitioning equilibrium shifts more
+toward the water layer the stationary phase 
+While the HILIC method was initially developed for the separation amino acids the successful separation GlcCer from
+GalCer has also been reported using fused core silica and amino
+column More recently HILIC based method using ultraperformance LC and supercritical uid chromatography has been
+demonstrated discriminate sufciently between GlcCer and GalCer brain tissue samples While these approaches have
+been used quantify both GlcCer and GalCer they suffer from substantial variability among different samples Consequently 
+ alternative method with improved resolution complex GlcCer
+would highly desirable 
+A zwitterionic ZIC stationary phase consists oppositely
+charged groups and phase that can used separate phospholipid classes based electrostatic interactions In general 
+ ZIC stationary phase retains thick hydration layer that generates strong hydrophilic interactions with analytes This feature
+facilitates the separation congurational isomers and the discrimination hydroxylated molecules such glycopeptides and
+carbohydrates 
+In the present study evaluated the efcacy ZIC HILIC
+stationary phases for isometric separation variety glucosylated lipid classes Following method optimization rst
+compared the chromatographic behaviors two classes glycolipids ZIC HILIC with unmodied silica gel HILIC stationary
+phase Next evaluated the utility and reproducibility our
+method for the quantitative analysis GlcCer brain tissue and
+demonstrated that highly suitable for analyzing other glycolipids such PtdGlc and PtdIns Additionally the successful
+discrimination complex epidermal GlcCer mixtures based 
+their ceramide moieties via two column setup conrmed the suitability our ZIC HILIC method for characterizing the carbohydrate
+and ceramide moieties GlcCer simultaneously 
+Materials and methods
+ Materials
+Lipid standards were purchased from Avanti Polar lipids
+ Andover MA USA PtdGlc PtdGlc PtdGal
+ and acetylated PtdGlc were synthesized 
+ reported previously Ammonium formate was purchased from Sigma Aldrich Japan Tokyo Japan Acetonitrile and
+methanol were purchased from Thermo Fisher Scientic Waltham 
+MA USA Chloroform and distilled water were purchased from
+Kanto Kagaku Tokyo Japan The solvents were HPLC grade All
+other materials were either from WAKO Osaka Japan Sigma
+Aldrich Japan All materials and solvents were used supplied
+without further purication 
+ Lipid extraction
+All animal experiments were performed compliance with
+RIKEN institutional guidelines Ten week old and month old
+BL J mice Charles River Laboratories Japan were deeply
+anesthetized and the cranium was carefully dissected open The
+entire brain was removed and divided into seven parts based
+mostly standard anatomical regions olfactory bulb hypothalamus cerebellum medulla oblongata hippocampus cortex and
+other regions not included the rst six Each separated region
+was immediately frozen liquid nitrogen and stored until analysis Mouse epidermal sheets were obtained according previous
+reports 
+Total lipids were extracted from lyophilized tissues added with
+GlcCer containing pmol lyophilized tissue 
+according the method Bligh and Dyer The total lipid
+extracts were hydrolyzed M potassium hydroxide 
+chloroform methanol for room temperature neutralized with acetic acid and partitioned according the Folch
+method The lower phase was collected and dried under stream
+ nitrogen Lipids from mouse epidermal sheets were precipitated
+ acetone for ice and collected centrifugation 
+ LCMS MS analysis
+Samples were analyzed semi micro LC system XL Eksigent Dublin CA USA coupled triple quadrupole linear ion trap
+mass spectrometer SCIEX Toronto Canada 
+ Chromatographic conditions
+Chromatographic conditions based previous report 
+were modied described below ZIC column with phosphocholine phase ZIC cHILIC Merck
+SeQuant Umea Sweden ZIC column with sulfobetaine phase
+ Merck SeQuant and Atlantes silica HILIC column Waters MA USA 
+were used indicated and regenerated weekly with column volumes washing solution acetonitrile water 
+ZIC columns with phosphocholine and sulfobetaine phase were
+equilibrated with mobile phase A acetonitrile water formic acid 
+ with mM ammonium formate and the Atlantes
+silica HILIC column with alternative mobile phase A acetonitrile methanol formic acid with mM ammonium
+formate each rate 
+Samples were dissolved chloroform methanol 
+diluted fold with mobile phase A and aliquot was
+injected via injector valve equipped with sample loop
+lled with acetonitrile Upon injection the chromatography gradient and data collection the mass spectrometry was initiated 
+Lipids were eluted with the following gradient mobile phase B
+ methanol water formic acid with mM ammonium formate B over min linear increase B over
+ min linear gradient B over min washing
+with B for min and nally equilibrated with A for min 
+To allow comparison the chromatographic behaviors between
+the employed HILIC columns the retention factors phosphatidyl hexosides and PtdIns were calculated The dead time
+ was determined with benzophenone pmol 
+three experiments 
+K Nakajima J Chromatogr B 
+ ESIMS MS conditions
+First the optimal conditions for GlcCer and PtdGlc
+ were determined adjusting the declustering potential entrance potential collision energy and collision cell exit
+potential Subsequently the ionization conditions were optimized 
+Analysis target lipids was conducted the multiple reaction monitoring MRM mode using specic precursor product ion
+pairs The employed precursor ions product ions and collision energies are summarized Table PtdGlc was analyzed
+ the negative ion mode according our previous report 
+using the following settings ion spray voltage V curtain
+gas psi temperature C GlcCer was analyzed the positive ion mode with the following settings ion spray voltage V 
+curtain gas psi temperature C The neutral loss scan for
+hexosylceramide HexCer specic detection was performed with
+the following settings according our previous report neutral loss Da scan range the instrument scan
+speed collision energy eV 
+Each peak was integrated using MultiQuant software and quantied based the peak areas each standard GlcCer and GalCer
+content was normalized against the internal standard GlcCer 
+ recovery and expressed pmol lyophilized tissues The values represent the averages three experiments 
+ High performance thin layer chromatography HPTLC 
+Lipid mixtures dissolved chloroform methanol were
+separated boric acid coated HPTLC plate silica gel Merck
+Millipore Germany and developed chloroform methanol M
+ammonia solution Neutral glycosphingolipids
+were visualized spraying orcinol reagent followed heating 
+ hot plate C for min Identities the stained lipids were
+ascertained reference standards 
+Results and discussion
+ Optimization and reproducibility
+HILIC separation lipids usually achieved with mobile phases
+composed acetonitrile water volatile solvent
+ For example bacterial phospholipids are separated ZIC HILIC with mobile phase containing water 
+In the present study selected acetonitrile water mixture
+ containing mM ammonium formate which sufciently
+retained GlcCer and PtdGlc samples the column In order 
+ensure reproducible results the column was regenerated with acetonitrile water prior each analysis 
+The reproducibility elution times and peak areas was conrmed analyzing synthetic mixture PtdGlc and
+PtdIns Over seven runs the results were highly reproducible Fig with retention time coefcients variation CV 
+for PtdGlc and PtdIns The peak area CVs PtdGlc and
+PtdIns were and respectively This represents signicant improvement compared with our previously reported method
+based normal phase chromatography with chloroform based
+solvent system demonstrating the suitability ZIC HILIC 
+reliably quantify PtdGlc 
+Fig Chromatographic behaviors glucosylated lipids ZIC HILIC column and unmodied silica gel column for comparison A Mass chromatograms standard
+reference material containing hexosylceramide HexCer with green red and blue B Retention factors phosphatidyl hexosides
+and phosphatidylinositol PtdIns for dead time are indicated with asterisks 
+K Nakajima J Chromatogr B 
+Fig Proles lipid mixtures extracted from mouse brains from postnatal day and week old adult mice A TLC proles both lipid mixtures and standard
+references four types HexCer using boric acid impregnated TLC plate B Representative mass chromatograms both lipid mixtures analyzed ZIC HILIC Various
+glucosylceramide GlcCer species present minute quantities brain tissue asterisk were separated from galactosylceramide GalCer and quantied 
+ ZIC HILIC versus unmodied silica gel HILIC
+Next compared the chromatographic behaviors standard
+reference materials such HexCers phosphatidyl hexosides and
+PtdIns Fig unmodied silica gel HILIC with ZIC HILIC 
+The HexCer species with and 
+were monitored the following MRM pairs 
+ and respectively using product ions 
+the dehydration sphingolipid base On ZICHILIC Fig A glucose featuring HexCer species were eluted
+after their corresponding galactose analogs mutually separating GlcCer and GalCer species Phosphatidyl hexosides exhibited
+the same carbohydrate dependent elution pattern Fig B Fig 
+ indicated their respective retention factors for PtdGlc
+ and PtdGal The
+preferential retention glucosylated lipids compared with their
+galactosylated analogs was also observed sulfobetaine stationary phase Fig By contrast unmodied silica gel
+HILIC stationary phase galactosylated glycolipids were preferentially retained indicated the respective retention factors for
+PtdGlc compared with PtdGal Taken together 
+the preferential retention glucosylated compared with galactosylated glycolipids appears due the hydrophilic interactions
+that occur with increased thickness the hydration layer the
+stationary phase 
+The effect the fatty acid chain pattern the retention times
+was strikingly similar all columns used In general increasing the
+fatty acyl chain length weakened analyte retention and resulted
+ reduced retention times For example both GlcCer and GalCer
+featuring ceramide moiety were eluted later than
+their ceramide featuring analogs By contrast alteration the stereoconguration the glycerol moiety gave almost
+identical retention factors Fig B Acetylated PtdGlc 
+ O acetylation was weakly retained the column and therefore
+eluted earlier than that non acetylated PtdGlc Inositides such
+ PtdIns and lyso PtdIns were eluted later than
+their respective glucoside and galactoside analogs all employed
+systems Together these results correspond well our previously
+reported observations using normal phase chromatography 
+ Analysis hexosylceramides brain tissue
+To demonstrate the applicability our ZIC HILIC method over
+ broad range biologically relevant concentrations the monohexosylceramide content present total lipid extracts from whole
+mouse brain tissue postnatal day and adult weekold mice was quantied In contrast the large amount GalCer
+present adult mouse brain mouse brain tissue contains only
+ small amount The integrity our brain samples was conrmed with boric acid impregnated TLC plate and migration
+with standards As expected low amounts HexCers were found
+ mouse brain tissue and GalCer was predominantly found
+ adult mouse brain Fig A The MRM proles Fig B GlcCer
+species indicated asterisks demonstrated that regardless the
+large amount GalCer GlcCer was still well resolved 
+The major fatty acid present GlcCer from mouse brain
+was stearic acid Fig B light green whereas the
+predominant fatty acid GalCer from adult mouse brain was 
+nervonic acid residue In adult mouse brain the preference for long chain fatty acids GalCer preserved GalCer
+featuring hydroxylated OHFA long chain fatty acids exhibited longer retention time compared their non hydroxylated
+ non OHFA analogs OHFAs are characteristically present 
+K Nakajima J Chromatogr B 
+Table 
+Reproducibility method for brain GlcCer 
+ZIC HILIC
+Contents fmol lyophilized tissue 
+GlcCer 
+GlcCer 
+GlcCer 
+GlcCer 
+GlcCer 
+GlcCer 
+HILIC with unmodied silica gel column
+RSD values 
+Contents fmol lyophilized tissue 
+RSD values 
+The data were collected from four experiments 
+Fig A GlcCer content and B GalCer content different regions mouse brain Filled bars A and B indicate GlcCer and GalCer with non hydroxy fatty acid non OHFA 
+and striped bars B indicate GalCer with OHFA The content and variability for each compound are shown Table 
+GalCer species which the predominant constituent adult
+mouse brain 
+To evaluate the reproducibility our HILIC methods the HexCer species extracted from month old mouse brains Table 
+were repeatedly analyzed An unnatural GlcCer was
+added validate the feasibility the extraction method Its recovery was also appropriately Across four samples
+the relative standard deviations RSD ZIC HILIC were reproducible with range The unmodied silica gel
+HILIC RSDs were within In both cases the determined concentration low abundant constituents such GlcCer
+ GlcCer and GlcCer was
+comparable although their respective RSDs were relatively high 
+Taken together these results demonstrate that our method sufciently robust for the quantication GlcCer biological samples 
+such brain tissue 
+ Distribution HexCer brain
+Imaging mass spectrometry powerful tool for determining
+the spatial distribution lipids the brain Because the isobaric nature HexCer this technique incapable discriminating
+between different carbohydrate moieties thus precluding the analysis minor GlcCer species Using our ZIC HILIC method 
+the concentrations species HexCer were determined
+ seven different regions adult mouse brain olfactory bulb 
+hypothalamus cerebellum medulla oblongata hippocampus cortex and other regions Fig and Table In each region the
+total amount GalCer exceeded GlcCer The medulla oblongata
+and hippocampus were especially rich GalCer but poor GlcCer In contrast olfactory bulb hypothalamus cortex and other
+regions exhibited the highest GlcCer content but the lowest GalCer content Thus the distribution GlcCer compared GalCer
+ brain regions exhibited inverse relationship rationalizing the
+variation GalCer excess between and fold compared 
+GlcCer 
+In terms fatty acid modication the ceramide moiety sizeable amounts palmitic acid were detected the GlcCer
+fraction isolated from the olfactory bulb Fig red Stearic acid
+ was the main fatty acid found the four GlcCer rich regions
+ Fig light green By contrast the highest content stearic
+acid featuring GalCer was the medulla oblongata and
+hippocampus coinciding with the lowest content stearic acid
+ featuring modied GlcCer A similar inverse pattern was
+observed for arachidic acid behenic acid and lignoceric acid despite their relatively low content GlcCer
+and GalCer Nervonic acid the major fatty acid modication found GalCer which specically enriched the medulla
+oblongata and hippocampus Fig blue In the case GlcCer nervonic acid featuring species were distributed evenly Hydroxy
+fatty acids were found only the GalCer fraction with the highest
+content the olfactory bulb 
+K Nakajima J Chromatogr B 
+Fig HILIC ESIMS MS lipid mixtures extracted from mouse epidermis A Extracted ion chromatograms generated neutral loss scan Detected peaks were divided
+into three classes based retention times ZIC HILIC and unmodied silica gel column and B Mass spectra eluted around each group Class was
+separated into two peaks ZIC HILIC GlcCer species with HFA GlcCer species with trihydroxy sphingoid base 
+This heterogeneous distribution HexCer species likely 
+related their region specic function For example substantial part white matter composed myelin sheath tissue that
+ rich nervonic acid featuring GalCer Consequently the
+high content GalCer with nervonic acid species the medulla
+oblongata and hippocampus correlate well with the high content
+ white matter these regions the brain Therefore the distinct
+HexCer composition each analyzed brain region and the considerable uctuation their respective regional content highlights the
+importance quantifying local alterations HexCer composition
+ the onset and during the progression neurodegenerative diseases such Parkinson disease If slight differences GlcCer levels
+need measured further during disease progression samples should also analyzed with the HILIC ESIMS MS method
+combined with ion mobility system which are currently
+developing Taken together our ZIC HILIC method exceptionally suitable for analyzing signicant differences minor GlcCer
+content across different brain regions 
+ Qualitative analysis hexosylceramide skin
+In general the epidermis composed complex mixture 
+hexosylceramides with considerable diversity their ceramide
+moiety This includes the presence additional hydroxyl group
+ the position the fatty acid residue the long
+chain base sphingoid base moieties such hydroxysphinganine
+ hydroxysphingosine By contrast the carbohydrate
+moiety lacks diversity limited primarily glucose 
+Consequently characterization the HexCer mixture mouse
+epidermis samples ideal for demonstrating the versatility our
+method discriminate compounds based differences their
+ceramide moiety To assess the complexity the ceramide moieties detected and characterized HexCers based LC retention
+times and values neutral loss scan The neutral loss Da
+has been previously associated with the loss hexosyl residue
+ cleavage its glycosidic linkage 
+Three distinct classes and HexCers were clearly
+separated our ZIC HILIC method based differences their
+ceramide moiety Fig A Class seemed lack any additional
+hydroxylation but did possess variety fatty acid residues
+between Fig B ZIC HILIC and Table Class 
+and were exclusively composed HexCer with additional
+hydroxyl group The min shift the retention time class 
+compared with class and the observed values were indicative additional hydroxyl group either the position
+ the fatty acid residue HFA OHFA OHFA By contrast 
+ values class corresponded known sphingolipids with
+ trihydroxy long chain base such hydroxy sphinganine and
+ hydroxy sphingosine 
+For comparison used unmodied silica gel HILIC column
+ analyze the epidermal HexCer mixture Fig A This method
+resolved classes and which correspond non hydroxylated
+HexCer and class which corresponds mixture fatty
+acids and long chain base hydroxylated HexCer Interestingly the
+ions present class were predominantly Da heavier than
+the ions present class indicating higher degree saturation the long chain base moiety For example the value 
+ and corresponded GlcCer 
+and GlcCer respectively Thus the method using
+ unmodied silica gel column was capable discriminating
+between GlcCer species with sphingosine and those with sphinganine However the full characterization unidentied
+signals such and will require additional
+experiments Fig A Table Additionally minor components
+such GlcCer containing OHFA and trihydroxy sphingoid bases
+should characterized Currently are also developing twodimensional HILIC MS method combined with reversed phase
+mode efciently characterize minor GlcCer species These results
+K Nakajima J Chromatogr B 
+Table 
+Structure mouse epidermal GlcCer 
+Peak numbers
+ZIC HILIC
+Unmodied silica gel
+Ceramide moieties
+Sphingoid base
+Fatty acid
+ with HFA
+ with HFA
+ with HFA
+ with HFA
+ with HFA
+HFA indicates mixture omega alpha hydroxy fatty acids OHFA and OHFA 
+ and GlcCer featuring dihydroxy sphingolipid bases and GlcCer featuring trihydroxy sphingolipid bases 
+demonstrate the alternative resolving power ZIC HILIC compared with unmodied silica gel HILIC columns 
+Conclusions
+We established and validated the reproducibility novel
+ZIC HILIC based HPLCMS MS method for the analysis glycosphingolipids and glycophospholipids The preferred retention
+ Ins Glc Gal allowed the outright identication the carbohydrate moiety despite their isobaric nature Additionally GlcCer 
+the minor component brain samples was condently analyzed 
+even the presence times excess GalCer In skin samples our ZIC HILIC method demonstrated its potential resolve
+fatty acid and long chain base hydroxylation Comparison our
+new method with unmodied silica gel HILIC column revealed
+ inverted retention prole and separation characteristics with
+respect the lipid moiety Thus our approach with two HILIC
+methods successfully quantied glucosylated lipids brain and
+skin tissues 
+Acknowledgments
+We thank Dr Sumiko Hamanaka Josai University for providing
+the samples lipid mixtures extracted from the epidermis We also
+thank Dr Shota Sakai Hokkaido University for valuable suggestions prior submission This work was supported Grant Aid
+for B K N from the Ministry Education Culture 
+Sports Science and Technology Japan 
+Appendix A Supplementary data
+Supplementary data associated with this article can found 
+ the online version http doi org jchromb 
+References
+ Y Ishibashi A Kohyama Koganeya Y Hirabayashi New insights 
+glucosylated lipids metabolism and functions Biochim Biophys Acta 
+ Y Hirabayashi A world sphingolipids and glycolipids the brainnovel
+functions simple lipids modied with glucose Proc Jpn Acad Ser B Phys 
+Biol Sci 
+ S Kunimoto T Kobayashi S Kobayashi K Murakami Murofushi Expression
+ cholesteryl glucoside heat shock human broblasts Cell Stress
+Chaperones 
+ H Akiyama S Kobayashi Y Hirabayashi K Murakami Murofushi 
+Cholesterol glucosylation catalyzed transglucosylation reaction 
+ glucosidase Biochem Biophys Res Commun 
+ T Coetzee N Fujita J Dupree R Shi A Blight K Suzuki K Suzuki B Popko 
+Myelination the absence galactocerebroside and sulfatide normal
+structure with abnormal function and regional instability Cell 
+ S Watanabe S Endo E Oshima T Hoshi H Higashi K Yamada K Tohyama 
+T Yamashita Y Hirabayashi Glycosphingolipid synthesis cerebellar
+Purkinje neurons roles myelin formation and axonal homeostasis Glia 
+ A Schwarz A H Futerman Distinct roles for ceramide and glucosylceramide
+ different stages neuronal growth J Neurosci 
+ Y Nagatsuka T Kasama Y Ohashi J Uzawa Y Ono K Shimizu Y 
+Hirabayashi A new phosphoglycerolipid phosphatidylglucose found 
+human cord red cells multi reactive monoclonal anti cold agglutinin 
+mAb FEBS Lett 
+ A T Guy Y Nagatsuka N Ooashi M Inoue A Nakata P Greimel A Inoue T 
+Nabetani A Murayama K Ohta Y Ito J Aoki Y Hirabayashi H Kamiguchi 
+NEURONAL DEVELOPMENT Glycerophospholipid regulation 
+modality specic sensory axon guidance the spinal cord Science 
+ Y A Hannun L M Obeid Many ceramides J Biol Chem 
+ M Abe E Ohima S Sakai Y Hirabayashi T Tsuchida S Hamanaka 
+Sphingolipids the murine hair J Soc Jap Woman Sci 
+ S Hamanaka M Hara H Nishio F Otsuka A Suzuki Y Uchida Human
+epidermal glucosylceramides are major precursors stratum corneum
+ceramides J Invest Dermatol 
+ X Han K Yang R W Gross Multi dimensional mass spectrometry based
+shotgun lipidomics and novel strategies for lipidomic analyses Mass
+Spectrom Rev 
+ T Alvarez Segura C Ortiz Bolsico J R Torres Lapasi M C 
+Garca lvarez Coque Serial versus parallel columns using isocratic elution 
+comparison multi column approaches mono dimensional liquid
+chromatography J Chromatogr A 
+ Y Hirabayashi A Hamanaka M Matsumoto K Nishimura An improved
+method for the separation molecular species cerebrosides Lipids 
+ C Zhu A Dane G Spijksma M Wang J van der Greef G Luo T Hankemeier 
+R J Vreeken An efcient hydrophilic interaction liquid chromatography
+separation phospholipid classes based diol column J Chromatogr A
+ M Schwalbe Herrmann J Willmann D K Leibfritz Separation 
+phospholipid classes hydrophilic interaction chromatography detected 
+electrospray ionization mass spectrometry J Chromatogr A 
+ Y Okazaki Y Kamide M Yokota Hirai K Saito Plant lipidomics based 
+hydrophilic interaction chromatography coupled ion trap time ight
+mass spectrometry Metabolomics 
+ P Jandera Stationary and mobile phases hydrophilic interaction
+chromatography review Anal Chim Acta 
+K Nakajima J Chromatogr B 
+ N P Dinh T Jonsson K Irgum Water uptake polar stationary phases under
+conditions for hydrophilic interaction chromatography and its relation 
+solute retention J Chromatogr A 
+ R L Shaner J C Allegood H Park E Wang S Kelly C A Haynes M C Sullards 
+A H Merrill Jr Quantitative analysis sphingolipids for lipidomics using
+triple quadrupole and quadrupole linear ion trap mass spectrometers J Lipid
+Res 
+ N Brignol K Chang R Hamler A E Schilling R Khanna D J Lockhart S W 
+Clark E R Benjamin Mol Genet Metab 
+ J Snider Simultaneous Quantitative Analysis Glucosylceramide and
+Galactosylceramide Species Supercritical Fluid Chromatography Tandem
+Mass Spectrometry Medical University South Carolina Waring Historical
+Library Department Biochemistry and Molecular Biology 
+ M Boutin Y Sun J J Shacka C Auray Blais Tandem mass spectrometry
+multiplex analysis glucosylceramide and galactosylceramide isoforms 
+brain tissues different stages Parkinson disease Anal Chem 
+ L Zheng R TKind S Decuypere S J von Freyend G H Coombs D G Watson 
+Proling lipids Leishmania donovani using hydrophilic interaction
+chromatography combination with Fourier transform mass spectrometry 
+Rapid Commun Mass Spectrom 
+ G Greco S Grosse T Letzel Study the retention behavior zwitterionic
+hydrophilic interaction chromatography isomeric hydroxy and
+aminobenzoic acids J Chromatogr A 
+ R I Chirita C West S Zubrzycki A L Finaru C Elfakir Investigations the
+chromatographic behaviour zwitterionic stationary phases used 
+hydrophilic interaction chromatography J Chromatogr A 
+ T Ito E E Herter J Baidoo M E Lao A M Vega Snchez P D Smith Moritz 
+J D Adams B Keasling C J Usadel J L Petzold J L Heazlewoodd Analysis 
+plant nucleotide sugars hydrophilic interaction liquid chromatography and
+tandem mass spectrometry Anal Biochem 
+ Y Takegawa K Deguchi T Keira H Ito H Nakagawa S I Nishimura 
+Separation isomeric aminopyridine derivatized N glycans and
+N glycopeptides human serum immunoglobulin G using zwitterionic
+type hydrophilic interaction chromatography J Chromatogr A 
+ P Greimel M Lapeyre Y Nagatsuka Y Hirabayashi Y Ito Syntheses 
+phosphatidyl beta D glucoside analogues probe antigen selectivity 
+monoclonal antibody Bioorg Med Chem 
+ Y Nagatsuka Y Horibata Y Yamazaki M Kinoshita Y Shinoda T 
+Hashikawa H Koshino T Nakamura Y Hirabayashi Phosphatidylglucoside
+exists single molecular species with saturated fatty acyl chains 
+developing astroglial membranes Biochemistry 
+ E G Bligh W J Dyer Can J Biochem Physiol 
+ S Ito T Nabetani Y Shinoda Y Nagatsuka Y Hirabayashi Quantitative
+analysis novel glucosylated phospholipid liquid chromatography mass
+spectrometry Anal Biochem 
+ K Nakajima A Kohyama Koganeya Y Hirabayashi Proling 
+glycosylceramides liquid chromatography tandem mass spectrometry 
+Glycosci Biolo Med 
+ E L Kean Separation gluco and galactocerebrosides means borate
+thin layer chromatography J Lipid Res 
+ C E Costello J E Vath Tandem mass spectrometry glycolipids Methods
+Enzymol 
+ B Domon C E Costello Structure elucidation glycosphingolipids and
+gangliosides using high performance tandem mass spectrometry 
+Biochemistry 
+ W Kamichatani Y Inoue A Yamamoto Separation properties saccharides
+ hydrophilic stationary phase having hydration layer formed zwitterionic
+copolymer Anal Chim Acta 
+ S Ngamukote M Yanagisawa T Ariga S Ando R K Yu Developmental
+changes glycosphingolipids and expression glycogenes mouse brains 
+J Neurochem 
+ Y Sugiura M Setou Imaging mass spectrometry for visualization drug and
+endogenous metabolite distribution toward situ pharmacometabolomes J 
+Neuroimmune Pharmacol 
+ M F Snel M Fuller High spatial resolution matrix assisted laser desorption
+ionization imaging analysis glucosylceramide spleen sections from 
+mouse model Gaucher disease Anal Chem 
+ S Cha E S Yeung Colloidal graphite assisted laser desorption ionization
+mass spectrometry and MSn small molecules Imaging cerebrosides
+directly from rat brain tissue Anal Chem 
+ S C Zhang Dening glial cells during CNS development Nat Rev Neurosci 
+ S Hamanaka T Yamamoto C Asagami Occurrence galactosylceramide 
+pig epidermal cells Biochim Biophys Acta 
+ R J Robson M E Stewartm S Michelsen N D Lazo D T Downing 
+ sphingenine human epidermal ceramides J Lipid Res 

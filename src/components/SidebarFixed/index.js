@@ -65,6 +65,7 @@ class SidebarFixed extends Component {
 
   handleTopicCreate = () => {
     const { topicValue } = this.state;
+    if (topicValue === '') return;
     const { topicWords } = this.props;
     for (let i = 0; i < topicWords.length; i += 1) {
       if (topicValue.toLowerCase() === topicWords[i].toLowerCase()) {
@@ -131,7 +132,6 @@ class SidebarFixed extends Component {
     } = this.props;
 
     const { magnetsActive } = this.props;
-
     return (
       <Menu vertical fixed="left" inverted style={this.props.style}>
         <Menu.Item>

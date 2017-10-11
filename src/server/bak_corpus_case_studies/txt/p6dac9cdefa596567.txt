@@ -1,0 +1,527 @@
+MR based hippocampal
+volumetry the diagnosis 
+Alzheimers disease
+Clifford R Jack Jr MD Ronald C Petersen PhD MD Peter C OBrien PhD and Eric G Tangalos MD
+Article abstracWe evaluated new magnetic resonance MR basedtechnique for performing volumetric measurements temporal lobe structures The technique was designed assist making the clinical diagnosis dementia 
+the Alzheimer type DAT We chose specific anatomic regions interest because their known involvement memory function and the neuropathology DAT and used regression model assess the effects age the volumes
+ the anterior temporal lobe ATL and the hippocampal formation HF These measurements were normalized 
+total intracranial volume TIV The volumetric measurements both the normalized ATL and HF were significantly
+smaller DAT patients N than controls N but the HF volumes provided much better separation between the two groups Eighty five percent the DAT patients fell below the range the HF TIV measurement for the control subjects This separation held over the entire age range studied Normalized volumes both
+the HF and ATL decreased with age significantly for both the DAT patients and the controls These results support the
+contention that MR based HF volumetric measurements are accurate differentiating DAT patients from cognitively
+normal elderly individuals This technique may useful adjunct making the clinical diagnosis DAT 
+NEUROLOGY 
+While the accuracy making the clinical diagnosis
+ dementia the Alzheimer type DAT reasonably high difficulties remain differentiating early DAT from the cognitive changes
+found normal
+Criteria for the clinical
+diagnosis dementia have been proposed 
+ DSM III R National I 
+Neurological and Communicative Disorders and
+Stroke Alzheimers Disease and Related Disorders
+Association NINCDWADRDA task force however the absence biologic marker the definitive diagnosis can made only with biopsy 
+autopsy The clinical diagnosis most difficult 
+the older age groups and assessing the significance
+ memory changes this age group can particularly challenging 
+We are proposing the use recently developed
+magnetic resonance MR imaging technique for
+the volumetric measurement the anterior temporal lobe ATL and hippocampal formation HF 
+aid the clinical diagnosis DAT The rationale for using this technique the diagnosis 
+DAT follows brain imaging study recommended part the evaluation patients
+with
+ MR superior CT accu 
+rately imaging the temporal lobe and limbic structures involved 
+ memory
+impairment often the earliest and most severe clinical
+manifestation patients with DAT temporal
+lobe limbic structures particular the HF are
+intimately involved the aspect memory function that fails DAT I and these limbic system structures are extensively involved histopathologically DAT 
+We developed the proposed MR based volumetric
+technique and have found reproducible and
+valid several clinical and research settings 
+The reliability the technique has been documented repeated measures testing and the reproducibility the results has been excellent The
+accuracy the volumetric measurements has been
+demonstrated correlations with phantoms 
+known volume The technique has been used 
+measure the HF volumes patients being evaluated for surgery for medically intractable epilepsy 
+and excellent correspondence has been found
+between the atrophic HF assessed MR and
+the site the active epileptogenic focus Finally 
+ study correlating MR volumes the HF with the
+degree mesial sclerosis found surgical speci 
+From the Departments Diagnostic Radiology Dr Jack Neurology Dr Petersen Biostatistics Dr OBrien and Community Internal Medicine Dr 
+Tangalos Mayo Clinic and Mayo Foundation Rochester MN 
+Supported part grants from the National Institute Aging Mayo Clinic Alzheimers Disease Patient Registry and CA Mayo
+Clinic Alzheimers Disease Core Center and the Mayo Foundation 
+Received April Accepted for publication final form July 
+Address correspondence and reprint requests Dr Clifford R Jack Jr Department Diagnostic Radiology Mayo Clinic Rochester MN 
+January NEUROLOGY 
+mens from epilepsy excellent agreement the seen MR
+and neuronal loss the HF 
+The specific purpose this project determine MR based volumetric measurements
+ the HF and ATL could discriminate between
+patients with probable DAT and cognitively 
+elderly individuals 
+Methods Patients This study included patients with
+probable DAT and healthy cognitively normal individuals similar age Most the DAT patients and all
+ from Mayo Clinic
+Alzheimers Disease Patient Registry Additional DAT
+patients were recruited from the referral practice 
+neurologist R C P and these patients received essentially the same evaluation patients drawn from the
+Alzheimers Disease Patient Registry 
+Patients and controls were recruited into the Mayo
+Clinic Alzheimers Disease Patient Registry from individu coming Division Community I 
+Medicine Mayo Clinic for their annual general
+medical examinations As part the Alzheimers Disease
+Patient Registry all patients and controls received medical neurologic performed 
+internist and neurologist respectively A complete history was taken from the patient and another knowledgeable source Laboratory studies were performed including complete blood count chemistry profile RPR thyroid function studies folic acid chest ray and 
+ECG All patients and controls underwent neuropsychological tests including the Wechsler Adult Intelligence
+Scale Revised Wechsler Memory Scale 
+Wechsler Memory Scale Revised Rey Auditory
+Verbal Learning Test the Short Test Mental Status 
+the Hachinski Ischemic Index the Geriatric Depression
+Scale and Global Deterioration Scale under 
+supervision neuropsychologist All the DAT
+patients met the criteria for probable DAT outlined 
+the NINCDSIADRDA task force The DAT patients were
+ mild disease 
+received Global Deterioration Scale 
+The control subjects had evaluation identical 
+that the probable DAT patients They had cognitive
+complaints and were judged cognitively normal and
+functioning independently the Alzheimers Disease
+Patient Registry Consensus Committee comprised 
+internist two neurologists two neuropsychologists and
+three nurses involved the evaluation these patients 
+One R C P asked the patients for their willingness participate this MR study The risks and benefits participation this project were discussed with
+the patients and compensation was provided All 
+the control subjects had Global Deterioration Scale rating which was normal None the patients controls were judged depressed and all had Hachinski
+Ischemic scores less than four None the patients 
+controls had clinical evidence for strokes nor did they
+have any cortical infarctions T weighted MR
+images 
+MR image acquisition All studies were performed 
+ T GE Signa Milwaukee WI After scout sequence 
+ insure symmetric positioning the patients head 
+sagittal images were obtained with the following parameters sections field view FOV 
+ TRrIE excitations phase encoding steps The plane
+ NEUROLOGY January 
+ the left H F was located from the sagittal images and
+ oblique coronal 
+acquired perpendicular this plane with the following
+parameters FOV phase encoding
+steps slice thickness interleaved with interslice gap The following three features which are necessary for accurate volumetric measurements were incorporated into the design this pulse sequence the
+sequence was tailored perpendicular the long
+axis the H F each individual was T weighted 
+thereby providing high brain CSF and gray white matter
+contrast and individual image slices were thin and
+contiguous which minimized partial volume averaging 
+thereby enhancing accuracy volume measurements Both temporal lobe structures ATL and HF were
+measured from this oblique coronal pulse sequence 
+All subjects also underwent axial double spin echo
+sequence This sequence was used exclude subjects
+with possible cortical infarctions but was not used for
+volumetry 
+Image processing volume measurements The volume
+measurement technique has been described greater
+detail elsewhere Briefly image processing was done
+with ANALYZE software Biodynamics Research Unit 
+Mayo Foundation Rochester MN running indep S workstation T 
+employs semiautomated technique that combines tracing and thresholding High contrast region interest
+boundaries which were formed brain CSF interface 
+were defined gray scale threshold which was set
+halfway between background and brain intensity Region
+ interest boundaries which were not defined high
+gray scale contrast were manually traced with mousedriven cursor Gray scale values pixels external the
+outline were set zero Once the boundary the region
+ interest had been defined serial planimetric sections its volume voxels was determined automatically
+ counting the number pixels within the threshold
+range 
+Boundary definitions for the temporal lobe structures
+have been
+The posterior boundary for both
+ ATL and H F was defined oblique coronal
+plane which intersected the posterior commissure the
+cross referenced midline sagittal image In plane circumferential ATL and H F boundaries are defined figures 
+and respectively The H F was defined include the
+subiculum Ammons horn dentate gyrus 
+and associated white tracts alveus fimbria 
+Ammons horn within the posterior uncus was included
+ the HF region interest boundary Definition these
+H F margins the workstation screen was guided 
+continually referencing detailed neuropathologic
+anatomic atlas Disarticulation the H F head from the
+amygdala and uncinate gyrus the most anterior sections was aided recognizing the undulating contour 
+the pes digitations figure and also the fact that the
+alveus provides high signal intensity white matter 
+marker defining the superior border the head the
+H F where directly abuts the overlying amygdala 
+Total intracranial volume was measured the sagittal images tracing the contour the inner table Both
+regions interest HF and ATL were normalized for
+intersubject variation head size dividing the
+total intracranial volume TIV each case Precedent
+for this ratio approach region interest normalization comes from both the CT and
+ the
+ population based autopsy studies brain eight These
+normalized indices HFPTIV ATLITIV ratios 
+ In plane circumferential A T L boundaries 
+Oblique coronal image ATL boundaries outlined 
+squares the left Proceeding clockwise the left side 
+boundaries are formed the choroid fissure vertical
+manually drawn line through the temporal stem sylvian
+fissure and subarachnoid space surrounding the lateral 
+basal and medial temporal gyri S vertical portion 
+sylvian fissure temporal stem arrowhead choroid
+fissure Left the reader right figures 
+express the region interest HF ATL percentage TIV 
+Volume measurements were performed unbiased manner neuroradiologist C R J with extensive experience ANALYZE software operator A
+trained study assistant loaded the control and patient
+MR imaging studies randomly into workstation memory 
+E only 
+Measurements five subjects were made per session The operator making the measurements C R J 
+was blinded the clinical diagnosis age and sex each
+case which eliminated any potential measurement bias
+ the volumetric data 
+Results The demographic and volumetric data are
+summarized the table The two clinical groups
+are closely matched age and gender distribution 
+Symbols for individual temporal lobe regions 
+interest the table represent the sum the right
+plus the left side for example the symbol HF represents the right plus left HF volume Both
+the mean normalized HF and ATL were smaller 
+DAT patients than controls figure despite the
+fact the patients were slightly younger 
+average than controls There was difference 
+the normalized volumes for men and women 
+either measure Temporal lobe regions 
+interest for men and women could therefore 
+ In plane circumferential HF boundaries 
+Oblique coronal images hippocampal fissure 
+parahippocampal gyrus Ammon horn CAl subfield
+area black arrowheads subiculum arrow amygdala
+ cortical nucleus and accessary basal nucleus and white
+arrowhead uncinate gyrus Top figure image
+through the posterior HF body Bottom figure the most
+anterior HF section through the head pes hippocampus 
+HF boundaries are outlined the left squares 
+Proceeding clockwise the left side HF boundaries are
+formed the uncal cistern choroid fissure CSF space
+above the pes digitations the anterior HF section 
+bottom temporal horn and the gray white interface
+formed the subiculum and underlying
+parahippocampal gyrus white matter Note the
+undulating superior border the HF head the pes
+digitations which distinguishes from the overlyinz
+amygdala The dash the right indicates the
+boundary use separate the HF head from the
+uncinate gyrus follow criteria outlined the
+neuroanatomy text D ?
+analyzed together without treating gender 
+covariate The mean TIV patients and controls
+was essentially the same ATL volumes
+are reported with the HF volume included ATL
+volume typically order magnitude greater
+ the HF Analyses done both ways
+demonstrated that subtracting the HF from ATL
+volumes had effect the intergroup ATL volumetric differences 
+Figures and represent scatter plots and linear regression normalized volumes age for
+DAT patients and control subjects HF TIV figure
+ ATL TIV figure The normalized ATL and HF
+both decrease with age for DAT patients and controls An analysis covariance normalized volume age demonstrated that the volumes ATL
+ and HF were significantly
+smaller for the DAT patients than for the controls 
+Inspection figures and indicates that the
+HF TIV measurement was more effective separating the two groups HF TIV shows
+that only three the DAT patients fell within
+January NEUROLOGY 
+the range the controls the DAT patients
+fell below the range control subjects 
+The slope the regression lines not different
+between patients and controls for the ATL TIV but
+ significantly different for the HF TIV 
+The HF TIV decreases more rapidly with age for
+DAT patients than controls and this study separation controls from patients was more complete older subjects 
+Discussion The data from this study demonstrate
+that this MR technique may useful distinguishing patients with probable DAT from agematched controls Volumetric measurement the
+HF separated the patients with DAT from the normal controls reasonably well Only three the
+patients overlapped and consequently this measurement technique more promising than other
+Table Demographic data and temporal lobe
+volumetric measurements DAT and controls
+No 
+Age yrs 
+Education yrs 
+M F
+STMS
+VIQ
+PIQ
+FSIQ
+TIV 
+HF TIV
+ATLTIV
+DAT
+Controls
+STMS Short test mental status Range with cut off
+between normal and dementia 
+VIQ Verbal IQ 
+PIQ Performance IQ 
+FSIQ Full scale IQ 
+TIV Total intracranial volume 
+HFmIV Ratio right plus left hippocampal formation divided
+ total intracranial volume 
+ATLTIV Ratio right plus left anterior temporal lobe divided 
+total intracranial volume X 
+quantitative imaging techniques previously available 
+While the volumetric measurements the
+ATL also separate the two groups significant
+fashion there sufficient overlap between the two
+groups make less useful 
+Consequently recommend the use the HF
+measure assist the diagnosis DAT 
+We also found increasing volume loss with age 
+controls for both normalized temporal lobe regions
+ interest HF TIV and ATL TIV This consistent with the age related atrophy that occurs 
+both C T and
+ brain
+ quanti 
+tation studies The slopes the normalized volumes when regressed age did not differ between
+the DAT patients and the controls for the normalized ATL measure but did differ significantly for
+the normalized HF measure The significance 
+this finding uncertain this time and will
+acquire additional data for further amplification 
+A question can raised concerning the validity
+ using the clinical diagnosis DAT the criterion against which assess the volumetric measures Since inception Mayo Clinic
+Alzheimers Disease Patient Registry autopsies
+have been obtained patients and controls All
+ the cases with the diagnosis probable DAT
+have been correctly classified thus far when the
+clinical and neuropathologic diagnoses have been
+compared Therefore appears that while the
+clinical diagnosis DAT not the ideal gold standard there least good agreement with the
+ultimate neuropathologic diagnosis obtained 
+autopsy the registry from which subjects for this
+study were drawn 
+For nearly two decades investigators using CT
+have attempted quantify hemispheric cerebral
+atrophy order differentiate patients with DAT
+from cognitively normal elderly 
+Semiautomated CT based measurement techniques
+suffer from several inherent technical limitations
+when compared with MR CT based techniques
+have been hampered lack specificity separating individual patients with DAT from normal
+elderly persons and this the primary reason
+ HF comparison 
+control versus DAT Images
+ the left are the level 
+the hippocampal body top 
+and head bottom year old female control
+subject Images the right
+are through similar
+anatomic levels yearold woman with DAT Note
+the atrophy the HF with
+lesser atrophy the
+temporal lobe the DAT
+patient compared with the
+control 
+I
+ NEUROLOGY January 
+I
+Age 
+ Hippocampal formation uolumetry Scatter plot
+and linear regression normalized HF HFITN X 
+ age for control and DAT subjects 
+ L
+ Control
+DAT
+I
+Age 
+ Anterior temporal lobe uolumetry Scatter plot
+and linear regression normalized ATL ATLf T N X
+ age for control and DAT subjects 
+ CT based quantitation atrophy has not
+gained widespread clinical It
+ plausible that the most significant limitation previous semiautomated CT based attempts quantify
+global cerebral atrophy DAT was that the areas
+ the brain that are most severely involved the
+temporal lobe particularly H F were not
+included the regions interest Indeed several
+recent nonvolumetric CT 
+which
+O
+the
+CSF spaces the anterior temporal region were
+perceptually evaluated have claimed impressive
+accuracy separating patients with DAT from
+elderly controls More recently semiautomated
+MR based whole brain lobar volumetric
+approaches have been 
+While this manuscript was preparation 
+paper was published Kesslak the same
+topic Kesslak use MR based volumetric
+technique that seems similar the one have
+previously published although some technical
+details were not fully described They measured
+volumes the HF and parahippocampal gyri 
+patients with probable DAT N and elderly
+controls N In earlier study Seab 
+used MR based single slice planimetric measurements the HF separate DAT patients N 
+from elderly controls N In both these studies the probable DAT and control groups were
+completely separated quantitative measures 
+ overlap was found Conversely our study
+with larger sample size roughly three times larger than that Kesslak DAT patients were
+incompletely separated from controls the basis
+ HF volume measurements We feel that while
+hippocampal volumetry useful will not provide
+ absolute diagnostic standard when applied
+prospectively the population risk for DAT 
+In summary our technique MR based HF volumetric measurements shows promise providing
+useful diagnostic information 
+patients with probable DAT from normal elderly
+subjects This technique may prove clinically useful adjunctive test elderly patients suspected having DAT This can considered costeffective approach because patients evaluated for
+dementia must undergo cross sectional imaging
+study exclude other treatable causes dementia Simple visual inspection the MR images for
+atrophy may not adequate because the model
+ described incorporates adjustment for both
+age and total intracranial volume Ultimately 
+will important expand this database develop age specific sensitivity and specificity figures In
+addition the technique will applied patients
+with early memory deficits the absence more
+generalized cognitive decline determine this
+technique will able predict which patients will
+ultimately develop dementia 
+Acknowledgments
+Ms Ellen Ptacek and Mrs Brenda Maxwell for their typing 
+References
+McKhann G Drachman D Folstein M Katzman R Price D 
+Stadlan EM Clinical diagnosis Alzheimers disease 
+report NINCDSADRDA Work Group under the auspices
+ Department Health and Human Services Task Force 
+Alzheimers disease Neurology 
+American Psychiatric Association Diagnostic and statistical
+manual mental disorders Revised Washington 
+DC American Psychiatric Association 
+K R Alzheimers N E J Med
+Terry RD Katzman R Senile dementia the Alzheimer
+type Ann Neurol 
+Joachim CL Morris J H Selkoe DJ Clinically diagnosed
+Alzheimers disease autopsy results cases Ann
+Neurol 
+Morris JC Heyman A Mohs RC The Consortium 
+Establish Registry for Alzheimers Disease CERAD Part
+I Clinical and neuropsychological assessment Alzheimers
+disease Neurology 
+Wade JPH Mirsen TR Hachinski VC The clinical
+diagnosis Alzheimers disease Arch Neurol 
+Jack CR J Bentley MD Twomey CK Zinsmeister AR MR
+January NEUROLOGY 
+imaging based volume measurement the hippocampal formation and anterior temporal lobe validation studies 
+Radiology 
+Jack CR Jr Twomey CK Zinsmeister AR Anterior
+temporal lobes and hippocampal formations normative volumetric measurements from MR images young adults 
+Radiology 
+Jack CR Jr Sharbrough FW Twomey CK Temporal
+lobe seizures lateralization with MR volume measurements
+ the hippocampal formation Radiology 
+Jack CR Jr Gehring DG Sharbrough FW Temporal
+lobe volume measurement from MR images accuracy and
+left right asymmetry normal persons J Comput Assist
+Tomogr 
+Cascino GD Jack CR Jr Parisi JE MRI based volume
+studies temporal lobe epilepsy pathological correlations 
+Ann Neurol 
+Naidich TP Daniels DL Haughton VM Hippocampal
+formation and related structures the limbic lobe anatomic MR correlation Part I Surface features and coronal sections Radiology 
+Shefer VF Hippocampal pathology possible factor 
+the pathogenesis senile dementia Neurosci Behav Physiol
+Wilcock GK Esiri MM Plaques tangles and dementia 
+quantitative study J Neurol Sci 
+Tomlinson BE Blessed G Roth M Observations the
+brains demented old people J Neurol Sci 
+Hyman BT Van Hoesen GW Damasio AR Barnes CL 
+Alzheimers disease cell specific pathology isolates the hippocampal formation Science 
+Hyman BT Van Hoesen GW Kromer LJ Damasio AR 
+Performant pathway changes and the memory impairment
+ Alzheimers disease Ann Neurol 
+Ball MJ Fisman M Hachinski V A new definition 
+Alzheimers disease hippocampal dementia Lancet
+Hooper MW Vogel FS The limbic system Alzheimers disease neuropathologic investigation Am J P 
+Lezak M Neuropsychological assessment New York 
+Oxford 
+Kokmen E Naessens JM Offord KP A short test mental
+status description and preliminary results Mayo Clin Proc
+Rosen WG Terry RD Fuld PA Pathological verification ischemic score differentiation dementias Ann
+Neurol 
+Yesavage JA Brink TL Rose TL Development and
+validation geriatric depression screening scale preliminary report J Psychiatr Res 
+Reisberg B Ferris S Leon MJ Crook T The global deterioration scale for assessment primary degenerative
+dementia Am J Psychiatr 
+Robb RA Barillot C Interactive display and analysis D
+medical images IEEE Trans Med Imag 
+Duvernoy HM The human hippocampus An atlas applied
+anatomy Munich JF Bergmann 
+ NEUROLOGY January 
+George AE Leon MJ Rosenbloom SH Ventricular
+volume and cognitive deficit computed tomographic study 
+Radiology 
+ M Hughes CP Danziger W Volumetric measurements the cerebrospinal fluid spaces demented
+subjects and controls Radiology 
+Huckman MS Fox J J The validity criteria for the
+evaluation cerebral atrophy computed tomography 
+Radiology 
+Creasey H Schwartz M Frederickson H Quantitative
+computed tomography dementia the Alzheimer type 
+Neurology 
+Dekaban AS Sadowsky D Changes brain weights during
+the span human life relation brain weights body
+heights and body weights Ann Neurol 
+Ho KC Roessmann U Straumfjord JV Monroe G Analysis
+ brain weight I Adult brain weight relation sex 
+race and age Arch Lab Med 
+Ho KC Roessmann U Straumfjord JV Monroe G Analysis
+ brain weight Adult brain weight relation body
+height weight and surface area Arch Pathol Lab Med
+Anderson JM Hubbard BM Coghill GR Slidders W The
+effect advanced old age the neurone content the cerebral cortex observations with automatic image analyser
+point counting method J Neurol Sci 
+Miller AKH Alston RL Corsellis JAN Variation with age 
+the volumes grey and white matter the cerebral hemispheres man measurements with image analyser 
+Neuropathol Appl Neurobiol 
+George AE Leon MJ Stylopoulos LA CT diagnostic
+ Alzheimer disease importance the
+choroidalhippocampal fissure complex AJNR O 
+ LeMay M Stafford JL Sandor T Statistical assessm perceptual CT scan with
+Alzheimer J Comput Assist Tomogr
+Sandor T Albert M Stafford J Harpley S Use computerized CT analysis discriminate between Alzheimer
+patients and normal control subjects AJNR 
+ DK Caine ED Lemay M Temporal lobe atrophy
+ patients with Alzheimers disease CT study AJNR
+Tanna NK Kohn MI Honvich DN Analysis brain
+and cerebrospinal fluid volumes with MR imaging impact
+ PET data correction for atrophy Part Aging and
+Alzheimer dementia Radiology 
+Rusinek H Leon MJ George AE Alzheimers disease measuring loss cerebral gray matter with MR imaging Radiology 
+Kesslak J P Nalcioglu Cotman CW Quantification 
+magnetic resonance scans for hippocampal and parahippocampal atrophy Alzheimers disease Neurology
+Seab JP Jagust WJ Wong STS Quantitative NMR
+measurements hippocampal atrophy Alzheimers disease Magn Reson Med 
+MRbased hippocampal volumetry the diagnosis Alzheimers disease
+Clifford R Jack Jr Ronald C Petersen Peter C OBrien 
+Neurology 
+DOI WNL 
+This information current January 
+Updated Information 
+Services
+including high resolution figures can found 
+http www neurology org content full html
+Citations
+This article has been cited HighWire hosted articles 
+http www neurology org content full html otherarticle
+Permissions Licensing
+Information about reproducing this article parts figures tables 
+ its entirety can found online 
+http www neurology org misc about xhtml permissions
+Reprints
+Information about ordering reprints can found online 
+http www neurology org misc addir xhtml reprintsus
+Neurology the official journal the American Academy Neurology Published continuously
+since now weekly with issues per year Copyright Edgell Communications 
+Inc All rights reserved Print ISSN Online ISSN X 

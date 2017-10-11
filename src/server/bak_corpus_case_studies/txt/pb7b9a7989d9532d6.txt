@@ -1,0 +1,453 @@
+Journal Alzheimers Disease 
+DOI 
+IOS Press
+Performance Hippocampus Volumetry
+with FSL FIRST for Prediction
+ Alzheimers Disease Dementia Risk
+Subjects with Amnestic Mild Cognitive
+Impairment
+Per Suppaa Harald Hampelc Timo Keppb Catharina Langea Lothar Spiesb Jochen B Fiebachd 
+Bruno Duboisc and Ralph Bucherta for the Alzheimers Disease Neuroimaging 
+ Department
+ Nuclear Medicine Charite Berlin Germany
+diagnostics GmbH Hamburg Germany
+ Universite Pierre Marie Curie Institut Memoire Maladie dAlzheimer INSERM 
+Institut Cerveau Moelle epiniere ICM Departement Neurologie Hopital Pitie Salpetriere 
+Paris France
+ Center for Stroke Research Berlin Charite Berlin Germany
+ Jung
+Accepted December 
+Abstract MRI based hippocampus volume core feasible biomarker Alzheimers disease AD not yet widely used
+ clinical patient care partly due lack validation software tools for hippocampal volumetry that are compatible
+with routine workflow Here evaluate fully automated and computationally efficient hippocampal volumetry with FSLFIRST for prediction AD dementia ADD subjects with amnestic mild cognitive impairment aMCI from phase the
+Alzheimers Disease Neuroimaging Initiative Receiver operating characteristic analysis FSL FIRST hippocampal volume
+ corrected for head size and age revealed area under the curve and for prediction aMCI ADD
+conversion within months respectively Thus FSL FIRST provides about the same power for prediction 
+progression ADD aMCI other volumetry methods 
+Keywords ADNI Alzheimers disease aMCI Alzheimer disease dementia amnestic mild cognitive impairment FSLFIRST fully automated hippocampal volumetry magnetic resonance imaging model based segmentation prediction
+ The authors contributed equally this work senior authors 
+ Correspondence
+ Ralph Buchert PhD Charite Universitatsmedizin Berlin Department Nuclear Medicine 
+Chariteplatz Berlin Germany Tel 
+Fax E mail ralph buchertcharite 
+ Data used preparation this article were obtained
+from the Alzheimers Disease Neuroimaging Initiative ADNI 
+database http adni loni usc edu As such the investigators
+within the ADNI contributed the design and implementation ADNI and provided data but did not participate 
+analysis writing this report A complete listing ADNI
+investigators can found http adni loni usc edu content 
+uploads how apply ADNI Acknowledgement List pdf
+ISSN IOS Press and the authors All rights reserved
+P Suppa Predicting AD dementia aMCI with FSL FIRST
+INTRODUCTION
+Various expert groups including the National Institute Aging Alzheimers Association NIA AA 
+working group the International Working Group
+ IWG and the European Federation the
+Neurological Societies EFNS task force recommend the use magnetic resonance imaging
+ MRI based hippocampus volume biomarker for
+neurodegeneration complement symptom based
+criteria for improved prognostic accuracy amnestic
+mild cognitive impairment aMCI 
+Manual segmentation the hippocampus 
+expert considered the gold standard for hippocampus volumetry However manual segmentation 
+time consuming and therefore hardly compatible with
+routine workflow the typical diagnosis setting
+with high patient throughput In contrast fullyautomated and computationally efficient software
+tools provide the potential translate hippocampus volumetry into clinical routine There
+are several commercial and non commercial software tools for hippocampus volumetry available 
+some which have been evaluated the European Medicines Agency EMA process 
+qualification hippocampus volume imaging
+biomarker for enrichment clinical trials predementia stages Alzheimers disease AD 
+Despite considerable methodological differences all
+ the tested tools provided about the same power
+for prediction conversion AD dementia ADD 
+ MCI subjects from the Alzheimers Disease Neuroimaging Initiative ADNI Our group 
+recently proposed processing pipeline for fullyautomated hippocampus volumetry based the
+Statistical Parametric Mapping SPM software
+package version Wellcome Trust Centre for Neuroimaging London UK The SPM software 
+freely available and well documented open source 
+The prognostic accuracy the processing
+pipeline ADNI aMCI subjects was very good
+agreement with the EMA results However the
+ processing pipeline uses global stereotactical
+normalization into template space and predefined
+standard hippocampus atlas mask delineate the hippocampus template space The hippocampus mask
+selected for this application rather large order
+ account for residual anatomical variability after
+stereotactical normalization As consequence hippocampus volume estimated the pipeline 
+considerably larger than hippocampus volume from
+manual segmentation according the harmonized
+protocol proposed recently This limitation
+ the atlas based approach 
+The aim the present study was evaluate the
+performance another freely available software tool 
+FSL FIRST which was developed for anatomical
+segmentation subcortical structures including the
+hippocampus FSL FIRST deploys model based
+segmentation for accurate anatomical delineation 
+the hippocampus detailed description the method
+ Hippocampus volumetry with FSL FIRST
+was performed exactly the same ADNI subjects
+that had been included the evaluation the 
+processing pipeline This allows direct head tohead comparison FSL FIRST and 
+MATERIAL AND METHODS
+ADNI subjects
+MRI data used this study were obtained
+from the Alzheimers Disease Neuroimaging Initiative ADNI database http adni loni usc edu The
+ADNI was launched public private
+partnership led Principal Investigator Michael
+W Weiner MD The primary goal ADNI has
+been test whether serial MRI positron emission
+tomography other biological markers and clinical
+and neuropsychological assessment can combined
+ measure the progression MCI and early AD 
+In brief aMCIs from phase the ADNI were
+included ADNI aMCIs who had converted ADD
+within period months after months 
+between and months and between and
+ months and ADNI aMCIs who had remained
+stable over months In addition ADNI normals
+with T screening MRI were included controls 
+All them had been documented normal throughout period months after baseline clinical
+examination No subjects were excluded based 
+poor image quality A more detailed description eligibility criteria and the characteristics the included
+cohorts given 
+Two D weighted magnetization prepared
+rapid gradient echo D MPRAGE images had been
+acquired the same imaging session back toback scans We consistently selected the first scan
+ mimic clinical routine which there usually only single scan available All images were
+downloaded unpreprocessed gradwarp 
+non uniformity correction see http adni loni 
+usc edu methods mri analysis mri pre processing 
+P Suppa Predicting AD dementia aMCI with FSL FIRST
+Hippocampal volumetry
+In preparation the application FSL FIRST 
+all D MPRAGE images were transformed into
+ common coordinate system rigid body
+ registration whole brain template 
+the Montreal Neurological Institute MNI space
+was used for this preprocessing step Then hippocampus segmentation was performed using the
+FIRST module from the FMRIBs Software Library
+ FSL version http fsl fmrib fsl The
+run first all routine was applied with slight modification enable larger search region and normalized
+mutual information cost function described 
+ The total hippocampus volume FIRST HV 
+was obtained summing hippocampus volume 
+left and right hemisphere 
+FSL FIRST uses hippocampus model comprising shape and intensity information The model has
+been derived from weighted MRIs which
+the hippocampus was delineated manually These
+MRIs were registered globally MNI space affine
+ parameter registration A second local registration was restricted subcortical structures The
+variation shape and intensity modeled multivariate Gaussian distribution A detailed description
+ the method given 
+Short term test retest stability
+Short term test retest stability hippocampus volumetry FSL FIRST was assessed using the
+repeat MPRAGE scan from the baseline imaging session the ADNI aMCI subjects The difference
+between the two FIRST HV estimates was characterized the signed difference and 
+the relative signed difference 
+ where and denote FIRST HV from
+the first and from the repeat MPRAGE scan within
+the baseline imaging session Analysis variance
+ ANOVA was used test the mean the signed
+difference and the mean the relative signed difference for group effect difference between the 
+aMCI subgroups The Levene test was used test
+the variance the two measures for group effect 
+gies Louisville CO which has been shown 
+provide excellent agreement with manual tracing 
+the hippocampus HV SNT values were available for download from the ADNI homepage for 
+ the ADNI aMCIs stable aMCIs 
+Correction for total intracranial volume and age
+For each individual subject FIRST HV from the
+first baseline MPRAGE scan was adjusted mean
+total intracranial volume TIV and mean
+age years the control group based bilinear regression FIRST HV with TIV and age 
+independent variables the control group The
+adjusted total hippocampus volume denoted 
+FIRST HVad 
+The based HV toolbox was used for
+TIV estimation although the FSL software provides
+possibilities obtain the TIV for example using
+the Brain Extraction Tool BET with corrections 
+described and the use different software
+tools general means additional effort for the user 
+The rationale for using the based HV toolbox
+for TIV estimation was simplify the comparison
+with TIV and age adjusted hippocampus volume
+from the processing pipeline avoid additional
+variability different TIV estimates The HV
+toolbox freely available from the SPM website 
+http www fil ion ucl spm ext HV 
+ROC analysis
+Receiver operating characteristic ROC analysis was used evaluate the power FIRST HVad
+for differentiation between the ADNI aMCI ADD
+converters and the stable ADNI aMCIs The area
+ AUC under the ROC curve was used performance measure The open source R package pROC
+was deployed for ROC analysis 
+Cut off values for estimation prognostic accuracy were obtained Youdens method Accuracy
+measures were cross validated correct for overfitting using repeats fold cross validation
+RESULTS
+Validation against semi automated segmentation
+ground truth
+FIRST HV values were correlated with hippocampus volume obtained semi automated method
+ HV SNT Medtronic Surgical Navigation Technolo 
+Delineation the hippocampi FSL FIRST
+worked properly according visual inspection 
+all subjects except one normal control This subject
+was excluded from the bilinear regression FIRSTHV the control group regression coefficients were
+P Suppa Predicting AD dementia aMCI with FSL FIRST
+ and year for TIV and age 
+respectively 
+Total processing time including based
+preprocessing coregistration and TIV estimation 
+was approximately min per scan standard
+ GHz CPU with MB cache 
+The results short term test retest stability 
+FIRST HV are given Table One stable aMCI subject had excluded from this analysis because FSL
+registration failed for the repeat scan Test retest variability did not differ between the aMCI subgroups 
+neither the mean nor the variance signed difference relative signed difference showed significant
+group effect ANOVA Levene and
+ for signed difference and relative signed
+difference respectively 
+FIRST HV showed strong correlation with the
+semi automated HV SNT method Pearsons correlation coefficient 
+ROC curves for FIRST HVad are shown Fig 
+Maximum AUC was achieved for identification ADNI aMCIs who converted ADD within
+ months There was trend lower AUCs for
+detection ADNI aMCIs who converted within 
+ AUC months AUC Details are
+given Table 
+DISCUSSION
+Objective the present study was qualify the
+freely available software tool FSL FIRST for the
+prediction aMCI ADD conversion based hippocampus volume 
+For this purpose first assessed the short term
+test retest stability FIRST HV the total bilat 
+Table 
+Signed difference and relative signed difference uncorrected 
+FIRST HV between the first MPRAGE scan and the repeat
+MPRAGE scan the same imaging session mean standard
+deviation The distribution mean standard deviation was not
+significantly different between the four aMCI subgroups neither
+ the signed difference nor the relative signed difference
+stable aMCI subjects
+aMCI ADD converters 
+within months
+aMCI ADD converters 
+between and months
+aMCI ADD converters 
+between and months
+all aMCI subjects
+Signed
+Relative signed
+difference difference 
+Fig ROC curve TIV and age corrected total hippocampal volume FIRST HVad for discrimination between ADNI
+aMCI stable subjects and ADNI aMCI subjects who converted
+ ADD within continuous line AUC broken line 
+AUC and months dotted line AUC 
+Table 
+Area AUC under the ROC curve cut off value determined the maximum Youden index and accuracy measures for prediction 
+aMCI ADD conversion within months hippocampal volume corrected for TIV and age FIRST HVad All accuracy
+measures were cross validated Standard deviation given round brackets confidence interval square brackets
+Interval
+months
+AUC
+Cut off
+Accuracy
+Cross validation
+Sensitivity
+Specificity
+PPV
+NPV
+P Suppa Predicting AD dementia aMCI with FSL FIRST
+eral hippocampus volume estimated FSL FIRST 
+Signed difference and relative signed difference 
+FIRST HV from the two back back MPRAGE
+scans the ADNI baseline imaging session were both
+very small Table demonstrating very high testretest stability FIRST HV The actual estimates 
+the hippocampus volume FIRST HV were used for
+the test retest analysis rather than hippocampus volume corrected for TIV and age FIRST HVad order
+ avoid additional variability due test retest variability based TIV estimates FSL FIRST
+was applied exactly the same ADNI aMCI subjects
+that had previously been included the evaluation
+ based processing pipeline Although
+both methods are quite distinct methodologically the
+predictive accuracy these subjects was about the
+same AUC FSL FIRST was 
+ and for prediction aMCIto ADD conversion within and months 
+respectively The performance FSL FIRST also
+ good agreement with the performance other tools
+evaluated ADNI MCI subjects In the EMA study 
+for example AUC for prediction MCI ADD
+conversion within months ranged from 
+ This suggests that the method used for quantitative estimation the hippocampus volume has only 
+small impact its predictive power A possible explanation this might intrinsic limitation the
+hippocampus volume prognostic marker aMCI 
+that upper threshold for its accuracy considerably below which also the best volumetry
+cannot surpass 
+FIRST HV showed high correlation with the semiautomated HV SNT values which turn have been
+shown provide excellent agreement with manual
+tracing the hippocampus The correlation with
+HV SNT was considerably stronger for FSL FIRST
+than for the processing pipeline Pearsons
+correlation coefficient versus This
+indicates that the model based FSL FIRST method
+indeed achieves more accurate delineation the
+individual hippocampus MPRAGE images than
+the atlas based approach However should
+ noted that other methods for fully automatic
+hippocampus volumetry might provide even higher
+agreement with manual delineation For example 
+Wolz and workers reported very high intraclass
+correlation between the learning embeddings for atlas
+propagation LEAP method and manual delineation
+ two way mixed single measures intraclass correlation coefficient ICC 
+Ahdidan and colleagues using another multi atlas
+method for fully automated hippocampus volumetry found very high spatial agreement with manual
+hippocampal segmentation measured the Dice
+Similarity Coefficient average 
+Hippocampus segmentation FSL FIRST clearly
+failed only one out subjects This demonstrates the robustness the method which 
+important prerequisite for use everyday clinical
+routine However important note that this
+robustness was achieved only after some minor modifications the original FSL FIRST pipeline namely
+ rigid body transformation each individual MRI
+into template space prior application FSL FIRST
+and spatial extension FSL FIRSTs hippocampus search space has been suggested previously
+CONCLUSION
+Hippocampus volumetry with FSL FIRST provides about the same performance for prediction 
+aMCI ADD conversion other tools This qualifies FSL FIRST added the list freely
+available hippocampus volumetry tools for use 
+clinical routine Compared the atlas based 
+approach model based FSL FIRST provides more
+accurate anatomical delineation the hippocampus
+and therefore more accurate estimates 
+ACKNOWLEDGMENTS
+The authors L S J B F and R B were supported
+ the European Regional Development Fund 
+the European Union reference 
+ P S T K and L S are employees jung
+diagnostics GmbH 
+H H supported the AXA Research Fund the
+Fondation Universite Pierre Marie Curie and the
+Fondation pour Recherche sur Alzheimer Paris 
+France The research leading these results has
+received funding from the program Investissements
+davenir 
+Data collection and sharing for this project was
+funded the Alzheimers Disease Neuroimaging Initiative ADNI National Institutes Health
+Grant and DOD ADNI Department
+ Defense award number XWH 
+ADNI funded the National Institute Aging 
+the National Institute Biomedical Imaging and
+P Suppa Predicting AD dementia aMCI with FSL FIRST
+Bioengineering and through generous contributions
+from the following AbbVie Alzheimers Association Alzheimers Drug Discovery Foundation 
+Araclon Biotech BioClinica Inc Biogen BristolMyers Squibb Company CereSpir Inc Eisai Inc 
+Elan Pharmaceuticals Inc Eli Lilly and Company EuroImmun F Hoffmann La Roche Ltd and
+its affiliated company Genentech Inc Fujirebio 
+GE Healthcare IXICO Ltd Janssen Alzheimer
+Immunotherapy Research Development LLC 
+Johnson Johnson Pharmaceutical Research 
+Development LLC Lumosity Lundbeck Merck
+ Co Inc Meso Scale Diagnostics LLC NeuroRx Research Neurotrack Technologies Novartis
+Pharmaceuticals Corporation Pfizer Inc Piramal
+Imaging Servier Takeda Pharmaceutical Company 
+and Transition Therapeutics The Canadian Institutes
+ Health Research providing funds support
+ADNI clinical sites Canada Private sector contributions are facilitated the Foundation for the
+National Institutes Health http www fnih org 
+The grantee organization the Northern California
+Institute for Research and Education and the study
+ coordinated the Alzheimers Disease Cooperative Study the University California San
+Diego ADNI data are disseminated the Laboratory for Neuroimaging the University Southern
+California 
+Authors disclosures available online http alz 
+com manuscript disclosures 
+REFERENCES
+Albert MS DeKosky ST Dickson D Dubois B Feldman
+HH Fox NC Gamst A Holtzman DM Jagust WJ Petersen
+RC Snyder PJ Carrillo MC Thies B Phelps CH The
+diagnosis mild cognitive impairment due Alzheimers
+disease Recommendations from the National Institute 
+Aging Alzheimers Association workgroups diagnostic
+guidelines for Alzheimers disease Alzheimers Dement 
+Dubois B Feldman HH Jacova C Cummings JL Dekosky
+ST Barberger Gateau P Delacourte A Frisoni G Fox NC 
+Galasko D Gauthier S Hampel H Jicha GA Meguro K 
+OBrien J Pasquier F Robert P Rossor M Salloway S 
+Sarazin M Souza LC Stern Y Visser PJ Scheltens P
+ Revising the definition Alzheimers disease A
+new lexicon Lancet Neurol 
+Dubois B Feldman HH Jacova C Dekosky ST BarbergerGateau P Cummings J Delacourte A Galasko D Gauthier
+S Jicha G Meguro K OBrien J Pasquier F Robert P 
+Rossor M Salloway S Stern Y Visser PJ Scheltens P
+ Research criteria for the diagnosis Alzheimers
+disease Revising the NINCDS ADRDA criteria Lancet
+Neurol 
+Dubois B Feldman HH Jacova C Hampel H Molinuevo
+JL Blennow K DeKosky ST Gauthier S Selkoe D Bateman R Cappa S Crutch S Engelborghs S Frisoni GB 
+Fox NC Galasko D Habert MO Jicha GA Nordberg A 
+Pasquier F Rabinovici G Robert P Rowe C Salloway S 
+Sarazin M Epelbaum S Souza LC Vellas B Visser PJ 
+Schneider L Stern Y Scheltens P Cummings JL 
+Advancing research diagnostic criteria for Alzheimers disease The criteria Lancet Neurol 
+Hort J OBrien JT Gainotti G Pirttila T Popescu BO 
+Rektorova I Sorbi S Scheltens P Dementia ESPo 
+EFNS guidelines for the diagnosis and management 
+Alzheimers disease Eur J Neurol 
+Hill DL Schwarz AJ Isaac M Pani L Vamvakas S Hemmings R Carrillo MC Yu P Sun J Beckett L Boccardi
+M Brewer J Brumfield M Cantillon M Cole PE Fox
+N Frisoni GB Jack C Kelleher T Luo F Novak G 
+Maguire P Meibach R Patterson P Bain L Sampaio C 
+Raunig D Soares H Suhy J Wang H Wolz R Stephenson D Coalition Against Major Diseases European
+Medicines Agency biomarker qualification hippocampal volume for enrichment clinical trials predementia
+stages Alzheimers disease Alzheimers Dement 
+Suppa P Anker U Spies L Bopp I Ruegger Frey B 
+Klaghofer R Gocke C Hampel H Beck S Buchert R
+ Fully automated atlas based hippocampal volumetry for detection Alzheimers disease memory clinic
+setting J Alzheimers Dis 
+Suppa P Hampel H Spies L Fiebach JB Dubois B Buchert
+R Fully automated atlas based hippocampus volumetry for clinical routine Validation subjects with mild
+cognitive impairment from the ADNI cohort J Alzheimers
+Dis 
+Frackowiak RSJ Friston KJ Frith CD Dolan RJ Price
+CJ Zeki S Ashburner JT Penny WD Human Brain
+Function Academic Press San Diego 
+Bocchetta M Boccardi M Ganzola R Apostolova LG 
+Preboske G Wolf D Ferrari C Pasqualetti P Robitaille
+N Duchesne S Jack CR Jr Frisoni GB EADC ADNI
+Working Group The Harmonized Protocol for Manual
+Hippocampal Segmentation and for the Alzheimers Disease Neuroimaging Initiative Harmonized benchmark labels the hippocampus magnetic resonance 
+The EADC ADNI project Alzheimers Dement 
+Patenaude B Smith SM Kennedy DN Jenkinson M 
+A Bayesian model shape and appearance for subcortical
+brain segmentation Neuroimage 
+Lemaitre H Crivello F Grassiot B Alperovitch A Tzourio
+C Mazoyer B Age and sex related effects the
+neuroanatomy healthy elderly Neuroimage 
+Hibar D Jahanshad N Stein J Winkler A Toro R 
+Jenkinson M Enigma Consortium First Protocol 
+http enigma loni ucla edu protocols imaging protocols 
+first protocol 
+Hsu YY Schuff N Du AT Mark K Zhu X Hardin D 
+Weiner MW Comparison automated and manual MRI volumetry hippocampus normal aging and
+dementia J Magn Reson Imaging 
+Keihaninejad S Heckemann RA Fagiolo G Symms MR 
+Hajnal JV Hammers A Alzheimers Disease Neuroimaging
+Initiative A robust method estimate the intracranial volume across MRI field strengths T and T 
+Neuroimage 
+P Suppa Predicting AD dementia aMCI with FSL FIRST
+Robin X Turck N Hainard A Tiberti N Lisacek F Sanchez
+JC Muller M pROC An open source package for
+R and Sto analyze and compare ROC curves BMC Bioinformatics 
+Wolz R Aljabar P Hajnal JV Hammers A Rueckert
+D Alzheimers Disease Neuroimaging Initiative 
+LEAP Learning embeddings for atlas propagation Neuroimage 
+Ahdidan J Raji CA DeYoe EA Mathis J Noe KO Rimestad J Kjeldsen TK Mosegaard J Becker JT Lopez O 
+Quantitative neuroimaging software for clinical assessment
+ hippocampal volumes MR imaging J Alzheimers Dis
+Nugent AC Luckenbaugh DA Wood SE Bogers W Zarate
+CA Jr Drevets WC Automated subcortical segmentation using FIRST Test retest reliability interscanner
+reliability and comparison manual segmentation Hum
+Brain Mapp 

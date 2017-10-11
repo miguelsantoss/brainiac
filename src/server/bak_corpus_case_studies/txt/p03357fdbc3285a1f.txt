@@ -1,0 +1,711 @@
+Monitoring marker candidates 
+early Parkinson disease progression
+markers
+Brit Mollenhauer MD
+Johannes Zimmermann 
+PhD
+Friederike Sixel Dring 
+MD
+Niels K Focke MD
+Tamara Wicke MS
+Jens Ebentheuer MD
+Martina Schaumburg MS
+Elisabeth Lang BS
+Ellen Trautmann PhD
+Henrik Zetterberg MD
+Peggy Taylor ScD
+Tim Friede PhD
+Claudia Trenkwalder 
+MD
+On behalf the DeNoPa
+Study Group
+Correspondence 
+Dr Mollenhauer 
+brit mollenhauerparacelsuskliniken 
+ABSTRACT
+Objective This was longitudinal single center cohort study comprehensively explore multimodal progression markers for Parkinson disease PD patients with recently diagnosed PD
+ and age matched neurologically healthy controls HC 
+Methods Thirty tests baseline and after months covered nonmotor symptoms NMS cognitive function and REM sleep behavior disorder RBD polysomnography PSG voxel based
+morphometry VBM the brain MRI and CSF markers Linear mixed effect models were used
+ estimate differences rates change and provide standardized effect sizes with 
+confidence intervals CI 
+Results A composite panel informative markers was identified Significant relative worsening PD HC was seen with the following markers the Unified Parkinsons Disease Rating Scale I
+ CI the Autonomic Scale for Outcomes Parkinsons Disease CI
+ the Epworth Sleepiness Scale CI the RBD Screening Questionnaire CI and RBD PSG CI well VBM units 
+cortical gray matter CI and hippocampus CI 
+Markers with relative improvement included the Nonmotor Symptom Severity Scale CI
+ and depression scales Beck Depression Inventory CI 
+Montgomery sberg Depression Rating Scale CI Unexpectedly cognitive measures and select laboratory markers were not significantly changed PD HC participants 
+Conclusions Current CSF biomarkers and cognitive scales not represent useful progression
+markers However sleep and imaging measures and some extent NMS assessed using adequate scales may more informative markers quantify progression Neurology
+GLOSSARY
+FU months follow syn synuclein AD Alzheimer disease BDI Beck Depression Inventory BL 
+baseline DeNoPa novo Parkinson ESS Epworth Sleepiness Scale HC healthy control LED levodopa equivalent
+dosage MADRS Montgomery sberg Depression Rating Scale MDS Movement Disorder Society MMSE Mini Mental
+State Examination MoCA Montreal Cognitive Assessment Test NMS nonmotor signs NMSS Nonmotor Symptom
+Scale tau tau protein phosphorylated threonine PD Parkinson disease PSG polysomnography RBD REM
+sleep behavior disorder RBD SQ REM Sleep Behavior Disorder Screening Questionnaire Scopa AUT Autonomic Scale
+for Outcomes Parkinsons Disease tau total tau protein UPDRS Unified Parkinsons Disease Rating Scale VBM 
+voxel based morphometry 
+Editorial page 
+Supplemental data
+ Neurology org
+One the great challenges Parkinson disease PD therapeutics the definition clinically
+meaningful endpoints that measure progression lack thereof To date numerous clinical
+trials with putative neuroprotective agents have yielded negative results It remains unclear
+whether trial design the agent tested both are the reasons for past failures 
+Currently several parameters are typically selected endpoints for use symptomatic and
+neuroprotective treatment trials the Unified Parkinsons Disease Rating Scale UPDRS 
+quality life measurements the need for levodopa therapy 
+From Paracelsus Elena Klinik B M F S D T W J E M S E L E T C T Kassel Departments Neurosurgery B M C T and Medical
+Statistics T F and Institute Neuropathology B M University Medical Centre Gttingen Psychologische Hochschule Berlin J Z 
+Department Neurology Epileptology and Hertie Institute Clinical Brain Research N K F University Tbingen Germany Clinical
+Neurochemistry Laboratory H Z Institute Neuroscience and Physiology the Sahlgrenska Academy the University Gothenburg Mlndal 
+Sweden UCL Institute Neurology H Z Queen Square London UK and BioLegend P T Dedham MA 
+Coinvestigators are listed the Neurology Web site Neurology org 
+Go Neurology org for full disclosures Funding information and disclosures deemed relevant the authors any are provided the end the article 
+ American Academy Neurology
+ American Academy Neurology Unauthorized reproduction this article prohibited 
+Reports selective longitudinal investigations nonmotor signs NMS neuroimaging and laboratory have been
+previously published potential markers 
+progression These investigations were
+largely conducted smaller cohorts and
+focused single symptoms measures and frequently relied more advanced PD cases 
+and lacked age matched healthy controls 
+The novo Parkinson DeNoPa cohort
+represents prospective longitudinal singlecenter observational study participants
+with novo PD and matched neurologically
+healthy controls HC The studys aim 
+improve early diagnosis and assess proper
+progression markers scored baseline with
+biannual follow 
+We hypothesized that composite panel 
+multimodal progression markers covering
+overall NMS cognitive measures sleep imaging and CSF indices would instructive 
+understanding the natural history early
+PD and thereby delineate specific and sensitive outcome measures for future intervention trials To this end applied the same
+panel tests group HC separate
+PD changes from the process normal aging 
+METHODS Study participants Longitudinal data were collected baseline BL and months follow FU 
+Detailed inclusion criteria have been described and
+are summarized appendix the Neurology Web site 
+Neurology org 
+After BL assessments all patients started dopaminergic therapy according accepted with stable medication
+until the FU visit The levodopa equivalent dosage LED 
+FU was determined described The clinical diagnosis was
+reassessed the state for all patients FU consensus 
+ teams independent neurologists C T F S D and B M J 
+E for details see appendix 
+Standard protocol approvals registrations and patient
+consents We received approval from the ethical standards committee human experimentation Landesrztekammer Frankfurt for all experiments using human participants Written
+informed consent was obtained from all study participants consent for research 
+Procedures Protocols data collection and data sample storage
+have been described previously Briefly our approach 
+exploratory nature We examined longitudinal assessments using
+validated and published tools NMS were the most relevant diagnostic tests and were also investigated longitudinally
+ means the Movement Disorder Society MDS UPDRS
+part I the NMS Questionnaire the Nonmotor Symptom Scale
+ NMSS and the Autonomic Scale for Outcomes Parkinsons
+Disease Scopa AUT The PD Questionnaire which has been
+the primary endpoint randomized studies was used together
+with assessment depression the self reported Beck
+Depression Inventory BDI and the Montgomery sberg
+Depression Rating Scale MADRS Cognition was tested with
+the Mini Mental State Examination MMSE the Montreal
+Cognitive Assessment Test MoCA and the Clock Drawing
+Test Further tests for different cognitive domains are given 
+appendix Sleep was assessed using the Parkinsons Disease
+Sleep Scale the Epworth Sleepiness Scale ESS and the REM
+Sleep Behavior Disorder RBD Screening Questionnaire RBDSQ In addition performed video supported polysomnography
+ PSG classify RBD Voxel based morphometry VBM gray
+matter and hippocampus T volumetric MRI was included
+because significant atrophy has been described correlation with
+PD progression and cognitive decline We also investigated serum
+urate We tested known CSF markers that have been previously
+discussed potential diagnostic markers PD state its
+progression including total synuclein syn amyloid 
+total and phosphorylated tau protein tau and tau well 
+neurofilament light chain proteins See appendix for
+experimental details 
+Statistical analysis We used linear mixed effect models 
+identify differences the rates change selected markers
+between PD and controls For each marker estimated 
+random intercept model including group PD HC time BL 
+FU and their interaction predictors Models were estimated
+using restricted maximum likelihood estimation taking into
+account all available data points BL and FU Differential
+change PD apparent significant group multiplied the
+time interaction We present model based effect sizes for
+differential change standardized the observed SD the PD
+group baseline Significance testing was based 
+confidence intervals using parametric bootstrap with resamples 
+In addition explored whether changes individual markers
+were influenced selected BL characteristics To this end conducted robust multiple regression analyses the PD sample predicting FU scores individual markers while controlling for
+respective BL scores from LED and dopamine agonists FU
+and selected sociodemographic and clinical factors BL Robust
+regression was used deal with non normality outliers 
+the distribution markers All analyses were carried out with
+the statistical platform R using the package for linear mixed
+models and robustbase for robust regressions 
+We did not correct for multiple testing since our approach
+was exploratory nature see also the Discussion and appendix However marker candidates were chosen according 
+their clinical relevance and following review the literature 
+RESULTS Of the recruited participants 
+ underwent follow assessments PD and
+ HC Four patients and controls died before
+FU Reassessment the clinical working diagnosis
+led the identification distinct neurologic
+disorder patients shown figure 
+The reassessment our previously described panel 
+diagnostic the remaining patients
+with PD and HC BL remained significant 
+The demographics motor characteristics and details dopaminergic treatment FU are shown 
+table 
+Panel progression markers Table list the results 
+ tests performed the entire DeNoPa cohort 
+Neurology 
+July 
+ American Academy Neurology Unauthorized reproduction this article prohibited 
+Table 
+Demographic characteristics motor symptoms and information dopaminergic medication patients with novo Parkinson
+disease PD and healthy controls HC baseline BL and months follow FU 
+PD 
+HC 
+BL
+FU
+BL
+FU
+ Value BL
+PD HC
+Age 
+Male female 
+Follow time 
+Duration first motor symptom
+until diagnosis 
+MDS UPDRS II
+MDS UPDRS total score
+Hoehn Yahr stage
+Demographics
+Motor symptoms
+MDS UPDRS III
+Dopaminergic medication
+Levodopa
+Dopamine agonists
+Pramipexole
+Ropinirole
+Piribedil
+Rotigotine
+MAOB inhibitor
+Total levodopa equivalent dosage
+Abbreviations MAOB monoamine oxidase B MDS UPDRS Movement Disorder Society Unified Parkinsons Disease Rating Scale 
+Data are mean SD range Age and sex were part the frequency matching 
+We identified tremor dominant intermediate and postural instability and gait disorder subtypes our patients 
+which used surrogate markers for PD and its
+progression Ten the markers showed statistically significant rates change relative HC over
+the year observational period mainly the
+categories NMS depression sleep and imaging
+ table and figures 
+Clinical measures Nonmotor symptoms significantly
+worsened PD HC assessed the MDSUPDRS I score table and figure A The
+worsening autonomic features relative controls
+was reflected statistically significant increase the
+Scopa AUT scores table and figure D This
+increase was mainly driven increase 
+cardiovascular items the Scopa AUT data not
+shown In contrast the severity score for NMS 
+NMSS showed improvement relation controls
+ table and figure C Assessment depression
+showed significant improvement the selfreported BDI and investigator rated MADRS table
+ and figure F and G 
+Most our preselected cognitive measures were
+worse PD than controls during follow Interestingly slopes were parallel for PD and HC 
+Neurology 
+revealing significant incremental changes PD
+over controls single tests table Also the tests
+for executive function showed parallel and nonsignificant decrease for both groups 
+Excessive daytime sleepiness assessed the
+ESS significantly worsened with PD progression
+compared controls RBD significantly increased
+for the PD group questionnaire follow while
+ decreased HC table and figure AC 
+Technical investigations PSG also showed significant
+increase the prevalence RBD patients with
+PD while HC the prevalence increased only
+slightly expected with increasing age table 
+and figure D The severity RBD RBD severity
+ PD did not differ between baseline and
+FU data not shown 
+Volumetric imaging measures cortical and hippocampal structures MRI decreased significantly
+ FU patients with PD figure A and B 
+which was not associated with age PD phenotype
+ table changes cognitive measures data
+not shown Statistical parametric maps and change
+plots VBM measures cortical and hippocampal
+July 
+ American Academy Neurology Unauthorized reproduction this article prohibited 
+Table 
+Parameters linear mixed effect models
+Unstandardized fixed effects
+Numbers
+HC baseline
+PD baseline difference
+HC change
+PD change difference
+Standardized effect
+size PD change
+difference
+Effect
+ CI
+Effect
+ CI
+Effect
+ CI
+Effect
+ CI
+Effect CI
+BL
+FU
+SD 
+PD BL
+MDS UPDRS Ia 
+NMS Questionnaire
+NMS Scalea 
+Assessment autonomic
+dysfunction Scopa AUT 
+Beck Depression Inventory
+Montgomery sberg Depression
+Rating Scalea 
+Mini Mental State Examination
+Montreal Cognitive Assessment
+Clock Drawing Test
+Trail Making test B A 
+Digit Span Backward
+Verbal Fluency RWT 
+Stroop Test
+Verbal Learning and Memory Test
+Digit Span Forward
+Nonmotor symptoms
+Depression and impairment quality
+ life
+Parkinsons Disease Questionnaire
+Cognitive tests
+Screening instruments
+Neurology 
+Domain specific tests
+Attention and working memory
+July 
+Executive function
+Language
+Similarities WIE 
+Memory
+Continued
+ American Academy Neurology Unauthorized reproduction this article prohibited 
+Neurology 
+Table 
+Continued
+Unstandardized fixed effects
+July 
+Numbers
+BL
+FU
+SD 
+PD BL
+HC baseline
+PD baseline difference
+HC change
+PD change difference
+Standardized effect
+size PD change
+difference
+Effect
+ CI
+Effect
+ CI
+Effect
+ CI
+Effect
+ CI
+Effect CI
+Social cognition
+Social cognition MASC 
+Sleep RBD and PSG
+Parkinsons Disease Sleep Scale
+Epworth Sleepiness Scalea 
+Serum uric acid dL
+CSF synuclein mL
+CSF amyloid mL
+CSF total tau protein mL
+CSF phosphorylated tau protein 
+ mL
+CSF neurofilament light chain mL
+RBD Screening Questionnaire
+RBD PSG
+MRI and voxel based morphometry
+Gray matter volume VBM 
+Hippocampal volume VBM 
+Laboratory marker serum CSFc
+Abbreviations FU months follow BL baseline CI confidence interval HC healthy control MASC Movie for the Assessment Social Cognition NMS nonmotor signs PD Parkinson disease 
+PSG polysomnography RBD REM sleep behavior disorder RWT Regensburger Wortflssigkeitstest WIE Wechsler Intelligenztest Erwachsene Scopa AUT Autonomic Scale for Outcomes 
+Parkinsons Disease MDS UPDRS Unified Parkinsons Disease Rating Scale VBM voxel based morphometry 
+All estimates are unadjusted except for the neuroimaging measures which are adjusted for age sex and total intracranial volume Columns the right indicate standardized effect size 
+The composite panel out measures suggested 
+CSF samples with hemoglobin levels mL were excluded from analysis 
+ American Academy Neurology Unauthorized reproduction this article prohibited 
+Longitudinal changes nonmotor symptoms NMS impaired quality life QoL and depression
+Estimated means and confidence intervals Movement Disorder SocietyUnified Parkinsons Disease Rating Scale I MDS UPDRS I A NMS
+Questionnaire NMSQuest B NMS Severity Scale NMSS C Scopa AUT D QoL measure E and the depression scales Beck Depression
+Inventory BDI F and Montgomery sberg Depression Rating Scale MADRS G baseline BL and year follow FU Blue line represents healthy
+controls HC red line represents participants with Parkinson disease PD Significant change PD HC 
+volume for both groups indicate regions where atrophy rates differed significantly patients with PD 
+controls figure C and D 
+Serum uric acid levels did not significantly differ
+between PD and HC baseline and FU Total
+CSF syn levels were lower patients with PD
+compared HC BL and FU but the rates 
+changes were not significant Furthermore nonsignificant increase CSF for tau was observed figure
+ Results for CSF ratios were not significantly
+altered data not shown 
+Predictors change during month observation Mul 
+tiple regression analysis the PD group which tested
+the joint statistical influence potentially confounding factors showed only significant
+effects regarding changes within the panel investigated markers table For example the presence
+ RBD BL indicated worse cognitive decline 
+MoCA The LED another surrogate marker for
+clinical severity was significantly associated with
+decreased cognitive function the memory screening test MMSE and the attention working memory
+test Digit Span Backward and increasing RBD 
+well serum uric acid The intake dopamine agonists was associated with improvement depression
+ BDI worse performance the memory task Verbal Learning and Memory Test and increase 
+CSF tau but other marker 
+DISCUSSION We performed year follow 
+investigation clinical measures and biomarkers
+through clinical and technical assessment including
+PSG MRI and serum CSF measures the largest
+single center cohort clinically diagnosed
+early PD participants and matched healthy
+controls Overall found that tests
+showed statistically significant and specific
+progression our DeNoPa patients The remaining
+ markers showed statistically significant changes
+reflecting either progression PD change due 
+treatment both when compared controls these
+encompassed increasing sleep disturbances and
+worsening NMS whereas NMS severity NMSS 
+and depression MADRS and BDI improved 
+Regarding imaging markers general gray matter
+Neurology 
+July 
+ American Academy Neurology Unauthorized reproduction this article prohibited 
+Longitudinal changes sleep parameters
+Estimated means and confidence intervals the Parkinsons Disease Sleepiness Scale
+ A Epworth Sleepiness Scale ESS B REM Sleep Behavior Disorder Questionnaire RBD SQ C and video supported polysomnography PSG D baseline BL 
+and year follow FU Blue line represents healthy controls HC red line represents
+participants with Parkinson disease PD Significant change PD HC 
+volume and hippocampal volume specifically and
+significantly decreased over the year period 
+Clinical measures Several smaller and one
+longitudinal have previously suggested the use
+ NMS candidate progression markers NMS
+worsened PD measured the MDS UPDRS I
+ DeNoPa while the severity NMS measured 
+NMSS improved our cohort Autonomic dysfunction assessed Scopa AUT also showed
+statistically significant worsening PD compared 
+HC The only systematic longitudinal investigation 
+NMS showed increase NMS domains after
+FU but NMS severity and more specific
+autonomic features had not been addressed Also 
+these patients were different stages disease and
+the majority had received symptomatic treatment
+already BL While the NMS tools cover various
+Neurology 
+NMS the MDS UPDRS I captures few key
+symptoms Both the NMSS and MDS UPDRS I
+show strong convergent validity The discrepancy 
+performance self reported investigator reported
+NMS DeNoPa could also the result different
+sensitivity scales and questionnaires and points
+towards the need for improved and widely
+standardized assessment NMS for longitudinal
+investigations 
+We recorded improvement depression our
+patients with PD independent scales and individual differences improvement were not significantly associated with dopaminergic dosage The
+improvement depression and quality life the
+early honeymoon phase PD generally considered
+ represent the first years after diagnosis 
+ accordance with other studies and also related
+ dopamine agonists 
+Following analysis various domains cognition 
+ identified clear differences cognitive performance
+ PD compared controls see table PD baseline
+differences but only cross sectionally and not with
+any significant change longitudinally Most previous
+longitudinal studies did not include control groups 
+Therefore previous studies PD may have overinterpreted normal cognitive aging and have thus corrected this deficit our study design 
+RBD and reduced subjective quality sleep are recognized inherent symptoms during prodromal and fully
+developed motor PD Daytime sleepiness progressively
+worsens PD confirming that may dependent 
+dopaminergic intrinsic factor disease
+progression RBD may useful marker monitor
+progression PD either with PSG with similar
+effect size item self rating questionnaire RBDSQ The presence RBD indicates worse cognitive
+decline MoCA has been shown previously 
+Technical investigations To date DeNoPa comprises
+the largest collection and interrogation longitudinal data PSG MRI volumetry and CSF markers 
+Our MRI structural measures showed significant
+overall and hippocampal gray matter volume loss 
+PD The hippocampal region was selected since according the Braak staging scheme syn pathology expected emerge there before affecting the
+neocortex and hippocampal involvement has been
+suggested PD dementia However effect sizes
+were similar both measures and correlations with
+changes cognitive markers were nonsignificant 
+this early PD cohort data not shown 
+A longitudinal CSF study found increasing tau
+and tau levels but significantly decreasing
+CSF syn levels PD In our study none the
+CSF markers their ratios that were tested reached
+statistical significance for progression Different
+July 
+ American Academy Neurology Unauthorized reproduction this article prohibited 
+Longitudinal changes T volumetric MRI
+Estimated means and confidence intervals voxel based morphometry VBM total
+gray matter volume GMV A and hippocampal volume HCV B baseline BL and year
+follow FU Blue line represents healthy controls HC red line represents participants
+with Parkinson disease PD Significant change PD HC C Example gray
+matter segmentation orthogonal cutplanes For the analysis native space maps were
+summed generate absolute volume per class and subject D Example smoothed
+gray matter maps Montreal Neurological Institute space shown with the priori defined
+hippocampal analysis region overlaid red Within this region the mean average gray matter
+probability was calculated yielding one average value hippocampal gray matter per
+subject 
+demographics and sample preparation could account
+for this discrepancy It could also explained the
+small number DeNoPa participants
+who consented serial lumbar puncture 
+FU A similarly small annual rate change CSF
+markers has also been observed patients with established Alzheimer disease AD The stability our
+markers this early stage motor PD could result
+from slowing the neurodegeneration process 
+the symptomatic phase similar that seen AD 
+This underlines the need for more specific progression
+marker candidates for the early phase the disease 
+which will emerge from this and other ongoing studies 
+We explored many obvious candidates large
+cohort PD participants and looked for progression
+markers for future use clinical trial cohorts and
+tried exclude noninformative ones The fact that
+ identified more than the markers analyzed having significantly changed during our month observational period highlights the mandate
+ finding reliable progression markers These results
+have immediate consequences for clinical research 
+PD restricting the potential usage some
+markers and will take more time eventually change
+the clinical care delivered patients with PD 
+There are limitations clinical practiceled
+exploratory studies such ours which merit discussion First DeNoPa real life observational survey
+study Therefore symptomatically treated patients motor symptoms The effects dopaminergic
+treatment NMS vary depending the underlying mechanisms symptom influenced 
+dopaminergic deficit may respond positively dopaminergic treatment such depression and NMS 
+whereas non dopamine responsive symptom may
+worsen with such treatment such daytime sleepiness especially the early titration phase further
+discussion can found appendix Therefore cannot remove any influence conferred 
+therapy our investigational markers but purposefully included markers that are likely independent
+ any introduced symptomatic therapy such 
+MRI volumetry and blood and CSF markers 
+Second most our proposed marker candidates
+showed promising results early diagnostic markers 
+which does not necessarily qualify them progression markers Further marker candidates specific for
+progression the disease need explored Third 
+ did not control for multiple testing Although this
+ appropriate exploratory strategy for detecting
+true changes patients with PD reducing type
+II errors may lead false positive findings However the detection significant changes among
+ tested clearly more than would expected 
+chance alone thus corroborating the significance 
+our results whole 
+The use our proposed panel outcome measures needs further validation before being used rate
+progression across centers One limitation the
+responsiveness depression and some NMS therapy requiring new elaborated NMS scales This
+should undertaken independently multicenter
+cohorts enrolling larger numbers participants this
+ currently underway 
+Future studies need investigate the validity 
+these proposed markers standardize the assessment
+ nonmotor features and identify more sensitive
+and disease specific marker candidates that reflect
+underlying biological processes such propagation
+Neurology 
+July 
+ American Academy Neurology Unauthorized reproduction this article prohibited 
+ syn pathology inflammation and neuronal
+death In this way validated and improved markers
+will used clinically meaningful endpoints 
+progression that are essential the development 
+treatments for PD 
+AUTHOR CONTRIBUTIONS
+B M F S D and C T designed the study and were responsible for
+recruitment and data processing J Z E T and T F oversaw all statistical analyses T W J E E T M S E L and N K F were responsible
+for performing investigations and collecting and entering data H Z 
+and P T were involved sample analyses and data interpretation 
+C T oversaw patient recruitment reassessed independently the clinical
+diagnosis and characterization and assisted the interpretation data 
+B M C T and J Z wrote the manuscript F S D T F N K F P T 
+and H Z coedited the manuscript B M C T and F S D had full
+access the clinical primary data All authors had access the data generated the study including the statistical analysis and decided submit
+the paper for publication 
+ACKNOWLEDGMENT
+The authors thank the participants the study and their families well 
+referring neurologists Olivia Steuer and Carolin Sengstock for technical
+assistance with sample collection Maria Rudolph Miriam Schanze Valentina Krenz and Friederike Panzer for support with data entry Anne Marie
+Williams for revision the manuscript and Michael Schlossmacher and
+Gabrielle Strobel for advice and review the manuscript 
+STUDY FUNDING
+The study was supported unrestricted research grants from the
+Paracelsus Elena Klinik Kassel Germany Teva Pharma Lundbeck GE
+Healthcare and the Hermann und Lilly Schilling Foundation and unrestricted grants from the University Medical Centre Gttingen the
+Paracelsus Elena Klinik Kassel Germany the Michael J Fox Foundation
+for Parkinsons Research MJFF and Teva Pharma The study sponsors
+provided support through unrestricted grant and had influence 
+the study design collection and analysis data the writing the paper 
+ the decision submit the paper The sponsors have been informed
+about the final manuscript and the submission for publication 
+DISCLOSURE
+B Mollenhauer has received speaker honoraria from Orion Corporation
+and GlaxoSmithKline holds has pending patents Method differentially diagnosing dementias Novel ELISA based quantification 
+ synuclein proteins cerebrospinal fluid and peripheral blood products
+using well plates and MicroRNA expression profiling cerebrospinal fluid serves consultant for Bayer Schering Pharma AG Roche 
+Biogen and GE Healthcare and receives research support from Teva
+Pharmaceutical Industries Ltd Desitin Pharmaceuticals GmbH Boehringer Ingelheim GE Healthcare and the Michael J Fox Foundation for
+Parkinsons Research well from the EU within the Joint Programming for Neurodegenerative disorders J Zimmerman reports disclosures relevant the manuscript F Sixel Dring serves has served 
+scientific advisory boards for Orion Corporation and Medtronic Inc 
+and UCB has received funding for travel from Boehringer Ingelheim 
+Cephalon TEVA and MundiPharm and has received speaker honoraria
+from Abbvie Bayer Healthycare Boehringer Ingelheim Desitin GSK 
+Meda Pharma Medtronic Inc Novartis Orion Corporation and UCB 
+N Focke received funding from the Stifterverband die Deutsche
+Wissenschaft Dr Werner Jackstdt Stipend served advisory
+board for GE Healthcare and received honoraria from GlaxoSmithKline 
+T Wicke reports disclosures relevant the manuscript J Ebentheuer
+has received speaker honoraria from Desitin and UCB M Schaumburg
+ supported the Deutsche Parkinson Vereinigung DPV E Lang 
+E Trautmann H Zetterberg and P Taylor report disclosures relevant the manuscript T Friede serves consultant Novartis 
+Biogen Idec Grnenthal AstraZeneca Almirall SGS and Pharmalog 
+C Trenkwalder serves scientific advisory boards for Teva Pharma 
+Boehringer Ingelheim UCB Novartis Mundipharma International
+Neurology 
+Limited and Britannia has received speaker honoraria from Boehringer
+Ingelheim Cephalon Inc UCB Novartis and GlaxoSmithKline and
+receives research support from Teva Pharmaceutical Industries Ltd and
+Mundipharm Intern Go Neurology org for full disclosures 
+Received July Accepted final form December 
+REFERENCES
+Biglan KM Holloway RG Surrogate endpoints Parkinsons
+disease research Curr Neurol Neurosci Rep 
+Parkinson Study Group Effects tocopherol and deprenyl the progression disability early Parkinsons
+disease N Engl J Med 
+Investigators NN P A randomized clinical trial coenzyme and early Parkinson disease 
+Neurology 
+Parkinson Study Group PI Mixed lineage kinase inhibitor
+ fails delay disability early Parkinson disease Neurology 
+Schuepbach WM Rau J Knudsen K Neurostimulation for Parkinsons disease with early motor complications N Engl J Med 
+Erro R Picillo M Vitale C Non motor symptoms 
+early Parkinsons disease year follow study previously untreated patients J Neurol Neurosurg Psychiatry
+Hely MA Morris JG Reid WG Trafficante R Sydney Multicenter Study Parkinsons disease non L dopa responsive
+problems dominate years Mov Disord 
+Antonini A Barone P Marconi R The progression
+ non motor symptoms Parkinsons disease and their
+contribution motor disability and quality life 
+J Neurol 
+Zhang J Mattison HA Liu C Longitudinal assessment tau and amyloid beta cerebrospinal fluid 
+Parkinson disease Acta Neuropathol 
+Maetzler W Liepelt I Berg D Progression Parkinsons
+disease the clinical phase potential markers Lancet
+Neurol 
+Mollenhauer B Trautmann E Sixel Doring F Nonmotor and diagnostic findings subjects with novo
+Parkinson disease the DeNoPa cohort Neurology 
+Parkinson Syndrome Diagnostik und Therapie Available http www dgn org 
+inhalte nach kapitel parkinson syndromediagnostik und therapie html Accessed October 
+Tomlinson CL Stowe R Patel S Rick C Gray R Clarke CE 
+Systematic review levodopa dose equivalency reporting 
+Parkinsons disease Mov Disord 
+Goetz CG Tilley BC Shaftman SR Movement
+Disorder Society sponsored revision the Unified Parkinsons Disease Rating Scale MDS UPDRS scale presentation and clinimetric testing results Mov Disord 
+Hanganu A Bedetti C Degroot C Mild cognitive
+impairment linked with faster rate cortical thinning 
+patients with Parkinsons disease longitudinally Brain
+Ascherio A LeWitt PA Xu K Urate predictor 
+the rate clinical decline Parkinson disease Arch Neurol 
+Hall S Ohrfelt A Constantinescu R Accuracy 
+panel cerebrospinal fluid biomarkers the differential
+July 
+ American Academy Neurology Unauthorized reproduction this article prohibited 
+diagnosis patients with dementia and Parkinsonian
+disorders Arch Neurol 
+Feingold A Effect sizes for growth modeling analysis for
+controlled clinical trials the same metric for classical
+analysis Psychol Methods 
+Maronna R Martin D Yohai V Robust Statistics Theory
+and Methods New York Wiley 
+R Core Team R Language and Environment for
+Statistical Computing Vienna R Foundation for Statistical Computing Available http www R project org 
+Accessed June 
+Rothman KJ No adjustments are needed for multiple
+comparisons Epidemiology 
+Sixel Doring F Schweitzer M Mollenhauer B 
+Trenkwalder C Intraindividual variability REM sleep
+behavior disorder Parkinsons disease comparative
+assessment using new REM sleep behavior disorder
+severity scale RBDSS for clinical routine J Clin Sleep
+Med 
+Martinez Martin P Chaudhuri KR Rojo Abuin JM 
+Assessing the non motor symptoms Parkinsons disease 
+MDS UPDRS and NMS Scale Eur J Neurol 
+Thobois S Lhommee E Klinger H Parkinsonian
+apathy responds dopaminergic stimulation 
+receptors with piribedil Brain 
+Muslimovic D Schmand B Speelman JD Haan RJ 
+Course cognitive decline Parkinsons disease metaanalysis J Int Neuropsychol Soc 
+Sixel Doring F Trautmann E Mollenhauer B 
+Trenkwalder C Associated factors for REM sleep behavior
+disorder Parkinson disease Neurology 
+Ataide M Franco CM Lins OG Daytime sleepiness 
+Parkinsons disease perception influence drugs and
+mood disorder Sleep Disord 
+Anang JB Gagnon JF Bertrand JA Predictors 
+dementia Parkinson disease prospective cohort study 
+Neurology 
+Braak H Del Tredici K Rub U Vos RA Jansen
+Steur EN Braak E Staging brain pathology related 
+sporadic Parkinsons disease Neurobiol Aging 
+Tam CW Burton EJ McKeith IG Burn DJ OBrien JT 
+Temporal lobe atrophy MRI Parkinson disease with
+dementia comparison with Alzheimer disease and
+dementia with Lewy bodies Neurology 
+Stewart T Liu C Ginghina C Cerebrospinal fluid
+alpha synuclein predicts cognitive decline Parkinson
+disease progression the DATATOP cohort Am J Pathol
+Fagan AM Xiong C Jasielec MS Longitudinal
+change CSF biomarkers autosomal dominant
+Alzheimers disease Sci Transl Med 
+The Parkinson Progression Marker Initiative PPMI Prog
+Neurobiol 
+Mollenhauer B Locascio JJ Schulz Schaeffer W SixelDoring F Trenkwalder C Schlossmacher MG AlphaSynuclein and tau concentrations cerebrospinal fluid
+ patients presenting with parkinsonism cohort study 
+Lancet Neurol 
+Sherman RA Funder DC Evaluating correlations studies personality and behavior beyond the number 
+significant findings expected chance J Res Personality 
+Smith KM Eyal E Weintraub D ADAGIO Investigators Combined rasagiline and antidepressant use Parkinson disease the ADAGIO study effects 
+nonmotor symptoms and tolerability JAMA Neurol
+MACRA Changes How Neurologists Are Paid
+What Is MACRA and Why Is It Necessary?
+The Medicare Access and CHIP Reauthorization Act MACRAreplaced the
+Medicare Sustainable Growth Rate formula for calculating physician payments The rapidly rising
+costs health care the US are unsustainable Changes the health care system are essential and
+must happen now 
+How Will MACRA Affect Physician Payment?
+Our health care system moving from fee for service payments wider array value based
+payment models that put the patient the center care calling for the improvement the
+quality safety and overall experience patient care while demonstrating cost effectiveness 
+providing care that less expensive and delivers similar improved clinical outcomes 
+Learn more AAN com view MACRA 
+Neurology 
+July 
+ American Academy Neurology Unauthorized reproduction this article prohibited 

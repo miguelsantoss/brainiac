@@ -1,0 +1,753 @@
+The Journal Neuroscience February 
+Neurobiology Disease
+Hippocampal Synuclein Dementia with Lewy Bodies
+Contributes Memory Impairment and Is Consistent with
+Spread Pathology
+X David H Adamowicz Subhojit Roy X David P Salmon Douglas R Galasko Lawrence A Hansen 
+Eliezer Masliah and X Fred H 
+Department Neurosciences University California San Diego La Jolla California Laboratory Genetics Salk Institute for Biological Studies 
+La Jolla California Wisconsin Institute for Medical Research University WisconsinMadison Madison Wisconsin and Department 
+Pathology University California San Diego La Jolla California 
+Despite considerable research uncover them the anatomic and neuropathologic correlates memory impairment dementia with
+Lewy bodies DLB remain unclear While some studies have implicated Lewy bodies the neocortex others have pointed synuclein
+pathology the hippocampus We systematically examined hippocampal Lewy pathology and its distribution hippocampal subfields
+ clinically and neuropathologically characterized human cases DLB finding that synuclein pathology was highest two hippocampalrelated subregions the subfield and the entorhinal cortex EC While the EC had numerous classic somatic Lewy bodies contained
+mainly Lewy neurites presumed axon terminals suggesting the involvement the EC circuitry the pathogenesis DLB symptoms 
+Clinicopathological correlations with measures verbal and visual memory supported role for EC Lewy pathology but not causing
+these memory deficits Lewy pathology the main output region for correlated best with results from memory testing despite 
+milderpathology inthecontextofmemoryimpairmentinDLB These
+correlations remained significant after controlling for several factors including concurrent Alzheimers pathology neuritic plaques and neurofibrillary tangles and the interval between time testing and time death Our data suggest that although hippocampal Lewy pathology DLB
+ predominant and EC memory performance correlates most strongly with burden 
+Key words synuclein dementia with Lewy bodies hippocampus memory spread subregion
+Significance Statement
+This study provides detailed neuropathologic analysis hippocampal Lewy pathology human patients with autopsyconfirmed dementia with Lewy bodies The approachinformed regional molecular markers concurrent Alzheimers pathology analysis and relevant clinical data helps tease out the relative contribution Lewy pathology memory dysfunction the
+disease Levels Lewy pathology were found highest the hippocampal subregion and entorhinal cortex implicating
+ potentially overlooked circuit disease pathogenesis However correlation with memory performance was strongest with 
+This unexpected finding suggests that Lewy pathology must reach critical burden across hippocampal circuitry contribute 
+memory dysfunction beyond that related other factors notably coexisting Alzheimers disease tau pathology 
+Memory impairment often prominent feature dementia
+with Lewy bodies DLB age related neurodegenerative dis 
+ease that shares numerous features with Alzheimers disease AD 
+and Parkinsons disease PD Ballard Salmon 
+ Walker Connor Shimomura 
+Received Sept revised Dec accepted Dec 
+Author contributions S R D P S and F H G designed research D H A and L A H performed research D R G and
+E M contributed unpublished reagents analytic tools D H A and D P S analyzed data D H A wrote the paper 
+This work was supported the NIH NIA Neuroplasticity Aging Predoctoral Training Grant 
+the Shiley Marcos Alzheimers Disease Research Center NIA Grant the Helmsley Trust the JPB
+Foundation the Lookout Foundation the Mathers Foundation and NIH grant We thank the participants
+and staff the Shiley Marcos Alzheimers Disease Research Center the University California San Diego We also
+thank the Center for Advanced Laboratory Medicine the University California San Diego particularly Dr Don
+Pizzo for help with processing the patient brain specimens Jamie Simon the Salk Institute for Biological Studies
+for assistance with the hippocampal heat map Dr Omar El Agnaf from the Qatar Biomedical Research Institute for
+providing with the conformer specific antibodies for synuclein pathology and Mary Lynn Gage for help with
+editing this manuscript 
+The authors declare competing financial interests 
+Correspondence should addressed either the following Dr David P Salmon Department Neurosciences School Medicine University California San Diego Gilman Drive La Jolla CA E mail 
+dsalmonucsd edu Dr Fred H Gage Laboratory Genetics The Salk Institute for Biological Studies North
+Torrey Pines Road La Jolla CA E mail gagesalk edu 
+DOI JNEUROSCI 
+Copyright the authors 
+Introduction
+Adamowicz Synuclein Spread DLB Hippocampus Affects Memory
+ J Neurosci February 
+Table Subject demographics
+All cases
+Brainstem predominant
+Limbic transitional 
+Neocortical diffuse 
+Male female
+Age
+Death age
+Education
+MMSE
+The first row displays demographics for all study subjects some which were excluded due lack stainable hippocampal tissue Remaining subjects were classified into brainstem predominant limbic and neocortical
+subtypes with each row showing the corresponding demographics DLB subtype Means SDs are shown MMSE Mini Mental State Examination 
+ Heyman Calderon These studies
+suggest early development significant pathology the hippocampus and surrounding cortical regions that are crucial for
+learning and memory Squire Lewy bodies LBs are intracellular protein aggregates containing synuclein and confirm the diagnosis DLB autopsy Harding and Halliday 
+ While brainstem LBs are thought contribute motor
+symptoms the neural substrate for cognitive symptoms remains
+elusive Colosimo Parkkinen 
+Few studies have systematically examined the relationship between Lewy pathology the hippocampus and memory performance DLB choosing instead study the dementia late PD 
+ distinct clinical entity known Parkinsons disease dementia 
+ PDD Churchyard and Lees Hall More
+importantly none have performed detailed subregional analysis the level hippocampal subfields and related cortical regions As the distinct functions Wintzer and
+molecular identities Lein Hawrylycz 
+hippocampal subfields become clearer specific localization 
+pathologies will help inform their role symptomatology 
+Examining the distribution pathology within hippocampal circuitry may also provide insight into disease pathogenesis given
+the previous evidence that misfolded synuclein can propagate
+among interconnected regions Luk 
+The subfield the hippocampus area important for
+memory function selective damage there can lead amnesia
+ Zola Morgan In AD preferentially affected
+ plaque and tangle pathology which may account for the severe
+amnesia that characterizes the disease tangle pathology first
+emerges the transentorhinal cortex followed entorhinal
+cortex EC gateway region between the hippocampus and the
+rest cortex Hyman Arnold Braak and
+Braak Lewy pathology also found and EC DLB
+ Armstrong and Cairns often coexisting with AD pathology Hansen Harding and Halliday Horimoto
+ Tsuboi and Dickson However the relative
+contributions Lewy and AD pathology these regions 
+memory dysfunction remain unknown 
+Although Lewy pathology may contribute memory
+dysfunction less affected Lewy pathology than other
+hippocampal subfields either DLB Dickson Armstrong and Cairns sporadic PD Braak Bertrand Armstrong usually cited
+ the predominant site hippocampal Lewy pathology due 
+difficulty anatomically identifying the boundary between these
+subfields Woodhams Lein Both regions
+have been implicated various aspects memory social 
+episodic memory notably animal models DeVito 
+Langston Hitti and Siegelbaum thus given
+their heavy Lewy pathology burden they could involved the
+prominent memory deficit DLB Hamilton 
+In this study used molecular markers help delineate
+specific hippocampal subfields and related parahippocampal 
+gions brains from patients with autopsy confirmed DLB We
+then evaluated the distribution and severity Lewy pathology
+across these regions accounting for the influence concomitant
+AD pathology and time between memory testing and death 
+Based previous reports hypothesized that Lewy pathology
+would most prominent and EC We took
+advantage this detailed analysis hippocampal anatomy 
+address two questions First subregions with heavy Lewy pathology burden contribute memory impairment DLB 
+does need involved? Second does lesion distribution
+within hippocampal subfields support model spreading
+pathology?
+Materials and Methods
+Research subjects Cases were selected from the brain bank the ShileyMarcos Alzheimers Disease Research Center ADRC the University
+ California San Diego UCSD Subjects had been characterized using
+standardized and detailed clinical neurological and neuropsychological
+assessments during life described previously Salmon and
+were followed longitudinally the ADRC UCSD ADRC procedures 
+autopsy are follows the brain divided sagittally and the left hemibrain fixed buffered formalin while the right hemibrain 
+sectioned coronally and then frozen C sealed plastic bags 
+Routinely tissue blocks from the right hemibrain the midfrontal inferior parietal and superior temporal cortices primary visual cortex 
+the occipital cortex hippocampus basal ganglia substantia nigra and
+cerebellum are removed and placed paraformaldehyde for subsequent thick sectioning vibratome Tissue blocks adjacent the ones
+described above are stored C for subsequent immunoblot analysis for synaptic proteins and A species soluble and oligomers Vibratome sections thick are stored cryoprotective medium 
+C for subsequent immunochemical studies The formalin fixed left
+hemibrain serially sectioned slices and tissue blocks from the
+regions described above are processed for histopathological examination
+ H E and Thioflavin S Thio S detect tau and amyloid deposits 
+ staining and volumetric analyses are not routinely performed 
+these cases LB pathology evaluated using phosphorylated synuclein
+immunoreactivity Pathological diagnoses AD and DLB are made using National Institute Aging Alzheimers Association NIA AA 
+guidelines Montine and guidelines proposed the DLB
+Consortium McKeith 
+One hundred and seven cases males females were identified
+with neuropathologically confirmed DLB and available neuropsychological testing data Table Twelve these cases were excluded for lack 
+hippocampal tissue leaving total cases analyze for hippocampal
+Lewy pathology burden Based overall distribution pathology these
+cases were grouped into brainstem predominant limbic transitional 
+ neocortical diffuse subtypes outlined the most recent DLB
+Consortium report McKeith As for coexisting AD pathology Braak stage for tau tangle distribution and Thal phase for amyloid
+plaques were also recorded Vascular amyloid pathology was assessed
+semiquantitatively scale ranging from none severe 
+Immunohistochemistry Paraffin embedded hippocampal blocks were
+sectioned using microtome the posterior level visualize all subfields and were immunostained for phosphorylated synuclein using 
+mouse monoclonal antibody BioLegend catalog 
+RRID AB along with H E counterstain Fluorescent 
+Adamowicz Synuclein Spread DLB Hippocampus Affects Memory
+munohistochemistry was used for combined labeling Lewy pathology
+and hippocampal subfield markers Briefly sections were deparaffinized
+using xylene and ethanol Endogenous peroxidase activity was
+blocked using hydrogen peroxide methanol followed antigen
+retrieval using modified citrate buffer Dako Sections were permeabilized and blocked with TBS containing Triton and 
+horse serum primary antibodies for calbindin kDa rabbit Swant
+catalog RRID AB secretagogin SCGN rabbit 
+Thermo Fisher Scientific catalog RRID AB 
+ zinc transporter rabbit MBL International catalog
+ RRID AB phospho synuclein P syn A
+ same chromogenic see above and Synuclein oligomeric fibrillar mouse kindly provided O El Agnaf Qatar Biomedical Research Institute were used and
+ respectively and incubated for C After rinsing three
+times with TBS secondary antibodies including anti rabbit conjugated
+ donkey Jackson ImmunoResearch catalog RRID 
+AB and anti mouse conjugated Alexa donkey Jackson
+ImmunoResearch catalog RRID AB were applied for room temperature after three TBS rinses sections
+were coverslipped with PVA DABCO Sigma mounting medium 
+Assessment pathology burden Lewy pathology burdenincluding
+both LBs and Lewy neurites LNs was assessed semiquantitatively
+ ordinal scale EC subiculum and dentate
+gyrus DG based NIA AA criteria Montine Ratings
+were all done one rater D H A blinded all case information and
+trained neuropathologist S R As the DLB Consortium report 
+corresponds complete absence Lewy pathology corresponds 
+sparse LBs LNs corresponds LB high power field HPF equivalent and sparse LNs corresponds LBs HPF and
+scattered LNs and corresponds numerous LBs LNs McKeith 
+ We used the same anatomical definitions hippocampal subregions Armstrong and Cairns with the addition mossy fiber
+ MF staining using the marker calbindin define the boundary which difficult distinguish solely based H E staining Plaque
+and tangle counts were obtained from each subregion through standard
+UCSD ADRC procedures using Thio S staining which also allowed for
+determination Braak stage and Thal phase described above briefly
+and previous studies Salmon Illustrative bright field
+images were obtained Nikon Eclipse upright microscope and
+fluorescent images were obtained Zeiss LSM side port laserscanning confocal microscope 
+Neuropsychological testing The California Verbal Learning Test CVLT 
+and the Visual Reproduction test from the Wechsler Memory Scale WMS 
+were administered each patient Patients were tested individually 
+trained psychometrist quiet well illuminated room 
+The CVLT standardized memory test that was developed assess
+ variety memory processes identified through cognitive psychological
+studies normal memory Delis The CVLT assesses rate 
+learning retention after short and long delay intervals semantic encoding ability recognition memory discriminability intrusion and
+perseverative errors and response biases Five presentation free recall
+trials for list List A items four items each four semantic
+categories are administered followed single interference trial using
+ second different list List B items Immediately after the List B
+trial free recall and then cued recall using the names the four categories the items the initial list List A are elicited Twenty minutes
+later free recall and cued recall the List A items are again elicited 
+followed yes recognition test consisting the List A items and
+ randomly interspersed distracter items 
+The WMS Visual Reproduction test Russell adaptation Lezak 
+provides measure memory for geometric forms On each three
+trials the subject must reproduce complex geometric figure from memory immediately following study period Three increasingly complex stimuli containing from components are presented 
+successive trials As measure long term retention the subject asked
+after min unrelated testing again reproduce the figures from
+memory Finally the subject asked simply copy the stimulus figures
+ assess any visuoperceptual dysfunction that may contaminating
+J Neurosci February 
+visual memory performance The reproductions are scored for the number correct components out present from the original stimulus
+drawings Thus the maximum possible score for the immediate and
+delayed conditions points 
+Statistical analysis Associations between ratings Lewy pathology 
+various hippocampal subfields and scores the CVLT and the Visual
+Reproduction test were examined using partial correlation analyses that
+controlled for the interval between time testing and death Four cases
+ which most the hippocampal subfields were not visible were excluded from this analysis Multiple hierarchical linear regression analyses
+were performed examine the ability Lewy pathology burden 
+predict various episodic memory scores their initial clinical evaluation after adjusting for neuritic plaque and neurofibrillary tangle
+burden and for the interval between memory testing and death The first
+model for CVLT predicted Trial learning the second model predicted short delay free recall the third model predicted long delay free
+recall and the fourth model predicted recognition discriminability The
+first model for the Visual Reproduction test predicted immediate recall 
+and the second predicted delayed recall Analyses were performed using
+SPSS Statistics software version IBM Statistical significance
+was set 
+Results
+Case characterization
+Two thirds the DLB cases were the neocortical subtype 
+indicating that diffuse pathology had reached the neocortex the
+time death The remaining cases were mostly the limbic 
+transitional variety with only five cases with pathology restricted
+ the brainstem our entire cohort Patients falling into this
+last category usually not have dementia therefore expect
+their cognitive symptoms result something other than
+Lewy pathology Neocortical and limbic cases displayed 
+male predominance there were female brainstem only cases
+ Table In the overall group mean age testing was 
+years and mean age death was years The average test
+death interval was years Average number years education was The average score the Mini Mental State
+Examination was with worsening trend from brainstem
+ limbic neocortical subtypes In the
+analyzed cohort average scores the various CVLT measures
+were SD Trial learning SD shortdelay free recall SD long delay free recall and 
+ SD recognition discriminability Average scores the
+Visual Reproduction test were SD for immediate recall
+and SD for delayed recall Neocortical cases performed
+significantly worse than the limbic cases only the CVLT Trial
+ learning measure and long delay free
+recall 
+Neuropathologic findings
+All but three cases our cohort had some level neurofibrillary
+tangle pathology Table Of those three two did not have any
+amyloid plaques meaning that out cases had some type
+ coexisting AD pathology addition Lewy pathology Lack
+ plaques was more common overall cases especially
+among limbic cases more than one third without plaques 
+whereas the vast majority cases had moderate amount 
+amyloid pathology Thal phase Among the cases without
+plaques had low Braak stage II less which often observed with age cognitively normal adults Crary 
+these could therefore considered pure DLB cases Braak
+stages V and VI were the most common among our cases indicating severe tangle pathology This finding was driven the
+neocortical cases since most limbic cases showed milder levels 
+tangles Braak stage III 
+Adamowicz Synuclein Spread DLB Hippocampus Affects Memory
+ J Neurosci February 
+Table Staging concomitant Alzheimers pathology
+Braak stage
+III
+IIIIV
+VVI
+Thal phase
+All cases
+Brainstem
+Limbic
+Neocortical
+AD pathology including Braak neurofibrillary tangle stage and Thal amyloid phase are indicated for all cases and for
+each Lewy pathology subtype While severe tau pathology was most commonly seen across all cases severe amyloid
+pathology was seen only three cases all which were neocortical Alternatively lack tau pathology was seen
+only three cases whereas amyloid was found cases most which were limbic 
+Lewy pathology was present the hippocampus all but
+eight cases five which were brainstem only mentioned
+above with significantly higher overall burden neocortical
+ mean total pathology across subfields SD compared
+ limbic cases mean SD On
+ subfield subfield basis neocortical cases had greater Lewy
+pathology than limbic cases and EC However 
+the pattern severity across subfields did not differ between the
+two subtypes As displayed representative case Lewy pathology appeared most severe much more than 
+and EC Fig Whereas pathology was mostly neuritic 
+consisting LNs putative axon terminals EC pathology was
+mostly composed LBs located the soma deep layer
+neurons 
+Double labeling phospho synuclein along with the known
+DG marker calbindin allowed visualize the pathology 
+relation the MFs projecting from DG and terminating
+ Using this method confirmed that LNs localized 
+ just distal where the MFs tapered off fitting both the
+classical definition Lorente No and the broader
+molecular definition Lein Thus distal appears
+ preferentially affected Lewy pathology Fig A Calbindin labels DG neurons full including their MF projections but
+ also expressed low levels and Therefore more
+specific MF stain was used confirm the finding Another synuclein antibody that recognizes early oligomeric
+forms the pathology Vaikath was used confirm
+the specificity the LN staining and indicated that the phosphosynuclein observed encompassed the full extent Lewy pathology These two new antibodies showed that most the Lewy
+pathology Fig B green was just distal where the MFs magenta tapered off 
+The observed pathology did not appear harbored the
+ neurons themselves but rather the axon terminals the
+EC neurons that projected Consistent with this hypothesis the human marker SCGN showed that the Lewy pathology Fig C green labeled using mature fibril specific
+ synuclein antibody that labels only fully formed aggregates 
+displayed very little colocalization with pyramidal neurons
+and their processes Fig C magenta A composite heat map
+representing the average pathology burden each hippocampal
+subregion across all cases shows that Lewy pathology was highest
+ the subfield the hippocampus proper and that EC was
+also highly affected Fig Lewy pathology burden strongly
+correlated with EC burden burden with 
+burden and burden with burden 
+ DG had the least amount Lewy pathology only 
+ cases had any DG Lewy pathology all and when was
+present only one two LBs were found the entire subfield 
+Correlations with neuropsychological testing
+Partial correlations that accounted for the test death interval
+revealed that increasing Lewy pathology burden the subfield the hippocampus was correlated with lower scores 
+CVLT Trial learning and immediate and delayed recall 
+ the Visual Reproduction test Table Fig A B In
+addition increasing Lewy pathology burden the EC was correlated with lower scores CVLT Trial learning 
+ Table Fig C There were significant
+correlations between memory performance and Lewy pathology
+burden any other hippocampal subfields Table The relative selectivity the relationship between Lewy pathology
+burden and memory should viewed with caution since multiple comparisons increased the chance false positive errors We
+attempted mitigate this problem some degree including
+only four key memory variables the partial correlation analyses We chose not correct for multiple comparisons because
+the analyses were exploratory significant correlations consistently involved rather than occurring randomly and the
+results the partial correlations with were confirmed 
+subsequent regression analyses 
+A series multiple regression analyses were performed 
+explore the relative contribution Lewy pathology and AD pathology memory dysfunction Lewy pathology ratings 
+neurofibrillary tangle counts neuritic plaque counts and the interval between time testing and death were used predict
+scores various verbal and nonverbal memory measures Table
+ We chose use raw counts for tangles and plaques rather than
+Braak stage and Thal phase the latter reflect the overall distribution the respective neuropathologic lesions more than the
+burden specific subregion Average tangle counts for 
+our cohort were HPF SD and average neuritic plaque
+counts were HPF SD These numbers are lower than
+those found comparable AD only cohort from the UCSD
+ADRC and respectively suggesting additive effect
+ Lewy and AD pathologies 
+Overall regression models were significant for CVLT Trial 
+learning R F CVLT short delay
+free recall R F CVLT long delay
+free recall R F CVLT recognition
+discriminability R F Visual Reproduction test immediate recall R F 
+and Visual Reproduction test delayed recall R F 
+ In each model tangle burden accounted for
+ significant amount variance memory performance even
+after the interval between testing and death was taken into account all values Table Furthermore the burden 
+ Lewy pathology explained significant amount variance
+ memory performance beyond that explained tangle
+pathology the interval between testing and death for CVLT
+Trial learning CVLT short delay free recall 
+ Visual Reproduction test immediate recall 
+and Visual Reproduction test delayed recall A trend
+toward significance was observed for CVLT long delay free recall
+ There were significant relationships between
+burden neuritic plaque pathology and performance 
+any the memory measures 
+Adamowicz Synuclein Spread DLB Hippocampus Affects Memory
+J Neurosci February 
+ Visualization hippocampal Lewy pathology DLB AD Phospho synuclein staining representative case reveals mostly Lewy neurites A Lewy bodies with surrounding
+Lewy grains entorhinal cortex D and lighter mixed staining between B C Insets show and magnification H E counterstain 
+ Localization Lewy neurite pathology using molecular markers A Lewy pathology labeled P syn staining green localizes mainly just beyond where mossy fibers from DG 
+labeled using calbindin magenta taper off magnification composite B Confirmation using additional markers for mossy fibers and oligomeric synuclein magenta
+and green magnification C Subcellular localization using marker SCGN magenta and green magnification composite maximum intensity projection
+for inset 
+ J Neurosci February 
+Adamowicz Synuclein Spread DLB Hippocampus Affects Memory
+ Distribution and severity Lewy pathology show differential regional involvement A Heat map Lewy pathology hippocampal subfields from DLB cases shows increased
+burden area and entorhinal cortex The DG relatively free pathology comparison The color coded scale based average pathology rating per subregion Major known hippocampal
+projections are displayed solid lines whereas the suspected EC circuit shown dashed line hippocampal diagram adapted with permission from Yang B Graphical
+representation heat map data Sub Subiculum Error bars indicate SE 
+Discussion
+The present results provide clear evidence that the subregion
+ the hippocampus and the EC have higher level Lewy pathology than any other hippocampal region patients with DLB 
+among both neocortical and limbic subtypes pathology The
+pathology was confirmed rather than virtue
+ being distal MFs from the DG labeled using two distinct
+molecular markers Kohara Lewy pathology was also
+apparent and the subiculum although not 
+the same degree and EC There was often little 
+Lewy pathology the DG Lewy pathology burden was
+strongly correlated with EC Lewy pathology burden but not with
+ However and were highly correlated with
+each other were and 
+Adamowicz Synuclein Spread DLB Hippocampus Affects Memory
+J Neurosci February 
+Table Clinicopathological correlations
+Dentate
+Subiculum
+Entorhinal cortex
+CVLT Trials
+CVLT long
+delay
+Visual Reproduction
+immediate
+Visual Reproduction
+delay
+Partial correlation coefficients Pearsons showing the relationship between the degree Lewy pathology 
+various hippocampal subfields and performance verbal and nonverbal memory tests The partial correlations
+control for the interval between testing and death 
+The predominance Lewy pathology and EC conjunction with strong correlation between the degrees Lewy
+pathology both regions implicates the EC circuit the
+pathogenesis DLB Although direct connection between 
+and EC has only been suspected humans Ding 
+has been described mice Chevaleyre and Siegelbaum 
+and nonhuman primates Witter and Amaral the latter
+ which specifically demonstrated projection from deep EC 
+ corresponding where Lewy bodies and Lewy neurites
+were found our study respectively mice reciprocally
+connected the input layers EC layers II III via single
+synapse Rowland In contrast other hippocampal
+subregions receiving EC input not project directly back the
+region DG only project back the deeper output layers
+ IV V V VI depending the nomenclature scheme EC
+ Our findings suggest that Lewy pathology begins 
+this potential circuit before spreading further hippocampal
+subregions with less apparent but intercorrelated levels Lewy
+pathology and line with the model propagating pathology Luk As the major output and
+input regions for respectively and may the
+next affected 
+In our cohort LBs EC predominantly localized the somata layer IV V neurons rather than layer II III which project
+ the relatively spared DG and LNs were mainly distal 
+dentate MF input and punctate presynaptic nature Axonal
+aggregates are likely precede perikaryal LBs EC 
+following the retrograde pattern progression ascribed 
+Lewy pathology with presynaptic aggregation synuclein
+eventually leading dying back neurodegeneration SchulzSchaeffer Scott Kanazawa Boassa 
+ This sequence consistent with Braak staging from
+sporadic PD where the limbic system affected earlier than the
+cortex Braak It also follows that neocortical cases
+had higher overall hippocampal Lewy pathology burden than
+limbic cases which the pathology had yet reach cortical
+regions beyond the EC The selective vulnerability axon terminals Lewy pathology could explained the length
+and abundant branching the projections and the high energy
+demands that engenders This explanation has been given for the
+vulnerability substantia nigra dopaminergic neurons the
+same Lewy pathology PD Uchihara and Giasson Other
+possibilities for the selective vulnerability axon terminals 
+ Lewy pathology include the unique connectivity electrophysiology and molecular identity the neurons the 
+ Increasing Lewy pathology burden associated with decreasing memory performance A Relationship between ratings Lewy pathology and score the CVLT Trial learning
+measure added interpolation line B C Relationship between ratings Lewy pathology and score the Visual Reproduction test immediate B and delay C conditions D Relationship
+between ratings entorhinal cortex Lewy pathology and score the CVLT Trial learning measure Error bars indicate SE 
+Adamowicz Synuclein Spread DLB Hippocampus Affects Memory
+ J Neurosci February 
+Table Multiple regression analyses
+CVLT Trials 
+ synuclein
+ plaques
+ tangles
+Test death interval
+CVLT short delay
+ synuclein
+ plaques
+ tangles
+Test death interval
+CVLT long delay
+ synuclein
+ plaques
+ tangles
+Test death interval
+CVLT recognition
+ synuclein
+ plaques
+ tangles
+Test death interval
+Visual reproduction immediate
+ synuclein
+ plaques
+ tangles
+Test death interval
+Visual reproduction delay
+ synuclein
+ plaques
+ tangles
+Test death interval
+ test
+The degree synuclein pathology the hippocampus makes significant independent contribution 
+the memory deficit patients with DLB above and beyond the significant contribution made the burden 
+AD tangle pathology The same pattern results was observed for the CVLT Trial learning measure when total
+hippocampal synuclein burden rather than just was used the first model All models were highly significant values Standardized values and significance levels for inclusion the various models are
+shown for each variable 
+subfield Caruana Hawrylycz Cui 
+A previous study suggested that Lewy pathology the hippocampus harbored local interneurons least the case 
+PDD Flores Cuadrado However such colocalization was observed our study data not shown and only very
+little was found another study focusing DLB Bernstein 
+ Early work examining neuronal subtypes containing
+LBs temporal cortex revealed that the majority localized 
+pyramidal cells and not interneurons positive for parvalbumin
+ Wakabayashi More recent work mice confirmed
+that native nonaggregated synuclein was detected excitatory
+synapses but not inhibitory interneurons the hippocampus 
+due this intrinsic difference endogenous synuclein levels 
+hippocampal inhibitory interneurons were less likely form inclusions culture when triggered exogenous synuclein fibrils Taguchi This discrepancy may suggest distinct
+substrates underlying the dementia PD and that DLB 
+Although the Lewy pathology burden was less than 
+ only the former correlated with measures learning and
+memory This correlation was observed even after accounting for
+the significant impact tangle pathology These results
+indicate that the effects Lewy pathology learning and memory become most apparent later stage pathology since all
+cases except for one with pathology also had pathology 
+ but not vice versa suggesting that pathology prerequisite for pathology The finding that Lewy pathol 
+ogy burden had stronger correlation with learning and memory
+than burden despite less Lewy pathology consistent with results previous MRI studies showing that volume was most predictive memory scores patients with DLB
+despite relative preservation the hippocampus particular DLB compared AD Mak Delli Pizzi 
+ Lewy pathology may contribute cognitive symptoms that are not detected standard memory testing Previous
+studies rodents have advanced role for social memory
+ Hitti and Siegelbaum Stevenson and Caldwell 
+ memory necessary for interactions with conspecifics 
+temporal aspects memory separating similar memories
+acquired different times Mankin Given the predominance Lewy pathology observed future studies
+should examine these aspects memory patients with DLB 
+Our study has several limitations One the relatively long
+delay between time neuropsychological testing and death approaching six years Despite controlling for this variable interval 
+ results degree postmortem pathology not fully reflective
+ pathology burden the time testing which most likely
+worse given the progressive nature the disease Another limitation that the pathogenic form aggregated synuclein 
+unknown While focused the version hyperphosphorylated
+ previous reports suggest that oligomeric forms 
+the protein are most toxic Roberts We attempted
+ address this issue cross validating some our findings
+using conformer specific antibodies for synuclein including
+one that preferentially recognizes oligomers While the best
+method assess Lewy pathology burden remains unclear our
+rigorous anatomical and molecular approach has yielded important insights 
+Eight our cases lacked hippocampal Lewy pathology yet
+still had memory dysfunction It conceivable that Lewy pathology was present these cases but overlooked from our sampling
+method one single hippocampal section from the posterior left
+hemisphere For instance the amygdala and fornix two prominent regions involved memory consolidation but not specifically examined this study may have harbored Lewy pathology 
+The majority these cases did have significant AD pathology 
+the hippocampus however and that along with significant atrophy may have caused their memory impairment As for the couple cases also lacking AD pathology unusual alternate disease
+processes may blame for instance one case had concomitant Fahrs syndrome causing calcifications the basal ganglia
+and cortex that have been associated with dementia 
+While tangles were pervasive our cohort and strongly
+correlated with both verbal and visual memory dysfunction 
+Lewy pathology contributed memory performance
+above and beyond the effects tau pathology This finding suggests convergence pathologies with possible additive effect
+ cognitive dysfunction The relationship may even causal 
+has been suggested that phospho synuclein promotes the phosphorylation tau Iseki Guo Our findings therefore support the view that many cases dementia are
+not due single type neuropathologic lesion but rather 
+mix several Additional studies will necessary elucidate
+the precise sequence progression Lewy pathology DLB
+and how relates cognitive decline However the results lend
+credence model whereby impairment learning and memory becomes most apparent once Lewy pathology has reached
+ and EC potentially via 
+This study demonstrates specific and selective distribution
+ Lewy pathology the hippocampus confirmed patients
+Adamowicz Synuclein Spread DLB Hippocampus Affects Memory
+with DLB Although and EC are most affected memory
+impairment corresponds closest pathology the subregion that thought downstream this main pathology 
+This finding suggests that hippocampal Lewy pathology must
+spread beyond its initial site cause memory dysfunction A
+better understanding the mechanisms governing aggregate
+formation and spread along interconnected hippocampal circuits
+could lead new avenues for treating the disease 
+References
+Armstrong RA Cairns NJ Comparative quantitative study signature pathological lesions the hippocampus and adjacent gyri 
+neurodegenerative disorders J Neural Transm CrossRef
+Medline
+Armstrong RA Kotzbauer PT Perlmutter JS Campbell MC Hurth KM 
+Schmidt RE Cairns NJ A quantitative study synuclein pathology fifteen cases dementia associated with Parkinson disease 
+J Neural Transm Medline
+Arnold SE Hyman BT Flory J Damasio AR Van Hoesen GW The
+topographical and neuroanatomical distribution neurofibrillary tangles and neuritic plaques the cerebral cortex patients with Alzheimers disease Cereb Cortex CrossRef Medline
+Ballard C Patel A Oyebode F Wilcock G Cognitive decline patients with Alzheimers disease vascular dementia and senile dementia 
+Lewy body type Age Ageing Medline
+Bernstein HG Johnson M Perry RH Lebeau FE Dobrowolny H Bogerts B 
+Perry EK Partial loss parvalbumin containing hippocampal
+interneurons dementia with Lewy bodies Neuropathology 
+CrossRef Medline
+Bertrand E Lechowicz W Szpak GM Lewandowska E Dymecki J WierzbaBobrowicz T Limbic neuropathology idiopathic Parkinsons
+disease with concomitant dementia Folia Neuropathol 
+Medline
+Boassa D Berlanga ML Yang MA Terada M Hu J Bushong EA Hwang M 
+Masliah E George JM Ellisman MH Mapping the subcellular
+distribution synuclein neurons using genetically encoded probes
+for correlated light and electron microscopy implications for Parkinsons
+disease pathogenesis J Neurosci CrossRef Medline
+Braak H Braak E Staging Alzheimers disease related neurofibrillary changes Neurobiol Aging discussion CrossRef
+Medline
+Braak H Del Tredici K Rub U Vos RA Jansen Steur EN Braak E 
+Staging brain pathology related sporadic Parkinsons disease Neurobiol Aging CrossRef Medline
+Calderon J Perry RJ Erzinclioglu SW Berrios GE Dening TR Hodges JR
+ Perception attention and working memory are disproportionately impaired dementia with Lewy bodies compared with Alzheimers
+disease J Neurol Neurosurg Psychiatry CrossRef Medline
+Caruana DA Alexander GM Dudek SM New insights into the regulation synaptic plasticity from unexpected place hippocampal area
+Learn Mem CrossRef Medline
+Chevaleyre V Siegelbaum SA Strong pyramidal neuron synapses define powerful disynaptic cortico hippocampal loop Neuron
+ CrossRef Medline
+Churchyard A Lees AJ The relationship between dementia and direct involvement the hippocampus and amygdala Parkinsons disease Neurology CrossRef Medline
+Colosimo C Hughes AJ Kilford L Lees AJ Lewy body cortical involvement may not always predict dementia Parkinsons disease 
+J Neurol Neurosurg Psychiatry CrossRef Medline
+Connor DJ Salmon DP Sandy TJ Galasko D Hansen LA Thal LJ 
+Cognitive profiles autopsy confirmed Lewy body variant pure Alzheimer disease Arch Neurol CrossRef Medline
+Crary JF Trojanowski JQ Schneider JA Abisambra JF Abner EL Alafuzoff I 
+Arnold SE Attems J Beach TG Bigio EH Cairns NJ Dickson DW Gearing M Grinberg LT Hof PR Hyman BT Jellinger K Jicha GA Kovacs
+GG Knopman DS Primary age related tauopathy PART 
+ common pathology associated with human aging Acta Neuropathol
+ CrossRef Medline
+Cui Z Gerfen CR Young WS Hypothalamic and other connec 
+J Neurosci February 
+tions with dorsal area the mouse hippocampus J Comp Neurol
+ CrossRef Medline
+Delis DC Kramer JH Kaplan E Ober BA California Verbal Learning
+Test San Antonio TX Psychological Corp 
+Delli Pizzi S Franciotti R Bubbico G Thomas A Onofrj M Bonanni L
+ Atrophy hippocampal subfields and adjacent extrahippocampal structures dementia with Lewy bodies and Alzheimers disease 
+Neurobiol Aging CrossRef Medline
+DeVito LM Konigsberg R Lykken C Sauvage M Young WS Eichenbaum H Vasopressin receptor knock out impairs memory for
+temporal order J Neurosci CrossRef Medline
+Dickson DW Schmidt ML Lee VM Zhao ML Yen SH Trojanowski JQ
+ Immunoreactivity profile hippocampal neurites diffuse Lewy body disease Acta Neuropathol CrossRef Medline
+Ding SL Haber SN Van Hoesen GW Stratum radiatum 
+additional target the perforant path humans and monkeys Neuroreport CrossRef Medline
+Flores Cuadrado A Ubeda Banon I Saiz Sanchez D Rosa Prieto C 
+Martinez Marcos A Hippocampal synuclein and interneurons
+ Parkinsons disease data from human and mouse models Mov Disord
+ CrossRef Medline
+Guo JL Covell DJ Daniels JP Iba M Stieber A Zhang B Riddle DM Kwong
+LK Xu Y Trojanowski JQ Lee VMY Distinct Synuclein strains
+differentially promote tau inclusions neurons Cell 
+CrossRef Medline
+Hall H Reyes S Landeck N Bye C Leanza G Double K Thompson L 
+Halliday G Kirik D Hippocampal Lewy pathology and cholinergic dysfunction are associated with dementia Parkinsons disease 
+Brain Medline
+Hamilton JM Salmon DP Galasko D Delis DC Hansen LA Masliah E 
+Thomas RG Thal LJ A comparison episodic memory deficits
+ neuropathologically confirmed dementia with Lewy bodies and Alzheimers disease J Int Neuropsychol Soc Medline
+Hansen LA Masliah E Galasko D Terry RD Plaque only Alzheimer
+disease usually the Lewy body variant and vice versa J Neuropathol Exp
+Neurol CrossRef Medline
+Harding AJ Halliday GM Cortical Lewy body pathology the diagnosis dementia Acta Neuropathol Medline
+Hawrylycz MJ Lein ES Guillozet Bongaarts AL Shen EH Ng L Miller JA 
+van Lagemaat LN Smith KA Ebbert A Riley ZL Abajian C Beckmann
+CF Bernard A Bertagnolli D Boe AF Cartagena PM Chakravarty MM 
+Chapin M Chong J Dalley RA An anatomically comprehensive atlas the adult human brain transcriptome Nature 
+CrossRef Medline
+Heyman A Fillenbaum GG Gearing M Mirra SS Welsh Bohmer KA Peterson B Pieper C Comparison Lewy body variant Alzheimers
+disease with pure Alzheimers disease Consortium Establish Registry
+for Alzheimers Disease Part XIX Neurology CrossRef
+Medline
+Hitti FL Siegelbaum SA The hippocampal region essential for
+social memory Nature CrossRef Medline
+Horimoto Y Matsumoto M Nakazawa H Yuasa H Morishita M Akatsu H 
+Ikari H Yamamoto T Kosaka K Cognitive conditions pathologically confirmed dementia with Lewy bodies and Parkinsons disease
+with dementia J Neurol Sci CrossRef Medline
+Hyman BT Van Hoesen GW Damasio AR Barnes CL Alzheimers
+disease cell specific pathology isolates the hippocampal formation Science CrossRef Medline
+Iseki E Takayama N Marui W Ueda K Kosaka K Relationship 
+the formation process between neurofibrillary tangles and Lewy bodies 
+the hippocampus dementia with Lewy bodies brains J Neurol Sci 
+ CrossRef Medline
+Kanazawa T Adachi E Orimo S Nakamura A Mizusawa H Uchihara T
+ Pale neurites premature synuclein aggregates with centripetal
+extension from axon collaterals Brain Pathol CrossRef Medline
+Kohara K Pignatelli M Rivest AJ Jung HY Kitamura T Suh J Frank D 
+Kajikawa K Mise N Obata Y Wickersham IR Tonegawa S Cell
+typespecific genetic and optogenetic tools reveal hippocampal circuits Nat Neurosci Medline
+Langston RF Stevenson CH Wilson CL Saunders I Wood ER The
+role hippocampal subregions memory for stimulus associations 
+Behav Brain Res CrossRef Medline
+ J Neurosci February 
+Lein ES Zhao X Gage FH Defining molecular atlas the hippocampus using DNA microarrays and high throughput situ hybridization J Neurosci CrossRef Medline
+Lein ES Callaway EM Albright TD Gage FH Redefining the boundaries the hippocampal subfield the mouse using gene expression
+and dimensional reconstruction J Comp Neurol CrossRef
+Medline
+Lezak MD Neuropsychological assessment New York Oxford UP 
+Lorente No R Studies the structure the cerebral cortex II 
+Continuation the study the ammonic system J Psychol Neurol
+Luk KC Kehm V Carroll J Zhang B OBrien P Trojanowski JQ Lee VM
+ Pathological synuclein transmission initiates Parkinson like
+neurodegeneration nontransgenic mice Science 
+CrossRef Medline
+Mak E Su L Williams GB Watson R Firbank M Blamire A OBrien J
+ Differential atrophy hippocampal subfields comparative
+study dementia with Lewy bodies and Alzheimer disease Am J Geriatr
+Psychiatry Medline
+Mankin EA Diehl GW Sparks FT Leutgeb S Leutgeb JK Hippocampal activity patterns change over time larger extent than
+between spatial contexts Neuron CrossRef Medline
+McKeith IG Dickson DW Lowe J Emre M OBrien JT Feldman H Cummings J Duda JE Lippa C Perry EK Aarsland D Arai H Ballard CG 
+Boeve B Burn DJ Costa D Del Ser T Dubois B Galasko D Gauthier S 
+ Diagnosis and management dementia with Lewy bodies 
+Third report the DLB Consortium Neurology CrossRef
+Medline
+Montine TJ Phelps CH Beach TG Bigio EH Cairns NJ Dickson DW Duyckaerts C Frosch MP Masliah E Mirra SS Nelson PT Schneider JA Thal
+DR Trojanowski JQ Vinters HV Hyman BT National Institute Aging Alzheimers Association National Institute AgingAlzheimers Association guidelines for the neuropathologic assessment 
+Alzheimers disease practical approach Acta Neuropathol 
+CrossRef Medline
+Parkkinen L Kauppinen T Pirttila T Autere JM Alafuzoff I Alphasynuclein pathology does not predict extrapyramidal symptoms dementia Ann Neurol CrossRef Medline
+Roberts RF Wade Martins R Alegre Abarrategui J Direct visualization alpha synuclein oligomers reveals previously undetected pathology Parkinsons disease brain Brain CrossRef Medline
+Rowland DC Weible AP Wickersham IR Wu H Mayford M Witter MP 
+Kentros CG Transgenically targeted rabies virus demonstrates major monosynaptic projection from hippocampal area 
+ medial entorhinal layer II neurons J Neurosci 
+CrossRef Medline
+Salmon DP Galasko D Hansen LA Masliah E Butters N Thal LJ Katzman R
+ Neuropsychological deficits associated with diffuse Lewy body
+disease Brain Cogn Medline
+Salmon DP Heindel WC Hamilton JM Filoteo JV Cidambi V Hansen LA 
+Masliah E Galasko D Recognition memory span autopsyconfirmed dementia with Lewy bodies and Alzheimers disease Neuropsychologia CrossRef Medline
+Schulz Schaeffer WJ The synaptic pathology alpha synuclein
+Adamowicz Synuclein Spread DLB Hippocampus Affects Memory
+aggregation dementia with Lewy bodies Parkinsons disease and
+Parkinsons disease dementia Acta Neuropathol 
+CrossRef Medline
+Scott DA Tabarean I Tang Y Cartier A Masliah E Roy S A pathologic cascade leading synaptic dysfunction alpha synuclein induced
+neurodegeneration J Neurosci CrossRef Medline
+Shimomura T Mori E Yamashita H Imamura T Hirono N Hashimoto M 
+Tanimukai S Kazui H Hanihara T Cognitive loss dementia
+with Lewy bodies and Alzheimer disease Arch Neurol 
+CrossRef Medline
+Squire LR Nondeclarative memory multiple brain systems supporting learning J Cogn Neurosci CrossRef Medline
+Stevenson EL Caldwell HK Lesions the region the hippocampus impair social memory mice Eur J Neurosci 
+Medline
+Taguchi K Watanabe Y Tsujimura A Tatebe H Miyata S Tokuda T Mizuno
+T Tanaka M Differential expression alpha synuclein hippocampal neurons PLoS One CrossRef Medline
+Tsuboi Y Dickson DW Dementia with Lewy bodies and Parkinsons
+disease with dementia are they different? Parkinsonism Relat Disord 
+ Medline
+Uchihara T Giasson BI Propagation alpha synuclein pathology 
+hypotheses discoveries and yet unresolved questions from experimental
+and human brain studies Acta Neuropathol CrossRef
+Medline
+Vaikath NN Majbour NK Paleologou KE Ardah MT van Dam E van 
+Berg WD Forrest SL Parkkinen L Gai WP Hattori N Takanashi M Lee
+SJ Mann DM Imai Y Halliday GM Li JY El Agnaf OM Generation and characterization novel conformation specific monoclonal
+antibodies for synuclein pathology Neurobiol Dis CrossRef
+Medline
+WakabayashiK HansenLA MasliahE CorticalLewybody containingneurons are pyramidal cells laser confocal imaging double immunolabeled sections with anti ubiquitin and Acta Neuropathol CrossRef
+Medline
+Walker Z Allen RL Shergill S Katona CL Neuropsychological performance Lewy body dementia and Alzheimers disease Br J Psychiatry
+ CrossRef Medline
+Wintzer ME Boehringer R Polygalov D McHugh TJ The hippocampal ensemble sensitive contextual change J Neurosci
+ CrossRef Medline
+Witter MP Amaral DG Entorhinal cortex the monkey projections the dentate gyrus hippocampus and subicular complex J Comp
+Neurol Medline
+Woodhams P Celio MR Ulfig N Witter MP Morphological and
+functional correlates borders the entorhinal cortex and hippocampus Hippocampus Medline
+Yang Y Kim S Kim JH Ischemic evidence transient global amnesia location the lesion the hippocampus J Clin Neurol 
+CrossRef Medline
+Zola Morgan S Squire LR Amaral DG Human amnesia and the
+medial temporal region enduring memory impairment following bilateral lesion limited field the hippocampus J Neurosci 
+Medline

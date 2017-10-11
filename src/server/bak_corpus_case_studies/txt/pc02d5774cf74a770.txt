@@ -1,0 +1,608 @@
+Journal 
+J Neural Transm P D Sect 
+Neural
+Transmission
+ Springer Verlag 
+Printed Austria
+V hippocampus amygdala and frontal lobes 
+the M R I diagnosis early A disease 
+correlation with functions
+M P Laakso H Soininen K Partanen E L Helkala P Hartikainen 
+P Vainio M Hailikainen T H inninen and P J Riekkinen Srz 
+Department Neurology and Radiology University Hospital and University 
+Kuopio and A I Virtanen Institute Kuopio Finland
+Accepted January 
+Summary We studied the usefulness measuring volumes the hippocampus amygdala and frontal lobes with coronal magnetic resonance
+imaging MRI scans the diagnosis early Alzheimers disease AD 
+We examined patients diagnosed according the NINCDS ADRDA
+criteria probable AD and age matched healthy cognitively normal controls The AD patients had mild dementia with mean score the
+Mini Mental Status Examination MMSE We used T magnetic resonance imager and normalized the volumes for brain area The AD patients
+had significantly smaller volumes the right and the left hippocampus
+ ANOVA and the left frontal lobe 
+compared controls The reductions volumes the right frontal
+lobe the right amygdala the left amygdala 
+were not statistically significant In the discriminant function analysis which
+included the volumes the hippocampus amygdala and the frontal lobes
+and age the volumes the left and right hippocampus the left and
+right frontal lobe and the right amygdala entered the model and could
+correctly classify the subjects into AD and control groups Chi square
+ By using the volumes the hippocampus the frontal
+lobes the amygdala their alone the correct classification was achieved
+ and the subjects respectively In addition AD
+patients the volumes the left hippocampus correlated significantly with the
+MMSE score and with immediate and delayed verbal memory the smaller the
+volume the more impaired was their performance Our data indicate that
+measurements volumes the hippocampus might useful diagnosis 
+early AD 
+Keywords Alzheimers disease amygdala dementia frontal lobe hippocampus magnetic resonance imaging memory 
+M P Laakso 
+Introduction
+There are problems the clinical diagnosis Alzheimers disease AD 
+accuracy between the best one can achieve Sulkava 
+McKhann Thus the definitive diagnosis can obtained only 
+means biopsy autopsy McKhann Imaging methods computed tomography CT and magnetic resonance imaging MRI are 
+integral part the diagnostic assessment patients with suspected dementia
+and help detect specific central nervous system causes dementia such 
+brain tumor vascular lesions normal pressure hydrocephalus and chronic
+subdural haematoma The value linear planimetric and volumetric measurements various regions interest CT scans have been under scrutiny
+ attempts separate AD patients from elderly controls DeCarli 
+ Recently similar approaches have been applied with MRI scans MRI
+studies though varying some extent have shown interesting and promising
+results providing reliable non invasive method for the diagnosis AD 
+Therefore wanted confirm some the previous results and seek 
+reliable means improving the accuracy the diagnosis AD volumetric measurements using MRI 
+Previous studies applying CT have shown that volumetric measurements
+were able classify AD patients and control subjects DeCarli
+ Functional techniques such measuring cerebral glucose metabolism and regional cerebral blood flow with positron emission tomography
+and single photon emission computed tomography SPECT have also been
+used for the diagnosis AD Haxby Pearlson 
+SPECT measurements alone were able differentiate the ADpatients from the controls By combining SPECT with MRI the results have
+been even better Pearlson Magnetic resonance spectroscopy 
+method recently introduced study metabolism the brain has also been
+utilized examining AD patients Bottomley Klunk 
+Longo Furthermore measurement magnetic resonance 
+relaxation time the hippocampus has shown promising results with the
+prolongation the relaxation time correlating with the severity AD
+symptoms Kirsch 
+Earlier studies the volumetric MRI diagnosis AD and also the
+normal variations and the changes aging have focused the temporal lobe
+ whole individually the temporal neocortex the superior temporal
+gyrus the hippocampal formation the uncus the entorhinal cortex the
+parahippocampal gyrus and the amygdala Ventricular spaces interest have
+been the ventricles the temporal horns the interuncal distance the temporal
+sulci and the Sylvian fissures well the choroidal fissure the subarachnoid
+space and the cerebrospinal fluid Moreover several extratemporal regions
+have been measured such the brain parenchyma the frontal cortex the
+parietal cortex the corpus callosum the basal forebrain and the basal ganglia 
+striatum nucleus caudatus and nucleus lenticularis Seab 
+Krishnan Bronen and Cheung Dahlbeck 
+MRI volumetry Alzheimers disease
+Jernigan Kesslak Pearlson Murphy 
+ nod Doraiswamy Erkinjuntti 
+Killiany 
+In aging MRI studies have detected decreased volumes the anterior
+diencephalic structures the grey matter most cortical regions especially
+ association cortices and mesial temporal lobe structures Jernigan 
+ and the caudate nucleus Krishnan Jernigan 
+The age related changes the white matter are also manifest prolonged
+ values Jernigan The volumes the lateral ventricles have
+been reported increase per year Coffey There are
+also normal variations the temporal lobe including notching the uncus
+and asymmetry the temporal horns Mild asymmetry the hippocampal
+head and mild enlargement the right temporal lobe were not uncommon 
+Other variations were subtle asymmetry the white matter between the
+hippocampus and the collateral sulcus atypical sulci and Sylvian fissure dilatation Bronen and Cheung 
+Despite the intense effort define accurate variable structure 
+combination structures even combination structural and functional
+measurements reveal early AD uniformity simple answer has been
+achieved The Consortium Establish Registry for Alzheimers Disease
+ CERAD has tried develop procedures for standardized imaging and
+reporting MRI findings but satisfactory interrater agreement for interpreting MRI findings elderly subjects was found Acceptable intraclass correlations group neuroradiologist were obtained only the ratings the
+lateral and third ventricles and the temporal horn What needed are more
+objective and reproducible procedures for interpretation neuroimaging
+findings AD Davis 
+We chose the hippocampus and the amygdala well neocortical
+region the frontal lobe regions interest Memory loss the most
+common early symptom AD The hippocampus which closely associated
+with memory processing known vulnerable damage the early
+stage AD Hyman The purpose our study was assess the
+usefulness MRI volume measurements the diagnosis early AD To this
+end measured the volumes the hippocampus the amygdala and the
+frontal lobes using thin slices obtain precise information possible To
+test the value volume measurements tool separate AD patients from
+controls applied discriminant function analysis We also correlated the
+volumes these brain regions with the patients performance tests assessing verbal and visual memory well executive functions 
+Material and methods
+Patients and controls
+We examined patients fulfilling the NINCDS ADRDA criteria probable AD
+ McKhann and age and sex matched controls The clinical characteristics the subjects are presented Table The ethics committee the University
+M P Laakso 
+Table Clinical characteristics controls and Alzheimer patients AD 
+Number
+Women men
+Mean age years
+Age onset years
+Duration months
+Mini Mental Status
+Brief Cognitive Rating Scale
+Education years
+Controls
+AD
+ANOVA F
+NS
+Results are mean S D 
+ANOVA NS not significant
+Hospital and University Kuopio approved the study All subjects gave their informed consent for participation the study following the explanation the study
+protocol 
+The AD patients underwent the following examinations general physical and clinical
+neurological examination assessment clinical severity using Mini Mental Status Examination MMSE Folstein and Brief Cognitive Rating Scale BCRS 
+ Reisberg assessment extrapyramidal signs using Webster Parkinsons
+Disease scale Webster assessment depressive signs the Hamilton scale
+ Hamilton extensive battery laboratory tests exclude secondary causes 
+dementia neuropsychological tests EEG and event related potentials SPECT scan and
+magnetic resonance imaging the brain All patients scored less than four the modified ischemic scale Rosen 
+The controls have been described detail elsewhere Soininen Their
+investigation also included clinical neurological examination neuropsychological testing 
+EEG event related evoked potentials and MRI 
+Neuropsychological tests
+Verbal memory was examined with the list learning test using shopping items Helkala 
+ A yes recognition the words the list was asked after minute
+delay filled with other psychometric tests We also used the story recall test with the
+Boston approach Millber The recall the story was tested immediately and
+after minute delay Visual memory was examined with Heaton Visual Reproduction
+Test Russel The recall the figures was tested both immediately and after minute delay 
+To assess executive functions used Nelsons version the Wisconsin Card Sorting
+Test Nelson Trail Making test A and B Reitan and Verbal Fluency
+ Borkowski The maximum time seconds for Trail Making A and 
+seconds Trail Making B was allowed If the test was not completed the time allowed 
+the missing letters numbers were scored omissions In the Verbal Fluency Test the
+subject was asked produce many words they could beginning with letters
+P A and S one minute for each letter The score was the number words correctly
+named Furthermore examined verbal functions with the Boston Naming Test
+ Kaplan visuospatial functions with copy cube test clock setting test and
+the Block Design subtest Wechsler Adult Intelligence scale Goodglass and Kaplan 
+ Wechsler and praxic functions the hand using Lurias method Helkala
+ data not shown 
+MRI volumetry Alzheimers disease
+M R I imaging technique
+The subjects were scanned with T Magnetom Siemens Erlangen using the standard head coil and tilted coronal D gradient echo sequence MP RAGE TR TE
+ TI flip angle FOV matrix acquisition This
+resulted Tl weighted partitions with slice thickness oriented 
+right angle the long axis the hippocampus The radiologist who analyzed the MRIs
+was blinded the subjects clinical diagnosis 
+We used standard anatomical atlases the human brain Duvernoy 
+DeArmond with some adjustment from previous articles Naidich 
+Bronen and Cheung Tien Watson guidelines 
+determine the boundaries the amygdala and the hippocampus oblique coronal MRI
+sections The method has been reported previously detail Soininen The
+boundaries the region interest were outlined trackball driven cursor and the
+number voxels within the region was calculated using house developed
+program for standard work console The outlining the boundaries always proceeded
+from anterior posterior 
+The outlines the amygdala included the deep nuclei the amygdala the superficial
+nuclei the amygdala and the remaining nuclei the amygdala At the most rostral
+sections the amygdala outlined only the deep amygdaloid nuclei the MRI image
+ avoid any overestimation the amygdaloid volume due inclusion the piriform
+cortex The hippocampus included the dentate gyrus the hippocampus proper and the
+subicular complex The uncal portion the rostral hippocampus that located ventral 
+the caudal amygdala was included into the hippocampus The caudal end the hippocampus was determined from the section which the fornices were still detectable 
+their full length 
+To determine the volumes the frontal lobes the gyri were manually outlined 
+every third slice Thus due thin slices the measurement was done interval 
+ The most anterior the slices was the one with clearly visible gyri On the most
+posterior slices straight line was drawn from the bottom the lateral fissure the
+choroidal fissure order separate the temporal lobe from the frontal lobe From the
+bottom the choroidal fissure line was drawn above the optic tract the midline and
+then line was drawn vertically the interhemispheric cerebral fissure The most caudal
+slice included the measurement was the one which the anterior commissure was
+present The volume the lateral ventricles was also measured and consequently subtracted from the volume the slice The volume each slice was multiplied three and
+thereafter the slice volumes were summed 
+In the statistical analysis used volumes the region interest normalized for the
+brain area Normalization was done dividing the volumes the hippocampus 
+amygdala the frontal lobe brain area To obtain brain area measured the area
+ both hemispheres MR image taken the level the anterior commissure The
+normalization yielded ratios volume the region interest brain area We used normalized values all statistical analyses 
+The intrarater agreement this method has been reported earlier Soininen 
+ The interrater reproducibility between two raters was tested subjects The
+differences between the volumes obtained two raters compared the mean these
+two measurements were for the right hippocompus and for the left hippocampus for the right amygdala and for the left amygdala 
+Statistical analysis
+The data were analyzed utilizing SPSS PC V software SPSS Inc Chicago IL 
+In all statistical analyses the volumetric data used volumes normalized for brain
+area Analysis variance ANOVA was used compare the means between the study
+groups Correlations were calculated using Pearsons correlation two tailed test To test
+the accuracy volume measurements distinguish AD patients from controls used
+M P Laakso 
+stepwise discriminant function analysis Wilks method The results are expressed 
+mean standard deviation S D The level statistical significance differences 
+Results
+T A D patients and controls did not differ significantly age sex Table
+ T controls had longer than the A D patients A N O V A 
+F As expected M M S E scores were higher controls
+ A D patients F 
+Volumetric measurements
+Table presents the the regions interest and Fig A C
+ distribution ratios these and the brain area A D
+patients had significantly smaller A N O V A 
+ and the left frontal lobe controls A N O V A 
+T volumes the right frontal lobe and the amygdala did not differ significantly the A D and control groups 
+Discriminant function analysis
+We tested the value differentiate A D patients
+from controls four stepwise discriminant function analyses In the first
+analysis included the amygdala and frontal
+lobes well age T volumes the left and right the left
+and right frontal lobe and the right amygdala the and the
+analysis yielded correct classification A D patients and 
+controls Chi square Wilks Table 
+Table shows the standardized canonical discriminant function coefficients
+for the variables that the model T coefficients are positive for the
+left and right and the left frontal lobe indicating that controls have larger volumes T coefficients are negative for the right frontal
+lobe and the right amygdala that partly explained intercorrelation
+ the volumes Wilks values show that the the left hippoTable Mean volumes for controls and patients with Alzheimers disease AD 
+Right hippocampus
+Left hippocampus
+Right amygdala
+Left amygdala
+Right frontal lobe
+Left frontal lobe
+Controls
+N 
+AD
+N 
+Decrease 
+ANOVA F
+Results are mean S D The volumes were normalized for brain area prior the
+statistical analysis ANOVA 
+MRI volumetry Alzheimers disease
+C
+R
+E
+L
+AD
+C
+AD
+R
+L
+L
+R
+L
+B
+B
+A
+B
+AD
+C
+R
+L
+R
+L
+C
+Fig Scattergram ratios calculated dividing the volume the hippocampus A 
+the amygdala B and the frontal lobe C brain area measured MRI scan 
+the level the anterior commissure for controls C and Alzheimer patients AD 
+Abbreviations R right L left The bars indicate mean S D 
+campus explains the variance between A D patients and controls The
+contributions the other volumes less the right hippocampus the left
+frontal lobe the right frontal lobe and the right amygdala 
+resulting explanation the variance for this model 
+The second analysis included the volumes the right and left hippocampus and both volumes entered the and resulted correct classification A D patients and controls Chi square 
+Wilks lambda If one included only the volume the left
+hippocampus sensitivity and specificity was achieved 
+In the third analysis comprising the volumes the frontal lobes only the
+volume the left frontal lobe entered the model and the correct classification
+was achieved A D patients and controls Chi square 
+ Witks lambda 
+In the fourth analysis including the volumes the amygdala the model
+resulted correct classification only A D patients and 
+M P Laakso 
+Table Classification controls and Alzheimer patients using discriminant function
+analysis including volumes the hippocampus amygdala and frontal lobes
+Hippocampus
+Frontal lobe
+Amygdala
+Combined
+Sensitivity 
+Specificity 
+Overall correct
+classification 
+Number subjects parentheses The combined analysis included all volumes
+measured well age the volumes the left and right hippocampus the left and right
+frontal lobe and the right amygdala entered the model Chi square Wilks
+lambda 
+Table Discriminant function analysis between Alzheimer patients and controls
+including volumes the hippocampus amygdala and frontal lobes and age
+Step
+Volume
+Wilks
+lambda
+Explains 
+ variance
+Standardized
+canonical discriminant
+function coefficient
+Left hippocampus
+Right hippocampus
+Left frontal cortex
+Right frontal cortex
+Right amygdala
+The volumes the left and right hippocampus the left and right frontal lobe and
+the right amygdala entered the model Chi square Wilks lambda 
+controls C Wilks T 
+ right left the left frontal lobe 
+best differentiating A D controls 
+Memory and executive functions
+A A D significant tests assessing
+verbal visual A N O V A 
+ controls Table T significances did educat was covariate analysis 
+Correlations MR I volumetric measures
+T the frontal lobes did 
+correlate with age A D patients controls In A D was
+ significant age 
+ the disease In A D left 
+significantly with M M S E story
+recall story recall 
+MRI volumetry Alzheimers disease
+Table Mean scores tests assessing memory and executive functions for controls and
+Alzheimer patients
+Control
+N 
+Immediate memory
+List learning
+Visual reproduction
+Story recall
+Delayed memory
+List learning
+Visual reproduction
+Story recall
+Executive functions
+Trail Making A
+Trail Making B
+Wisconsin Card Sorting
+Verbal fluency
+Alzheimer
+N 
+ANOVA F
+Results are expressed mean S D ANOVA shows that controls differ from
+Alzheimer patients all test scores 
+With respect frontal lobe functions the volume left frontal lobe
+correlated significantly with Trail Making A the
+longer time spent the test the smaller the volume the left frontal lobe 
+The errors Trail Making A also correlated with the volume 
+the right frontal lobe No other significant correlations
+were found M R I volumetric measures and cognitive functions 
+Discussion
+This study focused volumes the hippocampus 
+amygdala and frontal lobes O purpose was search for reliable means
+for diagnosing early A D using MRI In optimize the volumetric
+ used developed house calculate the volumes 
+ the structures interest whole and thin slices optimally
+oriented for mesial structures which believe provides excellent
+accuracy and reproducibility The use stereology for
+measuring volumes specific structures M R I Krishnan The
+ M R I volumetry however accurate and reduces stages 
+which variability can introduced Kesslak 
+We found decrease the volume the right and left hippocampus
+ A D patients control O main finding was the accuracy
+obtained differentiating the A D group from the controls discriminant
+function analysis using the hippocampal frontal lobe and amygdaloid volumes T volumes the hippocampi and the left frontal lobe were significantly smaller the A D group controls and those were the best
+discriminators the discriminant function analysis The diminished volumes
+ the left hippocampus correlated with the decline M M S E scores and
+M P Laakso 
+impaired verbal memory Impaired performance the Trail Making test 
+which test considered assess frontal lobe functions was associated with
+decreased volumes the frontal lobes 
+In previous study the hippocampus measured from single slice did not
+differ size between the early AD group and controls nod 
+In agreement with this Erkinjuntti and coworkers measured hippocampal
+area the level the hippocampal head and were able differentiate only
+ the early AD group from the controls Erkinjuntti Thus 
+measurements the hippocampal area from one slice have not been 
+successful differentiating the AD group from controls volumetric results 
+which have yielded greater accuracy For example Seab and coworkers detected overlap hippocarnpal volumes among early AD patients and 
+controls Seab Kesslak found reduction the
+hippocampal volume the early AD group compared age matched
+controls Kesslak In another study hippocampal volumes 
+ early AD patients fell below those controls Jack 
+Killiany and coworkers could correctly identify the controls and the
+early AD group using discriminant function analysis including combination volumes hippocampus and temporal horn the lateral ventricle
+ Killiany 
+In line with our findings vitro T MR microscopy study the
+hippocampus AD indicated that the cross sectional area the hippocampus was decreased compared the control group Huesgen 
+ This atrophy was also highly correlated with tangle counts within the
+hippocampus but not with plaque counts In addition recent study using
+stereological techniques compare the regional pattern neuronal cell loss
+ the hippocampus showed that AD patients have neuronal loss the
+hilus loss the region and loss the subiculum greater than
+those found normal aging West 
+Studies non human primates have suggested that the hippocampus 
+well the adjacent neocortex are necessary for acquisition temporary storage and retrieval explicit memory Zola Morgan In normal
+subjects study measuring regional cerebral blood flow using the 
+method showed that the right hippocampal region activated association
+with memory function Squire In epileptic patients focus the
+right hippocampus led impairment visual memory tests whereas left
+hippocampal foci were associated with impairment verbal memory tests
+ Miller In agreement with earlier human data which have emphasized the importance the hippocampus for associative memory our study
+also showed significant association between the shrinkage the left hippocampus and impairment verbal memory AD patients 
+Taken together previous studies and our results suggest that the volume
+ the hippocampus sensitive measure AD already the early course
+ the disease By measuring only the volume the left hippocampus the AD
+patients were separated from controls with sensitivity and specificity Hippocampal atrophy however not specific nor exclusive 
+AD The volume hippocampus has been shown decrease for example 
+epilepsy schizophrenia and circumscribed amnesia Press Jack 
+MRI volumetry Alzheimers disease
+ Suddath Data hippocampal volumes patients with
+other dementing disorders such vascular dementia and Parkinson
+dementia are not available However many dementing illnesses the clinical symptoms and other changes CT MRI scans such ischemic
+lesions are useful diagnostic aids 
+In the present study the volumes the right amygdala control 
+ the left amygdala were not significantly reduced AD patients 
+This finding agrees with some Killiany but not all previous
+studies Scott Pearlson Cudnod nod
+ measured volumes amygdala patients with early AD and 
+controls and found difference the volume the amygdala with
+only one overlap between the AD and the control group nod 
+Killiany did not detect any significant difference the volumes the
+amygdala between early AD patients and controls Killiany 
+In another study the combined volumes the left amygdala and the left
+entorhinal cortex identified patients with moderately severe AD
+and controls Only two levels the amygdala were measured
+ Pearlson In autopsy study Scott found patients with
+advanced AD that the amygdalar nuclei showed significant atrophy except for
+the paralaminar portion basal nucleus compared age matched controls 
+The magnocellular regions the amygdala showed proportionally greater
+size reductions than other areas Scott 
+Even though there are detailed descriptions MRI anatomy amygdala
+ Naidich Bronen and Cheung Jack Tien 
+ the measurement the amygdala has proved complicated In the
+study nod for example the interrater variability was 
+ nod Separating the anterior amygdala and the amygdala
+from uncus seem the most difficult task the measurement and 
+responsible for much the variability the measurements Davis 
+ Jack Pearlson Tien nod 
+ Killiany Our radiologists also agreed that the anterior
+amygdala was the most difficult the structures which they had measure 
+In spite the more complicated anatomy and shape the hippocampus 
+was easier and could measured more exactly than the amygdala Jack 
+ Tien By using imaging planes oriented perpendicular 
+the hippocampus together with proper imaging parametres heavily weighted fast spin echo sequence that maximize gray white matter contrast 
+the entire hippocampus can reliably measured Press Bronen
+and Cheung Tien This view also supported our
+better interrater reliability data for the hippocampus than for the amygdala 
+In addition the differences and difficulties methodology the discrepancy
+ volumes the amygdala distinct studies probably due differences 
+the clinical severity the AD patients studied 
+The good results separating the AD group and the controls our study
+suggest that such volumetric measurements might useful the diagnosis 
+early AD The most efficient discriminating measures were the volumes the
+right and left hippocampus and the left frontal lobe Nonetheless 
+accuracy diagnosis remains elusive 
+M P Laakso 
+Acknowledgment
+This study was supported the Medical Research Council the Academy 
+Finland 
+References
+Borkowski JG Benton AL Spreen O Word fluency and brain damage 
+Neuropsychologia 
+Bottomley PA Cousins JP Pendrey DL Wagle WA Hardy CJ Eames FA McCaffrey
+RJ Thompson DA Alzheimer dementia quantification energy metabolism
+and mobile phosphoesters with NMR spectroscopy Radiology 
+Bronen RA Cheung G MRI the temporal lobe normal variations with special
+reference toward epilepsy Magn Reson Imaging 
+Bronen RA Cheung G Relationship hippocampus and amygdala coronal
+MRI landmarks Magn Resort Imaging 
+Coffey CE Wilkinson WE Parashos IA Soady SAR Sullivan RJ Patterson LJ Figiel
+GS Webb MC Spritzer CE Djang WT Quantitative cerebral anatomy the
+aging human brain cross sectional study using magnetic resonance imaging Neurology 
+nod CA Denys A Michot JL Jehenson P Forette F Kaplan D Syrota A Boller F
+ Amygdala atrophy Alzheimers disease Arch Neurol 
+Dahlbeck SW McCluney KW Yeakley JW Fenstermacher MJ Bonmati C Van Horn
+III G Aldag J The interuncal distance new MR measurement for the
+hippocampal atrophy Alzheimers disease AJNR 
+Davis PC Gray L Albert M Wilkinson W Hughes J Heyman A Gado M Kumar AJ 
+Destian S Lee C Duvall E Kido D Nelson MJ Bello J Weathers S Jolesz F Kikinis
+R Brooks M The Consortium Establish Registry for Alzheimers Disease
+ CERAD part III Reliability standardized MRI evaluation Alzheimers disease Neurology 
+DeArmond SJ Fusco MM Dewey MM Structure the human brain A photographic atlas Oxford University Press New York
+DeCarli C Kaye JA Horwitz B Rapoport SI Critical analysis the use 
+computer assisted transverse axial tomography study human brain aging and
+dementia the Alzheimer type Neurology 
+Doraiswamy PM McDonald WM Patterson L Husain MM Figiel GS Boyko OB 
+Krishnan KR Interuncal distance measure hippocampal atrophy normative data axial MR imaging AJNR 
+Duvernoy HM The human hippocampus atlas applied anatomy J F 
+Bergmann Munich
+Erkinjuntti T Lee DH Gao F Steenhuis R Eliasziw M Fry R Merskey H Hachinski V
+ Temporal lobe atrophy magnetic resonance imaging the diagnosis 
+early Alzheimers disease Arch Neurol 
+Folstein MF Folstein SE McHugh PR Mini Mental State practical method
+for grading the cognitive state patients for the clinician J Psychiatr Res 
+Goodglass H Kaplan E The assessment aphasia and related disorders Lea and
+Febiger Philadelphia
+Hamilton M A rating scale for depression J Neurol Neurosurg Psychiatry 
+Haxby JV Grady CL Duara R Schlageter N Berg G Rapoport SI Neocortical
+metabolic abnormalities precede nonmemory cognitive defects early Alzheimerstype dementia Arch Neurol 
+Helkala E L Laulumaa V Soininen H Riekkinen PJ Recall and recognition 
+memory patients with Alzheimers and Parkinsons diseases Ann Neurol 
+MRI volumetry Alzheimers disease
+Huesgen CT Burger PC Crain B J Johnson GA In vitro MR microscopy the
+hippocampus Alzheimers disease Neurology 
+Hyman BT Damasio AR VanHoesen GW Barnes CL Alzheimers disease cellspecific pathology isolates the hippocampal formation Science 
+Jack CR Sharbrough FW Colleen KT Cascino GD Hirschorn KA Marsh WR 
+Zinsmeister AR Scheithauer B Temporal lobe seizures lateralization with
+MR volume measurements the hippocampal formation Radiology 
+Jack CR Jr Petersen RC OBrien PC Tangalos EG MR based hippocampal
+volumetry the diagnosis Alzheimers disease Neurology 
+Jernigan TJ Archibald SL Berhow MT Sowell ER Foster DS Hesselink JR 
+Cerebral structure MRI part I Localization age related changes Biol Psychiatry 
+Kaplan E Goodglass H Weintraub S The Boston naming test Lea and Febiger 
+Philadelphia
+Kesslak JP Nalcioglu O Cotman CW Quantification magnetic resonance
+scans for hippocampal and parahippocampal atrophy Alzheimers disease Neurology 
+Kesslak JP Nalcioglu O Cotman W MRI quantification letter Neurology 
+Killiany RJ Moss MB Albert MS Sandor T Tieman J Jolesz F Temporal lobe
+regions magnetic resonance imaging identify patients with early Alzheimers
+disease Arch Neurol 
+Kirsch SJ Jacobs RW Butcher LL Beatty J Prolongation magnetic resonance
+T time hippocampus human patients marks the presence and severity 
+Alzheimers disease Neurosci Lett 
+Klunk WE Panchalingam K Moossy J McClue RJ Pettegrew JW N acetyl Laspartate and other amino acid metabolites Alzheimers disease brain preliminary proton nuclear magnetic resonance study Neurology 
+Krishnan KRR Husain MM McDonald WM Doraiswamy PM In vivo stereological assessment caudate nuclei volume with MRI effect normal aging Life Sci 
+Longo R Giorgini A Magnaldi S Pascazio L Ricci C Alzheimers disease histologically proven studied MRI and MRS two cases Magn Reson Imaging 
+McKhann G Drachman D Folstein M Katzman R Price D Stadlan EM Clinical
+diagnosis Alzheimers disease report NINCDS ADRDA Work Group under
+the auspices Department Health and Human Services Task Force 
+Alzheimers disease Neurology 
+Millber WP Hebben N Kaplan E The Boston process approach 
+neuropsychological assessment In Grant I Adams KM eds Neuropsychological
+assessment neuropsychiatric disorders Oxford University Press New York 
+Miller LA Munoz DG Finmore M Hippocampal sclerosis and human memory 
+Arch Neurol 
+Murphy DGM DeGarli C Schapiro MB Rapoport SI Horwitz B Age related
+differences volumes subcortical nuclei brain matter and cerebrospinal fluid 
+healthy men measured with magnetic resonance imaging Arch 
+Naidich TP Daniels DL Haughton VM Williams A Pojunas K Palacios E 
+Hippocampal formation and related structures the limbic lobe anatomic MR
+correlation Radiology 
+Nelson HE A modified card sorting test sensitive frontal lobe defects Cortex 
+Pearlson GD Gordon JH Powers RE Barta PE Camargo EE Chase GA Noga JT 
+Tune LE Quantitative changes mesial temporal volume regional cerebral
+blood flow and cognition Alzheimers disease Arch Gen Psychiatry 
+M P Laakso MRI volumetry Alzheimers disease
+Press GA Amaral DG Squire LR Hippocampal abnormalities amnesic patients
+revealed high resolution magnetic resonance imaging Nature 
+Reisberg B Schenck MK Ferris SH The brief cognitive rating scale BCRS 
+findings primary degenerative dementia PDD Psychopharmacol Bull 
+Reitan RM Validity the Trail Making test indicator organic brain
+damage Perc Mot Skills 
+Rosen WG Terry RD Fuld PA Katzman R Beck A Pathological verification 
+ischemic score differentiation dementias Ann Neurol 
+Russel FW A multiple scoring method for the assessment complex memory
+functions J Cons Clin Psychology 
+Scott SA DeKosky ST Scheff W Volumetric atrophy Alzheimers disease 
+quantitative serial reconstruction Neurology 
+Seab JP Jagust WJ Wong STS Roos MS Reed BR Budinger TF Quantitative
+NMR measurements hippocampal atrophy Alzheimers disease Magn Reson
+Med 
+Soininen H Partanen K Pitkfinen A Vainio P Hfinninen T Hallikainen M Koivisto K 
+Riekkinen PJ Sr Volumetric MRI analysis the amygdala and the hippocampus subjects with age associated memory impairment correlation visual and
+verbal memory Neurology 
+Squire LR Ojeman JG Miezin FM Petersen SE Videen TO Raichle ME Activation the hippocampus normal humans functional anatomical study 
+memory Proc Natl Acad Sci USA 
+Suddath RL Christinson GW Torrey EF Casanova MF Weinberger DR Anatomic anomalies the brains monozygotic twins discordant for schizophrenia 
+N Engl J Med 
+Sulkava R Haltia M Paetau A J Palo J Accuracy clinical diagnosis
+ primary degenerative dementia correlation with neuropathological findings 
+J Neurol Neurosurg Psychiatry 
+Tien RD Felsberg GJ Crain B Normal anatomy the hippocampus and adjacent
+temporal lobe high resolution fast spin echo MR images volunteers correlated with
+cadaveric histologic sections AJR 
+Watson C Andermann F Gloor P Jones Gotman M Peters T Evans A Olivier A 
+Melanson D Leroux G Anatomical basis amygdaloid and hippocampal
+volume measurement magnetic resonance imaging Neurology 
+Webster DD Clinical analysis the disability Parkinsons disease Mod Treat
+Wechsler D WAIS R Manual Psychological Corporation New York
+West MJ Coleman PD Flood DG Troncoso JC Differences the pattern 
+hippocampal neuronal loss normal aging and Alzheimers disease Lancet 
+Zola Morgan S Squire LR Mishkin M The neuroanatomy amnesia amygdalahippocampus temporal stem Science 
+Authors address H Soininen M D Ph D Department Neurology University 
+Kuopio P O Box Kuopio Finland 
+Received July 

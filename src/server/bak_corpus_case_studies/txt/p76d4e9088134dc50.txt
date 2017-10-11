@@ -1,0 +1,459 @@
+ No Pages 
+neurologia neurochirurgia polska xxx xxxxxx
+Available online www sciencedirect com
+ScienceDirect
+journal homepage http www elsevier com locate pjnns
+Original research article
+Predicting the conversion mild cognitive
+impairment Alzheimers disease based the
+volumetric measurements the selected brain
+structures magnetic resonance imaging
+Marta Nesteruk Tomasz Nesteruk Maria Styczyska Anna Barczak 
+Monika Mandecka Jerzy Walecki Maria Barcikowska Kotowicz 
+Department Neurology Central Clinical Hospital the Ministry Interior Warsaw Poland
+Department Radiology Central Clinical Hospital the Ministry Interior Warsaw Poland
+Department Neurodegenerative Disorders Mossakowski Medical Research Centre Polish Academy Sciences 
+Warsaw Poland
+Mossakowski Medical Research Centre Polish Academy Sciences Warsaw Poland
+article info
+abstract
+Article history 
+Introduction Mild cognitive impairment MCI dened abnormal cognitive state but
+Received June 
+does not meet the criteria for the diagnosis dementia According the new guidelines
+Accepted September 
+Alzheimers disease AD involves not only dementias phase but also predementia phase
+Available online xxx
+which asymptomatic and pathological process the brain already present For this
+reason very important determine the suitability markers which should positive
+Keywords 
+before onset the rst symptoms One these biomarkers structural magnetic
+Mild cognitive impairment
+resonance imaging with hippocampal volumetric assessment 
+Conversion
+Alzheimers disease
+The aim this study was investigate the usefulness structural brain magnetic
+resonance imaging with volumetric assessment the hippocampus and entorhinal cortex 
+Volumetry
+posterior cingulate gyrus parahippocampal gyrus temporal gyri superior medial and
+Magnetic resonance imaging
+inferior predict the conversion MCI AD 
+Material and methods Magnetic resonance imaging brain was performed the baseline visit
+ patients diagnosed with MCI Clinic follow ups were scheduled after and months 
+Results Amongst patients with MCI converted into AD within two years
+ observation All measured volumes were lower converters than non converters 
+Discriminant analysis was conducted and sensitivity for MCI conversion AD was 
+specicity patients were correctly classied converter non converter 
+Conclusions Volumetric measurements may help clinicians predict MCI conversion AD but
+due low sensitivity cannot use separately The study group requires further observation 
+ Polish Neurological Society Published Elsevier Sp All rights reserved 
+ Corresponding author Neurology Clinic Central Hospital the Ministry Interior Warsaw Woloska Str Warsaw 
+Poland Tel fax 
+E mail address msuchcickagmail com M Nesteruk 
+http doi org pjnns 
+ Polish Neurological Society Published Elsevier Sp All rights reserved 
+Please cite this article press Nesteruk M Predicting the conversion mild cognitive impairment Alzheimers disease based
+ the volumetric measurements the selected brain structures magnetic resonance imaging Neurol Neurochir Pol http doi 
+org pjnns 
+ No Pages 
+neurologia neurochirurgia polska xxx xxxxxx
+Introduction
+Mild cognitive impairment MCI dened abnormal
+cognitive state but does not meet the criteria for the
+diagnosis dementia In the past MCI was treated 
+transitional state between the physiological aging and
+dementia Currently separate diagnosis although 
+ considered that MCI stage pathophysiological
+process AD Patients with MCI not have problems
+with function daily life sometimes they only need
+minimal aid Patient diagnosed with MCI can present
+stable non progressive symptoms until the end his life 
+but there can also observed progression the disease
+ usually gradual leading the development dementia It
+ estimated that the percentage the conversion 
+Alzheimers disease AD about per year 
+Criteria for diagnosis MCI from addition 
+core clinical criteria distinguish research criteria The
+research criteria include assessment the biological
+markers neurons injury namely 
+ markers amyloid Ab deposition assessing the levels
+ cerebrospinal uid PET amyloid imaging
+ markers neuronal injury evaluating the levels total
+and phosphorylated tau protein reduction hippocampal volume atrophy the medial temporal lobe the
+magnetic resonance imaging hypometabolism FDGPET hypoperfusion SPECT 
+These criteria are important because pathophysiological
+process AD can last even twenty years before onset 
+clinical symptoms and MCI considered stage this
+pathophysiological processes following the preclinical phase
+ Alzheimers disease In MCI phase biomarkers should 
+already positive both markers Ab deposition and markers 
+neuronal injury A sensitive biomarker will play key role when
+causative treatment AD will found because then will 
+possible treat this disease even before the onset clinical
+symptoms 
+The aim this study was investigate the usefulness 
+structural brain magnetic resonance imaging with volumetric
+assessment the hippocampus and entorhinal cortex 
+posterior cingulate gyrus parahippocampal gyrus temporal
+gyri superior medial and inferior predict the conversion 
+MCI AD 
+The rst abnormalities patients who are risk AD are
+positive markers deposition amyloid decreased Ab
+concentration the cerebrospinal uid and positive PET
+amyloid imaging In this study the marker neuronal injury
+was used structural MRI with volumetric assessment 
+selected brain structures inter alia hippocampus entorhinal
+cortex because good availability magnetic resonance 
+Poland the best neuroimaging biomarkers and its noninvasive nature Furthermore according Jack the MRI
+pathological changes are observed one the last
+biomarkers and our patients were not the preclinical
+phase they were diagnosed with MCI Reduction the
+measured volumes was expected patients who were risk
+ conversion AD 
+Material and methods
+In the study initially participated patients diagnosed with
+MCI who were evaluated Alzheimers Department MSW
+Hospital Warsaw patients remained for further data
+analysis due lack follow visits errors MRI which
+precluded further analysis the data The patients were aged
+ years mean age Neurological assessment MMSE
+ Mini Mental State Examination CDT clock drawing test and
+GDS Global Deterioration Scale were performed The average
+score MMSE was range points The average
+score CDT was points range points and the
+mean score GDS points range points Laboratory
+tests included morphology TSH blood glucose urea creatinine transaminases VDRL veneral disease research laboratory levels vitamin and folic acid and there was 
+signicant abnormalities Each patient was assessed using
+standard neuropsychological tests according the standards
+described Gabryelewicz On CDR scale Clinical Dementia
+Rating all patients received For each patient 
+follow visits were scheduled after months days 
+months days and months days Then patients
+were again evaluated neurologically included MMSE CDT GDS
+assessment Neuropsychological examination was performed
+ assess potential disease progression In patients diagnosed
+with conversion AD acetylcholinesterase inhibitor treatment
+was initiated All patients remain under the care the Memory
+Disorders Outpatient Clinic MSW Hospital Warsaw 
+Brain MRI was performed for each the patients T
+Toshiba apparatus the Department Radiology MSW
+Hospital Scans were obtained weighted FLAIR DWI
+images and also thin D Alzheimer sequence Using
+FreeSurfer software volumes selected structures were
+calculated that hippocampus entorhinal cortex posterior
+cingulate gyrus parahippocampal gyrus temporal gyri superior medial inferior and total intracranial volume Subsequently the results have been checked the same radiologist
+ detect and eliminate possible errors which may arise the
+process segmentation Each volume hippocampus entorhinal cortex posterior cingulate gyrus parahippocampal
+gyrus temporal gyri superior medial inferior was divided
+ the total intracranial volume normalize results and 
+make possible comparison between patients and eliminate
+differences the brain size according Whitwell All
+volumes were multiplied order facilitate
+comparison between them 
+Results
+ the patients diagnosed with MCI converted into AD
+within two years observation namely distribution 
+diagnosed patients for each visit Table The study
+population was divided into two subgroups 
+ Subgroup non converters who did not converted into AD
+ patients 
+ Subgroup converters who converted into AD 
+patients 
+Please cite this article press Nesteruk M Predicting the conversion mild cognitive impairment Alzheimers disease based
+ the volumetric measurements the selected brain structures magnetic resonance imaging Neurol Neurochir Pol http doi 
+org pjnns 
+ No Pages 
+neurologia neurochirurgia polska xxx xxxxxx
+Table Distribution diagnosed patients for each visit 
+MCI
+AD
+Visit 
+Visit after
+ months
+Visit after
+ months
+Visit after
+ months
+Average decrease the volumes converters compared 
+non converters was achieved for all volumetric measurements Table The hypothesis normal distribution was
+positively veried for all measurements the results the
+KolmogorovSmirnov test Table The signicance intergroup differences was obtained for the majority measurements except left posterior cingulate gyrus 
+left superior temporal gyrus and right
+posterior cingulate gyrus The most signicant differences between groups were found for left hippocampus left entorhinal cortex 
+ right hippocampus right inferior
+temporal gyrus and right entorhinal cortex
+ Table 
+Discriminant analysis was conducted and sensitivity for
+MCI conversion AD was specicity 
+patients were correctly classied converter non converter 
+Discriminant analysis was also conducted the modied
+version with automatic selection variables which had the
+highest discrimination power The nal model took into
+account only two variables which provide the best group
+membership the volume the left hippocampus and left
+entorhinal cortex Discriminant analysis model using these
+Table Descriptive statistics each subgroup normalized volumes were multiplied 
+Nonconverters 
+Left hippocampus
+Right hippocampus
+Left entorhinal cortex
+Right entorhinal cortex
+Left posterior cingulate gyrus
+Right posterior cingulate gyrus
+Left parahippocampal gyrus
+Right parahippocampal gyrus
+Left inferior temporal gyrus
+Left medial temporal gyrus
+Left inferior temporal gyrus
+Right inferior temporal gyrus
+Right medial temporal gyrus
+Right inferior temporal gyrus
+Converters 
+All 
+Average
+Standard
+deviation
+Average
+Standard
+deviation
+Average
+Standard
+deviation
+Table Results Students test 
+KS normality test
+LH
+LERC
+RH
+RITG
+RERC
+LITG
+LPHG
+LMTG
+RPHG
+RMTG
+RSTG
+LPCG
+LSTG
+RPCG
+Levenes homogeneity 
+variance
+Mean difference for independent samples students
+ test
+Signicance
+F
+Signicance
+T
+Degree 
+freedom
+Signicance
+ two sided 
+Average
+difference
+Abbreviations used the table LH left hippocampus LERC left entorhinal cortex RH right hippocampus RITG right inferior temporal
+gyrus RERC right entorhinal cortex LITG left inferior temporal gyrus LPHG left parahippocampal gyrus LMTG left medial temporal
+gyrus RPHG right parahippocampal gyrus RMTG right medial temporal gyrus RSTG right superior temporal gyrus LPCG left posterior
+cingulate gyrus LSTG left superior temporal gyrus RPCG right posterior cingulate gyrus 
+Please cite this article press Nesteruk M Predicting the conversion mild cognitive impairment Alzheimers disease based
+ the volumetric measurements the selected brain structures magnetic resonance imaging Neurol Neurochir Pol http doi 
+org pjnns 
+ No Pages 
+neurologia neurochirurgia polska xxx xxxxxx
+two variables was statistically signicant Sensitivity the
+measurements the left hippocampus and left entorhinal
+cortex the prediction MCI progression AD was 
+Sensitivity for these measurements predicting the stable
+form MCI was the same using all the measured
+parameters namely and diagnosis classication accuracy using left hippocampus and left entorhinal cortex was
+ for all measurements The highest sensitivity 
+predicting MCI conversion AD using single measurement
+was for left hippocampus right hippocampus 
+and left entorhinal cortex 
+Discussion
+In descriptive statistics presented Table average
+volumes all structures are smaller converters comparing
+ non converters according the preliminary assumptions However statistical analysis showed the superiority 
+some measurements The highest sensitivity conversion
+for single structure was obtained for the left hippocampus
+ right hippocampus and left entorhinal cortex
+ also Unsuitable measurements for assessing MCI 
+AD conversion were the volumes left and right posterior
+cingulate gyrus left and right superior temporal gyrus and
+right medial temporal gyrus the sensitivity was Our
+results are consistent with the sequence neuropathological
+changes described Braak where entorhinal cortex and
+hippocampus are affected the rst the neuropathological process and subsequently cortex temporal lobes 
+stage III and IV Volumes superior temporal gyri proved 
+ unsuitable probably because their main role the
+process auditory sensation their role cognitive
+processes signicantly lower The most the published
+studies has evaluated usefulness hippocampus and
+entorhinal cortex volumes the prediction MCI conversion AD Our study also conrms the highest value these
+two parameters Studies which assessed additionally for
+example volume parahippocampal gyrus indicated that
+the use this parameter did not increase prediction
+sensitivity for conversion AD In our study the use
+ all measured volumes increased sensitivity from 
+ where the volume the left hippocampus and left
+entorhinal cortex was used Specicity both
+cases was Signicant differences between the sensitivity and specicity gures resulted from subgroup size
+difference converters and with stable MCI In other
+studies the percentage conversion AD was higher 
+namely In the few studies the most
+sensitive volumetric measurement was entorhinal cortex
+volume In our study left entorhinal cortex volume was less
+sensitive measurement comparison with left hippocampus volume the Ewers work Patients with MCI are
+ heterogeneous group and may different stages 
+neuropathological process that why use hippocampus
+and entorhinal cortex volumes seems the most optimal
+method Volumetric measurements hippocampus entorhinal cortex posterior cingulate gyrus parahippocampal
+gyrus and temporal gyri superior medial inferior showed 
+relatively low sensitivity predicting the conversion MCI
+ AD the analysis all measurements Higher
+sensitivity was obtained for predicting stable MCI 
+The limitation our study was the number patients
+ Studies which drew from either ADNI database the
+Alzheimers Disease Neuroimaging Initiative AddNeuroMed program present the results from signicantly larger
+groups patients For example Risacher analyzed
+ patients with MCI from ADNI database converted
+into AD per year Bilateral hippocampal volumes entorhinal
+cortex and temporal gyri thickness were signicantly reduced
+ MCI converters comparison the MCI stable participants which consistent with our results except for the left
+superior temporal gyrus LSTG Table In our study the
+volume LSTG was not signicantly lower but Risarcher
+study the thickness not volume temporal gyri was
+measured Another study based ADNI database Li
+ covered patients with MCI and the observation
+period lasted years To predict conversion from MCI AD the
+authors used not only the measured volumes but also
+demographic genetic information cognitive scores and the
+results laboratory tests They employed hierarchical
+interaction model select the most predictive biosignatures
+and interactions between all the parameters perform
+correct classication the patients with MCI converter nonconverter The accuracy classication was almost the
+most effective MRI parameters were precuneus amygdala 
+entorhinal cortex and hippocampus Percentage the correct
+classication our study using all volumes was but
+sensitivity was only Higher correct classication rate
+ our study was probably due the large differences between
+subgroups converters non converters In Lis study
+conversion rate was converters nonconverters subgroups were almost equivalent 
+The study from presents results using data from
+both mentioned databases ADNI and AddNeuroMed and
+involved patients with MCI The authors used ordinal
+regression model baseline structural MRI scans They
+modeled all classes simultaneously study were also AD
+patients and control group and applied multivariate ordinal
+regression from which they extract probabilistic prediction
+ class membership and index AD progression the
+ORCHID score Classication accuracy was ADNIAddNeuroMed sensitivity and specicity 
+This study conrmed results from which
+multivariate classication methods for MRI was used Data
+was from AddNeuroMed database MCI group was patients
+ like our study and patients converted into AD during
+one year observation The authors compared correct classication accuracy between visual assessment rating scales 
+multivariate MRI classication method with using regional
+volume and regional cortical thickness measures providing 
+variables for multivariate analysis and manually measured
+hippocampal volumes The best accuracy for predicting
+conversion was for the model with automated regional MRI
+measures and accuracy was obtained other two
+methods Comparable group size with our study proved that
+using sophisticated statistical tools can improve the efciency
+ the method 
+Our study group requires further observation because 
+the following years the proportion the patients who
+Please cite this article press Nesteruk M Predicting the conversion mild cognitive impairment Alzheimers disease based
+ the volumetric measurements the selected brain structures magnetic resonance imaging Neurol Neurochir Pol http doi 
+org pjnns 
+ No Pages 
+neurologia neurochirurgia polska xxx xxxxxx
+progressed AD compared patients remaining stable
+condition may change 
+Conict interest
+None declared 
+Ethics
+The work described this article has been carried out 
+accordance with The Code Ethics the World Medical
+Association Declaration Helsinki for experiments involving humans Uniform Requirements for manuscripts submitted Biomedical journals 
+Acknowledgement and nancial support
+None declared 
+references
+ Albert MS DeKosky ST Dickson D Dubois B Feldman HH 
+Fox NC The diagnosis mild cognitive impairment
+due Alzheimers disease recommendations from the
+National Institute Aging Alzheimers Association
+workgroups diagnostic guidelines for Alzheimers
+disease Alzheimers Dement 
+ Winblad B Palmer K Kivipelto M Jelic V Fratiglioni L 
+Wahlund LO Mild cognitive impairment beyond
+controversies towards consensus report the
+International Working Group Mild Cognitive
+Impairment J Intern Med 
+ Petersen RC Roberts RO Knopman DS Boeve BF Geda YE 
+Ivnik RJ Mild cognitive impairment ten years later 
+Arch Neurol December 
+ Jack Jr CR Albert MS Knopman DS McKhann GM Sperling
+RA Carrillo MC Introduction the recommendations
+from the National Institute AgingAlzheimers
+Association workgroups diagnostic guidelines for
+Alzheimers disease Alzheimers Dement 
+ Gabryelewicz T Styczynska M Luczywek E Barczak A 
+Pfeffer A Androsiuk W The rate conversion mild
+cognitive impairment dementia predictive role 
+depression Int J Geriatr Psychiatry 
+ Whitwell JL Crum WR Watt HC Fox NC Normalization 
+cerebral volumes use intracranial volume 
+implications for longitudinal quantitative MR imaging 
+AJNR Am J Neuroradiol September 
+ Braak H Braak E Evolution the neuropathology 
+Alzheimers disease Acta Neurol Scand Suppl 
+ Braak H Braak E Staging Alzheimers disease related
+neurobrillary changes Neurobiol Aging 
+ Convit A Asis J Leon MJ Tarshish CY De Santi S 
+Rusinek H Atrophy the medial occipitotemporal inferior 
+and middle temporal gyri non demented elderly predict
+decline Alzheimers disease Neurobiol Aging 
+ JanuaryFebruary 
+ Devanand DP Pradhaban G Liu X Khandji A De Santi S 
+Segal S Hippocampal and entorhinal atrophy mild
+cognitive impairment prediction Alzheimer disease 
+Neurology 
+ Pennanen C Kivipelto M Tuomainen S Hartikainen P 
+Hnninen T Laakso MP Hippocampus and entorhinal
+cortex mild cognitive impairment and early AD 
+Neurobiol Aging March 
+ Dickerson BC Goncharova I Sullivan MP Forchetti C 
+Wilson RS Bennett DA Aging MRI derived entorhinal
+and hippocampal atrophy incipient and very mild
+Alzheimers disease Neurobiol SeptemberOctober
+ Stoub TR Bulgakova M Leurgans S Bennett DA 
+Fleischman D Turner DA MRI predictors risk 
+incident Alzheimer disease longitudinal study 
+Neurology May 
+ Ewers M Walsh C Trojanowski JQ Shaw LM Petersen RC 
+Jack Jr CR North American Alzheimers Disease
+Neuroimaging Initiative ADNI Prediction conversion
+from mild cognitive impairment Alzheimers disease
+dementia based upon biomarkers and neuropsychological
+test performance Neurobiol Aging July 
+ Risacher SL Saykin AJ West JD Shen L Firpi HA McDonald
+BC Baseline MRI predictors conversion from MCI 
+probable AD the ADNI cohort Curr Alzheimer Res 
+ August 
+ Li H Liu Y Gong P Zhang C Ye J Alzheimers Disease
+Neuroimaging Initiative Hierarchical interactions model
+for predicting Mild Cognitive Impairment MCI 
+Alzheimers Disease AD conversion PLoS ONE 
+ January http doi org journal 
+pone 
+ Doyle OM Westman E Marquand AF Mecocci P Vellas B 
+Tsolaki M Predicting progression Alzheimers
+disease using ordinal regression PLoS ONE August
+ http doi org journal pone 
+ Westman E Cavallin L Muehlboeck JS Zhang Y Mecocci P 
+Vellas B Sensitivity and specicity medial temporal
+lobe visual ratings and multivariate regional MRI classication
+ Alzheimers disease PLoS ONE 
+Please cite this article press Nesteruk M Predicting the conversion mild cognitive impairment Alzheimers disease based
+ the volumetric measurements the selected brain structures magnetic resonance imaging Neurol Neurochir Pol http doi 
+org pjnns 

@@ -1,0 +1,488 @@
+The Journal Toxicological Sciences J Toxicol Sci 
+Vol No 
+Original Article
+Involvement hippocampal excitability amyloid
+ induced behavioral and psychological symptoms 
+dementia
+Haruna Kazuki Paul Anthony Ashley Ian 
+and Atsushi 
+Department Neurophysiology School Pharmaceutical Sciences University Shizuoka 
+ Yada Shizuoka Japan
+Department Medical Biochemistry School Pharmaceutical Sciences University Shizuoka 
+ Yada Shizuoka Japan
+The Florey Institute Neuroscience and Mental Health Kenneth Myer Building At Genetics Lane Royal Parade 
+The University Melbourne Melbourne Vic Australia
+ Received January Accepted April 
+ABSTRACT In patients with Alzheimers disease addition the core symptoms cognitive
+dysfunction behavioral and psychological symptoms dementia BPSD such aggression anxiety and
+hallucinations are known occur frequently Because various environmental factors influence the onset
+and progression Alzheimers disease the present study BPSD like behavioral abnormality Amyloid A injected mice was assessed under social isolation which induces behavioral abnormality A protein pmol was injected into the lateral ventricle mice which were individually housed 
+Two and three weeks after injection into adult mice the rate mice that exhibited aggressive behavior 
+ biting attacks and wrestling the total mice was markedly increased A injection A injected
+adult mice also showed anxiety like behavior addition cognitive decline Serum corticosterone level was markedly increased A injection When excitability hippocampal neurons was checked using
+hippocampal slices KCl induced presynaptic activity was enhanced hippocampal slices prepared from
+A injected mice These results suggest that social isolation housing A injected adult mice induces BPSD like behavioral abnormality addition cognitive decline It likely that behavioral abnormality A injected adult mice associated with excitability hippocampal glutamatergic neurons which associated with the elevated corticosterone level 
+Key words Amyloid Alzheimers disease Aggression Social isolation Corticosterone Hippocampus
+INTRODUCTION
+Alzheimers disease progressive neurodegenerative disorder that characterized the presence 
+senile plaques and neurofibrillary tangles together with
+synaptic and neuronal loss Terry The major
+component senile plaques amyloid A proteins 
+which comprises peptides approximately amino
+acid residues derived from the transmembrane amyloid
+precursor protein APP Selkoe A can exist 
+monomers and form variety different aggregate morphologies including dimers small soluble oligomers protofibrils diffuse plaques and the fibrillar deposits seen 
+senile plaques The aggregation A peptide widely considered the critical step the pathology 
+Alzheimers disease Small soluble A oligomers have
+been shown more neurotoxic than large insoluble
+aggregates and fibrils Cleary Lesn 
+ Shankar A the major component amyloid deposits senile plaques Iwatsubo 
+ On the other hand postmortem studies suggest
+that the hippocampus and entorhinal cortex are the first
+brain regions affected Hyman Nestor
+In patients with Alzheimers disease not only core
+symptoms such cognitive impairment but also
+Correspondence Atsushi Takeda E mail takedaau shizuoka ken 
+Vol No 
+H Tamano 
+behavioral and psychological symptoms dementia BPSD such aggression anxiety and hallucinations often emerge BPSD serious problem for caregivers and because its severity and the care burden
+show positive correlation therapy for BPSD considered important therapy for the core symptoms
+ Nagaratnam Tanji Among
+BPSD agitation and aggression occur over 
+patients with dementia Mirakhur and are frequently the primary cause hospitalization institutionalization Steele Non pharmacological interventions such environmental changes are proposed 
+the first line treatment for BPSD although medical therapy often required Mizukami 
+On the other hand various environmental and genetic
+factors influence the onset and progression Alzheimers
+disease Green possible that environmental changes are closely linked the pathophysiology BPSD Social isolation housing rodents causes
+ variety behavioral changes including hyperlocomotion anxiety impulsivity aggression and learning and
+memory deficits Koike However behavioral abnormality and pathophysiology induced with A has
+been mainly studied focusing core symptoms and the
+involvement social isolation pathogenesis BPSD
+ poorly understood Sekiguchi 
+In the present study BPSD like behavioral abnormality
+was examined mice after intracerebroventricular injection A which were housed individually 
+MATERIALS AND METHODS
+Chemicals
+Synthetic A for human was purchased from
+ChinaPeptides Shanghai China A was dissolved saline and immediately used when the experiments were performed SDS PAGE showed that A
+ saline prepared the present study was mainly monomers and that dimers and very small portion trimers
+were also contained the prepared solution reported
+previously Takeda 
+ indicator presynaptic activity was purchased from Sigma Aldrich St Louis MO USA The
+fluorescent indicator was dissolved dimethyl sulfoxide
+ DMSO and then diluted artificial cerebrospinal fluid ACSF containing containing mM NaCl mM
+KCl mM mM mM 
+ mM and mM D glucose pH 
+Experimental animals
+Male ddY mice and weeks old were purchased
+Vol No 
+from Japan SLC Shizuoka Japan They were housed
+ five mice per cage under the standard laboratory conditions C humidity and had access
+ tap water and food libitum One week later mice
+were housed individually transparent plastic cages
+ The lights were automatically turned
+ and off All experiments were performed accordance with the Guidelines for the Care
+and Use Laboratory Animals the University 
+Shizuoka that refer American Association for Laboratory Animals Science and the guidelines laid down 
+the NIH NIH Guide for the Care and Use Laboratory
+Animals the USA Newly prepared mice were used 
+each group all experiments 
+Intracerebroventricular injection A
+One week after individual housing mice and
+ week old were anesthetized with chloral hydrate
+ and placed stereotaxic apparatus A microinjection canula Eicom Co Kyoto Japan was
+positioned posterior the bregma lateral inferior the dura for intracerebroventricular injection A saline M was injected
+via the microinjection canula the rate L min for
+ min pmol mouse The individual housing was
+continued for the following experiments which were performed and weeks after intracerebroventricular injection A 
+Open field test
+Behavior and locomotor activity mice were examined the open field test Each mouse was placed 
+arena made black colored
+wooden box which had never been placed previously The room light was covered with translucent black polyethylene sheet Behavior each mouse 
+the arena which was recorded with video camera was
+observed for min 
+Resident intruder test
+In the resident intruder test intruder mice which were
+housed group five were individually transferred 
+the cages resident mice from their home cages Behavior resident and intruder mice was observed for min
+with video camera Biting attacks and wrestling resident mice were included aggressive behavior and tail
+rattle lateral threat and pursuit were excluded from 
+Elevated plus maze
+Anxiety related behavior was evaluated using the
+plus maze test The plus maze consists two oppos 
+Involvement hippocampal excitability amyloid induced BPSD
+ing open arms with low side walls and
+two enclosed arms that were extended
+from central platform elevated above
+the floor The room light was covered with translucent
+black polyethylene sheet Mice were placed individually
+ the central platform facing enclosed arm and were
+allowed freely explore the maze for min Behavior
+ each mouse was monitored using video camera The
+total times spent the open arms and the closed arms
+were measured The ratio time spent the open
+arms total time spent any arm was calculated the
+standard anxiety index 
+Object recognition memory
+Mice were placed for min into open field which
+was arena surrounded high walls 
+made black colored plastic Twenty four hours after
+open field exploration mice were trained and tested 
+novel object recognition task Training the object recognition task took place the same area used for the
+open field exploration The open field exploration was
+thus used context habituation trial for the recognition memory task The object recognition test requires
+that the mice recall which two earthenware objects
+they had been previously familiarized with Twenty four
+hours after arena exploration training was conducted 
+placing individual mice into the field which two identical objects objects and were positioned two
+adjacent corners from the walls Mice were left
+ explore the objects for min Mice were not used
+for the test when the total the object exploration time
+was less than sec In the test given after training 
+the mice explored the open field for min the presence one familiar A and one novel B object Behavior mice was recorded with video camera during the
+training and the test and then two persons independently measured exploratory time and the averaged time was
+used All objects presented similar textures colors and
+sizes but distinctive shapes A recognition index calculated for each mouse was expressed the ratio TB TA TB 
+TA time spent explore the familiar object A TB 
+time spent explore the novel object B Between trials the objects were washed with ethanol solution 
+Exploration was defined sniffing touching the object
+with the nose and forepaws We confirmed that there
+was preference for the objects used 
+Serum corticosterone concentration
+Blood samples were collected from the common carotid arteries diethyl ether anesthetized mice The collection was performed the morning oclock 
+and quickly finished within min avoid the artificial
+increase serum corticosterone Watanabe 
+Blood samples were kept ice and centrifuged for
+ min rpm C Corticosterone concentration 
+the serum obtained was determined corticosterone
+I RIA kit MP Biomedicals Inc Irvine CA USA 
+Brain slice preparation
+Mice were anesthetized with diethyl ether and decapitated The brain was quickly removed and immersed 
+ice cold choline ACSF containing mM choline chloride mM KCl mM mM 
+ mM CaCl mM NaHCO and mM glucose
+ pH suppress excessive neuronal excitation Brain
+slices horizontal section were prepared using 
+vibratome Dosaka Kyoto Japan ice cold
+choline ACSF Slices were then maintained ACSF 
+C for least All solutions used the experiments were continuously bubbled with and 
+Exocytosis
+The brain slices were transferred incubation
+chamber filled with ACSF containing M and
+ mM KCl allowed stand C for sec and
+transferred chamber filled with ACSF wash out extracellular for sec Fifteen minutes later brain
+slices were transferred recording chamber filled with
+ACSF which M dione CNQX antagonist AMPA kainate receptors contained prevent recurrent activity The basal
+fluorescence excitation emission 
+ was measured with confocal laser scanning
+microscopic system LSM META the rate Hz
+for sec through objective Because fluorescence originates from vesicular membrane bound
+ fluorescence attenuated presynaptic activity Klingauf Zakharenko 
+ To induce non specific depolarization KCl 
+ACSF was added the brain slices the final KCl concentration mM and attenuation FM fluorescence
+ destaining based presynaptic activity was measured
+ the same manner for sec The activity dependent
+component fluorescence the stratum radiatum the the Schaffer collateral commissural
+pathway terminals and the stratum lucidum the 
+ mossy fiber terminals was measured for each punctum
+ subtracting its residual fluorescence intensity sec
+after stimulation with mM KCl fluorescence
+was then normalized the basal fluorescence intensity
+before the stimulation which expressed 
+Vol No 
+H Tamano 
+Statistical analysis
+Students test was used for comparison the means
+ paired and unpaired data 
+RESULTS
+A induced behavioral abnormality
+In the initial experiment intracerebroventricular injection A was performed using isolated weekold mice When behavior and locomotor activity mice
+were examined the open field test line crossing rearing behavior and grooming behavior were almost the
+same between the control and A injected mice both 
+and weeks after intracerebroventricular injection data
+not shown In the resident intruder test the rate mice
+that exhibited aggressive behavior the total mice was
+ weeks after the injection and weeks
+after the injection 
+Because A injection into young mice did not seem 
+facilitate aggressive behavior used isolated weekold mice The mean body weight was vehicle injected mice control and A injected
+mice weeks after intracerebroventricular injection 
+and vehicle injected mice and 
+ A injected mice weeks after intracerebroventricular
+Fig 
+injection When behavior and locomotor activity mice
+were examined the open field test line crossing rearing behavior and grooming behavior were almost the
+same between the control and A injected mice both 
+ Fig C and F weeks after intracerebroventricular injection 
+In contrast behavioral abnormality was observed 
+the resident intruder test The rate mice that exhibited aggressive behavior biting attacks and wrestling the total mice was significantly increased both 
+and weeks after intracerebroventricular injection A
+ Fig A and D There was significance difference
+ the rate aggressive mice between and weeks 
+The latency time start aggressive behavior Fig B
+and E and the duration aggressive behavior Fig C
+and F were not significantly different between the control and A injected mice When anxiety related behavior was evaluated using the plus maze test time spent
+ open arms was not decreased weeks after intracerebroventricular injection A Fig A but significantly decreased weeks after intracerebroventricular injection A Fig B 
+Cognitive activity was assessed object recognition test 
+Object recognition was impaired both and weeks after
+intracerebroventricular injection A Fig C and D 
+Open field test The open field test was performed A C and D F weeks after injection saline and A saline into
+the lateral ventricle week old mice Line crossing counts rearing counts and grooming sec were measured Each
+bar and line represents the mean S E M 
+Vol No 
+Involvement hippocampal excitability amyloid induced BPSD
+Fig 
+Resident intruder test The resident intruder test was performed A C and D F weeks after injection saline and A
+ saline into the lateral ventricle week old mice Each bar and line mean S E M represents the mean three experiments that were separately done per experiment P P saline Students test 
+Fig 
+Elevated plus maze and object recognition memory Anxiety like behavior the elevated plus maze was assessed A and
+ B weeks after injection saline A into the lateral ventricle Each bar and line mean S E M represents the time
+spent open arms P saline Students test In another experiment object recognition test was
+performed C and D weeks after injection saline and A saline into the lateral ventricle Each bar and line represents the mean S E M P training paired test P saline Students test 
+Vol No 
+H Tamano 
+A induced neuronal excitability
+Disruption the hypothalamic pituitary adrenal
+ HPA activity may associated with A induced pathophysiology Dong and Csernansky When serum
+corticosterone concentration was checked was significantly higher A injected mice than the control mice
+ Fig A Because excess glucocorticoid secretion can
+enhance neuronal excitability the hippocampus Karst
+ presynaptic activity the hippocampus
+was assessed using brain slices prepared from mice after
+intracerebroventricular injection A Attenuation FM
+ fluorescence based presynaptic activity was significantly enhanced the stratum radiatum where Schaffer pyramidal cell synapses exist Figs B
+and C and also the stratum lucidum where mossy pyramidal cell synapses exist destaining saline 
+ A 
+DISCUSSION
+It has been reported that glucocorticoids inhibit insulin degrading enzyme activity which candidate protease for the clearance amyloid beta peptide from the
+brain Kulstad Wang Liu 
+ Serum cortisol associated with the clearance 
+amyloid beta peptide and the progression subjects with
+Alzheimer type dementia Correlations have been reported between increases HPA axis activity and dementia
+Fig 
+severity hippocampal volume loss individuals with
+probable Alzheimers disease Csernansky 
+In Alzheimers disease patients moreover core symptoms such cognitive deficits and BPSD are associated with early dysregulation the HPA axis activity
+ Swanwick The deregulation also the
+most prevalent stress related disorders Social isolation which stressful circumstances also affects HPA
+axis function Hawkley In the present study 
+BPSD like behavioral abnormality was assessed using
+mice which were housed individually and intracerebroventricularly injected with A because social isolation potentially factor induce BPSD like behavioral abnormality Sekiguchi and 
+The rate mice that exhibited aggressive behavior
+was markedly increased and weeks after A injection
+into adult week old mice but not after A injection
+into young week old mice A injected adult mice
+also showed anxiety like behavior and cognitive decline 
+Transgenic mice overexpressing the amino acid isoform human amyloid precursor protein APP 
+model Alzheimers disease have normal learning and
+memory spatial reference and alternation tasks 
+months age while show impairments months
+ age Hsiao A accumulates the brain
+ transgenic mice overexpressing mutated human APP
+with aging Hsiao Ikarashi Furthermore not only core symptoms such cognitive def 
+Serum corticosterone and hippocampal exocytosis Serum corticosterone concentration was determined weeks after injection saline and A saline into the lateral ventricle A Each bar and line represents the mean S E M 
+ P saline Students test In another experiment exocytosis was determined Schaffer collateral terminals 
+Brain slices were prepared weeks after injection saline and A saline into the lateral ventricle labeled with 
+and stimulated with mM KCl after measuring the basal fluorescence for sec shown shaded bar Region
+ interest ROI was set the stratum radiatum hippocampal Each point and line mean S E M represents the decrease fluorescence after stimulation with KCl B Each bar and line the mean S E M represents the
+decreased fluorescence sec after stimulation with KCl C P saline Students test 
+Vol No 
+Involvement hippocampal excitability amyloid induced BPSD
+icits but also BPSD like symptoms such aggression 
+hyperactivity and impulsive behavior have been observed
+ the transgenic mice Lalonde Stackman
+ Ognibene Dong 
+Adriani Quinn These symptoms
+may age dependently occur transgenic mice Hsiao 
+ Moechars Chen It
+has been reported that the APP transgenic mice are valuable tools develop new drugs for dementia and BPSD
+ Lalonde The present data indicate that 
+single injection A pmol mouse into the lateral ventricle individually housing adult mice irreversibly induces cognitive decline and BPSD like symptoms
+ few weeks and may protocol prepare model for BPSD with dementia On the other hand single
+injection A pmol rat into the hippocampal
+dentate gyrus rats transiently induces cognitive decline
+without appreciable changes behavior and locomotor
+activity Takeda suggesting that the dose 
+A and its injection site critical for A pathophysiology Social isolation changes the HPA axis activity
+ the experimental animals Serra followed
+ behavioral abnormality such aggression Blanchard
+ Backstrm and Winberg BPSD like
+symptoms may facilitated social isolation A injected adult mice Therefore likely that the
+environmental factors such individual housing are also
+critical for A pathophysiology 
+Brureau report that serum corticosterone
+level increases rats after intracerebroventricular injection aggregated A and that elevated glucocorticoids observed Alzheimers disease could first consequence amyloid toxicity In the present study serum
+corticosterone level was markedly increased injection A which the major component amyloid
+deposits Iwatsubo Corticosterone acts synergistically with glutamate the hippocampus Corticosterone induced increase extracellular glutamate levels
+occurs through the non genomic action membrane associated mineralocorticoid receptors and glucocorticoid
+receptors the hippocampus Karst Takeda
+and Tamano Furthermore possible that the
+persistent increase corticosterone level modifies hippocampal excitability glutamatergic neuron activity 
+the hippocampus enhanced zinc deficient animals 
+which serum corticosterone levels are persistently elevated Takeda and Tamano When excitability hippocampal neurons was checked using brain slices KClinduced exocytosis presynaptic activity was enhanced
+ brain slices prepared from A injected mice It likely
+that glutamatergic neuron activity the hippocampus 
+enhanced via high levels corticosterone after A injection into the mouse brain A mediated increase corticosterone might involved BPSD like symptoms and
+cognitive decline A injected mice 
+In conclusion the present study suggests that social
+isolation housing A injected adult mice irreversibly
+induces BPSD like behavioral abnormality It likely
+that the behavioral abnormality A injected adult mice
+ associated with excitability hippocampal glutamatergic neurons which associated with enhanced activity 
+the HPA axis It estimated that intracerebroventricularly injected A transported into the hippocampus which
+ involved the negative feedback mechanism glucocorticoid secretion and affects hippocampal function To
+understand A pathophysiology individual housing 
+ necessary examine how the high dose pmol A 
+mouse used the present study changes glucocorticoid
+secretion 
+Conflict interest The authors declare that there 
+ conflict interest 
+REFERENCES
+Adriani W Ognibene E Heuland E Ghirardi O Caprioli A 
+and Laviola G Motor impulsivity APP SWE mice 
+model Alzheimers disease Behav Pharmacol 
+Backstrm T and Winberg S Central corticotropin releasing factor and social stress Front Neurosci 
+Blanchard R J McKittrick C R and Blanchard D C Animal models social stress effects behavior and brain neurochemical systems Physiol Behav 
+Brureau A Zussy C Delair B Ogier C Ixart G Maurice T 
+and Givalois L Deregulation hypothalamic pituitary adrenal axis functions Alzheimers disease rat model 
+Neurobiol Aging 
+Chen G Chen K S Knox J Inglis J Bernard A Martin 
+S J Justice A McConlogue L Games D Freedman S B 
+and Morris R G A learning deficit related age and
+beta amyloid plaques mouse model Alzheimers disease 
+Nature 
+Cleary J P Walsh D M Hofmeister J J Shankar G M 
+Kuskowski M A Selkoe D J and Ashe K H Natural
+oligomers the amyloid beta protein specifically disrupt cognitive function Nat Neurosci 
+Csernansky J G Dong H Fagan A M Wang L Xiong C 
+Holtzman D M and Morris J C Plasma cortisol and
+progression dementia subjects with Alzheimer type dementia Am J Psychiatry 
+Dong H and Csernansky J G Effects stress and stress
+hormones amyloid beta protein and plaque deposition J 
+Alzheimers Dis 
+Dong H Csernansky C A Martin M V Bertchume A Vallera 
+D and Csernansky J G Acetylcholinesterase inhibitors
+ameliorate behavioral deficits the mouse model 
+Alzheimers disease Psychopharmacology 
+Green K N Billings L M Roozendaal B McGaugh J L and
+Vol No 
+H Tamano 
+LaFerla F M Glucocorticoids increase amyloid beta
+and tau pathology mouse model Alzheimers disease J 
+Neurosci 
+Hawkley L C Cole S W Capitanio J P Norman G J and
+Cacioppo J T Effects social isolation glucocorticoid regulation social mammals Horm Behav 
+Hsiao K Chapman P Nilsen S Eckman C Harigaya Y 
+Younkin S Yang F and Cole G Correlative memory
+deficits A elevation and amyloid plaques transgenic mice 
+Science 
+Hyman B T Van Hoesen G W Damasio A R and Barnes C L 
+ Alzheimers disease cell specific pathology isolates the
+hippocampal formation Science 
+Ikarashi Y Harigaya Y Tomidokoro Y Kanai M Ikeda M 
+Matsubara E Kawarabayashi T Kuribara H Younkin 
+S G Maruyama Y and Shoji M Decreased level 
+brain acetylcholine and memory disturbance APPsw mice 
+Neurobiol Aging 
+Iwatsubo T Odaka A Suzuki N Mizusawa H Nukina N and
+Ihara Y Visualization A beta and A beta 
+senile plaques with end specific A beta monoclonals evidence
+that initially deposited species A beta Neuron 
+Karst H Berger S Turiault M Tronche F Schtz G and Jols 
+M Mineralocorticoid receptors are indispensable for
+nongenomic modulation hippocampal glutamate transmission corticosterone Proc Natl Acad Sci USA 
+Klingauf J Kavalali E T and Tsien R W Kinetics and
+regulation fast endocytosis hippocampal synapses Nature 
+Koike H Ibi D Mizoguchi H Nagai T Nitta A Takuma K 
+Nabeshima T Yoneda Y and Yamada K Behavioral abnormality and pharmacologic response social isolationreared mice Behav Brain Res 
+Kulstad J J McMillan P J Leverenz J B Cook D G Green 
+P S Peskind E R Wilkinson C W Farris W Mehta P D and
+Craft S Effects chronic glucocorticoid administration
+ insulin degrading enzyme and amyloid beta peptide the
+aged macaque J Neuropathol Exp Neurol 
+Lalonde R Lewis T L Strazielle C Kim H and Fukuchi K 
+ Transgenic mice expressing the SWE mutation effects exploratory activity anxiety and motor coordination Brain Res 
+Lalonde R Fukuchi K and Strazielle C APP transgenic
+mice for modelling behavioural and psychological symptoms 
+dementia BPSD Neurosci Biobehav Rev 
+Lesn S Koh M T Kotilinek L Kayed R Glabe C G Yang 
+A Gallagher M and Ashe K H A specific amyloid beta protein assembly the brain impairs memory Nature 
+Liu Z Zhu H Fang G G Walsh K Mwamburi M Wolozin 
+B Abdul Hay S O Ikezu T Leissring M A and Qiu W Q 
+ Characterization insulin degrading enzyme and other
+amyloid degrading proteases human serum role Alzheimers disease? J Alzheimers Dis 
+Mirakhur A Craig D Hart D J Mcllroy S P and Passmore A P 
+ Behavioural and psychological syndromes Alzheimers disease Int J Geriatr Psychiatry 
+Mizukami K Kampo therapy alternative pharmacotherapy using antipsychotic medicines for behavioral and psychological symptoms dementia BPSD Psychogeriatrics 
+Vol No 
+Moechars D Dewachter I Lorent K Revers D Baekelandt 
+V Naidu A Tesseur I Spittaels K Haute C V Checler F 
+Godaux E Cordell B and Van Leuven F Early phenotypic changes transgenic mice that overexpress different
+mutants amyloid precursor protein brain J Biol Chem 
+Nagaratnam N Lewis Jones M Scott D and Palazzi L 
+Behavioral and psychiatric manifestations dementia patients
+ community caregiver burden and outcome Alzheimer Dis 
+Assoc Disord 
+Nestor P J Scheltens P and Hodges J R Advances the
+early detection Alzheimers disease Nat Med Suppl 
+Ognibene E Middei S Daniele S Adriani W Ghirardi O 
+Caprioli A and Laviola G Aspects spatial memory and behavioral disinhibition transgenic mice 
+model Alzheimers disease Behav Brain Res 
+Quinn J F Bussiere J R Hammond R S Montine T J Henson 
+E Jones R E and Stackman R W Jr Chronic dietary
+ lipoic acid reduces deficits hippocampal memory aged
+ mice Neurobiol Aging 
+Sekiguchi K Yamaguchi T Tabuchi M Ikarashi Y and Kase Y 
+ Effects yokukansan traditional Japanese medicine 
+ aggressiveness induced intracerebroventricular injection 
+amyloid beta protein into mice Phytother Res 
+Sekiguchi K Imamura S Yamaguchi T Tabuchi M 
+Kanno H Terawaki K Kase Y and Ikarashi Y 
+Effects yokukansan and donepezil learning disturbance
+and aggressiveness induced intracerebroventricular injection
+ amyloid protein mice Phytother Res 
+Selkoe D J Alzheimers disease synaptic failure 
+Science 
+Serra M Pisu M G Floris I and Biggio G Social isolation induced changes the hypothalamic pituitary adrenal axis
+ the rat Stress 
+Shankar G M Li S Mehta T H Garcia Munoz A 
+Shepardson N E Smith I Brett F M Farrell M A Rowan 
+M J Lemere C A Regan C M Walsh D M Sabatini B L 
+and Selkoe D J Amyloid beta protein dimers isolated
+directly from Alzheimers brains impair synaptic plasticity and
+memory Nat Med 
+Stackman R W Eckenstein F Frei B Kulhanek D Nowlin J 
+and Quinn J F Prevention age related spatial memory
+deficits transgenic mouse model Alzheimers disease 
+chronic Ginkgo biloba treatment Exp Neurol 
+Steele C Rovner B Chase G A and Folstein M Psychiatric symptoms and nursing home placement patients with
+Alzheimers disease Am J Psychiatry 
+Swanwick G R J Kirby M Bruce I Buggy F Coen R F 
+Coakley D and Lawlor B A Hypothalamic pituitaryadrenal axis dysfunction Alzheimers disease lack association between longitudinal and cross sectional findings Am J 
+Psychiatry 
+Takeda A and Tamano H Insight into zinc signaling from
+dietary zinc deficiency Brain Res Rev 
+Takeda A and Tamano H Cognitive decline due excess
+synaptic Zn signaling the hippocampus Front Aging
+Neurosci 
+Takeda A Nakamura M Fujii H Uematsu C Minamino 
+T Adlard P A Bush A I and Tamano H Amyloid
+ mediated influx into dentate granule cells transiently
+Involvement hippocampal excitability amyloid induced BPSD
+induces short term cognitive deficit PLoS One 
+Tanji H Ootsuka M Matsui T Maruyama M Nemoto M 
+Tomita N Seki T Iwasaki K Arai H and Sasaki H 
+Dementia caregivers burdens and use public services Geriatr
+Gerontol Int 
+Terry R D Masliah E Salmon D P Butters N DeTeresa R 
+Hill R Hansen L A and Katzman R Physical basis
+ cognitive alterations Alzheimers disease synapse loss 
+the major correlate cognitive impairment Ann Neurol 
+Wang Y Li M Tang J Song M Xu X Xiong J Li J and
+Bai Y Glucocorticoids facilitate astrocytic amyloid 
+peptide deposition increasing the expression APP and
+ and decreasing the expression amyloid degrading
+proteases Endocrinology 
+Watanabe M Tamano H Kikuchi T and Takeda A Susceptibility stress young rats after week zinc deprivation 
+Neurochem Int 
+Zakharenko S S Zablow L and Siegelbaum S A Visualization changes presynaptic function during long term synaptic plasticity Nat Neurosci 
+Vol No 
