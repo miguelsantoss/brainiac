@@ -209,22 +209,29 @@ def main(args):
     print_top_words(lda, tf_feature_names, n_top_words)
 
     # LSA
-    n_components_lsa = 50
+    # LSA for graph visualization
+    n_components_lsa = 2
     print('Performing dimensionality reduction using LSA, ', 'n_components: %d' % n_components_lsa)
     svd = TruncatedSVD(n_components=n_components_lsa, random_state=0)
     lsa_reduced = svd.fit_transform(tfidf_matrix)
-    #  normalizer = Normalizer(copy=False)
-    #  lsa = make_pipeline(svd, normalizer)
-    #  X = lsa.fit_transform(tf_matrix)
+
+    # LSA for topics
+    svd_topics = TruncatedSVD(n_components=50, random_state=0)
+    lsa_reduced_topics = svd_topics.fit_transform(tfidf_matrix)
+    normalizer = Normalizer(copy=False)
+    lsa = make_pipeline(svd_topics, normalizer)
+    X = lsa.fit_transform(tfidf_matrix)
 
     # TSNE
     n_components_tsne = 2
     print('Performing dimensionality reduction using TSNE, ', 'n_components: %d' % n_components_tsne)
-    tsne_reduced = TSNE(n_components=n_components_tsne, perplexity=40, verbose=2).fit_transform(lsa_reduced)
+    tsne_reduced = TSNE(n_components=n_components_tsne, perplexity=40, verbose=2).fit_transform(tfidf_matrix.toarray())
 
     # PCA on the TF-IDF matrix and on the LSA reduced TF-IDF matrix
-    reduced_data = PCA(n_components=2).fit_transform(tfidf_matrix.toarray())
-    reduced_data2 = PCA(n_components=2).fit_transform(lsa_reduced)
+    n_components_pca = 2
+    print('Performing dimensionality reduction using PCA, ', 'n_components: %d' % n_components_pca)
+    reduced_data = PCA(n_components=n_components_pca).fit_transform(tfidf_matrix.toarray())
+    reduced_data2 = PCA(n_components=n_components_pca).fit_transform(lsa_reduced)
 
     # Clustering of the LSA reduced TF-IDF matrix
     print('Fitting KMeans model with LSA reduced TF-IDF matrix, ', 'n_clusters: %d' % num_clusters)

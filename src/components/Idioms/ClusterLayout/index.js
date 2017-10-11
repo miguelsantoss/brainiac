@@ -288,6 +288,7 @@ class ClusterLayout extends Component {
             .strength(0.5),
         )
         .force('collide', d3Force.forceCollide(d => d.radius + this.padding))
+        .force('center', d3Force.forceCenter(width / 2, height / 2))
         .force('x', d3Force.forceX(width / 2))
         .force('y', d3Force.forceY(height / 2))
         .on('tick', () => {
