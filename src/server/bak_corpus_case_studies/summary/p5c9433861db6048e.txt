@@ -1,0 +1,19 @@
+The retrieved studies were separated, whenever possible, into 3 groups: 1) studies attempting to define the FA and DTI characteristics in iNPH patients by comparison with the corresponding characteristics in age-matched, healthy study participants; 2) studies examining the role of FA and DTI in the accurate diagnosis of iNPH and particularly in differentiating iNPH from other neurodegenerative diseases with similar signs and symptoms; and 3) studies evaluating the potential prognostic role of FA and DTI for iNPH patients undergoing CSF drainage or surgical shunt placement.
+
+Used DTI metrics in 24 iNPH patients and 21 healthy controls to generate FA brain maps and determine TBSS to measure FA in selected ROIs.29 Compared with the controls, patients with iNPH had significantly lower FA in the CC and significantly higher FA in the posterior limb of the IC. The authors also reported that gait abnormalities of the iNPH patients were statistically significantly correlated with the lower FA in the CC.29 In another study, Koyama et al.
+
+Studied DTI patterns in WM in the region of the IC, ventricular morphometry, and CSF flow in patients with iNPH or AD.7 The authors reported that FA was statistically significantly correlated with the ventricular dimensions in the patients with iNPH. In the patients with AD, CSF aqueductal flow was statistically significantly correlated with the ADC. Although the authors noted abnormalities in the CSF flow in both patient groups, patients with iNPH appeared to have different DTI patterns in the region of the IC, which could be a significant imaging finding that could differentiate these 2 pathological entities.
+
+Studied 2 groups of patients with iNPH after they had undergone CSF drainage via a spinal tap: the first group comprised 12 patients whose gait significantly improved 3 days after the CSF drainage, and the second group consisted of 14 patients whose gait did not improve.
+
+Employed DTI in 16 patients with iNPH before surgery and also in 10 patients with AD, 10 patients with subcortical vascular dementia, and 20 healthy controls.
+
+The iNPH patients had MD values in the anterior periventricular WM, the anterior limb of the IC, and the superior longitudinal fasciculus that were higher than in the patients with AD and in the healthy controls but were lower than in the patients with subcortical vascular dementia.
+
+42 The delta-ADC has also been used for examining patients with suspected iNPH, and it has been reported that delta-ADCs in the frontal, temporal, and occipital lobes are increased in iNPH patients relative to the corresponding delta-ADCs in healthy controls.
+
+17 Of note, FA has a sensitivity of 94% and a specificity of 80% for diagnosing iNPH.17 In addition, FA in the fornix is significantly lower in patients with iNPH than in those with AD.16 Patients with iNPH have higher FA in the hippocampus than do AD patients, but lower FA in the same region than healthy controls.
+
+FA values in the posterior limb of the IC and MD in the anterior limb of the IC and in the superior longitudinal fasciculus are significantly higher in patients with iNPH than in patients with AD.27 Also, iNPH patients have lower FA in the anterior thalamic radiation and the minor forceps than do PD patients.
+
+Diffusion tensor imaging in iNPH patients Moreover, the utility of DTI with FA and ADC techniques has been studied also in patients with iNPH before and after CSF drainage via a spinal tap to identify imaging characteristics that could be used to predict which patients would most likely benefit from the drainage.

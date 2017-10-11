@@ -1,0 +1,638 @@
+THE JOURNAL OF COMPARATIVE NEUROLOGY 
+Quantitative MRI the Temporal Lobe 
+Amygdala and Hippocampus Normal
+Human Development Ages Years
+JAY N GIEDD A CATHERINE VAITUZIS SUSAN D HAMBURGER 
+NICHOLAS LANGE JAGATH C RAJAPAKSE DEBRA KAYSEN 
+YOLANDA C VAUSS AND JUDITH L RAPOPORT
+Child Psychiatry Branch National Institute Mental Health J N G A C V S D H J C R 
+D K Y C V J L R and National Institute Neurological Disorders and Stroke N L 
+Bethesda Maryland
+ABSTRACT
+The volume the temporal lobe superior temporal gyrus amygdala and hippocampus
+was quantified from magnetic images the brains healthy children and adolescents aged
+ years Variability volume was high for all structures examined When adjusted for 
+larger total cerebral volume males there were significant volume differences between
+sexes However sex specific maturational changes were noted the volumes medial
+temporal structures with the left amygdala increasing significantly only males and with the
+right hippocampus increasing significantly only females Right greater than left laterality
+effects were found for temporal lobe superior temporal gyrus amygdala and hippocampal
+volumes These results are consistent with previous preclinical and human studies that have
+indicated hormonal responsivity these structures and extend quantitative morphologic
+findings from the adult literature In addition highlighting the need for large samples and
+sex matched controls pediatric neuroimaging studies the information from this understudied age group may use evaluating developmental hypotheses neuropsychiatric
+disorders 
+I W Wiley Liss 
+Inc 
+Indexing terms child adolescent neuroanatomy sex maturation
+The temporal lobes and related medial structures such
+ the amygdala and the hippocampus subserve functions
+ language memory and emotion Nolte Human
+capacity for these functions changes markedly from ages 
+ years Jerslid Wechsler Diener 
+ however because the paucity postmortem data
+ well controlled imaging studies healthy children
+ Giedd little known about morphometric
+changes these structures that parallel cognitive and
+behavioral development 
+Electroencephalographicstudies adolescents and young
+adults indicate ongoing maturation the temporal lobes
+during the second decade life Buchsbaum 
+To our knowledge however vivo quantitative morphologic studies these structures have been carried out for
+children and adolescents I one the few postmortem
+studies temporal lobe related structures that included
+subjects from the child and adolescent age range was
+noted that myelination key relay zone the hippocampal formation continues throughout adolescence Benes
+ WILEY LISS INC This article US Government bvork and such the public domain the United
+Stutps Amwicu
+With the use magnetic resonance imaging MRI 
+studies normal aging adults have indicated maturational changes for the temporal lobe and for medial temporal structures which part are sex specific For instance 
+ recent study comparing brain morphology subjects
+aged years that subjects aged years
+found age related decreases the amygdala for males and
+females but found decrease the hippocampus for
+females only Murphy A study comparing
+temporal lobe measures subjects aged years 
+those subjects aged years found decrease
+ temporal lobe volume for males Cowell 
+However these results may reflect processes the extreme
+end the aging process A recent study that included 
+healthy adults aged years reported larger superior
+temporal gyrus volumes males but found significant
+age effects Flaum 
+Accepted August 
+Address reprint requests Jay N Giedd M D Child Psychiatry Branch 
+National Institute Mental Health Building Room Center
+Drive MSC Bethesda MD E mail jgieddki helix nih gov
+J N GIEDD E T AL 
+Based these reports and animal and human studies
+that have indicated the responsivity these structures 
+hormones Morse Gould Murphy
+ anticipated sex specific maturational
+changes the temporal lobe and related medial structures for our child and adolescent sample possibly with
+exaggerated effects concurrent with the hormonal changes
+ adrenarche puberty 
+Volumetric measures the temporal lobe superior
+temporal gyrus amygdala and hippocampus were acquired
+ healthy children and adolescents aged years 
+This study part ongoing project the Child
+Psychiatry Branch the National Institute Mental
+Health examine the relationship between brain form and
+function healthy and neuropsychiatrically impaired children and adolescents Quantitative morphometry the
+ erebrum cerebellum and basal ganglia for most the
+subjects from this data set have been reported elsewhere
+ Giedd 
+MATERIALS AND METHODS
+Subjects
+Healthy male and female subjects
+mean age years S D years range years 
+vvere recruited from the community over the last years 
+ssessment included physical and neurological examina ions the handedness items from the Physical and
+Veurological Examination for Subtle Signs PANESS intentory Denckla and clinical psychiatric interviews
+ising the Child and Parent Diagnostic Interview for Chilh Welner the Child Behavior Checklist
+Achenbach and Edelbrock Conners item Par and item Teacher Questionnaires Conners 
+oyette Vocabulary Block Design and Digit
+Span subtests the Wechsler Intelligence Scale for Chilken Revised
+ WISC R Wechsler for subjects unler years age the Wechsler Adult Intelligent
+kale Revised for subjects older Wechsler 
+ spelling subtest the Wide Range Achievement TestRevised Jastak and Wilkinson and the WoodcockJohnson Psycho Educational Battery Reading Cluster Score
+consisting Letter Word Identification Word Attack and
+?assage Comprehension subtests Woodcock and Johnson 
+ Individuals with physical neurological lifetime
+iistories psychiatric abnormalities were excluded Subects with first degree relatives with more than 
+second degree relatives with major psychiatric disorders
+vere also excluded Approximately five candidates were
+screened for every one accepted Giedd To
+mhance the independence sample subjects only one
+ hild per family was included the data set Male subjects
+vere taller than the female subjects P and
+ cored higher the Vocabulary subtest the WISC R 
+ P There were significant group differences
+ age handedness Tanner stage Reading Cluster Score
+ the Woodcock Johnson test Digit Span and Block
+lesign subtests the WISC R Subject characteristics are
+ hown Table where can seen that the subjects
+vere above average WISC R subtests Our strict
+nclusion criteria made this outcome likely although did
+imit the generalizability these findings 
+Subjects were scanned within months screening 
+ the scatterplot distributions can 
+ een that age distribution was not uniform with fewer
+TAHX Characteristics Healthy MRI Subjects
+Parameter
+Female
+Male
+Sample size
+Age lyearsl
+Height icm 
+Weight ikgi
+Pdnner stage
+Handedness
+Vocabulary
+Block design
+Digit span
+ S Hi
+ right handed
+ right handed
+ Xi
+IAgrd years 
+Male Female I
+subjects the youngest age quartile The protocol was
+approved the Institutional Review Board the National
+Institute Mental Health Written consent from the
+parents and assent from the child were obtained 
+MRI acquisition
+All subjects were scanned the same GE Tesla Signa
+Advance scanner GE Signa version Three dimensional volumetric acquisition using spoiled gradient recalled echo the steady state yielded images with slice
+thicknesses the axial and sagittal planes and
+ the coronal plane Images were acquired from
+coronal axial and sagittal orientations avoid possible
+multiplanar reformatting errors related nonanisotropic
+voxels Time echo was msec time repeat was 
+msec flip angle was acquisition matrix was X 
+number excitations was and field view was 
+Head positioning during the scan was standardized 
+assuring that three vitamin E capsules one placed the
+meatus each ear and one taped the left lateral inferior
+orbital ridge were all visible single axial slice If 
+slice clearly contained all three capsules then the patient
+was realigned until this criterion was met Head positioning
+ the remaining plane was standardized positioning the
+subjects nose the OO position The subjects were
+scanned the evening promote their falling asleep the
+scanner Younger children were allowed bring blankets
+ stuffed animals into the scanner and have their
+parents read them Three children aged and who
+had been accepted for the study were unable complete
+the scan due claustrophobia excessive anxiety No
+sedation was used 
+Image analysis
+Clinical interpretation All scans were evaluated 
+clinical neuroradiologist One subject was found have
+increased signal intensity the area the left semiovale Another subject was noted have increased signal
+intensity the right parietal lobe Neither hyperintensity
+was deemed clinically significant and clinical follow 
+both subjects were asymptomatic They were retained 
+the data set No other gross abnormalities were reported 
+Total cerebral volume quantification A technique that
+utilizes active surface template the brain incorporate prior knowledge brain anatomy supplement MRI
+signal intensity characteristics was used quantify the left
+and right cerebral hemispheres This method models the
+brain surface elastically deformable structure while
+using successive iterations energyminimization function enforce constraints curvature and topology After
+this procedure the brains were examined and edited slice
+ slice the axial plane experienced raters remove
+PEDIATRIC MRI OF TEMPORAL LOBE
+Fig Boundaries for measures temporal lobe superior temporal gyrus amygdala and hippocampus 
+J N GIEDD ET AL 
+Amygdala
+Left
+Right
+ I
+M 
+F 
+M 
+F O 
+N
+age years 
+I
+I
+I
+age years 
+Hippocampus
+Right
+Left
+M 
+F 
+M 
+F 
+age years 
+Q
+O
+age years 
+Fig Scatterplots age and gender left and right amygdala and hippocampal volume for children
+and adolescents aged years Nonlinear local regression curve fitting displayed The boxes
+ each upper right corner show linear regression models for males solid lines and females dashed lines 
+remaining artifacts such patches dura eyeball This
+technique has been validated comparison postmortem
+specimens Intraclass correlations for the volumes the
+edited brains were for interrater reliability A C V and
+J N G and compared volumes derived from more
+conventional slice slice hand tracing through all axial
+PEDIATRIC MRI OF TEMPORAL LOBE
+slices which brain matter visible Further details are
+provided elsewhere Snell 
+Temporal lobelsuperior temporal gyrus quantification 
+The imaging data were imported into image analysis
+program developed the NIH Rasband Measures
+ the temporal lobe superior temporal gyrus amygdala 
+and hippocampal formation were all done manual tracing the coronal plane single experienced rater
+ A C V who was blind any subject characteristics The
+temporal lobe discerned from the frontal and parietal
+lobes the Sylvian fissure The temporal stem was divided
+ line connecting the most inferior point the insular
+cisterns the most lateral point the hippocampal 
+amygdaloid fissure Fig The posterior extent the
+temporal lobes was defined the coronal slice containing
+the posteriormost aspect the corpus callosum inclusive 
+Bilder The superior temporal gyrus was
+identified the gyral boundary each the coronal
+sections the temporal lobes and extended posteriorly 
+the most posterior slice which fibers the fornix were
+visible Shenton The number coronal slices
+ quantify the temporal lobes ranged from with 
+mean 
+Amygdala hippocampal formation quantification Our
+designation the hippocampal formation included the
+cornu ammonis dentate gyrus and subiculum Each 
+these components has different histological characteristics
+and has topographically well ordered afferents and efferents
+ Nolte However precise delineation boundaries 
+such that between amygdala and hippocampus can 
+difficult even histological level Bergin The
+coronal slice containing the most anterior portions the
+mammillary bodies was used boundary separate the
+amygdala from the hippocampus Shenton 
+Bogerts The posterior boundary the hippocampal formation was the most posterior slice which
+fibers the fornix were visible Cook Shenton
+ The number coronal slices used quantify
+the amygdala averaged and the number quantify the
+hippocampus averaged 
+Reliabilities for each the structures were established
+ having two raters A C V and J N G initially measure
+ten subjects twice determine intrarater and interraterintraclass correlation coefficients ICCs and then blindly
+introducing previously measured scans throughout the
+analysis account for possible drifts rater assessment Interrater ICCs for the structures measured were 
+follows temporal lobe superior temporal gyrus 
+amygdala hippocampus Outlines these structures are presented Total image processing
+time for each subject was approximately hours 
+Statistical analysis
+The SAS General Linear Model procedure was used 
+examine the total group and sex specific effects age 
+brain structure volumes SAS Institute Because
+total brain volume differed significantly between males and
+females larger males sex differences were analyzed
+ using repeated measures ANOVA and ANCOVA 
+adjust for total cerebral volume 
+In addition linearity and constant variance assumptions
+were relaxed using local regression procedure that
+retained the subtle nonlinearities the data Hastie and
+Tibshirani yield smooth curvilinear and sexspecific adaptive fits the scatterplots structure vol 
+TABLE ANOVA and ANCOVA Healthy Children and Adolescents
+ANOVA
+Structure
+Temporal lobes
+Temporal lobes
+Superior temporal
+gyrus
+Superior temporal
+gyrus
+Amygdala
+Amygdala
+Hippocampus
+HiDDocarnDus
+ANCOVA
+F
+value
+P
+value
+M F
+R L
+Parameter
+F
+value
+P
+value
+Comment
+Gender
+Side
+Gender
+M F
+Side
+Gender
+Side
+Gender
+Side
+R L
+M F
+R L
+M F
+R L
+Adjusted for total cerebral volume Aged Ryears 
+umes age Males and females were analyzed separately 
+because single classical statistical models make linear and
+equal variance assumptions that are not always supported
+ our data However have included results from the
+combined analyses see Table allow comparison 
+previous reports 
+RESULTS
+The variability size was high for all structures examined this well screened group healthy children see Fig 
+ Despite this sex maturational and laterality effects
+were seen 
+Sex
+Cerebral volumes reported previously Giedd 
+ were approximately larger for males P 
+ even after adjustment for height and weight F 
+ P Similarly for all temporal lobe structures
+measured male volumes were approximately larger 
+When they were adjusted for total cerebral volume
+ ANCOVA the temporal lobe measures did not show
+sexual dimorphism Table shows sex and side left 
+right ANOVAs and ANCOVAs corrected for total cerebral
+volume No interactions between sex and side were found 
+Maturational change
+Similar the previously reported total cerebral volumes
+ Giedd neither the right nor the left nor the
+total temporal lobe volume increased significantly with age
+for either sex In females the right hippocampal volume
+showed significant increase with age slope regression
+line year P whereas males the
+left amygdala volume increased slope regression line 
+ year P However the slopes 
+the left right amygdala hippocampus did not significantly differ from each other within each sex Table shows
+the linear regression slopes with age for specific structures 
+Scatterplots the amygdala and hippocampus with
+respect sex and age are presented Both linear
+and nonlinear summaries are displayed A prominent feature that evident from the scatterplots the enormous
+variation structure size The hypothesis increased
+maturational changes around the time puberty not
+supported these relatively linear regression results 
+Asymmetries
+The temporal lobe superior temporal gyrus amygdala 
+and hippocampus all exhibited right greater than left
+asymmetry Table which did not change with age 
+J N GIEDD ET AL 
+TABLE Linear Regression Temporal Lobe and Medial Temporal Structures With Age Gender and Side Healthy Children and Adolescents
+Right
+Male
+Left
+Female
+Total
+Male
+Female
+Total
+Structure
+Slope
+P
+Slope
+P
+Slope
+P
+Slope
+P
+Slope
+P
+Slope
+P
+Temporal lob?
+Superior temporal gyms
+Amygdala
+Hippocanipus
+ lti
+Xyears 
+DISCUSSION
+To our knowledge this the first large normative 
+morphologic study the temporal lobe and related medial
+temporal structures children and adolescents All the
+structures that were measured demonstrated high degree
+ variability Total temporal lobe volume was stable while
+amygdala volume increased only males and hippocampal volume increased only females This pattern 
+consistent with the distribution sex hormone receptors
+for these structures with the amygdala having predominance androgen receptors Clark Sholl and
+Kim and the hippocampus having predominance 
+estrogen receptors Morse 
+The hormonal responsivity the hippocampus females supported well both animal and human studies 
+Gonadectomized adult female rats have decreased fiber
+outgrowth and altered density dendritic spines the
+hippocampus which can reversed with hormone replacement Morse Gould In humans 
+women with gonadal hypoplasia were also noted have
+decreased hippocampal volume Murphy 
+The increase hippocampal volume females consistent with postmortem study Benes 
+psychiatrically normal individuals newborn age 
+years showing that myelination the subicular and
+presubicular regions the hippocampus continue throughout adolescence and into adulthood When adjusted for total
+brain weight the area myelination doubled between the
+first and second decades this key relay zone A sexually
+dimorphic effect was also noted with females who showed 
+greater degree myelin staining during the interval 
+ years but showed significant differences thereafter 
+This consistent with recent MRI study young
+adults showing proportionately larger hippocampal volumes females Filipek 
+In addition receptors for gonadal steroids the hippocampus and amygdala are rich receptors for adrenal
+steroids thyroid hormone and nerve growth factor
+ Gould Amaral As well its direct
+effects hippocampal development estrogen may influence development blocking the neurodegenerative effects glucocorticoids Sapolsky Miller 
+ Sapolsky The diversity afferent and efferent connections the many distinct nuclei 
+the amygdala and the hippocampus well the complexity their various neurochemical systems make the prediction functional correlates gross volume changes difficult 
+Several limitations this study should noted First 
+the use internal medial landmarks the mammillary
+bodies define structural boundaries does not consider
+cytoarchitectonic sulcaligyral information With regard
+ rightileft asymmetries the right cerebral hemisphere
+tends shifted anteriorly compared the left Bilder 
+ and this would favor the observed right greaterthan left asymmetries the amygdala superior temporal
+gyrus and temporal lobe 
+This phenomenon however would not account for 
+right greater than left hippocampal volume because the
+posterior boundary the hippocampus ascending fibers 
+the crux the fornix was determined per hemisphere
+basis and the location the boundary between the amygdala and the hippocampus farther posteriorly the right
+should serve decrease the relative size the right
+hippocampus The use sulcal and gyral landmarks 
+three dimensional reconstructed images define these
+structures would preferable because would more
+sensitive developmental changes the Sylvian fissure
+and the inferior sulcus the superior temporal gyrus and
+ would provide more valid index asymmetry This
+further analysis planned 
+The interpretation volumetric changes complicated
+ the myriad factors contributing structure size 
+including the number and size neurons and glial cells 
+packing density vascularity and matrix composition These
+parameters turn are affected genetics environment 
+hormones growth factors and nutrients the developing
+nervous system Diamond Jacobson 
+Despite this complexity there are suggestions relationship between hippocampal size and memory function 
+birds where food storing species have larger hippocampal
+volumes than related species nonfood storing birds Krebs
+ Sherry Mammals also show 
+relationship between spatial memory and hippocampal size
+ Sherry For instance males polygamous
+vole species that explore large areas search mates and
+that perform better laboratory measures spatial
+ability have significantly larger relative hippocampal volumes than their female counterparts This sexual dimorphism hippocampal size not seen the monogamous
+vole species which does not show male female differences
+ spatial ability Jacobs Such relationships
+are less striking humans although correlations between
+left hippocampus volume and memory for stories have been
+noted Lencz Goldberget 
+The stability the total temporal lobe volume with age
+for our sample mirrors findings from the adult literature 
+which temporal lobe volumes decrease much slower
+rate than other brain regions Coffey Murphy
+ However stability over time gross size 
+structure may not sensitive qualitative changes 
+connectivity tissue composition 
+Anomalies temporal lobe and medial temporal lobe
+structures have been reported for variety psychiatric
+PEDIATRIC MRI OF TEMPORAL LOBE
+disorders including affective disorders Swayzeet 
+autism Bachevalier and most consistently schizophrenia Swayze Bogerts which 
+increasingly understood neurodevelopmental disorder
+ Weinberger These disorders have marked sex
+differences age onset symptomatology and risk
+factors Our sex specific maturational differences may have
+relevance the expression these disorders 
+The high variability structural volumes necessitates
+large sample sizes and longitudinal studies quantify
+accurately the heterochronous developmental curves this
+population A longitudinal study these subjects underway validate these cross sectional results The sex specificity these findings should underscore the importance 
+sex matched samples developmental neuroimaging studies 
+LITERATURE CITED
+Achenbach T M and C S Edelbrock for Child Behavior
+Checklist and Revised Behavior Profile Burlington VT Department 
+Psychiatry University Vermont 
+Amaral D G J L Price A Pitkanen and S T Carmichael Anatomical organization the primate amygdaloid complex In J P Aggleton
+led The Amygdala New York Wiley Liss Inc 
+Bachevalier J Medial temporal lobe structures and autism A review
+ clinical and experimental findings Neuropsychologia 
+Benes F M M Turtle Y Khan and P Myelination key
+relay zone the hippocampal formation occurs the human brain
+dur childhood adolescence and adulthood Arch Gen Psychiatr 
+Bergin P S A A Raymond S L Free S M Sisodiya and J M Stevens
+ Magnetic resonance volumetry Neurology 
+Bilder K M H Wu B Bogerts G Degreef M Ashtari J M Alvir P J 
+Snyder and J A Lieberman Absence regional hemispheric
+volume asymmetries first episode schizophrenia Am J Psychiatr 
+Bogerts B J A Lieberman M Ashtari R M Bilder G Degreef G Lerner 
+C Johns and
+Masiar Hippocampus amygdala volumes and
+psychopathology chronic schizophrenia Biol Psychiatr 
+Buchsbaum M S C S Mansour D G Teng A D Zia B V Siegel Jr and
+D M R 
+ Adolescent developmental change topography 
+EEG amplitude Schizophrenia Res 
+Clark A S N J MacLusky and P S Goldman Rakic Androgen
+binding and metabolism the cerebral cortexof the developing hesus
+monkey Endocrinology 
+Coffey C E W E Wilkinson LA Parashos S A R Soady R J Sullivan L J 
+Patterson G S Figiel M C Webb C E Spritzer and W T Djang 
+ cerebral anatomy
+ fthe 
+brain A cross sectional
+ study
+using magnetic resonance imaging Neurologv 
+Conners C K Rating scales drug studies with children Psychopharmacol special
+ issue 
+ rChildren 
+apy
+Cook M J D R Fish S D Shorvon K Straughan and J M Stevens 
+Hippocampal volumetric and morphometric studies frontal and
+temporal lobe epilepsy Brain 
+Cowell P E B I Turetsky R C Gur R I Grossman D L Shtasel and R E 
+Gur Sex differences aging the human frontal and temporal
+lobes J Neurosci 
+Denckla M B Revised physical and neurological examination for
+subtle signs Psychopharmacol Bull 
+Diamond M C D Krech and M R Rosenzweig The effects 
+enriched environment the histology the rat cerebral cortex J 
+Comp Neurol 
+Diener E E Sandvik and R F Larsen Age and sex effects for affect
+intensity Dev Psychol 
+Filipek P A C Richelme D N Kennedy and V S Caviness J The
+youngadult human brain An MRI based morphometric analysis Cereb 
+Cortex 
+Flaum M V W Swayze D S OLeary W T C Yuh J C Ehrhardt S V 
+ang
+Arndt and N C Andreasen Brain morphology schizophrenia 
+Effects diagnosis laterality and gender Am J Psychiatr press 
+Giedd J N J W Snell N Lange J C Rajapakse D Kaysen A C Vaituzis 
+Y C Vauss S D Hamburger P L Kozuch and J L Rapoport 
+Quantitative magnetic resonance imaging human brain development 
+Ages Cereb Cortex press 
+Goldberg T E E F Torrey K F Berman and D R Weinberger 
+Relations between neuropsychological performance and brain morphological and physiological measures monozygotic twins discordant for
+schizophrenia Psychiatr Kes 
+Gould E C S Woolley M Frankfurt and B S McEwen Gonadal
+steroids regulate dendritic spine density hippocampal pyramidal cells
+ adulthood J Neurosci 
+Gould E C S Woolley and B S McEwen The hippocampal formation Morphological changes induced thyroid gonadal and adrenal
+hormones Psychoneuroendocrinology 
+Goyette C H C K Conners and R F Ulrich Normative data the
+Revised Conners Parent and Teacher Rating Scales J Abnorm Child
+Psychol 
+Hastie T and R Tibshirani Generalized Additive Models London 
+Chapman and Hall 
+Jacobs L F S J Gaulin D F Sherry and G E Hoffman Evolution 
+spatial cognition Sex specific patterns spatial behavior predict hippocampal size Proc Natl Acad Sci USA 
+Jacobson M Developmental Neurobiology New York Plenum Press 
+Jastak S and G S Wilkinson Wide Range Achievement Test 
+Revised Edition Wilmington DE Jastak Assessment Systems 
+Jerslid A T Th Psychology Adolescence New York Macmillan
+Publishing Company 
+Krebs J R D F sherry S D Healy V H Perry and A L Vaccarino 
+Hippocampal specialization food storing birds Proc Natl Acad Sci 
+Lencz T G McCarthy R A Bronen T M Scott J A Inserni K J Sass 
+R A Novelly J H Kim and D D Spencer Quantitative magnetic
+ temporal lobeepilepsy Relationship neuropathology and neuropsychological function Ann Neurol 
+ill M M E and R Sapolsky
+Short term effectsof
+glucocorticoids upon hippocampa ultrastructure E 
+ R 
+Morse J K S W Scheff and S T DeKosky Gonadal steroids
+influence sprouting the hippocampal dentate A sexually
+response 
+Neural 
+Murphy D GM C DeCarli E Day J Haby G Allen BJ White 
+Powell B Horowitz S Rawport and M B Shapiro Effects 
+the X chromosome female brain A study turner syndrome using
+quantitative magnetic resonance imagng Lancet 
+Murphy D G M C DeCark A R McIntosh E D J Szczepanik M B 
+Schapiro S I Rapoport and B Horwitz Sex differences human
+brain morphometry A quantitative vivo magnetic resonance imaging
+study theeffect ofaging Arch Gen Psychiatry press 
+In R 
+ Nolte J 
+ Olfactory and limbic systems 
+ Farrell 
+ The Human
+Brain An Introduction its Functional Anatomy St Louis MosbyYear Book In 
+Rasband W Image Bethesda MD National Institutes 
+Heakh
+Sapolsky R M Glucocorticoids hippocampal damage and the glutamatergic synapse Progr Brain Res 
+Sapolsky R M L C Krey and B S McEwen Prolonged glucocorticoid exposure reduces hippocampal neuron number Implications for
+aging J Neurosci 
+SAS Institute SAS Version Cary NC SAS Institute Inc 
+Shenton M E R Kikinis F A Jnlesz S D Pollak M LeMay C G Wible H 
+Hokama J Martin D Metcalf and M Coleman Abnormalities 
+the left temporal lobe and thought disorder schizophrenia A quantitative magnetic resonance imaging study N Engl J Med 
+Sherry D F A L Vaccarino K Buckenham and R S Herz The
+hippocampal complex food storing birds Brain Behav Evol 
+She D F L F Jacobs and S J 
+ Spatial
+ memory
+ and
+adaptive specialization the hippocampus see commentsl Trends
+Neurosci 
+Sholl S A 
+and K L Kim Estrogen receptors the rhesus monkey
+brain during fetal development Dev Brain Res 
+Snell J W M B Merickel J M Ortega J C Goble J R Brookeman and
+N F Kassell Boundary estimation complex objects using
+hierarchical active surface templates J Pattern Recogn press 
+Swayze V W N C Andreasen R J Alliger W T Yuh and J C Ehrhardt
+ Subcortical and temporal structures affective disorder and
+schizophrenia A magnetic resonance imaging study see commentsl 
+Biol Psychiatr 
+Wechsler D Wechsler Intelligence Scale for Children Revised New
+York The Psychological Corporation 
+J N GIEDD ET AL 
+Wechsler D Wechsler Adult Intelligence Scale Revised New York 
+The Psychological Corporation 
+Weinberger D R Schizophrenia neurodeveloprnental disorder A
+review the concept In S R Hirsch and D R Weinberger eds 
+Schizophrenia London Blackwood Press 
+Welner Z W Reich B Herjanic K Jung and H Amado Reliability 
+validity and child agreement studies the diagnostic interview 
+children and adolescents DICA J Am Acad Child Adolesc Psychiatr 
+Woodcock R W and B B Johnson WoodcockJohnson Psychoeducational Battery Allen T X DLM Teaching Resources 

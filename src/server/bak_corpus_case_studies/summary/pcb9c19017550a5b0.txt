@@ -1,0 +1,19 @@
+Hyperperfusion in the occipital areas and hypoperfusion in the fronto-temporo-limbic regions may be potential imaging biomarkers for depression in PD. Keywords Parkinson's disease  Depression  Brain perfusion  SPECT  Regional cerebral blood flow Introduction Although Parkinson's disease is primarily characterized by several motor symptoms, including tremor, rigidity, and bradykinesia, it is frequently accompanied by other nonmotor symptoms, such as depression, anxiety, fatigue, and sleep disturbance.
+
+A number of studies have suggested that 123 Ann Nucl Med degeneration of the mesolimbic and mesocortical pathways may be related to depression in PD [3, 4]. To investigate the neural substrates underlying depressive symptoms in PD, only a few studies using singlephoton emission computed tomography have examined regional cerebral blood flow in the PD patients with and without depression.
+
+For the ROI analysis, four bilateral ROIs in the limbic system were selected based on the previous review of neuroimaging studies in depression : the amygdala, anterior cingulate cortex, hippocampus, and parahippocampal gyrus.
+
+Inverse correlations between the GABA levels and rCBF in the brain have also been suggested by the previous literature [21, 22]. Further studies are warranted to examine structural, functional, or metabolic changes in the occipital area and potential visual impairments in PD with depression, since both subjective visual deficits and changes of visual evoked potential [24, 25] were observed in patients with major depression.
+
+These results correspond with the findings of the previous neuroimaging studies in major depression that have consistently reported both functional and structural alterations in these areas [26-28]. The superior temporal gyrus in combination with the frontolimbic areas has been known to be involved in emotional processing and social cognition [29, 30]. Functional neuroimaging studies demonstrated that patients with major depression exhibited abnormal functional connectivity and decreased activation at rest or to sad stimuli in this region.
+
+The rCBF decrease in the medial orbitofrontal area is in line with the previous studies that revealed hypometabolism in the same region in depressed PD patients when compared with nondepressed PD patients [15, 32]. Interestingly, the orbitofrontal cortex, which has reciprocal connections with both the ventral tegmental area and dorsal raphe, may play important roles in the pathophysiology of depression with PD [33, 34]. Although still speculative, the degeneration of dopaminergic system may cause the functional deficits in orbitofrontal cortex, which, in turn, may affect serotonergic system and cause depressive symptoms.
+
+RCBF alterations in the amygdala, hippocampus, and parahippocampal gyrus have not been suggested in the previous studies of depressed PD patients [5, 35, 36]. In addition, perfusion studies of major depression have also demonstrated inconsistent results regarding the activation of the limbic regions [37-40]. Our results suggest that depression with PD may be characterized by coherent decreases of rCBF in the major limbic areas.
+
+GABAergic neurons in the occipital cortex in major depression: relevance to neuroimaging studies.
+
+An MRI study of the superior temporal subregions in patients with current and past major depression.
+
+99mTc-HMPAO SPECT study of cerebral perfusion after treatment with medication and electroconvulsive therapy in major depression.

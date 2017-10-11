@@ -1,0 +1,19 @@
+In the discriminant function analysis which included the volumes of the hippocampus, amygdala, and the frontal lobes and age, the volumes of the left and right hippocampus, the left and right frontal lobe, and the right amygdala entered the model and we could correctly classify 92% of the subjects into AD and control groups.
+
+In AD patients the volumes of the left hippocampus correlated significantly with the MMSE score and with immediate and delayed verbal memory; the smaller the volume the more impaired was their performance.
+
+Memory loss is the most common early symptom in AD. The hippocampus, which is closely associated with memory processing, is known to be vulnerable to damage in the early stage of AD. The purpose of our study was to assess the usefulness of MRI volume measurements in the diagnosis of early AD. To this end we measured the volumes of the hippocampus, the amygdala and the frontal lobes using thin slices to obtain as precise information as possible.
+
+The volume of the lateral ventricles was also measured and consequently subtracted from the volume of the slice.
+
+The volume of each slice was multiplied by three and thereafter, the slice volumes were summed.
+
+The second analysis included the volumes of the right and left hippocampus and both volumes entered the m o d e l and resulted in a correct classification in 94% of A D patients and 84% of controls.
+
+In the third analysis comprising the volumes of the frontal lobes, only the volume of the left frontal lobe entered the model and the correct classification was achieved in 66% of A D patients and 63% of controls.
+
+The combined analysis included all volumes measured as well as age; the volumes of the left and right hippocampus, the left and right frontal lobe, and the right amygdala entered the model Table 4.
+
+Discriminant function analysis between Alzheimer patients and controls including volumes of the hippocampus, amygdala, and frontal lobes, and age Step Volume Wilks' lambda Explains % of variance Standardized canonical discriminant function coefficient 1 2 3 4 5 Left hippocampus Right hippocampus Left frontal cortex Right frontal cortex Right amygdala 0.52 0.48 0.44 0.39 0.38 48 52 56 61 62 0.91 0.29 0.81 -0,65 -0.27 The volumes of the left and right hippocampus, the left and right frontal lobe, and the right amygdala entered the model controls.
+
+Measured volumes of amygdala in 11 patients with early AD and 6 controls and found a 43.5% difference in the volume of the amygdala with only one overlap between the AD and the control group.

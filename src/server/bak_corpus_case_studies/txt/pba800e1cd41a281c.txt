@@ -1,0 +1,535 @@
+Differential Atrophy Hippocampal
+Subelds A Comparative Study Dementia
+with Lewy Bodies and Alzheimer Disease
+Elijah Mak B A Su Li Ph D Guy B Williams Ph D Rosie Watson Ph D 
+Michael Firbank Ph D Andrew Blamire Ph D John OBrien D M 
+Objectives Dementia with Lewy bodies DLB characterized relative preservation the medial temporal lobe compared with Alzheimer disease AD The differential involvement the hippocampal subelds both diseases has not been clearly
+established however We aim investigate hippocampal subeld differences vivo 
+ clinical cohort DLB and AD subjects Methods participants DLBs ADs 
+and healthy comparison HC subjects underwent clinical assessment and T weighted imaging A Bayesian model implemented Freesurfer was used automatically segment the hippocampus and its subelds We also examined associations
+between hippocampal subelds and tests memory function Results Both the AD
+and DLB groups demonstrated signicant atrophy the total hippocampus relative 
+HC but the DLB group was characterized preservation the cornu ammonis 
+ mbria and ssure In contrast all the hippocampal subelds except the ssure
+were signicantly atrophied AD compared with both DLB and HC groups Among
+DLB subjects was correlated with the Recent Memory score the CAMCOG and
+Delayed Recall subscores the HVLT Conclusions DLB characterized milder
+hippocampal atrophy that was accompanied preservation the The was
+also associated with memory function DLB Our ndings highlight the promising
+role hippocampal subeld volumetry particularly that the biomarker
+for the distinction between AD and DLB Am J Geriatr Psychiatry 
+Key Words Lewy bodies Alzheimer disease neuroimaging MRI hippocampus
+D
+ementia with Lewy bodies DLB the second
+leading cause degenerative dementia older
+people after Alzheimer disease AD accounting for
+ cases autopsy DLB shares common
+clinical neuropsychological and pathological features with other dementia subtypes such AD and
+Received January revised June accepted June From the Department Psychiatry EM SL JO School Clinical
+Medicine Addenbrooke University Cambridge UK Wolfson Brain Imaging Centre GW University Cambridge UK Department 
+Aged Care RW The Royal Melbourne Hospital Melbourne Australia Institute Neuroscience RW Newcastle University Newcastle 
+UK The Florey Institute Neuroscience and the Department Medicine RW Institute Neuroscience Newcastle University Newcastle 
+UK MF The University Melbourne Parkville Australia and the Institute Cellular Medicine and Newcastle Magnetic Resonance Centre
+ AB Newcastle UK Send correspondence and reprint requests Professor John OBrien D M Foundation Professor Old Age Psychiatry Department Psychiatry University Cambridge School Clinical Medicine Box Level Cambridge Biomedical Campus 
+Cambridge SP UK mail john obrienmedschl cam 
+ American Association for Geriatric Psychiatry
+http doi org jagp 
+Am J Geriatr Psychiatry
+Differential Atrophy Hippocampal Subelds
+Parkinson disease with dementia making differentiation between these disorders challenging Despite
+the development consensus diagnostic criteria the
+sensitivity for differential diagnosis DLB clinical
+practice remains low with many DLB subjects misdiagnosed In light this uncertainty and with
+important implications for subsequent patient management there need for reliable imaging markers
+ help distinguish DLB from other subtypes dementia most especially AD 
+Structural neuroimaging studies have found
+reduced global atrophy DLB compared with AD 
+The relative preservation the hippocampus DLB
+compared with AD recognized one the most
+consistent structural magnetic resonance imaging
+ MRI ndings and has been incorporated 
+supportive feature the revised criteria for the
+diagnosis DLB 
+Most previous studies however have compared
+total hippocampal volumes using region interest
+approach Considering the functional specialization
+ the histologically distinct subelds the hippocampus local analyses the hippocampus are
+increasingly recognized viable method characterize the involvement cytoarchitectonic regions
+ the pathology neurodegenerative diseases most
+commonly AD mild cognitive impairment and
+Parkinson disease 
+Using manual tracing technique T MR images Mueller and have demonstrated
+atrophy the cornu ammonis CA and the subiculum AD Interestingly similar pattern 
+hippocampal changes healthy comparisons HCs 
+has also been associated with development 
+amnestic mild cognitive impairment There also
+histopathological evidence that the region 
+preferentially vulnerable the neuropathology 
+AD 
+There have been few direct comparisons the
+hippocampal subelds DLB and AD Two previous studies have reported milder degree atrophy
+ the subiculum and regions the hippocampus DLB compared with AD although another
+study did not any signicant difference hippocampal volumes As such the clinical utility 
+hippocampal subeld volumetry aid the differential diagnosis DLB from AD remains unclear 
+The discrepancy ndings the literature could
+ attributed the variability methods that are
+currently used examine the hippocampal subelds 
+To date manual tracing widely acknowledged 
+the gold standard hippocampal subeld delineation It labor intensive however and its reproducibility might limited inter intra rater
+variability There also the possibility asymmetric
+bias manual segmentations because laterality 
+visual perception To overcome these limitations 
+ used validated and automated 
+compare the volumetric differences the hippocampal subelds DLB and AD and investigate
+their associations with memory performance 
+METHODS
+Subjects Assessment and Diagnosis
+Seventy one individuals over the age years
+ subjects with probable and with probable
+ were recruited from community dwelling
+population patients referred local Old Age
+Psychiatry Geriatric Medicine Neurology Services Thirty similarly aged HC subjects were
+recruited from relatives and friends subjects with
+dementia volunteered via advertisements local
+community newsletters The research was approved
+ the local ethics committee All subjects where
+appropriate their nearest relative provided written
+informed consent 
+Subjects underwent clinical and neuropsychological evaluation Neuropsychological assessments 
+global cognitive measures included the Cambridge
+Cognitive Examination CAMCOG which incorporates the Mini Mental State Examination
+ MMSE addition number subscales
+assessing domains including orientation language 
+memory attention praxis calculation abstract
+thinking and perception Verbal and visuospatial
+memory was assessed with the Hopkins Verbal
+Learning Test HVLT and the Brief Visuospatial
+Memory Test BVMT respectively Motor parkinsonism was evaluated with the Unied Parkinsons
+Disease Rating Scale Part III UPDRS For
+subjects with dementia neuropsychiatric features
+were examined with the Neuropsychiatric Inventory
+ NPI and cognitive uctuations were assessed
+with the cognitive uctuation scale test obtain
+Am J Geriatr Psychiatry
+Mak 
+FIGURE Segmented hippocampal subelds from each representative subject all three diagnostic groups 
+information about the historical pattern cognitive
+uctuation over time patient 
+MRI Acquisition
+Subjects underwent weighted MR scanning 
+the same T MRI system using eight channel head
+coil Intera Achieva scanner Philips Medical Systems Eindhoven Netherlands The sequence was 
+standard weighted volumetric sequence covering
+the whole brain D MPRAGE sagittal acquisition 
+ isotropic resolution and matrix size 
+anterior posterior superior inferior 
+right left repetition time TR echo time
+TE angle SENSE factor 
+Image Analysis
+Cortical reconstruction and volumetric segmentation MRI scans were processed the same
+workstation using the Freesurfer image analysis
+suite http surfer nmr mgh harvard edu The
+technical details have been described previously 
+In summary the initial processing MRI images
+includes the following steps removal non brain
+tissue automated Talairach transformation segmentation the subcortical white matter and deep
+gray matter volumetric structures intensity
+normalization tessellation the gray matter 
+white matter boundary automated topology correction and surface deformation optimally place the
+gray matter white matter and gray matter cerebrospinal uid boundaries All surface models our
+study were visually inspected for accuracy and
+Am J Geriatr Psychiatry
+manual corrections while blinded diagnostic information Two subjects both AD subjects with
+extensive pial white matter surface errors failed the
+hippocampal segmentations and were excluded from
+the analyses The data set for all subsequent analyses
+comprised HC AD and DLB subjects 
+Total hippocampal volumes were obtained from
+the automated pipeline for volumetric segmentation
+ subcortical structures implemented Freesurfer 
+Subsequently the hippocampal subelds were
+segmented using Bayesian inference approach and
+ probabilistic atlas the hippocampal formations
+based manual delineations subelds from
+several training subjects The left and right hippocampi were segmented into seven subelds 
+ eDG subiculum presubiculum 
+mbria and hippocampal ssure Fig The
+detailed procedures for subeld delineations have
+been described elsewhere 
+Statistical Analyses
+Statistical analyses were performed with 
+ http www stata com software The distribution
+ continuous variables was tested for normality using the Skewness Kurtosis test and visual inspection
+ histograms Demographic differences across the
+three diagnostic groups were assessed with analysis
+ variance ANOVA the Kruskal Wallis test and
+clinical and cognitive scores were compared between
+DLB and AD using tests Mann Whitney tests
+depending the normality distributions The 
+test was used examine sex distributions between
+groups Comparisons hippocampal subeld
+Differential Atrophy Hippocampal Subelds
+TABLE Demographics and Clinical and Neuropsychological
+Measures
+HC
+DLB
+AD
+ Value
+N
+Sex M F 
+Age years F 
+Education 
+ years 
+UPDRS
+NPI
+CogFluct
+MMSE
+CAMCOG 
+HVLT Total 
+Recall
+HVLT Delay 
+Recall
+Retention
+BVMT Total 
+Notes Values expressed Mean SD AD Alzheimers disease BVMT Brief Visuospatial Memory Test UDLB dementia
+with Lewy bodies HC Healthy comparison subjects CAMCOG 
+Cambridge Cognitive Examination CogFluct Cognitive Fluctuation Scale HVLT Hopkins Verbal Learning Test MMSE MiniMental State examination NPI Neuropsychiatry Inventory 
+PDRS Unied Parkinsons Disease Rating Scale Part III 
+ signifcant 
+ANOVA 
+Kruskal Wallis test 
+Mann Whitney test AD and DLB 
+Students test AD and DLB 
+volumes between groups were examined with analysis covariance ANCOVA controlling for age 
+sex education and intracranial volume ICV followed post hoc pairwise Bonferroni tests Subsequently also performed Bonferroni correction for
+the number subelds with adjusted signicance threshold equal Within each
+group further investigated associations hippocampal subelds that were differentially affected
+with memory functions scores using partial correlations account for the effects age sex education 
+and ICV 
+groups were well matched for age F 
+ sex and years 
+education As expected the
+DLB group had signicantly higher UPDRS scores
+than the AD group Z DLB
+subjects also scored signicantly higher the
+Cognitive Fluctuations Scale Z 
+although there were signicant differences between dementia groups scores NPI Z 
+ MMSE 
+CAMCOG and HVLTTotal Recall Compared
+with the DLB group the AD group performed
+signicantly poorer the HVLT Delayed Recall
+ Z and HVLT Retention
+ Z 
+Hippocampal Subelds
+The volumetric comparisons the hippocampal
+subelds between groups are shown and
+Table Overall ANCOVA analyses revealed main
+effect diagnosis total hippocampal volumes 
+The AD group showed the most atrophy the hippocampus with the DLB group being intermediate
+between AD and HC AD DLB HC The relative
+extent hippocampal subeld atrophy DLB and
+AD compared with the healthy comparison group 
+shown Table After controlling for age sex education and ICV found signicant atrophy
+affecting all the hippocampal subelds with the
+exception the ssure AD compared with both
+HC and DLB groups In contrast the mbria 
+and the ssure were preserved DLB relative HC 
+Correlations with Memory Functions
+Hippocampal subeld analyses revealed that the
+ volumes DLB were also signicantly correlated with the Recent Memory scores the CAMCOG and Delayed Recall scores
+from the HVLT The AD group
+did not show any signicant associations total
+hippocampus and the with any cognitive test 
+RESULTS
+Subject Characteristics
+DISCUSSION
+The demographic and clinical data for patients and
+HC subjects are summarized Table Subject
+The main ndings the study were DLB was
+associated with signicantly milder hippocampal
+Am J Geriatr Psychiatry
+Mak 
+FIGURE Volumetric comparisons hippocampal subelds AD N DLB N and HC N subjects mean
+ SD The bars the gure represent standard error bars AD Alzheimer disease CA cornu ammonis DG Dentate
+gyrus DLB dementia with Lewy bodies HC healthy comparison subjects 
+TABLE Volumetric Comparisons Hippocampal Subelds
+HC N 
+DLB N 
+AD N 
+Hippocampal Subelds 
+Mean
+SD
+Mean
+SD
+Mean
+SD
+Group Comparisons 
+Total
+Presubiculum
+Fimbria
+Subiculum
+eDG
+Fissure
+Notes After Bonferroni correction for the number subelds the signicance threshold set AD Alzheimer disease CA 
+cornu ammonis DG dentate gyrus DLB dementia with Lewy bodies HC healthy comparison subjects 
+ANCOVA controlling for age sex education and intracranial volumes with post hoc Bonferroni pairwise tests 
+AD HC 
+AD DLB 
+DLB HC 
+atrophy than AD AD showed global pattern 
+hippocampal atrophy affecting all the subelds with
+the exception the ssure the region was
+relatively preserved DLB compared with HC and
+AD groups and the region associated with
+memory functions DLB 
+Am J Geriatr Psychiatry
+Neuropathological studies have shown that the
+hippocampus one the earliest sites pathology
+ the disease course AD which progresses 
+systematic fashion Neurobrillary tangle originates
+ entorhinal areas before spreading the and
+subiculum and subsequently the and 
+Differential Atrophy Hippocampal Subelds
+TABLE Relative Extent Percent Total and Regional
+Hippocampal Atrophy AD and DLB Compared
+with Healthy Comparison Subjects
+Total hippocampus
+Presubiculum
+Fimbria
+Subiculum
+DG
+Fissure
+AD
+DLB
+Notes DG dentate gyrus 
+areas before affecting the neocortex Despite
+growing evidence suggesting that the neurodegenerative pathology not uniformly distributed
+throughout the hippocampus the majority volumetric studies DLB and AD have considered the
+hippocampus unitary structure Therefore 
+appreciate the complex anatomical structure the
+hippocampus used automated technique 
+compare local volumetric differences the hippocampus DLB subjects with those AD and agematched HC subjects 
+In accordance with previous estimates hippocampal atrophy ranging from 
+demonstrated that AD subjects had smaller
+hippocampal volumes relative HC subjects At the
+subregional level found that the AD group had
+signicant atrophy all hippocampal subelds
+compared with both DLB and HC groups with the
+exception the ssure Our nding corroborated
+ previous imaging studies including postmortem
+evidence indicating greater and
+subiculum atrophy AD relative HC Taken
+together the global pattern hippocampal atrophy
+observed our AD group congruent with previous nding that subeld measurements may not
+confer additional sensitivity over total hippocampus
+volumes the detection AD 
+The relative preservation the hippocampus 
+DLB compared with AD agreement with the
+ and with the different neuropsychological proles each group where memory decits
+are more prominent AD Previous studies have
+also suggested that DLB associated with lesser
+pathology affecting the perforant pathways 
+To date only few studies have compared atrophy
+patterns the hippocampal subelds between DLB
+and AD with considerable heterogeneity methodologies and ndings The mbria and ssure
+were the most preserved regions our DLB subjects 
+Notably the present results are partial agreement
+with previous work from our group In that study 
+ used manual drawing approach and reported 
+lower degree atrophy affecting the and subiculum regions DLB compared with AD It 
+noteworthy that our ndings despite different
+methodologies automatic segmentation versus
+manual tracing are also consistent with histopathological evidence DLB indicating that neuronal
+loss and Lewy neurites are largely conned the
+presubiculum and the with sparing the
+ and subiculum regions Nevertheless two
+previous studies using the hippocampal radial distance technique have reported increased atrophy
+ rather than preservation the DLB relative
+ HC Methodological differences the
+anatomical delineations the subelds might account for the conicting ndings The well 
+other hippocampal structures are parallel each
+other and are organized along the anterior medial 
+posterior lateral axis the hippocampus The hippocampal radiance distance technique which measures perpendicular directions this axis might
+ limited its capacity reveal differential volume
+changes and other subelds and fact 
+overestimate the volume reduction due 
+atrophy other parallel structures 
+The hippocampus complex structure with
+interconnected subelds having different projections 
+The has extensive reciprocal projections with the
+entorhinal cortex and emerging evidence from highresolution T and studies have
+pointed toward critical involvement neurons
+ episodic memory functions The preservation the
+ region DLB subjects also parallels with significantly better memory function compared with AD
+subjects our study Furthermore consistent with our
+previous work the volumes our DLB group
+were also signicantly associated with memory functions We are not aware other studies that have
+examined correlations hippocampal subelds with
+cognitive measures DLB 
+Although previous study using the same Freesurfer technique has reported correlation between
+hippocampal volumes and delayed recall scores 
+AD did not any signicant association 
+Am J Geriatr Psychiatry
+Mak 
+the AD group with memory function most likely due
+ oor effect memory performance In future 
+the domain specic contribution hippocampal
+subelds will better understood this automated
+technique receives more recognition 
+The major strengths the study include the
+comprehensive neuropsychological assessment and 
+well characterized group probable DLB and AD
+subjects Furthermore light signicant disparities age sex and across comparison
+groups previous studies extend the literature
+ investigating cohort that was matched for age 
+sex and educational level We also used publicly
+available technique that capable segmenting the
+hippocampal subelds reproducible and automatic fashion Thus are able address limitations associated with manual delineations the
+hippocampus and the practical challenges processing large data sets Lastly this technique has also
+been validated against manual volume estimations 
+Nevertheless the operational denition the medial
+boundaries varies between segmentation
+protocols resulting smaller volume for
+the Freesurfer technique compared with other
+studies Also whereas this method reports 
+combined volume others have reported separately and combined with 
+and dentate gyrus In addition Van Leemput 
+originally assessed hippocampal subelds with ultrahigh resolution MPRAGE slice thickness 
+and enhanced signal noise ratio Consistent with
+other studies used standard T MPRAGE
+acquisition sequence slice thickness 
+isotropic However this automated technique has
+been used segment hippocampal subelds from
+ T scans with much lower resolution and longer
+acquisition time minutes Finally although this
+technique has been widely applied neurodegenerative diseases the probabilistic atlas from Van
+Leemput was built upon healthy subjects but
+this inherent limitation many imaging studies
+where common template necessary for the
+investigation group differences Hence some
+caution must exercised comparing ndings
+between studies 
+Additional potential limitations this study
+include the lack neuropathological verication 
+AD and DLB subject groups were based clinical diagnosis though this inherent limitation 
+all antemortem imaging studies Furthermore 
+have previously demonstrated good agreement between clinical and pathological diagnosis using the
+consensus clinical diagnostic method adopted here 
+CONCLUSIONS
+To date very few studies have compared atrophy
+patterns the hippocampal subelds DLB and
+AD The main ndings preservation and
+milder global hippocampal atrophy clinically
+diagnosed DLB subjects are largely consistent with
+the topography neuronal loss described histopathological studies well with previous imaging
+studies The distinct involvement the DLB
+and AD suggests that hippocampal subeld volumetry could promising biomarker aid the
+differential diagnosis DLB 
+This work was supported the Sir Jules Thorn
+Charitable Trust grant JTA the NIHR Biomedical
+Research Unit Dementia and the Biomedical Research
+Centre awarded Cambridge University Hospitals NHS
+Foundation Trust and the University Cambridge and
+the NIHR Biomedical Research Unit Dementia and the
+Biomedical Research Centre awarded Newcastle upon
+Tyne Hospitals NHS Foundation Trust and the Newcastle
+University Elijah Mak was receipt Gates Cambridge PhD studentship and Alzheimers Research UK
+Cambridge Network Award 
+John OBrien has acted consultant for GE
+Healthcare Lilly TauRx and Cytox 
+References
+McKeith IG Dickson DW Lowe J Diagnosis and management dementia with Lewy bodies third report the DLB
+Consortium Neurology 
+Mak E Su L Williams G OBrien J Neuroimaging characteristics dementia with Lewy bodies Alzheimers Res Ther 
+Am J Geriatr Psychiatry
+Watson R OBrien JT Barber R Patterns gray matter
+atrophy dementia with Lewy bodies voxel based
+morphometry study Int Psychogeriatr 
+Apostolova LG Mosconi L Thompson PM Subregional
+hippocampal atrophy predicts Alzheimers dementia the
+cognitively normal Neurobiol Aging 
+Differential Atrophy Hippocampal Subelds
+Pereira JB Junque C Bartres Faz D Regional vulnerability 
+hippocampal subelds and memory decits Parkinsons disease Hippocampus 
+Mueller SG Weiner MW Selective effect age Apo and
+Alzheimers disease hippocampal subelds Hippocampus
+Bobinski M Leon MJ Tarnawski M Neuronal and volume
+loss the hippocampal formation uniquely predicts
+duration and severity Alzheimer disease Brain Res 
+Firbank MJ Blamire AM Teodorczuk A High resolution
+imaging the medial temporal lobe Alzheimers disease
+and dementia with Lewy bodies J Alzheimers Dis 
+Sabattoli F Boccardi M Galluzzi S Hippocampal shape
+differences dementia with Lewy bodies Neuroimage 
+Chow N Aarsland D Honarpisheh H Comparing hippocampal atrophy Alzheimers dementia and dementia with Lewy
+bodies Dement Geriatr Cogn Disord 
+Maltbie E Bhatt K Paniagua B Asymmetric bias user
+guided segmentations brain structures Neuroimage 
+Van Leemput K Bakkour A Benner T Automated segmentation hippocampal subelds from ultra high resolution
+ vivo MRI Hippocampus 
+McKhann G Drachman D Folstein M Clinical diagnosis 
+Alzheimers disease report the NINCDS ADRDA Work Group
+under the auspices Department Health and Human Services
+Task Force Alzheimers Disease Neurology 
+Huppert FA Brayne C Gill C CAMCOGa concise neuropsychological test assist dementia diagnosis sociodemographic determinants elderly population sample Br
+J Clin Psychol 
+Folstein MF Folstein SE McHugh PR Mini mental state A
+practical method for grading the cognitive state patients for
+the clinician J Psychiatr Res 
+Brandt J The Hopkins verbal learning test development new
+memory test with six equivalent forms Clin Neuropsychol 
+Benedict RHB Schretlen D Groninger L Revision the
+Brief Visuospatial Memory Test studies normal performance 
+reliability and validity Psychol Assess 
+Movement Disorder Society Task Force Rating Scales
+for Parkinsons Disease The Unied Parkinsons Disease Rating
+Scale UPDRS status and recommendations Mov Disorde 
+Cummings JL Mega M Gray K The Neuropsychiatric Inventory comprehensive assessment psychopathology dementia Neurology 
+Walker MP Ayre GA Cummings JL The clinician assessment uctuation and the one day uctuation assessment scale 
+Two methods assess uctuating confusion dementia Br J
+Psychiatry 
+Fischl B Dale AM Measuring the thickness the human cerebral
+cortex from magnetic resonance images Proc Natl Acad Sci U S A
+Fischl B Sereno MI Dale AM Cortical surface based analysis II 
+Ination attening and surface based coordinate system 
+Neuroimage 
+Segonne F Dale AM Busa E A hybrid approach 
+the skull stripping problem MRI Neuroimage 
+Fischl B Salat DH van der Kouwe AJW Sequence independent segmentation magnetic resonance images Neuroimage suppl 
+Sled JG Zijdenbos AP Evans AC A nonparametric method for
+automatic correction intensity nonuniformity MRI data IEEE
+Trans Med Imaging 
+Segonne F Pacheco J Fischl B Geometrically accurate topologycorrection cortical surfaces using nonseparating loops IEEE
+Trans Med Imaging 
+Schnheit B Zarski R Ohm TG Spatial and temporal relationships between plaques and tangles Alzheimer pathology 
+Neurobiol Aging 
+Callen DJ Black SE Gao F Beyond the hippocampus MRI
+volumetry conrms widespread limbic atrophy AD Neurology
+Apostolova LG Dinov ID Dutton RA D comparison 
+hippocampal atrophy amnestic mild cognitive impairment and
+Alzheimers disease Brain 
+Bobinski M Wegiel J Wisniewski HM Atrophy hippocampal formation subdivisions correlates with stage and duration
+ Alzheimer disease Dementia 
+Harding AJ Lakay B Halliday GM Selective hippocampal neuron
+loss dementia with Lewy bodies Ann Neurol 
+Mueller SG Schuff N Yaffe K Hippocampal atrophy patterns mild cognitive impairment and Alzheimers disease Hum
+Brain Mapp 
+Lippa CF Pulaski Salo D Dickson DW Alzheimers disease 
+Lewy body disease and aging comparative study the perforant pathway J Neurol Sci 
+Duvernoy H The Human Hippocampus Functional Anatomy 
+Vascularization and Serial Sections with MRI Berlin Springer 
+Mueller SG Chao LL Berman B Evidence for functional
+specialization hippocampal subelds detected MR subeld
+volumetry high resolution images T Neuroimage 
+Rempel Clower NL Zola SM Squire LR Three cases
+ enduring memory impairment after bilateral damage
+limited the hippocampal formation J Neurosci 
+Lim HK Hong SC Jung WS Automated segmentation
+ hippocampal subelds drug nave patients with Alzheimer disease AJNR Am J Neuroradiol 
+Mueller SG Stables L Du AT Measurement hippocampal
+subelds and age related changes with high resolution MRI T 
+Neurobiol Aging 
+McKeith IG Ballard CG Perry RH Prospective validation 
+consensus criteria for the diagnosis dementia with Lewy
+bodies Neurology 
+Am J Geriatr Psychiatry

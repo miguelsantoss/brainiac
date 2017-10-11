@@ -1,0 +1,614 @@
+Neurodegeneration
+REVIEW
+An algorithmic approach structural imaging
+ dementia
+Lorna Harper Frederik Barkhof Philip Scheltens Jonathan M Schott Nick C 
+Department 
+Neurodegenerative Disease 
+Dementia Research Centre 
+UCL Institute Neurology 
+London UK
+Department Radiology 
+VU University Medical Centre 
+Amsterdam Netherlands
+Department Neurology 
+VU University Medical Centre 
+Amsterdam Netherlands
+Correspondence 
+Professor Nick C Fox 
+Department 
+Neurodegenerative Disease 
+Dementia Research Centre 
+UCL Institute Neurology 
+ Queen Square 
+London N BG UK 
+ foxucl 
+Received July 
+Revised September 
+Accepted September 
+Published Online First
+ October 
+ABSTRACT
+Accurate and timely diagnosis dementia important
+ guide management and provide appropriate
+information and support patients and families 
+Currently with the exception individuals with genetic
+mutations postmortem examination brain tissue
+remains the only denitive means establishing
+diagnosis most cases however structural
+neuroimaging combination with clinical assessment 
+has value improving diagnostic accuracy during life 
+Beyond the exclusion surgical pathology signal
+change and cerebral atrophy visible structural MRI
+can used identify diagnostically relevant imaging
+features which provide support for clinical diagnosis 
+neurodegenerative dementias While structural
+imaging feature has perfect sensitivity and specicity for
+ given diagnosis there are number imaging
+characteristics which provide positive predictive value
+and help narrow the differential diagnosis While
+neuroradiological expertise invaluable accurate scan
+interpretation there much that non radiologist can
+gain from focused and structured approach scan
+analysis In this article describe the characteristic MRI
+ndings the various dementias and provide 
+structured algorithm with the aim providing clinicians
+with practical guide assessing scans 
+INTRODUCTION
+Open Access
+Scan access more
+free content
+To cite Harper L 
+Barkhof F Scheltens P 
+J Neurol Neurosurg
+Psychiatry 
+There are estimated million people with
+dementia worldwide with this gure expected 
+double every years the population ages In
+response this challenge number countries have
+committed long term national dementia strategies 
+which include improving timely diagnosis For
+many patients there are delays diagnosis dementia preventing them from accessing relevant care services information and treatment Patients with
+unrecognised cognitive impairment present range
+ clinical settings often with health concerns unrelated dementia one study those aged
+over years admitted acute medical admissions unit had dementia with only half having been
+diagnosed prior admission 
+The most common causes dementia are
+Alzheimers disease AD vascular disease several
+forms dementia with Lewy bodies DLB and frontotemporal lobar degeneration FTLD but there are
+many others Accurate and early diagnosis has
+considerable implications for the patient terms 
+prognosis and management and will increasingly
+important and when disease modifying treatments
+become available Currently postmortem examination brain tissue remains the only denitive
+means establishing diagnosis most cases 
+Molecular biomarkers are now available provide
+support for diagnosis AD life for example 
+amyloid imaging with positron emission tomography PET and cerebrospinal uid CSF analysis
+ amyloid A and tau however these
+markers are mainly research tools and denitive
+blood tests are still lacking Until these techniques
+become widely available structural neuroimaging 
+combination with clinical assessment offers the
+greatest utility improving diagnostic accuracy
+during life 
+The UK National Institute Health and Care
+Excellence NICE European and US diagnostic
+ recommend that structural imaging
+ non contrast enhanced CT ideally MRI should
+ performed the evaluation patients with suspected dementia In recognition advances 
+imaging research the justication for this has
+shifted from the exclusion surgical pathology
+ cerebral tumours although still relevant 
+the inclusion features that help support clinical diagnosis the underlying cause the
+dementia MRI offers number advantages over
+ and the imaging modality choice identifying diagnostic imaging features While
+ structural imaging features have perfect sensitivity
+and specicity for any given diagnosis there are 
+number which provide positive predictive value and
+help narrow the differential diagnosis the most
+likely underlying pathologies By describing these
+characteristic MRI ndings the context structured algorithm this article aims provide clinicians
+with practical means extracting useful imaging
+features common dementias order improve
+diagnostic accuracy While neuroradiology expertise
+ invaluable accurate scan interpretation there 
+much that non radiologist can gain from focused
+and structured approach scan analysis 
+SYSTEMATIC ASSESSMENT OF STRUCTURAL
+IMAGING
+Beyond the exclusion surgical pathology structural
+MRI patients with suspected dementia should 
+assessed terms signal change MRI and cerebral atrophy systematic fashion The assessment
+ signal change using weighted imaging uid
+attenuated inversion recovery FLAIR can used 
+help identify vascular damage but can also indicate
+inammatory metabolic toxic infective processes
+which may contributing cognitive decits The
+presence and topographical pattern cerebral
+atrophy has pathologically proven positive predictive value for dementia Based these two broad
+Harper L J Neurol Neurosurg Psychiatry doi 
+Neurodegeneration
+categories systematic approach identifying diagnostically relevant imaging features which provide support for clinical diagnosis 
+ presented gure and discussed detail below and
+expanded gures and Using the predominant imaging features the most common causes dementia the diagnosis with
+the greatest likelihood presented presents mostly
+pathologically proven imaging examples many the features
+described 
+THE ALGORITHM
+Exclusion surgical pathology
+The exclusion structural brain lesion potentially amenable
+ surgical intervention should the starting point when
+reviewing structural imaging These include tumour meningioma glioma subdural haematoma arteriovenous malformation and hydrocephalus Idiopathic normal pressure
+hydrocephalus should also considered although imaging
+markers have not yet proved sensitive enough for reliable
+diagnosis 
+Assessment signal change
+Signal intensity within single tissue type should reasonably
+uniform MRI The presence regions hyperintensity 
+hypointensity within the tissue typically reects pathology In
+the context suspected dementia punctate conuent
+regions signal change within white matter deep grey
+matter are most commonly associated with vascular pathology 
+but rarely and the correct clinical context may also indicate
+inammatory metabolic infective processes The prevalence
+ vascular cognitive impairment VCI second only AD 
+They share many risk factors including increasing prevalence
+with age and therefore many patients vascular and degenerative pathology coexist The exact interaction between neurodegenerative and vascular pathology debated but critically for
+the patient important that vascular risk factors are
+managed and treated Differentiating the relative contribution 
+vascular from neurodegenerative pathology the cause 
+patients cognitive problems common clinical problem
+where MRI plays central role If MRI not possible CT can
+also used relatively effectively evaluate the presence and
+extent cerebrovascular disease with changes white matter
+appearing hypodense 
+Clinical and research guidelines require imaging evidence 
+cerebrovascular disease for diagnosis vascular dementia
+ VaD VCI made In the absence evidence 
+vascular damage MRI vascular cause for cognitive impairment very unlikely conversely extensive vascular changes are
+very likely produce signicant cognitive decits The clinical difculty lies determining whether mild moderate
+degree vascular changes sufcient explain the clinical
+picture particularly older people where mixed vascular and
+neurodegenerative pathology more common While remains
+important address treatable vascular risk factors treating 
+potential neurodegenerative condition for example with cholinesterase inhibition should not overlooked Serial imaging
+may help identify the relative contributions and there some
+evidence that the rate cognitive decline may provide further
+evidence the underlying pathology with patients with VaD
+typically declining slower rate than patients with neurodegenerative pathology 
+ weighted images including FLAIR are most useful 
+detecting ischaemic changes while susceptibility
+weighted imaging can identify microbleeds suggestive cerebral
+amyloid angiopathy arteriosclerotic small vessel disease
+ SVD Diffusion weighted imaging may useful cases 
+rapid cognitive decline suggestive prion disease 
+describes systematic assessment MR signal changes the
+context dementia 
+FLAIR hyperintensity
+ Algorithmic assessment MRI dementia 
+ Located cerebral white matter Hyperintensities cerebral
+white matter weighted FLAIR imaging and less
+prominently weighted imaging are more likely 
+vascular origin If deep grey matter and brainstem hyperintensities are also apparent the term subcortical hyperintensities presumed vascular origin should used The
+severity hyperintensities can visually quantied 
+application established rating scale such the
+age related white matter changes the Fazekas
+scale Conuence hyperintensities least two
+regions and the beginning conuence hyperintensities
+ further two regions considered represent the
+involvement least quarter the total white matter
+and sufcient assume SVD the cause VCI 
+VaD However even cases extensive white matter
+hyperintensities the existence mixed pathology should 
+considered although may difcult conrm refute 
+Harper L J Neurol Neurosurg Psychiatry doi 
+Neurodegeneration
+ An approach signal change assessment cognitive impairment 
+Extension conuent hyperintensities into the temporal
+poles rare and may indicate that the pathology not 
+conventional vascular origin If the patient has positive
+family history dementing illness and known have suffered previously from strokes and migraines cerebral
+autosomal dominant arteriopathy with subcortical infarcts
+and leukoencephalopathy CADASIL should also 
+considered and genetic testing may see
+gure Although relatively rare form dementia 
+CADASIL included here due this fairly specic but not
+entirely sensitive feature non enhancing hyperintensities
+extending the temporal poles with white matter
+changes often appearing relatively more severe than expected
+from the patients clinical appearance While temporal lobe
+ An approach cerebral atrophy assessment cognitive impairment 
+Harper L J Neurol Neurosurg Psychiatry doi 
+Neurodegeneration
+ Images demonstrating characteristic atrophy several forms pathologically proven dementia Displayed clinical
+diagnosispathology diagnosis indicates pathology ndings not available 
+extension raises the question CADASIL may also feature
+ demyelinating conditions such multiple sclerosis If
+demyelinating disease diagnostic consideration then contrast enhanced axial weighted brain scanning with
+Gadolinium may demonstrate active new lesions Less often 
+multifocal conuent regions hyperintensity patient with
+suspected dementia may result from number other conditions including infections inammatory demyelinating diseases leukodystrophies leukoencephalopathies 
+Infective processes may need consideration immunocompromised patients risk opportunistic infections including
+cerebral toxoplasmosis 
+ Strategic Infarcts FLAIR hyperintensities with corresponding hypointensity strategic locations such 
+arterial territories association areas and watershed carotid
+territories may sufcient produce cognitive symptoms
+which can termed VaD due large vessel disease 
+Hyperintensities with CSF like signal intensity all MRI
+sequences dark and FLAIR bright the
+region single deep perforating arteriole are likely represent recent small deep brain infarcts The inclusion 
+rim hyperintensity FLAIR images thought reect
+gliosis sufcient indicate lacune vascular origin 
+and useful help distinguish them from prominent perivascular spaces Additionally prominent perivascular
+spaces will typically appear linear when imaged parallel 
+the course the vessel and round ovoid with diameter
+generally smaller than when imaged perpendicular 
+the course the vessel Bilateral thalamic lesions are sufcient imply VaD due SVD It should noted that
+ weighted images are more sensitive signal change 
+the thalamus than FLAIR images 
+ Striatum and neocortex Although rare Creutzfeldt Jakob
+disease included the algorithm has very characteristic MRI features hyperintensities the cortex and basal
+ganglia particularly the putamen best seen FLAIR
+imaging Diffusion weighted imaging sequences have greater
+sensitivity hyperintensities within these see
+gure which may especially prominent the early
+stages the disease when vacuoles are small resulting 
+restricted diffusion In rapidly progressive dementia where
+there doubt over the diagnosis Creutzfeldt Jakob
+disease contrast enhanced MRI scanning recommended 
+rule out alternative causes 
+ No Regions Hyperintensity The absence hyperintensities FLAIR imaging indicates the patients symptoms are very unlikely vascular origin 
+Neurodegenerative pathology therefore remains the most
+likely cause cognitive impairment and structural imaging
+should assessed for atrophy 
+ hypointensity
+ gradient echo susceptibility weighted imaging required
+ order detect cerebral microhaemorrhages microbleeds
+ CMBs Radiologically these are dened small rounded 
+homogeneous hypointense lesions while pathologically they
+have been found represent focal leakage blood breakdown
+products from abnormal small blood vessels The location 
+CMBs broadly reects their underlying cause with CMBs associated with hypertension developing deep brain regions basal
+ganglia thalamus and brainstem while the distribution CMBs
+associated with cerebral amyloid angiopathy AD mostly
+cortical subcortical lobar see gure although the two conditions often coexist elderly subjects A conservative estimate from large population based study suggests the incidence
+ microbleeds the general population approximately 
+ hypointensities may also result from calcication iron
+deposits from causes other than CMBs haemorrhagic metastasis diffuse axonal injury Care should also taken exclude
+MR artefacts such voids signals from temporal bones 
+Harper L J Neurol Neurosurg Psychiatry doi 
+Neurodegeneration
+Cerebral atrophy assessment
+Atrophy the principal imaging nding neurodegenerative
+dementias and typically best identied weighted images
+and assessed combination axial sagittal and coronal
+views Despite degree overlap among disease subtypes 
+some patterns atrophy are indicative specic underlying
+pathology however such ndings should considered the
+context the patients age and clinical examination 
+sets out approach the assessment cerebral atrophy 
+Focal lobar atrophy
+Atrophy with focal lobar predominance useful starting
+point help narrow the differential diagnosis patients with
+cognitive decline In particular asymmetrical pattern 
+atrophy left greater than right vice versa more anterior
+than posterior atrophy more suggestive underlying FTLD
+pathology rather than AD pathology 
+ Frontal lobe Disproportionate frontal lobe atrophy associated with FTLD pathology but does not differentiate
+between different FTLD histopathologies Picks disease
+ corticobasal degeneration CBD Patients with behavioural variant FTD bvFTD may have symmetrical asymmetrical frontal atrophy with without additional temporal
+lobe atrophy Despite typically asymmetric clinical
+presentation symmetrical frontal lobe atrophy the predominant imaging nding patients with dementia due CBD
+pathology However many patients with clinical diagnosis corticobasal syndrome are found have pathology
+other than CBD postmortem which may account for
+some the variability reported the literature Currently
+imaging features are not included the diagnostic criteria
+for CBD Left sided posterior frontoinsular atrophy which
+may limited subtle widening the left sylvian ssure 
+ typically found cases progressive non uent
+ see gure 
+ Temporal lobe Asymmetric temporal atrophy most commonly due FTLD pathology but can also due AD 
+The semantic dementia variant FTD has characteristic
+pattern loss typically left greater than right focal anterior
+temporal atrophy particularly involving the temporal pole
+ which progresses knife edge atrophy the amygdala and
+anterior hippocampus and often selective loss anterior
+fusiform gyrus with relative preservation more posterior
+structures Asymmetrical atrophy the right temporal lobe with similar distribution SD may also occur 
+most commonly presenting bvFTD and often with additional features prosopagnosia and topographical
+memory impairment While the asymmetry usually dramatic SD and the right temporal variant bvFTD both
+temporal lobes usually become involved and over time the
+pattern atrophy may start look more symmetrical see
+gure Logopenic aphasia LPA also associated
+with greater left sided atrophy the temporal lobe although
+ contrast SD the pattern atrophy extends more posteriorly than SD predominantly affecting the posterior perisylvian and temporoparietal areas angular gyrus posterior
+middle temporal gyrus superior temporal gyrus and superior
+temporal sulcus see gure Unlike the majority 
+clinical syndromes associated with asymmetrical pattern 
+atrophy LPA typically found result AD pathology Nonetheless the presence anterior posterior
+atrophy gradient the temporal lobe suggestive FTLD
+rather than AD and can usefully assessed scrolling
+posterior anterior through coronal slices the temporal lobe 
+ Parietal Occipital lobe Posterior cortical atrophy PCA 
+involving the parietal occipital cortex usually the result 
+underlying AD pathology see gure however the differential diagnosis includes CBD DLB and other less common
+causes PCA with additional medial temporal lobe MTL 
+atrophy supports AD the most likely cause however the
+MTL may initially relatively spared posterior variant
+AD PCA especially early onset cases Visual rating 
+posterior atrophy combination with MTL atrophy rating
+has been reported help discriminate AD from FTD and
+AD from normal ageing with sensitivity and specicity Gross frontoparietal atrophy extending into
+the temporal lobe conned single hemisphere has been
+described patients with progranulin mutations and should
+ considered the presence strong family history 
+Focal hippocampal atrophy
+Hippocampal atrophy the most established imaging biomarker
+ AD and result has now been incorporated diagnostic criteria The sensitivity and specicity visual rating 
+MTL atrophy are approximately when mild AD cases are
+compared with elderly control subjects Relative preservation 
+the MTL suggested means distinguishing DLB from AD
+ group level however this may not true older patients
+ patients with advanced DLB and may not reliable individual see gure particularly many patients with DLB
+pathology also have AD pathology postmortem Dopamine
+transporter imaging offers greater utility distinguishing DLB
+from AD Hippocampal atrophy also feature hippocampal sclerosis and hyperintensity the hippocampus 
+FLAIR images makes this diagnosis more likely Focal and often
+severe atrophy affecting the anteromedial temporal lobes has
+been described tau mutation microtubule associated protein
+tau MAPT carriers with striking loss the amygdala parahippocampus and hippocampal heads see gure 
+Although more often asymmetrical bvFTD may also demonstrate
+symmetrical MTL atrophy and frontal lobe atrophy 
+Infratentorial atrophy
+Progressive supranuclear palsy PSP can present dementia 
+often with frontal features occasionally with progressive nonuent aphasia Midbrain atrophy characteristic PSP and has
+been described having hummingbird appearance midsagittal slices see gure with axial slices demonstrating the 
+called mickey mouse sign Other imaging features PSP
+include dilation the third ventricle and atrophy the red
+nucleus Frontal atrophy may subtle marked PSP 
+Pontocerebellar atrophy may indicate other neurodegenerative
+conditions such multiple system atrophy which rare cases
+may present with cognitive phenotype 
+Generalised atrophy
+Global volume loss without focal lobar atrophy common
+and non specic nding structural MRI studies normal
+ageing and dementia and can sometimes difcult determine where normal ageing ends and pathological atrophy
+begins Symmetrical generalised atrophy left right anterior posterior typically seen AD and DLB and may also
+accompany white matter changes patients with vascular
+disease 
+Harper L J Neurol Neurosurg Psychiatry doi 
+Neurodegeneration
+No imaging abnormality demonstrated
+When all stages fail reveal any abnormalities beyond what 
+expected for age the scan reported within normal limits 
+This does not course exclude dementia nor does rule out 
+neurodegenerative cause particularly the clinical syndrome 
+mild If clinical suspicion persists SPECT single photon emission computed tomography PET scan can helpful look
+for changes cerebral perfusion metabolism repeat MRI
+scanning months Normal imaging particularly with
+repeat imaging after greater than months should however
+prompt consideration non neurodegenerative cause including psychiatric conditions In the future molecular diagnostic
+indices such CSF A amyloid PET scanning may
+increasingly used conrm exclude the presence AD
+ amyloid pathology these cases 
+CONCLUSION
+Clinical diagnosis the cause cognitive complaints 
+decline can difcult Nonetheless accurate and timely diagnosis increasingly important guide management and 
+provide appropriate information and support As reected 
+current diagnostic guidelines structural imaging can provide
+valuable positive well negative predictive information and
+the algorithm described here based reported imaging features with greatest diagnostic value designed provide systematic aid help differentiate between the different causes 
+dementia It course important that imaging ndings are
+interpreted the correct clinical context and that the limitations making individual diagnosis the basis imaging
+ndings are recognised 
+While the diagnostic approach describe here based 
+visual assessment structural imaging techniques such volumetric quantication brain structures and automated classier
+algorithms may play complementary role future clinical
+practice Brain volumetry already used extensively research
+ and clinical and has the potential used 
+the single patient level help support diagnosis and monitor
+disease progression 
+In the meantime structural imaging cognitive cases can
+provide easily accessible clinically useful information that can
+ realistically assessed the non specialist Using systematic
+approach such set out this article may help clinicians 
+evaluating their own scans rather than relying radiological
+reports alone and ultimately support the diagnostic process 
+Further work however required evaluate the sensitivity
+and specicity imaging signatures for neurodegenerative
+pathology 
+Acknowledgements The authors thank Dr Colin Mahoney for helpful comments
+ atrophy FTD This work was carried out the NIHR Queen Square Biomedical
+Research Unit Dementia and with the support the Leonard Wolfson
+Experimental Neurology Centre The Dementia Research Centre Alzheimers
+Research UK Coordinating Centre LH supported Alzheimers Research UK 
+Contributors NCF FB and PS devised the original concept the article LH NCF
+and JMS planned and wrote the article All authors revised and approved the nal
+version published 
+REFERENCES
+Competing interests None 
+Provenance and peer review Commissioned externally peer reviewed 
+Open Access This Open Access article distributed accordance with the
+Creative Commons Attribution Non Commercial CC BY NC license which
+permits others distribute remix adapt build upon this work non commercially 
+and license their derivative works different terms provided the original work 
+properly cited and the use non commercial See http creativecommons org 
+licenses 
+World Health Organisation Alzheimers disease international Dementia A public
+health priority WHO Press 
+Direction gnrale laction sociale Direction scurit sociale Direction 
+lhospitalisation lorganisation des soins Plan Alzheimer maladies
+apparentes 
+UK Department Health Living well with dementia National Dementia Strategy 
+UK Department Health Prime ministers challenge dementiaDelivering
+major improvements dementia care and research 
+US Department Health and Human Services National plan address
+Alzheimers disease 
+ Vries K Brooker DJ Smith P Dementia skills and competencies for primary care
+liaison model for improving identication and timely diagnosis Prim Health Care
+Res Dev Jul 
+Joray S Wietlisbach V Bla CJ Cognitive impairment elderly medical inpatients 
+detection and associated six month outcomes Am J Geriatr Psychiatry
+Mitchell AJ Meader N Pentzek M Clinical recognition dementia and cognitive
+impairment primary care meta analysis physician accuracy Acta Psychiatr
+Scand 
+Sampson EL Blanchard MR Jones L Dementia the acute hospital 
+prospective cohort study prevalence and mortality Br J Psychiatry
+Cohn Hokke PE Elting MW Pijnenburg YAL Genetics dementia update
+and guidelines for the clinician Am J Med Genet B Neuropsychiatr Genet 
+ B 
+Rossor MN Fox NC Mummery CJ The diagnosis young onset dementia 
+Lancet Neurol 
+Clark CM Pontecorvo MJ Beach TG Cerebral PET with orbetapir compared
+with neuropathology autopsy for detection neuritic amyloid plaques 
+prospective cohort study Lancet Neurol 
+Mattsson N Zetterberg H Hansson O CSF biomarkers and incipient Alzheimer
+disease patients with mild cognitive impairment JAMA 
+Dubois B Feldman HH Jacova C Research criteria for the diagnosis Alzheimers
+disease revising the NINCDS ADRDA criteria Lancet Neurol 
+Hort J OBrien JT Gainotti G EFNS guidelines for the diagnosis and
+management Alzheimers disease Eur J Neurol 
+Jack CR Jr Albert MS Knopman DS Introduction the recommendations
+from the National Institute Aging Alzheimers Association workgroups 
+diagnostic guidelines for Alzheimers disease Alzheimers Dement 
+NCC for Mental Health Dementia The NICE SCIE Guideline Supporting People
+with Dementia and Their Carers Health and Social Care National Clinical Practice
+Guideline British Psychological Society and RCPsych Publications 
+Scheltens P Fox N Barkhof F Structural magnetic resonance imaging the
+practical assessment dementia beyond exclusion Lancet Neurol 
+Barkof F Fox NC Bastos Leite AJ Neuroimaging Dementia Springer Berlin
+Heidelberg 
+Likeman M Anderson VM Stevens JM Visual assessment atrophy 
+magnetic resonance imaging the diagnosis pathologically conrmed
+young onset dementias Arch Neurol 
+Di Ieva A Valli M Cusimano MD Distinguishing Alzheimers disease from normal
+pressure hydrocephalus search for MRI biomarkers J Alzheimers Dis Epub
+ahead print
+Malm J Graff Radford NR Ishikawa M Inuence comorbidities 
+idiopathic normal pressure hydrocephalusresearch and clinical care A report 
+the ISHCSF task force comorbidities INPH Fluids Barriers CNS 
+Gorelick PB Scuteri A Black SE Vascular contributions cognitive
+impairment and dementia statement for healthcare professionals from the
+american heart association american stroke association Stroke 
+Romn GC Tatemichi TK Erkinjuntti T Vascular dementia diagnostic criteria
+for research studies Report the NINDS AIREN International Workshop Neurology
+Inzitari D Simoni M Pracucci G Risk rapid global functional decline 
+elderly patients with severe cerebral age related white matter changes the LADIS
+study Arch Intern Med 
+Gill DP Hubbard RA Koepsell TD Differences rate functional decline
+across three dementia types Alzheimers Dement May pii 
+Wardlaw JM Smith EE Biessels GJ Neuroimaging standards for research into
+small vessel disease and its contribution ageing and neurodegeneration Lancet
+Neurol 
+Wahlund LO Barkhof F Fazekas F A new rating scale for age related white
+matter changes applicable MRI and CT Stroke 
+Fazekas F Chawluk JB Alavi A MR signal abnormalities T 
+Alzheimers dementia and normal aging AJR Am J Roentgenol 
+Harper L J Neurol Neurosurg Psychiatry doi 
+Neurodegeneration
+van Straaten ECW Scheltens P Knol DL Operational denitions for the
+NINDS AIREN criteria for vascular dementia interobserver study Stroke
+Federico A Di Donato I Bianchi S Hereditary cerebral small vessel diseases 
+ review J Neurol Sci 
+Barkhof F Filippi M Miller DH Comparison MRI criteria rst
+presentation predict conversion clinically denite multiple sclerosis 
+Brain Pt 
+Polman CH Reingold SC Banwell B Diagnostic criteria for multiple sclerosis 
+ revisions the McDonald criteria Ann Neurol 
+Marjo Van Der Valk JV Magnetic resonance myelination and myelin disorders 
+illustrated edn Springer 
+Levine AJ Hinkin CH Ando K An exploratory study long term
+neurocognitive outcomes following recovery from opportunistic brain infections 
+HIV adults J Clin Exp Neuropsychol 
+Carrera E Bogousslavsky J The thalamus and behavior effects anatomically
+distinct strokes Neurology 
+Bastos Leite AJ van Straaten ECW Scheltens P Thalamic lesions vascular
+dementia low sensitivity uid attenuated inversion recovery FLAIR imaging 
+Stroke 
+Kallenberg K Schulz Schaeffer WJ Jastrow U Creutzfeldt Jakob disease 
+comparative analysis MR imaging sequences AJNR Am J Neuroradiol
+Charidimou A Jger HR Werring DJ Cerebral microbleed detection and mapping 
+principles methodological aspects and rationale vascular dementia Exp Gerontol
+Fazekas F Kleinert R Roob G Histopathologic analysis foci signal loss
+ gradient echo weighted MR images patients with spontaneous
+intracerebral hemorrhage evidence microangiopathy related microbleeds 
+AJNR Am J Neuroradiol 
+Cordonnier C van der Flier WM Brain microbleeds and Alzheimers disease 
+innocent observation key player? Brain Pt 
+Ryan NS Bastos Leite AJ Rohrer JD Cerebral microbleeds familial
+Alzheimers disease Brain Pt author reply 
+Poels MMF Ikram MA van der Lugt A Incidence cerebral microbleeds
+ the general population the Rotterdam Scan Study Stroke 
+Gorno Tempini ML Hillis AE Weintraub S Classication primary
+progressive aphasia and its variants Neurology 
+Lindberg O Ostberg P Zandbelt BB Cortical morphometric subclassication
+ frontotemporal lobar degeneration AJNR Am J Neuroradiol 
+Whitwell JL Xu J Mandrekar J Frontal asymmetry behavioral variant
+frontotemporal dementia clinicoimaging and pathogenetic correlates Neurobiol
+Aging 
+Lee SE Rabinovici GD Mayo MC Clinicopathological correlations 
+corticobasal degeneration Ann Neurol 
+Rohrer JD Lashley T Schott JM Clinical and neuroanatomical signatures
+ tissue pathology frontotemporal lobar degeneration Brain 
+ Pt 
+Whitwell JL Josephs KA Neuroimaging frontotemporal lobar degeneration
+predicting molecular pathology Nat Rev Neurol 
+Boeve BF Maraganore DM Parisi JE Pathologic heterogeneity clinically
+diagnosed corticobasal degeneration Neurology 
+Armstrong MJ Litvan I Lang AE Criteria for the diagnosis corticobasal
+degeneration Neurology 
+Rohrer JD Clarkson MJ Kittus R Rates hemispheric and lobar atrophy
+ the language variants frontotemporal lobar degeneration J Alzheimers Dis
+Chan D Fox NC Scahill RI Patterns temporal lobe atrophy semantic
+dementia and Alzheimers disease Ann Neurol 
+Gorno Tempini ML Dronkers NF Rankin KP Cognition and anatomy three
+variants primary progressive aphasia Ann Neurol 
+Chan D Anderson V Pijnenburg Y The clinical prole right temporal lobe
+atrophy Brain Pt 
+Rascovsky K Hodges JR Knopman D Sensitivity revised diagnostic criteria
+for the behavioural variant frontotemporal dementia Brain Pt
+Rosen HJ Allison SC Schauer GF Neuroanatomical correlates behavioural
+disorders dementia Brain Pt 
+Rohrer JD Ridgway GR Crutch SJ Progressive logopenic phonological
+aphasia erosion the language network Neuroimage 
+Lehmann M Koedam ELGE Barnes J Posterior cerebral atrophy the
+absence medial temporal lobe atrophy pathologically conrmed Alzheimers
+disease Neurobiol Aging 
+Koedam ELGE Lehmann M van der Flier WM Visual assessment 
+posterior atrophy development MRI rating scale Eur Radiol 
+Beck J Rohrer JD Campbell T A distinct clinical neuropsychological and
+radiological phenotype associated with progranulin gene mutations large
+UK series Brain 
+Rohrer JD Ridgway GR Modat M Distinct proles brain atrophy 
+frontotemporal lobar degeneration caused progranulin and tau mutations 
+Neuroimage 
+Whitwell JL Weigand SD Boeve BF Neuroimaging signatures 
+frontotemporal dementia genetics tau progranulin and sporadics 
+Brain Pt 
+Westman E Cavallin L Muehlboeck JS Sensitivity and specicity medial
+temporal lobe visual ratings and multivariate regional MRI classication 
+Alzheimers disease PLoS One 
+Burton EJ Barber R Mukaetova Ladinska EB Medial temporal lobe atrophy
+ MRI differentiates Alzheimers disease from dementia with Lewy bodies and
+vascular cognitive impairment prospective study with pathological verication 
+diagnosis Brain Pt 
+McKeith IG Dickson DW Lowe J Diagnosis and management dementia
+with Lewy bodies third report the DLB Consortium Neurology
+Ince P Irving D MacArthur F Quantitative neuropathological study 
+Alzheimer type pathology the hippocampus comparison senile dementia 
+Alzheimer type senile dementia Lewy body type Parkinsons disease and
+non demented elderly control patients J Neurol Sci 
+Walker Z Jaros E Walker RWH Dementia with Lewy bodies comparison 
+clinical diagnosis FP CIT single photon emission computed tomography imaging
+and autopsy J Neurol Neurosurg Psychiatry 
+Rohrer JD Warren JD Phenotypic signatures genetic frontotemporal dementia 
+Curr Opin Neurol 
+Schrag A Good CD Miszkiel K Differentiation atypical parkinsonian
+syndromes with routine MRI Neurology 
+Hampel H Brger K Teipel SJ Core candidate neurochemical and
+imaging biomarkers Alzheimers disease Alzheimers Dement 
+Hampel H Frank R Broich K Biomarkers for Alzheimers disease 
+academic industry and regulatory perspectives Nat Rev Drug Discov
+Giorgio A De Stefano N Clinical use brain volumetry J Magn Reson Imaging
+Harper L J Neurol Neurosurg Psychiatry doi 

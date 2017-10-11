@@ -1,0 +1,19 @@
+HIPPOCAMPUS 19:1055-1064 COMMENTARY Hippocampal Volume and Asymmetry in Mild Cognitive Impairment and Alzheimer's Disease: Meta-Analyses of MRI Studies Feng Shi,1 Bing Liu,1 Yuan Zhou,1 Chunshui Yu,2 and Tianzi Jiang1* ABSTRACT: Numerous studies have reported a smaller hippocampal volume in Alzheimer's disease patients than in aging controls.
+
+In general, there are many previous studies that have investigated the hippocampal volume in MCI and AD patients, but studies on the statistical analysis of the magnitude and extent of hippocampal volumetric reduction are relatively rare, and the ﬁndings are also affected by limited sample size, especially in longitudinal studies.
+
+Our aims are: to summarize the previous hippocampal volume studies in MCI and AD patients and establish the extent of hippocampal atrophy; to examine the moderating variables that might contribute to the discrepancies; and to investigate the asymmetry patterns of the hippocampus in controls, MCI, and AD patients.
+
+Finally, 28 studies were included in our meta-analysis, in which 23 studies included 700 AD patients and 751 controls and ''Alzheimer disease'' and ''Volume.
+
+Study Selection A total of 42 studies fulﬁlling the following criteria were included: hippocampal volume counting was based on MRI volumetric data; MCI or AD patients were involved; a population of normal controls was reported concurrently; they should be published in peer-review journal with English language; and they were published not before 1998.
+
+Cross-Sectional Volumetric Studies Patient Study and year Barnes et al.
+
+The formula is as follows:   x1i  x2i 3 gi 1 4Ni  9 si Hippocampus 1058 SHI ET AL. sﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ ðn1i  1Þsd1i2 ðn2i  1Þsd2i2 si Ni  2 where in the ith study, x1i and x2i are the mean hippocampal volume in the control group and patient group, respectively; sd1i and sd2i are the standard derivation; si is the pooled standard deviation; n1i and n2i are the number of subjects of two groups, respectively; and Ni is the number of total subjects in the ith study.
+
+Sensitivity analysis is conducted to ensure that no single study will bias the combined results by removing one study each time and recalculating the combined effect size of the remaining studies.
+
+In MCI studies, mean MMSE score of each study ranged from 24 to 28.7, suggesting that subjects might have similar cognitive level.
+
+In AD studies, signiﬁcant heterogeneity observed in overall studies was largely reduced in these subgroups, and only remained in the raw volume group.

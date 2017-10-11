@@ -1,0 +1,230 @@
+Single magnetic microsphere placement and detection chip using current line
+designs with integrated spin valve sensors Biotechnological applications
+D L Graham H Ferreira J Bernardo P P Freitas and J M S Cabral
+Citation Journal Applied Physics doi 
+View online http doi org 
+View Table Contents http scitation aip org content aip journal jap ?ver pdfcov
+Published the AIP Publishing
+Articles you may interested 
+Single molecule actuation and detection lab chip magnetoresistive platform
+J Appl Phys 
+Optical manipulation paramagnetic particles with chip detection using spin valve sensors
+Appl Phys Lett 
+Effect spin valve sensor magnetostatic fields nanobead detection for biochip applications
+J Appl Phys 
+Detection single micron sized magnetic bead and magnetic nanoparticles using spin valve sensors for
+biological applications
+J Appl Phys 
+On chip manipulation and magnetization assessment magnetic bead ensembles integrated spin valve
+sensors
+J Appl Phys 
+This article copyrighted indicated the article Reuse AIP content subject the terms http scitation aip org termsconditions Downloaded IP 
+ On Sun Jul 
+JOURNAL OF APPLIED PHYSICS
+VOLUME NUMBER 
+ MAY 
+Single magnetic microsphere placement and detection chip
+using current line designs with integrated spin valve sensors 
+Biotechnological applications
+D L Grahama 
+Instituto Engenharia Sistemas Computadores INESC and Centre for Biological
+and Chemical Engineering IST Lisbon Portugal
+H Ferreira
+Instituto Engenharia Sistemas Computadores INESC and Physics Department 
+Instituto Superior Tecnico IST Lisbon Portugal
+J Bernardo
+Instituto Engenharia Sistemas Computadores INESC Lisbon Portugal
+P P Freitas
+Instituto Engenharia Sistemas Computadores INESC and Physics Department 
+Instituto Superior Tecnico IST Lisbon Portugal
+J M S Cabral
+Centre for Biological and Chemical Engineering IST Lisbon Portugal
+Superparamagnetic labels dextran iron oxide particles and polymer encapsulated iron
+oxide microspheres with biomolecules immobilized the surface the enzyme horseradish
+peroxidase molecules per label were controllably placed chip sites using
+tapered Al current lines mA current and moved and from adjacent spin valve sensors
+ magnetoresistance MR Average MR signals and mV were obtained
+for the detection bulk numbers and labels respectively using chip field 
+ Oe and sense current mA The moment per label was calculated emu for the
+ labels and emu for the labels illustrating the higher density the 
+particles MR signals V were obtained for single labels positioned over the spin
+valve sensor using chip field Oe and mA sense current The corresponding sensor
+saturation occurred mV with noise level V The estimated maximum MR signal
+for one label directly top the sensor was V Biotechnological applications
+include high sensitivity biosensors and biochips for protein and DNA screening American
+Institute Physics DOI 
+INTRODUCTION
+MATERIALS AND METHODS
+The discovery antiferromagnetic interlayer exchange
+ and the giant magnetoresistive MR the
+mid opened number applications for magnetic
+nanostructures These include magnetic recording media 
+magnetoresistive sensors read heads and magnetic random
+access memory In the last few years magnetoresistive sensors have also been proposed potential detection components biological devices such high sensitivity biosensors and biochips based magnetic labeling platform
+technology In this article present two advances the
+development such devices First the construction onchip current line structures precisely control the movement magnetically labeled biomolecules and second the
+use spin valve sensors detect the magnetic labels Two
+types magnetically labeled biomolecules were employed 
+A widely used analytical enzyme horseradish 
+HRP E C and the protein streptavidin 
+Two types magnetic labels were used A developmental sample dextraniron oxide particles
+Nanomag D Micromod Germany stock concentration 
+ and polymer encapsulated iron oxide 
+microspheres Micromer M Micromod stock concentration These particles and microspheres Table I 
+which will refer labels are available with variety
+ surface functionalization for the attachment biomolecules HRP was immobilized Nanomag D functionalized with free carboxyl groups using the negatively charged
+polymer polyethylenimine the crosslinking reagent glutaraldehyde and para benzoquinone HRP was also immobilized
+ Micromer M with free amino functionality using the
+common glutaraldehyde methodology The number active
+immobilized HRP molecules per label was calculated via the
+determination enzyme activity using the guaiacol reaction
+ ultraviolet visible spectroscopic assay This provides 
+equivalent quantity active HRP per particle via comparison the activity label suspensions with known HRP
+concentrations This then converted molecular numbers
+using Avogadros number Micromer M samples with pre 
+Author whom correspondence should addressed electronic mail 
+dgrahamcray inesc 
+ American Institute Physics
+This article copyrighted indicated the article Reuse AIP content subject the terms http scitation aip org termsconditions Downloaded IP 
+ On Sun Jul 
+Graham 
+J Appl Phys Vol No May 
+TABLE I Properties Nanomag D and Micromer M superparamagnetic
+labels 
+ particles Nanomag D
+Bell shaped size distribution 
+ magnetitemaghemite
+crosslinked with dextran
+stock particles
+density ccm
+saturation magnetization 
+ emu H Oe 
+ microspheres Micromer M
+very uniform size and shape 
+spherical
+microconed magnetite 
+ copolymer composite
+stock microspheres
+density ccm
+saturation magnetization 
+ emu H Oe 
+immobilized streptavidin were obtained directly from Micromod The magnetic moment both types label was determined drying aliquots known stock label
+suspensions vacuum oven for C
+for measuring the dry weight the samples and then
+measuring the magnetic susceptibility with vibrating
+sample magnetometer The moment per label was calculated
+using the suppliers data the weight density and number
+ labels per unit weight for each sample For the 
+particles emu Oe and for the particles
+ emu Oe 
+Spin valve sensors with dimensions were
+fabricated with the structure Si 
+ with average MR
+ Six sensors per chip were integrated within the final
+current line structure each sensor having two associated current lines The width sensor line connections was stepped
+down sensor sites from the sensor pads 
+while current lines were tapered from sections adjacent the sensors Figs The chip surface was passivated with layer silicon dioxide 
+Approximately chips were fabricated per 
+silicon wafer and cut using dicing saw Individual chips
+were then mounted pin chip carriers and the electrical
+connections made via wire bonding the contact pads Wire
+bonded areas were protected using silicon gel The
+mounted chip was then connected multimeter and three
+power sources one for the sensor line and two for its associated current lines Magnetic label movements chip and
+corresponding sensor resistance changes were observed simultaneously positioning the chip carrier the stage
+ light microscope All movement and detection experiments were performed small volumes water
+ phosphate buffer mM containing low label
+concentrations which were applied the chip using autopipette The spin valve transfer curve was linearized with
+its sense current mA An plane magnetic field perpendicular the length the sensor created horseshoe
+magnet current Oe was also used induce measurable moment within the superparamagnetic labels Control experiments were performed using fluid samples without
+magnetic labels under identical conditions determine any
+potential background signal contributions These included
+the addition fluid and other environmental temperature
+changes electrical interference and changes current
+through the aluminum lines associated with each sensor 
+FIG Light microscope and SEM images current line sensor
+line and sensor integration and dimensions Shows three 
+Micromer M microspheres one touching the sensor one touching the sensor line and third the bottom current line 
+Noise was reduced using coaxial cables and housing the
+connection board homemade noise reduction box 
+RESULTS AND DISCUSSION
+In preliminary experiments demonstrate the use 
+current line structures control the movement magnetic
+labels simple aluminum tapered line was constructed 
+starting with width and with central section 
+narrower width This was then immersed fluid
+containing Nanomag D labels and current 
+mA was passed through the line The labels were seen 
+move the line while current was passing and move
+away from the line after the current was switched off Furthermore the labels tended move more readily the nar 
+This article copyrighted indicated the article Reuse AIP content subject the terms http scitation aip org termsconditions Downloaded IP 
+ On Sun Jul 
+Graham 
+J Appl Phys Vol No May 
+FIG Real time data for the movement and detection Micromer M
+labels with immobilized horseradish peroxidase 
+rower section the line where the local magnetic field generated was higher This principle was then used design
+various chip current line structures which evolved into
+the structure shown Fig Currents mA were
+passed through the tapering current lines focus labels 
+sites adjacent spin valves The labels were
+then moved and from the sensor switching the current
+line off and again required 
+Both and labels could detected bulk
+numbers using this approach The initial average MR
+signals mA sense current were mV and 
+mV respectively The observed signals for
+Nanomag D were higher due the smaller size and hence
+higher density labels that can accumulate the sensor
+surface The moment values per unit weight were 
+emu labels and emu labels while
+the relative moment values for single labels calculated 
+label
+and
+Oe
+were
+ emu 
+emu label An immediate disadvantage the
+use Nanomag D labels was their tendency 
+cluster readily external field preventing the determination single label signals However Micromer M microspheres could controlled and detected single labels 
+Subsequently all additional detection experiments were performed using Micromer M labels The real time detection
+signals for Micromer M with immobilized HRP molecules
+can seen Fig Spectroscopic assays the activity 
+these labels indicated active molecules HRP per
+label depending the particular conditions the immobilization procedure shows equivalent chart for
+the movement and detection Micromer M labels with
+immobilized streptavidin These plots and additional data
+were used calculate average detection signals for labels and saturation signals for different sensors labels 
+Single labels gave response the order V with
+FIG Real time data for the movement and detection Micromer M
+labels with immobilized streptavidin 
+sensor saturation occurring around mV The noise level
+was typically V saturation These signals were
+found reproducible with respect sensor and chip As
+ means comparison performed theoretical calculations
+for the signal based the magnetic moment single label
+positioned directly above the sensor This resultant
+value was V but this represents maximum signal
+and assumes that there fluid between the label and the
+sensor surface 
+CONCLUSIONS
+The present work provides means move and detect
+nanometer micrometer sized magnetic labels and have
+successfully demonstrated the detection single magnetic microspheres with small number active biomolecules attached Our present goal use this system 
+demonstrate the detection the binding streptavidin functionalized magnetic labels sensor bound biotin which
+will demonstrate the use this system detect biomolecular recognition and provide vehicle for the placement detection and study other biomolecules and other biomolecular interactions particular single DNA molecule
+interactions Consequently foresee wide range biotechnological applications for this system including miniaturized high sensitivity biosensors and biochip devices 
+P Grunberg R Schreiber Y Pang M B Brodsky and H Showers Phys 
+Rev Lett 
+M N Baibich J M Broto A Fert F N Van Dau and F Petroff Phys 
+Rev Lett 
+D R Baselt G U Lee M Natesan S W Metzger P E Sheehan and R 
+J Colton Biosens Bioelectron 
+R Shieh and D E Ackley Motorola Patent Application No PN WO
+O Ryan M R Smyth and C O Fagain Essays Biochem 
+V H Perez Luna M J OBrien K A Opperman P D Hampton G P 
+Lopez L A Klumb and P S Stayton J Am Chem Soc 
+M A Osbourne W S Furey D Klenerman and S Balasubramanian 
+Anal Chem 
+This article copyrighted indicated the article Reuse AIP content subject the terms http scitation aip org termsconditions Downloaded IP 
+ On Sun Jul 

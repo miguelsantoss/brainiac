@@ -1,0 +1,1082 @@
+Journal Alzheimers Disease 
+DOI 
+IOS Press
+Does Microglial Activation Influence
+Hippocampal Volume and Neuronal
+Function Alzheimers Disease and
+Parkinsons Disease Dementia?
+Grazia D Femminellaa Siddharth Ninana Rebecca Atkinsona Zhen Fana David J Brooksa 
+and Paul Edisona 
+ Neurology
+Imaging Unit Imperial College London London UK
+ Nuclear Medicine Aarhus University Denmark
+ Department
+Accepted January 
+Abstract 
+Background The influence neuroinflammation neuronal function and hippocampal atrophy Alzheimers disease
+ AD and Parkinsons disease dementia PDD still unclear 
+Objectives Here investigated whether microglial activation measured C PET associated with neuronal
+function measured cerebral glucose metabolic rate rCMRGlc using FDG PET and hippocampal volume measurements 
+Methods We enrolled subjects PDD AD and controls who underwent PET scans with C R 
+ FFDG and volumetric MRI scanning 
+Results SPM correlation analysis AD and PDD showed negative correlation between hippocampal volume and microglial
+activation within hippocampus parahippocampus and with cortical and subcortical areas projections from hippocampus 
+while there was positive correlation between rCMRGlc cortical and subcortical areas projections from hippocampus
+and hippocampal volume Hippocampal volume was significantly reduced AD compared controls but not PDD 
+Conclusions These findings indicate that microglial activation inversely correlated with hippocampal volume and hippocampal rCMRGlc neurodegenerative diseases with dementia providing further evidence for the central role microglial
+activation neurodegenerative diseases 
+Keywords Alzheimers disease neuroinflammation Parkinsons disease with dementia PET volumetric MRI
+INTRODUCTION
+The role neuroinflammation neurodegenerative disease still debated While know
+ These
+authors contributed equally this work 
+ Dr Paul Edison MBBS MRCP PhD 
+FRCPI Clinical Senior Lecturer Neurology Imaging Unit Imperial College London Floor B Block Hammersmith Hospital
+Campus Du Cane Road London NN UK Tel 
+ Fax E mail paul edison
+imperial 
+ Correspondence
+neuroinflammation plays significant role neurodegenerative disorders such Alzheimers disease
+ AD and Parkinsons disease dementia PDD 
+whether neuroinflammation associated with local
+and distant neuronal damage still not being investigated Microglial cells are the resident macrophages
+ the central nervous system CNS they represent around the CNS population and play 
+crucial role first line immune defense case
+ any kind brain injury They have the capability phagocyte toxic products release cytotoxic
+ISSN IOS Press and the authors All rights reserved
+G D Femminella Hippocampal Volume and Neuroinammation
+factors and can antigen presenting cells In
+absence foreign stimuli microglial cells are 
+resting state inactivated however with ramified morphology microglia can scan close regions
+and their environment without interfering with neurons and neuronal activities and can monitor the brain
+parenchyma every few hours When activated they
+ through morphological changes converting their
+shape activated amoeboid and mobile one able
+ reach the site injury These cells can remain
+for long time the activated phenotype releasing
+cytokines and neurotoxic agents that can worsen CNS
+damage The acute CNS inflammatory response
+ injury mediated microglia can protective 
+however chronic inflammatory activity can selfsustaining beyond physiological usefulness resulting
+ damage the affected tissues In AD fibrils
+activate microglia and supported the presence microglia around the plaques while PDD 
+activated microglia associated with synuclein 
+Microglial activation visualized PET scans
+using the radioligand C R that targets
+the translocator protein TSPO present patients
+with AD and PD It has also been shown that
+there strong association with amyloid deposition
+ AD 
+Cerebral glucose metabolic rate rCMRGlc measured FFDG PET measure glucose
+utilization and suggested indirect measure synaptic function Hippocampal atrophy 
+ characteristic feature AD and established
+that accelerated hippocampal atrophy associated
+with disease progression The presence hippocampal atrophy PDD more variable some
+groups have reported hippocampal atrophy PD 
+ early stage the disease while others
+were not able replicate those findings Here 
+ hypothesized that regional and distant microglial
+activation associated with hippocampal volume
+loss subjects with AD and PDD and this could
+ associated with reduction rCMRGlc Our aim
+was investigate whether increased hippocampal 
+medial temporal lobe whole cortex glial activation where hippocampal neurons projects directly 
+indirectly correlates with hippocampal volume loss
+and reduction glucose metabolism hippocampus
+and medial temporal lobe structures In this study 
+ evaluated glial activation using C
+PET and rCMRGlc using FFDG PET with arterial input Hippocampal volume was measured from
+ volumetric MRI patients with AD PDD and
+age matched control subjects 
+MATERIALS AND METHODS
+Study population
+Twenty five subjects nine PDD eight AD and
+eight controls were recruited from Imperial College London Healthcare NHS Trust and associated
+hospitals London All subjects had detailed clinical and neurological assessments including collateral
+history required bloods and detailed neuropsychometric evaluation assessing verbal and visual memory attention executive functions visuoconstruction 
+language and recognition memory Subjects were
+diagnosed clinically probable AD based the
+NINDS ADRDA criteria Diagnosis PDD was
+based the diagnostic algorithm for PDD where
+patients had diagnosis PD for least year
+before the onset dementia The inclusion criteria for
+patients were age years clinical diagnosis AD PDD before they enrolled the study 
+ adequate visual and auditory acuity complete
+the neuropsychometric testing reliable caregiver
+who could provide information about the patients
+clinical symptoms and ability provide informed
+consent Exclusion criteria were the presence 
+extensive white matter microvascular disease MRI
+which was over and above the lacunes associated with
+normal aging major depression based DSMIV criteria current recent history drug 
+alcohol abuse dependence any significant disease
+ unstable medical condition that could influence
+neuropsychological testing pregnancy any
+contraindications MRI history schizophrenia schizoaffective disorder bipolar disorder any
+history electroconvulsive therapy and history
+ cancer within the past years except localized
+skin and prostate cancer Dementia was excluded 
+control subjects detailed clinical examination and
+neuropsychometric tests None the enrolled subjects had diabetes chronic kidney disease stage 
+and above Two AD and one PDD subjects suffered
+from ischemic heart disease None the enrolled
+volunteers was treatment for acute chronic systemic inflammatory diseases All patients underwent
+PET scans with C PET and FFDG
+PET with arterial input well volumetric MRI
+scanning after obtaining regulatory approval from
+the Ethics Committee the Hammersmith Hospitals NHS Trust Permission administer radiotracers
+was obtained from the Administration Radioactive
+Substances Advisory Committee ARSAC UK The
+work described has been carried out accordance
+G D Femminella Hippocampal Volume and Neuroinammation
+with The Code Ethics the World Medical Association Declaration Helsinki and written informed
+consent was obtained all participants All subjects
+were age matched AD and PDD subjects under 
+years 
+MRI and PET scanning
+MRI scanning
+MRI scans were performed with Tesla GE
+scanner volumetric MRI D volume pulse
+sequence RF Fast acquisition times TR TE
+ flip angle FOV matrix 
+ voxel dimensions were
+acquired for registration PET scans and assessment atrophy while weighted images were
+acquired rule out any structural abnormality AD 
+PDD and control subjects 
+Evaluation hippocampal volume using
+FreeSurfer
+Automated hippocampal segmentation was
+done using http surfer nmr mgh 
+harvard edu The stages FreeSurfers volumebased subcortical stream are fully described
+before Briefly affine registration with
+Talairach space followed initial volumetric
+labeling and correction for variation intensity due
+ the biasfield After this high dimensional
+nonlinear volumetric alignment the Talairach
+atlas performed followed pre processing and
+finally the volume labeled Hippocampal volume
+was calculated multiplying the number voxels
+ the voxel volume 
+PET scanning
+ C R PET All subjects underwent
+three dimensional C R PET using 
+ECAT EXACT HR CTI Siemens scanner
+where mean dose MBq was injected 
+and D emission data was acquired listmode over
+ min Parametric images C R 
+binding potential BPND reflecting Bmax Kd were
+generated with simplified tissue reference two
+brain compartmental model SRTM As AD and
+PDD subjects have widespread distribution 
+pathological changes single region free disease
+can identified reference for non specific tracer
+binding This due the fact that immunocytochemical study indicated TSPO present the
+cerebellum TSPO also present arteries 
+meninges choroid plexus and the ependymal
+cells thus specific signal could affected the
+anatomical reference region even healthy control
+subjects and with arterial input analysis have
+demonstrated that there signal cerebellum 
+AD subjects Cluster analysis was therefore used
+ extract and identify distributed cluster voxels
+that mirrored normal population cortical reference
+input function for each individual subject controls 
+AD and PDD We have introduced this computational methodology that enables the extraction 
+reference cluster from C R dynamic
+PET studies The algorithm matches the time
+activity curve TAC each pixel the kinetics
+ six pre defined tissues normal grey and normal
+white matter skull muscle grey matter with reactive
+microglia vasculature that rich the receptor
+ endothelial cells and smooth muscles obtained
+from database control subjects and patients 
+The reference TAC calculated the population
+average normal grey matter The clustering code
+ implemented the software package SUPERPK
+ Imperial Innovations Imperial College London 
+written Matlab The Mathworks Inc Natick MA 
+The use appropriate reference not only increases
+the sensitivity the quantification procedure the
+specific signal from microglia but also minimizes
+the sensitivity the calculated binding potential
+ BPND obtained the modeling procedure 
+changes blood flow Our unit has validated the use
+ the SRTM with reference input function defined
+ cluster analysis the most reproducible and
+sensitive technique for generating BPND maps 
+ FFDG PET All subjects underwent FFDGPET scans using Siemens ECAT EXACT HR
+scanner Subjects were asked fast for before
+the injection FFDG MBq The FDG
+dynamic emission scan was acquired over min
+with continuous online whole blood sampling for the
+first min while discrete whole blood and plasma
+samples were taken and
+ min All subjects had radial artery cannulation and
+fasting plasma glucose levels were measured the
+beginning and end the scan Parametric maps 
+absolute rCMRGlc were created applying spectral analysis brain time activity curves using 
+arterial plasma input function 
+Region interest analysis
+Region interest ROI analysis was done for
+parametric images C R BPND and
+G D Femminella Hippocampal Volume and Neuroinammation
+rCMRGlc Initially individualized object map was
+created for all the subjects using the following procedure Statistical parametric mapping software 
+was used spatially transform individual PET images
+into their corresponding MRI space segmenting individual MRIs into grey matter white matter
+and CSF thresholding voxels with probability containing grey matter create individual
+grey matter binarized images transforming the
+probabilistic atlas standard MNI space into the individuals MRI space and registering individual
+PET onto the corresponding MRI The grey matter
+binarized image was then convolved with the atlas 
+Analyze create individualized object map 
+Parametric images were then sampled for different
+cortical and subcortical regions 
+Statistical parametric mapping SPM analysis
+SPM interrogation localize mean differences
+between patients and controls for C R 
+BPND and rCMRGlc AD and PDD was
+performed using Wellcome Department
+ Imaging Neuroscience UCL London UK 
+http www fil ion ucl spm The between group
+comparison was performed voxel level with 
+statistical threshold for significance set 
+and extent threshold voxels previously
+described All clusters with corrected 
+were considered significant 
+Statistical analysis
+As hippocampal neurons project the entorhinal cortex which turn projects the whole 
+cortex anticipate that neuronal degeneration 
+microglial activation follows the cortical connection
+from hippocampus Thus evaluate the relationship
+between hippocampal volume and neuroinflammation AD and PDD subjects pixel pixel
+correlation between microglial activation rCMRGlc
+and hippocampal volumes was evaluated using SPM
+where pixel wise BPND C R PET
+and rCMRGlc were the dependent variable and the
+hippocampal volume scores hippocampal rCMRGlc were the covariate interest 
+Statistical analysis was performed using IBM SPSS
+ Windows SPSS Chicago Illinois USA 
+Continuous variables were expressed mean SD 
+Normality was assessed using the KolmogorovSmirnov test One way ANOVA was used compare
+the three groups followed Bonferroni post hoc
+correction The statistical interrogations the ROI
+data for glial activation and glucose metabolism
+between AD and PDD versus controls was done with
+two tailed test with significance 
+ We evaluated the major cortical regions like
+frontal lobe temporal lobe parietal lobe and occipital lobe As medial temporal lobe and hippocampus
+are specifically involved memory and neuroinflammation did detailed analysis medial
+temporal lobe and hippocampus As anterior and posterior cingulate are implicated amyloid deposition
+and reduction glucose metabolism respectively 
+subsequently analyzed anterior cingulate posterior
+cingulate thalamus and striatum Categorical variables were compared test 
+We have evaluated hippocampal volumetric
+measurements against C R BPND and
+rCMRGlc hippocampus medial temporal lobe 
+and whole cortex and Spearmans correlation was
+employed virtue the limited sample size and
+ was considered statistically significant 
+Correlations between Mini Mental State Examination MMSE scores C R BPND 
+rCMRGlc and hippocampal volume were analyzed
+with Spearmans correlation and was considered statistically significant 
+RESULTS
+Patient demographics
+A total subjects healthy controls AD 
+and PDD took part the study The mean age
+Table 
+Demographic characteristics and neuropsychometric tests control AD and PDD subjects
+Total number
+Mean Age SD 
+Age range
+Gender male 
+MMSE SD 
+MMSE range
+Immediate Word Recall 
+Delayed Word Recall 
+Word Recognition
+Forward Digit Span 
+Clock Drawing 
+Boston Naming Test 
+FAS
+Controls
+AD
+PDD
+Data are presented mean SD One way ANOVA and Chi square
+test values are considered significant versus
+Controls pairwise comparisons AD versus PDD 
+pairwise comparisons 
+G D Femminella Hippocampal Volume and Neuroinammation
+was for controls for AD 
+and for PDD with significant difference between the groups The mean
+MMSE scores were significantly different among
+the groups with pairwise comparisons
+showing significant differences between AD
+ MMSE and PDD MMSE 
+ and significant differences between AD
+and controls MMSE and
+PDD and controls detailed characteristics are shown Table The neuropsychometric
+assessment revealed global deficits short and long
+term memory attention constructional praxis language and recognition both AD and PDD groups 
+with AD subjects showing significantly worse scores
+ short and long term memory compared the PDD
+group Table 
+Voxel level correlation between
+ C R BPND rCMRGlc 
+and hippocampal volume using SPM
+To evaluate the relationship between hippocampal volume microglial activation and glucose
+metabolism SPM pixel pixel analysis was used
+ AD and PDD In AD subjects the biggest clusters correlation between microglial activation and
+hippocampal volume involved the temporal frontal 
+parietal and occipital cortex well hippocampus
+and parahippocampus PDD the clusters included
+amygdala and parahippocampus well frontal 
+temporal and occipital cortex A and B show
+significant clusters microglial activation using
+multiple regression analysis C R 
+BPND against hippocampal volume AD A and
+Fig Voxel wise correlation between C R BPND and hippocampal volume between C R BPND and hippocampal rCMRGlc and between rCMRGlc and hippocampal volume AD and PDD represents voxel wise relationship between levels
+ microglial activation and hippocampal volume color coded statistical parametric maps superimposed onto spatially normalized MRI
+template image AD A and PDD B Table details corresponding significant clusters Voxel wise relationship between hippocampal glucose metabolism and levels microglial activation represented color coded statistical parametric maps superimposed onto 
+spatially normalized MRI template image AD C and PDD D Table details corresponding significant clusters Voxel wise relationship between glucose metabolism and hippocampal volume represented color coded statistical parametric maps superimposed onto 
+spatially normalized MRI template image AD E and PDD F Table details corresponding significant clusters 
+G D Femminella Hippocampal Volume and Neuroinammation
+PDD B cluster threshold with
+extent threshold voxels where microglial activation was inversely correlated with hippocampal
+volume AD and PDD subjects Details the cortical regions with C R BPND inversely
+associated with hippocampal volume AD and PDD
+are shown Table Supplementary shows
+the clusters significant C R uptake
+ AD and PDD subjects compared controls 
+C and D shows significant clusters
+ increased C R BPND against hippocampal rCMRGlc AD and PDD using multiple
+regression cluster threshold for
+AD and for PDD with extent threshold
+ voxels In this case inverse correlation observed between hippocampal glucose
+metabolism and cortical glial activation AD and
+PDD subjects Details the cortical regions with
+hippocampal rCMRGlc inversely associated with
+ C R BPND AD and PDD are shown
+ Table The clusters significant correlation
+mainly involve frontal temporal and parietal cortex
+ AD subjects and frontal temporal and occipital
+cortex PDD subjects 
+E and F shows the significant clusters 
+reduced rCMRGlc against hippocampal volume 
+AD C and PDD D with regression analysis 
+cluster threshold with extent threshold voxels In this case direct correlation
+ observed between glucose metabolism and hippocampal volume AD and PDD subjects Details
+ the cortical regions with rCMRGlc inversely associated with hippocampal volume AD and PDD are
+shown Table with significant clusters involving the temporal and occipital cortex AD and the
+thalamus and temporal cortex PDD 
+Hippocampal volume C R BPND 
+and rCMRGlc AD and PDD
+The mean hippocampal total volume left 
+right was control subjects AD and 
+ PDD indicating that hippocampal
+volume was significantly reduced AD compared
+ controls while was not significantly
+different PDD subjects compared controls
+ pairwise comparisons 
+Table shows C R BPND AD
+and PDD ROI level compared controls 
+ C R BPND was significantly increased
+ all cortical ROIs AD subjects compared 
+controls Similarly PDD subjects showed increased
+levels microglial activation compared controls
+ all cortical ROIs 
+The regional cortical rCMRGlc all groups 
+given Table PDD subjects showed significant
+reduction glucose metabolism compared with the
+control subjects across all the regions AD subjects
+showed reduced rCMRGlc compared controls all
+brain regions with the exception anterior cingulate 
+ROI correlation between C R 
+BPND rCMRGlc and hippocampal volume
+We have evaluated the correlation between hippocampal volume and levels microglial activation
+and glucose metabolism hippocampus AD and
+PDD patients Bias corrected and accelerated bootstrap CIs are reported square brackets A
+significant inverse correlations between hippocampal
+volume and hippocampal glial activation was found 
+rho also
+reported Fig When AD and PDD were analyzed
+separately significant correlations were found
+between hippocampal volume and C R 
+BPND hippocampus medial temporal lobe and the
+whole cortex ROI levels Hippocampal volume did
+not show significant correlations with rCMRGlc 
+hippocampus and medial temporal lobe AD and
+PDD 
+Correlation between Cognition 
+ C R BPND rCMRGlc 
+and hippocampal volume
+In the present study found significant correlations between MMSE and C R BPND
+ our predefined ROIs the whole study population 
+In particular MMSE was negatively correlated with
+ C R BPND hippocampus rho 
+ the medial
+temporal lobe rho 
+ and the whole cortex rho 
+Additionally have evaluated the relationship
+between cognitive function and hippocampal volume 
+finding significant positive correlation between
+MMSE and hippocampal volume the whole study
+group rho MMSE
+also correlated with rCMRGlc hippocampus 
+rho and the
+medial temporal lobe rho 
+G D Femminella Hippocampal Volume and Neuroinammation
+Table 
+Clusters voxel voxel negative correlation between microglial activation and hippocampal volume AD and PDD subjects using
+statistical parametric mapping
+Negative correlation between and hippocampal volume AD subjects
+Region
+Left Posterior temporal lobe
+Left Middle frontal gyrus
+Right Postcentral gyrus
+Left Superior temporal gyrus
+Left Lateral occipital lobe
+Left Inferolateral parietal lobe
+Right Posterior temporal lobe
+Right Pallidum
+Right Parahippocampal and
+ambient gyri
+Right Hippocampus
+Right Middle and inferior
+temporal gyrus
+Right Anterior temporal lobe
+Coordinates
+Z Score
+Corrected value
+Cluster size
+Negative correlation between and hippocampal volume PDD subjects
+Left thalamus
+Brainstem
+Pons
+Right thalamus
+Left Amygdala
+Left Insula
+Left Middlle frontal gyrus
+Left Inferior frontal gyrus
+Left Putamen
+Left Anterior temporal lobe
+Left Fusiform gyrus
+Left Parahippocampal and
+ambient gyri
+Right Lateral orbital gyrus
+Right Inferior frontal gyrus
+Right Posterior orbital gyrus
+Right Middlle frontal gyrus
+Right Insula
+Right Posterior temporal lobe
+Right Lateral occipital lobe
+Right Superior temporal gyrus
+Right Middle and inferior
+temporal gyrus
+Left Lingual gyrus
+Left Lateral occipital lobe
+Left Posterior temporal lobe
+Left Anterior orbital gyrus
+Left Middle and inferior
+temporal gyrus
+Left Inferiolateral parietal lobe
+Right Putamen
+Right Insula
+Right Postcentral gyrus
+Right Precentral gyrus
+Right Inferiolateral
+parietal lobe
+Right Lingual gyrus
+Left Precentral gyrus
+Left Postcentral gyrus
+Left Anterior temporal lobe
+Left Superior temporal gyrus
+Left Superior frontal gyrus
+G D Femminella Hippocampal Volume and Neuroinammation
+Table 
+Clusters voxel voxel negative correlation between hippocampal glucose metabolism and microglial activation AD and PDD subjects
+using statistical parametric mapping
+Negative correlation between hippocampal rCMRGlc and AD subjects
+Region
+Left Lateral orbital gyrus
+Left Middle frontal gyrus
+Left Amygdala
+Left Medial orbital gyrus
+Left Posterior orbital gyrus
+Left Superior frontal gyrus
+Left Putamen
+Left Thalamus
+Left Pre subgenual
+frontal cortex
+Right Straight gyrus
+Left Straight gyrus
+Right Superior frontal gyrus
+Left Posterior temporal lobe
+Left Lateral occipital lobe
+Right Posterior orbital gyrus
+Right Postcentral gyrus
+Right Precentral gyrus
+Right Inferior frontal gyrus
+Right Lateral orbital gyrus
+Right Middle frontal gyrus
+Right Anterior orbital gyrus
+Right Lateral occipital lobe
+Right Middle and inferior
+temporal gyrus
+Right Posterior temporal lobe
+Right Cuneus
+Left Lateral occipital lobe
+Right Lingual gyrus
+Right Superior temporal gyrus
+Right Pallidum
+Right Putamen
+Right Thalamus
+Left Inferiolateral parietal lobe
+Right Gyrus cinguli
+Left Gyrus cinguli
+Right Superior parietal gyrus
+Left Precentral gyrus
+Right Postcentral gyrus
+Left Cingulate gyrus
+Left Middle and inferior
+temporal gyrus
+Left Anterior temporal lobe
+Right Insula
+Coordinates
+Z Score
+Corrected value
+Cluster size
+Negative correlation between hippocampal rCMRGlc and PDD subjects
+Left Thalamus
+Left Cuneus
+Left Lingual gyrus
+Right Posterior temporal lobe
+Right Middle and inferior
+temporal gyrus
+Right Lateral occipital lobe
+Right Thalamus
+Right Postcentral gyrus
+Right Inferior frontal gyrus
+ Continued 
+G D Femminella Hippocampal Volume and Neuroinammation
+Table 
+ Continued 
+Negative correlation between hippocampal rCMRGlc and AD subjects
+Region
+Right Inferiolateral
+parietal lobe
+Right Precentral gyrus
+Left Posterior temporal lobe
+Left Lateral occipital lobe
+Right Posterior orbital gyrus
+Right Lateral orbital gyrus
+Left Middle and inferior
+temporal gyrus
+Left Inferiolateral
+parietal lobe
+Left Insula
+Left Anterior orbital gyrus
+Left Lateral orbital gyrus
+Left Putamen
+Left Inferior frontal gyrus
+Left Middle frontal gyrus
+Right Putamen
+Right Insula
+Left Anterior temporal lobe
+Left Fusiform gyrus
+Right Fusiform gyrus
+Left Gyrus cinguli
+Right Gyrus cinguli
+Left Superior parietal gyrus
+Right Middle frontal gyrus
+Coordinates
+Z Score
+Corrected value
+Cluster size
+Fig Potential role local and distant neuroinflammatory triggers hippocampal neurodegeneration left schematically
+represents hippocampal connections with entorhinal cortex and cerebral cortical regions On the right this figure shows how direct inflammatory triggers amyloid plaques Lewy bodies can generate vicious cycle cytotoxic and stimulatory factors that leads chronic
+neuroinflammation and progressive neuronal degeneration over time 
+G D Femminella Hippocampal Volume and Neuroinammation
+Table 
+Clusters voxel voxel positive correlation between brain glucose metabolism and hippocampal volume AD and PDD subjects using
+statistical parametric mapping
+Positive correlation between rCMRGlc and hippocampal volume AD subjects
+Region
+Left Superior temporal gyrus
+Left Nucleus accumbens
+Left thalamus
+Left Superior parietal gyrus
+Right Lingual gyrus
+Left Posterior temporal lobe
+Left Subcallosal area
+Left insula
+Right Posterior temporal lobe
+Right Precentral gyrus
+Left Lateral occipital lobe
+Right Lateral occipital lobe
+Left Anterior temporal lobe
+Left Superior temporal gyrus
+Left Superior frontal gyrus
+Right amygdala
+Right Inferior frontal gyrus
+Right thalamus
+Coordinates
+Z Score
+Corrected value
+Cluster size
+Positive correlation between rCMRGlc and hippocampal volume PDD subjects
+Left Thalamus
+Left Gyrus cinguli
+Right Precentral gyrus
+Right Superior temporal gyrus
+Right Superior temporal gyrus
+Right Thalamus
+Right Postcentral gyrus
+Right Lateral orbital gyrus
+Right Anterior orbital gyrus
+Right Middle and inferior temporal gyrus
+Right Hippocampus
+Left Posterior temporal lobe
+Left Gyrus cinguli
+Fig Correlation between hippocampal volume and hippocampal microglial activation AD and PDD 
+DISCUSSION
+In this study have demonstrated for the first
+time that levels microglial activation voxel level
+ the whole cortex medial temporal lobe and hip 
+pocampus measured using C R PET 
+were inversely correlated with hippocampal volume
+and hippocampal glucose uptake AD and PDD
+subjects This study provides further credence the
+hypothesis that microglial activation detected with
+ C R PET correlated with markers
+ neuronal damage reduction hippocampal
+volume and glucose metabolism This finding further supports the role neuroinflammation and
+microglial activation neurodegenerative diseases
+ The spatial agreement between local
+and distant microglial activation the cortical projections and atrophy hippocampus lends credence
+ the theory that chronically activated microglial
+cells might one the effectors neurodegenerative processes thus influencing neuroinflammation
+can have potential therapeutic implications these
+diseases In this study have found increased
+levels C R BPND across almost
+G D Femminella Hippocampal Volume and Neuroinammation
+Table 
+Regional microglial activation and glucose metabolism control AD and PDD subjects
+Regional microglial activation
+Hippocampus BPND
+Anterior Cingulate BPND
+Posterior Cingulate BPND
+Thalamus BPND
+Striatum BPND
+Frontal lobe BPND
+Temporal lobe BPND
+Parietal lobe BPND
+Occipital lobe BPND
+Medial Temporal Lobe BPND
+Cortical BPND
+Regional glucose metabolism
+Hippocampus BPND
+Anterior Cingulate BPND
+Posterior Cingulate BPND
+Thalamus BPND
+Striatum BPND
+Frontal lobe BPND
+Temporal lobe BPND
+Parietal lobe BPND
+Occipital lobe BPND
+Medial Temporal Lobe BPND
+Controls
+AD
+PDD
+Data are presented mean SD versus controls 
+all predefined brain regions AD and PDD subjects compared controls consistent with previous
+reports 
+Growing evidence indicates that neuroinflammation contributes significantly the pathological
+process chronic neurodegenerative diseases and
+this could act independently and along with the
+other pathological substrates neurodegenerative
+diseases In AD microglial cells are activated 
+amyloid deposition generating proinflammatory
+response leading neuronal death The damaged
+neurons and neurofibrillary tangles can turn activate microglia inducing vicious cycle neuronal
+damage and reactive gliosis In PD findings
+from neuropathological studies have shown that
+microglial cells are associated with synucleinpositive Lewy neurites and that misfolded
+ synuclein released from neurons can directly activate microglial cells In PDD according Braak and
+colleagues the spread Lewy body pathology starts
+from dorsal motor nucleus vagus and olfactory
+nucleus then reaches substantia nigra basal forebrain and ultimately the sensory association areas
+and premotor areas the neocortex Thus could
+ implied that neuroinflammation triggered Lewy
+body pathology follows the same temporal spatial
+progression which turn could lead neuronal
+damage both anterograde and retrograde fashion 
+Moreover has been demonstrated that microglial
+activation may lead synaptic dysfunction and loss
+ dopaminergic axonal projections with retrograde
+neurodegeneration In this study have
+shown that microglial activation locally and the
+cortical projections from hippocampus could cause
+neuronal damage and hippocampal atrophy which 
+novel and has never been demonstrated before 
+It should also mentioned that microglial cells
+ brain express different phenotypes depending 
+the type proinflammatory stimuli received either
+via paracrine autocrine manner The cytokine
+stimulation essential for microglial polarization
+into the classically activated the phenotype which activated the alternate pathway
+ In AD has also been demonstrated that dysfunctional microglial response could contribute A
+accumulation As AD pathology worsens there
+ switch from phenotype consistent with
+the idea that microglia become less responsive 
+induction signals they age In our study 
+ cannot discern whether glial activation detected
+ C R PET might mainly due 
+either the two phenotypes However microglial
+activation detected C R PET associated with hippocampal volume loss and correlated
+with MMSE suggesting the putative effect the
+microglial cells described before 
+G D Femminella Hippocampal Volume and Neuroinammation
+It known that other factors can affect neuroinflammation such the activity the central
+adrenergic system As example multiple lines
+ evidence indicate that the adrenergic neurotransmitter norepinephrine also exerts anti inflammatory
+actions within the CNS In transgenic AD mouse
+models with locus coeruleus the major source
+ noradrenergic projections degeneration the
+decrease norepinephrine has shown induce
+the inflammatory reaction microglial cells AD
+and exacerbate neuroinflammation induced the
+deposition amyloid 
+In this study have also demonstrated that hippocampal volume AD and PDD subjects directly
+correlated with reduction glucose metabolism 
+voxel level This finding accordance with previous evidence which have shown that patients with
+AD and PDD have extensive areas cerebral atrophy and hypometabolism comparison with control
+subjects Vander Borght compared AD and PDD
+subjects matched for dementia severity finding similar metabolic reductions both globally and regionally 
+however PDD exhibited greater metabolic reduction the occipital cortex but relatively preserved
+metabolism the medial temporal lobe compared
+ AD FDG PET studies AD have indicated that
+glucose metabolic deficits start from the hippocampus and posterior cingulate cortex and then involve
+the temporo parietal cortices In this study 
+have been able demonstrate similar pattern 
+hypometabolism and increase microglial activation
+ those regions 
+Recent data have demonstrated that PD patients
+with mild cognitive impairment hypometabolism
+exceeds atrophy the angular gyrus occipital orbital and anterior frontal lobes In
+PDD patients the hypometabolic areas observed 
+PD patients with mild cognitive impairment were
+replaced areas atrophy which were surrounded
+ extensive zones hypometabolism areas where
+atrophy extended more than hypometabolism were
+found the precentral and supplementary motor
+areas both patients with mild cognitive impairment
+and with PDD and the hippocampus and temporal
+lobe patients with PDD 
+These data are also accordance with our findings 
+First all while found significant hippocampal atrophy AD subjects were not able 
+detect any significant differences hippocampal volume between PDD and controls Previous reports
+evaluating hippocampal volume PD and PDD
+patients showed conflicting results Some authors
+have reported hippocampal atrophy even early
+stages the disease while others have not found
+significant differences compared age matched controls Although mixed AD PD pathology can
+ present our study population our PDD patients
+did not show significant hippocampal atrophy compared age matched controls Our AD group also
+showed occipital hypometabolism which more commonly observed PDD however this finding has
+been observed works from our studies and others
+ Unlike other studies our measurement 
+rCMRGlc was quantitative and absolute used
+the arterial input for the FDG PET scans 
+We evaluated the correlation between microglial
+activation the hippocampus and cortical regions
+where death neuronal projections direct and indirect from the hippocampus could influence the level
+ microglial activation due the death the neurons the medial temporal lobe and neocortical
+regions microglial activation and neuronal death
+ the hippocampus could lead microglial activation the projected neurons The hippocampal fibers
+are connected directly the entorhinal cortex and
+from there project perirhinal parahippocampal cortices and widely the cortex This correlation
+suggests that microglial activation could cause neuronal damage the immediate vicinity well 
+ distant regions connected indirectly from the hippocampus It suggested that this could due
+ the loss afferent and efferent fibers from the
+hippocampal neurons while cortical microglial activation independent hippocampal denervation 
+also possibility This phenomenon also reported
+ stroke 
+Indeed our cohort hippocampal atrophy AD
+group seems correlate well with neuroinflammation within the hippocampus and regions 
+direct indirect cortical projections It known
+that enthorinal cortex within the medial temporal lobe
+ connected both via afferent and efferent neuronal
+pathways hippocampus Moreover the enthorinal
+cortex also connected variety cortical and
+subcortical regions amygdala olfactory bulb cingulate cortex temporal cortex and the orbital cortex
+ along with other frontal and parietal regions Thus 
+ conceivable that neuroinflammation the hippocampus could lead neuronal dysfunction locally
+and remotely connected cortical areas possibly
+leading neurodegeneration and atrophy Fig 
+It could also argued that microglial activation
+ cortical areas hippocampal projection might
+lead neuroinflammation and atrophy within the
+G D Femminella Hippocampal Volume and Neuroinammation
+hippocampus It likely that both these processes
+might happen AD pathology leading vicious
+cycle neurodegeneration Interestingly our data
+set demonstrated that hippocampal volume correlated
+significantly the reduction rCMRGlc and the
+increase microglial activation AD wider 
+terms voxel volume brain regions compared 
+PDD suggesting that for comparable cognitive status the underlying microglial activation and reduction rCMRGlc spatially more widespread AD
+than PDD and accordingly significant atrophy has set
+ AD but not PDD Similarly have found that
+the reduction hippocampal glucose metabolism 
+AD associated with wider areas increased glial
+activation compared PDD This could suggest that
+cognitive dysfunction PDD also contributed 
+other factors like presence synuclein 
+The neuropsychometric assessment the study
+population indicated that the AD group achieved significantly lower scores than PDD immediate and
+delayed memory recall This partially accordance with previous studies that have shown that 
+for comparable MMSE levels AD and PDD patients
+perform differently memory attention and executive functions even early stages the disease 
+ This could due the different neuropathological substrate which AD affects primarily the
+medial temporal cortex and the neocortical association areas while PD neurodegeneration starts
+ the brain stem and subsequently spreads the
+cortical areas In the present study have also
+found significant negative correlations between cognitive profile measured MMSE scores versus
+ C R BPND and positive correlation
+between MMSE score versus hippocampal volume 
+and MMSE scores versus rCMRGlc further suggesting the putative effect microglial activation late
+stage the disease 
+The findings this study are limited the small
+number subjects per group and the crosssectional design however this proof principle
+study sheds more light into the role neuroinflammation and how this influences the neurodegenerative process Also the use multiple comparisons
+might increase the risk false positive inferences
+ type I error have reduced this error applying
+correction for multiple comparisons our regression analysis C R PET though used
+for many years selective marker microglial
+activation via binding the upregulated TPSO
+protein shows vivo binding orders magnitude lower than second generation TPSO tracers like
+ C It has been shown that the rate clearance C R considerably faster than
+many other widely used PET radioligands leading 
+ very low ratio specific non specific binding It
+ also suggested that the fraction non specifically
+bound C R the grey matter about
+ However reproducibility studies with C R have shown that the tracer binding large
+brain regions was acceptable for applied clinical studies Future studies with second generation TSPO
+markers may able extend these results further 
+other neurodegenerative diseases However secondgeneration tracers are influenced the TSPO polymorphism Moreover although C R 
+generally considered specific marker for activated microglial cells several studies have suggested
+that this tracer also binds reactive astrocytes 
+brain Another limitation the present
+study that the observed correlations between hippocampal volume and C R BPND the
+ROI level were not evident when the groups were
+analyzed separately Although cannot exclude
+that this just simply attributable differences
+between groups there was significant difference
+between microglial activation between these two
+groups However were only able evaluate small
+numbers subjects enrolment larger number
+ subjects was limited the intensity scanning
+involved this study Previous reports from our
+group have shown that correlation exists between
+MMSE scores and cortical microglial activation 
+voxel level using SPM analysis both AD subjects
+and PDD subjects separately 
+In conclusion have shown that glial activation within the hippocampus assessed 
+ C R PET inversely correlates with hippocampal volume neurodegenerative diseases with
+dementia These findings provide further evidence
+for the central role microglial activation 
+neurodegenerative pathologies like AD and PDD 
+and highlights microglial activation potential
+therapeutic target combating chronic neuroinflammation and resultant neurodegeneration 
+ACKNOWLEDGMENTS
+This work was supported the Medical Research
+Council grant number the National
+Institute for Health Research NIHR Imperial
+Biomedical Research Centre and the Alzheimers
+Research UK 
+G D Femminella Hippocampal Volume and Neuroinammation
+Authors disclosures available online http jalz com manuscript disclosures 
+SUPPLEMENTARY MATERIAL
+The supplementary material available the
+electronic version this article http doi org 
+REFERENCES
+Morales I Guzman Martinez L Cerda Troncoso C Farias
+GA Maccioni RB Neuroinflammation the pathogenesis Alzheimers disease A rational framework for the
+search novel therapeutic approaches Front Cell Neurosci
+Hanisch UK Kettenmann H Microglia Active sensor and versatile effector cells the normal and pathologic
+brain Nat Neurosci 
+Liu B Hong JS Role microglia inflammationmediated neurodegenerative diseases Mechanisms and
+strategies for therapeutic intervention J Pharmacol Exp
+Ther 
+Frank Cannon TC Alto LT McAlpine FE Tansey MG
+ Does neuroinflammation fan the flame neurodegenerative diseases? Mol Neurodegener 
+Edison P Archer HA Gerhard A Hinz R Pavese N 
+Turkheimer FE Hammers A Tai YF Fox N Kennedy A 
+Rossor M Brooks DJ Microglia amyloid and cognition Alzheimers disease An C R PET
+and CPIB PET study Neurobiol Dis 
+Cagnin A Gerhard A Banati RB In vivo imaging 
+neuroinflammation Eur Neuropsychopharmacol 
+Edison P Ahmed I Fan Z Hinz R Gelosa G Ray Chaudhuri
+K Walker Z Turkheimer FE Brooks DJ Microglia 
+amyloid and glucose metabolism Parkinsons disease
+with and without dementia Neuropsychopharmacology 
+Leung KK Bartlett JW Barnes J Manning EN Ourselin
+S Fox NC Alzheimers Disease Neuroimaging Initiative
+ Cerebral atrophy mild cognitive impairment and
+Alzheimer disease Rates and acceleration Neurology 
+Melzer TR Watts R MacAskill MR Pitcher TL Livingston
+L Keenan RJ Dalrymple Alford JC Anderson TJ 
+Grey matter atrophy cognitively impaired Parkinsons
+disease J Neurol Neurosurg Psychiatry 
+Beyer MK Janvin CC Larsen JP Aarsland D A magnetic resonance imaging study patients with Parkinsons
+disease with mild cognitive impairment and dementia using
+voxel based morphometry J Neurol Neurosurg Psychiatry
+Camicioli R Moore MM Kinney A Corbridge E Glassberg
+K Kaye JA Parkinsons disease associated with
+hippocampal atrophy Mov Disord 
+Laakso MP Partanen K Riekkinen P Lehtovirta M Helkala
+EL Hallikainen M Hanninen T Vainio P Soininen H 
+Hippocampal volumes Alzheimers disease Parkinsons
+disease with and without dementia and vascular dementia An MRI study Neurology 
+Apostolova LG Beyer M Green AE Hwang KS Morra JH 
+Chou YY Avedissian C Aarsland D Janvin CC Larsen JP 
+Cummings JL Thompson PM Hippocampal caudate and ventricular changes Parkinsons disease with
+and without dementia Mov Disord 
+McKhann GM Knopman DS Chertkow H Hyman BT 
+Jack CR Jr Kawas CH Klunk WE Koroshetz WJ Manly
+JJ Mayeux R Mohs RC Morris JC Rossor MN Scheltens P Carrillo MC Thies B Weintraub S Phelps CH
+ The diagnosis dementia due Alzheimers disease Recommendations from the National Institute 
+Aging Alzheimers Association workgroups diagnostic
+guidelines for Alzheimers disease Alzheimers Dement 
+Emre M Dementia associated with Parkinsons disease Lancet Neurol 
+Fischl B van der Kouwe A Destrieux C Halgren E 
+Segonne F Salat DH Busa E Seidman LJ Goldstein J 
+Kennedy D Caviness V Makris N Rosen B Dale AM
+ Automatically parcellating the human cerebral cortex Cereb Cortex 
+Fischl B Salat DH Busa E Albert M Dieterich M 
+Haselgrove C van der Kouwe A Killiany R Kennedy D 
+Klaveness S Montillo A Makris N Rosen B Dale AM
+ Whole brain segmentation Automated labeling 
+neuroanatomical structures the human brain Neuron 
+Turkheimer FE Edison P Pavese N Roncaroli F Anderson
+AN Hammers A Gerhard A Hinz R Tai YF Brooks DJ
+ Reference and target region modeling C R brain studies J Nucl Med 
+Anderson AN Pavese N Edison P Tai YF Hammers A 
+Gerhard A Brooks DJ Turkheimer FE A systematic comparison kinetic modelling methods generating
+parametric maps for C R Neuroimage 
+Fan Z Aman Y Ahmed I Chetelat G Landeau B Ray
+Chaudhuri K Brooks DJ Edison P Influence 
+microglial activation neuronal function Alzheimers
+and Parkinsons disease dementia Alzheimers Dement 
+Kreisl WC Lyoo CH McGwier M Snow J Jenko KJ 
+Kimura N Corona W Morse CL Zoghbi SS Pike VW 
+McMahon FJ Turner RS Innis RB Biomarkers Consortium
+PET Radioligand Project Team In vivo radioligand
+binding translocator protein correlates with severity 
+Alzheimers disease Brain 
+Kreisl WC Fujita M Fujimura Y Kimura N Jenko KJ 
+Kannan P Hong J Morse CL Zoghbi SS Gladding RL 
+Jacobson S Oh U Pike VW Innis RB Comparison
+ C R PK and C two radioligands for translocator protein kDa human and
+monkey Implications for positron emission tomographic
+imaging this inflammation biomarker Neuroimage 
+Doens D Fernandez PL Microglia receptors and
+their implications the response amyloid beta for
+Alzheimers disease pathogenesis J Neuroinammation 
+Imamura K Hishikawa N Sawada M Nagatsu T Yoshida
+M Hashizume Y Distribution major histocompatibility complex class II positive microglia and cytokine
+profile Parkinsons disease brains Acta Neuropathol 
+G D Femminella Hippocampal Volume and Neuroinammation
+Pradhan S Andreasson K Commentary Progressive
+inflammation contributing factor early development
+ Parkinsons disease Exp Neurol 
+Chung CY Koprich JB Siddiqi H Isacson O 
+Dynamic changes presynaptic and axonal transport proteins combined with striatal neuroinflammation precede
+dopaminergic neuronal loss rat model AAV alphasynucleinopathy J Neurosci 
+Tang Y Le W Differential roles and 
+microglia neurodegenerative diseases Mol Neurobiol 
+Mills CD Kincaid K Alt JM Heilman MJ Hill AM
+ macrophages and the paradigm 
+J Immunol 
+Koenigsknecht Talboo J Landreth GE Microglial
+phagocytosis induced fibrillar beta amyloid and IgGs
+are differentially regulated proinflammatory cytokines 
+J Neurosci 
+Cherry JD Olschowka JA OBanion MK Neuroinflammation and microglia The good the bad and the
+inflamed J Neuroinammation 
+Heneka MT Carson MJ El Khoury J Landreth GE 
+Brosseron F Feinstein DL Jacobs AH Wyss Coray T 
+Vitorica J Ransohoff RM Herrup K Frautschy SA Finsen B Brown GC Verkhratsky A Yamanaka K Koistinaho
+J Latz E Halle A Petzold GC Town T Morgan D Shinohara ML Perry VH Holmes C Bazan NG Brooks DJ 
+Hunot S Joseph B Deigendesch N Garaschuk O Boddeke E Dinarello CA Breitner JC Cole GM Golenbock
+DT Kummer MP Neuroinflammation Alzheimers
+disease Lancet Neurol 
+Amor S Puentes F Baker D van der Valk P Inflammation neurodegenerative diseases Immunology 
+Femminella GD Rengo G Pagano G Lucia C Komici
+K Parisi V Cannavo A Liccardo D Vigorito C Filardi PP 
+Ferrara N Leosco D beta adrenergic receptors and
+G protein coupled receptor Alzheimers disease 
+A new paradigm for prognosis and therapy? J Alzheimers
+Dis 
+Jardanhazi Kurutz D Kummer MP Terwel D Vogel K 
+Thiele A Heneka MT Distinct adrenergic system
+changes and neuroinflammation response induced
+locus ceruleus degeneration APP transgenic mice 
+Neuroscience 
+Femminella GD Rengo G Komici K Iacotucci P Petraglia
+L Pagano G Lucia C Canonico V Bonaduce D Leosco
+D Ferrara N Autonomic dysfunction Alzheimers
+disease Tools for assessment and review the literature J
+Alzheimers Dis 
+Vander Borght T Minoshima S Giordani B Foster NL Frey
+KA Berent S Albin RL Koeppe RA Kuhl DE Cerebral metabolic differences Parkinsons and Alzheimers
+diseases matched for dementia severity J Nucl Med 
+Gonzalez Redondo R Garcia Garcia D Clavero P GascaSalas C Garcia Eulate R Zubieta JL Arbizu J Obeso JA 
+Rodriguez Oroz MC Grey matter hypometabolism
+and atrophy Parkinsons disease with cognitive impairment A two step process Brain 
+Fan Z Aman Y Ahmed I Chetelat G Landeau B Ray
+Chaudhuri K Brooks DJ Edison P Influence 
+microglial activation neuronal function Alzheimers
+and Parkinsons disease dementia Alzheimers Dement 
+Fan Z Okello AA Brooks DJ Edison P Longitudinal
+influence microglial activation and amyloid neuronal
+function Alzheimers disease Brain Pt 
+Dukart J Kherif F Mueller K Adaszewski S Schroeter ML 
+Frackowiak RS Draganski B Alzheimers Disease Neuroimaging I Generative FDG PET and MRI model
+ aging and disease progression Alzheimers disease 
+PLoS Comput Biol 
+Gerhard A Schwarz J Myers R Wise R Banati RB 
+Evolution microglial activation patients after ischemic
+stroke A C R PET study Neuroimage 
+Park KW Kim HS Cheon SM Cha JK Kim SH Kim JW
+ Dementia with Lewy bodies versus Alzheimers disease and Parkinsons disease dementia A comparison 
+cognitive profiles J Clin Neurol 
+Hildebrandt H Fink F Kastrup A Haupts M Eling P 
+Cognitive profiles patients with mild cognitive impairment dementia Alzheimers Parkinsons disease 
+Dement Geriatr Cogn Dis Extra 
+Laakso MP Soininen H Partanen K Helkala EL 
+Hartikainen P Vainio P Hallikainen M Hanninen T Riekkinen PJ Sr Volumes hippocampus amygdala
+and frontal lobes the MRI based diagnosis early
+Alzheimers disease Correlation with memory functions 
+J Neural Transm Park Dis Dement Sect 
+Smith CD Malcein M Meurer K Schmitt FA Markesbery WR Pettigrew LC MRI temporal lobe volume
+measures and neuropsychologic function Alzheimers
+disease J Neuroimaging 
+Jucaite A Cselenyi Z Arvidsson A Ahlberg G Julin P Varnas K Stenkrona P Andersson J Halldin C Farde L 
+Kinetic analysis and test retest variability the radioligand
+C R binding TSPO the human brain PET study control subjects EJNMMI Res 
+Lavisse S Guillermier M Herard AS Petit F Delahaye
+M Van Camp N Ben Haim L Lebon V Remy P Dolle F 
+Delzescaux T Bonvento G Hantraye P Escartin C 
+Reactive astrocytes overexpress TSPO and are detected 
+TSPO positron emission tomography imaging J Neurosci
+Ji B Maeda J Sawada M Ono M Okauchi T Inaji M Zhang
+MR Suzuki K Ando K Staufenbiel M Trojanowski JQ 
+Lee VM Higuchi M Suhara T Imaging peripheral
+benzodiazepine receptor expression biomarkers detrimental versus beneficial glial responses mouse models
+ Alzheimers and other CNS pathologies J Neurosci 
+Maeda J Higuchi M Inaji M Ji B Haneda E Okauchi T 
+Zhang MR Suzuki K Suhara T Phase dependent
+roles reactive microglia and astrocytes nervous system
+injury delineated imaging peripheral benzodiazepine receptor Brain Res 

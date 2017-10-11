@@ -1,0 +1,499 @@
+Sensors and Actuators B 
+Magnetic field assisted DNA hybridisation and simultaneous detection
+using micron sized spin valve sensors and magnetic nanoparticles
+D L Grahama H A Ferreiraa N Felicianoa P P Freitasa L A Clarkec M D Amaralc 
+Institute Engineering Systems and Computers Microsystems and Nanotechnologies Rua Alves Redol Lisbon Portugal
+ Instituto Superior Tecnico Department Physics Avenida Rovisco Pais Lisbon Portugal
+ Department Chemistry and Biochemistry Faculty Sciences Campo Grande University Lisbon Portugal
+ Centre for Human Genetics National Institute Health Avenida Padre Cruz Lisbon Portugal
+Received October received revised form December accepted December 
+Available online February 
+Abstract
+Specifically designed chip microfabricated current carrying metallic lines were used generate local magnetic field gradients 
+facilitate the rapid focusing and hybridisation magnetically labelled target DNA with complementary sensor surface bound probe DNA 
+Magnetoresistive biochips featuring high sensitivity spin valve sensors integrated within aluminium current lines tapered 
+diameter from each sensor location were surface functionalized with probe DNA and interrogated with magnetic
+nanoparticles functionalized with complementary non complementary target DNA Currents mA were used rapidly concentrate
+and manipulate the magnetic nanoparticles sensor sites minutes overcoming the diffusion limited transport target DNA that leads 
+long hybridisation times On chip target DNA concentrations between and pM resulted magnetoresistive hybridisation signals
+ mV mA sense current equivalent sensor bound nanoparticles The noise level V was the level 
+signal calculated for single nanoparticle V Each nanoparticle was functionalized with DNA molecules with estimated 
+DNADNA interactions per nanoparticle the sensor surface The detection range was DNA molecules per sensor equivalent
+ fmole No binding signals were observed for magnetically labelled non complementary target DNA 
+ Elsevier B V All rights reserved 
+Keywords Magnetoresistive biochip DNA chip Spin valve Magnetic nanoparticle
+Introduction
+In addition high sensitivity selectivity and low sample volume new biosensor and biochip platform technologies should preferably offer additional beneficial features
+including low cost device components and reduced assay
+times In particular there great need for more affordable and faster diagnostic DNA chip systems Magnetoresistive MR bio detection methodologies based 
+sensor resistance changes resulting from magnetically labelled biomolecules binding complementary magnetic
+Corresponding author Tel fax 
+E mail address dgrahaminesc D L Graham 
+ see front matter Elsevier B V All rights reserved 
+doi snb 
+field sensor bound biomolecules have already shown the potential provide low cost devices but reduced assay times
+have been hampered the relatively slow diffusion the
+magnetic labels the chip sensor site The majority
+ the detection platforms based different types MR
+sensor have utilized micron sized magnetic labels the size
+range diameter but one immediate disadvantage the very large size the label comparison
+ the biomolecules attached the surface this may hinder some biological interactions Magnetic nanoparticles are
+more attractive terms size but result smaller sensor
+signals per label hence detection systems utilising magnetic
+nanoparticles normally require the use high label
+concentrations order avoid slow low gradient increases
+D L Graham Sensors and Actuators B 
+ signal due the gradual movement the nanoparticles
+ the sensor Here show how have overcome this diffusion barrier through the use chip generated magnetic
+field gradients As proof concept for the development 
+magnetic field assisted magnetoresistive DNA chips have
+demonstrated the rapid focusing diameter magnetic nanoparticles functionalized with target DNA chosen
+ chip spin valve sensor sites As model probe wild
+type DNA sequence was chosen which associated with the
+common and complex genetic disease cystic fibrosis CF 
+ This was mer oligonucleotide corresponding
+ the anti sense strand the cystic fibrosis transmembrane
+regulator CFTR gene spanning the region exon where
+the most frequent CF associated mutation del occurs
+ To test the integrity the detection method the probe
+was immobilised the chip surface and interrogated with
+magnetic nanoparticles functionalized with complementary
+and non complementary target DNA sequences Hybridisation the complementary target sensor surface bound
+probe was detected real time within minutes introducing
+the magnetically labelled target DNA This method both
+fast and can employ low target DNA concentrations the
+magnetic field gradients generated chip enable the user 
+effectively concentrate the magnetically labeled target DNA
+ the vicinity the sensor 
+Methods
+ Chip design and fabrication
+The magnetoresistive chips featuring tapered current line
+structures were initially designed demonstrate the controlled placement single magnetic microspheres top
+ spin valve sensors order illustrate the sensitivity 
+this detection platform The spin valve metallic multilayer was fabricated using ion beam deposition system
+ silicon wafer passivated with A The
+multi layer structure consisted Ta NiFe CoFe Cu
+ CoFe MnIr Ta TiW N A As deposited 
+the spin valve coupon test sample had magnetoresistance
+ratio MR ratio The sensors were defined 
+standard photolithographic techniques and ion milling Aluminum leads thick were used lead the sensor contacts wire bonding pads the edge the chip Fig 
+After processing the average MR the sensor element was
+ the drop being due contact and lead resistance 
+The average sensor sensitivity was found Oe
+ mV Oe Each chip was designed with six spin valve
+sensors each sensor having two associated aluminium current line structures A thick tapered diameter from
+ sections adjacent the sensor Fig and
+ Both sensors and leads were passivated with A
+thick sputtered layer for protection against fluid based
+corrosion during experimentation The silicon wafer was
+cut into individual chips using dicing saw 
+Fig Schematic diagram chip layout dimensions 
+featuring six single spin valve sensors fabricated line
+along the central region the chip sensor contact lines red each sensor
+having two associated tapered current line structures one either side the
+sensor line current lines blue External contacts were made via the square
+contact pads around the edge the chip A single spin valve sensor region
+showing the sensor lines red relation the tapered current lines blue 
+dashed For interpretation the references color this figure legend 
+the reader referred the web version the article 
+Detection experiments were performed chips mounted
+ pin chip carriers The contacts were made wire
+bonding protected with air drying silicon gel Elastosil
+ Wacker Germany which also created chip well
+ which perform all the fluidic steps biological
+experiments 
+ Magnetic nanoparticles
+The superparamagnetic particles used were diameter Nanomag D composed iron oxide magnetite 
+dispersed dextran matrix Micromod Germany The
+D L Graham Sensors and Actuators B 
+magnetic moment per label was found 
+ emu for Oe magnetizing field 
+ The oligonucleotide probe and target DNA
+sequences
+A mer oligonucleotide probe corresponding the
+anti sense strand the CFTR gene spanning the region 
+exon where the most frequent CF mutation del 
+occurs was designed house and commercially synthesised
+ MWG Germany The sequence was The probe was prepared two
+batches both batches having thiol functional group for
+cross linking purposes and one batch having fluorescein
+label which was used visually verify immobilisation 
+the probe fluorescence microscopy The complementary
+and non complementary target DNA sequences used were
+double stranded polymerase chain reaction PCR products
+amplified from exon the CFTR cDNA and
+exons and the unrelated proto oncogene 
+respectively The sequences were 
+complementary sequence underlined and CCT GCATCA TTT GAA AAT GTC CGT GCA AAG TGG TATCCT GAG GTG CGG CAC CAC T Both targets were end
+biotinylated using end biotinylation kit Pierce USA 
+ Immobilisation CFTR probe
+DNA probe immobilisation was first tested samples diced silicon wafer pieces with RFsputter deposited layer A and passivated
+ unmounted chips The immobilisation protocol was optimised using fluorescence microscopy qualitatively assess the density immobilised fluorescently labelled
+probe using Olympus binocular microscope fitted with Zoom digital camera Olympus Germany 
+This protocol was then transferred the immobilisation 
+non fluorescent probe chips mounted pin chip carriers The chip surface was activated using aqueous
+solution aminopropyltriethoxysilane APTS and after
+ min the APTS was washed away with excess distilled water The surface was then treated with heterobifunctional
+cross linking spacer sulfo EMCS Pierce USA 
+ mM borate buffer pH containing mM NaCl 
+After this solution was removed and the surface washed
+with the same borate buffer followed phosphate buffered
+saline PBS mM phosphate buffer pH containing
+ mM NaCl The probe DNA was then applied the chip
+surface M solution PBS After any unbound
+probe was washed away using mM phosphate buffer pH
+ containing M NaCl The chip surface was then washed
+ PBS again and pre hybridised solution 
+bovine serum albumin BSA PBS for After the prehybridisation step the chip surface was washed again with
+PBS 
+ Functionalisation magnetic nanoparticles with
+target DNA
+The biotinylated double stranded DNA target solutions were added separate suspensions streptavidinfunctionalized magnetic labels mM phosphate buffer 
+pH and mixed gently for room temperature The
+relative quantity magnetic nanoparticles and DNA solution was calculated give ratio magnetic particles DNA molecules based the calculated number 
+streptavidin molecules per nanoparticle This solution was then centrifuged bench top centrifuge pellet
+ deposit the particles and resuspended mM phosphate
+buffer pH This step was repeated further two times remove any unbound DNA molecules In the final step the pellet magnetic nanoparticles was suspended the hybridisation buffer mM histidine In order produce magnetic
+nanoparticles functionalized with single stranded target DNA
+molecules the magnetically labelled double stranded target
+DNA samples were denatured C for min and cooled
+ ice immediately prior use chip 
+ Magnetic eld assisted hybridisation and
+simultaneous detection
+The mounted chips with surface bound probe were inserted into the measurement set This consisted small
+breadboard housed within aluminium noise reduction box 
+Co axial cables were used make the electrical connections
+ power sources and general purpose interface bus GPIB controlled multi meter A small diameter planar electromagnet with circular core was positioned over
+the chip carrier order apply plane magnetic field
+ Oe Images magnetic label movements and binding
+ the chip surfaces were recorded using Leica DMLM
+light microscope fitted with JVC CCD colour video camera Leica Microsystems Portugal All the hybridisation
+experiments were performed chip volumes
+ mM histidine buffer The detection experiments were
+performed measuring the voltage drop across single sensors mA sense currents with Oe plane applied
+field The experiments were performed follows the sensor
+was stabilised mA sense current give stable magnetoresistive signal baseline aliquot the DNA
+target functionalized magnetic nanoparticles was added 
+the chip buffer current mA was passed through
+one both the current lines associated with the sensor
+ use until the narrow region the line became saturated with magnetic labels the current through the line 
+was then switched off leading the saturation the sensor
+D L Graham Sensors and Actuators B 
+surface with the magnetic labels and finally the sensor chip
+surface was washed the unbound magnetically labelled DNA
+was washed away using sodium saline citrate SSC containing sodium dodecyl sulphate SDS followed 
+further wash with SSC If further cycle these experimental steps was performed the chip surface was first
+ equilibrated the hybridisation buffer mM histidine 
+ On chip temperature measurements
+In order estimate the temperature changes above the sensor surface where temperature effects were the most crucial 
+ spin valve sensor was calibrated for resistance R change
+with respect temperature T placing unmounted chip
+ top hot plate and attaching thermocouple the chip
+surface The resistance response the sensor was measured
+ mA sense current between and C 
+Results and discussion
+ On chip magnetic eld gradients
+There are basically four chip magnetic fields considered the externally applied field the attracting field
+produced current passing through the tapered current lines 
+ iii the smaller attracting field produced the current passing through the sensor and the fringe field the label 
+The applied field was constant across the chip surface while
+the latter three fields were local The magnetic nanoparticles
+act both detectable labels via their fringe field and 
+biomolecular carriers means transporting the
+target DNA molecules via the attracting field produced 
+the current lines and lesser degree the smaller attract 
+ing field the sensor itself The applied field regulated
+through the current applied external electromagnet positioned over the chip This used both induce overall
+moment the magnetic nanoparticles align the small
+random moments the iron oxide create detectable
+fringe field and also bias the sensor within the linear regime
+ its magnetoresistive magnetic field response curve 
+The field produced the current lines depends the magnitude the current and the current density The current density
+ highest were the line dimensions are the smallest the
+narrow regions the tapered lines either side the sensor
+ shown the solid blue regions Fig Consequently 
+when current sufficient magnitude mA passed
+through one both lines magnetic field energy profile 
+produced that favours the movement the magnetic labels 
+the narrow regions the line The current through the sensor
+ mA also produces attracting magnetic field albeit
+smaller than the field produced the current line Hence 
+when current flows through the lines the magnetic labels are
+rapidly attracted the narrow regions the lines force
+ and when the current switched off the particles are
+then attracted the nearby sensor force represented schematically Fig Thus either one both lines
+can used simple means rapidly saturate the sensor
+surface with the nucleic acid functionalized magnetic labels 
+Real images taken from video recording made during 
+experiment which one line was used focus and detect
+ magnetic particles are shown Fig 
+ Hybridisation experiments with magnetically
+labelled target DNA
+Hybridisation experiments were performed cycles 
+each cycle consisting four stages introducing the
+Fig A schematic representation the operational principles the tapered current line structures with magnetoresistive spin valve sensor When mA
+ passed through both current lines either side the sensor central magnetic field gradient generated resulting magnetic force that attracts the
+magnetic labels the narrow regions the current lines When sufficient number labels have been concentrated the current lines the current switched
+off and the magnetic labels are then attracted the nearby sensor magnetic force resulting from the smaller magnetic field generated the current
+ mA through the sensor Thus high concentrations magnetically labelled target DNA are rapidly brought into close contact with sensor bound probe DNA 
+D L Graham Sensors and Actuators B 
+Fig Two still images taken from video recording the magnetic fieldassisted focussing Nanomag D magnetic particles using one
+tapered current line one side spin valve sensor sensor
+ the centre with central contact lines mA current passed through
+the top tapered current line rapidly focuses the magnetic nanoparticles the
+narrow region the current line adjacent the sensor Note the increase
+ density the nanoparticles the line the width decreases resulting
+from increased current density Current through top line switched off and
+magnetic nanoparticles are attracted and saturate the spin valve sensor 
+magnetic nanoparticles functionalized with single stranded
+target DNA passing current through one both 
+the tapered current lines focus magnetic nanoparticles 
+high concentration the narrow regions the current line
+ each side the sensor saturating the sensor terminating the current through the current lines and finally
+ washing the sensor and chip surface The duration 
+each cycle was min with sensor saturation time 
+ min In the first experiments employing only one cycle 
+Fig Two magnetoresistive data charts showing the change resistance
+ single spin valve sensors with time during magnetic fieldassisted hybridisation experiments A mer CFTR wild type probe immobilised over the chip surface was hybridised with Nanomag D
+particles functionalized with complementary non complementary
+target DNA mA sense current externally applied magnetic field 
+ Oe The experimental cycle consists addition functionalized
+nanoparticles the histidine buffer chip passing current mA
+through both tapered current lines attract the functionalized nanoparticles 
+ switching off the current through both current lines effectively saturate
+the sensor with functionalized nanoparticles and washing the chip and
+sensor surface with buffer A binding signal mV was observed with
+magnetic nanoparticles functionalized with complementary target DNA 
+ current mA was passed through both tapered current
+lines attract the magnetic labels and subsequently saturate the sensor mA After washing binding signal
+ mV was obtained using magnetically labelled complementary target DNA Fig No binding signal was
+obtained for magnetically labelled non complementary target
+DNA Fig However this did not establish whether further hybridisation the magnetically labelled complementary target DNA would occur more extended timescale 
+Consequently experiments were performed employing two
+ three sequential cycles sensor saturation and washing 
+The results obtained using only one tapered current line 
+ mA and the sensors mA are shown Fig Once
+again only magnetically labelled complementary target DNA
+gave rise binding signals The first experimental cycle
+D L Graham Sensors and Actuators B 
+Fig A plot the sensitivity and dynamic range single 
+with respect the binding Nanomag D magnetic particles during magnetic field assisted DNA hybridisation experiments The conditions
+were mA sense current Oe applied magnetic field and mA current
+through one tapered current line associated with the sensor The three points
+represent the binding signals obtained experimentally see chart Fig 
+The plot was based calculations for the magnetoresistive signal that would
+ obtained for single magnetic label and calculations the number DNA molecules interacting the sensor surface 
+ Sensor sensitivity and dynamic range
+Fig Two magnetoresistive data charts showing the change resistance
+ single spin valve sensors with time during magnetic fieldassisted hybridisation experiments A mer CFTR wild type probe immobilised over the chip surface was hybridised with Nanomag D
+particles functionalized with complementary non complementary
+target DNA mA sense current externally applied magnetic field 
+ Oe The experimental cycle consists addition functionalized
+nanoparticles the histidine buffer chip passing current mA
+through both tapered current lines attract the functionalized nanoparticles 
+ switching off the current through both current lines effectively saturate the sensor with functionalized nanoparticles and washing the chip
+and sensor surface with buffer Note with magnetic nanoparticles functionalized with complementary target DNA binding signal obtained after
+each washing step The hybridisation signal increases from mV after
+one hybridisation cycle mV after two cycles and then mV after
+three cycles 
+resulted binding signal mV which increased
+ mV after second cycle and then mV after third cycle Fig Calculations based signal
+per label suggest that this binding signal represents 
+nanoparticles representing surface coverage the
+sensor It was calculated that full monolayer nanoparticles across the sensor surface nanoparticles would
+result signal mV which point further increases the binding signal would expected In practice 
+ sensor coverage with nanoparticles would difficult
+ attain due steric hindrance the binding surface The
+absence binding signals with magnetically labelled noncomplementary target DNA indicated negligible level 
+non specific binding either with the probe DNA with the
+sensor surface 
+The determination the number target DNA molecules
+attached each magnetic nanoparticle was based the
+binding one DNA molecule via the end biotin 
+each streptavidin molecule the nanoparticle surface The
+number streptavidin molecules immobilised per nanoparticle was calculated using the total weight streptavidin
+measured for known bulk quantity nanoparticles The
+number particle bound target DNA molecules interacting with the probe DNA molecules above the sensor surface
+was then estimated considering arc the particle
+ contact with the sensor surface This estimate was based
+ several assumptions the nanoparticle has spherical
+shape the streptavidin molecules are evenly distributed
+across the surface the nanoparticle and iii the contact distance height between the sensor surface and the arc 
+the particle must not exceed the length the probe DNA
+and cross linker attached the sensor surface 
+When applied Nanomag D particles with diameter
+ and radius was estimated that
+ streptavidin molecules were distributed across surface area Therefore arc the
+particle contact with the sensor surface represented target DNA molecules interacting with
+sensor bound probe DNA molecules The MR sensor signal resulting from single magnetic nanoparticle bound the
+sensor surface was estimated V using the magnetic
+moment the particle measured under the same experimental conditions employed during the detection process On
+this basis the DNA detection range single 
+sensor was calculated molecules equivalent
+ fmole Fig The range DNA concentrations that could analysed chip vary considerably
+ this depends the number DNA molecules attached
+ each magnetic label In principle one DNA molecule
+D L Graham Sensors and Actuators B 
+Fig The temperature change above the spin valve sensor was determined via resistance measurements the sensor different sense currents
+ I for positive currents solid line and negative currents dashed line using
+ calibration curve not shown for resistance versus temperature between
+ and C A cross section through the chip the region single
+sensor showing the distance the sensor from the two associated current
+line structures The temperature change T calculated above the chip resulted from heating contributions from the current through the sensor itself
+and the current passing through one both current lines 
+was attached each nanoparticle then extremely low target DNA concentrations could used However this approach would unlikely result efficient hybridisation the sensor surface the nanoparticles would have
+ the correct orientation bind the probe DNA 
+In practical terms using reasonable number target DNA
+molecules per label anticipated that target DNA
+concentrations the femto molar range could analysed
+ chip 
+ On chip temperatures the sensor site
+All the chip hybridisation experiments were performed room temperature Nevertheless the heat generated
+ chip structures during experiment may important
+ temperature changes may affect the sensor signal and may
+also affect biomolecular recognition processes such hybridisation and dehybridisation The temperature generated
+depends mainly the magnitude the currents used and
+the nature and the thickness the insulating passivating layers above and below the sensor line structure A
+calibration sensor resistance versus temperature was performed and this was used measure the sensors thermal
+coefficient resistivity R T C 
+where the room temperature resistance This was then
+used calculate the temperature change corresponding 
+ observed sensor resistance change different positive 
+negative sense currents between and mA Fig 
+illustrating quadratic dependence T K sense
+current I In order avoid the magnetic effects the different sense currents the sensor was saturated the parallel
+configuration applying magnetizing field Oe The
+temperature change observed with increase current was
+almost instantaneous with negligible temperature increase
+observed over the following min At mA the sense current used the DNA hybridisation detection experiments 
+the maximum temperature change was measured C 
+resulting sensor surface temperature C without fluid based heat dissipation considerations this temperature was close the optimal temperature for the chip
+DNADNA hybridisation and well below the dissociation
+temperature the CFTR targetprobe DNA The melting
+point calculated for the probe was C according 
+although this does not take into account the DNA concentration and medium composition above the sensor surface A
+similar temperature calculation using the sensors resistance
+response was made for different currents passed through the
+two associated current lines distance each side
+ the sensor Fig The heat generated above the sensor result current mA passed through both
+associated current lines was found increase the temperature the sensor site more than C over min
+operation 
+Summary
+We have demonstrated the first step the successful development magnetic field assisted magnetoresistive based
+DNA chips incorporating high sensitivity sensors and novel
+current line designs for rapid probe target hybridisation using low target DNA concentrations Other current line structures such micro loops and matrixes have previously been
+used demonstrate the focussing movement magnetic beads particles but did not incorporate 
+functional detector for biomolecular recognition events Our
+present goal demonstrate the detection small structural differences DNA RNA sequences such wild
+type versus mutation sequences careful manipulation 
+magnetically labelled target DNA In addition aim 
+investigate other MR sensors Planar Hall effect sensors
+ and other chip current line structures order continue improve the commercial potential this new biochip
+platform 
+Acknowledgements
+This work was supported the EU CF Chip
+project Contract No H A Ferreira grateful the FCT Portugal for doctoral grant
+ SFRH BD and the authors also thank the
+INESC MN process engineers Fernando Silva and Jose
+D L Graham Sensors and Actuators B 
+Bernardo for their help during chip processing and Jose
+Faustino for wire bonding 
+References
+ D R Baselt G U Lee M Natesan S W Metzger P E Sheehan 
+R J Colton A biosensor based magnetoresistance technology 
+Biosens Bioelectron 
+ J C Rife M M Miller P E Sheehan C R Tamanaha M Tondra 
+L J Whitman Design and performance GMR sensors the detection magnetic microbeads biosensors Sens Actuators A 
+Phys 
+ D L Graham H A Ferreira P P Freitas Magnetoresistive based
+biosensors and biochips Trends Biotechnol 
+ P P Freitas H A Ferreira D L Graham L A Clarke M D Amaral 
+V Martins L Fonseca J M S Cabral Magnetoresistive DNA chips 
+ M Johnson Ed Magnetoelectronics Elsevier Chapter 
+ M M Miller P E Sheehan R L Edelstein C R Tamanaha L 
+Zhong S Bounnak L J Whitman R J Colton A DNA array sensor utilizing magnetic microbeads and magnetoelectronic detection 
+J Magn Magn Mater 
+ D L Graham H A Ferreira J Bernardo P P Freitas J M S Cabral 
+Single magnetic microsphere placement and detection chip using
+current line designs with integrated spin valve sensors biotechnological applications J Appl Phys 
+ L Lagae R Wirix Speetjens J Das D L Graham H A Ferreira 
+P P Freitas G Borghs J De Boeck On chip manipulation and
+magnetization assessment magnetic bead ensembles integrated
+spin valve sensors J Appl Phys 
+ P A Besse G Boero M Demierre V Pott R Popovic Detection
+ single magnetic microbead using miniaturized silicon Hall
+sensor Appl Phys Lett 
+ M M Miller G A Prinz S F Cheng S Bounnak Detection 
+ micron sized magnetic sphere using ring shaped anisotropic
+magnetoresistance based sensor model for magnetoresistancebased biosensor Appl Phys Lett 
+ G Li V Joshi R L White S X Wang J T Kemp C Webb R W 
+Davis S Sun Detection single micron sized magnetic bead and
+magnetic nanoparticles using spin valve sensors for biological applications J Appl Phys 
+ J Schotter P B Kamp A Becker A Puhler G Reiss H Bruckl 
+A biochip based magnetoresistive sensors IEEE Trans Mag 
+ J Schotter P B Kamp A Becker A Puhler G Reiss H Bruckl 
+Comparison prototype magnetoresistive biosensor standard fluorescent DNA detection Biosens Bioelectron 
+ D L Graham H A Ferreira P P Freitas J M S Cabral High sensitivity detection molecular recognition using magnetically labelled
+biomolecules and magnetoresistive sensors Biosens Bioelectron 
+ H A Ferreira D L Graham P P Freitas J M S Cabral Biodetection
+using magnetically labelled biomolecules and arrays spin valve
+sensors J Appl Phys 
+ P P Freitas F Silva N J Oliveira L V Melo L Costa N Almeida 
+Spin valve sensors Sens Actuators A Phys 
+ F S Collins Cystic fibrosis molecular biology and therapeutic implications Science 
+ J L Bobadilla M Macek Jr J P Fine P M Farrell Cystic fibrosis worldwide analysis CFTR mutations correlation with incidence data and application screening Hum Mutat 
+ A S Ramalho S Beck M Meyer D Penque G R Cutting M D 
+Amaral Five percent normal CFTR mRNA ameliorates the sever 
+ity pulmonary disease cystic fibrosis Am J Resp Mol Biol 
+P Jordan R Brazao M G Boavida C Gespach E Chastre Cloning
+ novel human splice variant with increased expression 
+colorectal tumors Oncogene 
+U Hafeli W Schutt J Teller M Zborowski Eds Scientific and
+Clinical Applications Magnetic Carriers Plenum Press 
+K J Breslauer R Frank H Blocker L A Marky Predicting DNA
+duplex stability from the base sequence PNAS 
+C S Lee H Lee R M Westervelt Microelectromagnets for the
+control magnetic nanoparticles Appl Phys Lett 
+T Deng G M Whitesides M Radhakrishman G Zabov M Prentiss Manipulation magnetic microbeads suspension using micromagnetic systems fabricated with soft lithography Appl Phys 
+Lett 
+L Ejsing M F Hansen A K Menon H A Ferreira D L Graham 
+P P Freitas Planar Hall effect sensor for magnetic micro and nanobead detection Appl Phys Lett 
+Biographies
+D L Graham senior researcher INESC MN working magnetoresistive biochip development He graduated applied biochemistry
+ and completed his PhD biotechnology Liverpool JMU 
+UK Since has worked variety biological and engineering
+research laboratories multidisciplinary R D projects biotechnology bioelectrochemistry and bioelectronics the UK Atomic Energy
+Research Centre Oxford University Cranfield Institute Technology 
+ICI Zeneca University College London the UK and Instituto Superior Tecnico BERG and INESC MN Lisbon His present research
+interests include the use magnetic and electric fields bio molecular
+studies bioprocess optimization and bio device development 
+H A Ferreira graduate student physics from Instituto Superior Tecnico Lisbon working magnetoresistive biochip development 
+He presently doing his PhD studies INESC MN 
+N Feliciano graduate student physics from Instituto Superior Tecnico Lisbon He was senior project student INESC MN after
+graduation and now involved magnetoresistive biochip development 
+P P Freitas received his PhD solid state physics from Carnegie Mellon
+University His thesis topic involved the study magnetoresistance CoFe thin films Between and was postdoctoral
+fellow IBM Yorktown Heights where worked magnetic thin films
+and high TC superconductors Since has been the Instituto
+Superior Tecnico where professor the Department Physics 
+He presently the director INESC MN and responsible for the magnetic recording technology research group His current research interests
+include GMR heads for ultra high density recording spin dependent tunneling junctions non volatile memories magnetic multilayers and thin
+films micro magnetism transport phenomena GMR sensors and bioelectronics 
+L A Clarke graduated zoology from the University Bristol 
+and was awarded PhD the University London the
+field molecular endocrinology He moved the National Institute 
+Health Lisbon undertake postdoctoral work the role 
+alternative splicing the expression human mismatch repair genes 
+Since has been involved the characterization cystic fibrosisrelated patterns gene expression using microarray technology the
+University Lisbon 
+D L Graham Sensors and Actuators B 
+M D Amaral was awarded PhD molecular genetics and 
+associate professor biochemistry working the University Lisbon
+and the Centre for Human Genetics Lisbon the molecular mechanisms
+that determine the pathophysiology the genetic disease cystic fibrosis 
+Her research has been dedicated toward the understanding the biogenesis degradation and trafficking the cystic fibrosis conductance regulator
+ CFTR protein product the gene which when mutated responsible
+for CF Her group has significant expertise the molecular and cellular
+biology CFTR including proteomics approaches Recent work involves
+the analysis differential expression the RNA level using microarray
+approaches 

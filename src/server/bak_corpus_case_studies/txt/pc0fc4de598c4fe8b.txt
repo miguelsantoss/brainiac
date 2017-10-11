@@ -1,0 +1,224 @@
+IEEE TRANSACTIONS ON MAGNETICS VOL NO OCTOBER 
+Detection Cystic Fibrosis Related DNA Targets
+Using AC Field Focusing Magnetic Labels
+and Spin Valve Sensors
+Hugo A Student Member IEEE Daniel L Nuno Luka A 
+Margarida D and Paulo P Member IEEE
+INESC Microsystems and Nanotechnologies Lisbon Portugal
+Physics Department Instituto Superior Tcnico Technical University Lisbon Lisbon Portugal
+Chemistry and Biochemistry Department Faculty Sciences University Lisbon Lisbon Portugal
+Centre for Human Genetics National Institute Health Lisbon Portugal
+A spin valve sensor biochip was used detect cystic fibrosis related DNA targets for the purpose developing affordable diagnostic chip The strategy used was based the field focusing magnetically labeled target DNA sensor sites using U shaped
+current lines U shaped spin valve sensors fabricated within the line structures detected real time the hybridization DNA targets
+ complementary DNA probes previously immobilized onto the chip surface Hybridization occurred relatively short times 
+min comparison with conventional hybridization approaches Statistical data detection signals for single probe and
+multiprobe experiments was obtained showing significant difference between complementary binding signals and noncomplementary
+and background ones 
+Index TermsBiomedical transducers DNA magnetic particles magnetoresistive devices medical diagnosis 
+I INTRODUCTION
+T
+HE use magnetoresistive sensors for biological applications has been generating ever increasing interest from
+laboratories and companies the last few years 
+The main interest far has been the detection DNA hybridization using magnetoresistive biochips and this has been
+accomplished using two detection approaches In the first
+one designated post hybridization detection biotin labeled
+DNA targets are incubated with DNA probe functionalized
+chip surface for hybridization occur At later stage streptavidin functionalized magnetic labels are incubated with the
+chip binding the hybridized targets Hybridization detection
+ achieved through the sensing the stray fields created 
+the labels using the magnetoresistive sensors The hybridization
+process usually takes from targets need diffuse
+passively solution find their complementary DNA probe 
+the surface This approach has been used the Naval Research
+Laboratory INESCMN and the University Bielefeld
+ but unsuitable for applications where fast response
+ required desired such biological warfare agent identification microbial pathogen detection clinical diagnostics
+during medical doctors appointment 
+Recently INESC MN has followed second approach designated magnetic field assisted hybridization and detection 
+In this case magnetically labeled DNA targets are transported
+and concentrated DNA probe functionalized sensing regions
+ use specially designed current lines The proximity 
+target and probe increases the rate which hybridization occurs Previously tapered current lines were fabricated and
+Digital Object Identifier TMAG 
+used focus labels small spin valve sensors and
+hybridization times less than min were observed and detected These sensors can only detect small numbers 
+ magnetic particles bound the surface In order 
+achieve higher sensing dynamic range and higher biological
+sensitivity new magnetic focusing system was developed such
+that labels were focused larger sensing areas This system 
+based the use combination and magnetic fields
+created external electromagnet and chip U shaped
+current lines An oscillating magnetic field gradient created 
+focusing labels inside the U shaped line structures and enabling
+magnetic field assisted hybridization 
+This paper reports the detection cystic fibrosis related
+DNA targets using the field focusing method and integrated
+U shaped spin valve sensors Statistical data from array 
+sensors was obtained with the purpose showing the applicability the magnetoresistive biochip platform for fast genetic
+disease diagnostics 
+II EXPERIMENTAL METHOD
+U shaped spin valve sensors full sensing
+length were deposited Si Al O wafers 
+ion beam deposition system The spin valve stack has the structure Ta NiFe CoFe Cu CoFe MnIr
+ Ta TiW N As deposited spin valve coupon
+ and 
+samples showed magnetoresistance ratio MR 
+when patterned the sensors showed MR 
+represents standard deviation sensitivity the linear regime
+ Oe and resistance 
+The
+spin valves were defined inside U shaped aluminum current line
+structures thick wide full length with
+ IEEE
+FERREIRA DETECTION OF CYSTIC FIBROSIS RELATED DNA TARGETS USING AC FIELD
+TABLE I
+MAGNETIC FIELD ASSISTED HYBRIDIZATION SINGLE PROBE
+Fig U shaped spin valve sensor and current line Photographs taken
+after focusing magnetic field assisted hybridization experiments using 
+noncomplementary complementary target DNA In magnetic
+labels bound the surface are observed 
+ spacing between the arms the line thus corresponding area where magnetic labels are
+focused and detected Fig 
+thick leads were evaporated contact
+Aluminum 
+sensors wire bonding pads and thick oxide layer
+ SiO was used protect the chip
+ Al O
+against chemical corrosion and provide suitable surface for
+DNA probe functionalization Individual chips containing 
+array sensors and associated U shaped lines were diced and
+wire bonded pin chip carriers 
+Single stranded mer DNA probes and targets were synthesized MWG Biotech with end modifications thiol for the
+probes and biotin for the targets They were designed correspond genes that have been found either 
+down regulated asah cystic fibrosis related cell lines versus
+healthy cell lines preliminary microarray analysis gene expression 
+Probes were immobilized over the chip surface using 
+protocol described Targets were magnetically labeled
+ incubating biotinylated DNA targets with streptavidin functionalized diameter nonremanent magnetic particles
+ Micromod Nanomag D using protocol similar the one
+described Final target concentrations solution were
+smaller than fmol 
+During experimentation array sensors was monitored real time applying mA sense current sequentially
+ each sensor and recording voltage change with general purpose interface bus controlled lock amplifier Sensor
+multiplexing was achieved with CMOS analog multiplexer
+controlled PC board An plane excitation field 
+ Oe rms frequency Hz was applied together with
+ plane Oe bias field the spin valve sensing direction Fig Sensor output was measured Hz with conms frequency bandwidth 
+stant time
+Hz The excitation fields were created horseshoe electromagnet with NiFe core powered function generator 
+parallel with power supply The electromagnet was placed
+over the chip carrier 
+The field focusing magnetic labels was achieved applying currents mA rms frequency Hz
+through the U shaped line structures combination with the
+ Oe bias field 
+Magnetic field assisted experiments using the field
+focusing method proceeded follows small volumes
+ the solutions magnetically labeled DNA targets
+were added the chip field focusing was applied for 
+ min particles were left completely settle down over
+the sensor for min saturation the chip was washed
+with mM phosphate buffer pH remove unbound
+labels wash and the chip was washed again with more
+stringent buffer mM phosphate buffer containing
+ mM NaCl remove weakly nonspecifically bound
+labels wash 
+III RESULTS AND DISCUSSION
+Table I shows statistical results obtained for field focusing
+magnetic field assisted hybridization experiments min 
+focusing mA rms min settle time where the chip was
+functionalized with single probe and interrogated with
+either complementary noncomplementary asah 
+magnetically labeled targets six sensors were monitored 
+In Table I saturation signals correspond particle detection
+signals when large number particles settled over the
+sensor step the experimental protocol It observed
+that saturation signals are comparable the two experiments
+and that deviation signals less than Binding detection
+signals signals after washing the other hand are significant
+different higher the case the complementary target
+than the noncomplementary case indicating that hybridization occurred the first case but was negligible the latter 
+After the second more stringent wash the complementary
+binding signal smaller which consistent with the removal
+ weakly nonspecifically bound targets Notice that hybridization signals can vary among the different sensors 
+A number cumulative issues are thought responsible
+for the deviation nonuniform probe immobilization nonuniform hybridization efficiency nanoparticle size variation and
+clustering nonuniform magnetically labeled target solution
+dispensing chip nonuniform label attraction the U shaped
+lines and sensor resistance and sensitivity variation 
+The values within brackets presented the table are the
+detection signals normalized the sensor voltage output
+without particles the presence particles results 
+IEEE TRANSACTIONS ON MAGNETICS VOL NO OCTOBER 
+TABLE II
+MAGNETIC FIELD ASSISTED HYBRIDIZATION SINGLE TARGET
+background and nonspecific binding necessary Although hybridization signal deviations still need studied and minimized seems that already the magnetoresistive biosensing
+platform can competitive with superior performance
+ conventional assays when analysis the expression few
+genes required such diagnostic method 
+In addition the focusing magnetic field assisted hybridization method can provide results within min opening the
+possibility have the future fast genetic diagnosis during
+ visit the doctor 
+ACKNOWLEDGMENT
+voltage drop This normalization accounts for differences 
+sensor resistance and sensitivity 
+Photographs taken after these experiments were performed
+are shown Fig It observed that the sensor surface was
+clean when the noncomplementary target was used On the other
+hand when the chip was interrogated with the complementary
+target magnetic labels were bound the surface the sensor
+and the U shaped line indicating that hybridization occurred 
+Notice that few particles were bound outside the focusing structure although the surface was also functionalized with probe 
+Table II shows statistical results obtained for field focusing
+magnetic field assisted hybridization experiments min 
+focusing mA rms min settle time where the chip was
+functionalized with and asah probes and interrogated with
+ magnetically labeled targets sensors were monitored
+ total 
+In this experiment also observed that saturation signals
+are similar among different sensors Complementary binding
+signals are now higher than noncomplementary 
+background signals which are comparable and indicate that
+the system has good biological specificity Furthermore higher
+specificity expected washing procedures are improved 
+IV CONCLUSION
+This paper has shown first statistical data the detection 
+cystic fibrosis related DNA targets Although deviations the
+hybridization signals can the detection signals are
+ least the worst observed case higher than
+noncomplementary background signals 
+In conventional microarray gene expression analysis fluorescence signal coming from hybridized DNA spot 
+ that signal obtained for contensity
+trol sample represents down regulated gene respectively It means that least two fold signal distinction from
+This work was supported the 
+Project and Fundao Calouste Gulbenkian The authors
+wish thank INESC MN engineers F Silva J Bernardo and
+J Faustino for their technical assistance H A Ferreira thanks
+FCT for his doctoral SFRH BD grant 
+REFERENCES
+ R L Edelstein C R Tamanha P E Sheehan M M Miller D R 
+Baselt L J Whitman and R J Colton The BARC biosensor applied
+ the detection biological warfare agente Biosens Bioelectron vol 
+ M M Miller P E Sheehan R L Edelstein C R Tamanaha L Zhong 
+S Bounnak L J Whitman and R J Colton A DNA array sensor utilizing magnetic microbeads and magnetoelectronic detection J Magn 
+Magn Mat vol 
+ P P Freitas H A Ferreira D L Graham L A Clarke M D Amaral 
+V Martins L Fonseca and J M S Cabral Magnetoresistive DNA
+chips Magnetoelectronics M Johnson Ed New York Academic 
+ D L Graham H A Ferreira and P P Freitas Magnetoresistive based
+biosensors and biochips A review Trends Biotechnol vol 
+ J Schotter P B Kamp A Becker A Phler G Reiss and H Brckl 
+Comparison prototype magnetoresistive biosensor standard fluorescent DNA detection Biosens Bioelectron vol 
+ D L Graham H Ferreira J Bernardo P P Freitas and J M S Cabral 
+Single magnetic microsphere placement and detection chip using
+current line designs with integrated spin valve sensors Biotechnological
+applications J Appl Phys vol 
+ D L Graham H A Ferreira N Feliciano P P Freitas L A Clarke and
+M D Amaral Magnetic field assisted DNA hybridization and simultaneous detection using micron sized spin valve sensors and magnetic
+nanoparticles Sens Actuators B vol 
+ H A Ferreira N Feliciano D L Graham L A Clarke M D Amaral 
+and P P Freitas Rapid DNA hybridization based AC field focusing
+ magnetically labeled target DNA vol 
+ D L Graham H A Ferreira N Feliciano P P Freitas and P Galvin 
+A Bio Electronic Device patent pending 
+ L A Clarke C Braz and M D Amaral Cystic fibrosis related patterns gene expression A genome wide microarray approach Pediatric Pulmonol vol suppl 
+Manuscript received February 

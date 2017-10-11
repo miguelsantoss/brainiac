@@ -1,0 +1,1884 @@
+Neuron 
+Vol 
+November 
+ Copyright
+ Cell Press
+BDNF mRNA Is Decreased the Hippocampus
+ Individuals with Alzheimers Disease
+Heidi S Phillips Jeanne M Hains Mark Armanini 
+Gary R Laramee Steven A Johnson 
+and John W Winslow 
+ Department
+ Developmental
+Biology
+Genentech
+South San Francisco California
+ thel Percy Andrus Gerontology
+Center
+University Southern
+California
+Los Angeles California
+Summary
+In recent years nerve growth factor NGF has gained
+attention potential therapeutic
+agent for Alzheimers disease AD To study the expression NGF and
+its homologs brain derived
+neurotrophic
+factor BDNF 
+and neurotrophin
+ postmortem samples hippocampus from AD and control donors were examined
+ situ hybridization 
+Hybridization
+signal for BDNF 
+but not NGF was decreased samples hippocampus from donors with AD Decreased transcript
+abundance BDNF mRNA hippocampi individuals
+with AD was verified RNAase protection
+assay 
+These results suggest the possibility that decreased expression BDNF may contribute the progression 
+cell death AD 
+Introduction
+Increasing evidence indicates that nerve growth factor NGF plays role trophic support basal forebrain cholinergic
+neurons Hefti Perry 
+ The association between loss basal forebrain
+cholinergic
+neurons and memory loss Alzheimers
+disease AD has been taken suggest that agents
+which maintain the function these cells might 
+used slow the deterioration
+ cognitive function
+that occurs this disease Hefti Perry 
+? Marx Although
+NGF has been proposed
+ potential therapeutic
+agent for AD Hefti 
+ Perry Marx there evidence 
+indicate that this disease associated with signific ant deficiency
+ NGF Goedert Reports
+concerning
+NGF receptor expression AD have been
+somewhat conflicting 
+but suggest that deficiency 
+NGF receptor expression
+ unlikely involved 
+the etiology the disease Higgins and Mufson 
+Goedert Hefti and Mash Kordower
+Recent observations
+suggest the possibility
+that
+ NGF homolog 
+brain derived
+neurotrophic
+factor
+IBDNF may also serve trophic factor for basal
+torebrain cholinergiccells 
+athird member the NGF
+ramily neurotrophin
+ less likely play 
+major role support these neurons Alderson 
+ II Ernfors Hofer Knusel
+ Phillips Wetmore 
+To compare expression
+ NGF BDNF and 
+AD and control individuals 
+samples human postmortem hippocampus
+were examined situ hybridization 
+Results
+In Situ Hybridization
+Signal for BDNF but Not NCF
+ Is Reduced AD
+Hybridizations
+for BDNF NCF and mRNAswere
+compared hippocampi
+ AD and control samples Tablel Specificityofour
+hybridization
+protocol
+for localization
+ neurotrophins
+ rat and mouse
+brain has been previously
+demonstrated
+ Phillips 
+ Furthermore 
+slot blots synthetic human
+neurotrophin
+RNAs probed either with rat BDNF
+cRNA probe under conditions
+identical those employed for situ hybridization
+ with human BDNF
+DNA probe under less stringent conditions
+exhibit 
+cross reactivity
+ the BDNF probe with NGF 
+ data not shown 
+Consistent with our earlier observations
+ Phillips 
+ control specimens hybridized
+with BDNF
+antisense probe displayed
+intense label throughout
+thegranulecell
+layerofthedentategyrus withamore
+dispersed signal across the pyramidal
+layer Figure IA In marked contrast the majority 
+samples from the AD group displayed weak signal
+over the granule cell layer the dentate gyrus and 
+barely detectable signal Ammons horn Figure IC 
+As previously observed Phillips sections
+hybridized
+with sense strand
+control probe demonstrated low levels homogeneously
+distributed
+radioactivity 
+NGF hybridization
+signals were notably
+weaker than those for BDNF but appeared equivalent
+ AD and control samples Figures IB and ID No
+consistent difference
+between signals control
+and AD samples was apparent data not shown 
+For quantification
+ hybridization
+intensities 
+the
+granule cell layer the dentate gyrus was chosen
+because intensity and uniformity
+ labeling were
+greatest with the probes this region and because
+minimal cell loss occurs there AD Coleman and
+Flood BDNF hybridization
+intensities were also
+analyzed the pyramidal layer the hippocampus
+proper The low signal noise ratios for NGF and
+ did not allow quantitative
+analysis hybridization for these mRNAs this region 
+A two way analysis variance hybridization
+intensities the dentate gyrus indicated
+that BDNF 
+NGF and mRNA signals are differentially
+affected AD F and The
+hybridization
+signal for BDNF the dentate gyrus
+was nearly fold lower for the group AD samples
+than for the nondemented
+control group 
+ versus 
+Neuron
+Table
+Donor
+Mean
+Mean
+Sample
+autolysis
+samples
+Samples
+Examined
+ In Situ Hybridization
+Neuropathology
+Sex
+Age
+Autolysis
+Time
+Cell
+Density
+None
+None
+None
+PD
+PD
+PD
+M
+M
+M
+M
+M
+M
+AD
+AD
+AD
+AD
+AD
+AD
+AD
+AD
+AD
+F
+M
+F
+M
+F
+M
+M
+M
+M
+ SE 
+ SE 
+information
+included
+neuropathology
+report AD Alzheimers
+disease 
+times hours 
+and cell density
+ per No significant
+differences
+ the AD versus
+control
+groups
+ test for all comparisons 
+BDNF
+hybridization
+intensities
+were
+also
+significantly
+reduced
+ the pyramidal
+layer the hippocampus
+proper
+ versus
+ In contrast
+ BDNF
+hybridization
+signals 
+NGF and hybridization
+intensities
+did
+not differ
+ the dentate
+gyrus
+between
+the AD and
+control
+groups
+for NGF versus
+ O lO 
+for 
+ versus
+The
+reduced
+BDNF
+hybridization
+signal
+ our
+groupof
+AD samples
+cannot
+beexplained
+ the basis
+ differences
+ donor
+age sex Table
+ There
+was
+ significant
+difference
+between
+the age donors
+our samples 
+Furthermore 
+when
+our sample
+groups
+were
+matched
+more
+closely
+for age eliminating
+samples
+from
+the youngest
+control
+donor
+and the 
+oldest
+AD donors 
+the values
+for BDNF
+hybridization
+remained
+significantly
+lower
+ the AD sample 
+ After
+matching
+sample
+groups 
+the age the AD group
+ the age the control
+group
+BDNF
+optical
+density
+OD
+ the AD group
+BDNF
+OD the control
+group
+ IO 
+Similarly 
+matching
+ the groups
+for sex the deletion
+ the samples
+from
+female
+donors
+reduces
+the mean
+BDNF
+signal
+for the AD group
+and does not affect
+the significance
+value the difference
+observed
+between
+AD and control groups 
+ Mean
+ AD samples
+female
+samples
+included
+versus
+ female
+samples
+excluded 
+The decreased
+BDNF
+signal
+ our AD samples
+cannot accounted
+for differences
+ autolysis
+times
+ loss cell density
+ the granule
+cell layer
+the dentate
+gyrus 
+Autolysis
+times
+did not differ
+between
+our AD and control
+samples
+ Table
+Furthermore 
+BDNF
+hybridization
+PD Parkinsons
+disease 
+sex and age years donor 
+are seen age autolysis
+time cell density
+ the
+intensity
+showed
+ reduction
+with
+longer
+autolysis
+times
+ R Analysis
+ cell density
+ the granule
+cell layer the dentate
+gyrus
+indicated
+ difference
+between
+our AD and control
+samples
+ Table
+Hybridization
+for BDNF but Not NCF Is
+Decreased AD mRNA Relative Unrelated
+mRNA Similar Abundance
+To control
+for variability
+ hybridization
+intensity
+resulting
+from
+differences
+ RNA quality
+ general
+reduction
+ mRNA
+that might
+occur
+with AD normalized
+hybridization
+signals
+ the dentate
+gyrus
+for
+BDNF 
+NGF and signals
+measured
+ the same
+region
+following
+hybridization
+with
+ probe
+ the
+human
+neuronal
+cell adhesion
+molecule
+ N CAM 
+N CAM
+values
+were for control
+and 
+ for AD Figure
+Correlation
+analysis
+revealed
+that general 
+N CAM
+hybridization
+values
+for individual
+samples
+correlated
+ well with values
+for the neurotrophins
+ did values
+between
+members
+ the neurotrophin
+family
+ R values for N CAM
+versus
+BDNF 
+N CAM
+versus
+NGF and
+N CAM
+versus
+ and respectively 
+R values
+for BDNF
+versus
+NGF 
+BDNF
+versus
+ and NGF versus
+ respectively 
+These
+results
+are consistent
+with
+ lack 
+cross hybridization
+ our neurotrophin
+probes
+with
+heterologous
+members
+ the family 
+Two way
+analysis
+ variance
+revealed
+that BDNFi
+N CAM 
+NGFIN CAM 
+and N CAM
+ratios
+ the
+dentate
+gyrus
+were
+differentially
+affected
+ AD F 
+ and 
+BDNFIN CAM
+ratios
+ the dentate
+gyrus
+were
+significantly
+reduced
+ AD
+versus
+control
+samples
+ Table
+Analysis
+ the BDNF N CAM
+ratios
+the pyramidal
+cell layer the hippocampus
+revealed
+BIINF
+Figure
+mRNA
+ Alzheimers
+Computer
+Disease
+Digitized
+Autoradiographs
+ Sections
+Hybridized
+ BDNF
+Antisense
+ NCF
+Antisense
+Probes
+ A and C BDNF probe B and D NGF probe A and B Control
+donor 
+ C and D AD donor Color bar B applies all panels Arrows
+Indicate
+the granule
+cell layer the dentate
+gyrus BDNF hybridization
+signal markedly
+lower the AD sample C compared
+with control
+sample A NGF signals are comparable
+ the two specimens
+ B and D 
+BDNF
+NGF
+NCAM
+I
+C Ahheimeh Disease
+Donor
+significant
+trol
+reduction
+samples
+ this
+In
+region
+versus
+marked
+contrast 
+Each bar represents
+the specific
+hybridization signal from individual
+sample Donor numbers
+correspond
+ Table Exposure times autoradiographs
+were day
+for N CAM 
+ days for BDNF days for
+NGF and days for 
+Number
+ AD
+Comparison
+ BDNF 
+NGF 
+ and N CAM Hybridization
+Signals 
+the Hippocampal
+Formation
+ AD and
+Control
+Donors
+versus
+con 
+neither
+NGF 
+N CAM
+nor N CAM
+ratios
+ the dentate
+gyrus
+ AD Table N CAM
+ratios
+were
+decreased
+displayed
+ difference
+ AD and control samples
+ whereas NGFIN CAM
+ratios revealed trend indicative relative sparing
+ NGF mRNA AD In two separate experiments
+ see Table control 
+ AD 
+BDNF mRNA Abundance Is Reduced the
+Hippocampus
+ Individuals with AD
+To quantify the abundance BDNF mRNA the hippocampus experiments
+were performed
+utilizing 
+RNAase protection assay Examination RNAfrom 
+samples human hippocampus
+revealed roughly
+ fold reduction
+ abundance
+ BDNF transcript
+samples from AD donors compared with non AD 
+ per IO RNA
+for
+trols Figure
+AD per IO RNA for control 
+ Mean autolysis times did not
+differ between control and AD samples control
+ AD Although
+the mean age for the AD samples was greater than
+that for the control donors years for AD
+donors years for control donors 
+ pO this difference not likelyto account
+for the observed difference
+ BDNF values since
+BDNF values showed trend nonsignificant 
+toward
+increasing with age both AD and control groups 
+Although
+the majority the samples analyzed 
+RNAase protection
+differ from those utilized the 
+situ hybridization
+studies there was some overlap 
+the sample sets When only samples obtained
+from
+tissue banks not contributing
+tissue for the situ
+hybridization
+analysis were included
+ the RNAase
+protection
+analysis significant
+reduction
+ BDNF
+mRNA AD was still observed AD 
+ control 
+After completion
+ our analysis examination
+ the
+records the control donors indicates history 
+BDNF mRNA 
+Table Neurotrophin
+ N CAM
+Control
+AD
+Hybridization
+Signals
+Normalized
+BDNF N CAM
+NGF N CAM
+ N CAM
+Hybridization
+signals for BDNF NCF and the dentate
+gyrus normalized
+ N CAM signal control
+and AD samples 
+The specific
+NGF BDNF and signals for each sample were
+normalized
+ dividing
+ the N CAM signal Values shown rep
+resent the mean SEM the ratios determined
+for individual
+samples within group The number
+ samples
+per group 
+indicated
+ parentheses 
+Values were not corrected
+for exposure time autoradiographs
+ N CAM
+ day BDNF days 
+ days NGF days 
+ P versus
+control 
+ test 
+ P versus control 
+ test 
+ One outlying
+point standard
+deviations
+above mean has
+been eliminated
+from the analysis NGFIN CAM
+ratios 
+mam
+Control
+ Quantification
+ BDNF
+and Control
+Donors
+ RNAase
+AD
+mRNA Hippocampi
+Protection
+Assay
+from
+AD
+Values displayed
+represent
+the mean three determinations
+the amount
+ BDNF mRNA sequence
+encoding
+mature protein
+present
+ total RNA The standard
+error the mean
+for triplicate
+determinations
+averaged
+ the mean value
+determined 
+Asterisks
+indicate control
+donors with clinical history dementia 
+ Inset Standard curvegenerated
+ the hybridization
+ increasing amounts
+ synthetic
+sense strand
+BDNF RNA antisense
+probe Values for BDNF indicate
+picograms
+ the base coding sequence
+ mature BDNF Values the axis indicate the
+number
+ counts
+recovered
+ filtration
+following
+degradation
+ single stranded
+RNA and precipitation 
+B NF
+mRNA
+ Alzheimers
+Disease
+dementia individuals 
+Curiously the BDNFvalues
+for these individuals
+ with neuropathology 
+but clinical history memory loss and with 
+combination
+ Parkinsons disease and multi infarct
+dementia were the lowest values observed for control
+samples and fell well within the range observed for
+AD samples The third individual 
+diagnosed
+with
+multi infarct
+dementia 
+displayed
+normal levels 
+BDNF mRNA 
+Discussion
+Degenerative
+changes the basal forebrain cholinergic system have been suggested play critical role
+ the development
+ dementia
+ AD see Perry 
+ While increasing
+evidence indicates that NCF
+may serve trophic agent for the basal forebrain
+cholinergic
+system see Hefti there 
+evidence support the suggestion that deficiency
+ NGF occurs AD Recent findings
+indicate that
+BDNF one two known NGF homologs 
+ widely
+expressed
+ targets basal forebrain
+cholinergic
+neurons and capable exerting trophic actions 
+these cells vitro Alderson Ernfors 
+ Hofer Knusel Phillips 
+ In the present study report reduction
+ BDNFmRNAabundancein
+hippocampiof
+individualswithAD Thesefindingssuggestthepossibilitythat
+ deficiency
+ BDNF expression
+may contribute
+the loss cholinergic
+neurons the basal forebrain
+ AD 
+Utilizing
+ situ hybridization 
+ have examined
+expression three membersof
+the NGF family NGF 
+BDNF and hippocampi
+ individuals
+with
+AD and control donors This analysis revealed 
+It fold reduction
+ BDNF hybridization
+intensity 
+the dentate gyrus AD versus control samples A
+reduction
+ BDNF hybridization
+intensity was also
+apparent the pyramidal layer Ammons horn In
+marked contrast BDNF significant
+differences
+ hybridization
+signals for NCF were observed the dentate gyrus The lack change 
+NCF hybridization
+intensity consistent with earlier
+observations
+ the cortex Goedert 
+The differences
+ BDNF hybridization
+intensity 
+hippocampi
+ control and AD donors cannot explained the basis donor age sex autolysis
+times the samples loss cell density the
+region examined 
+Predeath agony unlikely account for the observed changes BDNF signals 
+the nondemented
+controls that were victims Parhinsons disease were quite similar those the 
+neurologically
+normal donors Furthermore 
+the lack
+ change NGF hybridization
+intensity between AD
+and control samples argues that the decrease BDNF
+hybridization
+cannot accounted
+for general
+reduction
+ mRNA within the granule cell layer 
+the dentate gyrus differences
+ RNA quality
+between our AD and control samples 
+In spite the lack difference
+ NGF hybridiza 
+tion intensity between our AD and control samples 
+the trend toward reduction
+ signal 
+our AD samples brought bear concerns over the
+specificity reduction
+ BDNF hybridization
+signal 
+To address these concerns performed
+hybridizations with probe unrelated mRNA comparable
+ abundance
+ BDNF N CAM Normalization
+ the
+hybridization
+signals for BDNF NGF and 
+those obtained with the N CAM probe revealed that
+only BDNFIN CAM
+ratios were decreased AD 
+It not clear whether the roughly fold reduction
+ N CAM hybridization
+signal our AD
+samples reflects reduction this mRNA AD Given
+that most not all our AD samples represent end
+stages the disease would not surprising
+expression variety neuronal mRNAs affected
+ some extent Alternatively 
+ possible that variations quality RNA may have contributed
+ the
+observed difference
+ N CAM hybridization 
+It not
+within the realm this study distinguish
+between
+thesealternatives 
+It however clear that while NGFI
+N CAM and N CAM ratios showed tendency
+toward reduction
+ AD BDNF N CAM
+ratios showed
+ highly significant
+ reduction
+ the AD
+samples compared
+with control samples 
+The reduction
+ BDNFIN CAM
+hybridization
+ratio
+ AD observed with situ hybridization
+ agrees
+nicely with the reduction
+ BDNF mRNA abundance
+observed second set samples with RNAase protection assay Thus two sets tissue samples
+assayed different techniques 
+ have observed
+evidence for reduction
+ BDNF mRNA abundance
+ hippocampi
+ individuals
+with AD It not clear
+whether the reduction
+ BDNF mRNA abundance
+associated with decreased levels protein but previous studies NCF have indicated close correlation
+ regional brain content NGF mRNA and protein
+ Korsching Shelton and Reichardt 
+Although
+ physiological
+role for BDNF support 
+basal forebrain
+cholinergic
+cells has not been established synthesis BDNF limiting for function
+ these neurons then reduction
+ BDNF mRNA
+abundance
+ the magnitude
+ observed might 
+expected have profound
+consequences
+ cholinergic function Choline acetyltransferase
+activity has
+been reported
+ several investigators
+ decrease
+ O the hippocampus
+ individuals
+with AD
+ Araujo Sakurada see Perry 
+see Palmer and Gershon Given the cholinergic
+deficiency the cortex and profound
+cell loss the
+nucleus basalis that occur AD see Palmer and Gershon see Perry Whitehouse
+ will extremely interesting
+ determine
+whether
+BDNF mRNA reduced the cortex with AD 
+From ourdata isapparent that BDNF mRNAabundance decreased postmortem
+samples hippocampus from individuals
+afflicted with AD As our
+samples reflect end stage disease not possible 
+determine
+ what point the disease BDNF mRNA
+ affected Given the numerous pathological
+changes
+Neuron
+that occur
+ AD unlikely
+that decreased
+BDNF
+production
+ the primary
+event
+ the disease 
+The
+possibility
+that
+BDNF
+deficiency
+contributes
+ the
+progression
+ atrophy
+ the basal forebrain
+cholinergic system
+does 
+however 
+deserve
+consideration 
+Intriguingly 
+ the few cases Parkinsons
+disease
+that
+weexamined thosewithaccompanyingdementiadisplayed
+BDNF
+hybridization
+values
+ low those
+observed
+ individuals
+with AD OD cases Parkinsons disease
+with dementia
+ and OD 
+cases Parkinsons
+disease
+without
+dementia
+ and These
+limited
+findings
+suggest
+the possibility
+that some
+non AD
+forms
+ dementia
+might
+also beassociated
+with decreased
+BDNF
+mRNA
+ the
+hippocampus 
+Additional
+studies
+are needed
+ determine
+the complete
+distribution
+ changes
+ BDNF
+expression
+ AD and establish
+ correlation
+between
+levels
+ BDNF
+expression
+and progression
+degenerative
+events
+that occur
+ this disease 
+Experimental
+Results with the higher specific
+activity
+probe are presented
+ and Table 
+Probe N CAM
+was generated
+using template
+the human
+N CAM
+sequence
+cloned
+into Z 
+Template
+sequence
+represents
+residues
+ the neural form 
+human
+N CAM
+ Hemperly
+ Two slides each were
+used for sense and antisense
+probes Hybridizations
+and quantification
+ resulting
+signals were performed
+ described
+for
+NCF homologs 
+To quantify
+hybridization
+signals the autoradiographs
+were
+digitized
+and numerical
+readings
+ OD were obtained
+with the
+aid image analysis system Films were digitized 
+and optical
+density readings
+were obtained
+using image analysis
+system
+ Amersham 
+All autoradiographs
+from given experiment were digitized
+under identical conditions 
+For each autoradiograph 
+the mean OD readingsat
+points within thegranule
+celllayerofthedentategyruswasdetermined Bysubtractingthe
+mean background
+hybridization
+signal obtained
+ the control
+ sense probe slides from the mean signal observed
+ the antisense probe slides obtained
+ measure the specific hybridization signal for each sample The standard
+error BDNF hybridization
+signals from samples with replicate
+slides averaged
+ the OD value For analysis BDNF hybridization
+intensities pyramidal
+layer OD readings
+were obtained
+from the
+region most intense signal most cases 
+Procedures
+In Situ Hybridization
+Frozen unfixed
+samples were sectioned 
+processed
+for situ
+hybridizationwith
+S labeled RNA probes human BDNF NCF 
+ N CAM 
+and subjected
+ sheet film autoradiography 
+For BDNF probe synthesis
+and hybridizations
+were conducted
+ previously
+reported
+ Phillips using SUTPlabeled probe the human BDNF sequence 
+Utilizing
+our
+hybridization
+protocol 
+good signals for BDNF were observed
+sheet film Hyperfilm 
+ max Amersham 
+after day exposure
+ room temperature 
+Two pilot experiments
+employing
+ subset
+ samples
+and one complete
+experiment
+with all samples
+were performed
+with BDNF sense and antisense
+probes 
+Data
+presented
+ come from the complete
+experiment
+and
+are confirmed
+ the findings
+ the two pilot experiments 
+For
+most the samples 
+ sections
+were hybridized
+ antisense
+probe and sense control
+probe As material from the specimens that had been used pilot experiments
+was limited 
+slides were hybridized
+ antisense
+probe and sense control
+probe 
+An SUTP labeled
+RNA probe was
+produced
+utilizing
+ Bglll Hindlll 
+fragment
+ the human
+ sequence
+ Rosenthal
+ subcloned
+into 
+Probe synthesis 
+hybridizations 
+autoradiography 
+and OD readings
+ the 
+sulting autoradiographs
+were performed
+ described
+for BDNF 
+A single experiment
+was conducted 
+For each sample 
+some cases slides were hybridized
+ antisense
+probe and 
+sense control
+probe 
+Two separate
+experiments
+ NGF hybridizations
+were performed
+employing
+sections
+from all samples Data from both
+experiments
+yielded similar results In both cases theconditions
+for hybridization
+and washing
+were identical those employed
+ the BDNF experiments 
+In the first experiment 
+ YGUTPlabeled RNA probe was utilized slide each was hybridized
+sense and antisense
+probe 
+ the second
+experiment 
+probe
+was labeled with both SUTP and SCTP slides each were
+used for sense and antisense
+probe 
+The template
+for probe
+synthesis
+ both cases was BamHI Hindlll 
+fragment
+human
+NGF subcloned
+into Z 
+Hybridizations
+conducted using the single labeled
+nucleotide
+probe required
+long
+exposure
+times A day exposure
+yielded signal significantly
+weaker
+than that observed
+for BDNF after days As for the
+single labeled
+nucleotide
+probe the double labeled
+nucleotide
+probe was added tissue sections
+ final concentration
+ cpm 
+Use the higher specific
+activity NCF probe 
+this reduced
+molar concentration
+resulted
+ stronger
+hybridization signal and allowed shorter exposure
+times utilized 
+RNAase Protection
+Assay
+RNA was prepared
+from frozen
+pieces human hippocampus
+ previously
+described
+ Chirgwin
+ following
+the RNAzol CINNAIBIOTECX
+Labs Int Inc procedure
+ described
+ the manufacturer 
+Following
+ethanol
+precipitation 
+the RNA pellet was resuspended
+ sterile IO mM Tris HCI
+ pH
+ mM EDTA buffer The concentration
+ the RNA was determined the absorbance
+ A Azeo ratios for human
+samples
+prepared
+ this method
+are typically
+ the range 
+ and not differ for AD and control
+samples 
+The final
+RNA concentration
+was adjusted
+The RNAase protection
+assay was carried
+out modification the method
+ Lee and Costlow
+ BDNF antisense
+probe was synthesized
+ vitro RNA polymerase
+utilizing
+ DNA template
+that represents
+the coding sequence
+for
+mature human BDNF The double stranded
+DNA template
+was
+generated
+ polymerase
+chain reaction
+amplification
+ sequencefrom
+thecDNA containing vector
+used for situ hybridization The sense and antisense
+primers each encoded
+ bases
+ DNA complementary
+ BDNF well bases complementary either RNA polymerase
+promoter 
+Primers
+are
+ follows 
+sense 
+antisense 
+The resulting
+template
+consisted
+ encoding
+the mature
+human BDNF sequence
+flanked
+ and promoters
+orientated that polymerase
+could utilized generate
+antisense probe Antisense
+probe was generated
+ vitro utilizing
+ PUTP
+and PCTP Ci mmol 
+Amersham 
+ method
+similar that employed
+for synthesis
+ the situ hybridization
+probes The probe resulting
+from vitro transcription
+was analyzed gel electrophoresis
+and judged essentially
+all fulllength product 
+Specific activity the probe was approximately
+ Ci pmol 
+To generate
+ BDNF RNA standard 
+unlabeled
+sense strand
+BDNF RNA was synthesized
+ polymerase
+from the linearized vector template
+utilized the situ hybridization
+experiments The amount
+ RNA generated
+ this reaction
+was estimated monitoring
+the incorporation
+and recovery
+ trace
+amount YUTP
+added parallel reaction 
+As the length 
+standard
+generated
+from the linearized
+vector
+template
+was
+ values were corrected
+ factor express all data
+ picograms
+ coding
+sequence
+ BDNF RNA 
+For assay sample human
+RNA synthetic
+BDNF
+standard
+with IO tRNA carrier
+was added cpm
+ probe synthesized
+within use containing
+formamide 
+ M NaCI mM HEPES and mM EDTA The
+BDNF mRNA
+ Alzheimers
+Disease
+mixture
+was overlaid
+with mineral oil heated OC for min 
+and C Toeach
+tube Plof
+solution
+containing
+ salmon sperm DNA RNAase A and
+ RNAase Tl M NaCI mM HEPES mM EDTA 
+was added and the mixture
+was allowed incubate
+for 
+ Each samplewas
+then precipitated
+ the addition
+ ice cold
+ M HCI M sodium
+pyrophosphate 
+filtered
+with cell harvester
+onto receptor binding
+filter mats Skatron 
+Sterling 
+VA and counted
+ scintillation
+counter 
+The linear
+equation
+describing
+the standard
+curve 
+ was used determine
+the picograms
+ BDNF mRNA
+coding
+sequence
+present
+ the unknown
+samples 
+Specificity
+ this method
+for detection
+ BDNF mRNA was
+confirmed
+ the observation
+that IO synthetic
+RNA encoding BDNF but not NGF protected
+ band visible
+autoradiographyfollowing
+urea acrylamidegel
+electrophoresis 
+Tissue Samples
+For situ hybridization
+experiments 
+ samples postmortem
+human hippocampus
+were obtained
+from the National
+Neurological Research
+Bank for study The medical
+records
+including
+clinical histories
+and neuropathology
+report were obtained
+for
+each donor All samples included
+ our AD sample came from
+cionorswith
+confirmed
+clinical and neuropathologicaldiagnoses
+ AD and showed
+ evidence
+ other neurological
+disease 
+Nine samples were obtained
+for inclusion
+ the non AD control
+group Of these samples 
+ were from donors with clinical
+ pathological
+evidence
+ neurological
+dysfunction 
+ were
+ lassified the neuropathology
+reports Parkinsons
+disease 
+and was from donor who had suffered
+ stroke The medical
+records
+ the Parkinsons
+donors
+indicated
+ history
+progressive
+memory
+lossof several yearsduration 
+In situ hybridization data obtained
+from samples were not included
+ ontrols
+ our analysis control
+versus AD donors 
+The tissue
+ pecimen
+from the stroke victim was deleted from the study 
+ displayed
+obvious
+signs infarction
+within the hippocampus 
+ Zell counts
+were performed
+ the granule
+cell layer the
+dentate
+gyrus
+ photographs
+ vrn cresyl violet stained
+sections 
+For RNAase
+protection
+assays 
+hippocampal
+RNA was obtained from donors
+included
+ the situ hybridization
+analy and additional
+donors 
+Each sample included
+the entire
+taxtent the hippocampal
+formation
+present
+ coronal
+slice
+ brain approximately
+ thick Care was taken remove the
+temporal
+cortex and amygdala 
+Samples were obtained
+from the
+National
+Neurological
+Research
+Bank control 
+ AD the auiopsy core the ADRC Southern
+California
+ control 
+ AD 
+ the Institute
+ Biogerontology
+ control 
+All AD samples
+tvere from individuals
+with clinical and neuropathological
+diagrtosis AD The control
+samples
+were assigned
+ the basis
+ the neuropathology
+reports
+ normal multi infarct
+dementia
+ I Parkinsons
+disease I and Parkinsons
+tiisease with multi infarct
+dementia
+ As did not have
+rrccess the detailed clinical histories
+for every patient did
+lot eliminate
+any the samples from the control
+group spite
+ evidence
+for the presence
+ dementia
+ cases 
+special assistance
+ David Matoff and James Riehl greatly appreciated 
+We thank Drs C Miller and H Chui the ADRC 
+Southern
+Californiaand
+Dr J Rogersofthe
+Instituteof
+Biogerontology for providing
+specimens
+utilized
+for RNAase protection
+assay 
+The costs publication
+ this article were defrayed
+ part
+ the payment
+ page charges 
+This article must therefore
+hereby marked advertisement
+ accordance
+with USC Section solely indicate
+this fact 
+Received
+ revised
+August
+References
+Alderson 
+R F Alterman 
+A L Barde Y A and Lindsay R M 
+ Brain derived
+neurotrophic
+factor increases
+survival and
+differentiated
+functions
+ rat septal cholinergic
+neurons
+ culture Neuron
+Araujo 
+D M Lapchak 
+P A Robitaille 
+Y Gauthier 
+S and
+Quirion 
+R Differential
+alteration
+ various
+cholinergic
+markers
+ cortical
+and subcortical
+regions
+ human
+brain 
+Alzheimers
+disease J Neurochem 
+Chirgwin 
+J M Przbyla 
+A E MacDonald 
+R J and Rutter 
+W J Isolation
+ biologically
+active ribonucleic
+acid from
+sources
+enriched
+ ribonuclease 
+Biochemistry
+Coleman 
+phological
+P and Flood D The value alternative
+approaches
+ Alzheimers
+disease Neurobiol 
+morAging
+Ernfors 
+P Wetmore 
+C Olson 
+L and Persson H Identification
+ cells rat brain and peripheral
+tissues
+expressing
+mRNA for members
+ the nerve growth
+factor family Neuron
+Goedert 
+M Fine A Hunt S P and Ullrich 
+A Nerve
+growth
+factor mRNA peripheral
+and central rat tissues the
+human central nervous
+system lesion effects the rat brain and
+levels Alzheimers
+disease 
+Brain Res 
+Coedert 
+M Fine A Dawburn 
+D Wilcock 
+C K and Chao 
+M V Nerve growth factor receptor
+mRNA distribution
+human
+brain normal
+levels basal forebrain
+ Alzheimers
+disease Mol Brain Res 
+Hefti F and Mash D C Localization
+factor receptors
+ the normal human brain
+disease 
+Neurobiol 
+Aging 
+ nerve growth
+and Alzheimers
+Hefti F Hartikka 
+ and Knusel 
+B Function
+ neurotrophic
+factors the adult and aging brain and their possible
+use the treatment
+ neurodegenerative
+diseases 
+Neurobiol 
+Aging 
+Hemperly 
+J J Deguglielmo 
+J K and Reid R A Characterization
+ cDNA clones defining
+variant forms human neural cell adhesion
+molecule
+ NCAM 
+J Mol Neurosci 
+Higgins 
+G A and Mufson 
+E J NGF receptor
+gene expression
+ decreased
+ the nucleus
+basalis Alzheimers
+disease Exp Neurol 
+Hofer 
+mRNA
+The authors would like express their thanks Karoly Nikolics
+ rnd Franz Hefti for their encouragement
+and David Shelton
+ his comments
+ the manuscript 
+We thank Chiwen Chang
+ and Joe Phillips for the N CAM clone Arnon Rosenthal
+for the
+ clone Cori Gorman
+for the NGF clone and Carol Morita
+ Lewis Tamayo
+for their assistance
+ preparation
+ figures 
+Human brain autopsy
+specimens
+were obtained
+through
+Dr 
+N Tourtellotte 
+director
+for the National
+Neurological
+Research
+ank VAMC Wadsworth
+Division 
+Los Angeles CA which
+ sponsored
+ the NINDS NIMH 
+National
+Multiple
+Sclerosis
+jociety 
+Huntingtons
+Disease Foundation 
+Comprehensive
+Epiepsy Program 
+Tourette
+Syndrome
+Association 
+Dystonia
+Medi Research
+Foundation 
+and Veterans
+Health Services
+and Research
+Administration 
+Department
+ Veterans
+Affairs 
+The
+May
+M Pagliusi S R Hohn A Leibrock 
+J and garde Y A 
+Regional distribution
+ brainderived
+neurotrophic
+factor
+ the adult mouse brain EMBO J 
+Knusel B Winslow 
+J W Rosenthal A 
+Burton L E Seid D P 
+Nikolics 
+K and Hefti F Promotion
+ central cholinergic
+and dopaminergic
+neuron differentiation
+ brain derived
+neurotrophic
+factor but not neurotrophin
+ Proc Natl Acad Sci 
+USA 
+Kordower 
+J H Gash D M Bothwell 
+M Hersh L and Mufson E J Nervegrowth
+factor receptor
+and choline acetyltransferase
+remain colocalized
+ the nucleus
+basalis 
+Alzheimers
+patients 
+Neurobiol 
+Aging 
+Korsching 
+S Auburger 
+G Heumann 
+R Scott J and Thoenen 
+H Levels nerve growth
+factor and its mRNA the
+central
+nervous
+system the rat correlate
+with cholinergic
+innervation 
+EMBO J 
+Neuron
+Lee J and Costlow 
+N A A molecular
+titration
+measure transcript
+prevalence
+levels Meth Enzymol 
+Marx J 
+NCF
+Palmer A M and
+Alzheimers
+disease
+and Alzheimers 
+Gershon 
+cholinergic
+hopes
+and fears 
+assay 
+ Science
+S Is the neuronal
+basis 
+ glutamatergic?
+FASEB 
+Perry E K Nerve growth
+factor and the basal forebrain
+cholinergic
+system link the etiopathologyof
+neurodegenerative dementias?
+Alzheimers
+Dis Associated
+Disorders
+Phillips H S Hains J M Laramee G Rosenthal 
+A and Winslow J W Widespread
+expression
+ BDNF but not 
+ target areas basal forebrain
+cholinergic
+neurons 
+Science
+Rosenthal 
+A Goeddel 
+D V Nguyen 
+T Lewis M Shih A 
+Laramee G R Nikolics 
+K and Winslow 
+J W Primary
+structure
+and biological
+activity
+ novel human neurotrophic
+factor 
+Neuron
+Sakurada 
+T Alufuzoff 
+I Winblad 
+B and Nordberg 
+A 
+Substance
+P like immunoreactivity 
+choline acetyltransferaseactivityand
+cholinergic
+nuscarinic
+receptors
+ Alzheimers
+disease
+and multi infarct
+dementia 
+Brain Res 
+Shelton D L and Reichardt 
+L F Studies the expression the B nerve growth factor NGFJ gene the central nervous system level and regional distribution
+ NGF mRNA suggest that NGF functions
+ trophic
+factor for several distinct
+populations
+ neurons 
+Proc Natl Acad Sci 
+Wetmore 
+C Ernfors P Persson H and Olson L Localization brain derived
+neurotrophic
+factor mRNA neurons
+ the brain situ hybridization 
+Exp Neurol 
+Whitehouse 
+P J Price D L Struble R C Clark A W Coyle 
+J T and DeLong 
+M R Alzheimers
+disease and senile
+dementia 
+loss neurons
+ the basal forebrain 
+Science 

@@ -1,27 +1,63 @@
 {
     "cluster_words_lsa":[
         [
-            "ad",
             "patient",
-            "study",
-            "disease",
-            "volume",
-            "atrophy",
-            "cognitive",
+            "memory",
+            "delay",
+            "word",
+            "test",
+            "shifting",
+            "severe",
+            "impaired",
             "group",
-            "mild",
-            "apathy"
+            "learning"
+        ],
+        [
+            "temporal",
+            "child",
+            "gyrus",
+            "volume",
+            "conversion",
+            "left",
+            "converter",
+            "study",
+            "hippocampus",
+            "right"
         ],
         [
             "ad",
-            "volume",
-            "subject",
             "patient",
-            "dementia",
-            "control",
+            "volume",
             "disease",
-            "lobe",
-            "hippocampus",
+            "control",
+            "dementia",
+            "study",
+            "subject",
+            "atrophy",
+            "group"
+        ],
+        [
+            "patient",
+            "disease",
+            "study",
+            "dementia",
+            "atrophy",
+            "cognitive",
+            "cluster",
+            "brain",
+            "change",
+            "depressed"
+        ],
+        [
+            "usa",
+            "genome",
+            "university",
+            "disease",
+            "vendor",
+            "gene",
+            "locus",
+            "data",
+            "platform",
             "study"
         ],
         [
@@ -37,42 +73,6 @@
             "functional"
         ],
         [
-            "depressed",
-            "depression",
-            "depressive",
-            "perfusion",
-            "patient",
-            "study",
-            "korea",
-            "gd",
-            "group",
-            "symptom"
-        ],
-        [
-            "patient",
-            "dementia",
-            "disease",
-            "atrophy",
-            "study",
-            "cognitive",
-            "brain",
-            "change",
-            "control",
-            "volume"
-        ],
-        [
-            "patient",
-            "memory",
-            "delay",
-            "word",
-            "test",
-            "shifting",
-            "severe",
-            "impaired",
-            "group",
-            "learning"
-        ],
-        [
             "pain",
             "ctrl",
             "disease",
@@ -83,116 +83,6 @@
             "group",
             "alteration",
             "area"
-        ],
-        [
-            "lipid",
-            "chromatography",
-            "acid",
-            "mass",
-            "fatty",
-            "specie",
-            "spectrometry",
-            "moiety",
-            "silica",
-            "column"
-        ],
-        [
-            "disease",
-            "usa",
-            "genome",
-            "plaque",
-            "university",
-            "gene",
-            "locus",
-            "ad",
-            "stage",
-            "stain"
-        ],
-        [
-            "ax",
-            "protocol",
-            "image",
-            "ac",
-            "oriented",
-            "orientation",
-            "vendor",
-            "pc",
-            "harmonized",
-            "platform"
-        ]
-    ],
-    "cluster_words_tfidf":[
-        [
-            "exercise",
-            "aerobic",
-            "disease",
-            "motor",
-            "marker",
-            "change",
-            "learning",
-            "training",
-            "effect",
-            "sleep"
-        ],
-        [
-            "ad",
-            "disease",
-            "dementia",
-            "patient",
-            "atrophy",
-            "subject",
-            "study",
-            "volume",
-            "control",
-            "group"
-        ],
-        [
-            "usa",
-            "genome",
-            "university",
-            "disease",
-            "vendor",
-            "gene",
-            "locus",
-            "data",
-            "platform",
-            "study"
-        ],
-        [
-            "patient",
-            "dementia",
-            "disease",
-            "atrophy",
-            "study",
-            "cognitive",
-            "cluster",
-            "brain",
-            "change",
-            "may"
-        ],
-        [
-            "depressed",
-            "depression",
-            "depressive",
-            "perfusion",
-            "patient",
-            "study",
-            "korea",
-            "gd",
-            "group",
-            "symptom"
-        ],
-        [
-            "ad",
-            "patient",
-            "volume",
-            "control",
-            "study",
-            "disease",
-            "hippocampus",
-            "group",
-            "subject",
-            "analysis"
         ],
         [
             "ax",
@@ -207,28 +97,16 @@
             "similarity"
         ],
         [
-            "pain",
-            "ctrl",
             "disease",
-            "persistent",
-            "network",
-            "patient",
-            "functional",
-            "group",
-            "alteration",
-            "area"
-        ],
-        [
-            "child",
-            "temporal",
-            "female",
-            "lobe",
-            "adolescent",
-            "sex",
-            "volume",
-            "male",
-            "structure",
-            "age"
+            "dementia",
+            "ad",
+            "plaque",
+            "atrophy",
+            "change",
+            "pathology",
+            "cognitive",
+            "imaging",
+            "vascular"
         ],
         [
             "lipid",
@@ -241,6 +119,128 @@
             "moiety",
             "silica",
             "column"
+        ]
+    ],
+    "cluster_words_tfidf":[
+        [
+            "hydrocephalus",
+            "patient",
+            "cst",
+            "pressure",
+            "diffusion",
+            "drainage",
+            "ic",
+            "tract",
+            "significantly",
+            "shunt"
+        ],
+        [
+            "ad",
+            "volume",
+            "patient",
+            "disease",
+            "study",
+            "control",
+            "subject",
+            "dementia",
+            "hippocampus",
+            "atrophy"
+        ],
+        [
+            "lipid",
+            "chromatography",
+            "acid",
+            "mass",
+            "fatty",
+            "specie",
+            "spectrometry",
+            "moiety",
+            "silica",
+            "column"
+        ],
+        [
+            "dementia",
+            "disease",
+            "patient",
+            "atrophy",
+            "ad",
+            "cognitive",
+            "study",
+            "brain",
+            "group",
+            "change"
+        ],
+        [
+            "ax",
+            "ac",
+            "oriented",
+            "orientation",
+            "harmonized",
+            "pc",
+            "tracer",
+            "segmentation",
+            "protocol",
+            "similarity"
+        ],
+        [
+            "genome",
+            "gene",
+            "university",
+            "locus",
+            "usa",
+            "supplementary",
+            "stage",
+            "disease",
+            "data",
+            "genetics"
+        ],
+        [
+            "exercise",
+            "aerobic",
+            "disease",
+            "motor",
+            "marker",
+            "change",
+            "learning",
+            "training",
+            "effect",
+            "sleep"
+        ],
+        [
+            "pain",
+            "ctrl",
+            "disease",
+            "persistent",
+            "network",
+            "patient",
+            "functional",
+            "group",
+            "alteration",
+            "area"
+        ],
+        [
+            "depressed",
+            "depression",
+            "depressive",
+            "perfusion",
+            "patient",
+            "study",
+            "korea",
+            "gd",
+            "group",
+            "symptom"
+        ],
+        [
+            "patient",
+            "memory",
+            "delay",
+            "word",
+            "test",
+            "shifting",
+            "severe",
+            "impaired",
+            "group",
+            "learning"
         ]
     ],
     "links":[
@@ -546,7 +546,7 @@
                     "name":"Emre Kokmen"
                 }
             ],
-            "cluster":8,
+            "cluster":0,
             "date":"1997/09/01",
             "id":"p0efa1235d81453d8",
             "similarity_values":[
@@ -605,7 +605,7 @@
                     "name":"J.T. O\u2019Brien"
                 }
             ],
-            "cluster":0,
+            "cluster":3,
             "date":"2000/03/28",
             "id":"p8d944f8de99287e1",
             "similarity_values":[
@@ -691,7 +691,7 @@
                     "name":"DeNoPa Study Group"
                 }
             ],
-            "cluster":7,
+            "cluster":6,
             "date":"2016/07/12",
             "id":"p03357fdbc3285a1f",
             "similarity_values":[
@@ -768,7 +768,7 @@
                     "name":"J. Doyon"
                 }
             ],
-            "cluster":1,
+            "cluster":5,
             "date":"2016/09/14",
             "id":"p4c71bbe7d05a72ef",
             "similarity_values":[
@@ -830,7 +830,7 @@
                     "name":"Richard Camicioli"
                 }
             ],
-            "cluster":5,
+            "cluster":1,
             "date":"2017/02/15",
             "id":"pcba779ac0ec2c700",
             "similarity_values":[
@@ -898,7 +898,7 @@
                     "name":"Angelo Antonini"
                 }
             ],
-            "cluster":1,
+            "cluster":5,
             "date":"2016/12/01",
             "id":"p0bf3d570e5f3350d",
             "similarity_values":[
@@ -966,7 +966,7 @@
                     "name":"Judith L. Rapoport"
                 }
             ],
-            "cluster":6,
+            "cluster":8,
             "date":"1996/03/04",
             "id":"pa9238aa0a5f56f7f",
             "similarity_values":[
@@ -1028,7 +1028,7 @@
                     "name":"M Riekkinen"
                 }
             ],
-            "cluster":2,
+            "cluster":6,
             "date":"1998/05/11",
             "id":"p7aadcd192c6b13f2",
             "similarity_values":[
@@ -1099,7 +1099,7 @@
                     "name":"H. Soininen"
                 }
             ],
-            "cluster":0,
+            "cluster":3,
             "date":"1996/03/01",
             "id":"p2727b2bd4fb6ef6b",
             "similarity_values":[
@@ -1158,7 +1158,7 @@
                     "name":"Nick C. Fox"
                 }
             ],
-            "cluster":5,
+            "cluster":1,
             "date":"2014/06/01",
             "id":"pf37dc76323f6c28a",
             "similarity_values":[
@@ -1226,7 +1226,7 @@
                     "name":"Vassilios Dimopoulos"
                 }
             ],
-            "cluster":2,
+            "cluster":6,
             "date":"2016/09/01",
             "id":"p5c9433861db6048e",
             "similarity_values":[
@@ -1288,7 +1288,7 @@
                     "name":"Jeffrey A. Kaye"
                 }
             ],
-            "cluster":0,
+            "cluster":3,
             "date":"2003/07/01",
             "id":"padc524ddda484d04",
             "similarity_values":[
@@ -1359,7 +1359,7 @@
                     "name":"David Eidelberg"
                 }
             ],
-            "cluster":2,
+            "cluster":6,
             "date":"2016/11/01",
             "id":"pd9e19bca2600b2b3",
             "similarity_values":[
@@ -1430,7 +1430,7 @@
                     "name":"Jos\u00e9 Mercader"
                 }
             ],
-            "cluster":5,
+            "cluster":1,
             "date":"2005/02/01",
             "id":"pc2abdb0ee2a8c5e8",
             "similarity_values":[
@@ -1489,7 +1489,7 @@
                     "name":"J. T. O\u2019Brien"
                 }
             ],
-            "cluster":0,
+            "cluster":3,
             "date":"2005/03/08",
             "id":"pd95669bdd96047e4",
             "similarity_values":[
@@ -1640,7 +1640,7 @@
                     "name":"M. W. Weiner"
                 }
             ],
-            "cluster":8,
+            "cluster":0,
             "date":"1997/12/01",
             "id":"p3adb19dfff6f7898",
             "similarity_values":[
@@ -1714,7 +1714,7 @@
                     "name":"Hannu J. Aronen"
                 }
             ],
-            "cluster":8,
+            "cluster":0,
             "date":"2000/06/01",
             "id":"p66b5b5e2afa23902",
             "similarity_values":[
@@ -1788,7 +1788,7 @@
                     "name":"Giovanni B. Frisoni"
                 }
             ],
-            "cluster":6,
+            "cluster":2,
             "date":"2014/09/01",
             "id":"p44489f4856976977",
             "similarity_values":[
@@ -1886,7 +1886,7 @@
                     "name":"Thomas J. Montine"
                 }
             ],
-            "cluster":7,
+            "cluster":1,
             "date":"2012/01/01",
             "id":"p48552e3cf5a7d428",
             "similarity_values":[
@@ -1951,7 +1951,7 @@
                     "name":"Maria Barcikowska-Kotowicz"
                 }
             ],
-            "cluster":3,
+            "cluster":7,
             "date":"2015/01/01",
             "id":"p76d4e9088134dc50",
             "similarity_values":[
@@ -2013,7 +2013,7 @@
                     "name":"Yong-Duk Kim"
                 }
             ],
-            "cluster":2,
+            "cluster":6,
             "date":"2016/12/01",
             "id":"pcb9c19017550a5b0",
             "similarity_values":[
@@ -2134,7 +2134,7 @@
                     "name":"Tianzi Jiang"
                 }
             ],
-            "cluster":8,
+            "cluster":0,
             "date":"2009/11/01",
             "id":"p25066a75ce048c92",
             "similarity_values":[
@@ -2736,7 +2736,7 @@
                     "name":"Philippe Amouyel"
                 }
             ],
-            "cluster":1,
+            "cluster":5,
             "date":"2013/12/01",
             "id":"pd28c36a66168d75d",
             "similarity_values":[
@@ -2872,7 +2872,7 @@
                     "name":"Yoshio Hirabayashi"
                 }
             ],
-            "cluster":1,
+            "cluster":2,
             "date":"2016/09/15",
             "id":"pc00b3c65b5287be0",
             "similarity_values":[
@@ -2940,7 +2940,7 @@
                     "name":"Nick C. Fox"
                 }
             ],
-            "cluster":3,
+            "cluster":7,
             "date":"2009/11/01",
             "id":"pf0a92ee32f8d2420",
             "similarity_values":[
@@ -3008,7 +3008,7 @@
                     "name":"L. deToledo-Morrell"
                 }
             ],
-            "cluster":3,
+            "cluster":7,
             "date":"2001/09/01",
             "id":"pbf5741583ce566a5",
             "similarity_values":[
@@ -3135,7 +3135,7 @@
                     "name":"P. J. Riekkinen Sr"
                 }
             ],
-            "cluster":8,
+            "cluster":0,
             "date":"1995/02/01",
             "id":"pc02d5774cf74a770",
             "similarity_values":[
@@ -3281,7 +3281,7 @@
                     "name":"Michael W. Weiner"
                 }
             ],
-            "cluster":6,
+            "cluster":2,
             "date":"2008/04/01",
             "id":"p0a9650062ef6b287",
             "similarity_values":[
@@ -3343,7 +3343,7 @@
                     "name":"Paul Edison"
                 }
             ],
-            "cluster":3,
+            "cluster":7,
             "date":"2016/01/01",
             "id":"p225cc835ad930b3b",
             "similarity_values":[

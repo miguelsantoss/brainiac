@@ -1,0 +1,610 @@
+Gray matter atrophy Parkinson disease with dementia and
+dementia with Lewy bodies
+Mona K Beyer Jan P Larsen and Dag Aarsland
+Neurology 
+DOI wnl 
+This information current August 
+The online version this article along with updated information and services 
+located the World Wide Web 
+http www neurology org content full html
+Neurology the official journal the American Academy Neurology Published continuously
+since now weekly with issues per year Copyright All rights reserved Print ISSN 
+ Online ISSN X 
+Gray matter atrophy Parkinson
+disease with dementia and dementia
+with Lewy bodies
+Mona K Beyer MD
+Jan P Larsen MD 
+PhD
+Dag Aarsland MD 
+PhD
+CME
+Address correspondence and
+reprint requests Dr Mona K 
+Beyer Department 
+Radiology Stavanger
+University Hospital PO Box
+ Stavanger 
+Norway
+bemksus 
+ABSTRACT
+Background The nosologic relationship between dementia with Lewy bodies DLB and Parkinson
+disease with dementia PDD continuously being debated We conducted study using voxelbased morphometry VBM explore the pattern cortical atrophy DLB and PDD 
+Methods Seventy four patients and healthy elderly were imaged healthy elderly PDD 
+ DLB and Alzheimer dementia AD Three dimensional weighted MRI were
+acquired and images analyzed using VBM The following diagnostic criteria were used criteria
+proposed the third report the DLB Consortium for DLB the National Institute Neurological
+and Communicative Disorders and Stroke and the Alzheimers Disease and Related Diseases
+Association criteria for AD and Diagnostic and Statistical Manual Mental Disorders fourth
+edition criteria for dementia PDD 
+Results Overall dementia severity was similar the dementia groups We found more pronounced
+cortical atrophy DLB than PDD the temporal parietal and occipital lobes Patients with AD
+had reduced gray matter concentrations the temporal lobes bilaterally including the amygdala 
+compared PDD Compared DLB the AD group had temporal and frontal lobe atrophy 
+Conclusion We found that despite similar severity dementia patients with dementia with
+Lewy bodies DLB had more cortical atrophy than patients with Parkinson disease with dementia
+ PDD indicating different brain substrates underlying dementia the two syndromes Together
+with previous studies reporting subtle clinical and neurobiologic differences between DLB and
+PDD our findings support the hypothesis that PDD and DLB are not identical entities but rather
+represent two subtypes spectrum Lewy body disease Neurology 
+The most common Lewy body diseases are dementia with Lewy bodies DLB and Parkinson disease with dementia PDD which are distinguished differential sequence
+ parkinsonism and dementia Although clinical and neurobiologic changes are similar
+ DLB and PDD subtle differences have been reported More executive 
+and more frequent psychoses have been found DLB than PDD well differences
+ the pattern and severity parkinsonism and levodopa responsitivity 
+Morphologic studies have indicated that Alzheimer type and Lewy body pathology 
+more pronounced DLB than PDD 
+In contrast the only study comparing structural MRI PDD and DLB using voxel
+based morphometry VBM DLB and PDD differed from Alzheimer dementia AD but
+there were differences between DLB and PDD 
+We conducted study using VBM further explore the pattern atrophy DLB and
+PDD Patients with PDD and DLB well patients with AD and healthy elderly were
+imaged and compared test the following hypotheses there are significant differences between DLB and PDD regarding gray matter atrophy the regional pattern 
+atrophy DLB and PDD differs from that AD Specifically gray matter atrophy 
+more marked AD than DLB PDD 
+Editorial see page 
+From the Department Radiology M K B Department Neurology and Norwegian Centre for Movement Disorders J P L and
+Department Geriatric Psychiatry and Norwegian Centre for Movement Disorders D A Stavanger University Hospital Norway 
+Funded Western Norway Regional Health Authority 
+Disclosure The authors report conflicts interest 
+Copyright AAN Enterprises Inc 
+METHODS Case finding and diagnostic procedures Patients were consecutive referrals the Departments Neurology Geriatric Medicine and Geriatric
+Psychiatry Stavanger University Hospital Norway In addition some the patients with PD were participants 
+prospective epidemiologic study patients with PD Rogaland Norway and were recruited their annual follow
+ visit 
+Diagnosis PD and dementia A diagnosis PD was
+made according explicit criteria A minimum requirement for diagnosis PD was two more the four
+cardinal signs for PD resting tremor bradykinesia rigidity and postural instability and the response dopaminergic agent should least moderate 
+Diagnosis PDD was made patient fulfilling PD
+criteria who also fulfilled criteria for dementia based the
+Diagnostic and Statistical Manual Mental Disorders
+ DSM IV criteria for and cognitive assessment 
+Patients were examined psychiatrist and research
+nurse both with special training neuropsychiatry A clinical medical examination was also performed Cognitive tests
+and caregiver based rating scales see below were administered research nurse Patients with notable cognitive
+impairment before within year after onset PD were
+not included the PDD group 
+Diagnosis AD and DLB AD was diagnosed according the National Institute Neurological and Communicative Disorders and Stroke and the AD and Related
+Diseases Association NINCDSADRDA criteria for diagnosis probable AD and probable DLB was diagnosed
+according the criteria suggested the third report the
+DLB Consortium Dementia diagnoses were made after 
+clinical interview with the patient and caregiver and supported neuropsychological testing Eleven patients with
+DLB underwent iodine I radiolabeled beta iodophenyl N fluoropropyl 
+nortropane FP CIT SPECT In cases the diagnosis was
+supported pathologic scan Of note all patients this
+geographic area who are referred dementia specialist for
+evaluation are referred one these three clinics The
+records all patients included were evaluated experienced old age psychiatrist D A for verification the
+diagnosis before inclusion the VBM analysis 
+Exclusion criteria We excluded patients with any neurologic psychiatric disorder other than PD AD DLB that
+could etiologically related dementia We checked the
+standard sequences the MRI scans before inclusion 
+patient control person Those who had structural abnormalities the brain affecting gray matter were excluded
+from VBM analysis Subjects with marked tremor which interfered with the imaging session were also excluded One
+patient fulfilling the criteria for probable DLB but with 
+normal FP CIT SPECT was excluded 
+Clinical assessment For motor symptoms staging PD
+and DLB was carried out according the Hoehn Yahr
+scale 
+For cognition all patients performed Mini Mental
+State Examination MMSE brief cognitive screening
+test In addition patients completed the Dementia Rating
+ the CAMCOG the cognitive battery the
+CAMDEX 
+Neurology 
+August 
+For psychiatric symptoms the purpose the psychiatric
+assessment was twofold first elicit information for the
+diagnosis DLB visual hallucinations and second 
+differentiate between depression induced cognitive impairment and dementia Psychiatric symptoms were assessed using The Neuropsychiatric Inventory NPI structured
+caregiver based clinical interview designed elicit psychiatric symptoms subjects with brain damage and cognitive
+impairment Depression was assessed psychiatrist 
+research nurse using either the Montgomery Asberg Depression Rating Scale MADRS NPI 
+Control group Healthy elderly control persons were recruited among elderly people from local clubs for retired
+people from relatives patients with PD dementia and
+other volunteers after information about the project The
+controls had active neurologic psychiatric disorder 
+They had cognitive complaints and were not taking any
+medication that could affect their cognition A minimum
+MMSE score was required Informed consent was obtained from all patients and control subjects and the study
+has the approval the Regional Committee for Medical Research Ethics University Bergen 
+MRI Patients and controls were scanned the Department
+ Radiology Stavanger University Hospital the period
+from December June with T Phillips Gyroscan NT intra Release MRI machine A software upgrade the machine was done fall Release 
+This has not affected the quality the images which has
+been stable throughout the study We performed structural
+MRI series with weighted three dimensional fast
+spoiled gradient recalled echo FSPGR repetition time TR
+ msec echo time TE msec inversion time TI 
+msec matrix slice thickness 
+Image analysis Standard sequences dual fast field
+echo FFE fluid attenuation inversion recovery
+FLAIR were done visualize focal lesions white 
+gray matter that might lead exclusion from the study 
+These sequences were not used for statistical image analysis
+ this study 
+VBM preprocessing including the optimized
+VBM protocol Good was applied for the preprocessing the images including creating study specific 
+template image based all the patients and controls our
+study and study specific gray matter template prior probability map The preprocessing steps are already described 
+detail others The first preprocessing steps include the
+creation customized templates images each patient
+were normalized the template using affine
+only cut off After normalizing images were averaged and
+then smoothed with kernel creating the template We then normalized the original images the customized template using cut off The normalized
+images were then segmented and smoothed with 
+kernel The smoothed gray matter images were then averaged creating the study specific gray matter template These
+templates were used the optimized VBM protocol the
+following manner the original images were segmented and
+the gray matter images were normalized the customized
+gray matter template The resulting deformations from the
+normalization gray matter the gray matter template
+were used normalize the original images before the
+final segmentation Segmented images were then smoothed
+Table 
+Characteristics participants
+PDD
+AD
+DLB
+Controls
+ Value
+Subjects
+Female male
+Mean age 
+MMSE score
+Education 
+H Y stage
+NA
+Duration dementia 
+NA
+Values are mean SD 
+ DLB significantly older than PDD and controls 
+Not different between dementia groups but significantly higher normal controls 
+Longer education controls than AD and DLB 
+Longer duration dementia AD than PDD 
+Longer dementia duration DLB than PDD 
+PDD Parkinson disease with dementia AD Alzheimer dementia DLB dementia with Lewy bodies MMSE score 
+Mini Mental State Examination H Y stage Hoehn Yahr stage NA not applicable 
+with kernel The resulting smoothed images were
+used the statistical analysis 
+Statistical analyses Smoothed images from the preprocessing steps were analyzed using statistical parametric mapping Wellcome Department Cognitive
+Neurology London UK http www fil ion ucl 
+spm Data were analyzed PC using windows XP professional version and Matlab Mathworks Natick 
+MA The following voxel based analyses gray matter
+were performed 
+Differences gray matter between groups were assessed
+statistically using one way analysis variance ANOVA 
+We also performed analyses where age and education were
+included covariates either using analysis covariance 
+ the single subjects conditions and covariates option 
+SPM In all analyses the whole brain was analyzed Significance levels for statistics were set uncorrected
+for multiple comparisons All results are presented the
+voxel level The coordinates obtained for the peak voxels 
+ the anatomic location with maximal gray matter loss
+within each significant cluster were transferred into Talairach space using Matthew Bretts tal routine http 
+imaging mrc cbu cam imaging MniTalairach The
+anatomic locations the peak voxels were found using The
+Talairach Daemon Client The results given the Talairach daemon were verified the Co planar Stereotaxic
+Atlas the Human Brain When discrepancies the location peak voxels were found the manually detected anatomic locations were reported 
+Group statistics were done using SPSS for Windows version SPSS for Windows Release SPSS Inc 
+Differences between groups continuous variables with
+normal distribution were assessed using one way ANOVA
+with post hoc Scheffe test determine group differences 
+For the nonparametric data Kruskal Wallis test was used
+followed post hoc Mann Whitney U test test
+was used when appropriate using significant 
+The total study group comprised 
+subjects PDD DLB AD 
+ and healthy controls The demo 
+RESULTS
+graphic and clinical characteristics the four
+groups are presented table The patient
+groups were well balanced with regards overall
+cognitive functioning measured with the
+MMSE All patients with DLB fulfilled the criteria for probable DLB according the third report
+ the DLB Consortium Patients with DLB were
+older than healthy controls and patients with
+PDD Control persons had longer education than
+patients with AD and DLB In the DLB and AD
+groups the mean duration dementia was longer
+than the PDD group table All patients with
+PDD were taking L dopa medication compared
+ only patients with DLB The use 
+cholinesterase inhibitor CEI was the
+PDD group the AD group and 
+the DLB group The percentage patients taking
+antipsychotic medication the three groups were
+PDD AD and DLB Antidepressant medication was prescribed patients with PDD the AD group and 
+ patients with DLB 
+Twelve patients were recruited for the study but
+were excluded from the VBM analysis for various
+reasons Three patients became agitated during
+scanning three withdrew from the study after being
+scheduled for MRI two were excluded because 
+movement artifacts due tremor three had structural lesions affecting gray matter and one patient
+was unable scanned the correct head position One control was excluded because claustrophobia Average time between clinical testing and
+MRI scanning was days 
+Comparison patients with PDD and DLB When
+comparing patients with PDD and DLB uncorNeurology 
+August 
+Table 
+Anatomic location areas reduced gray matter dementia with Lewy bodies compared with
+Parkinson disease with dementia
+Talairach coordinate
+Structure
+Cluster size
+Z score
+R Inferior parietal lobule
+R Precuneus
+L Angular gyrus
+L Inferior parietal lobule
+R Insula
+R Insula
+L Superior occipital gyrus
+L Cuneus
+L Precuneus
+R Inferior temporal gyrus
+R Lentiform nucleus
+Age was covariate the analysis The coordinates and refer the anatomic location referring standard stereotactic space defined Talairach and Tournoux Only clusters larger than voxels are shown In this table all
+reported voxels are uncorrected 
+rected using age covariate there
+were areas reduced gray matter the temporal parietal and occipital lobes with increased
+atrophy patients with DLB relative PDD 
+Changes were found bilaterally the inferior parietal lobule and the precuneus Areas with 
+Areas reduced gray matter patients with dementia with Lewy
+bodies compared with Parkinson disease with dementia
+creased atrophy only the right hemisphere
+were the insula inferior temporal gyrus and
+ the lentiform nucleus Areas increased atrophy found only the left hemisphere were 
+the angular gyrus cuneus and the superior
+occipital gyrus table figure To further
+adjust for the effect age the analyses were
+performed after excluding the three oldest patients with DLB and the age this DLB group
+did not differ from the PDD group This left the
+results practically unchanged data not shown 
+We found areas where patients with PDD
+had more gray matter atrophy than patients
+with DLB uncorrected 
+Comparison patients with PDD and AD Compared with patients with PDD patients with
+AD had reduced gray matter concentrations 
+the amygdala and middle temporal gyrus bilaterally uncorrected There were also
+reduced gray matter concentrations the right
+insula and postcentral gyrus Left sided gray
+matter reductions were found the hippocampus and middle occipital gyrus table figure
+ There were areas where patients with
+PDD had more gray matter atrophy than patients with AD 
+Age covariant the analysis Results shown glass brain where significant areas 
+atrophy are shown gray and black clusters Atrophy was found bilaterally the inferior
+parietal lobule and the precuneus and the right side insula inferior temporal gyrus and
+ the lentiform nucleus Left side angular gyrus cuneus and the superior occipital gyrus 
+Neurology 
+August 
+Comparison patients with DLB and AD When
+age and education were entered covariates 
+the analysis patients with AD had reduced gray
+matter concentration with peak voxels the
+right hippocampus uncus and parahippocampal
+gyrus uncorrected On the left side the
+area reduced gray matter also included the hip 
+Table 
+Anatomic location areas reduced gray matter Alzheimer disease compared with Parkinson
+disease with dementia
+Talairach coordinate
+Structure
+Cluster size
+Z score
+L Hippocampus
+L Amygdala
+R Insula
+R Insula
+R Amygdala
+R Medial temporal gyrus
+L Medial temporal gyrus
+L Middle occipital gyrus
+L Middle occipital gyrus
+R Postcentral gyrus
+The coordinates and refer the anatomic location referring standard stereotactic space defined Talairach
+and Tournoux Only clusters larger than voxels are shown In this table all reported voxels are uncorrected
+pocampus but there was local maximum 
+the hippocampus There were frontal areas atrophy the right rectal gyrus and the left middle and inferior frontal gyrus 
+Areas reduced gray matter patients with Alzheimer disease AD 
+compared with patients with Parkinson disease with dementia
+Comparison dementia groups with normal controls The results from comparison patients
+with PDD healthy controls have recently been
+reported 
+After adjusting for age and education patients
+with DLB had reduced gray matter concentrations uncorrected bilaterally the
+insula and thalamus compared with controls 
+Right sided atrophy was found the inferior parietal lobule superior temporal gyrus and the inferior temporal gyrus On the left side patients
+with DLB had atrophy the red nucleus and
+middle occipital gyrus figure 
+After adjusting for education patients with
+AD had areas gray matter concentrations reduction FWE the amygdala and hippocampus bilaterally and the left side the
+middle and superior temporal gyrus and uncus 
+while the right side the inferior frontal gyrus
+ figure 
+The main finding this VBM
+study was the more pronounced cortical atrophy
+ DLB than PDD Patients with DLB had more
+atrophy temporal parietal and occipital lobes 
+These differences occurred despite similar level 
+overall dementia In area was there more atrophy patients with PDD than patients with
+DLB As expected patients with AD had more
+marked atrophy than DLB and PDD particular
+ the medial temporal lobes Widespread cortical
+atrophy was found all patient groups compared
+ healthy elderly 
+The finding more atrophy DLB than 
+DISCUSSION
+Results shown glass brain where areas atrophy are presented gray and black clusters Patients with AD had atrophy the amygdala and middle temporal gyrus bilaterally 
+right side insula and postcentral gyrus Left side hippocampus and middle occipital gyrus 
+Uncorrected 
+Neurology 
+August 
+Areas atrophy and regional changes
+ A Areas atrophy patients with Alzheimer disease compared with healthy control subjects B Areas atrophy 
+patients with dementia with Lewy bodies compared with healthy control subjects Results shown glass brain where areas
+ atrophy are presented gray and black clusters A Regional changes gray matter found amygdala and hippocampus
+bilaterally left middle and superior temporal gyrus and uncus right side inferior frontal gyrus We show only those areas
+surviving family wise error FWE correction for multiple comparisons FWE B Regional changes gray matter 
+compensated for differences age and education bilaterally the insula and thalamus Right side inferior parietal lobule 
+superior temporal gyrus and inferior temporal gyrus Left side red nucleus and middle occipital gyrus uncorrected 
+PDD new and contrasts with the only previous
+VBM study MRI PDD and DLB There are
+several possible explanations for this difference 
+Most importantly patients with PDD the previous had shorter duration disease than
+those our study An association between more
+severe morphologic changes and shorter duration
+between onset PD and dementia has recently
+been reported Thus our patients with PDD may
+have less severe morphologic cortical changes 
+which may explain less pronounced cortical atrophy compared subjects with DLB In addition either VH FC was required for diagnosis
+ PDD the previous study Thus patients with
+PDD with clinical phenotype similar DLB
+were selected that study which probably increases the likelihood similar brain changes 
+More cortical atrophy DLB than PDD 
+consistent with several recent clinical and pathologic studies that report differences between the
+two dementias Psychotic symptoms are more
+common DLB than and more pronounced and 
+and dysfunction patients with DLB
+compared patients with PDD have been reported Furthermore several studies have reported more morphologic changes DLB
+compared PDD both Alzheimer type 
+and higher density Lewy bodies although
+another study reported differences Finally 
+recent evidence suggests different patterns 
+Neurology 
+August 
+amyloid beta peptides the CSF DLB and
+PDD Thus although methodologic limitations
+preclude firm conclusions emerging clinical and
+neurobiologic research indicates different pathophysiologic pathways for DLB and PDD 
+The posterior parietal association cortex involved the convergence different sensory information Thus possible clinical implications 
+the differences atrophy between PDD and DLB
+found our study could related differences
+ visual perception In both PDD and DLB hypoperfusion parietal and occipital areas has been
+found and results showing impaired visuoconstructional skills DLB compared 
+could related differences atrophy Further
+studies are needed address this issue 
+Patients with AD had more atrophy the medial temporal lobes bilaterally including the
+amygdalae compared patients with PDD and
+DLB This line with previous although minor differences between the studies exist Patients with DLB had more widespread
+atrophy temporal parietal occipital and frontal regions than healthy controls many the
+same significant areas previous report although these investigators present volume differences while present differences gray matter
+concentrations 
+There are methodologic factors that may have
+influenced our findings Although the sample size
+was larger than many other studies and care was
+taken select patients from different sources the
+number patients each group small Given
+the marked clinical heterogeneity PDD and
+DLB our findings may not fully generalized 
+the entire population patients with PDD and
+DLB 
+There were demographic and clinical differences between the groups We attempted adjust
+for this the statistical analyses including age
+and education covariates where the groups
+differed In addition reanalyzed the data after
+removing the oldest patients with DLB leaving
+the groups with similar age The finding more
+cortical atrophy DLB than PDD remained
+significant indicating that these are robust findings We chose not include dementia duration
+ covariate although this possible confound since there could differences the measurement dementia duration between the PDD
+and AD DLB groups due recall bias and masking early cognitive deficit due motor symptoms the PDD group Most importantly the
+groups were matched for dementia based the
+MMSE No generally accepted method exists for
+matching dementia severity when comparing different dementia types but MMSE the most
+widely used cognitive screening scale dementia 
+Another issue concerns the diagnostic accuracy The diagnosis PD was made according 
+international standards but there are overall
+accepted clinical criteria for PDD and biomarkers available Thus the diagnosis PDD was
+based clinical evaluation only and some patients may have been misdiagnosed However 
+proportion the patients with PDD have been
+followed for years more the same movement disorder research neurologist and diagnosed
+according standardized criteria In autopsy
+study our hospital there has been accuracy rate Lewy bodyPD the subset the 
+patients who have come autopsy far 
+The most recent international consensus criteria for DLB were used Although some studies
+have reported low sensitivity the previous consensus criteria for clinical DLB diagnosis report
+ the Consortium DLB International Workshop high specificity has generally been reported Fifty five percent patients with DLB
+had functional imaging the nigrostriatal dopamine system using FP CIT SPECT performed
+which confirmed dopamine transporter loss 
+method that has shown high specificity distinguish between DLB and AD providing further
+support for the diagnostic accuracy 
+ACKNOWLEDGMENT
+The authors thank research nurse Hilde Marianayagam Stavanger
+University Hospital members the SPM mail list for answering
+questions and sharing valuable information regarding methods and
+statistics VBM and Karsten Specht PhD Department Biologic
+and Medical Psychology National Competence Centre for functional MRI University Bergen for help with VBM 
+Received January Accepted final form March 
+REFERENCES
+McKeith I Mintzer J Aarsland D Dementia with
+Lewy bodies Lancet Neurol 
+Noe E Marder K Bell KL Comparison dementia with Lewy bodies Alzheimers disease and
+Parkinsons disease with dementia Mov Disord 
+Colosimo C Hughes AJ Kilford L Lees AJ Lewy
+body cortical involvement may not always predict dementia Parkinsons disease J Neurol Neurosurg Psychiatry 
+Downes JJ Priestley NM Doran M Intellectual 
+mnemonic and frontal functions dementia with
+Lewy bodies comparison with early and advanced
+Parkinsons disease Behav Neurol 
+Aarsland D Litvan I Salmon D Performance 
+the dementia rating scale Parkinsons disease with
+dementia and dementia with Lewy bodies comparison
+with progressive supranuclear palsy and Alzheimers
+disease J Neurol Neurosurg Psychiatry 
+Gnanalingham KK Byrne EJ Thornton A Sambrook
+MA Bannister P Motor and cognitive function 
+Lewy body dementia comparison with Alzheimers
+and Parkinsons diseases J Neurol Neurosurg Psychiatry 
+Molloy S McKeith IG OBrien JT Burn DJ The role
+ levodopa the management dementia with Lewy
+bodies J Neurol Neurosurg Psychiatry 
+Harding AJ Halliday GM Cortical Lewy body pathology the diagnosis dementia Acta Neuropathol
+Ballard C Ziabreva I Perry R Differences neuropathologic characteristics across the Lewy body dementia spectrum Neurology 
+Burton EJ McKeith IG Burn DJ Williams ED JT OB 
+Cerebral atrophy Parkinsons disease with and without dementia comparison with Alzheimers disease 
+dementia with Lewy bodies and controls Brain 
+ Pt 
+Tandberg E Larsen JP Nessler EG Riise T Aarli JA 
+The epidemiology Parkinsons disease the county
+ Rogaland Norway Mov Disord 
+Larsen JP Dupont E Tandberg E Clinical diagnosis 
+Parkinsons disease Proposal diagnostic subgroups
+classified different levels confidence Acta Neurol
+Scand 
+American Psychiatric Association Diagnostic and Statistical Manual Mental Disorders DSM IV Fourth
+edition American Psychiatric Association 
+McKhann G Drachman D Folstein M Clinical
+diagnosis Alzheimers disease report the
+Neurology 
+August 
+NINCDS ADRDA Work Group under the auspices 
+Department Health and Human Services Task Force
+ Alzheimers Disease Neurology 
+McKeith IG Dickson DW Lowe J Diagnosis and
+management dementia with Lewy bodies third report the DLB Consortium Neurology 
+Hoehn MM Yahr MD Parkinsonism onset progression and mortality Neurology 
+Folstein MF Folstein SE Mc Hugh PR Mini mental
+State A practical method for grading the mental state
+ patients for the clinician J Psychiatr Res 
+Mattis S Dementia Rating Scale New York Grune 
+Stratton 
+Roth M Tym E Mountjoy CQ CAMDEX A
+standardised instrument for the diagnosis mental
+disorder the elderly with special reference the
+early detection dementia Br J Psychiatry 
+Cummings JL Mega M Gray K The Neuropsychiatric Inventory comprehensive assessment psychopathology dementia Neurology 
+Montgomery SA Asberg M A new depression scale
+designed sensitive change Br J Psychiatry 
+Ashburner J Friston KJ Voxel based morphometrythe methods Neuroimage Pt 
+Good CD Johnsrude IS Ashburner J A voxelbased morphometric study ageing normal
+adult human brains NeuroImage May 
+Friston KJ Holmes A Poline JB Price CJ Frith CD 
+Detecting activations PET and fMRI levels inference and power Neuroimage Pt 
+Lancaster JL Woldorff MG Parsons LM Automated Talairach atlas labels for functional brain mapping Hum Brain Mapp 
+Talairach J Tournoux P Co planar stereotaxic atlas
+ the human brain dimensional proportional system approach cerebral imaging New York Thieme Medical Publishers Inc 
+Beyer MK Janvin CC Larsen JP Aarsland D An MRI
+study patients with Parkinsons disease with mild
+cognitive impairment and dementia using voxel based
+morphometry J Neurol Neurosurg Psychiatry 
+E pub October doi jnnp 
+Aarsland D Ballard C Larsen JP McKeith I A comparative study psychiatric symptoms dementia
+with Lewy bodies and Parkinsons disease with and
+without dementia Int J Geriatr Psychiatry 
+Neurology 
+August 
+Mosimann UP Rowan EN Partington CE Characteristics visual hallucinations Parkinson disease
+dementia and dementia with Lewy bodies Am J Geriatr Psychiatry 
+Cormack F Aarsland D Ballard C Tovee MJ Pentagon drawing and neuropsychological performance 
+Dementia with Lewy Bodies Alzheimers disease Parkinsons disease and Parkinsons disease with dementia Int J Geriatr Psychiatry 
+Mosimann UP Mather G Wesnes KA Visual
+perception Parkinson disease dementia and dementia with Lewy bodies Neurology 
+Harding AJ Broe GA Halliday GM Visual hallucinations Lewy body disease relate Lewy bodies the
+temporal lobe Brain Pt 
+Richard IH Papka M Rubio A Kurlan R Parkinsons
+disease and dementia with Lewy bodies one disease 
+two? Mov Disord 
+Tsuboi Y Dickson DW Dementia with Lewy bodies
+and Parkinsons disease with dementia are they different? Parkinsonism Relat Disord Suppl 
+Bibl M Mollenhauer B Esselmann H CSF
+amyloid beta peptides Alzheimers disease dementia with Lewy bodies and Parkinsons disease dementia Brain Pt 
+Firbank MJ Colloby SJ Burn DJ McKeith IG 
+OBrien JT Regional cerebral blood flow Parkinsons disease with and without dementia Neuroimage
+Lobotesis K Fenwick JD Phipps A Occipital hypoperfusion SPECT dementia with Lewy bodies
+but not AD Neurology 
+Burton EJ Karas G Paling S Patterns cerebral
+atrophy dementia with Lewy bodies using voxelbased morphometry NeuroImage 
+Aarsland D Perry R Brown A Larsen JP Ballard C 
+Neuropathology dementia Parkinsons disease 
+prospective community based study Ann Neurol
+McKeith IG Galasko D Kosaka K Consensus
+guidelines for the clinical and pathologic diagnosis 
+dementia with Lewy bodies DLB report the consortium DLB international workshop Neurology
+Geser F Wenning GK Poewe W McKeith I How 
+diagnose dementia with Lewy bodies state the art 
+Mov Disord suppl 
+OBrien JT Colloby S Fenwick J Dopamine
+transporter loss visualized with FP CIT SPECT the
+differential diagnosis dementia with Lewy bodies 
+Arch Neurol 
+Gray matter atrophy Parkinson disease with dementia and dementia with Lewy
+bodies
+Mona K Beyer Jan P Larsen and Dag Aarsland
+Neurology 
+DOI wnl 
+This information current August 
+Updated Information 
+Services
+including high resolution figures can found 
+http www neurology org content full html
+References
+This article cites articles which you can access for free
+http www neurology org content full html 
+Citations
+This article has been cited HighWire hosted articles 
+http www neurology org content full html otherarticl
+Subspecialty Collections
+This article along with others similar topics appears the
+following collection 
+Alzheimers disease
+http www neurology org cgi collection alzheimers disease
+Dementia with Lewy bodies
+http www neurology org cgi collection dementia with lewy 
+odies
+MRI
+http www neurology org cgi collection mri
+Parkinsons disease with dementia
+http www neurology org cgi collection parkinsons disease wit
+ dementia
+Parkinsons disease Parkinsonism
+http www neurology org cgi collection parkinsons disease par
+kinsonism
+Permissions Licensing
+Information about reproducing this article parts figures tables 
+ its entirety can found online 
+http www neurology org misc about xhtml permissions
+Reprints
+Information about ordering reprints can found online 
+http www neurology org misc addir xhtml reprintsus

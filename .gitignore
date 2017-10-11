@@ -11,6 +11,7 @@
 _nogit
 *.o
 .depend
+*.swp
 
 .env.local
 .env.development.local

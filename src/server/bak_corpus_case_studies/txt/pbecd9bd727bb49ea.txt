@@ -1,0 +1,440 @@
+Increased hippocampal neurogenesis 
+Alzheimers disease
+Kunlin Jin Alyson L Peel Xiao Ou Mao Lin Xie Barbara A Cottrell David C Henshall 
+and David A Greenberg 
+ Buck Institute for Age Research Novato CA and R S Dow Neurobiology Laboratories Legacy Research Portland OR 
+Edited Solomon H Snyder Johns Hopkins University School Medicine Baltimore MD and approved October received for review
+July 
+A
+lzheimers disease AD common cause dementia 
+ characterized senile plaques containing amyloid
+peptide A derived from amyloid precursor protein APP 
+and neurofibrillary tangles NFTs containing hyperphosphorylated protein A and phospho may neurotoxic leading 
+progressive neuronal degeneration and death Despite progress
+ understanding molecular mechanisms AD effective treatment remains elusive 
+One potential approach treating AD involves using endogenous neuronal precursors replace lost damaged cells 
+based the capacity the rostral subventricular zone SVZ 
+and the subgranular zone SGZ the hippocampal dentate
+gyrus DG generate neurons into adulthood Neuronal
+stem cells the SVZ give rise predominantly committed
+progenitor cells that migrate into the olfactory bulb OB via the
+rostral migratory stream and differentiate into local interneurons progenitors the SGZ migrate into the granular cell
+layer and also differentiate into neurons However the
+migration newborn neurons not restricted these sites 
+Endogenous neuronal precursors can proliferate response 
+cerebral ischemia and migrate into ischemic regions 
+striatum and cerebral cortex and into the region 
+hippocampus where they may integrate into existing brain
+circuitry and contribute repair These neurons may have
+ physiological role because blockade hippocampal neurogenesis reported inhibit hippocampus dependent learning
+ and because reducing the population new interneurons
+ the OB impairs odor discrimination 
+The proliferation neuronal stem progenitor cells the
+adult brain also affected growth factors including epidermal growth factor EGF fibroblast growth 
+ brain derived neurotrophic factor 
+stem cell factor heparin binding EGF HB EGF and
+www pnas orgcgidoi pnas 
+vascular endothelial growth factor Restoring insulin like
+growth factor I IGF I levels enhances neurogenesis the aged
+brain suggesting that neurogenesis might augmented 
+growth factors vivo neurodegenerative diseases like AD 
+A disrupts neurogenesis SVZ and hippocampus mouse
+models AD but the status neurogenesis 
+neurodegenerative disorders humans unknown We examined the expression neurogenesis marker proteins hippocampus brains from AD patients and neurologically normal
+subjects In contrast findings animal models the hippocampus patients with AD showed increased expression neurogenesis markers and increased number cells expressing
+these markers which consistent with enhanced neurogenesis
+ human AD This finding suggests that AD experimental cerebral ischemia hippocampal neurogenesis increased and might therefore serve replace hippocampal
+neurons As corollary measures designed enhance neurogenesis could have therapeutic value AD 
+Materials and Methods
+Human Brain Tissue Tissue was from the Harvard Brain Tissue
+Resource Center McLean Hospital Belmont MA the Neuropathology Core Facility Massachusetts Alzheimers Disease
+Research Center Massachusetts General Hospital Boston 
+and the Brain and Tissue Bank for Developmental Disorders 
+the University Maryland Baltimore Baltimore Research
+was conducted compliance with the policies and principles
+contained the Federal Policy for the Protection Human
+Subjects Twenty five postmortem brains were used from
+individuals with clinical diagnosis probable AD and 
+ controls from individuals without neurological disorders Table The diagnosis AD was confirmed and its severity was
+rated standardized neuropathology protocol developed 
+the Consortium Establish Registry for AD 
+Western Blotting Hippocampi were isolated from fresh brains and
+cell lysates extracted PBS containing Nonidet 
+ sodium deoxycholate mM TrisHCl pH nM
+NaCl mM EDTA pH gml aprotinin and gml
+phenylmethylsulfonyl fluoride Protein determined 
+using Bio Rad assay was boiled C SDS sample buffer
+for min electrophoresed SDS PAGE gels and
+transferred polyvinyldifluoridine membranes which were
+incubated overnight C with one the following primary
+antibodies affinity purified goat polyclonal anti doublecortin
+This paper was submitted directly Track II the PNAS office 
+Abbreviations A amyloid peptide AD Alzheimers disease APP amyloid precursor
+protein DCX doublecortin DG dentate gyrus GCL granule cell layer NeuN neuronal
+nuclear antigen NeuroD neurogenic differentiation factor NFTs neurofibrillary tangles 
+PSA NCAM polysialylated neural cell adhesion molecule SGZ subgranular zone 
+K J 
+and A L P contributed equally this work 
+To
+whom correspondence should addressed Buck Institute for Age Research 
+Redwood Boulevard Novato CA E mail dgreenbergbuckinstitute org 
+ The National Academy Sciences the USA
+PNAS January vol 
+NEUROSCIENCE
+Neurogenesis which persists the adult mammalian brain may
+provide basis for neuronal replacement therapy neurodegenerative diseases like Alzheimers disease AD Neurogenesis 
+increased certain acute neurological disorders such ischemia
+and epilepsy but the effect more chronic neurodegenerations 
+uncertain and some animal models AD show impaired neurogenesis To determine how neurogenesis affected the brains
+ patients with AD investigated the expression immature
+neuronal marker proteins that signal the birth new neurons 
+the hippocampus AD patients Compared controls Alzheimers brains showed increased expression doublecortin polysialylated nerve cell adhesion molecule neurogenic differentiation
+factor and Expression doublecortin and was
+associated with neurons the neuroproliferative subgranular 
+zone the dentate gyrus the physiological destination these
+neurons granule cell layer and the region Ammons horn 
+which the principal site hippocampal pathology AD These
+findings suggest that neurogenesis increased AD hippocampus where may give rise cells that replace neurons lost the
+disease and that stimulating hippocampal neurogenesis might
+provide new treatment strategy 
+Table Patient and tissue information
+Brain 
+Neuropathological
+diagnosis
+Age 
+Western blotting
+Normal
+Normal
+Normal
+Normal
+Normal
+Normal
+Normal
+Early AD
+Early AD
+Early AD
+Moderate AD
+Moderate AD
+Moderate AD
+Severe AD
+Severe AD
+Severe AD
+Immunohistochemistry
+Normal
+Normal
+Normal
+Normal
+AD
+AD
+AD
+AD
+AD
+Sex
+Postmortem
+interval 
+M
+F
+M
+M
+M
+M
+F
+M
+M
+M
+M
+M
+M
+M
+M
+M
+M
+M
+M
+F
+F
+? Unknown 
+ DCX Santa Cruz Biotechnology mouse monoclonal anti polysialylated neural cell adhesion molecule PSANCAM Chemicon iii mouse monoclonal antineuronal nuclear antigen NeuN Chemicon rabbit
+polyclonal Chemicon affinitypurified goat polyclonal anti neurogenic differentiation factor
+ NeuroD Santa Cruz Biotechnology mouse monoclonal anti calbindin Oncogene Science vii 
+mouse monoclonal anti actin Oncogene Science 
+Membranes were washed with PBS Tween incubated
+ room temperature for min with horseradish peroxidaseconjugated anti mouse anti rabbit anti goat secondary antibody Santa Cruz Biotechnology and washed three
+times for min with PBSTween Peroxidase activity was
+visualized chemiluminescence NEN Life Science Products 
+Boston Antibodies were removed with stripping buffer 
+mM mercaptoethanol SDS mM TrisHCl pH 
+C for min followed washing with PBSTween and
+membranes were reprobed Differences protein expression
+were quantified using calibrated imaging densitometer and QUANTITY ONE software Bio Rad 
+Immunohistochemistry Tissue was immersion fixed paraformaldehyde PBS pH and embedded paraffin and
+ sections were deparaffinized with xylene and rehydrated
+with ethanol Immunocytochemistry was performed described
+ After blocking peroxidase activity with 
+sections were incubated blocking buffer horse serum
+ Triton BSA PBS for room temperature Primary antibodies were those listed above plus rabbit
+polyclonal anti A and mouse monoclonal antibodies 
+and which recognize nonoverlapping epitopes within residues extracellular domain human APP provided
+ www pnas orgcgidoi pnas 
+Fig Plaques and NFTs hippocampus AD brain Plaques detected with
+antibodies against A blue and APP brown A were surrounded phospho immunopositive nerve terminals B NFTs delineated with antiphospho are shown higher magnification C 
+ E Koo University California San Diego rabbit
+polyclonal anti phospho BioSource International Sunnyvale 
+CA and mouse monoclonal anti cleaved Cell
+Signaling Technology Beverly MA Primary antibodies were added blocking buffer and incubated with sections 
+C overnight The second antibody was biotinylated goat antimouse donkey anti rabbit anti goat IgG Vectastain Elite
+ABC Vector Laboratories Sections were processed with
+ABC reagents using Vector ABC kit Vector Laboratories 
+After two washes with PBS sections were incubated for min
+ room temperature with biotinylated tyramine and 
+ PBS washed with PBS and treated with ABC
+reagents above The horseradish peroxidase reaction was
+detected with diaminobenzidine and Alternating sections
+were incubated without primary antibody control 
+Double label immunohistochemistry was used detect
+coexpression neuronal marker proteins The secondary antibodies were FITC conjugated goat anti mouse IgG rhodamineconjugated rat absorbed donkey anti rabbit IgG and rhodamineconjugated donkey anti goat IgG Jackson ImmunoResearch 
+ Nuclei were counterstained with phenylindole DAPI Vector Laboratories and fluorescence
+signals were detected with Nikon microscope excitationemission wavelengths rhodamine red 
+ FITC green and DAPI blue Results were
+Jin 
+recorded with Magnifire digital camera ChipCoolers Warwick RI Controls included omitting preabsorbing primary
+ omitting secondary antibody Selected images were viewed 
+high magnification using Nikon laser scanning
+confocal microscope and Simple PCI imaging software
+ Compix Cranberry Township PA was used confirm colocalization markers 
+Results
+Neurogenesis Marker Proteins Are Overexpressed AD Hippocampus 
+Histopathological hallmarks AD the hippocampus 
+patients with clinically probable autopsy documented AD including neuronal degeneration neuritic plaques and NFTs were
+confirmed our laboratory immunocytochemistry with
+anti A anti APP and anti phospho antibodies Fig To
+investigate endogenous neurogenesis AD hippocampus 
+first used protein from AD and control hippocampus perform
+Western blots with antibodies against neurogenesis markers and
+mature neuronal proteins The expression several neurogenesis marker proteins was increased hippocampus severely
+affected AD patients Fig These included DCX 
+same blot control microtubule associated protein
+found somata and processes migrating and differentiating
+neurons PSA NCAM same blot control 
+ plasma membrane glycoprotein expressed neuronal
+progenitors and differentiating neurons and astroglia 
+response variety toxic insults and turned 
+after division same blot control 
+ protein expressed early neuronal differentiation 
+the rat NeuroD same blot control 
+basic helixloophelix protein expressed during terminal neuronal differentiation was also regulated AD but 
+Jin 
+lesser extent In some instances DCX PSA NCAM and there appeared tendency for expression increase
+with increasing disease severity In contrast expression calbindin and NeuN which identify mature neurons was not
+increased On Western blots NeuN migrates triplet Mr
+ kDa and therefore interest that the
+lowest Mr band tended relatively more prominent the
+brains patients with severe AD although the significance 
+different NeuN banding patterns unknown Actin expression
+was used control for protein loading The increased expression neurogenesis markers suggested that neurogenesis might
+ enhanced the hippocampus AD patients 
+Neurogenesis Markers Are Localized the Neuroproliferative Zone
+ SGZ AD Hippocampus Next used immunohistochemistry 
+determine whether increased expression immature neuronal
+markers AD brain was associated with known sites hippocampal neurogenesis Both control and AD brains showed
+ and DCX immunolabeling the dentate SGZ Fig 
+which the site neuronal precursor proliferation hippocampus However these cells were shrunken and stained for the
+ kDa cleavage product which consistent with
+evidence that proliferating neuronal precursors the adult brain
+undergo programmed cell death situ The granule cell
+layer GCL the usual destination surviving neuronal precursors that arise the SGZ contained numerous and
+DCX immunopositive cells AD but not control brains indicating that the GCL AD brains had been partly repopulated
+ new neurons that survived transit from the SGZ 
+New Neurons Are Increased the Major Site Neuronal Loss 
+AD Hippocampus The primary site hippocampal pathology 
+AD the pyramidal cell layer Ammons horn especially the
+PNAS January vol 
+NEUROSCIENCE
+Fig Expression neuronal marker proteins AD hippocampus Protein from control Con and AD hippocampus was used for Western blotting with
+antibodies against the indicated proteins and actin was used control for consistency protein loading Early Moderate and Severe refer AD increasing
+histopathological severity Band intensities were quantified computer assisted densitometry give average values fold increase over same gel control 
+reported Results 
+Fig Colocalization multiple markers neuronal lineage and
+DCX immunopositive cells from DG AD brains Confocal imaging shows
+colocalization green and Hu red A and DCX red and PSANCAM green B Nuclei were counterstained with DAPI blue 
+neuronal lineage and not nonneuronal cells aberrantly expressing single neuronal marker performed double label
+immunohistochemistry with multiple neuronal markers Laserscanning confocal imaging showed that colocalized with
+Hu neuron specific RNA binding protein that begins 
+expressed neuronal nuclei and somata soon after differentiation and DCX colocalized with PSA NCAM Fig 
+Therefore cells identified DCX immunoreactivity
+ our AD hippocampal sections express more extensive
+repertoire neuronal lineage markers 
+Fig Immunohistochemical evidence for increased neurogenesis hippocampus AD brains A and DCX are expressed the SGZ control
+and AD brain arrows but only AD are large numbers and
+DCX immunopositive cells observed GCL Immunoreactive cells the
+SGZ show shrunken cytoplasm and condensed nuclei which consistent with
+death cells that not transit the GCL similar finding was observed 
+aged control brains data not shown B DCX immunopositive cells arrow 
+can also detected Left low power Right high power AD
+hippocampus C Cells SGZ express the kDa cleavage product
+ arrow suggesting caspase dependent programmed cell death 
+ sector Lorente No which exhibits the most severe
+neuronal loss and the largest number NFTs In
+contrast DG relatively spared the stimulus enhanced
+hippocampal neurogenesis AD likely arise elsewhere In
+addition the paucity neuronal loss the DG AD brains
+suggests another ultimate destination for the new neurons seen
+ the GCL Therefore examined the sector AD
+hippocampus for evidence recruitment new neurons and
+found that DCX immunoreactive cells were present this
+region Fig indicating that one destination for new neurons
+that arise AD Whether these new neurons originate
+ the dentate SGZ elsewhere cannot resolved our
+postmortem tissue 
+Putative New Neurons AD Hippocampus Express Multiple Neuronal
+Markers To confirm that the DCX immunopositive
+cells that identified AD hippocampus were genuinely 
+ www pnas orgcgidoi pnas 
+Discussion
+Here report increased expression immature neuronal
+marker proteins hippocampus AD brains with immunohistochemical localization hippocampal sites neurogenesis
+ DG and AD pathology The regulated proteins
+included DCX PSA NCAM and NeuroD Our findings
+are consistent with increased hippocampal neurogenesis AD 
+ has been documented other neuropathological states such
+ ischemia and which may represent mechanism directed
+toward the replacement dead damaged neurons 
+Although brain atrophy which occurs AD can spuriously
+affect measurements protein concentration this factor 
+unlikely explain our results Actin expression used 
+control was unchanged AD brains and the expression
+patterns the neuronal marker proteins that studied varied 
+For example DCX and PSA NCAM expression increased with
+increasing disease severity calbindin expression was unchanged 
+and NeuN expression was characterized altered banding
+pattern which lower Mr bands became more and higher Mr
+bands less prominent the severity AD increased Moreover 
+immunohistochemistry showed increased expression DCX
+and the dentate GCL from patients with AD 
+contrast Ammons horn this area hippocampus not
+prominently affected AD 
+Prior studies establish that neurogenesis occurs the
+adult mammalian brain although reduced rate with advancing age Nevertheless the aged brain retains the capacity 
+ regulate neurogenesis response physiological and
+pathological factors This finding contrasts with the hematopoietic system where basal production new cells remains
+fairly constant with age whereas the hematopoietic response 
+stress attenuated In conditions like AD which occurs 
+increasing frequency with advancing age the ability the aged
+brain mobilize new neurons offers the prospect cell
+Jin 
+replacement This result could have especially important consequences the hippocampus because this brain region 
+disproportionately affected AD and because memory function which prominently impaired AD may depend 
+hippocampal neurogenesis Although current evidence
+connects neurogenesis with improved function slower disease
+progression AD tempting speculate that the ability 
+N methyl D aspartate NMDA receptor inhibition enhance
+dentate neurogenesis might contribute the therapeutic
+effects NMDA antagonist drugs like memantine patients
+with AD 
+Our results contrast with findings transgenic models AD 
+ which mice expressing mutant forms APP 
+ show impaired rather than increased neurogenesis However none these models fully reproduces the
+features familial AD let alone those sporadic AD which
+our patients are statistically most likely have had Because the
+molecular stimulus neurogenesis AD other neurological
+disorders unknown impossible predict whether animal
+models that may more closely resemble human AD such 
+APP double transgenic mice would more likely 
+show enhanced neurogenesis but this possibility worth
+exploring 
+This work dedicated the memory June Elizabeth Starwald
+Greenberg This work was supported Public Health
+Service Grant and the Buck Institute for Age Research The
+Harvard Brain Tissue Resource Center supported part Public
+Health Service Grant MH 
+Hardy J Selkoe D J Science 
+Gage F H Kempermann G Palmer T D Peterson D A Ray J 
+J Neurobiol 
+Cameron H A McKay R D Nat Neurosci 
+Luskin M B Neuron 
+Eriksson P S Perfilieva E Bjork Eriksson T Alborn A M Nordborg C 
+Peterson D A Gage F H Nat Med 
+Liu J Solway K Messing R O Sharp F R J Neurosci 
+Jin K Minami M Lan J Q Mao X O Batteur S Simon R P 
+Greenberg D A Proc Natl Acad Sci USA 
+Arvidsson A Collin T Kirik D Kokaia Z Lindvall O Nat Med 
+Jin K Sun Y Xie L Peel A Mao X O Batteur S Greenberg D A 
+ Mol Cell Neurosci 
+Nakatomi H Kuriu T Okabe S Yamamoto S Hatano O Kawahara N 
+Tamura A Kirino T Nakafuku M Cell 
+Shors T J Miesegaes G Beylin A Zhao M Rydel T Gould E 
+Nature 
+Gheusi G Cremer H McLean H Chazal G Vincent J D Lledo P M 
+ Proc Natl Acad Sci USA 
+Craig C G Tropepe V Morshead C M Reynolds B A Weiss S van
+der Kooy D J Neurosci 
+Kuhn H G Winkler J Kempermann G Thal L J Gage F H 
+J Neurosci 
+Wagner J P Black I B DiCicco Bloom E J Neurosci 
+Pencea V Bingaman K D Wiegand S J Luskin M B J Neurosci 
+Benraiss A Chmielnicki E Lerner K Roh D Goldman S A 
+J Neurosci 
+Jin K Mao X O Sun Y Xie L Greenberg D A J Clin Invest 
+Jin K Mao X O Sun Y Xie L Jin L Nishi E Klagsbrun M 
+Greenberg D A J Neurosci 
+Jin K Zhu Y Sun Y Mao X O Xie L Greenberg D A Proc 
+Natl Acad Sci USA 
+Lichtenwalner R J Forbes M E Bennett S A Lynch C D Sonntag W E 
+ Riddle D R Neuroscience 
+Haughey N J Nath A Chan S L Borchard A C Rao M S Mattson 
+M P J Neurochem 
+Haughey N J Liu D Nath A Borchard A C Mattson M P 
+Neuromolecular Med 
+Mirra S Heyman A McKeel D Sumi S Crain B Brownlee L Vogel 
+F Hughes J van Belle G Berg L Neurology 
+Adams J J Histochem Cytochem 
+Magavi S S Leavitt B R Macklis J D Nature 
+Rousselot P Lois C Alvarez Buylla A J Comp Neurol 
+Minturn J E Fryer H J Geschwind D H Hockfield S 
+J Neurosci 
+Lee J E Hollenberg S M Snider L Turner D L Lipnick N 
+Weintraub H Science 
+Mullen R J Buck C R Smith A M Development Cambridge 
+U K 
+Morshead C M van der Kooy D J Neurosci 
+Davies D C Horwood N Isaacs S L Mann D M Acta
+Neuropathol 
+Fukutani Y Kobayashi K Nakamura I Watanabe K Isaki K Cairns 
+N J Neurosci Lett 
+Marusich M F Furneaux H M Henion P D Weston J A 
+J Neurobiol 
+Kuhn H G Dickinson Anson H Gage F H J Neurosci 
+Kempermann G Gast D Gage F H Ann Neurol 
+Gray W P May K Sundstrom L E Neurosci Lett 
+Globerson A Exp Gerontol 
+Bernabeu R Sharp F R J Cereb Blood Flow Metab 
+Reisberg B Doody R Stoffler A Schmitt F Ferris S Mobius H J 
+ N Engl J Med 
+Wen P H Shao X Shao Z Hof P R Wisniewski T Kelley K Friedrich 
+V L Jr Ho L Pasinetti G M Shioi J Neurobiol Dis 
+Lewis J Dickson D W Lin W L Chisholm L Corral A Jones G Yen 
+S H Sahara N Skipper L Yager D Science 
+Rapoport M Dawson H N Binder L I Vitek M P Ferreira A 
+Proc Natl Acad Sci USA 
+Jin K Sun Y Xie L Batteur S Mao X O Smelick C Logvinova A 
+Greenberg D A Aging Cell 
+Jin 
+PNAS January vol 
+NEUROSCIENCE
+Notwithstanding that neurogenesis appears increased 
+the brains patients with AD progressive cell loss still
+observed There are several possible reasons for the limited
+repair capacity neurogenesis AD First the rate extent
+ cell loss may too great for quantitatively significant
+replacement achieved Second the neurons that are
+produced may ineffectual because they not develop into
+fully mature functional neurons because they not develop
+into the right type neurons because they are incapable 
+integrating into the surviving brain circuitry Third the microenvironment the AD brain may toxic new neurons 
+If the human AD brain can support neurogenesis appears 
+ the case then measures that increase neurogenesis could have
+therapeutic value One such measure may environmental
+enrichment which stimulates neurogenesis aged mice 
+Another the administration growth factors such IGF I
+ HB EGF which also increase neurogenesis
+ the aged rodent brain 

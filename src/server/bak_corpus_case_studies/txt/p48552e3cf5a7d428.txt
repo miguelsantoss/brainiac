@@ -1,0 +1,752 @@
+Acta Neuropathol 
+DOI 
+CONSENSUS PAPER
+National Institute AgingAlzheimers Association guidelines
+for the neuropathologic assessment Alzheimers disease 
+ practical approach
+Thomas J Montine Creighton H Phelps Thomas G Beach Eileen H Bigio Nigel J Cairns 
+Dennis W Dickson Charles Duyckaerts Matthew P Frosch Eliezer Masliah Suzanne S Mirra
+Peter T Nelson Julie A Schneider Dietmar Rudolf Thal John Q Trojanowski 
+Harry V Vinters Bradley T Hyman
+Received November Revised November Accepted November Published online November 
+ Springer Verlag 
+Abstract We present practical guide for the implementation recently revised National Institute Aging
+Alzheimers Association guidelines for the neuropathologic
+assessment Alzheimers disease AD Major revisions
+from previous consensus criteria are recognition that
+AD neuropathologic changes may occur the apparent
+absence cognitive impairment ABC score for
+AD neuropathologic change that incorporates histopathologic assessments amyloid deposits A staging 
+neurofibrillary tangles B and scoring neuritic plaques
+ C and more detailed approaches for assessing commonly morbid conditions such Lewy body disease 
+vascular brain injury hippocampal sclerosis and TAR
+T J Montine 
+Department Pathology University Washington School
+ Medicine Box Seattle WA USA
+ mail tmontineuw edu
+E Masliah
+Departments Neurosciences and Pathology 
+School Medicine University California 
+San Diego La Jolla CA USA
+C H Phelps
+National Institute Aging Bethesda MD USA
+S S Mirra
+Department Pathology SUNY Downstate Medical Center 
+Brooklyn NY USA
+T G Beach
+Civin Laboratory for Neuropathology Banner Sun Health
+Research Institute Sun City AZ USA
+E H Bigio
+Department Pathology and Northwestern Alzheimer Disease
+Center Northwestern University Feinberg School Medicine 
+Chicago IL USA
+N J Cairns
+Departments Neurology and Pathology Immunology 
+Washington University School Medicine St Louis 
+MO USA
+D W Dickson
+Department Neuroscience Mayo Clinic 
+Jacksonville FL USA
+C Duyckaerts
+Service Neuropathologie Raymond Escourolle 
+Hopital Salpetriere Paris France
+M P Frosch
+C S Kubik Laboratory for Neuropathology Massachusetts
+General Hospital Harvard Medical School Boston MA USA
+P T Nelson
+Sanders Brown Center Aging University Kentucky 
+Lexington KY USA
+J A Schneider
+Departments Pathology and Neurological Sciences 
+Rush Alzheimers Disease Center Rush University Medical
+Center Chicago IL USA
+D R Thal
+Laboratory Neuropathology Institute Pathology 
+University Ulm Ulm Germany
+J Q Trojanowski
+Department Pathology and Laboratory Medicine Institute
+ Aging Center for Neurodegenerative Disease Research 
+University Pennsylvania School Medicine Philadelphia 
+PA USA
+H V Vinters
+Departments Pathology Laboratory Medicine
+ Neuropathology and Neurology University California
+Los Angeles Los Angeles CA USA
+DNA binding protein TDP immunoreactive inclusions 
+Recommendations also are made for the minimum sampling brain preferred staining methods with acceptable
+alternatives reporting results and clinico pathologic
+correlations 
+Introduction
+A consensus panel from the United States and Europe was
+convened recently update and revise the 
+consensus guidelines for the neuropathologic evaluation 
+Alzheimers disease AD Here summarize these
+consensus guidelines and provide direction for their
+application 
+Clinico pathologic correlation
+Alzheimers disease refers constellation cognitive
+and behavioral changes that are typical for patients who
+have substantial amounts its hallmark lesions 
+Similar neuropathologic changes albeit usually lower
+levels also occur individuals who did not show cognitive behavioral impairments during life We
+recommend that neuropathologists adopt the term AD
+neuropathologic change and report the presence and
+extent lesions observed autopsy regardless the
+individuals cognitive state even cognitive state not
+known 
+AD neuropathologic change should assessed all
+cases dementia There are many other neurodegenerative
+disorders that can cause dementia addition those
+discussed here and any may morbid with AD neuropathologic change especially the elderly We
+recommend that all lesions documented for type and
+extent morbidity brains individuals with AD
+neuropathologic change 
+Multiple diseases cerebrum can conspire worsen
+cognitive symptoms however often difficult judge
+the extent which each disease observed autopsy may
+have contributed given patients cognitive state It 
+essential that the extent AD neuropathologic change 
+well neuropathologic findings for any other disease that may have contributed cognitive impairment
+ dementia correlated with clinical neuropsychological neuro imaging and other laboratory data part the
+neuropathology report 
+B T Hyman
+Neurology Department Massachusetts General Hospital 
+Harvard University Boston MA USA
+Acta Neuropathol 
+Work cases
+Autopsy should follow best practices and local regulations 
+Gross inspection brain should include assessment 
+regional atrophy and blood vessels for cerebrovascular
+disease CVD We recommend minimum sampling 
+brain regions Table All gross lesions also should 
+sampled Each the following sections indicates preferred
+and acceptable alternative methods for detection neuropathologic changes While not propose specific
+protocols our recommendations are compatible with conclusions others who have optimized reproducibility
+ some neuropathologic assessments across multiple sites
+ We anticipate further efforts for increased
+harmonization and molecular specification Finally 
+although organized for brain autopsy these neuropathologic
+assessments can applied specimens from surgery 
+however regional evaluation will limited biopsy
+specimens 
+AD neuropathologic change
+Senile plaques which are extracellular deposits the
+ amyloid Ab peptides and neurofibrillary degeneration 
+which best exemplified neurofibrillary tangles
+ NFTs are considered essential neuropathologic features
+ AD Accumulation Ab plaques and NFTs follows
+distinct regional progressions across brain regions AD
+advances We recommend continued use the staging
+scheme for neurofibrillary degeneration described originally Braak and Braak reduced four stages
+ Table that improves inter rater reliability We
+recommend modified version Thal phases Ab plaque accumulation adapted four point scale
+ Table A subset senile plaques called neuritic plaques appear closely associated with neuronal injury and are
+characterized the occurrence dystrophic neurites that
+frequently have phospho tau immunoreactivity 
+ We recommend continued use the Consortium 
+Establish Registry for AD CERAD protocol for neuritic
+plaque scoring Table 
+Method
+Preferred method for amyloid Ab plaques immunohistochemistry for Ab and for neurofibrillary tangles
+ NFTs immunohistochemistry for tau phospho tau
+ Other acceptable methods are Thioflavin S sensitive silver histochemical stains It important 
+stress that neuritic plaques need distinguished from
+Ab deposits special stains Preferred methods for
+detection neuritic processes senile plaques are
+Acta Neuropathol 
+Table Minimum recommended brain regions sampled and evaluated
+AD Neuropathologic Change
+A
+B
+VBI and HS
+Stain for LBs
+H E
+C
+Stain for A amyloid Stain for NFTs Stain for NPs
+plaques 
+Region
+LBD
+Medulla including DMV
+Pons including LC
+ IHC H Ea
+VBI
+VBI
+ IHC H E
+Midbrain including SN
+Cerebellar cortex and dentate 
+ IHC H Ea
+Thalamus and subthalamic 
+MVL
+Basal ganglia level AC with basal
+nucleus Meynertb
+Considerc
+Hippocampus and ECb
+Yes
+MVL
+Considerc
+Cingulate anterior
+Yes
+Yes
+Superior and middle temporal gyrib
+Yes
+Yes
+Inferior parietal lobuleb
+Yes
+Yes
+Considerc
+Yes
+Considerc
+Occipital cortex BA and 
+HS
+ IHC least
+one 
+VBI
+ IHCa
+VBI
+ IHC least
+one 
+MVL
+Amygdala
+Middle frontal gyrus
+VBI
+VBI
+MVL
+MVL
+MVL
+Considerc
+WM ACA MCA and PCA watershed
+Each brain region should receive hematoxylin and eosin H E stain In addition regions are recommended for additional stains reveal
+Alzheimers disease AD neuropathologic change and Lewy body disease LBD A tiered approach assessment Ab amyloid plaques and
+LBD recommended reflect their typically ordered appearance brain While NFTs also typically follow ordered appearance AD 
+recommend wider screening assist capturing other tauopathies H E stained sections can used for evaluating vascular brain injury VBI 
+ each region and hippocampal sclerosis HS designated We recommend that enumeration microvascular lesions MVLs for clinicopathologic correlations with cognitive impairment and dementia limited the six regions that are italicized Other lesions should sampled
+ appropriate
+Stains for Ab amyloid plaques should considered other regions not needed for classification such the precuneus cingulate 
+neuroimaging studies indicate that these sites are among the earliest demonstrate retention amyloid binding molecules marker fibrillar
+Ab accumulation
+DMV dorsal motor nucleus the vagus LC locus ceruleus SN substantia nigra AC anterior commissure EC entorhinal cortex WM white
+matter NFTs neurofibrillary tangles NPs neuritic plaques LBs Lewy bodies ACA anterior cerebral artery MCA middle cerebral artery PCA
+posterior cerebral artery BA Brodmann area
+Screen for LBs with immunohistochemistry H E brainstem and immunohistochemistry amygdala If positive then expand immunohistochemistry for LBs brainstem limbic and neocortical regions
+Consider taking bilateral sections both cerebral hemispheres are available
+Consider performing noted stains these regions however this not necessary perform scoring
+Screen leptomeningeal and parenchymal vessels for cerebral amyloid angiopathy CAA 
+Table ABC score for AD neuropathologic change
+A
+Thal Phase for A plaques
+B
+Braak and Braak NFT stage
+None
+I II
+III IV
+V VI
+Thioflavin S modified Bielschowsky stain immunohistochemical stains for neuritic processes such 
+amyloid precursor protein ubiquitin neurofilament 
+C CERAD neuritic plaque score
+None
+Sparse
+Moderate
+Frequent
+phospho tau will identify specific and partially overlapping subtypes dystrophic neurites that may differ 
+disease relevance 
+Acta Neuropathol 
+tau immunohistochemistry and CERAD neuritic
+plaque score Fig obtain ABC score
+ Table Although cerebral amyloid angiopathy CAA 
+not considered the ABC score very commonly
+observed cases with parenchymal Ab plaques and should
+ evaluated and reported systematically well 
+appreciated for its potential pathophysiological significance 
+Reporting
+For all cases regardless clinical history reporting
+should follow the format these examples Alzheimer
+Disease Neuropathologic Change Alzheimer Disease Neuropathologic Change 
+Using the system shown Table the ABC scores are
+transformed into one four levels AD neuropathologic
+change Not Low Intermediate High 
+Clinico pathologic correlations
+Clinico pathologic correlations for individuals without
+cognitive impairment should indicate that possible for
+AD neuropathologic change predate onset symptoms
+ years For individuals with cognitive impairment 
+the time tissue was obtained Intermediate High
+level Table black background AD neuropathologic
+change should considered adequate explanation 
+cognitive impairment dementia and should reported
+with final diagnosis Alzheimers disease Low level
+ AD neuropathologic change not considered adequate
+explanation for cognitive impairment dementia In all
+cases with cognitive impairment regardless the extent 
+AD neuropathologic change essential determine the
+presence absence well extent other disease that might have contributed the clinical deficits 
+For cases with incomplete clinical history higher levels 
+AD neuropathologic change typically are correlated with
+greater likelihood cognitive impairment 
+Lewy body disease
+Fig ABC score for Alzheimers disease neuropathologic
+change Immunohistochemical detection Ab plaques neocortex
+ example neostriatum example and
+ molecular layer cerebellum example Scale bars
+are Anti Ab was antibody F D Novocastra Newcastle 
+UK 
+Classification
+AD neuropathologic change should ranked along three
+parameters Ab plaque score Fig Braak NFT
+stage Fig silver based histochemistry phospho 
+Lewy body disease LBD including Parkinsons disease
+and dementia with Lewy bodies DLB shares abnormal
+accumulation synuclein within inclusions called LBs 
+ well synuclein immunoreactive neurites called
+Lewy neurites and diffuse cytoplasmic immunoreactivity LBs are frequent the setting moderate severe
+levels AD neuropathologic change including
+some early onset familial AD cases Given our
+focus cognitive impairment and dementia rather than
+movement disorders recommend modification 
+Acta Neuropathol 
+Fig ABC score for
+Alzheimers disease
+neuropathologic change 
+Immunohistochemical detection
+ neurofibrillary degeneration
+using phospho tau antibody 
+the occipital cortex Brodmann
+areas and example
+ Scale bars equal
+ and 
+antibody was generously
+provided Dr Peter Davies
+Fig ABC score for
+Alzheimers disease
+neuropathologic change 
+Bielschowsky stain neocortex
+shows diffuse plaques but not
+neuritic plaques example
+ and increasing density
+ neuritic plaques examples
+ neuritic plaques
+per but
+ neuritic plaques per
+ and 
+neuritic plaques per 
+Scale bars equal 
+previous consensus guidelines classify LBD five
+stages 
+Method
+LBs may detected neurons medulla pons and
+midbrain with hematoxylin and eosin H E stained sections however greater sensitivity can achieved with
+immunohistochemistry for synuclein and this approach 
+strongly preferred Abnormal neuropil and neuronal cytoplasmic synuclein immunoreactivity are
+usually present with LBs but will not apparent H E 
+ some instances these changes occur the absence 
+LBs 
+Classification all types LBD should fall into one
+ five categories following modification existing
+criteria Fig none brainstem predominant 
+limbic transitional neocortical diffuse amygdala 
+Acta Neuropathol 
+Table ABC score for level AD neuropathologic change
+Ba
+AD neuropathologic change
+Ab
+Cc
+Notd
+Notd
+Notd
+Low
+Low
+Lowe
+Low
+Intermediate
+Intermediatee
+Any C
+Lowg
+Intermediate
+Intermediatee
+Lowg
+Intermediate
+Intermediatee
+Lowg
+Intermediate
+High
+AD neuropathologic change evaluated with ABC score Table Ab amyloid plaques A NFT stage B and neuritic plaque score C 
+The combination A B and C scores designated Not Low Intermediate High AD neuropathologic change Intermediate
+ High AD neuropathologic change italicized considered sufficient explanation for dementia
+NFT stage should determined the method Braak 
+Ab amyloid plaque score should determined the method Thal 
+Neuritic plaque score should determined the method CERAD 
+Medial temporal lobe NFTs the absence significant Ab neuritic plaques occurs older people and may seen individuals without
+cognitive impairment with mild impairment with cognitive impairment from causes other than AD Consider other diseases when
+clinically pathologically indicated
+Widespread NFTs with some Ab amyloid plaques but limited neuritic plaques relatively infrequent and when occurs other diseases 
+particularly tauopathies should considered Such cases may not fit easily into specific Braak stage which intended for categorization 
+AD type NFTs
+High levels neuritic plaques setting low Thal phase rare occurrence and should prompt reconsideration neuritic versus diffuse
+plaques and the possible contribution other diseases cognitive impairment dementia
+Higher levels Ab neuritic plaques with low Braak stage should prompt consideration contribution morbidities like vascular brain
+injury Lewy body disease hippocampal sclerosis Also consider additional sections well repeat additional protocols demonstrate
+other non AD lesions
+predominant Table Although not part this classification scheme important realize that LBD also
+occurs frequently the olfactory bulb older adults and
+should sampled when possible 
+Reporting
+For all cases regardless clinical history reporting
+should follow the format these examples Lewy body
+disease limbic Lewy body disease amygdalapredominant 
+Clinico pathologic correlation for individuals without
+cognitive impairment should indicate that although much
+less common than AD neuropathologic change LBD has
+been observed individuals without apparent cognitive 
+motor deficit this may represent pre clinical LBD
+ For individuals with cognitive impairment 
+recommend that Neocortical LBD considered adequate explanation cognitive impairment dementia
+ Table italicized however this does not preclude
+contribution from other diseases Brainstem predominant
+LBD the setting cognitive impairment should
+prompt consideration other diseases Amygdala predominant LBD typically occurs the context 
+advanced AD neuropathologic change For cases with
+incomplete clinical history note that Neocortical
+LBD correlated with greater likelihood cognitive
+impairment 
+Cerebrovascular disease and vascular brain injury
+CVD and vascular brain injury VBI commonly are
+encountered the brains with AD neuropathologic change
+ We recommend reporting all macroscopic VBI and
+enumerating microvascular lesions MVLs microscopic
+infarcts hemorrhages standard screening sections 
+ Diffuse white matter injury form VBI
+but more difficult judge objectively and not
+specific VBI 
+Acta Neuropathol 
+Fig Lewy body disease
+Classification 
+Immunohistochemical detection
+ synuclein scale bar
+ dorsal motor nucleus
+ the vagus nerve and scale
+bar substantia nigra
+neurons examples 
+Brainstem predominant
+LBD scale bar 
+amygdala example 
+Amygdala predominant
+LBD scale bar 
+anterior cingulate gyrus 
+example Limbic
+ Transitional LBD and 
+scale bar superior
+temporal gyrus example 
+Neocortical diffuse LBD
+with varying levels LBD
+severity mild moderate 
+severe and very severe
+ Anti alpha synuclein
+was antibody 
+ Novocastra Newcastle UK 
+Table Classification Lewy body disease
+None
+No LBs related changes IHC for synuclein
+Brainstem predominant
+LBs medulla pons midbrain
+Limbic Transitional 
+LBs cingulate entorhinal cortices usually with
+brainstem involvement
+Neocortical Diffuse 
+LBs frontal temporal parietal cortices usually
+with involvement brainstem and limbic sites 
+which may include amygdala
+Amygdala predominant
+LBs amygdala with paucity LBs the above
+regions
+Results from the tiered approach assessment LBD Table should reported described here Neocortical diffuse LBD considered
+adequate explanation dementia italicized It important note that this classification focused the clinical context cognitive
+impairment dementia LBD also occurs early olfactory bulb and even can occur outside the brain
+Acta Neuropathol 
+widespread involvement hemispheric white matter 
+Vascular brain injury Infarct the territory the left
+middle cerebral artery remote measuring 
+Lacunar infarct right anterior caudate remote measuring
+ Microvascular lesions remote
+lesions detected standard sections right middle frontal
+gyrus and right inferior parietal lobule 
+Clinico pathologic correlations
+Clinico pathologic correlations for grossly visible infarcts
+ hemorrhages should follow classic neuropathologic
+approaches Although there are some differences 
+approach guidelines have emerged for clinico pathologic
+correlation MVLs one MVL identified standard
+sections brain Table italicized regions unclear
+relationship cognitive function while multiple MVLs 
+these regions are associated with increased likelihood 
+cognitive impairment dementia 
+Hippocampal sclerosis and TAR DNA binding protein
+ TDP inclusions
+Fig Microvascular lesion Cerebral cortex stained with hematoxylin and eosin for immunohistochemical detection glial
+fibrillary acidic protein reveals microvascular lesion MVL Scale
+bar Anti GFAP was antibody DAKO Glostrup 
+Denmark 
+Method
+VBI including MVLs Fig may occur any region 
+brain but only those MVLs the standardized sections
+ Table italicized should enumerated when correlating
+with cognitive impairment dementia 
+Classification
+All infarcts and hemorrhages should documented
+including location size and age 
+Reporting
+Reporting should follow the format these examples 
+Cerebrovascular disease Atherosclerosis moderate nonocclusive affecting basilar artery left internal carotid artery
+and middle cerebral artery Arteriolosclerosis severe 
+Hippocampal sclerosis HS defined pyramidal cell
+loss and gliosis and subiculum the hippocampal
+formation that out proportion AD neuropathologic
+change the same structures HS can observed the
+context AD neuropathologic change frontotemporal
+lobar degeneration FTLD and VBI likely reflecting 
+heterogeneous etiology We recommend that HS reported present absent 
+ immunoreactive inclusions are observed the
+majority cases HS Fig about onehalf cases with FTLD and ubiquitin inclusions with 
+without motor neuron disease most sporadic cases 
+amyotrophic lateral sclerosis and commonly cases with
+AD neuropathologic change with LBD 
+well other neurodegenerative diseases With the
+exception individuals with mutations TARDBP GRN 
+VCP not clear whether 
+proteinopathy these other neurodegenerative diseases 
+ primary secondary coincidental event 
+Method and classification
+HS should evaluated hematoxylin and eosin H E stained sections together with neurofibrillary tangle NFT 
+stains HS can focal thus its absence the recommended screening section does not rule out the possibility
+ HS elsewhere the hippocampal formation If HS 
+present further evaluation indicated including 
+immunohistochemistry If work negative for 
+Acta Neuropathol 
+but there other evidence suggest FTLD consider
+immunohistochemistry for phospho tau ubiquitin 
+fused sarcoma FUS In the absence HS screening
+for inclusions part evaluating AD neuropathologic change unclear value 
+Reporting
+HS should reported present absent with 
+description immunohistochemistry results 
+Clinico pathological correlations need recognize that
+HS can occur several different diseases and has varying
+clinical implications different settings Relatively isolated HS may occur very old individuals and this
+context associated with immunoreactive
+inclusions and with cognitive impairment 
+Frontotemporal lobar degeneration and prion disease
+Both these classes neurodegenerative diseases are
+complex and beyond the scope this summary Nevertheless each must distinguished from AD
+neuropathologic change We refer the reader recent
+consensus guidelines for the neuropathologic evaluation 
+FTLD and its subtypes and issues important 
+the distinction AD neuropathologic change from those
+ some forms FTLD Finally not only can the
+neuropathologic changes prion disease morbid
+with AD but some forms prion disease can overlap with
+AD and need distinguished with special stains 
+Summary
+The new consensus criteria recognize the continuum AD
+neuropathologic change that underlies the progression 
+this disease from preclinical dementia stage The new
+consensus criteria also amplify methods for evaluating Ab
+plaques better define intermediate levels AD pathologic
+change and emphasize structured approach commonly
+ morbid diseases 
+Fig inclusions Immunohistochemical detection the dentate gyrus subject without hippocampal sclerosis 
+ another case with hippocampal sclerosis that shows cytoplasmic
+inclusions granule neurons that are further highlighted 
+Scale bars equal was antibody AP ProteinTech Chicago IL USA was antibody from Cosmo Bio 
+Tokyo Japan 
+Acknowledgments Support was provided the National Institute 
+Aging 
+ and well the Alzheimers Association Arizona Department Health Services contract 
+Arizona Alzheimers Consortium Deutsche Forschungsgemeinschaft
+ DFG and Alzheimer Forschung Initiative AFI 
+the Nancy and Buster Alvord Endowment and the Charles and Joanne
+Knight Alzheimer Research Initiative We thank Dr Joshua Sonnen for
+providing some photomicrographs The authors extend their deepest
+thanks Dr Heiko Braak Dr Kelly Del Tredici Dr Nina Silverberg 
+Dr Walter Kukull Dr Kathleen Montine Dr Cerise Elliott Dr Bill
+Thies Dr Maria C Carrillo and Ms Sarah Monsell for their valuable
+input 
+Acta Neuropathol 
+References
+Adler CH Connor DJ Hentz JG Incidental Lewy
+body disease clinical comparison control cohort Mov Disord 
+Alafuzoff I Arzberger T Al Sarraj S Staging 
+neurofibrillary pathology Alzheimers disease study the
+BrainNet Europe Consortium Brain Pathol 
+Alafuzoff I Parkkinen L Al Sarraj S Assessment 
+alpha synuclein pathology study the BrainNet Europe
+Consortium J Neuropathol Exp Neurol 
+Alafuzoff I Pikkarainen M Al Sarraj S Interlaboratory comparison assessments Alzheimer disease related
+lesions study the BrainNet Europe Consortium J Neuropathol Exp Neurol 
+Alafuzoff I Thal DR Arzberger T Assessment 
+beta amyloid deposits human brain study the BrainNet
+Europe Consortium Acta Neuropathol 
+Albert MS Dekosky ST Dickson D The diagnosis 
+mild cognitive impairment due Alzheimers disease recommendations from the National Institute Aging Alzheimers
+Association workgroups diagnostic guidelines for Alzheimers
+disease Alzheimers Dement 
+Amador Ortiz C Dickson DW Neuropathology hippocampal sclerosis Handb Clin Neurol 
+Amador Ortiz C Lin WL Ahmed Z 
+immunoreactivity hippocampal sclerosis and Alzheimers
+disease Ann Neurol 
+Arai T Mackenzie IR Hasegawa M Phosphorylated
+ Alzheimers disease and dementia with Lewy bodies 
+Acta Neuropathol 
+Aswathy PM Jairani PS Mathuranath PS Genetics 
+frontotemporal lobar degeneration Ann Indian Acad Neurol 
+Beach TG Adler CH Lue L Unified staging system
+for Lewy body disorders correlation with nigrostriatal degeneration cognitive impairment and motor dysfunction Acta
+Neuropathol 
+Beach TG Adler CH Sue LI Reduced striatal
+tyrosine hydroxylase incidental Lewy body disease Acta
+Neuropathol 
+Beach TG White CL Hamilton RL Evaluation 
+alpha synuclein immunohistochemical methods used invited
+experts Acta Neuropathol 
+Braak H Alafuzoff I Arzberger T Staging Alzheimer disease associated neurofibrillary pathology using paraffin
+sections and immunocytochemistry Acta Neuropathol 
+Braak H Braak E Neuropathological stageing Alzheimer related changes Acta Neuropathol 
+Braak H Del Tredici K Rub U Staging brain
+pathology related sporadic Parkinsons disease Neurobiol
+Aging 
+Cairns NJ Bigio EH Mackenzie IR Neuropathologic
+diagnostic and nosologic criteria for frontotemporal lobar
+degeneration consensus the Consortium for Frontotemporal
+Lobar Degeneration Acta Neuropathol 
+Dejesus Hernandez M Mackenzie IR Boeve BF 
+Expanded GGGGCC hexanucleotide repeat noncoding region
+ causes chromosome linked FTD and ALS 
+Neuron 
+DeKosky ST Scheff SW Synapse loss frontal cortex
+biopsies Alzheimers disease correlation with cognitive
+severity Ann Neurol 
+Del Tredici K Rub U De Vos RA Where does
+Parkinson disease pathology begin the brain? J Neuropathol
+Exp Neurol 
+Dickson DW The pathogenesis senile plaques 
+J Neuropathol Exp Neurol 
+Dickson DW Fujishiro H DelleDonne A Evidence
+that incidental Lewy body disease pre symptomatic Parkinsons disease Acta Neuropathol 
+Dlouhy SR Hsiao K Farlow MR Linkage the
+Indiana kindred Gerstmann Straussler Scheinker disease the
+prion protein gene Nat Genet 
+Gorelick PB Scuteri A Black SE Vascular contributions cognitive impairment and dementia statement for
+healthcare professionals from the American Heart Association 
+American Stroke Association Stroke 
+Grinberg LT Thal DR Vascular pathology the aged
+human brain Acta Neuropathol 
+Hachinski V Iadecola C Petersen RC National
+Institute Neurological Disorders and Stroke Canadian Stroke
+Network vascular cognitive impairment harmonization standards 
+Stroke 
+Hamilton RL Lewy bodies Alzheimers disease 
+neuropathological review cases using alpha synuclein
+immunohistochemistry Brain Pathol 
+Hatanpaa KJ Blass DM Pletnikova O Most cases 
+dementia with hippocampal sclerosis may represent frontotemporal dementia Neurology 
+Hyman BT Phelps CH Beach TG National Institute
+ AgingAlzheimers Association guidelines for the neuropathologic assessment Alzheimers disease Alzheimers Dement
+ press 
+Hyman BT Trojanowski JQ Consensus recommendations
+for the postmortem diagnosis Alzheimer disease from the
+National Institute Aging and the Reagan Institute Working
+Group diagnostic criteria for the neuropathological assessment
+ Alzheimer disease J Neuropathol Exp Neurol 
+Jicha GA Schmitt FA Abner E Prodromal clinical
+manifestations neuropathologically confirmed Lewy body
+disease Neurobiol Aging 
+Leverenz JB Fishel MA Peskind ER Lewy body
+pathology familial Alzheimer disease evidence for diseaseand mutation specific pathologic phenotype Arch Neurol 
+Lippa CF Duda JE Grossman M DLB and PDD
+boundary issues diagnosis treatment molecular pathology and
+biomarkers Neurology 
+Mackenzie IR Neumann M Bigio EH Nomenclature
+and nosology for neuropathologic subtypes frontotemporal
+lobar degeneration update Acta Neuropathol 
+Mackenzie IR Neumann M Bigio EH Nomenclature
+for neuropathologic subtypes frontotemporal lobar degeneration consensus recommendations Acta Neuropathol 
+Masliah E Mallory M Deerinck T Re evaluation 
+the structural organization neuritic plaques Alzheimers
+disease J Neuropathol Exp Neurol 
+Masliah E Terry RD Mallory M Diffuse plaques 
+not accentuate synapse loss Alzheimers disease Am J Pathol
+McKeith IG Dickson DW Lowe J Diagnosis and
+management dementia with Lewy bodies third report the
+DLB Consortium Neurology 
+Acta Neuropathol 
+McKhann GM Knopman DS Chertkow H The
+diagnosis dementia due Alzheimers disease Recommendations from the National Institute Aging Alzheimers
+Association workgroups diagnostic guidelines for Alzheimers
+disease Alzheimers Dement 
+Miki Y Mori F Hori E Hippocampal sclerosis with
+four repeat tau positive round inclusions the dentate gyrus 
+new type four repeat tauopathy Acta Neuropathol 
+Mirra SS Heyman A McKeel D The Consortium 
+Establish Registry for Alzheimers Disease CERAD Part II 
+Standardization the neuropathologic assessment Alzheimers disease Neurology 
+Nagy Z Yilmazer Hanke DM Braak H Assessment
+ the pathological stages Alzheimers disease thin paraffin
+sections comparative study Dement Geriatr Cogn Disord
+Nakashima Yasuda H Uryu K Robinson J 
+Co morbidity proteinopathy Lewy body related
+diseases Acta Neuropathol 
+Nelson PT Abner EL Schmitt FA Brains with
+medial temporal lobe neurofibrillary tangles but neuritic
+amyloid plaques are diagnostic dilemma but may have pathogenetic aspects distinct from Alzheimer disease J Neuropathol
+Exp Neurol 
+Nelson PT Abner EL Schmitt FA Modeling the
+association between different clinical and pathological variables and the severity cognitive impairment large autopsy
+cohort elderly persons Brain Pathol 
+Nelson PT Kryscio RJ Jicha GA Relative preservation MMSE scores autopsy proven dementia with Lewy
+bodies Neurology 
+Nelson PT Schmitt FA Lin Y Hippocampal sclerosis
+ advanced age clinical and pathological features Brain 
+Rauramaa T Pikkarainen M Englund E TAR DNA
+binding and alterations the hippocampus J Neural
+Transm 
+Saito Y Ruberu NN Sawabe M Lewy body related
+alpha synucleinopathy aging J Neuropathol Exp Neurol 
+Selnes OA Vinters HV Vascular cognitive impairment 
+Nat Clin Pract Neurol 
+Sonnen JA Larson EB Brickell K Different patterns
+ cerebral injury dementia with without diabetes Arch
+Neurol 
+Sonnen JA Larson EB Crane PK Pathological
+correlates dementia longitudinal population based sample
+ aging Ann Neurol 
+Soontornniyomkij V Lynch MD Mermash S Cerebral microinfarcts associated with severe cerebral beta amyloid
+angiopathy Brain Pathol 
+Sperling RA Aisen PS Beckett LA Toward defining
+the preclinical stages Alzheimers disease Recommendations
+from the National Institute Aging Alzheimers Association
+workgroups diagnostic guidelines for Alzheimers disease 
+Alzheimers Dement 
+Terry RD Masliah E Salmon DP Physical basis 
+cognitive alterations Alzheimers disease synapse loss the
+major correlate cognitive impairment Ann Neurol 
+Thal DR Griffin WS Vos RA Ghebremedhin E 
+Cerebral amyloid angiopathy and its relationship Alzheimers
+disease Acta Neuropathol 
+Thal DR Rub U Orantes M Braak H Phases A betadeposition the human brain and its relevance for the development AD Neurology 
+Uchihara T Nakamura A Yamazaki M Different
+conformation neuronal tau deposits distinguished double
+immunofluorescence with and thiazin red combined with
+Gallyas method Acta Neuropathol 
+Uchikado H Lin WL DeLucia MW Dickson DW Alzheimer disease with amygdala Lewy bodies distinct form 
+alpha synucleinopathy J Neuropathol Exp Neurol 
+Vinters HV Ellis WG Zarow C Neuropathologic
+substrates ischemic vascular dementia J Neuropathol Exp
+Neurol 
+Vonsattel JP Myers RH Hedley Whyte ET Cerebral
+amyloid angiopathy without and with cerebral hemorrhages 
+comparative histological study Ann Neurol 
+White L Brain lesions autopsy older JapaneseAmerican men related cognitive impairment and dementia
+ the final years life summary report from the HonoluluAsia aging study J Alzheimers Dis 
+Wilson AC Dugger BN Dickson DW Wang DS 
+ aging and Alzheimers diseasea review Int J Clin Exp
+Pathol 
+Zarow C Sitzer TE Chui HC Understanding hippocampal
+sclerosis the elderly epidemiology characterization and
+diagnostic issues Curr Neurol Neurosci Rep 
