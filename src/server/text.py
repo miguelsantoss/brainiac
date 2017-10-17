@@ -21,7 +21,6 @@ from sklearn.preprocessing import Normalizer
 from sklearn.pipeline import make_pipeline
 from sklearn.cluster import KMeans
 from sklearn.manifold import TSNE
-# from sklearn.decomposition import NMF, LatentDirichletAllocation
 
 from scipy import linalg
 from scipy import dot
@@ -129,18 +128,18 @@ def main(args):
         5: '#ccc0ba', 6: '#4700f9', 7: '#f6f900', 8: '#00f91d', 9: '#da8c49'
     }
 
-    spacy_dict = {}
-    for key, value in token_dictionary.items():
-        spacy_dict[key] = nlp(value)
+    # spacy_dict = {}
+    # for key, value in token_dictionary.items():
+    #     spacy_dict[key] = nlp(value)
 
-    matrix_n = len(spacy_dict)
-    spacy_similarity_matrix = []
+    # matrix_n = len(spacy_dict)
+    # spacy_similarity_matrix = []
 
-    for i in range(0, matrix_n):
-        row = []
-        for j in range(0, matrix_n):
-            row.append(spacy_dict[file_names[i]].similarity(spacy_dict[file_names[j]]))
-        spacy_similarity_matrix.append(row)
+    # for i in range(0, matrix_n):
+    #     row = []
+    #     for j in range(0, matrix_n):
+    #         row.append(spacy_dict[file_names[i]].similarity(spacy_dict[file_names[j]]))
+    #     spacy_similarity_matrix.append(row)
 
     # TF-IDF
     print('Extracting TF-IDF features...')
@@ -220,7 +219,7 @@ def main(args):
     lsa_reduced_topics = svd_topics.fit_transform(tfidf_matrix)
     normalizer = Normalizer(copy=False)
     lsa = make_pipeline(svd_topics, normalizer)
-    X = lsa.fit_transform(tfidf_matrix)
+    lsa_reduced_topics = lsa.fit_transform(tfidf_matrix)
 
     # TSNE
     n_components_tsne = 2
@@ -230,8 +229,8 @@ def main(args):
     # PCA on the TF-IDF matrix and on the LSA reduced TF-IDF matrix
     n_components_pca = 2
     print('Performing dimensionality reduction using PCA, ', 'n_components: %d' % n_components_pca)
-    reduced_data = PCA(n_components=n_components_pca).fit_transform(tfidf_matrix.toarray())
-    reduced_data2 = PCA(n_components=n_components_pca).fit_transform(lsa_reduced)
+    reduced_data_pca = PCA(n_components=n_components_pca).fit_transform(tfidf_matrix.toarray())
+    #reduced_data2 = PCA(n_components=n_components_pca).fit_transform(lsa_reduced)
 
     # Clustering of the LSA reduced TF-IDF matrix
     print('Fitting KMeans model with LSA reduced TF-IDF matrix, ', 'n_clusters: %d' % num_clusters)
@@ -258,41 +257,92 @@ def main(args):
         precompute_distances='auto',
         n_jobs=-1
     )
-    X = reduced_data
-    labels_pca = clustering_model_pca_reduced.fit_predict(X)
+    labels_pca = clustering_model_pca_reduced.fit_predict(reduced_data_pca)
 
     # Plotting the PCA reduced TF-IDF model
     if (args.plot):
-        fig, ax = plt.subplots()
-        fig.suptitle('PCA clusters', fontsize=20)
-        for index, instance in enumerate(X):
-            # print instance, index, labels[index]
-            pca_comp_1, pca_comp_2 = X[index]
-            color = labels_color_map[labels_pca[index]]
-            ax.scatter(pca_comp_1, pca_comp_2, c=color)
-
+        # Annotate each document with it's id - filename
         docs = []
-
         for doc, content in token_dictionary.items():
             docs.append(doc)
+
+        # TF-IDF results clustered, dimensions reduced after clustering
+        fig, ax = plt.subplots()
+        fig.suptitle('TF-IDF clusters, LSA reduced', fontsize=20)
+        for index, instance in enumerate(lsa_reduced):
+            tfidf_lsa_comp1, tfidf_lsa_comp2 = lsa_reduced[index]
+            color = labels_color_map[labels[index]]
+            ax.scatter(tfidf_lsa_comp1, tfidf_lsa_comp2, c=color)
 
         # Annotate each document with it's id - filename
         if (args.annotate_plot):
             for i, doc in enumerate(docs):
-                ax.annotate(doc, (X[i][0], X[i][1]))
+                ax.annotate(doc, (lsa_reduced[i][0], lsa_reduced[i][1]))
 
-        # Plot TSNE and LSA reduced TF-IDF Model
+        # TF-IDF results clustered, dimensions reduced after clustering
         fig, ax = plt.subplots()
-        fig.suptitle('TSNE/LSA clusters', fontsize=20)
+        fig.suptitle('TF-IDF clusters, tSNE reduced', fontsize=20)
         for index, instance in enumerate(tsne_reduced):
-            tsne_comp_1, tsne_comp_2 = tsne_reduced[index]
+            tfidf_tsne_comp1, tfidf_tsne_comp2 = tsne_reduced[index]
             color = labels_color_map[labels[index]]
-            ax.scatter(tsne_comp_1, tsne_comp_2, c=color)
+            ax.scatter(tfidf_tsne_comp1, tfidf_tsne_comp2, c=color)
 
         # Annotate each document with it's id - filename
         if (args.annotate_plot):
             for i, doc in enumerate(docs):
                 ax.annotate(doc, (tsne_reduced[i][0], tsne_reduced[i][1]))
+
+        # TF-IDF results clustered, dimensions reduced after clustering
+        fig, ax = plt.subplots()
+        fig.suptitle('TF-IDF clusters, PCA reduced', fontsize=20)
+        for index, instance in enumerate(reduced_data_pca):
+            # print instance, index, labels[index]
+            pca_comp_1, pca_comp_2 = reduced_data_pca[index]
+            color = labels_color_map[labels[index]]
+            ax.scatter(pca_comp_1, pca_comp_2, c=color)
+
+        if (args.annotate_plot):
+            for i, doc in enumerate(docs):
+                ax.annotate(doc, (reduced_data_pca[i][0], reduced_data_pca[i][1]))
+
+        # LSA results clustered
+        fig, ax = plt.subplots()
+        fig.suptitle('LSA reduced clustering', fontsize=20)
+        for index, instance in enumerate(lsa_reduced):
+            tfidf_lsa_comp1, tfidf_lsa_comp2 = lsa_reduced[index]
+            color = labels_color_map[labels_lsa[index]]
+            ax.scatter(tfidf_lsa_comp1, tfidf_lsa_comp2, c=color)
+
+        # Annotate each document with it's id - filename
+        if (args.annotate_plot):
+            for i, doc in enumerate(docs):
+                ax.annotate(doc, (lsa_reduced[i][0], lsa_reduced[i][1]))
+
+        # tSNE reduced results clustered
+        fig, ax = plt.subplots()
+        fig.suptitle('tSNE reduced clustering', fontsize=20)
+        for index, instance in enumerate(tsne_reduced):
+            tfidf_tsne_comp1, tfidf_tsne_comp2 = tsne_reduced[index]
+            color = labels_color_map[labels_tsne[index]]
+            ax.scatter(tfidf_tsne_comp1, tfidf_tsne_comp2, c=color)
+
+        # Annotate each document with it's id - filename
+        if (args.annotate_plot):
+            for i, doc in enumerate(docs):
+                ax.annotate(doc, (tsne_reduced[i][0], tsne_reduced[i][1]))
+
+        # PCA reduced results clustered
+        fig, ax = plt.subplots()
+        fig.suptitle('PCA reduced clustering', fontsize=20)
+        for index, instance in enumerate(reduced_data_pca):
+            # print instance, index, labels[index]
+            pca_comp_1, pca_comp_2 = reduced_data_pca[index]
+            color = labels_color_map[labels_pca[index]]
+            ax.scatter(pca_comp_1, pca_comp_2, c=color)
+
+        if (args.annotate_plot):
+            for i, doc in enumerate(docs):
+                ax.annotate(doc, (reduced_data_pca[i][0], reduced_data_pca[i][1]))
 
         plt.show(block=False)
 
@@ -331,7 +381,7 @@ def main(args):
     for i in range(num_clusters):
         # Get top words from each cluster
         tfidf_cluster_words = [tfidf_feature_names[ind] for ind in order_centroids_tfidf[i, :10]]
-        lsa_cluster_words   = [tfidf_feature_names[ind] for ind in order_centroids_lsa_reduced[i, :10]]
+        lsa_cluster_words = [tfidf_feature_names[ind] for ind in order_centroids_lsa_reduced[i, :10]]
 
         # Append to the list of clusters
         tfidf_cluster_top_words.append(tfidf_cluster_words)
